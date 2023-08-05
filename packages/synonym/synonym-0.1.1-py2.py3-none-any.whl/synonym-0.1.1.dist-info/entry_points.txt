@@ -1,0 +1,3 @@
+[console_scripts]
+synonym = synonym.synonym:command_line_runner
+
