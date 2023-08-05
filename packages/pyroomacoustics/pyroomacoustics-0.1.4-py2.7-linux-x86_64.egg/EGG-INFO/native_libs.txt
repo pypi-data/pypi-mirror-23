@@ -1,0 +1,1 @@
+pyroomacoustics/c_package/libroom.so
