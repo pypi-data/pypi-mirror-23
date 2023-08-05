@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: med2image
+Version: 0.6
+Summary: (Python) utility to convert medical images to jpg and png
+Home-page: https://github.com/FNNDSC/med2image
+Author: FNNDSC
+Author-email: dev@babymri.org
+License: MIT
+Description: (Python) utility to convert medical images to jpg and png
+Platform: UNKNOWN
