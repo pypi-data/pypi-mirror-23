@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: awslambdahelper
+Version: 1.1.7
+Summary: UNKNOWN
+Home-page: https://github.com/drewsonne/awslambdahelper
+Author: Drew J. Sonne
+Author-email: drew.sonne@gmail.com
+License: LGLP
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
