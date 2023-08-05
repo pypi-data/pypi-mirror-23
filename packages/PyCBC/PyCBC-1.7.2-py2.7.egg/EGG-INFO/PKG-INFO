@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: PyCBC
+Version: 1.7.2
+Summary: Analyze gravitational-wave data, find signals, and study their parameters.
+Home-page: https://ligo-cbc.github.io
+Author: Ligo Virgo Collaboration - PyCBC team
+Author-email: alex.nitz@ligo.org
+License: UNKNOWN
+Download-URL: https://github.com/ligo-cbc/pycbc/tarball/v1.7.2
+Description: UNKNOWN
+Keywords: ligo,physics,gravity,signal processing,gravitational waves
+Platform: UNKNOWN
