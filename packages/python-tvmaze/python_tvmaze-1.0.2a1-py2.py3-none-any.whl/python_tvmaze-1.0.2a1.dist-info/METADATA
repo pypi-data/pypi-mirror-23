@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: python-tvmaze
+Version: 1.0.2a1
+Summary: A Python client for the TvMaze API.
+Home-page: http://github.com/yakupadakli/python-tvmaze.git
+Author: Yakup Adaklı
+Author-email: yakup.adakli@gmail.com
+License: MIT
+Keywords: tvmaze library
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: requests (==2.17.3)
+
+UNKNOWN
+
+
