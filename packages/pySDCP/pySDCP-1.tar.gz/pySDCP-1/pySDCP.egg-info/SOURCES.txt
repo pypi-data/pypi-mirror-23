@@ -1,0 +1,7 @@
+setup.py
+pySDCP.egg-info/PKG-INFO
+pySDCP.egg-info/SOURCES.txt
+pySDCP.egg-info/dependency_links.txt
+pySDCP.egg-info/top_level.txt
+pysdcp/__init__.py
+pysdcp/protocol.py
