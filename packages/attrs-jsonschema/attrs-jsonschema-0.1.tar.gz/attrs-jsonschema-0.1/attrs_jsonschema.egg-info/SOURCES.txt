@@ -1,0 +1,12 @@
+README.rst
+setup.py
+attrs_jsonschema/__init__.py
+attrs_jsonschema/compat.py
+attrs_jsonschema/exceptions.py
+attrs_jsonschema.egg-info/PKG-INFO
+attrs_jsonschema.egg-info/SOURCES.txt
+attrs_jsonschema.egg-info/dependency_links.txt
+attrs_jsonschema.egg-info/requires.txt
+attrs_jsonschema.egg-info/top_level.txt
+attrs_jsonschema/tests/__init__.py
+attrs_jsonschema/tests/test_full.py
