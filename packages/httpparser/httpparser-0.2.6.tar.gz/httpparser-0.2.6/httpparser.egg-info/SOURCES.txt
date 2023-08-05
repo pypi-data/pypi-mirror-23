@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+httpparser/__init__.py
+httpparser.egg-info/PKG-INFO
+httpparser.egg-info/SOURCES.txt
+httpparser.egg-info/dependency_links.txt
+httpparser.egg-info/not-zip-safe
+httpparser.egg-info/requires.txt
+httpparser.egg-info/top_level.txt
+picohttpparser/README.md
