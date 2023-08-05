@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gdb-tools
+Version: 1.0
+Summary: Tools for gdb
+Home-page: https://github.com/vuvova/gdb-tools
+Author: Sergei Golubchik
+Author-email: vuvova@gmail.com
+License: BSD-3-clause
+Description: UNKNOWN
+Keywords: gdb,duel
+Platform: UNKNOWN
