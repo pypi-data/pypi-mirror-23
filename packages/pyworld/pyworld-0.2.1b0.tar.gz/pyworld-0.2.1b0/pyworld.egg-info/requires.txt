@@ -1,0 +1,7 @@
+numpy
+
+[develop]
+cython >= 0.24.0
+
+[test]
+nose
