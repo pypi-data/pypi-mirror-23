@@ -1,0 +1,3 @@
+[console_scripts]
+chqtest = chqtest.cli:main
+
