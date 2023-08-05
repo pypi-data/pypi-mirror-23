@@ -1,0 +1,13 @@
+fingerprints/__init__.py,sha256=HPIqlmELuOqcjPMybU8aLJ2zqlMXSwHfAohh0PhS9Os,65
+fingerprints/constants.py,sha256=XHkaUfuyo4HNIfP8xbsnwIf8zQsZWOdxNCe1G4MEipk,75
+fingerprints/generate.py,sha256=dfFmoftn07H2RCoIj-8eJL1wrfkbQQzBYi8FUMXe-Qw,957
+fingerprints/prefix.py,sha256=giszMabMRKH5BLb2WAkAHlH0S-6Kc_Tb7xAKxD4FIew,966
+fingerprints/replacers.py,sha256=PBrMmQ1OR8X-8PQIdkwvYThaCLvs10ojuDow9EJZr9w,1793
+fingerprints/text.py,sha256=73nJHshJAoTWQaCZ4P6DicaUPBaEK7j-RtLiE5PNDFY,568
+fingerprints-0.5.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+fingerprints-0.5.0.dist-info/METADATA,sha256=7cu3r6QkC9_xmawF_6i0r4y9U0V9OUh9tRzKHvw37Wk,793
+fingerprints-0.5.0.dist-info/RECORD,,
+fingerprints-0.5.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+fingerprints-0.5.0.dist-info/metadata.json,sha256=ks9Fg1x6dV-K982_1ffbL7fiTNpYiYUodx5e3_8MUnI,994
+fingerprints-0.5.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fingerprints-0.5.0.dist-info/top_level.txt,sha256=2xjGlm7MzYYRHUwsH-jw-PgKBm8okwwZMLyvBr28D1U,13
