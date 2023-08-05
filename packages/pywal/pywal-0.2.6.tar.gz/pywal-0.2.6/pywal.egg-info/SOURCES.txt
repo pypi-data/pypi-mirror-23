@@ -1,0 +1,15 @@
+setup.py
+pywal/__init__.py
+pywal/__main__.py
+pywal/export_colors.py
+pywal/format_colors.py
+pywal/gen_colors.py
+pywal/set_colors.py
+pywal/settings.py
+pywal/util.py
+pywal/wallpaper.py
+pywal.egg-info/PKG-INFO
+pywal.egg-info/SOURCES.txt
+pywal.egg-info/dependency_links.txt
+pywal.egg-info/entry_points.txt
+pywal.egg-info/top_level.txt
