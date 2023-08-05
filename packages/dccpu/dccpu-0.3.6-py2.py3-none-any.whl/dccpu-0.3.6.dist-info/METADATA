@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: dccpu
+Version: 0.3.6
+Summary: Python utilities for DataCamp Python challenges.
+Home-page: https://github.com/colinricardo/dccpu
+Author: Colin Ricardo
+Author-email: me@colinricardo.com
+License: MIT
+Keywords: datacamp python challenges
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
