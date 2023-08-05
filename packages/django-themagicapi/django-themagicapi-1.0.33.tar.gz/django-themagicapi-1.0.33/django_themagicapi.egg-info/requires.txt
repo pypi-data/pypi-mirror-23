@@ -1,0 +1,3 @@
+valleorm
+django-tokenapi
+django-cors-middleware
