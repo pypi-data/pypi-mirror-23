@@ -1,0 +1,9 @@
+setup.py
+oddsman/__init__.py
+oddsman/oddsman.py
+oddsman/test.py
+oddsman.egg-info/PKG-INFO
+oddsman.egg-info/SOURCES.txt
+oddsman.egg-info/dependency_links.txt
+oddsman.egg-info/requires.txt
+oddsman.egg-info/top_level.txt
