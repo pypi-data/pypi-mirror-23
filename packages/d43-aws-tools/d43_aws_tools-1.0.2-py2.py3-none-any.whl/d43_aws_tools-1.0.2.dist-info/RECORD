@@ -1,0 +1,10 @@
+d43_aws_tools/__init__.py,sha256=zLHJNwXUN-mFfmtM3rzKyT1FhwH1GJKYITqE4HhVpgQ,155
+d43_aws_tools/dynamodb_handler.py,sha256=2s5VdfaM3zHFeg-TPNqArKdZiXvs4k1BLzonUUwsljo,14955
+d43_aws_tools/s3_handler.py,sha256=NfEmRJccnBlZ0jZSPGuC9cbIBkQBEnMKTtbNCu7e90M,7873
+d43_aws_tools/ses_handler.py,sha256=AQTXwNdlO9CF2Ti0gxZRtGD3lV_tEA8HWoT4ABwMfOA,887
+d43_aws_tools-1.0.2.dist-info/top_level.txt,sha256=pLO088tHl1xojR2ohhBmBn6OQRkCZmrsIPzoUYiseeo,14
+d43_aws_tools-1.0.2.dist-info/METADATA,sha256=wIkc1-Gx2gTX5bfpbER5FuFq33cgykWYJ0Ku2rvMjrY,1452
+d43_aws_tools-1.0.2.dist-info/DESCRIPTION.rst,sha256=9xMiErZmE0naaVVgsNa6PeKsmuNeMdw_GjTHCXtu4P0,966
+d43_aws_tools-1.0.2.dist-info/metadata.json,sha256=S3TrwJRiqFDqSnh0kL2K-gE_7BBfUAgX_jArVF7kcE4,699
+d43_aws_tools-1.0.2.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+d43_aws_tools-1.0.2.dist-info/RECORD,,
