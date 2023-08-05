@@ -1,0 +1,16 @@
+CHANGELOG.md
+MANIFEST.in
+MIT_LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+korg/__init__.py
+korg/korg.py
+korg/pattern.py
+korg.egg-info/PKG-INFO
+korg.egg-info/SOURCES.txt
+korg.egg-info/dependency_links.txt
+korg.egg-info/entry_points.txt
+korg.egg-info/requires.txt
+korg.egg-info/top_level.txt
