@@ -1,0 +1,3 @@
+[console_scripts]
+hovertools = hovertools.command_line:main
+
