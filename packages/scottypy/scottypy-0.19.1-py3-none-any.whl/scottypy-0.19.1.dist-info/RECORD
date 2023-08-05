@@ -1,0 +1,11 @@
+scottypy/__init__.py,sha256=Y_aKz2HTTdZO03RQ7jTw2uhzkPpCnCWUHw6DrfJjmXk,43
+scottypy/__version__.py,sha256=ACwqBctK6p_9Oj2rXWiSmVOPJURrCCh7l_Ak1Mk2h-o,23
+scottypy/app.py,sha256=NdPHifuoadXdCZpLl0pWb6bBRGJmPtwb2ZrTkq_5KH4,7849
+scottypy/scotty.py,sha256=QuzQq_FUCUbz2TrtqxnRSQaSDBGQA4jibmGCIV79Jzw,16245
+scottypy-0.19.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+scottypy-0.19.1.dist-info/METADATA,sha256=w5SQ24cZkSlZErePzeEo-9dz0oXEJZlAhd8auTaCQNk,576
+scottypy-0.19.1.dist-info/RECORD,,
+scottypy-0.19.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+scottypy-0.19.1.dist-info/entry_points.txt,sha256=tQkycDinbzdjHGAgrCy-MntLHAOUbrbf6i-MvKlPkKs,167
+scottypy-0.19.1.dist-info/metadata.json,sha256=2Q1B1Hna7vzIOuzyLHxcM37McTJoXP6_vlW-1OKXLHM,1129
+scottypy-0.19.1.dist-info/top_level.txt,sha256=hg879O82vaxU0IBh3LdiifdgBn2XK_LQvKG4cx7VQ8s,9
