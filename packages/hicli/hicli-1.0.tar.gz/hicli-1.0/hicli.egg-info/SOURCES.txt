@@ -1,0 +1,13 @@
+setup.py
+hi/__init__.py
+hi/__main__.py
+hi/cli.py
+hi/config.py
+hi/hi.py
+hi/rules.py
+hicli.egg-info/PKG-INFO
+hicli.egg-info/SOURCES.txt
+hicli.egg-info/dependency_links.txt
+hicli.egg-info/entry_points.txt
+hicli.egg-info/requires.txt
+hicli.egg-info/top_level.txt
