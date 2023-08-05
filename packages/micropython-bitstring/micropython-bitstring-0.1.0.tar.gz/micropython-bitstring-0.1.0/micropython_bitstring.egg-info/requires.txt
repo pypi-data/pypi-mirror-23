@@ -1,0 +1,6 @@
+micropython-copy
+micropython-re-pcre
+micropython-binascii
+micropython-os
+micropython-struct
+micropython-types
