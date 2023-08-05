@@ -1,0 +1,15 @@
+scrapy_rss/VERSION,sha256=2_CXjsK1h6XWGH_cxBzOn_LA647vrboOtR84QKtu60Y,5
+scrapy_rss/__init__.py,sha256=P35PwpIKoP6bOW-tZZs80ic3Gfpm-dT3fQX_DJiVY3I,56
+scrapy_rss/elements.py,sha256=MpRL0D7cLudKBrEjz8X5GeaVUv8pAva2NQrUX5kC56c,1436
+scrapy_rss/exceptions.py,sha256=RsD_P0Ci7K3MYQJHormQhbDrA2k53CMyazEQvun5ej8,1423
+scrapy_rss/exporters.py,sha256=qX-BcIDDig_Mvi-IlCWpTBhQVjXeZD7xFbsRhy-hkPA,6661
+scrapy_rss/items.py,sha256=LFac9lmfQIGcLtyEyMXRC0QkLKoSyKMNwCQ7HHhzqo4,933
+scrapy_rss/meta.py,sha256=5wjkcb501rQJhwkLpP513TsFo9CrhgaogWtnjzJbxXA,9915
+scrapy_rss/pipelines.py,sha256=avD4iwlmkwayliEmm-zyWi8gW35zeBlvABqR8fsWv6M,2432
+scrapy_rss/utlis.py,sha256=75kBOEM-lgiCZf6b6VuPf1kKryNOgdeD6H-nSsU_OiE,258
+scrapy_rss-0.1.3.dist-info/DESCRIPTION.rst,sha256=6t1_WSxsdJaee7pk03MWHzxWvXCpAmLrORDe0eKaRK4,4878
+scrapy_rss-0.1.3.dist-info/METADATA,sha256=CuaMRpXjq0M8pYminfgrVwAtaLZuTO10RE_qjtBT7jk,5891
+scrapy_rss-0.1.3.dist-info/RECORD,,
+scrapy_rss-0.1.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+scrapy_rss-0.1.3.dist-info/metadata.json,sha256=o8KQvuP4o-4ghtCKts8lGFDyRO65OkuJGvJSuZB1nBg,1020
+scrapy_rss-0.1.3.dist-info/top_level.txt,sha256=Z1IzQcxLogpnmEndFgb5gzF61umfwG-pZLsib5psfbA,11
