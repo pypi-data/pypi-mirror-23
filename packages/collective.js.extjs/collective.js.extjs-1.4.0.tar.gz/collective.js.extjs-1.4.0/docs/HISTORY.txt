@@ -1,0 +1,39 @@
+Changelog
+=========
+
+
+1.4.0 (2017-06-19)
+------------------
+
+- Patch `testPlayerVersion` to no create any object tag to test the flash version.
+  [mathias.leimgruber]
+
+- Undo prev. release 1.3.0, since it may break exjts table.
+  [mathias.leimgruber]
+
+
+1.3.0 (2017-06-15)
+------------------
+
+- Remove swfobject.
+  [mathias.leimgruber]
+
+
+1.2 (2012-09-27)
+----------------
+
+- Add z3c.autoinclude entry point (target=plone).
+  [jone]
+
+- Prepare for public release.
+  [jone]
+
+- Move package to github and clean it up.
+  [jone]
+
+
+1.1 (2012-04-16)
+----------------
+
+- Update to extjs v3.4 for ie9 compatibilities.
+  [eschmutz]
