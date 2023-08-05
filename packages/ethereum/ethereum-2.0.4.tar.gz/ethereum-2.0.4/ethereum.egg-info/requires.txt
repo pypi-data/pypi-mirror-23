@@ -1,0 +1,9 @@
+pysha3>=1.0.1
+PyYAML
+bitcoin
+pbkdf2
+pycryptodome>=3.3.1
+pyethash
+rlp>=0.4.7
+repoze.lru
+scrypt
