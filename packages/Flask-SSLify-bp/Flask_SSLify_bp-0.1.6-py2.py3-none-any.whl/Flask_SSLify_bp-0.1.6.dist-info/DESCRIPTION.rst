@@ -1,0 +1,10 @@
+
+Flask-SSLify-bp
+---------------
+
+This is a simple Flask extension that configures your Flask application to redirect
+all incoming requests to ``https``.
+
+Redirects only occur when ``app.debug`` is ``False``.
+
+
