@@ -1,0 +1,7 @@
+include *.md
+include *.txt
+include *.yml
+include LICENSE
+include tox.ini
+recursive-include ivona_api *.py
+recursive-include requirements *.txt
