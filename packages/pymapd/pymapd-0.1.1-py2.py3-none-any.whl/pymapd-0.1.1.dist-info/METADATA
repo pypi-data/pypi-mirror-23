@@ -1,0 +1,47 @@
+Metadata-Version: 2.0
+Name: pymapd
+Version: 0.1.1
+Summary: A python DB API 2 compatible client for mapd.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: six
+Requires-Dist: thrift
+Provides-Extra: docs
+Requires-Dist: numpydoc; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+
+======
+pymapd
+======
+
+.. image:: https://travis-ci.org/mapd/pymapd.svg?branch=master
+   :target: https://travis-ci.org/mapd/pymapd
+
+
+.. image:: https://readthedocs.org/projects/pymapd/badge/?version=latest
+   :target: http://pymapd.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+A python `DB API`_ compliant interface for `mapd`_. See the `documentation`_ for more.
+
+.. _DB API: https://www.python.org/dev/peps/pep-0249/
+.. _mapd: https://www.mapd.com/
+.. _mapd-core: https://github.com/mapd-core/
+.. _documentation: http://pymapd.readthedocs.io/en/latest/?badge=latest
+
+

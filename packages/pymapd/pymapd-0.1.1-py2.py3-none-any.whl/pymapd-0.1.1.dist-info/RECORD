@@ -1,0 +1,16 @@
+mapd/MapD.py,sha256=5cXR8z3eGy4jAh5djvTj2_iQzSeesKSHHCHHpMXB8lA,359287
+mapd/__init__.py,sha256=EU29dkzsn_QNbpVmyky-5yWhe5ts0CyI5shLvI-1riE,42
+mapd/constants.py,sha256=zCbgjBMf7PgNdU_aZyI2i0Hvufo3o60_BwoUSax3bGM,326
+mapd/ttypes-backup.py,sha256=XpwHJrATX33vgckS2SVRRn1ArbpPGYQRauNQ4vzDTPE,144046
+mapd/ttypes.py,sha256=ijMp9OM7HoP2v9mMiWEolwDJpt4I14AKEAAmUpB1TdA,144106
+pymapd/__init__.py,sha256=jDTEasHWY0KmWxTDtGMMAIjI1Mi8zOf3kVk2UvPpndg,879
+pymapd/connection.py,sha256=vJL5kvmsIjNtNrCF4pMixyo_MX3fCnJ_itx5K5Zlnus,4214
+pymapd/cursor.py,sha256=nCX78KL-jKBUf1F2U3IK_Fm6G2sdGOurWJ1-MCgld9s,6668
+pymapd/dtypes.py,sha256=6dLpDG1fiEA0sai7iEhDqRsSPgBDO0kbZAfHsy9D5Dc,1280
+pymapd/exceptions.py,sha256=gNpZmRXaXLIwYC_nwUmOn8R1L6W1SS_fiSfALZPba7Y,1853
+pymapd-0.1.1.dist-info/DESCRIPTION.rst,sha256=-ZTEz61-CsaVi5xyZhLByYxHvd4qWGM28SKatWShI_Y,595
+pymapd-0.1.1.dist-info/METADATA,sha256=LVgXMoSJ_FX1UsPCKMjE7eiB_4hs5gEnLubN7oh9aZU,1469
+pymapd-0.1.1.dist-info/RECORD,,
+pymapd-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pymapd-0.1.1.dist-info/metadata.json,sha256=i6zIK0rKvB8Es1Fc7SKBctssw5qVEVOP6q8xZBTQrq0,790
+pymapd-0.1.1.dist-info/top_level.txt,sha256=TeTCxv4q2Pbrs7TXAL1RXlSTr7k6Vqof0vO-N4C4qNg,12
