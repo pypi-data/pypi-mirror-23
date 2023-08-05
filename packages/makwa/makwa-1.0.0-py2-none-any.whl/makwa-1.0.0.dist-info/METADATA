@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: makwa
+Version: 1.0.0
+Summary: A password hashing function that supports delegation
+Home-page: https://github.com/AntonKueltz/makwa
+Author: Anton Kueltz
+Author-email: kueltz.anton@gmail.com
+License: UNKNOWN
+Keywords: makwa password hashing kdf
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security :: Cryptography
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+=====
+Makwa
+=====
+
+.. image:: https://travis-ci.org/AntonKueltz/makwa.svg?branch=master
+    :target: https://travis-ci.org/AntonKueltz/makwa
+
+
