@@ -1,0 +1,3 @@
+[console_scripts]
+repoman = apt_repoman.cli:main
+

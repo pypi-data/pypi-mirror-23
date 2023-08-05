@@ -1,0 +1,16 @@
+apt_repoman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apt_repoman/cli.py,sha256=ixz0zJ2t7UuhDqB1CtE-pR2BqNr1pODr4mv45VTUgjw,29595
+apt_repoman/config.py,sha256=uZCYColSvwTLZ8IhMSwEWy_cOOkA-FxJI8Pm0WUKo-c,24322
+apt_repoman/connection.py,sha256=pbdZkXYXpfcWzBPmB8DZUnGIMKZEsYYTu_QhTjTzL_A,3546
+apt_repoman/repo.py,sha256=HSmzBlwMow4a-x_WS-kzsQzRoryFpBY6opjaCbx6rqY,10622
+apt_repoman/repodb.py,sha256=31HkXYJ-7UZrQmLI_S-Nl3puWPQzmBW8zulK0zsWbrM,59452
+apt_repoman/utils.py,sha256=Ggx_L87Oz3q-iInCZOHiSSep_J-OCI-YGdxpWfrg52s,1468
+apt_repoman/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apt_repoman/resources/logconfig.json,sha256=4GQcdPH9fSUnAzeWAwskPGHFEg0OLQ2ZIiiSGfuYbCo,965
+apt_repoman-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+apt_repoman-1.0.0.dist-info/METADATA,sha256=2D6dbXRDHTgKcD2wwHmO73Not6RXd58OcxEIkB9dhyY,1312
+apt_repoman-1.0.0.dist-info/RECORD,,
+apt_repoman-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+apt_repoman-1.0.0.dist-info/entry_points.txt,sha256=i4H27N28dSEdJoaflSQ7uD_rNaBdhkWGB-rA8oKG214,50
+apt_repoman-1.0.0.dist-info/metadata.json,sha256=P_DRL1_AJne66Gr2hiP2nvDKZ3kTawaYoQ4T9Zlu3eU,1448
+apt_repoman-1.0.0.dist-info/top_level.txt,sha256=f9fLIPiejMmsL3bZCBsrU5DrYqDUi9QC4VlYLzo9DIU,12
