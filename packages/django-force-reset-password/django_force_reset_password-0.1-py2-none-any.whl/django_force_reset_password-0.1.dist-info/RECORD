@@ -1,0 +1,13 @@
+django_force_reset_password/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_force_reset_password/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_force_reset_password/middleware.py,sha256=3itSwEl6KujnDvjXbMWIbeSn6ene0T1CWVSnF1jlaaw,523
+django_force_reset_password/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_force_reset_password/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_force_reset_password/views.py,sha256=PCAQPPQXjPrz6pMAxxb6Pyv3hUxpJ1wddcGvO6WHrsA,1280
+django_force_reset_password/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_force_reset_password-0.1.dist-info/DESCRIPTION.rst,sha256=PtZaPDi5-77Mlb6s1LdU1DnvtWSbaoDViQKV0Ca-vtw,901
+django_force_reset_password-0.1.dist-info/METADATA,sha256=ubPca6R8kQnDVhil5P9xwImC2G4H9PcR4iBrZHRP4DM,1648
+django_force_reset_password-0.1.dist-info/RECORD,,
+django_force_reset_password-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+django_force_reset_password-0.1.dist-info/metadata.json,sha256=GjZFfWIYYuAYxUsL4O5e91TdfMv1I0PisUnZg0R28WE,860
+django_force_reset_password-0.1.dist-info/top_level.txt,sha256=tI5u8kbKI6-ULJCNgY0vwcYWxK-YEBx43NsXrgte0n8,28
