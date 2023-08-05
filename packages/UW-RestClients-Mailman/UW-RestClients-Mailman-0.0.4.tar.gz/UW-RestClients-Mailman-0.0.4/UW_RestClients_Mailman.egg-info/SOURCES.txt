@@ -1,0 +1,14 @@
+setup.py
+UW_RestClients_Mailman.egg-info/PKG-INFO
+UW_RestClients_Mailman.egg-info/SOURCES.txt
+UW_RestClients_Mailman.egg-info/dependency_links.txt
+UW_RestClients_Mailman.egg-info/requires.txt
+UW_RestClients_Mailman.egg-info/top_level.txt
+uw_mailman/__init__.py
+uw_mailman/basic_list.py
+uw_mailman/course_list.py
+uw_mailman/dao.py
+uw_mailman/instructor_term_list.py
+uw_mailman/term_list.py
+uw_mailman/test.py
+uw_mailman/util.py
