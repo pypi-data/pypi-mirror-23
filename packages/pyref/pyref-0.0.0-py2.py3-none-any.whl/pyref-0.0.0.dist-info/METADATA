@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: pyref
+Version: 0.0.0
+Summary: PyRef downloads full texts of scholarly articles leagally through your institution.
+Home-page: https://brandonbockund.com/
+Author: Brandon Bocklund
+Author-email: brandonbocklund@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+=====
+PyRef
+=====
+
+Legally download full texts from DOIs. 
+
+Status
+======
+
+PyRef is still in initial development.
+
+Features
+========
+
+* Out of the box downloading of open access scholarly articles from DOIs.
+* Downloading of full texts through your institution connection or OpenURL. 
+
+
