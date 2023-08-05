@@ -1,0 +1,11 @@
+six
+thrift
+
+[docs]
+sphinx
+numpydoc
+sphinx-rtd-theme
+
+[test]
+coverage
+pytest
