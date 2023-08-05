@@ -1,0 +1,1 @@
+git+https://github.com/ethereum/serpent.git@3ec98d01813167cc8725a951bd384c629158af2b#egg=ethereum-serpent-2.0.2
