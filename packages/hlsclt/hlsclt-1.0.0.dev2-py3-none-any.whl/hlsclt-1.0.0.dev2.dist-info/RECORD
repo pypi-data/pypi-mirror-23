@@ -1,0 +1,13 @@
+hlsclt/__init__.py,sha256=0H0mOUwLAvQ0zUDYJvJWEFk7Pj4-IJUO4tULFQbHcbA,41
+hlsclt/hlsclt.py,sha256=EaD5O4HMxiNLn2365emRI6bhPA_scnoLpX_EV_SPl8Q,8944
+hlsclt/examples/simple_adder/hls_config.py,sha256=2-wLlLkWObbRFJsSlKw7Hj9o9nznBoxEbv5pavgsc6M,322
+hlsclt/examples/simple_adder/src/dut.cpp,sha256=gyvdi55NFbQnBZ6n1BqEzdMdwzv81m8aZGQxc7O5kbE,66
+hlsclt/examples/simple_adder/src/dut.h,sha256=F6hY8kJkI3nApTsq2Pb4ZyNXSsOOxnVVjkiplP97nM4,32
+hlsclt/examples/simple_adder/tb/testbench.cpp,sha256=k81dBaSAIKh79ARvr9df40G3Upp_ikOwncdhE-QECCM,535
+hlsclt-1.0.0.dev2.dist-info/DESCRIPTION.rst,sha256=Ou3U8nHP5NPt2oz1gz9qHr6k3p9RaUHuw63KuZ7NR7k,2677
+hlsclt-1.0.0.dev2.dist-info/METADATA,sha256=lB462Of-pNydn2R1T8uKJF9v113oBiFqSGBpfNZg4FY,3205
+hlsclt-1.0.0.dev2.dist-info/RECORD,,
+hlsclt-1.0.0.dev2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+hlsclt-1.0.0.dev2.dist-info/entry_points.txt,sha256=Pf19emBB2vqAzM22fZkNj1yh-giNsFlpeY2clAWShAk,47
+hlsclt-1.0.0.dev2.dist-info/metadata.json,sha256=2vnnpvRh-utdo5Q_KkD_oIfg64LzdjB-O-VnFQq1ZDk,843
+hlsclt-1.0.0.dev2.dist-info/top_level.txt,sha256=3mI9O3tTY8GSvJjS2KAooq1Qj4cOebYA1lhFQJ-zF-8,7
