@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: pymeistertask
+Version: 0.1
+Summary: MeisterTask client library
+Home-page: https://github.com/developersociety/pymeistertask
+Author: The Developer Society
+Author-email: studio@dev.ngo
+License: BSD
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.3
+Requires-Dist: requests (>=2.0.0)
+
+MeisterTask client library
+
+
