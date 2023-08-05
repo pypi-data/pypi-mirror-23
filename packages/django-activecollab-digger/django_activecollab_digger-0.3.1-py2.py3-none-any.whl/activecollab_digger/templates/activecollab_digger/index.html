@@ -1,0 +1,107 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ActiveCollab Digger</title>
+
+        <link rel="stylesheet" href="{% static 'vendor/bulma/css/bulma.css' %}">
+        <link rel="stylesheet" href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}">
+    </head>
+
+    <body>
+        <div id="app" v-if="isReady">
+            {% verbatim %}
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">ActiveCollab Digger</h1>
+                        <h2 class="subtitle">
+                            <a :href="baseUrl + project.url_path" :target="project.id">{{ project.name }}</a>:
+                            {{ completedTasksCount }} of {{ tasks.length + completedTasksCount }} tasks completed,
+                            {{ tasks.length }} still open.
+                        </h2>
+                        <progress class="progress is-primary is-small" :value="completedTasksCount" :max="tasks.length + completedTasksCount"></progress>
+                    </div>
+                </div>
+            </section>
+            <div class="notification" :class="notification.status === 0 ? 'is-success' : 'is-warning'" v-if="notification">
+                <button class="delete" @click="removeNotification"></button>
+                {{ notification.message }}
+            </div>
+            <section class="section">
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="title is-5">Create New Task</h3>
+                        <form v-on:submit.prevent>
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <p class="control">
+                                <input class="input is-primary" autofocus autocomplete="off" placeholder="Task name" :value="newTask.name" v-model.trim="newTask.name">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label class="label">Description</label>
+                                <p class="control">
+                                <textarea class="textarea is-info" placeholder="Task description (optional)" :value="newTask.description" v-model.trim="newTask.description"></textarea>
+                                </p>
+                            </div>
+                            <div class="field is-grouped">
+                                <p class="control">
+                                <button class="button is-primary" @click="addTask">Submit</button>
+                                </p>
+                                <p class="control">
+                                <button class="button is-link" @click="clearTask">Cancel</button>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="column" v-for="list in task_lists">
+                        <h3 class="title is-5">{{ list.name }}</h3>
+                        <div class="card" v-for="task in tasks" v-if="!task.is_hidden_from_clients && task.task_list_id === list.id">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                <a :href="baseUrl + task.url_path" :target="task.id">
+                                    #{{ task.id }}: {{ task.name }}
+                                </a>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <p class="is-small">{{ task.created_on | formatDate }}</p>
+                                    <p v-html="task.body" v-if="task.body"></p>
+                                    <p v-if="task.labels">
+                                    <span class="tag is-small is-white" v-for="label in task.labels" :style="{ color: label.color }">
+                                        {{ label.name }}
+                                    </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endverbatim %}
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                    <strong>ActiveCollab Digger</strong> by <a href="//kdl.kcl.ac.uk">King's Digital Lab</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                    </p>
+                    <p>
+                    <a class="icon" href="https://github.com/kingsdigitallab/activecollab_digger">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    </p>
+                </div>
+            </div>
+
+            <script src="{% static 'vendor/vue/dist/vue.js' %}"></script>
+            <script src="{% static 'vendor/tiny-cookie/tiny-cookie.js' %}"></script>
+            <script src="{% static 'activecollab_digger/js/app.js' %}"></script>
+        </footer>
+    </body>
+</html>
