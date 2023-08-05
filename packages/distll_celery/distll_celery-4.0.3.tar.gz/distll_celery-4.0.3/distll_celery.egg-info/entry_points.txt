@@ -1,0 +1,6 @@
+[console_scripts]
+distll_celery = distll_celery.__main__:main
+
+[pytest11]
+distll_celery = distll_celery.contrib.pytest
+
