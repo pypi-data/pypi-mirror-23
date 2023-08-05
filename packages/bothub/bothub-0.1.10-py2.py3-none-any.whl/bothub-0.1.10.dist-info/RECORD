@@ -1,0 +1,15 @@
+bothub-0.1.10.dist-info/DESCRIPTION.rst,sha256=YnNCOO7JXh6rmsa2KpQ0xzJBPGGCua2mShDmecw4NgI,3555
+bothub-0.1.10.dist-info/METADATA,sha256=ROu6EAP53ZBd5a_2LS3UEh5ZJAU0SJSODPr4cmh-G7g,4422
+bothub-0.1.10.dist-info/RECORD,,
+bothub-0.1.10.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+bothub-0.1.10.dist-info/metadata.json,sha256=iSS4vf_t6isi5-mV3OdxsPRYOAPQ4qRFOFHNDvhMmcY,1082
+bothub-0.1.10.dist-info/top_level.txt,sha256=NF_4zokTUkrPVolSNcxAcjd8kuZsfgILFfJ_oC0HHsk,20
+bothub_client/__init__.py,sha256=-B4z0FSEXFXM6bkz8mqlM1YPdW9Jn9cx1ifoRsTIr90,48
+bothub_client/bot.py,sha256=-TWoyJXVbxUQRRxhwaAXutBQIG1jb4y_eArdSVZ_qmM,1465
+bothub_client/clients.py,sha256=gij2X6OgR029Z230GfvgBvS0Wgs1tdfGxxZI6QGlTL8,9732
+bothub_client/transports.py,sha256=fYG0-Ct8XNbnLWpZAdpQc-28tC4PAsNZqSPFh44WIrA,965
+bothub_client/utils.py,sha256=rO4NjRF7Fj4GPlSYUUjnmnJYkinLRNV8Tnsu2IHzGW8,338
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=gBmr5f1tRZ03BoncREIa-yC9wlGWRtkkyLHu63zBmo0,1113
+tests/test_storage_client.py,sha256=GOmcpotalRCVWRUC-iYQ76o04mo5OVo0xT449Whhh9U,947
+tests/testutils.py,sha256=9Q65PLWIKSu83Sr1rP7ZHPSlgt7du0ZPmXvgA58J4aY,444
