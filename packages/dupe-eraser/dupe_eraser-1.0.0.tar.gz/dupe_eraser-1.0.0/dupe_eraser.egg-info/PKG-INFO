@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: dupe-eraser
+Version: 1.0.0
+Summary: Command-line tools to automate the deletion of duplicates files.
+Home-page: https://github.com/NicolasBi/dupe_eraser
+Author: BizzozzÃ©ro Nicolas
+Author-email: nicolasbizzozzero@gmail.com
+License: GPL-3.0
+Download-URL: https://github.com/NicolasBi/dupe_eraser/tarball/master
+Description: # dupe_eraser
+        A command-line tool writen in Python 3 who automate the deletion of duplicates files.
+        
+Keywords: Deletion duplicate files command-line
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Desktop Environment :: File Managers

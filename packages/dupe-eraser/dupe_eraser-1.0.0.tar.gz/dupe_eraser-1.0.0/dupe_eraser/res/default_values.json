@@ -1,0 +1,5 @@
+{
+    "safe_directory": "_safe_directory",
+    "verbosity": "normal",
+    "hashing_algorithm": "sha512"
+}
