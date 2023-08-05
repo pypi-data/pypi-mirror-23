@@ -1,0 +1,15 @@
+clid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clid/__main__.py,sha256=o9L3sPDHxdyUDcMIiEuFCW2bFRFB-HMt3slubAzQDFA,199
+clid/_genres.py,sha256=GgxVL4xI2UMpPQ3c8DDkwxPqrxJxGWHGOsFqgzLULmA,3457
+clid/base.py,sha256=5XxmHCNmR9bzD2WuCvOtRznJim_IEBBvaiVOaR91HzY,463
+clid/database.py,sha256=JiyfiF-Ei8rWQM127F9bZrCmzYUjzZ0XX_efSqY8ERo,3694
+clid/editmeta.py,sha256=OjV8qdQLu8Gv9GoaUS75aX4Uf39wla0hQHOOtKgu7pA,3386
+clid/main.py,sha256=Op_Hg96YOUQRWkEeSqafepGrZq05_PAv_zxXbXdKyFo,5133
+clid/pref.py,sha256=tYyXbeydvt_YRCKcs5YFtHqMxk_x18s6o260-9eqVgk,1694
+clid-0.4.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+clid-0.4.1.dist-info/METADATA,sha256=Egwc9rKj-yHr8Ad8CUcaVj6U0QiBl3A0A6LIsJmgn6M,357
+clid-0.4.1.dist-info/RECORD,,
+clid-0.4.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+clid-0.4.1.dist-info/entry_points.txt,sha256=7Sw4hlQxvSw9TXxCNw4FgMusG7ezjBMzvMMw5yzDqnY,44
+clid-0.4.1.dist-info/metadata.json,sha256=tVYXv8Fsj2owUfl-iXhHkUX0YkoJAheYCg1Na-YVXWY,677
+clid-0.4.1.dist-info/top_level.txt,sha256=c1qJbq65pqDUogvZxwXnG4L-tdRNAifY76hqt_zVr-Q,5
