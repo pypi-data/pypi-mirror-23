@@ -1,0 +1,15 @@
+detector_aedes/__init__.py,sha256=Tr2jDeSOd5LXMwk-ZKvcopjM-fOYf_KHZDO9eY4I-q8,303
+detector_aedes/analyzers.py,sha256=PUXVS7KQTrH3iNRLtMfKGjbhL6soL0ncgb-sC_WBz0U,32476
+detector_aedes/config.yml,sha256=hNfkbiHUan2TbNov0GcpC_NGnkpmAaeJhPKSB0hRGYE,1228
+detector_aedes/config_sample.yml,sha256=FumBQV1QxLnifMrk8smAXXxNkgxK3NSFu8oWcEW5BRQ,1133
+detector_aedes/connectors.py,sha256=7ChPRpznYdLfYSaJJ01R2QpOwZRDtNdHq-DZVN5IY0U,3397
+detector_aedes/detector_aedes.py,sha256=D3lU0OtLraCKhz7OM2fr_uiPoHfPdGrjk1W5bu_9dVk,9591
+detector_aedes/image_connectors.py,sha256=r1dsCxLb3j5vqcT1X1meecwWUf5_c1wYIFMkPVsZ0yk,2649
+detector_aedes/old_detector_aedes.py,sha256=r513J_zTUO3c33mpw1qD8PEpmhuO5j_c1bNjyQK7EXE,390
+detector_aedes/models/aedes-model.pkl,sha256=0Lt7fhrh9l5T47eEOy0U_4T95v_0wmfcoo3fuuraz6Q,11003
+detector_aedes-0.1.0.dist-info/DESCRIPTION.rst,sha256=8mbpbh6A-PdGohLYvh9EKXWLHIe4aBo0AWgf3ArXNRE,2919
+detector_aedes-0.1.0.dist-info/METADATA,sha256=ykyb3Ue3iA6rmtmHh8hB_VBkzcW4x-EvDxw4S02Lyv4,3589
+detector_aedes-0.1.0.dist-info/RECORD,,
+detector_aedes-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+detector_aedes-0.1.0.dist-info/metadata.json,sha256=bdi6D1bNidIGwg0wGCQxh0pqi7_YerA9OSlV2LuBwiI,1184
+detector_aedes-0.1.0.dist-info/top_level.txt,sha256=2vXBJ5WKEQYt3ibvItcHDaeTjyA8IGSmr9FyqADZzpE,15
