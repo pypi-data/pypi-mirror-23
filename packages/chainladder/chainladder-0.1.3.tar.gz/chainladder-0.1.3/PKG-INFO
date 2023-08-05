@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: chainladder
+Version: 0.1.3
+Summary: Chainladder Package - P&C actuarial package modeled after the R package of the same name
+Home-page: https://github.com/jbogaardt/chainladder-python
+Author: John Bogaardt
+Author-email: jbogaardt@gmail.com
+License: LICENSE
+Download-URL: https://github.com/jbogaardt/chainladder-python/archive/v0.1.3.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
