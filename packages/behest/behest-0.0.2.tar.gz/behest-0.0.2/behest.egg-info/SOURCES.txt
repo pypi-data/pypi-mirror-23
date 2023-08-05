@@ -1,0 +1,12 @@
+README.rst
+setup.py
+behest/__init__.py
+behest/adapters.py
+behest/client.py
+behest.egg-info/PKG-INFO
+behest.egg-info/SOURCES.txt
+behest.egg-info/dependency_links.txt
+behest.egg-info/requires.txt
+behest.egg-info/top_level.txt
+behest/plugins/__init__.py
+behest/plugins/automodel.py
