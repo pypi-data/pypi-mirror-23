@@ -1,0 +1,9 @@
+redshirt.py
+setup.cfg
+setup.py
+redshirt.egg-info/PKG-INFO
+redshirt.egg-info/SOURCES.txt
+redshirt.egg-info/dependency_links.txt
+redshirt.egg-info/not-zip-safe
+redshirt.egg-info/requires.txt
+redshirt.egg-info/top_level.txt
