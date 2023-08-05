@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+converters/__init__.py
+converters/json2yaml.py
+converters/yaml2json.py
+file_type_converters.egg-info/PKG-INFO
+file_type_converters.egg-info/SOURCES.txt
+file_type_converters.egg-info/dependency_links.txt
+file_type_converters.egg-info/requires.txt
+file_type_converters.egg-info/top_level.txt
