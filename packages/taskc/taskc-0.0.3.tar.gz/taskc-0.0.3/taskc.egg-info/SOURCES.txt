@@ -1,0 +1,13 @@
+setup.py
+taskc/__init__.py
+taskc/errors.py
+taskc/simple.py
+taskc/test_simple.py
+taskc/test_transaction.py
+taskc/transaction.py
+taskc.egg-info/PKG-INFO
+taskc.egg-info/SOURCES.txt
+taskc.egg-info/dependency_links.txt
+taskc.egg-info/not-zip-safe
+taskc.egg-info/requires.txt
+taskc.egg-info/top_level.txt
