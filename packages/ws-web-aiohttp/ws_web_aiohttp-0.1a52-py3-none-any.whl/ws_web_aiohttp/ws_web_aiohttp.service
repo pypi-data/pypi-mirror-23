@@ -1,0 +1,9 @@
+[Unit]
+Description=web sheets web server
+
+[Service]
+ExecStart=/usr/local/bin/ws_web_aiohttp runserver --conf_dir=/etc/ws_web_aiohttp/conf simple
+
+[Install]
+WantedBy=multi-user.target
+
