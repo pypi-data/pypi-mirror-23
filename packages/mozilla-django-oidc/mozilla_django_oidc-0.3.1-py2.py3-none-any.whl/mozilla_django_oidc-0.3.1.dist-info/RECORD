@@ -1,0 +1,12 @@
+mozilla_django_oidc/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+mozilla_django_oidc/auth.py,sha256=EMhuAO2eRkGeDFqo4-3Nrw5dBzg3iIs376MAVAzSZjU,6337
+mozilla_django_oidc/middleware.py,sha256=d9kpdFUy3_o75B3V8o2pnOaBDSuw5DSe9FuQ4d7YQHQ,3927
+mozilla_django_oidc/urls.py,sha256=BaP_8vv5MJ813BF34s8y72Q92phowITEPp-t4kALHLY,726
+mozilla_django_oidc/utils.py,sha256=_z3_bA3y9cT12BJc8E7thQze-zmUCKM6_oc-dKxeUCs,1174
+mozilla_django_oidc/views.py,sha256=svzUN4iYwULK9C1yHMSsFYkt-pqa_XzT3L4e9Qf6Dpk,5855
+mozilla_django_oidc-0.3.1.dist-info/top_level.txt,sha256=83PYkmYdt4WCTqxxP8INCNRNxQsrkp7bVU1Mx5UFPeI,20
+mozilla_django_oidc-0.3.1.dist-info/METADATA,sha256=RgPqYqrr7iLHkkxTPIhU1gWvkFnh2LbKh0U8pufRjuQ,6775
+mozilla_django_oidc-0.3.1.dist-info/DESCRIPTION.rst,sha256=VQGxdvZ3y4lZ6ck69nRlsnOZVpGqwh1_Jg0DhJUBVxQ,5569
+mozilla_django_oidc-0.3.1.dist-info/metadata.json,sha256=rl0LA5CSUeEDQTBs8btwn_PCvFrHs1CI2HUJzZhcDcU,1293
+mozilla_django_oidc-0.3.1.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+mozilla_django_oidc-0.3.1.dist-info/RECORD,,
