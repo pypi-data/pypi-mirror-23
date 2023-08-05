@@ -1,0 +1,48 @@
+**DeCiDa classes**
+==================
+
+importing::
+
+   import decida.<class>
+   from decida.<class> import <class>
+
+.. toctree::
+   :maxdepth: 1
+
+   Balloonhelp
+   BinarySearch
+   Calc
+   CanvasIdentify
+   Contourx
+   Data
+   DataViewx
+   DataViewm
+   DialogBase
+   EquationParser
+   Fitter
+   FormulaCalculator
+   FrameNotebook
+   Histogramx
+   ItclObjectx
+   Itemizer
+   LevMar
+   MessageDialog
+   NGspice
+   PLL
+   PLLphaseNoise
+   Parameter
+   Parameters
+   Pattern
+   PlotBase
+   PlotBasem
+   Plotterm
+   Plotterx
+   Report
+   SelectionDialog
+   SimulatorNetlist
+   SmithChartx
+   StatusDialog
+   Tckt
+   TextWindow
+   XYplotm
+   XYplotx

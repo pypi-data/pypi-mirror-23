@@ -1,0 +1,6 @@
+CanvasIdentify
+--------------
+.. autoclass:: decida.CanvasIdentify.CanvasIdentify
+    :members:
+    :undoc-members:
+    :show-inheritance:
