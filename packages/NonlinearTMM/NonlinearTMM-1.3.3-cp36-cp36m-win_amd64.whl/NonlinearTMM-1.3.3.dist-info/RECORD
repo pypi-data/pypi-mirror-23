@@ -1,0 +1,11 @@
+NonlinearTMM/_Material.py,sha256=S8Z8_3brts-ByoUdpK7Y3taFwAriR7MFNufz-ZLtVe0,1849
+NonlinearTMM/_NonlinearTMM.py,sha256=RWej4bHcYQjp__LL8-fVIEz-qUwa-s6_ThEuG86V6HA,261
+NonlinearTMM/_SecondOrderNLTMM.py,sha256=ct4L7V9sXGQJS-icV88jRSzUtWmaLzULt0f1rQrssoQ,215
+NonlinearTMM/_SecondOrderNLTMMCython.cp36-win_amd64.pyd,sha256=GAmgcGdDoYpJS3c6u0R17yIRJxQpC1qpwcs8Bfejzbs,395264
+NonlinearTMM/__init__.py,sha256=1OpmGzwUdO0f18gidGSifEGTDLvXmkR0YH1zfwy1mbM,1106
+NonlinearTMM-1.3.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+NonlinearTMM-1.3.3.dist-info/METADATA,sha256=Px264ulT8e6HkkuDfUJvS5GMdMc1aA34zMz8kEHT8I8,225
+NonlinearTMM-1.3.3.dist-info/RECORD,,
+NonlinearTMM-1.3.3.dist-info/WHEEL,sha256=4fkP9V5fUlnPlEu2h0nt7u0cPpJipYsJO32nXNevnFk,106
+NonlinearTMM-1.3.3.dist-info/metadata.json,sha256=ZFqMuZ6uOOuYlUSjtzav5CDOWEs2mXCwoTqZOd501Tk,379
+NonlinearTMM-1.3.3.dist-info/top_level.txt,sha256=eKBO8eJM4q4xrnUlgNkmK6IUQO9tQ5K1UlCCAQFz0IA,13
