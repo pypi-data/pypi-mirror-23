@@ -1,0 +1,6 @@
+setup.py
+hci_protocol.egg-info/PKG-INFO
+hci_protocol.egg-info/SOURCES.txt
+hci_protocol.egg-info/dependency_links.txt
+hci_protocol.egg-info/requires.txt
+hci_protocol.egg-info/top_level.txt
