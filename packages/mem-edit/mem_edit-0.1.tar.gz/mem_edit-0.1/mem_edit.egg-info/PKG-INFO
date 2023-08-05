@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: mem-edit
+Version: 0.1
+Summary: Multi-platform library for memory editing
+Home-page: https://mpxd.net/gogs/jan/mem_edit
+Author: Jan Petykiewicz
+Author-email: anewusername@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: memory,edit,editing,ReadProcessMemory,WriteProcessMemory,proc,mem,ptrace,multiplatform,scan,scanner,search,debug,cheat,trainer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
