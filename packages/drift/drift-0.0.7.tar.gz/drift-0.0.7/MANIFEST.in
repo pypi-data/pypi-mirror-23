@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+include README.md
+recursive-include drift/static *
+recursive-include drift/templates *
+recursive-include drift/contrib/flatpages/templates *
+recursive-include drift/contrib/versionedpages/templates *
