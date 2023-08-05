@@ -1,0 +1,9 @@
+jsonschema
+requests
+functools32
+argparse
+repoze.lru
+simplejson
+pyDes
+pbkdf2
+pyopenssl
