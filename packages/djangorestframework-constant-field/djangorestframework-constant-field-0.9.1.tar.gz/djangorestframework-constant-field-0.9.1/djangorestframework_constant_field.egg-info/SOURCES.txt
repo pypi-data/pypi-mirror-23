@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+djangorestframework_constant_field.egg-info/PKG-INFO
+djangorestframework_constant_field.egg-info/SOURCES.txt
+djangorestframework_constant_field.egg-info/dependency_links.txt
+djangorestframework_constant_field.egg-info/requires.txt
+djangorestframework_constant_field.egg-info/top_level.txt
+rest_framework_constant/__init__.py
+rest_framework_constant/fields.py
+tests/__init__.py
+tests/test_serializer.py
