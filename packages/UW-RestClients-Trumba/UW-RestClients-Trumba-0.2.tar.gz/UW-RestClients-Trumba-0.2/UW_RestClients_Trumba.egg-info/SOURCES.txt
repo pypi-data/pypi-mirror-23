@@ -1,0 +1,13 @@
+setup.py
+UW_RestClients_Trumba.egg-info/PKG-INFO
+UW_RestClients_Trumba.egg-info/SOURCES.txt
+UW_RestClients_Trumba.egg-info/dependency_links.txt
+UW_RestClients_Trumba.egg-info/requires.txt
+UW_RestClients_Trumba.egg-info/top_level.txt
+uw_trumba/__init__.py
+uw_trumba/account.py
+uw_trumba/calendars.py
+uw_trumba/dao.py
+uw_trumba/exceptions.py
+uw_trumba/models.py
+uw_trumba/test.py
