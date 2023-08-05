@@ -1,0 +1,12 @@
+taskc/__init__.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+taskc/errors.py,sha256=QDxUPF60OjZ3CNZdDZyLA3D7jMPZYcEm0N0F49wsGsM,1022
+taskc/simple.py,sha256=33KUuRLdnQVdx3i8mQ0CaIstovLh4aNSuwEWaHO30Ys,5552
+taskc/test_simple.py,sha256=UGaawpGX9Wc57e2WtSs2uUVHSDhlw4R7fYz7KC27twA,6493
+taskc/test_transaction.py,sha256=isA5fJFUuH82ZqfeXrMRSiW6bON1n12VUEnLGlBNEiM,2594
+taskc/transaction.py,sha256=tgiPpuaomuAM9z4_3p_0S6CtPE810cPAw_9zqvcnjak,1456
+taskc-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+taskc-0.0.3.dist-info/METADATA,sha256=VUwfetpuKnk207G4T0IPUa4GatCS-qrA9zix4NKaMLQ,590
+taskc-0.0.3.dist-info/RECORD,,
+taskc-0.0.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+taskc-0.0.3.dist-info/metadata.json,sha256=T6IGM9CMY-WSFJEW0gknhoMzlSGj5EBBWx6S1wHULrM,787
+taskc-0.0.3.dist-info/top_level.txt,sha256=K7FTvzBt2-9xhmTtS1bspELTii0ocS8THlcU4TjV7hQ,6
