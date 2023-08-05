@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pgdeploy
+Version: 0.0.1
+Summary: Simple Postgres schema management tool
+Home-page: UNKNOWN
+Author: Ross Schlaikjer
+Author-email: developers@schlaikjer.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: psycopg2 (==2.7.1)
+
+UNKNOWN
+
+
