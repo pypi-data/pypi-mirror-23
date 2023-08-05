@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: PyGnuplot
+Version: 0.10.0
+Summary: Python Gnuplot wrapper
+Home-page: https://github.com/benschneider/PyGnuplot
+Author: Ben Schneider
+Author-email:  
+License: MIT
+Download-URL: https://github.com/benschneider/PyGnuplot/archive/10.0.tar.gz
+Description: UNKNOWN
+Keywords: gnuplot,plot
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 3 - Alpha
