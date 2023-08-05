@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: modconf
+Version: 0.3.0b0
+Summary: pattern for using python modules as configuration files
+Home-page: http://github.com/chuck1/modconf
+Author: Charles Rymal
+Author-email: charlesrymal@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Jinja2 (==2.9.6)
+Requires-Dist: MarkupSafe (==1.0)
+Requires-Dist: SQLAlchemy (==1.1.11)
+Requires-Dist: aiohttp (==2.2.0)
+Requires-Dist: aiohttp-security (==0.1.0)
+Requires-Dist: aiohttp-session (==0.8.0)
+Requires-Dist: aiopg (==0.13.0)
+Requires-Dist: aioredis (==0.3.2)
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: async-timeout (==1.2.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: fs (==2.0.4)
+Requires-Dist: hiredis (==0.2.0)
+Requires-Dist: idna (==2.5)
+Requires-Dist: modconf (==0.3)
+Requires-Dist: multidict (==3.0.0)
+Requires-Dist: numpy (==1.13.0)
+Requires-Dist: psycopg2 (==2.7.1)
+Requires-Dist: pytz (==2017.2)
+Requires-Dist: selenium (==3.4.3)
+Requires-Dist: six (==1.10.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: toml (==0.9.2)
+Requires-Dist: ws-callbacks (==0.2a0)
+Requires-Dist: ws-storage (==0.5.1)
+Requires-Dist: yarl (==0.10.3)
+
+UNKNOWN
+
+
