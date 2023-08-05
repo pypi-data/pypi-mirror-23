@@ -1,0 +1,15 @@
+tystrings/__init__.py,sha256=ny9P-TbWSmFxngQTcYaofMIck0FlCbqb1-aMxGleMSg,149
+tystrings/baidu.py,sha256=5IYrl_gf-jtc-pb8r1MgVBptSyi1WTFtO96AUnyOGwc,1327
+tystrings/cli.py,sha256=bsCZuzY7uELknpf_WZ62dTCNPOnUb1VyTgQt-gTFF_4,6852
+tystrings/strings.py,sha256=Q7P3y3uQJ2kPwHhptc29vzVL7KBVpNyx_Bv4Gcl5IBI,6149
+tystrings/translator.py,sha256=5ScmJ_hweQoqsigene7cJE4-zzWaiMP4nUnud0GEt-8,2073
+tystrings/tyformatter.py,sha256=Oce4qwWPTsOkO59L8WPMIXhXOmn5tK18dNtDPVuhBbc,1286
+tystrings/tylogger.py,sha256=mg0OXClj8ga2F0kF1hxdKYaJMTzz9kChqNjZDNlfBtw,1933
+tystrings/version.py,sha256=5GblYyMbk8JySosj59Rvi2uzLqfP-DAs77ikwTafXT4,21
+tystrings-1.2.0.dist-info/DESCRIPTION.rst,sha256=j5ucUqyErYFszPsIhNRJlE9QMhxde5_twB9PErCid1E,3269
+tystrings-1.2.0.dist-info/METADATA,sha256=r-7rFJ-fykS3yXW4eveVHEPwQUxflDd-r4Wu1xL6cQM,4072
+tystrings-1.2.0.dist-info/RECORD,,
+tystrings-1.2.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+tystrings-1.2.0.dist-info/entry_points.txt,sha256=hHMxo0YO21MGauhvGOEP4boEYN5l2zPOKGYYW4fVJeE,50
+tystrings-1.2.0.dist-info/metadata.json,sha256=C1SBnlcSX4FHVi4osd9Ezdjp5-dSQCUCWtupAKfVXWU,1127
+tystrings-1.2.0.dist-info/top_level.txt,sha256=zhz47-YlmBc11rO9D9jBc8X94uVdBAbDyhvUaCZBbio,10
