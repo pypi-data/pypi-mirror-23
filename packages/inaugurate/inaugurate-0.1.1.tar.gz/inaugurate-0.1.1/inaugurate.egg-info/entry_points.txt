@@ -1,0 +1,3 @@
+[console_scripts]
+inaugurate = inaugurate.cli:cli
+
