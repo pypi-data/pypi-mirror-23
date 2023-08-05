@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+full_width/__init__.py
+full_width/jupyter/full_width.js
+full_width/jupyter/full_width.yaml
+full_width/jupyter/icon.png
+full_width/jupyter/readme.md
+jupyter_full_width.egg-info/PKG-INFO
+jupyter_full_width.egg-info/SOURCES.txt
+jupyter_full_width.egg-info/dependency_links.txt
+jupyter_full_width.egg-info/top_level.txt
