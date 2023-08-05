@@ -1,0 +1,4 @@
+numpy
+scipy
+pint>=0.7
+future
