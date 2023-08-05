@@ -1,0 +1,3 @@
+[console_scripts]
+pdfrename = pdfrename.pdfrename:main
+
