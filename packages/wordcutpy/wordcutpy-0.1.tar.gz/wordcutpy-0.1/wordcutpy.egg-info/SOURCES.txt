@@ -1,0 +1,9 @@
+example.py
+prefixtree.py
+setup.py
+wordcut.py
+wordcutpy.egg-info/PKG-INFO
+wordcutpy.egg-info/SOURCES.txt
+wordcutpy.egg-info/dependency_links.txt
+wordcutpy.egg-info/not-zip-safe
+wordcutpy.egg-info/top_level.txt
