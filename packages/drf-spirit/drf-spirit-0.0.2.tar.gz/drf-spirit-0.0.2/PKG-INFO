@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: drf-spirit
+Version: 0.0.2
+Summary: A pluggable django forum application build with Django Rest Framework
+Home-page: https://github.com/alaminopu/drf-spirit
+Author: Md. Al-Amin Opu
+Author-email: alamin.opu10@gmail.com
+License: MIT License
+Description: # DRF-Spirit
+        
+        A pluggable django forum application build with Django Rest Framework inspired from [Spirit](https://github.com/nitely/Spirit).
+        
+        ---
+        
+        # Requirements
+        
+        * Python (2.7.x)
+        * Django (1.8, 1.9, 1.10)
+        * Django Rest Framework (3.5+)
+        
+        
+        # Installation
+        
+        Add `'drf_spirit'` to your `INSTALLED_APPS` setting.
+        
+            INSTALLED_APPS = (
+                ...
+                'drf_spirit',
+            )
+        
+        
+        # Settings
+        Adding ``USER_SLUG_FIELD`` configuration in the settings will allow you to use user slug instead of pk for user relationship. You can do like following:
+        
+            DRF_SPIRIT = {
+                'USER_SLUG_FIELD': 'slug'
+            }
+        
+Keywords: forum,drf forum,API Based forum
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
