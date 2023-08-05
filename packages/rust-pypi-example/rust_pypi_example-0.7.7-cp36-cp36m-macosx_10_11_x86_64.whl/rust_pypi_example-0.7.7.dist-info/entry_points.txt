@@ -1,0 +1,3 @@
+[console_scripts]
+rust_pypi_example = rust_pypi_example.cli:main
+
