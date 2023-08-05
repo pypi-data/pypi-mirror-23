@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: flaskpress-flask-htmlbuilder
+Version: 0.13
+Summary: Fork of Flexible Python-only HTML generation for Flask
+Home-page: http://github.com/infrascloudy/flaskpress-flask-htmlbuilder
+Author: InfrasCloudy
+Author-email: support@@linaccess.za.net
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask
+
+UNKNOWN
+
+
