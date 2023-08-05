@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: makecli
+Version: 0.0.5
+Summary: Tookit for generating command line interfaces
+Home-page: https://github.com/qorzj/makecli
+Author: qorzj
+Author-email: inull@qq.com
+License: MIT
+Description: README: https://github.com/qorzj/makecli
+Keywords: makecli cli fire
+Platform: any
