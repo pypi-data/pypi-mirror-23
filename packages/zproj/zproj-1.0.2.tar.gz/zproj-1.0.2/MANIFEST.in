@@ -1,0 +1,2 @@
+include zproj/template.asm
+include zproj/template-Makefile
