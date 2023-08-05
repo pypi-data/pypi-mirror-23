@@ -1,0 +1,17 @@
+README.rst
+setup.py
+logentry/__init__.py
+logentry/admin.py
+logentry/apps.py
+logentry/models.py
+logentry/signals.py
+logentry/tests.py
+logentry/views.py
+logentry.egg-info/PKG-INFO
+logentry.egg-info/SOURCES.txt
+logentry.egg-info/dependency_links.txt
+logentry.egg-info/not-zip-safe
+logentry.egg-info/top_level.txt
+logentry/migrations/0001_initial.py
+logentry/migrations/0002_auto_20170606_0045.py
+logentry/migrations/__init__.py
