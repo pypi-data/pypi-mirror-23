@@ -1,0 +1,15 @@
+diffutils/__init__.py,sha256=MfnTKX6fOsZcdWWV0BM-kQPU9GjqGo8wTt6Y9NQIu78,1155
+diffutils/__main__.py,sha256=H8e5-J92ZzhYMvjsQVmsjyunZ2RR7QFL1UfNXFRntp0,9472
+diffutils/_myers.py,sha256=W2_kqb1k7Zwl-HBRatrMn6ZMlJhqMlA2dHx6ijETXMI,7940
+diffutils/api.py,sha256=Y3Ltms4RqDue-hgzLsYvRFzHlhjpk6OXTrv0DhGwhbE,8518
+diffutils/core.py,sha256=xD-3mTiHBUTfYHZuj0tUzIiT9o3-hYd1oSoFfXXjZWs,9154
+diffutils/engine.py,sha256=t-tKzI5NKaSxj2MA244cgCt6TvxkXiJyccXi3hdQlIU,3615
+diffutils/output.py,sha256=fHFtx_mebeYSK1LAS5gMd2vQyg5fLmZOeEqJSs5mTPk,4627
+diffutils/_native/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffutils/_native/myers.cpython-36m-x86_64-linux-gnu.so,sha256=xV2mqgUfWYuWyQaLaeujkrySzl2quw61el3ou5sgEK4,291426
+diffutils-1.0.6.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+diffutils-1.0.6.dist-info/METADATA,sha256=sHNakK1BSr_ELQhEPD7outLS-rSYBtFv8ceNNf_o-a0,289
+diffutils-1.0.6.dist-info/RECORD,,
+diffutils-1.0.6.dist-info/WHEEL,sha256=nd6vkSWs8DEKiyCL0EDgvNKKSV5WLkJz4DczUuxkLLk,109
+diffutils-1.0.6.dist-info/metadata.json,sha256=5ll6OqlOkBA12Bhi4EVOyVb6JFOC2OjPsNyqSan2ffs,456
+diffutils-1.0.6.dist-info/top_level.txt,sha256=_D0ow2COHKXq3OWQ0NwArHL_9L8tK5AQ_kF6S2V0r0s,10
