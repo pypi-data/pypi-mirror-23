@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ph4-python-whois
+Version: 0.6.5
+Summary: Whois querying and parsing of domain registration information.
+Home-page: https://github.com/ph4r05/python-whois
+Author: Dusan Klinec (ph4r05)
+Author-email: dusan.klinec@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: whois,python
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
