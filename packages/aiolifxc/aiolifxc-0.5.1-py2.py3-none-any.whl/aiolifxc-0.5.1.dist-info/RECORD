@@ -1,0 +1,16 @@
+aiolifxc/CHANGES.txt,sha256=XbdC69CV3X4mEk9ZY88PiAm0Z5XSpjtjroDocjDfVBQ,709
+aiolifxc/__init__.py,sha256=dWOTMHsLZjB0qa8hxGJh0jb5qvNEwOQ47Wp7gqHakxg,251
+aiolifxc/__main__.py,sha256=55bP4Ziw38eJlyzkWj28tkGU7S-L4xC2nm4BTupst9o,8574
+aiolifxc/aiolifx.py,sha256=F8VexgnqqA8exnBkf0rCD4YBcV2Nl-dakVWQT8xekaI,25110
+aiolifxc/message.py,sha256=Mf2pTIwXHNHVLhrACCvhUAR7ycsrZ5IbmH3qeEsNdjg,6762
+aiolifxc/msgtypes.py,sha256=6EkiN072fcwWSiVvLtbyQxota6BJGY8HaGCqO-mNE9k,29140
+aiolifxc/products.py,sha256=CnpsLPlf9lTVnjRckuGMzkSSSNSwsIBaqkkk7Uiojmk,1512
+aiolifxc/unpack.py,sha256=4EemnD_GpOssIsqecljgHcZmj3CHE8-tsVVRLmMc6FQ,12817
+aiolifxc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiolifxc/tests/test_lifx.py,sha256=QgD7wEaNk9ZNnHiN18ke9HB8-JQrnMcxTarvVv69EjI,210
+aiolifxc-0.5.1.dist-info/DESCRIPTION.rst,sha256=sun6CS7Nh81Yz9Lm8p-Nv147asoXQKI3WOzn3VBYUwA,3990
+aiolifxc-0.5.1.dist-info/METADATA,sha256=x44Oq-eF21lZpaDChYLO6RWvZRVLEzhxLccb4vN5Qz4,4596
+aiolifxc-0.5.1.dist-info/RECORD,,
+aiolifxc-0.5.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+aiolifxc-0.5.1.dist-info/metadata.json,sha256=GRT-YxbMvG3uErrGrsbQeIW8AjOryvWWQ6IkVjJ1haY,849
+aiolifxc-0.5.1.dist-info/top_level.txt,sha256=zKhxgVFu-R5qD43w2vC1rNqOAL-C_VjpNfr8yLJbFI8,9
