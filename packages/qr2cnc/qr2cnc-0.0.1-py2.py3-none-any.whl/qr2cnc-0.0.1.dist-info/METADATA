@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: qr2cnc
+Version: 0.0.1
+Summary: A tool to generate QRCode GCode for cnc
+Home-page: https://github.com/pepitooo/crypto-currency-hard-wallet
+Author: Carteaux, Michel
+Author-email: UNKNOWN
+License: GNUv3
+Platform: any
+Requires-Dist: pyqrcode
+
+UNKNOWN
+
+

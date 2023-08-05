@@ -1,0 +1,3 @@
+[console_scripts]
+qr2cnc = qrcnc.__main__:main
+
