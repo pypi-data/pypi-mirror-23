@@ -1,0 +1,1 @@
+recursive-include picohttpparser *.so *.c LICENSE* README* MANIFEST.in
