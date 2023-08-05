@@ -1,0 +1,13 @@
+schul_cloud_search_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schul_cloud_search_tests/proxy.py,sha256=mUf3RTeCF-RdxOZzF1uxVnJtV9Uc4nGLDgAg0S7w2Y8,1442
+schul_cloud_search_tests/stop.py,sha256=3Wmh3emjGLThC7l61xU6_WuPD0r3rESokR4fBTGnWVM,85
+schul_cloud_search_tests/search_tests/__init__.py,sha256=lDG8JGh-UTTyO0nj6OhRT3MelEshYzoZbhzOlRfa0YM,568
+schul_cloud_search_tests/search_tests/conftest.py,sha256=51G8WQRCLlrcZxt_u3u6zbh2J9K9IaSL6fTWF4yMLGg,441
+schul_cloud_search_tests/search_tests/test_request.py,sha256=eKoZmK0-jg-Txefel-ZNlzMF4AZEs_XsZnCw40gvHH8,156
+schul_cloud_search_tests/search_tests/test_response.py,sha256=TF069gDRxptSxHDs9OMfGk0qHHE2nyCjqqSxi-hMPpg,65
+schul_cloud_search_tests-1.0.15.dist-info/DESCRIPTION.rst,sha256=NEPzvsLsANbGaYkZLMlRMwWdxOwOOJeiTaXLWZmXu28,4082
+schul_cloud_search_tests-1.0.15.dist-info/METADATA,sha256=zHgxtQxqubsD_RH-qd7IGBPbd38MWlCHokimnIMsiSk,4827
+schul_cloud_search_tests-1.0.15.dist-info/RECORD,,
+schul_cloud_search_tests-1.0.15.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+schul_cloud_search_tests-1.0.15.dist-info/metadata.json,sha256=1fVexO2iG0rbK50w42OOGs8T9XplSM2Jx3RadnfOIR8,759
+schul_cloud_search_tests-1.0.15.dist-info/top_level.txt,sha256=q0O6Nfzx6-0vyGb-mICqf3IT0Jnb70K_WYhZ8JTeoQE,25
