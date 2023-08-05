@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+django_icons/__init__.py
+django_icons.egg-info/PKG-INFO
+django_icons.egg-info/SOURCES.txt
+django_icons.egg-info/dependency_links.txt
+django_icons.egg-info/not-zip-safe
+django_icons.egg-info/requires.txt
+django_icons.egg-info/top_level.txt

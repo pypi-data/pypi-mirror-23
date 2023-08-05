@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: django-icons
+Version: 0.0.1
+Summary: Icons for Django
+Home-page: https://github.com/zostera/django-icons
+Author: Dylan Verheul
+Author-email: dylan@zostera.nl
+License: BSD-3-Clause
+Description: # django-icons
+        Icons for Django
+        
+        
+        HISTORY
+        -------
+        
+        Log of changes to `django-icons`
+        
+        
+        0.0.1 - In development
+        ======================
+        
+        - First publication on GitHub
+        
+Keywords: django-icons
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
