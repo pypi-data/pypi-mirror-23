@@ -1,0 +1,30 @@
+"""Fatek FBs tool
+
+Usage:
+    fatek-cli read <symbol> [--address=<address>]
+    fatek-cli bulk-read <start-symbol> <end-symbol> [--address=<address>]
+    fatek-cli <address> write <symbol> <value> [--address=<address>]
+    fatek-cli (-h | --help)
+    fatek-cli --version
+
+    Options:
+    -a --address=<address>  PLC ip address [default: 192.168.13.250]
+    -h --help     Show this screen.
+    -v --version  Show version.
+
+"""
+from docopt import docopt
+from fatek import Fatek
+
+
+if __name__ == "__main__":
+    args = docopt(__doc__, version='Fatek FBs tool 0.1.4')
+    plc = Fatek(args.get('--address'))
+
+    if args['read']:
+        print("%s: %s" % (args.get('<symbol>'), plc.read(args.get('<symbol>'))))
+
+    elif args['write']:
+        s = args.get('<symbol>')
+        v = args.get('<value>')
+        print("%s -> %s: %s" % (s, v, plc.bulk_read(s, v)))
