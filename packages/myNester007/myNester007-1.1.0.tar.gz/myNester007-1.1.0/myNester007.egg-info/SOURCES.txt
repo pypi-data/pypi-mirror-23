@@ -1,0 +1,5 @@
+setup.py
+myNester007.egg-info/PKG-INFO
+myNester007.egg-info/SOURCES.txt
+myNester007.egg-info/dependency_links.txt
+myNester007.egg-info/top_level.txt
