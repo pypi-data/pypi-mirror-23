@@ -1,0 +1,11 @@
+inxs/__init__.py,sha256=nZj4kJqz6RJ3dNJis0xAjcfjhFdeOqCNgLFRyePiVw8,24999
+inxs/contrib.py,sha256=La7H1DgXSsNezCzCZYzg6qA3WacrCcaLFvy0Gd9mo8Y,1028
+inxs/lib.py,sha256=UyrnSePBVtBaydWK5mvLOgXyjV2Ie0I_ofgd6SSI3Nw,7991
+inxs/lxml_utils.py,sha256=2u_WmmKTnWJ-GdlwzcfnH6S4o-760gjzbjVpvab88Ds,746
+inxs-0.1b1.dist-info/DESCRIPTION.rst,sha256=SSmE-7Y95TmU4cqYQlHOCsICGdQnxQn12hTcYluIV_k,2376
+inxs-0.1b1.dist-info/METADATA,sha256=lNdImkP3ySXLbn8anmMA8ZbS4Kc0m6Mn7MW_IJt3674,3285
+inxs-0.1b1.dist-info/RECORD,,
+inxs-0.1b1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+inxs-0.1b1.dist-info/dependency_links.txt,sha256=KgaAzvPKwZeTXx-GBgWV-H5KPSGg00pFCsmHUpReY-0,65
+inxs-0.1b1.dist-info/metadata.json,sha256=MS2o6L8vJWx1x-2eHZVs_aa3RQebbWpYS_AbWs0EYm0,1116
+inxs-0.1b1.dist-info/top_level.txt,sha256=tk8T5Zoq6IS98Tz69qiOw0ZGqPTsPICsd4sBn9qiO1w,5
