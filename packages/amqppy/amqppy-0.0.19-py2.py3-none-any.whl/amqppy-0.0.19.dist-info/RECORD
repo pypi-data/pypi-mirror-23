@@ -1,0 +1,11 @@
+amqppy/__init__.py,sha256=U4Wx-84pk7LkTy0H64vf2d_VX3xyIseCtHvbYJlcGb8,2326
+amqppy/consumer.py,sha256=ARWDHzUuQXNOp78euaUbM7XPLlBJtYNfL_bPC-4p3cA,12935
+amqppy/publisher.py,sha256=QzT2zsnHkRVzEIQSVz0CqLh3CAO7NeJNjRC2f44tlOI,9332
+amqppy/utils.py,sha256=94b-qBSJ_ToVoV8r6cbyApBS7JdZy5q4sNE3EI3bulM,1999
+amqppy-0.0.19.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+amqppy-0.0.19.dist-info/top_level.txt,sha256=bSRrRg21YxH9vKvoTVFx70prN-QbRzoolv7b--a0ObM,7
+amqppy-0.0.19.dist-info/METADATA,sha256=A1Dgio_vWYC6mkDm3gYn0sZBsQE5Ho35m7y4Tkgae1s,7776
+amqppy-0.0.19.dist-info/DESCRIPTION.rst,sha256=BMOHmX_rZOfxoDcGiEmqn7-OEdawYb3Ap4MZ-yhgY-Y,6473
+amqppy-0.0.19.dist-info/metadata.json,sha256=nNInP80p_9i02hRLw3Thz9BlVES6Te2nEvgdSfGyjo0,1390
+amqppy-0.0.19.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+amqppy-0.0.19.dist-info/RECORD,,
