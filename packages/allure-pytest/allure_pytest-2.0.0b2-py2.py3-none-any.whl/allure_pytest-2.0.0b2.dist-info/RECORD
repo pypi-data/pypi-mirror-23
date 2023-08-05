@@ -1,0 +1,13 @@
+allure_pytest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allure_pytest/helper.py,sha256=UYSiNkoXWROUEjx-f55x-LwNXNA8gQO5iZr_BurxlhE,4628
+allure_pytest/hooks.py,sha256=HWd6xBuK59r4req_XoMkoJaeW1CFgYKG2O1Edf6yJLc,759
+allure_pytest/listener.py,sha256=HijtMJD0wd7HDIRRdkFqrYLy-kYut2Gv_8NmPQI608s,8563
+allure_pytest/plugin.py,sha256=aBpsy9503zXPcOhZHzH34TPxy_tQXK4NgVDhhGLwBgA,5062
+allure_pytest/utils.py,sha256=jn0PgL74DgdN1TuBhRRbhtVOW9qymjFD9JBkCwwtTLM,3449
+allure_pytest-2.0.0b2.dist-info/DESCRIPTION.rst,sha256=2v0PALgCJDKoeMYvW3vYa3Jk1QtwpwpvjSa7ToL3GIE,424
+allure_pytest-2.0.0b2.dist-info/METADATA,sha256=nGqWmE_uUuLbKATsspz-Q6slt8-Rn1ttDigc70mQfUU,1115
+allure_pytest-2.0.0b2.dist-info/RECORD,,
+allure_pytest-2.0.0b2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+allure_pytest-2.0.0b2.dist-info/entry_points.txt,sha256=Dbm-YeyLZxQVBdjO6sJGJtcsJkhpaGpVHqkQtPtaqqE,49
+allure_pytest-2.0.0b2.dist-info/metadata.json,sha256=27hru4gfIRTvbRTyJfwHhvTU4Ztb3JKlBkw1Rd5DqGg,952
+allure_pytest-2.0.0b2.dist-info/top_level.txt,sha256=gmzJbifaAcyyhtfSynvAbJ-kiZA2iN_5-FjZgT39tBE,14
