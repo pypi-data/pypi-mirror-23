@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+Goofy.egg-info/PKG-INFO
+Goofy.egg-info/SOURCES.txt
+Goofy.egg-info/dependency_links.txt
+Goofy.egg-info/entry_points.txt
+Goofy.egg-info/not-zip-safe
+Goofy.egg-info/requires.txt
+Goofy.egg-info/top_level.txt
+scripts/__init__.py
+scripts/cli.py
