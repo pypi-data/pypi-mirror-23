@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: park-nyc
+Version: 0.0.1.dev0
+Summary: Unofficial ParkNYC API Python wrapper
+Home-page: https://github.com/alecxe/park-nyc
+Author: Alexander Afanasyev
+Author-email: me@alecxe.me
+License: MIT
+Description: # park-nyc
+        [ParkNYC](https://parknyc.parkmobile.us/parknyc/) API Python wrapper 
+        
+        [![Build Status](https://travis-ci.org/alecxe/park-nyc.svg)](https://travis-ci.org/alecxe/park-nyc)
+        [![Coverage Status](https://coveralls.io/repos/github/alecxe/park-nyc/badge.svg?branch=master)](https://coveralls.io/github/alecxe/park-nyc?branch=master)
+        [![Code Climate](https://codeclimate.com/github/alecxe/park-nyc/badges/gpa.svg)](https://codeclimate.com/github/alecxe/park-nyc)
+        
+Keywords: api parking nyc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet :: WWW/HTTP
