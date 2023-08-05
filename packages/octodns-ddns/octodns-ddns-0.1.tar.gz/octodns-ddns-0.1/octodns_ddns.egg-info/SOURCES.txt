@@ -1,0 +1,6 @@
+setup.py
+octodns_ddns/__init__.py
+octodns_ddns.egg-info/PKG-INFO
+octodns_ddns.egg-info/SOURCES.txt
+octodns_ddns.egg-info/dependency_links.txt
+octodns_ddns.egg-info/top_level.txt
