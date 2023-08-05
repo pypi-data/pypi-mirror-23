@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: r3py
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: https://github.com/dontcare/r3py
+Author: Aleksei Sargin
+Author-email: alexei.sargin@gmail.com
+License: MIT License
+Description: 
+        
+        
+Platform: *nix
+Platform: OSX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP
