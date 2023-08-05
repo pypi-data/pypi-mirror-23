@@ -1,0 +1,13 @@
+setup.py
+django_themagicapi.egg-info/PKG-INFO
+django_themagicapi.egg-info/SOURCES.txt
+django_themagicapi.egg-info/dependency_links.txt
+django_themagicapi.egg-info/requires.txt
+django_themagicapi.egg-info/top_level.txt
+themagicapi/__init__.py
+themagicapi/admin.py
+themagicapi/apps.py
+themagicapi/models.py
+themagicapi/tests.py
+themagicapi/urls.py
+themagicapi/views.py
