@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: byaml
+Version: 0.1.0
+Summary: Python package for loading and saving data in the Nintendo BYAML format.
+Home-page: https://github.com/Syroot/byaml
+Author: Syroot
+Author-email: dev@syroot.com
+License: MIT
+Download-URL: https://github.com/Syroot/byaml/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: byaml nintendo
+Platform: UNKNOWN
+Requires-Python: >=3

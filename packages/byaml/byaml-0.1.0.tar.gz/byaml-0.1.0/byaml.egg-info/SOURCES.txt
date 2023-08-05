@@ -1,0 +1,8 @@
+setup.py
+byaml/__init__.py
+byaml/byamlfile.py
+byaml.egg-info/PKG-INFO
+byaml.egg-info/SOURCES.txt
+byaml.egg-info/dependency_links.txt
+byaml.egg-info/requires.txt
+byaml.egg-info/top_level.txt
