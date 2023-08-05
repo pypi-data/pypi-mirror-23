@@ -1,0 +1,30 @@
+stages:
+  - build
+
+py36:
+  stage: build
+  script:
+    - python3.6 -m venv venv/py36
+    - source venv/py36/bin/activate
+    - pip install -r requirements.txt
+    - python setup.py sdist bdist_wheel
+    - python -m pytest
+  artifacts:
+    paths:
+    - dist
+  tags:
+    - python3.6
+
+py35:
+  stage: build
+  script:
+    - python3.5 -m venv venv/py35
+    - source venv/py35/bin/activate
+    - pip install -r requirements.txt
+    - python setup.py sdist bdist_wheel
+    - python -m pytest
+  artifacts:
+    paths:
+    - dist
+  tags:
+    - python3.5

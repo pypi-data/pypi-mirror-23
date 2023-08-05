@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: StdConfigParser
+Version: 1.0.1
+Summary: A standard INI style configuration parser.
+Home-page: https://github.com/tds333/stdconfigparser
+Author: Wolfgang Langner
+Author-email: tds333@mailbox.org
