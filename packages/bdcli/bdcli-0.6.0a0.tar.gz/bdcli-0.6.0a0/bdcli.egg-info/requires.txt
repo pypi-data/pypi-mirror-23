@@ -1,0 +1,2 @@
+browndog==0.8.0a0
+python-docker-machine==0.2.2
