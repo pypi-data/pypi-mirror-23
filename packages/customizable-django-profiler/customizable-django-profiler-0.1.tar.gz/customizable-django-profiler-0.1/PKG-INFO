@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: customizable-django-profiler
+Version: 0.1
+Summary: Customizable Django middleware based on cProfile
+Home-page: https://github.com/someshchaturvedi/customizable-django-profiler
+Author: Somesh Chaturvedi
+Author-email: somesh.08.96@gmail.com
+License: MIT
+Download-URL: https://github.com/someshchaturvedi/customizable-django-profiler/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: django,middleware,cProfile,Profile
+Platform: UNKNOWN
