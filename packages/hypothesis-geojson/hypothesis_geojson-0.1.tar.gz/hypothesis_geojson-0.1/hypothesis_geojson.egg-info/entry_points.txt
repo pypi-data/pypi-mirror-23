@@ -1,0 +1,3 @@
+[console_scripts]
+edge-features = hypothesis_geojson.scripts.edge_features:main
+
