@@ -1,0 +1,13 @@
+cribbage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cribbage/card.py,sha256=Ugna1w_VZR4u12repluAvgYGHASguMqWIZMd6QUdkJk,1141
+cribbage/game.py,sha256=o-MaSUzq9h5aabe4DUmzl_ZfbIxS0hAZ_S_WLSjdeXw,4975
+cribbage/main.py,sha256=kqHNT8x399EB4i-DZUDJ0ZbZzwvpSDdsPFEtIvHUw9c,1082
+cribbage/players.py,sha256=A_49vQHB86WqWnwNUAtvnpKutsFrfIftNviyHcudpb0,5756
+cribbage/score.py,sha256=oAI3r-fSk83ZhOXCFnDfA-ZTrLCOVLxbY3t0DNPOZ0E,1220
+cribbage-0.1.0.dist-info/DESCRIPTION.rst,sha256=4_Ur6D9L487sUliwO44310tA4kjzDxZp3m6gtUAjG2A,661
+cribbage-0.1.0.dist-info/METADATA,sha256=JCYV-IAZ-hMzZCUYgl-_TCscJB--EYQkjxS2Tmt4Czs,1069
+cribbage-0.1.0.dist-info/RECORD,,
+cribbage-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cribbage-0.1.0.dist-info/entry_points.txt,sha256=cg3BhAf790b8m-eQ1t0M7aq0oM411Tn-K12Zf_6EY6Q,49
+cribbage-0.1.0.dist-info/metadata.json,sha256=OXWThC9-Gr1z1pW6rSXqiPdHUTXDhwzxlagHpWNlK4Q,748
+cribbage-0.1.0.dist-info/top_level.txt,sha256=cEnZ7VcF-utOOfIC0kYK07X6Inb7n0Q8YLxdI31qKk0,9
