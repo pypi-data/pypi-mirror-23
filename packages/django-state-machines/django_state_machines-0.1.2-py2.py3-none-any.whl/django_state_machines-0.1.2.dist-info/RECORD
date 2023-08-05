@@ -1,0 +1,14 @@
+django_state_machines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_state_machines/data_classes.py,sha256=r7pFLWlWHgf9NhYlmgvNeMu4qxIFpv2OE7ch0NtU148,2261
+django_state_machines/decorators.py,sha256=GCyM0Ywzoghre5bh75j1cqfQrD8RlSiaBBFeoDw07qw,409
+django_state_machines/exceptions.py,sha256=3uYo6sTrqr8LJ4y3hQsHjfS1Unsc-DOYNcRsfZFFLjs,324
+django_state_machines/fields.py,sha256=JWXrljq1EU5o2Q5rfgv_IHIGjZo0OdqfFoayH1ZApNs,2205
+django_state_machines/helpers.py,sha256=aDrXaqg5eExO_ZmYrI8O1aNSrHVa47HiGqGMJ0a3oEw,155
+django_state_machines/logic.py,sha256=EIooT5Os9E2acIF8iuKYdrTt2UIIveEVNKrsi4Q_dKA,8594
+django_state_machines/state_map.py,sha256=oTLDjYuP_xbuMh7kw7AFBJlxPfu3L2-9WbDn1Ynrc6M,3847
+django_state_machines-0.1.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_state_machines-0.1.2.dist-info/METADATA,sha256=vfpHONNGyKwLMj_Euo4UsN-Uy0S3q3bfXqGXWGQVzS8,845
+django_state_machines-0.1.2.dist-info/RECORD,,
+django_state_machines-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_state_machines-0.1.2.dist-info/metadata.json,sha256=k7uncv3MTHWv2yZ-PBFYl_1DevUDmXzlNFO3aG4c03o,960
+django_state_machines-0.1.2.dist-info/top_level.txt,sha256=EoaP0pePpIuUy7xLWJyP1rsODKk-4rwybfc2IPXuKT0,22

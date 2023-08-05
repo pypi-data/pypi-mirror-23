@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: django-state-machines
+Version: 0.1.2
+Summary: Django finite state machine implementation
+Home-page: https://github.com/Backscratcher/django-state-machines
+Author: Karol Sztajerwald
+Author-email: sztajerwaldkarol@gmail.com
+License: MIT License
+Keywords: django
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Framework :: Django
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
