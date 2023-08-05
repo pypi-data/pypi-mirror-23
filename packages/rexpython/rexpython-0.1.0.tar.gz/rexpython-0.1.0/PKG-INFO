@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: rexpython
+Version: 0.1.0
+Summary: simple Rx pipeline implementation
+Home-page: http://pypi.python.org/pypi/rexpython/
+Author: Anton P. Linevich
+Author-email: anton@linevich.com
+License: LICENSE.txt
+Description: =========
+        RexPython
+        =========
+        
+        This is python Rx implementation mimicing RxJava API as far as it can.
+        
+        
+        Installation
+        ============
+        pip install rexpython
+        
+        
+Platform: UNKNOWN
