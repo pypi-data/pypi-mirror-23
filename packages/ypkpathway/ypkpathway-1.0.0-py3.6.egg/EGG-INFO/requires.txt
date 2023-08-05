@@ -1,0 +1,8 @@
+pydna
+ipython
+docopt
+notedown
+nbformat
+nbconvert
+pydna
+notedown
