@@ -1,0 +1,29 @@
+Build information:
+
+* System: Windows-6.1.7601
+* Hostname: waylandvm01
+* Timestamp: 2017-06-15 10:00:49 (YY-MM-DD HH:MM:SS, UTC)
+* Generator: Visual Studio 14 2015
+* Build type: 
+* C Compiler: MSVC (32-bit)
+* C++ Compiler: MSVC (32-bit)
+* CMake version: 3.4.0
+* Boost version: 1.61.0
+* Boost libs: C:/Boost/boost_1_61_0/stage/x86_32/lib
+* SD API Versions: <SD_API_V2> <SD_API_V3>
+* SWIG version: 2.0.12
+* Pyhon version: 2.7.9+
+* Pyhon libs: C:/Python27/libs/python27.lib
+* Git repo: pc-ble-driver-py
+** Git revision: dd852064eff52486c32e7cf5ffda18d9019d5330
+** Git branch: release/0.9.1
+* Git repo: pc-ble-driver
+** Git revision: 69a481c1c95909d260e4c90767703da88631dd48
+** Git branch: HEAD
+* MD5 sums: 
+** 513da2fea517c90769ef80a4e791d1a2  pc_ble_driver_sd_api_v2.py
+** ac4257f18b2e7f167936d95a82fd6485  _pc_ble_driver_sd_api_v2.pyd
+** 4ce52d45f320aa3caa1d6e12d90f0b72  pc_ble_driver_shared_sd_api_v2.dll
+** 9271fa4277ef803921869288bcab87f2  pc_ble_driver_sd_api_v3.py
+** af030e79120df88364c046a46ab8d5c5  _pc_ble_driver_sd_api_v3.pyd
+** 53cb55d44674b63eb37119e31c929665  pc_ble_driver_shared_sd_api_v3.dll
