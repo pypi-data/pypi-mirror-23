@@ -1,0 +1,10 @@
+numpy>=1.12.1
+bokeh==0.12.6
+tornado
+pandas
+multiprocessing
+joblib
+pandeia.engine
+batman-package
+photutils
+astropy
