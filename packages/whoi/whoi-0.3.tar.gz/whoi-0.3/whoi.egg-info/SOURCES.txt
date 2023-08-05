@@ -1,0 +1,6 @@
+setup.py
+whoi/__init__.py
+whoi.egg-info/PKG-INFO
+whoi.egg-info/SOURCES.txt
+whoi.egg-info/dependency_links.txt
+whoi.egg-info/top_level.txt
