@@ -1,0 +1,6 @@
+[console_scripts]
+generate_clickhouse_fdw = infi.clickhouse_fdw.generate:run
+
+[gui_scripts]
+
+
