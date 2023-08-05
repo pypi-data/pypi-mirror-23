@@ -1,0 +1,12 @@
+gammu/__init__.py,sha256=N_bXnjJICwf1awdGJI_OvpESwdJhWnfOHlr3pCVd2sc,1152
+gammu/_gammu.cp36-win32.pyd,sha256=rgYEL_vjNwOW_Dvq_4s7y-3dTGo62di64PyB8Umvirc,1261056
+gammu/data.py,sha256=nc5ISo6DBdAbUW2l2LPEeZfGc_LGNkhNd41dWqjALo8,7680
+gammu/exception.py,sha256=2AK06UUuDZFhER2oY5I-4mEeXal6rE6E8USm0hx7lXQ,1324
+gammu/smsd.py,sha256=yoEUVNdSqIlvkzYZsydY2MXkSbzWfRuPB7hILvbl-fc,971
+gammu/worker.py,sha256=PEfo6_lGgJ4IBO55iVxJjwspgItCIWDpsQMt-skJotU,10134
+python_gammu-2.9.dist-info/DESCRIPTION.rst,sha256=9ayhXZC62JMjZCxU2kCguKr-29gx1DyK-8v-ewt0WyY,3553
+python_gammu-2.9.dist-info/METADATA,sha256=cMPju-mrAW9lhxv9MdNoLJSNljq7L1bXhBBF7V5iJow,4985
+python_gammu-2.9.dist-info/RECORD,,
+python_gammu-2.9.dist-info/WHEEL,sha256=xiHTm3JxoVljPSD6nSGhq3B4VY9iUqMNXwYQ259n1PI,102
+python_gammu-2.9.dist-info/metadata.json,sha256=PLRx8DQZfIRyyi-0uuIDNwIljigvnPaA02eqsI66fYw,1425
+python_gammu-2.9.dist-info/top_level.txt,sha256=DCkjQyKLL2Scv_sr-bcKLuYLvOBgT2TuYlP4CD2jvNw,6
