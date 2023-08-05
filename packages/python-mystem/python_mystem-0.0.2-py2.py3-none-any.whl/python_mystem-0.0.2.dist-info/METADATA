@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: python-mystem
+Version: 0.0.2
+Summary: Python MyStem
+Home-page: https://github.com/mvasilkov/python-mystem
+Author: Mark Vasilkov
+Author-email: mvasilkov@gmail.com
+License: MIT
+Keywords: mystem
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+Python MyStem
+
+
