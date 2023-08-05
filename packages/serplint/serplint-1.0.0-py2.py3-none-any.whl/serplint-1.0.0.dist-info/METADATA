@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: serplint
+Version: 1.0.0
+Summary: A linter for the serpent language
+Home-page: https://github.com/beaugunderson/serplint
+Author: Beau Gunderson
+Author-email: beau@beaugunderson.com
+License: MIT
+Keywords: serpent,ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click (==6.7)
+Requires-Dist: ethereum-serpent
+
+serplint
+--------
+
+A linter for the `Serpent <https://github.com/ethereum/serpent>`__
+language.
+
+Usage
+~~~~~
+
+.. code:: sh
+
+    $ serplint filename.se
+
+
