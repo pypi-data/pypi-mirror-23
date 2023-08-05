@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: codemach
+Version: 0.3b14
+Summary: very simple tool for executing python code objects
+Home-page: http://github.com/chuck1/codemach
+Author: Charles Rymal
+Author-email: charlesrymal@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pkgtool (==0.1b45)
+Requires-Dist: py (==1.4.34)
+Requires-Dist: pytest (==3.1.2)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: toml (==0.9.2)
+
+UNKNOWN
+
+
