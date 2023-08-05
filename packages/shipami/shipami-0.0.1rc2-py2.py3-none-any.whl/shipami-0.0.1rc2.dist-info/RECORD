@@ -1,0 +1,10 @@
+shipami/__init__.py,sha256=NrNqBC-bYfcABnKM3LjpWrsb9dCYsrHcO14fctPWnCg,27
+shipami/cli.py,sha256=zk6wonLiSduNlm0c87qy0p3cxv9aIls3wsf7_PpnKog,8251
+shipami/core.py,sha256=Ubx6iCub1ILg3J3hHeyXxnP0vWj63j-AKSM6EcOcUS8,18431
+shipami-0.0.1rc2.dist-info/DESCRIPTION.rst,sha256=KKYXvkSJyqaH3IwlTnI-u84AniMqv_NvyjM0zcQHXXE,4421
+shipami-0.0.1rc2.dist-info/METADATA,sha256=gasrCdSleGoMUtg0mTvk08cJpU4zyLlPmrcpzGTid1k,5472
+shipami-0.0.1rc2.dist-info/RECORD,,
+shipami-0.0.1rc2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+shipami-0.0.1rc2.dist-info/entry_points.txt,sha256=de4yPfgBr20AsapbGcmOVChU7tZER_TsS_6CcP9bLlE,45
+shipami-0.0.1rc2.dist-info/metadata.json,sha256=XeQv2WrSEaTflaUA_g8YibqIG6IcHQihvRw2A3S-KB0,1378
+shipami-0.0.1rc2.dist-info/top_level.txt,sha256=oGeQLhSdk9_VwGWaownLfRSKQmW5e-vvwdLPNVqrYiE,8
