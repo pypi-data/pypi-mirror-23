@@ -1,0 +1,15 @@
+multidict-3.1.0.dist-info/DESCRIPTION.rst,sha256=-vNwUKc8M-25ig7nPEyltvhIuHDPyoGI7X_nL7jmarc,3865
+multidict-3.1.0.dist-info/METADATA,sha256=Olj1HEEozf6jo8XArr5H9iXG6TQBKEUXouhiiLq-zsw,4455
+multidict-3.1.0.dist-info/RECORD,,
+multidict-3.1.0.dist-info/WHEEL,sha256=patwyJiHN5F9ug9T_xdCVSy3xi0JhuXnET_4ZqfZJXE,107
+multidict-3.1.0.dist-info/metadata.json,sha256=ZqUFsLgPaehIyk-3q2Jm9BnZM9B-OSO7WTc8oOzFiLY,775
+multidict-3.1.0.dist-info/top_level.txt,sha256=-euDElkk5_qkmfIJ7WiqCab02ZlSFZWynejKg59qZQQ,10
+multidict/__init__.pyi,sha256=eqt9njeu5htBCTuOrmHm8nTe3tzEQtQh2lM5epKryvk,3013
+multidict/_istr.cpython-35m-i386-linux-gnu.so,sha256=iVNxw6QY5dVx5wkLCSOIC8-JI8NjxbOtiDa_jJGp3Wc,23992
+multidict/_multidict.cpython-35m-i386-linux-gnu.so,sha256=R1sry6CPCzPmDjwmIsbi2_AalACGpA9aadXkxbPH2LY,661037
+multidict/_multidict_py.py,sha256=dEHKGaRdjoZSpTeHXgVfVtVp7XQUSMfQcKuVQeputG8,12600
+multidict/_multidict.pyx,sha256=QA_WuC9eEuvloGbl0ObxvYmArGLh9cFlAuQqKTnJpe4,23338
+multidict/__init__.py,sha256=DuWY_gNxi3cMd29EeLGz7auLTkUU_fDwA7rIhpRmfN0,1162
+multidict/_istr.c,sha256=vkvyZtkYXoPoEjuOwHKTROjOF_7sCXNiQVejMWrL-g8,6727
+multidict/_multidict.c,sha256=vYuqs8-emOTOA7-KHo7ima0eRsVQcT0Q9NsQ7A0PDTQ,747385
+multidict/_istr.cpython-35m-x86_64-linux-gnu.so,sha256=6CJ02mOp9bFUaehAGH8_0lSDQg0b8bnGTDN8x0Yy9xU,30970
