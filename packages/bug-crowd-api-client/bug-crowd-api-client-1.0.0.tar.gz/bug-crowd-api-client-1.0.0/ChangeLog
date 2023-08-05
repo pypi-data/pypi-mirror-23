@@ -1,0 +1,19 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* Enable Travis CI
+* Sem-Ver: feature create\_submission now converts the submitted\_at field into isoformat where needed
+* Sem-Ver: bugfix Only request the number of submission pages required
+* Sem-Ver: bugfix transition\_submission now checks if the duplicate\_of field is required that it is provided
+* Sem-Ver: bugfix Fix checking the required fields when creating a submission
+* Add tests
+* Sem-Ver: bugfix Fix the get\_submissions method to return submissions from the initial fetch
+* Sem-Ver: bugfix \_convert\_datetime\_to\_submission\_creation\_format should return the date time in an isoformat
+* Add pypi information to the readme
+* Do not mutate params given to the get\_submissions method
+* Add example usage to the readme
+* Add the code
+* Initial commit
