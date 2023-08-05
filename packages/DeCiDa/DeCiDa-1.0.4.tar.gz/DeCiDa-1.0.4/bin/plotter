@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+################################################################################
+# NAME     : plotter
+# PURPOSE  : plot cartesian, polar, parametric equation sets
+# AUTHOR   : Richard Booth
+# DATE     : Sat Nov  9 11:07:29 2013
+# -----------------------------------------------------------------------------
+# NOTES    : 
+#   * CREATED BY : Plotter
+################################################################################
+import user, decida, sys
+#-----------------------------------------------------------------------------
+# usage
+#-----------------------------------------------------------------------------
+def usage() :
+    print """\
+  usage :
+      plotter ?options?
+  options :
+      -h       print help information
+      -mat     use matplotlib
+    """
+    exit()
+#-----------------------------------------------------------------------------
+# command-line arguments
+#-----------------------------------------------------------------------------
+use_matplotlib = False
+args   = sys.argv[1:]
+while len(args) > 0 :
+    arg = args.pop(0)
+    if   arg == "-h" or arg == "-help" :
+        usage()
+    elif arg == "-mat" :
+        use_matplotlib = True
+    else :
+        print "un-supported option: \"%s\"" % (arg)
+        usage()
+if use_matplotlib:
+    from decida.Plotterm import Plotterm as Plotter
+else :
+    from decida.Plotterx import Plotterx as Plotter
+#-----------------------------------------------------------------------------
+# invoke plotter
+#-----------------------------------------------------------------------------
+Plotter(
+    plot_type="cartesian",
+    sample_type="linear",
+    npts=1000,
+    min=0.0,
+    max=5.0,
+    xcol="time",
+    ycol="v",
+    acol="theta",
+    rcol="r",
+    tcol="t",
+    equations="""v=sin(time*3)"""
+)
