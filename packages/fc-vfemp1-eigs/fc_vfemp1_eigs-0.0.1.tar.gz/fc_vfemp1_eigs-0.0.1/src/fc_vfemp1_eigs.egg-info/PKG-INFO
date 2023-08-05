@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: fc-vfemp1-eigs
+Version: 0.0.1
+Summary: Solving eigenvalue boundary value problems: add-on to the fc_vfemp1 package
+Home-page: http://www.math.univ-paris13.fr/~cuvelier/software
+Author: Francois Cuvelier
+Author-email: cuvelier@math.univ-paris13.fr
+License: BSD
+Description: UNKNOWN
+Platform: Linux
+Classifier: Topic :: Scientific/Engineering

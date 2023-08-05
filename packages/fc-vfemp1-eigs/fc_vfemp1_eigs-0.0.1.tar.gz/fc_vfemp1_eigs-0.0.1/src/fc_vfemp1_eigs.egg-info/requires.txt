@@ -1,0 +1,7 @@
+fc_vfemp1 >= 0.0.2
+
+[matplotlib]
+fc_simesh_matplotlib
+
+[mayavi]
+fc_simesh_mayavi
