@@ -1,0 +1,8 @@
+setup.py
+src/envattrs/__init__.py
+src/envattrs/converters.py
+src/envattrs.egg-info/PKG-INFO
+src/envattrs.egg-info/SOURCES.txt
+src/envattrs.egg-info/dependency_links.txt
+src/envattrs.egg-info/requires.txt
+src/envattrs.egg-info/top_level.txt
