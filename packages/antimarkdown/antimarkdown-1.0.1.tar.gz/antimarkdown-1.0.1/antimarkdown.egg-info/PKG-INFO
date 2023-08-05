@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: antimarkdown
+Version: 1.0.1
+Summary: HTML to Markdown converter.
+Home-page: http://github.com/Crossway/antimarkdown/
+Author: David Eyk
+Author-email: deyk@crossway.org
+License: BSD
+Description: antimarkdown
+        ============
+        
+        Convert HTML to Markdown, quickly and easily:
+        
+        ::
+        
+            >>> import antimarkdown
+            >>> print(antimarkdown.to_markdown("""
+            ... <h1>antimarkdown</h1>
+            ...
+            ... <p>Convert HTML to Markdown, quickly and easily!</p>
+            ... """))
+            antimarkdown
+            ============
+        
+            Convert HTML to Markdown, quickly and easily!
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Communications :: Email :: Filters
