@@ -1,0 +1,4 @@
+include cyberglove/calib/*
+include cyberglove/*
+include source/*
+exclude cyberglove/*.temp.config
