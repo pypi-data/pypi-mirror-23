@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+datastore_to_gcs/__init__.py
+datastore_to_gcs/cloud_storage.py
+datastore_to_gcs/util.py
+datastore_to_gcs.egg-info/PKG-INFO
+datastore_to_gcs.egg-info/SOURCES.txt
+datastore_to_gcs.egg-info/dependency_links.txt
+datastore_to_gcs.egg-info/top_level.txt
