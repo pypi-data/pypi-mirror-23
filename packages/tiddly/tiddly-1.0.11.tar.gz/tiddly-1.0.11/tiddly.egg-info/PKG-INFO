@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tiddly
+Version: 1.0.11
+Summary: Flask-Tiddly is a minimal, prototype RESTful server for basic CRUD transactions.
+Home-page: https://prahladyeri.github.io/flask-tiddly
+Author: Prahlad Yeri
+Author-email: prahladyeri14@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: flask rest server sqlalchemy
+Platform: UNKNOWN
