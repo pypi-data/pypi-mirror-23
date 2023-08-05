@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pyintralinks.egg-info/PKG-INFO
+pyintralinks.egg-info/SOURCES.txt
+pyintralinks.egg-info/dependency_links.txt
+pyintralinks.egg-info/not-zip-safe
+pyintralinks.egg-info/requires.txt
+pyintralinks.egg-info/top_level.txt
