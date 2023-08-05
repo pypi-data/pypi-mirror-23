@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: megamix
+Version: 0.2
+Summary: EM algorithms for unsupervised learning
+Home-page: https://github.com/14thibea/Stage_ENS
+Author: Elina Thibeau-Sutre
+Author-email: elina.ts@free.fr
+License: MIT
+Keywords: EM clustering machine learning
+Platform: UNKNOWN
+Requires-Dist: h5py (>=2.6.0)
+Requires-Dist: joblib (>=0.11)
+Requires-Dist: numpy (>=1.11.3)
+Requires-Dist: scikit-learn (>=0.18.0)
+Requires-Dist: scipy (>=0.18.1)
+
+UNKNOWN
+
+

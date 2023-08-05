@@ -1,0 +1,13 @@
+megamix/DPGMM.py,sha256=CbXuBL3ua50PfLgDS6lBPMpIncJPLPyE6awpFootCC4,19404
+megamix/GMM.py,sha256=ljkkMmr2_e5g6RlHrTEcLywEEhqeH2XfhWJLmeX08mg,9602
+megamix/VBGMM.py,sha256=0qax7P3w_NoyOblx_j2LdA3Hp8rFgSaTs8utz1AP8eo,20446
+megamix/__init__.py,sha256=cVBWjeBLRoeb4yin5qloMbS_hzvPqCYXfHGaZ85Q9fY,377
+megamix/base.py,sha256=CfyRxrQ96WAb53bm2WLDl_QuDlNVOVNLI8L0mmv4G4E,21507
+megamix/initializations.py,sha256=dKlQRoIFlc184HacQGv8p--LuqvnIvDr6Jp3LHL4IWA,12345
+megamix/kmeans.py,sha256=8K8MVcyBLgQB9D90YqC38aU-3faq8kq8apJh8_wTbYI,10166
+megamix-0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+megamix-0.2.dist-info/METADATA,sha256=dgIWQjTgqKsdULAXKbIyBnlBETLoQ6NYA9XgOY9Vj5A,453
+megamix-0.2.dist-info/RECORD,,
+megamix-0.2.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+megamix-0.2.dist-info/metadata.json,sha256=r9Sle859zbXwhmfWGGUjF7bsBHrcsGIsKfbA2_lHQ5Q,633
+megamix-0.2.dist-info/top_level.txt,sha256=C9omQqmKstW3CfuN5T2MTRYmHvAYh20fQKgXUFf3_LI,8
