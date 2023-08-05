@@ -1,0 +1,16 @@
+jsoneditor/forms.py,sha256=azbR4if6B1VHhSMj01G3ue0QzjQxtk0AyC2alauuzMs,1862
+jsoneditor/__init__.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+jsoneditor/static/django-jsoneditor/django-jsoneditor.js,sha256=RfXjQbaRSmwFK8ZGLSw74v6F4QupMiTS3jmcEftIqjM,1369
+jsoneditor/static/jsoneditor/jsoneditor.css,sha256=ifITWaOr9YwfGIH21_uC91jg9P4JzcttUaky1nRBGwE,12632
+jsoneditor/static/jsoneditor/jsoneditor.js,sha256=wrrUU8LebDgEJuvxd1XX2ysfh9ZQCVfZ-dF8uXy9w5k,179012
+jsoneditor/static/jsoneditor/img/jsoneditor-icons.png,sha256=QuqnU34Tb8QjyURBHzx3oUttpq7x_ex-LCiYk07VE6U,14438
+jsoneditor/fields/postgres_jsonfield.py,sha256=-KKLEPCPVoouu0nVS_f9wtfJlsnpYZuSAl-NaUn_boE,649
+jsoneditor/fields/django_json_field.py,sha256=6ej-KDkwn8uUDu8rih50mOHRX5lfuQN-EFSWyvPbLiI,620
+jsoneditor/fields/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsoneditor/fields/django_jsonfield.py,sha256=BI4RqO0p1TaCN38YM8M8tGekeuQVMCLzA2aAqd_rYAg,619
+django_jsoneditor-0.0.11.dist-info/DESCRIPTION.rst,sha256=SlPsfsnX0FLgPFGidNYNlXa8kzNnH9f7v33jnmnLEw8,3433
+django_jsoneditor-0.0.11.dist-info/metadata.json,sha256=w8gmfpdVidQDhsvNqsqOyZ7K-ibdQmxUnCtkbbdY-4k,462
+django_jsoneditor-0.0.11.dist-info/RECORD,,
+django_jsoneditor-0.0.11.dist-info/METADATA,sha256=XqI_ipuSjh5MbIOZMKm3t0goszWYM82tqBMd-QdRPeU,3695
+django_jsoneditor-0.0.11.dist-info/top_level.txt,sha256=OkxZRLczWd5YYViwxTpflI5z8wAHNy-nIf-87Jfb0nE,11
+django_jsoneditor-0.0.11.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
