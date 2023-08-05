@@ -1,0 +1,2 @@
+# 1.1 2017.06.28 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Changed the user/group flags for is_active and is_staff to use the kdl-staff group
