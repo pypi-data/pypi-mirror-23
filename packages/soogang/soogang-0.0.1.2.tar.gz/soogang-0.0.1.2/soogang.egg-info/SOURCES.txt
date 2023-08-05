@@ -1,0 +1,10 @@
+setup.py
+soogang/__init__.py
+soogang/exc.py
+soogang/resource.py
+soogang/upload.py
+soogang.egg-info/PKG-INFO
+soogang.egg-info/SOURCES.txt
+soogang.egg-info/dependency_links.txt
+soogang.egg-info/requires.txt
+soogang.egg-info/top_level.txt
