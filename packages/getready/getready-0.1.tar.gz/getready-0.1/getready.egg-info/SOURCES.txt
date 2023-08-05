@@ -1,0 +1,8 @@
+setup.py
+getready/__init__.py
+getready/getready.py
+getready.egg-info/PKG-INFO
+getready.egg-info/SOURCES.txt
+getready.egg-info/dependency_links.txt
+getready.egg-info/entry_points.txt
+getready.egg-info/top_level.txt
