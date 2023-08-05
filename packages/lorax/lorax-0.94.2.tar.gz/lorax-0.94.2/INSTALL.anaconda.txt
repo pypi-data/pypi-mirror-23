@@ -1,0 +1,64 @@
+lorax was tested under Anaconda Python 3.6. Begin by downloading it and
+making sure that it is in your PATH.   
+
+lorax requires some packages that are in non-default channels, which
+may be obtained by the following:
+
+	conda config --add channels conda-forge
+	conda config --add channels defaults
+	conda config --add channels bioconda
+
+After the channels are configured, update the installation by issuing the command:
+
+	conda update --all
+
+This command usually results in several packages being superseded and updated.
+
+Although it is possible to run lorax directly from the main Anaconda installation,
+it is not advisable to do so because lorax's dependencies could break other python
+packages you may wish to install.  For this reason, it is preferable to create a
+python virtual environment where lorax and its dependencies live.
+I prefer to use the name "loraxenv" for this environment to prevent
+confusion between package and environment names.  You should create this
+environment as the user under which you intend the web server to run, using the
+following commands:
+
+	conda create -y --name loraxenv biopython click croniter \
+           flask freetype gunicorn hmmer msgpack-python raxml redis \
+           redis-py itsdangerous jinja2 markupsafe six werkzeug
+	source activate loraxenv
+	
+If you are installing under MacOS (and only under MacOS), gcc and libgcc
+MUST be installed in the current virtual environment:
+
+	conda install gcc libgcc
+
+With the current conda version (4.3.21), there are three packages in the default
+channels that are too old for use with lorax: setuptools (27.2.0, should be >30.3.0)
+markupsafe (0.23, should be 1.0.0),  
+and gunicorn (19.1.0, should be 19.7.1).  Updating setuptools in the root installation
+has the possible side effect of breaking any further Anaconda installations, which
+is why lorax needs to be installed in a virtual environment.  To update these
+
+	pip install -U gunicorn markupsafe
+	pip install -U setuptools
+
+The last command produces an error; don't be worried by it.  Now we are ready
+ to install lorax itself:
+
+	pip install --global-option=build_py lorax
+
+Now pick up some dependencies that pip may not have installed
+properly from requirements.txt:
+
+	pip install git+git://github.com/Supervisor/supervisor.git@2c601db
+	pip install superlance setuptools-scm
+
+Next, we define a command of convenience for running a script that
+defines two environmental variables and activates the correct virtual
+environment from _outside_ the virtual environment:
+
+    alias runinenv="${CONDA_PREFIX}/bin/run_in_lorax_env"
+    source deactivate
+
+Next, follow the instructions in INSTALL.configure+run.txt.
