@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: zeep-adv
+Version: 1.4.3
+Summary: A modern/fast Python SOAP client based on lxml / requests + Corentin Remaud silly edit
+Home-page: http://docs.python-zeep.org
+Author: Michael van Tellingen, some edit by Corentin Remaud
+Author-email: remaudcorentin.dev@gmail.com
+License: MIT
+Description: ========================
+        Zeep-adv: Python SOAP client + mtom with mime type management
+        ========================
+        
+        Based on : http://docs.python-zeep.org/
+        And this mtom extention : https://github.com/mvantellingen/python-zeep/pull/314/files
+        
+        ```
+        pip install python-zeep-adv
+        ```
+        
+        ````python
+        
+            from zeep import Client
+        
+            client = Client('tests/wsdl_files/example.rst')
+            client.service.ping()
+        
+        ```
+        
+        This was developed for a specific usage and this code whould not be used for other puposes has it.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
