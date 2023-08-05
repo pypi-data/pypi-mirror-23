@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+roboticia_drive/__init__.py
+roboticia_drive/_version.py
+roboticia_drive/roboticia_drive.py
+roboticia_drive.egg-info/PKG-INFO
+roboticia_drive.egg-info/SOURCES.txt
+roboticia_drive.egg-info/dependency_links.txt
+roboticia_drive.egg-info/not-zip-safe
+roboticia_drive.egg-info/requires.txt
+roboticia_drive.egg-info/top_level.txt
+roboticia_drive/configuration/roboticia_first.json
+roboticia_drive/primitives/__init__.py
+roboticia_drive/vrep-scene/roboticia_first.ttt
