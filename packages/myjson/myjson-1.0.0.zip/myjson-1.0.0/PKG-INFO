@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: myjson
+Version: 1.0.0
+Summary: API wrapper for myjson
+Home-page: https://github.com/roundar/myjson
+Author: roundar
+Author-email: roundar.github@gmail.com
+License: WTFPL
+Description: UNKNOWN
+Keywords: json,myjson,hosted
+Platform: UNKNOWN
