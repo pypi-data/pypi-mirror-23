@@ -1,0 +1,12 @@
+six
+alchemize
+pike
+
+[consul]
+requests
+
+[etcd2]
+requests
+
+[yaml]
+pyyaml
