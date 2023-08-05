@@ -1,0 +1,6 @@
+setuptools
+slapos.libnetworkcache>=0.13.1
+zc.buildout
+
+[test]
+zope.testing
