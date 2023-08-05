@@ -1,0 +1,14 @@
+esrijson/__init__.py,sha256=QtcF7J_08CBkbsnZ1KM698UMHWcBAIXCyEGP628vmi8,372
+esrijson/base.py,sha256=rnSs1E27X2Q_F1q_chKzw9EDxbcSOYknkqjbrN-OMMc,1809
+esrijson/codec.py,sha256=fZfZ23g1rYl5yZkKAY3NWZCZ-Jza7C8UOnmL2ybOpks,1400
+esrijson/factory.py,sha256=5vEMwkOiYw6mn2_D1yl1dyfoIMKviHo4NnLgDKiSx_s,155
+esrijson/feature.py,sha256=JIxDrJEK41XoG4Yn6X5VBpyjL6tSkr3AR1loVJo9paU,1082
+esrijson/geometry.py,sha256=tHCwwYzISX26HpX7V21kDZvFw6m5Ysp8-1Jna233zmk,5551
+esrijson/mapping.py,sha256=Hz5c9eoReqYVZFOfqGyAZj78cq2MgJzpi8GCzKPq4JQ,218
+esrijson/utils.py,sha256=OW-5oWcDn8lGrERW9mdJ6D3ncioAPKYbNu_Muv6lNQo,726
+esrijson-0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+esrijson-0.2.dist-info/METADATA,sha256=40xLjeN_qtujrAZbNMMgY-QJ8Azt9Pzik0w7GNOk-W4,235
+esrijson-0.2.dist-info/RECORD,,
+esrijson-0.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+esrijson-0.2.dist-info/metadata.json,sha256=_LWJ6Kzc_Z-0EA2EYtSc6owbJkfPDjAQtbYVW23UN-o,410
+esrijson-0.2.dist-info/top_level.txt,sha256=Sy5p-qzRXpIL0Szj8o-RgH11je-OfsjCnIWIWs-vGOg,9

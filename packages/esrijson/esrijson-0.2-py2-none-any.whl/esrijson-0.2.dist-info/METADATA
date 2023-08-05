@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: esrijson
+Version: 0.2
+Summary: Bindings and utilities for EsriJSON
+Home-page: UNKNOWN
+Author: Loic Gasser
+Author-email: loicgasser4@gmail.com
+License: BDS
+Platform: UNKNOWN
+Requires-Dist: shapely
+
+UNKNOWN
+
+
