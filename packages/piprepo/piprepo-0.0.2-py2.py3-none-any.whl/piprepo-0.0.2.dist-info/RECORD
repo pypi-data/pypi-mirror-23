@@ -1,0 +1,10 @@
+piprepo/__init__.py,sha256=sYXIXzpRBNG890_MjEthAvwkcqbvUqpWhwwBXlsUoX8,98
+piprepo/command.py,sha256=DkWrG3TFpDv6MSwi1Ma15IGYtIWKNlVUWPh0CqRMSgI,1368
+piprepo/models.py,sha256=VtJapcLYKYMr3ZDZxHZHKtdhuZurD47QsvPxMuPQe2s,5526
+piprepo-0.0.2.dist-info/DESCRIPTION.rst,sha256=3tjVfQm3NLraDHuhln6SvfDRa3tGPi_A7XFb0wcOTLU,1945
+piprepo-0.0.2.dist-info/METADATA,sha256=V42S7NF-tvDzls_2jJy3NrZifQkVp3INu39WvJRp2Ks,2934
+piprepo-0.0.2.dist-info/RECORD,,
+piprepo-0.0.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+piprepo-0.0.2.dist-info/entry_points.txt,sha256=NRrYUItFXOgHcsTQwsn5mOVQCTKyVUk_ELesAJ-rbgM,50
+piprepo-0.0.2.dist-info/metadata.json,sha256=S1WprKDOjn65KthRupu-1guPLoo5ItOXHyyht-ozaNQ,1181
+piprepo-0.0.2.dist-info/top_level.txt,sha256=dIoJr1_YG1qQVUyym8eEk8npcZaJUuU3R8rvBe8cztk,8
