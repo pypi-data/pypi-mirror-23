@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: espandas
+Version: 1.0.0
+Summary: Insert and Extract Pandas DataFrames with ElasticSearch
+Home-page: https://github.com/dashaub/espandas
+Author: David Shaub
+Author-email: davidshaub@gmx.com
+License: UNKNOWN
+Download-URL: https://github.com/dashaub/espandas/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: ElasticSearch,pandas,nosql
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
