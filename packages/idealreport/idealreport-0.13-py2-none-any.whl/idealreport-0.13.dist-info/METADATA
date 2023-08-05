@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: idealreport
+Version: 0.13
+Summary: Ideal Prediction reporting framework
+Home-page: https://github.com/idealprediction/idealreport
+Author: Ideal Prediction
+Author-email: info@idealprediction.com
+License: UNKNOWN
+Download-URL: https://github.com/idealprediction/idealreport/tarball/0.13
+Keywords: idealprediction,report
+Platform: UNKNOWN
+Requires-Dist: hjson
+Requires-Dist: htmltag
+Requires-Dist: pandas (>=0.18)
+
+UNKNOWN
+
+
