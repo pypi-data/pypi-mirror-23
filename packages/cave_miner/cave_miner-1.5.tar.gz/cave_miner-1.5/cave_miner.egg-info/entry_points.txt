@@ -1,0 +1,3 @@
+[console_scripts]
+cave_miner = cave_miner.main:main
+
