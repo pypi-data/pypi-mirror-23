@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/unrardll/__init__.py
+src/unrardll/wrapper.cpp
+src/unrardll.egg-info/PKG-INFO
+src/unrardll.egg-info/SOURCES.txt
+src/unrardll.egg-info/dependency_links.txt
+src/unrardll.egg-info/top_level.txt
