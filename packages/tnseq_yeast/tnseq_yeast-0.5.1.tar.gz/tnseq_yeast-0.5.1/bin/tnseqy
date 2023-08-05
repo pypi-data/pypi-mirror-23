@@ -1,0 +1,221 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#------------------------------------------------------------------------------------#
+# USAGE: ./jx                                                                        #
+# AUTHOR: ZJX (Jim Chu), biojxz@gmail.com                                            #
+# ORGANIZATION: ECUST                                                                #
+# VERSION: 1.0                                                                       #
+# CREATED: 2016年04月27日 15时20分01秒                                                  #
+#------------------------------------------------------------------------------------#
+
+from __future__ import print_function
+try:
+    import _preamble
+except ImportError:
+    pass
+
+from tnseq_yeast import log
+import os,sys
+import yaml
+
+#====================== <1:基于click技术的shell命令程序初始化> ======================#
+import click 
+CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
+@click.group(context_settings=CONTEXT_SETTINGS)
+@click.version_option(version='1.0.0')
+def binf():
+    pass
+
+#============================= <2:模块内部函数调用程序> =============================#
+def procedure(module,procedure):
+    global logger
+    exec('from tnseq_yeast import %s'%module)
+    logger.info('Procedure is begining to run ...')
+    for i in procedure:
+        fun = eval("%s.all_function['%s']"%(module,i))  
+        logger.info('Start ' + fun.split('(')[0] + ' ...')
+        Return = eval(module+'.'+fun) 
+        OI = fun.split('(')[0] + ' is over!'
+        infor = OI if Return == None else "%s: %s \n%s"%(fun.split('(')[0],Return,OI)
+        logger.info(infor)
+    logger.info('Procedure is over!!')
+
+
+#========================== <3: Parting line of subprogram> ==========================#
+def manifest_data_load(manifest_path):
+    try:
+        manifest_file = open(manifest_path)
+    except:
+        sys.exit("Please provide the right path of manifest.yaml file!")
+    try:
+        manifest_data = yaml.load(manifest_file)
+    except:
+        sys.exit("Make sure right yaml package has been installed, or manifest data \
+        format is right!")
+    return manifest_data
+
+#************************* <3.1: Preparation of materials> **************************#
+
+@binf.command(help='Genome, annotation and bowtie index preparation of yeast.')
+@click.option('--organism','-o',default='P.pastoris',help='Please input your organism\
+ which was written in manifest.yaml, the default is "P.pastoris".')
+@click.option('--slide_size','-s',default=1000,help='Please input slide_size.')
+@click.option('--target','-t',default='TA',help='Please input target bases.')
+@click.option('--manifest','-m',default='manifest.yaml',help='Specify the manifest.yaml\
+ path, the default is working path(manifest.yaml).')
+@click.option('--procedure','-p',default='a',help='Lmax procedure: a:annot_update, \
+m:file_annot_mod, b:bowtie2_build. Default is a, t:targetbases_genomewide_distribute')
+def materialprep(**kwargs):
+    global organism,slide_size,target,manifest_data
+    manifest_path = kwargs['manifest']
+    manifest_data = manifest_data_load(manifest_path)
+    module = 'prepareMaterial'
+    organism = kwargs['organism']
+    target = kwargs['target']
+    slide_size = kwargs['slide_size']
+    procedure(module,kwargs['procedure'])
+
+#********************* <3.2: Illumina sequencing data processing> *********************#
+@binf.command(help='Tnseq site mapping and data treating.')
+@click.option('--dirfilename','-df',default='2.Tndata_raw/*',\
+help='Please input Tnseq raw data filename.')
+@click.option('--tag','-tag',prompt='Tag',\
+help="Please input the tag")
+@click.option('--transposon','-t',prompt='Transposon',\
+help="Please input transposon abbreviated name,such as 'TcB'.")
+@click.option('--transposon2','-t2',default='NA',\
+help="Please input transposon abbreviated name,such as 'TcB'.")
+@click.option('--manifest','-m',default='manifest.yaml',help='Specify the manifest.yaml\
+ path, the default is working path(manifest.yaml).')
+@click.option('--select','-s',default=1,help="select whether trim 3' adapter, default is yes")
+@click.option('--lmax','-L',default=140,help="The maximum read length allowed after trimming")
+@click.option('--ut','-ut',default='',help="excluded-output Write output file(s) for excluded \
+reads (no),'-X' will do this")
+@click.option('--chunksize','-CS',default=0,help="The CHUNKSIZE for pandas,default is None ")
+@click.option('--core_num','-c',default=32,help="The -c option causes Bowtie to launch \
+a specified number of parallel search threads(default: 32)")
+#@click.option('--pairedend','-pe',is_flag=True,\
+#help="If you want to analyze single end, please add '-npe'.")
+@click.option('--procedure','-p',default='cbus',help='Lmax procedure:\
+c:cutadapt;b:bowtie; u:unique;s:site_annot;r:cutreads. Default is cbus.')
+def preprocess(**kwargs):
+    global filename,length,transposon,core_num,manifest_data,tag,CHUNKSIZE,select,Lmax,transposon2,ut
+    module = 'preprocess'
+    manifest_path = kwargs['manifest']
+    manifest_data = manifest_data_load(manifest_path)
+    dirfilename = kwargs['dirfilename']
+    transposon = kwargs['transposon']
+    transposon2 = kwargs['transposon2']
+    select = kwargs['select']
+    Lmax = kwargs['lmax']
+    ut = kwargs['ut']
+    CHUNKSIZE = kwargs['chunksize']
+    core_num = kwargs['core_num']
+    #pe = kwargs['pairedend']
+    dirname, filename = dirfilename.split('/')
+    tag = kwargs['tag']#filename.split('.')[0]
+    ##调用全部或部分tnseqdt模块内部的类或函数## 
+    if dirname == '2.Tndata_raw':
+        procedure(module,kwargs['procedure'])
+    else:
+        print("Please choose '2.Tndata_raw' folder with '-df' option!")
+        sys.exit()
+
+#***************************** <3.2: Visualization of data> ****************************#
+@binf.command(help='Visualization of Tnseq data.')
+@click.option('--dirname','-d',prompt='Dirname',help='Please input objective dirname.')
+@click.option('--slide_size','-s',default=1000,help='Please input slide_size.')
+@click.option('--estype','-est',default='',help='Please choose estype.')
+@click.option('--target','-t',default='TA',help="Please input target bases,default is 'TA'.")
+@click.option('--units','-U',default='bits',help='Please choose units of weblogo.')
+@click.option('--manifest','-m',default='manifest.yaml',help='Specify the manifest.yaml\
+ path, the default is working path(manifest.yaml).')
+@click.option('--procedure','-p', default='iw',help='The Lmaxion of procedure. \
+w:weblogo, s:site_distribution, i:insertcount_distribute. Default is all.')
+def visualization(**kwargs):
+    global dirname,slide_size,target,manifest_data,tag,est,units
+    module = 'visualization'
+    manifest_path = kwargs['manifest']
+    manifest_data = manifest_data_load(manifest_path)
+    dirname = kwargs['dirname']
+    units = kwargs['units']
+    tag = dirname.split('/')[0]
+    slide_size = kwargs['slide_size']
+    target = kwargs['target']
+    est = kwargs['estype']
+    procedure(module,kwargs['procedure'])
+
+#**************************** <3.3:Comparison of libraries> *****************************#
+@binf.command(help='Multi-seq-libraries compare.')
+@click.option('--dirnamelist','-d',multiple=True,default='',help='Please input filename of library.')
+@click.option('--manifest','-m',default='manifest.yaml',help='Specify the manifest.yaml\
+ path, the default is working path(manifest.yaml).')
+@click.option('--comb_type','-ct',default='all',help='Please choose combine type, default is all.')
+@click.option('--procedure','-p', default='lv',help='The Lmaxion of procedure. \
+p:libs_plus,v:vslibreads. Default is blastn.')
+def libvs(**kwargs):
+    global dirnamelist,comb_type,manifest_data
+    module = 'compareLibraries'
+    dirnamelist = kwargs['dirnamelist']
+    manifest_path = kwargs['manifest']
+    manifest_data = manifest_data_load(manifest_path)
+    comb_type = kwargs['comb_type']
+    procedure(module,kwargs['procedure'])
+
+#*************************** <3.6: Analysis of gene esanalysis> **************************#
+@binf.command(help='Essential analysis of Ppgene.')
+@click.option('--dirfile','-df',multiple=True,default='',help='Please input objective filename.')
+@click.option('--dirname','-d',default='',help='Please input objective dirname.')
+@click.option('--method','-m',default=1,help='Please input analysis method.Method 1 means \
+retain repeated insertion reads, and 2 meads drop repeats. Default is 1.')
+@click.option('--all_insert','-a',default=0,help='Total insertion number. Default is CDS \
+total insertion number.')
+@click.option('--tacounts','-tc',default='yes',help='Choose TAcounts. Default is yes')
+@click.option('--manifest','-m',default='manifest.yaml',help='Specify the manifest.yaml\
+ path, the default is working path(manifest.yaml).')
+@click.option('--estype','-et',default='ScSp',help='Please input estypefile.')
+@click.option('--reads_limit','-rl',default=0,help='Limit read counts.')
+@click.option('--bin','-b',default=1000000,help='Please input bin.')
+@click.option('--procedure','-p', default='oe',help='The Lmaxion of procedure. \
+w:wigfile_creation, g:gene_integration_densities, e:es_map, f:insert_freq_compare. Default is all.')
+def esanalysis(**kwargs):
+    global dirfile,method,all_insert,estype,manifest_data,TAcounts,dir,reads_limit,bin
+    module = 'analyzeEssentiality'
+    dirfile = kwargs['dirfile']
+    dir = kwargs['dirname']
+    manifest_path = kwargs['manifest']
+    manifest_data = manifest_data_load(manifest_path)
+    method = kwargs['method']
+    all_insert = kwargs['all_insert']
+    estype = kwargs['estype']
+    TAcounts = kwargs['tacounts']
+    reads_limit = kwargs['reads_limit']
+    bin = kwargs['bin']
+    procedure(module,kwargs['procedure'])
+
+#************************* <3.6: Building logistic regression model> *************************#
+
+@binf.command(help='Essential analysis of Ppgene.')
+@click.option('--subject1','-sj1',default='',help='Please input subject file pathway.')
+@click.option('--subject2','-sj2',default='',help='Please input subject file pathway.')
+@click.option('--learnobj1','-lj1',default='1.material_prep/sw_es_Dextrose.xls',\
+help='Please input learning object file pathway.')
+@click.option('--learnobj2','-lj2',default='1.material_prep/sw_es_Methanol.xls',\
+help='Please input learning object file pathway.')
+@click.option('--procedure','-p', default='e',help='e:esanalysis. Default is all.')
+def logimodel(**kwargs):
+    global subject1,subject2,learnobj1,learnobj2
+    module = 'buildLogisticRegressionModel'
+    subject1 = kwargs['subject1']
+    subject2 = kwargs['subject2']
+    learnobj1 = kwargs['learnobj1']
+    learnobj2 = kwargs['learnobj2']
+    procedure(module,kwargs['procedure'])
+
+
+#================================== <4: Running main function> ==================================#                    
+if __name__ == '__main__':
+    logger = log.createCustomLogger('root')
+    binf()
+
+
