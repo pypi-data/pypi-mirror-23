@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: shitty_tools
+Version: 2017.06.26.1
+Summary: A collection of Python modules including tools for connection pools, entity-attribute-value tables, key-value storage, and rate limiting.
+Home-page: https://github.com/njatkinson/shitty_tools
+Author: Nate Atkinson
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/njatkinson/shitty_tools/archive/2017.06.26.1.tar.gz
+Description: UNKNOWN
+Keywords: connection pool,key value,rate limit,sqlalchemy,entity attribute value
+Platform: UNKNOWN
