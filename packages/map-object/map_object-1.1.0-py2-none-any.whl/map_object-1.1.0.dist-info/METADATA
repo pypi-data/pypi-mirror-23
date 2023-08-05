@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: map-object
+Version: 1.1.0
+Summary: A method for mapping dict objects as if it were an array
+Home-page: https://github.com/chrisinajar/py-map-obj
+Author: Chris Vickery
+Author-email: chrisinajar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: six (>=1.10)
+
+py-map-obj
+==========
+
+A python implementation of the map-obj function
+
+
