@@ -1,0 +1,8 @@
+requests>=2.0.1
+setuptools
+netifaces>=0.10.5
+IPy>=0.56
+argparse
+pyOpenSSL
+ndg-httpsclient
+pyasn1
