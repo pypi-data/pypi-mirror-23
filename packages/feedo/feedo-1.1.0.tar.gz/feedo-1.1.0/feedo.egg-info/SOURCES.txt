@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+feedo/__init__.py
+feedo/feedo.py
+feedo/formatter.py
+feedo.egg-info/PKG-INFO
+feedo.egg-info/SOURCES.txt
+feedo.egg-info/dependency_links.txt
+feedo.egg-info/entry_points.txt
+feedo.egg-info/requires.txt
+feedo.egg-info/top_level.txt
