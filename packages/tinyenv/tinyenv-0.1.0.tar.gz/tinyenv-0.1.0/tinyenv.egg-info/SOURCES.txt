@@ -1,0 +1,14 @@
+setup.py
+tests/__init__.py
+tests/test_flags.py
+tests/utils/__init__.py
+tests/utils/test_fileutil.py
+tinyenv/__init__.py
+tinyenv/flags.py
+tinyenv.egg-info/PKG-INFO
+tinyenv.egg-info/SOURCES.txt
+tinyenv.egg-info/dependency_links.txt
+tinyenv.egg-info/requires.txt
+tinyenv.egg-info/top_level.txt
+tinyenv/utils/__init__.py
+tinyenv/utils/fileutil.py
