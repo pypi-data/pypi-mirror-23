@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+yaz0/__init__.py
+yaz0.egg-info/PKG-INFO
+yaz0.egg-info/SOURCES.txt
+yaz0.egg-info/dependency_links.txt
+yaz0.egg-info/top_level.txt
