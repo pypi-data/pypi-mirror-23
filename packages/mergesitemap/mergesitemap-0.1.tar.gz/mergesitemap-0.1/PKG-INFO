@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mergesitemap
+Version: 0.1
+Summary: Combines XML site maps
+Home-page: http://github.com/kindlyops/mergesitemap
+Author: Kindly Ops LLC
+Author-email: support@kindlyops.com
+License: Apache2
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

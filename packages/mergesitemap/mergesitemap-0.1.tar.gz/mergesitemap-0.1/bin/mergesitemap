@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+
+'''Combine two sitemaps, and emit a new sitemap with a URL Set containing the
+URLs from both sitemaps.
+
+./mergesitemap.py --firstmap=first_sitemap.xml --secondmap=second_sitemap.xml --output=combined_sitemap.xml
+'''
+
+import argparse
+import xml.etree.ElementTree as ET
+import sys
+
+
+__author__ = 'Kindly Ops LLC <support@kindlyops.com>'
+
+
+def get_args():
+    # Assign description to the help doc
+    parser = argparse.ArgumentParser(
+        description='Combine two XML sitemaps')
+    # Add arguments
+    parser.add_argument(
+        '-a', '--firstmap', type=str, help='First sitemap file', required=True)
+    parser.add_argument(
+        '-b', '--secondmap', type=str, help='Second sitemap file', required=True)
+    parser.add_argument(
+        '-o', '--output', type=str, help='Optional output file', required=True)
+
+    # Array for all arguments passed to script
+    args = parser.parse_args()
+
+    # Assign args to variables
+    firstmap = args.firstmap
+    secondmap = args.secondmap
+    outputfile = args.output
+
+    return firstmap, secondmap, outputfile
+
+
+def main():
+    firstmap, secondmap, outputfile = get_args()
+    combine_maps(firstmap, secondmap, outputfile)
+
+
+def combine_maps(firstmap, secondmap, outputfile):
+    print ("Firstmap is '{:s}'".format(firstmap))
+    print ("Secondmap is '{:s}'".format(secondmap))
+    if outputfile:
+        print ("Outputfile is '{:s}'".format(outputfile))
+
+    a = ET.parse(firstmap)
+    b = ET.parse(secondmap)
+
+    # open it
+    outputfd = open(outputfile, 'wb')
+
+    # combine the lists of urls from both sitemaps and write a new sitemap
+    root = a.getroot()
+    if not root:
+        print("problem loading urlset node")
+    else:
+        #for child in root:
+        #    print(child.tag)
+
+        urlset = b.getroot()
+        urlset.extend(root)
+
+        b.write(outputfd, encoding="UTF-8", xml_declaration=True)
+
+
+if __name__ == "__main__":
+   main()
