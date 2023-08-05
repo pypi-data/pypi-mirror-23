@@ -1,0 +1,34 @@
+Metadata-Version: 2.0
+Name: django-cabinet
+Version: 0.1.1
+Summary: Media library for Django
+Home-page: http://github.com/matthiask/django-cabinet/
+Author: Matthias Kestenholz
+Author-email: mk@feinheit.ch
+License: BSD License
+Platform: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+
+=========================================
+django-cabinet - Media library for Django
+=========================================
+
+.. image:: https://travis-ci.org/matthiask/django-cabinet.png?branch=master
+   :target: https://travis-ci.org/matthiask/django-cabinet
+
+django-cabinet is a media library for Django implemented while trying to
+write as little code as possible to keep maintenance at a minimum.
+
+- `Documentation <https://django-cabinet.readthedocs.io>`_
+- `Github <https://github.com/matthiask/django-cabinet/>`_
+
+
