@@ -1,0 +1,10 @@
+include README.md
+include stf/bin/stf
+include stf/__init__.py
+include stf/managers/*.py
+include stf/views/*.py
+include stf/modules/*.py
+include stf/plugins/*.py
+recursive-include stf/lib/ *.py
+recursive-include stf/examples/ *
+

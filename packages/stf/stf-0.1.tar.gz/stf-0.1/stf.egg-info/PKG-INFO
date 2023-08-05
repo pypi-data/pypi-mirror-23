@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: stf
+Version: 0.1
+Summary: The simple test framework
+Home-page: https://github.com/nokia
+Author: Gemfield
+Author-email: gemfield@civilnet.cn
+License: Apache License, Version 2.0
+Description: stf
+        --------
+        
+        To use (with caution), simply do::
+        
+            stf example.ini
+        
+Keywords: automation test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Topic :: Software Development :: Testing
