@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: lbry
+Version: 1.0.2
+Summary: A client wrapper for the LBRY API, using requests module
+Home-page: https://github.com/simonstead/lbry-python
+Author: Simon Stead
+Author-email: simonstead@me.com
+License: UNKNOWN
+Download-URL: https://github.com/simonstead/lbry-python/archive/v1.0.2.tar.gz
+Description: UNKNOWN
+Keywords: lbry,crypto
+Platform: UNKNOWN
