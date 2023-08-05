@@ -1,0 +1,15 @@
+elasticsearch_synonym_toolkit-0.1.2.dist-info/DESCRIPTION.rst,sha256=v3xdFLAAOCmzKFx2Oq9wkEcYAPzP_yGNOECn3KG1ykY,1647
+elasticsearch_synonym_toolkit-0.1.2.dist-info/METADATA,sha256=kWdAWJ8SziiN32M5l4wwFvpiJPOHSwC8CqE4qEIFjW4,2585
+elasticsearch_synonym_toolkit-0.1.2.dist-info/RECORD,,
+elasticsearch_synonym_toolkit-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+elasticsearch_synonym_toolkit-0.1.2.dist-info/entry_points.txt,sha256=vyJa7_DrCHpiUrmvZAKoYGv_WBGDSetDvAVg98ZvlC8,56
+elasticsearch_synonym_toolkit-0.1.2.dist-info/metadata.json,sha256=lQbUW7QpMSDYO0vVfgJrTcKoY7FWEjetVeTuo753LAE,1313
+elasticsearch_synonym_toolkit-0.1.2.dist-info/top_level.txt,sha256=s6bW_1p3dKHxEfzh6hTpsXK23truK74sda3COsDgnrg,12
+es_synonyms/__init__.py,sha256=eFjp6-Ofy95oqHIbiLM5_bsLdfMwFyjEKyMAqs_f0w4,81
+es_synonyms/__main__.py,sha256=lcs8lHI62bc6tZSKrwCaInULppPmxGqNdhvZzFw46fQ,60
+es_synonyms/constants.py,sha256=tN41FPWf3MDMnm7x81HN-woPPwgXqrlvstB7yBATma0,92
+es_synonyms/exceptions.py,sha256=3x03Qm1Gjp9fUmYtjZnuq9oKmPEPAMFMELttpP6eSLI,180
+es_synonyms/parser.py,sha256=qeJqA33AqnFMHLwcHRbS39B32-jIrTjbveV-mOkWx64,1776
+es_synonyms/report.py,sha256=991SvKYqKbOPvbHcMJsIPp97y-xMQnY2AwGqAigQMIQ,693
+es_synonyms/synlint.py,sha256=pfihvULzRcA99C4dqaSbvgDMtU29hOmnYbHFwTgP8SM,627
+es_synonyms/tests.py,sha256=q3uNx4SY22-y678fbA5cp5HZOtX8e0ujphlfCjA_pDM,855
