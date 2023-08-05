@@ -1,0 +1,15 @@
+kerb_sts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kerb_sts/__main__.py,sha256=AVS_7p3Zq7jPMsh98I3dRbSCKAB7SLffCKQcTPIpQHQ,8849
+kerb_sts/auth.py,sha256=6fxPlagech6yD5DTmaHnBBbqqjjjUGYVuGztDnKYgDE,3812
+kerb_sts/awsrole.py,sha256=ScaOVTuV5_REBDHtypLvh0GxK9uq4fvQSsplgTqaoEY,2456
+kerb_sts/config.py,sha256=AekhUqZluthn-YsGzdCCxRiTitoc1Xk13J_j2xlZblc,3014
+kerb_sts/handler.py,sha256=VjZ4Lai-Bn5fO5vBEzw9l_xQGiC9ZqE7RP3qWNe1ckE,11132
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_awsrole.py,sha256=Fb5JY37cLEdoWNveZCHZxM16VXf_ozAMl6TfIzHzdOs,1812
+kerb_sts-0.1.2.dist-info/top_level.txt,sha256=z-iyI6Iq2xJqq-YUCtkPj786TL7AJVVH_Rg6JsQlXGQ,15
+kerb_sts-0.1.2.dist-info/entry_points.txt,sha256=h0UWLlxIcxgb9sFqCrv2dokjYpflV77MC2AmraNZZI0,53
+kerb_sts-0.1.2.dist-info/METADATA,sha256=bW5mgf40h5j0kxqw8Y68RMkeiy_wmz880GSgT1v2pFU,6814
+kerb_sts-0.1.2.dist-info/DESCRIPTION.rst,sha256=gFYS-g7EkSKeUknPvGH0eIPMaouQJ49ngBXTOIys4jY,6015
+kerb_sts-0.1.2.dist-info/metadata.json,sha256=4yoCZSNQD4CqeocJN1rfQdiC8Rup66Hkxmx7SjOq2n8,1008
+kerb_sts-0.1.2.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+kerb_sts-0.1.2.dist-info/RECORD,,
