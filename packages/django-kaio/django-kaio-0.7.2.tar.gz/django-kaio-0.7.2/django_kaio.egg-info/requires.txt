@@ -1,0 +1,2 @@
+clint
+django-configurations>=2,<3
