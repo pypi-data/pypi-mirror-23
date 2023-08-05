@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+aws_google_auth/__init__.py
+aws_google_auth.egg-info/PKG-INFO
+aws_google_auth.egg-info/SOURCES.txt
+aws_google_auth.egg-info/dependency_links.txt
+aws_google_auth.egg-info/entry_points.txt
+aws_google_auth.egg-info/requires.txt
+aws_google_auth.egg-info/top_level.txt
