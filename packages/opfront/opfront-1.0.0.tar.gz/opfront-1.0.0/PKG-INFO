@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: opfront
+Version: 1.0.0
+Summary: Python SDK for the Opfront REST API
+Home-page: https://github.com/opfront/python-sdk
+Author: opfront
+Author-email: UNKNOWN
+License: MIT
+Description: See https://github.com/opfront/python-sdk for README.
+Platform: UNKNOWN
