@@ -1,0 +1,4 @@
+pandas
+gitpython
+tqdm
+sphinx_rtd_theme
