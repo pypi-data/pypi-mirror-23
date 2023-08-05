@@ -1,0 +1,9 @@
+README.rst
+marshmallow_annotations.py
+setup.py
+marshmallow_annotations.egg-info/PKG-INFO
+marshmallow_annotations.egg-info/SOURCES.txt
+marshmallow_annotations.egg-info/dependency_links.txt
+marshmallow_annotations.egg-info/not-zip-safe
+marshmallow_annotations.egg-info/requires.txt
+marshmallow_annotations.egg-info/top_level.txt
