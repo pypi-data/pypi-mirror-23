@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: china_city
+Version: 0.1
+Summary: Include China city name
+Home-page: https://github.com/FrankQiang/china_city
+Author: Quintin
+Author-email: quintinqiang@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: China city
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
