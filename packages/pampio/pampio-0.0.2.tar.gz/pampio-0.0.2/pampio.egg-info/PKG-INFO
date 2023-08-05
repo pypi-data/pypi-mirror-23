@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pampio
+Version: 0.0.2
+Summary: A Python Ampio Server IP client implementation
+Home-page: http://github.com/kstaniek/pampio
+Author: Klaudiusz Staniek
+Author-email: kstaniek@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: ampio automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
