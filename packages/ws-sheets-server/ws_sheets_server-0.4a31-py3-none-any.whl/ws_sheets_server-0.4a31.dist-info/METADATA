@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: ws-sheets-server
+Version: 0.4a31
+Summary: server for ws_sheets
+Home-page: http://github.com/chuck1/ws_sheets_server
+Author: Charles Rymal
+Author-email: charlesrymal@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: jinja2
+Requires-Dist: modconf (==0.3a5)
+Requires-Dist: ws-callbacks (==0.2a0)
+Requires-Dist: ws-sheets (==0.4a8)
+Requires-Dist: ws-storage (==0.4a8)
+
+UNKNOWN
+
+
