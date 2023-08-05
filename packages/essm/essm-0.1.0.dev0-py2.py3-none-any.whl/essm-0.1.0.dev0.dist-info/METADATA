@@ -1,0 +1,56 @@
+Metadata-Version: 2.0
+Name: essm
+Version: 0.1.0.dev0
+Summary: Environmental Science for SageMath.
+Home-page: https://github.com/environmentalscience/essm
+Author: Stan Schymanski
+Author-email: schymans@gmail.com
+License: GPLv2
+Keywords: sagemath environmental science
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 1 - Planning
+Provides-Extra: all
+Requires-Dist: Sphinx (>=1.5.1); extra == 'all'
+Requires-Dist: Sphinx (>=1.5.1); extra == 'all'
+Requires-Dist: check-manifest (>=0.25); extra == 'all'
+Requires-Dist: check-manifest (>=0.25); extra == 'all'
+Requires-Dist: coverage (>=4.0); extra == 'all'
+Requires-Dist: coverage (>=4.0); extra == 'all'
+Requires-Dist: isort (>=4.2.2); extra == 'all'
+Requires-Dist: isort (>=4.2.2); extra == 'all'
+Requires-Dist: matplotlib (>=1.5.1); extra == 'all'
+Requires-Dist: matplotlib (>=1.5.1); extra == 'all'
+Requires-Dist: pydocstyle (>=1.0.0); extra == 'all'
+Requires-Dist: pydocstyle (>=1.0.0); extra == 'all'
+Requires-Dist: pytest (>=2.8.0); extra == 'all'
+Requires-Dist: pytest (>=2.8.0); extra == 'all'
+Requires-Dist: pytest-cache (>=1.0); extra == 'all'
+Requires-Dist: pytest-cache (>=1.0); extra == 'all'
+Requires-Dist: pytest-cov (>=1.8.0); extra == 'all'
+Requires-Dist: pytest-cov (>=1.8.0); extra == 'all'
+Requires-Dist: pytest-pep8 (>=1.0.6); extra == 'all'
+Requires-Dist: pytest-pep8 (>=1.0.6); extra == 'all'
+Requires-Dist: sphinxcontrib-bibtex (>=0.3.5); extra == 'all'
+Requires-Dist: sphinxcontrib-bibtex (>=0.3.5); extra == 'all'
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.5.1); extra == 'docs'
+Requires-Dist: matplotlib (>=1.5.1); extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex (>=0.3.5); extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: check-manifest (>=0.25); extra == 'tests'
+Requires-Dist: coverage (>=4.0); extra == 'tests'
+Requires-Dist: isort (>=4.2.2); extra == 'tests'
+Requires-Dist: pydocstyle (>=1.0.0); extra == 'tests'
+Requires-Dist: pytest (>=2.8.0); extra == 'tests'
+Requires-Dist: pytest-cache (>=1.0); extra == 'tests'
+Requires-Dist: pytest-cov (>=1.8.0); extra == 'tests'
+Requires-Dist: pytest-pep8 (>=1.0.6); extra == 'tests'
+
+
+
+
