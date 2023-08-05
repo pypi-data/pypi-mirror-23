@@ -1,0 +1,9 @@
+setup.py
+client_vision_test.egg-info/PKG-INFO
+client_vision_test.egg-info/SOURCES.txt
+client_vision_test.egg-info/dependency_links.txt
+client_vision_test.egg-info/pbr.json
+client_vision_test.egg-info/top_level.txt
+vision/__init__.py
+vision/upload_to_s3.py
+vision/upload_to_s3_exe.py
