@@ -1,0 +1,12 @@
+acceptable/__init__.py,sha256=_DTtJj73B6Rhy8AOZ6zRILX35X0l_pcZDHsjBhHgjQo,386
+acceptable/_build_doubles.py,sha256=xu3q7lWq-pSkOUam9E11U9V5uMa7FvLGw7wVVT3ifFE,11235
+acceptable/_doubles.py,sha256=GldC9-bapUzLzAd3uxgr5ka7VaB4oXmyX-5SAA5NY2s,4390
+acceptable/_service.py,sha256=MggeklJeC-7VC0AbBlY9keqNLUj_ci-2uwccOLaPg3Q,9774
+acceptable/_validation.py,sha256=QzXUfyTDCbmxPrUqyxKk8MPzpsCGA38BMcHe40el8hs,6228
+acceptable-0.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+acceptable-0.9.dist-info/METADATA,sha256=Oy6722bWNHslZW6-K0_F3fxYkvBFlDWK13NixDZLNes,346
+acceptable-0.9.dist-info/RECORD,,
+acceptable-0.9.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+acceptable-0.9.dist-info/entry_points.txt,sha256=9aNpHOcTISCq4yjpr3zClgmMOKRjMhhdzWPcd0w7d0I,74
+acceptable-0.9.dist-info/metadata.json,sha256=bt6QNeOKcvtbg2NBZ7iYQfnWV28swklXIA9VYmox4Qg,847
+acceptable-0.9.dist-info/top_level.txt,sha256=X2kRLbO2bg-dgzQ_O4k_PjTnrKcv7dq0jaSLbM_WiJ4,11
