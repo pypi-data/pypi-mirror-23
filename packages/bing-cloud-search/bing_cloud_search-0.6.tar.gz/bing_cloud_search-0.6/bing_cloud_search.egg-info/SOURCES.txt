@@ -1,0 +1,8 @@
+setup.py
+bing_cloud_search/CloudySearch.py
+bing_cloud_search/__init__.py
+bing_cloud_search.egg-info/PKG-INFO
+bing_cloud_search.egg-info/SOURCES.txt
+bing_cloud_search.egg-info/dependency_links.txt
+bing_cloud_search.egg-info/requires.txt
+bing_cloud_search.egg-info/top_level.txt
