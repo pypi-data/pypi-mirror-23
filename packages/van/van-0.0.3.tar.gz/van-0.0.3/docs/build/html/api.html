@@ -1,0 +1,617 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>API Reference &#8212; van 0.0.1 文档</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="prev" title="Explanation" href="explanation.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="总目录"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="explanation.html" title="Explanation"
+             accesskey="P">上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">van 0.0.1 文档</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="永久链接至标题">¶</a></h1>
+<div class="section" id="config">
+<h2>Config<a class="headerlink" href="#config" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.Config">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">Config</code><a class="headerlink" href="#van.Config" title="永久链接至目标">¶</a></dt>
+<dd><p>配置类</p>
+</dd></dl>
+
+</div>
+<div class="section" id="fan">
+<h2>Fan<a class="headerlink" href="#fan" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.Fan">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">Fan</code><span class="sig-paren">(</span><em>cfg=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan" title="永久链接至目标">¶</a></dt>
+<dd><p>模拟</p>
+<dl class="method">
+<dt id="van.Fan.accept_follower">
+<code class="descname">accept_follower</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.accept_follower" title="永久链接至目标">¶</a></dt>
+<dd><p>接受关注请求</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>User|str</em>) -- User对象，或id，或 loginname</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(bool, <a class="reference internal" href="#van.User" title="van.User">User</a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.block">
+<code class="descname">block</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.block" title="永久链接至目标">¶</a></dt>
+<dd><p>屏蔽用户</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>str|User</em>) -- 被屏蔽的用户User对象或者id，loginname</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(bool, <a class="reference internal" href="#van.User" title="van.User">User</a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.blocked_users">
+<code class="descname">blocked_users</code><a class="headerlink" href="#van.Fan.blocked_users" title="永久链接至目标">¶</a></dt>
+<dd><p>返回黑名单上用户列表</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">(bool, [<a class="reference internal" href="#van.User" title="van.User">User</a>])</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.blocked_users_id">
+<code class="descname">blocked_users_id</code><a class="headerlink" href="#van.Fan.blocked_users_id" title="永久链接至目标">¶</a></dt>
+<dd><p>获取用户黑名单id列表</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">(bool, [str])</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.deny_follower">
+<code class="descname">deny_follower</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.deny_follower" title="永久链接至目标">¶</a></dt>
+<dd><p>拒绝关注请求</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>User|str</em>) -- User对象，或id，或 loginname</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(bool, <a class="reference internal" href="#van.User" title="van.User">User</a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.draft_box">
+<code class="descname">draft_box</code><a class="headerlink" href="#van.Fan.draft_box" title="永久链接至目标">¶</a></dt>
+<dd><p>显示发送失败的消息列表</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">[<a class="reference internal" href="#van.Status" title="van.Status">Status</a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.follow">
+<code class="descname">follow</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.follow" title="永久链接至目标">¶</a></dt>
+<dd><p>关注用户</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>User|str</em>) -- 被关注的用户, User对象，或id，或 loginname</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.follow_requests">
+<code class="descname">follow_requests</code><a class="headerlink" href="#van.Fan.follow_requests" title="永久链接至目标">¶</a></dt>
+<dd><p>返回请求关注当前用户的列表</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">(bool, [<a class="reference internal" href="#van.User" title="van.User">User</a>])</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.is_blocked">
+<code class="descname">is_blocked</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.is_blocked" title="永久链接至目标">¶</a></dt>
+<dd><p>检查是否屏蔽用户</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>str|User</em>) -- 用户User对象或者id，loginname</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(bool, str)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.mentions">
+<code class="descname">mentions</code><em class="property"> = None</em><a class="headerlink" href="#van.Fan.mentions" title="永久链接至目标">¶</a></dt>
+<dd><p>返回提到当前用户的20条消息</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.public_timeline">
+<code class="descname">public_timeline</code><em class="property"> = None</em><a class="headerlink" href="#van.Fan.public_timeline" title="永久链接至目标">¶</a></dt>
+<dd><p>返回公共时间线</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Fan.replies">
+<code class="descname">replies</code><em class="property"> = None</em><a class="headerlink" href="#van.Fan.replies" title="永久链接至目标">¶</a></dt>
+<dd><p>返回当前用户收到的回复</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.unblock">
+<code class="descname">unblock</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.unblock" title="永久链接至目标">¶</a></dt>
+<dd><p>解除屏蔽</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>str|User</em>) -- 被屏蔽的用户User对象或者id，loginname</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(bool, str)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.unfollow">
+<code class="descname">unfollow</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.unfollow" title="永久链接至目标">¶</a></dt>
+<dd><p>取消关注用户</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>user</strong> (<em>User|str</em>) -- 被关注的用户, User对象，或id，或 loginname</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Fan.update_status">
+<code class="descname">update_status</code><span class="sig-paren">(</span><em>text</em>, <em>photo=None</em>, <em>in_reply_to_user_id=None</em>, <em>in_reply_to_status_id=None</em>, <em>repost_status_id=None</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Fan.update_status" title="永久链接至目标">¶</a></dt>
+<dd><p>发表新状态，<code class="xref py py-meth docutils literal"><span class="pre">Status.send()</span></code> 的快捷方式。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first last simple">
+<li><strong>text</strong> (<em>str</em>) -- 文字</li>
+<li><strong>photo</strong> (<em>str</em>) -- 照片路径或者URL</li>
+<li><strong>in_reply_to_user_id</strong> (<em>str</em>) -- 要回复的用户ID</li>
+<li><strong>in_reply_to_status_id</strong> (<em>str</em>) -- 要回复的消息ID</li>
+<li><strong>repost_status_id</strong> (<em>str</em>) -- 要转发的消息ID</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="user">
+<h2>User<a class="headerlink" href="#user" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.User">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">User</code><span class="sig-paren">(</span><em>id=None</em>, <em>data=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#van.User" title="永久链接至目标">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="van.User.favorites">
+<code class="descname">favorites</code><a class="headerlink" href="#van.User.favorites" title="永久链接至目标">¶</a></dt>
+<dd><p>浏览此用户收藏的消息</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.User.followers">
+<code class="descname">followers</code><a class="headerlink" href="#van.User.followers" title="永久链接至目标">¶</a></dt>
+<dd><p>返回此用户的关注者(前100个)
+此用户为当前用户的关注对象或未设置隐私</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.User.followers_id">
+<code class="descname">followers_id</code><a class="headerlink" href="#van.User.followers_id" title="永久链接至目标">¶</a></dt>
+<dd><p>返回此用户关注者的id列表</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.User.friends">
+<code class="descname">friends</code><a class="headerlink" href="#van.User.friends" title="永久链接至目标">¶</a></dt>
+<dd><p>返回此用户的关注对象(前100个)
+此用户为当前用户的关注对象或未设置隐私</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.User.friends_id">
+<code class="descname">friends_id</code><a class="headerlink" href="#van.User.friends_id" title="永久链接至目标">¶</a></dt>
+<dd><p>返回此用户关注对象的id列表</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.User.relationship">
+<code class="descname">relationship</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#van.User.relationship" title="永久链接至目标">¶</a></dt>
+<dd><p>返回此用户与 other 的关系： 是否屏蔽，是否关注，是否被关注</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>other</strong> (<em>str|User</em>) -- 其他用户</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">(a_blocked_b, a_following_b, a_followed_b)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="status">
+<h2>Status<a class="headerlink" href="#status" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.Status">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">Status</code><span class="sig-paren">(</span><em>id=None</em>, <em>data=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Status" title="永久链接至目标">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="van.Status.context">
+<code class="descname">context</code><a class="headerlink" href="#van.Status.context" title="永久链接至目标">¶</a></dt>
+<dd><p>按照时间先后顺序显示消息上下文</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.delete">
+<code class="descname">delete</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.delete" title="永久链接至目标">¶</a></dt>
+<dd><p>删除此消息（当前用户发出的消息）</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.favorite">
+<code class="descname">favorite</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.favorite" title="永久链接至目标">¶</a></dt>
+<dd><p>收藏此消息</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.reply">
+<code class="descname">reply</code><span class="sig-paren">(</span><em>response</em>, <em>photo=None</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.reply" title="永久链接至目标">¶</a></dt>
+<dd><p>回复这条消息</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.repost">
+<code class="descname">repost</code><span class="sig-paren">(</span><em>repost</em>, <em>photo=None</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.repost" title="永久链接至目标">¶</a></dt>
+<dd><p>转发这条消息</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.send">
+<code class="descname">send</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.send" title="永久链接至目标">¶</a></dt>
+<dd><p>Send self
+:return 发送状态
+:rtype (bool, dict|str)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Status.unfavorite">
+<code class="descname">unfavorite</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Status.unfavorite" title="永久链接至目标">¶</a></dt>
+<dd><p>取消收藏此消息</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="timeline">
+<h2>Timeline<a class="headerlink" href="#timeline" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.Timeline">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">Timeline</code><span class="sig-paren">(</span><em>user</em>, <em>endpoint</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline" title="永久链接至目标">¶</a></dt>
+<dd><dl class="method">
+<dt id="van.Timeline.__call__">
+<code class="descname">__call__</code><span class="sig-paren">(</span><em>since_id=None</em>, <em>max_id=None</em>, <em>count=60</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.__call__" title="永久链接至目标">¶</a></dt>
+<dd><p>调用内部 <cite>_fetch</cite> 方法获取数据。
+可以自己控制 <cite>since_id</cite>, <cite>max_id</cite> 和 <cite>count</cite> 参数，获取的结果不加入内部缓存。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>since_id</strong> -- 开始的消息ID</li>
+<li><strong>max_id</strong> -- 结束的消息ID</li>
+<li><strong>count</strong> -- 获取数量，最大为60</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回:</th><td class="field-body"><p class="first"><code class="xref py py-class docutils literal"><span class="pre">Status</span></code> 数组</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first last">[<a class="reference internal" href="#van.Status" title="van.Status">Status</a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Timeline.__iter__">
+<code class="descname">__iter__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.__iter__" title="永久链接至目标">¶</a></dt>
+<dd><p>从当前游标位置开始获取消息，可以像普通数组一样在循环中使用。
+:return: <code class="xref py py-class docutils literal"><span class="pre">Status</span></code></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Timeline.read">
+<code class="descname">read</code><span class="sig-paren">(</span><em>count=10</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.read" title="永久链接至目标">¶</a></dt>
+<dd><p>从当前游标位置处往后读取 <cite>count</cite> 条消息</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>count</strong> (<em>int</em>) -- 读取数量</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回:</th><td class="field-body"><code class="xref py py-class docutils literal"><span class="pre">Status</span></code> 数组</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">[<a class="reference internal" href="#van.Status" title="van.Status">Status</a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Timeline.rewind">
+<code class="descname">rewind</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.rewind" title="永久链接至目标">¶</a></dt>
+<dd><p>获取最新的状态插入到时间线的头部，并将指针置为0（指向最新的状态）</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Timeline.seek">
+<code class="descname">seek</code><span class="sig-paren">(</span><em>offset=None</em>, <em>whence=0</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.seek" title="永久链接至目标">¶</a></dt>
+<dd><p>移动游标的位置</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first last simple">
+<li><strong>offset</strong> (<em>int</em>) -- 偏移量</li>
+<li><strong>whence</strong> (<em>int</em>) -- <p>相对位置</p>
+<ul>
+<li>0 -- 相对于时间线开始位置，偏移量必须 &gt;= 0</li>
+<li>1 -- 相对于当前游标位置，偏移量可正可负，超出范围的偏移量会被纠正为边界值</li>
+<li>2 -- 相对于时间线结尾，偏移量 &lt;=0</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="first admonition-title">警告</p>
+<p class="last">此函数只能在有限范围检查索引范围，请小心使用</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">移动后的游标位置</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Timeline.tell">
+<code class="descname">tell</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Timeline.tell" title="永久链接至目标">¶</a></dt>
+<dd><p>返回当前游标的位置</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="van.Timeline.user">
+<code class="descname">user</code><em class="property"> = None</em><a class="headerlink" href="#van.Timeline.user" title="永久链接至目标">¶</a></dt>
+<dd><p><a class="reference internal" href="#van.User" title="van.User"><code class="xref py py-class docutils literal"><span class="pre">User</span></code></a> 时间线的主人</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="base">
+<h2>Base<a class="headerlink" href="#base" title="永久链接至标题">¶</a></h2>
+<dl class="class">
+<dt id="van.Base">
+<em class="property">class </em><code class="descclassname">van.</code><code class="descname">Base</code><span class="sig-paren">(</span><em>id=None</em>, <em>data=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Base" title="永久链接至目标">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal"><span class="pre">User</span></code> 和 <code class="xref py py-class docutils literal"><span class="pre">Status</span></code> 的基类。
+为子类提供对象缓存和自动加载功能。</p>
+<dl class="method">
+<dt id="van.Base.fill">
+<code class="descname">fill</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#van.Base.fill" title="永久链接至目标">¶</a></dt>
+<dd><p>调用API填充此对象</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="van.Base.get">
+<em class="property">classmethod </em><code class="descname">get</code><span class="sig-paren">(</span><em>id=None</em>, <em>data=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Base.get" title="永久链接至目标">¶</a></dt>
+<dd><p>获取一个对象</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>id</strong> (<em>str</em>) -- 对象 ID</li>
+<li><strong>data</strong> (<em>dict</em>) -- 由字典构造对象</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first last">cls</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="van.Base.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#van.Base.init" title="永久链接至目标">¶</a></dt>
+<dd><p>用API返回的字典填充此对象</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">內容目录</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">API Reference</a><ul>
+<li><a class="reference internal" href="#config">Config</a></li>
+<li><a class="reference internal" href="#fan">Fan</a></li>
+<li><a class="reference internal" href="#user">User</a></li>
+<li><a class="reference internal" href="#status">Status</a></li>
+<li><a class="reference internal" href="#timeline">Timeline</a></li>
+<li><a class="reference internal" href="#base">Base</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>上一个主题</h4>
+  <p class="topless"><a href="explanation.html"
+                        title="上一章">Explanation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>本页</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">显示源代码</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>快速搜索</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="转向" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="总目录"
+             >索引</a></li>
+        <li class="right" >
+          <a href="explanation.html" title="Explanation"
+             >上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">van 0.0.1 文档</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, John Jiang.
+      由 <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.2 创建。
+    </div>
+  </body>
+</html>

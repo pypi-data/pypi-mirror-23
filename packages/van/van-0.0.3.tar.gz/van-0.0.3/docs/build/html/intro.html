@@ -1,0 +1,173 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Quick Start &amp; Installation &#8212; van 0.0.1 文档</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Explanation" href="explanation.html" />
+    <link rel="prev" title="van - Fanfou SDK for Human Documents" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="总目录"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="explanation.html" title="Explanation"
+             accesskey="N">下一页</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="van - Fanfou SDK for Human Documents"
+             accesskey="P">上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">van 0.0.1 文档</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="quick-start-installation">
+<h1>Quick Start &amp; Installation<a class="headerlink" href="#quick-start-installation" title="永久链接至标题">¶</a></h1>
+<p>Van <a class="footnote-reference" href="#id4" id="id1">[1]</a> 是一个 <a class="reference external" href="https://www.python.org">Python</a> 编写的 <a class="reference external" href="http://www.fanfou.com">饭否</a> <a class="reference external" href="https://en.wikipedia.org/wiki/Software_development_kit">SDK</a> ，基于 <a class="reference external" href="https://github.com/FanfouAPI/FanFouAPIDoc/wiki">饭否官方API</a> 。
+Van 对官方 API 做了合理的抽象和封装，开发者可以使用简洁优雅的接口，轻松操作用户在饭否上的数据。</p>
+<p>Van 计划添加一些数据获取接口和任务调度功能，使饭否 Bot 开发更简单。</p>
+<div class="section" id="quick-start-demo">
+<h2>Quick Start Demo<a class="headerlink" href="#quick-start-demo" title="永久链接至标题">¶</a></h2>
+<p>下面是一个极简的使用 Demo, 附有简单的注释， 具体的使用我们会在后文详细说明。</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">van</span> <span class="kn">import</span> <span class="n">Fan</span><span class="p">,</span> <span class="n">Config</span>
+
+<span class="c1"># 1. 继承 Config 类，并提供你的配置</span>
+<span class="k">class</span> <span class="nc">MyConfig</span><span class="p">(</span><span class="n">Config</span><span class="p">):</span>
+    <span class="n">consumer_key</span> <span class="o">=</span> <span class="s1">&#39;xxxx&#39;</span>
+    <span class="n">consumer_secret</span> <span class="o">=</span> <span class="s1">&#39;xxxx&#39;</span>
+
+<span class="c1"># 2. 实例化 Fan 对象</span>
+<span class="n">me</span> <span class="o">=</span> <span class="n">Fan</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">cfg</span><span class="o">=</span><span class="n">MyConfig</span><span class="p">())</span>
+
+<span class="c1"># 3. 调用 me 的方法</span>
+<span class="n">me</span><span class="o">.</span><span class="n">update_status</span><span class="p">(</span><span class="s1">&#39;你好啊，李银河！&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="永久链接至标题">¶</a></h2>
+<p>van 只支持 Python3, 请前往官网下载安装 Python 3.5 以上版本。</p>
+<p><em>如果你是开发者，你也可以帮助我兼容 Python2</em></p>
+<p>之后可以使用 <a class="reference external" href="https://pypi.python.org/pypi/pip">pip</a> 安装:</p>
+<div class="highlight-shell"><div class="highlight"><pre><span></span>pip3 install van
+</pre></div>
+</div>
+<p>或者下载源码安装:</p>
+<div class="highlight-shell"><div class="highlight"><pre><span></span>git clone https://github.com/j178/van
+<span class="nb">cd</span> van
+pip3 install . --user
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>申请应用<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>要使用 van 你还需要在饭否中申请一个应用：</p>
+<ol class="arabic simple">
+<li>在 <a class="reference external" href="http://fanfou.com/apps">http://fanfou.com/apps</a> 中创建新应用</li>
+<li>应用名称、主页、描述等信息可以随意填写，如果你想使用 van 的自动 OAuth 认证功能，需要将 <cite>Callback URL</cite> 填写为 <a class="reference external" href="http://localhost:8000/callback">http://localhost:8000/callback</a></li>
+<li>记录下 <cite>Consumer Key</cite> 和 <cite>Consumer Secret</cite></li>
+</ol>
+<p class="rubric">P.S.</p>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td><cite>van</cite> 是 <cite>fan</cite> 在舌头打结时的发音</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">內容目录</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Quick Start &amp; Installation</a><ul>
+<li><a class="reference internal" href="#quick-start-demo">Quick Start Demo</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#id2">申请应用</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>上一个主题</h4>
+  <p class="topless"><a href="index.html"
+                        title="上一章">van - Fanfou SDK for Human Documents</a></p>
+  <h4>下一个主题</h4>
+  <p class="topless"><a href="explanation.html"
+                        title="下一章">Explanation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>本页</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/intro.rst.txt"
+            rel="nofollow">显示源代码</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>快速搜索</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="转向" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="总目录"
+             >索引</a></li>
+        <li class="right" >
+          <a href="explanation.html" title="Explanation"
+             >下一页</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="van - Fanfou SDK for Human Documents"
+             >上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">van 0.0.1 文档</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, John Jiang.
+      由 <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.2 创建。
+    </div>
+  </body>
+</html>
