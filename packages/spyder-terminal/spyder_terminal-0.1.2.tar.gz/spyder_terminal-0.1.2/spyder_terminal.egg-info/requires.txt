@@ -1,0 +1,5 @@
+spyder>=3
+pexpect
+tornado
+coloredlogs
+requests
