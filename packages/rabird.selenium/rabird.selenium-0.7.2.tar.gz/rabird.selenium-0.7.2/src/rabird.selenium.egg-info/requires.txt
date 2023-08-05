@@ -1,0 +1,4 @@
+rabird.core
+selenium
+selenium-requests
+six>=1.10.0
