@@ -1,0 +1,12 @@
+Flask_Caching-1.3.1.dist-info/DESCRIPTION.rst,sha256=morcdi1eciFsnN-ssiuxffGgPZ4CQLdpw_xTZTzHGbw,795
+Flask_Caching-1.3.1.dist-info/METADATA,sha256=y88xDoAtSU3DjCi5nDe_5AyOSw0aEqWxUWxOzWeZGCw,1802
+Flask_Caching-1.3.1.dist-info/RECORD,,
+Flask_Caching-1.3.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Flask_Caching-1.3.1.dist-info/metadata.json,sha256=Mj5wAhqXL8HHLppiafT3_mmVYf2G15y1TR0SuKXq7vY,1176
+Flask_Caching-1.3.1.dist-info/top_level.txt,sha256=n9GtsdkLGBvDxN57lvIn4ZGnnQn3rkZVwus4MmBwA4I,14
+flask_caching/__init__.py,sha256=QLLkTq-vFvTJ-QZ0FwJVX8kqEL9vYMdd23J-TezVCu4,31325
+flask_caching/_compat.py,sha256=gblRPDWd_ss0PExzP6kecCvtvXvWxgoQ9aw29FO69gk,477
+flask_caching/jinja2ext.py,sha256=ycQ6OGnuzxMqGS_1b21GNfkPSTyG7xr7HjPVnV2dpjg,2800
+flask_caching/backends/__init__.py,sha256=RFoswxCFzO2eDYcpzR-zsS3PhcxtD3Oo7H5wsAop8pk,24
+flask_caching/backends/backends.py,sha256=mRtRtBHJyjFQe2T-fBjbhoC0F0wwQ3jzgBvD6R37SMs,3430
+flask_caching/backends/clients.py,sha256=2xGB-jr-lU_5kLcQsCO4UwMX8CqqcahSQXjUvcCGmwI,4196
