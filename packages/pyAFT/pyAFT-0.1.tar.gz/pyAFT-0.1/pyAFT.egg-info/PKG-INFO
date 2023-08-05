@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pyAFT
+Version: 0.1
+Summary: Apatite Fission Track utilities
+Home-page: UNKNOWN
+Author: Romain Beucher
+Author-email: romain.beucher@unimelb.edu.au
+License: MIT
+Description: UNKNOWN
+Keywords: apatite,fission-track,thermochronology
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
