@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gitant
+Version: 0.0.1
+Summary: Gather essential git information
+Home-page: https://github.com/masmu/gitant/
+Author: Massimo Mund
+Author-email: massimo.mund@lancode.de
+License: GPLv3
+Description: Gather essential git repository information, not relying on git binarys
+Platform: Debian GNU/Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
