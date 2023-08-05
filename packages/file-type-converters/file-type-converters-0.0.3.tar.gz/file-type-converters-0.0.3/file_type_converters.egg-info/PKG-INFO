@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: file-type-converters
+Version: 0.0.3
+Summary: File conversion library to translate YAML into JSON and vice versa
+Home-page: https://github.com/ecaldwe1/file-type-converters
+Author: E. Caldwell
+Author-email: ecaldwe1@nd.edu
+License: Mozilla Public License 2.0 (MPL 2.0)
+Description: UNKNOWN
+Keywords: filetype yaml json
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
