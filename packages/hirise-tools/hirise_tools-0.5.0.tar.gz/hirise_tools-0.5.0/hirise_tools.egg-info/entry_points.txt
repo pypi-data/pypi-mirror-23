@@ -1,0 +1,4 @@
+[console_scripts]
+abrowse = hirise_tools.downloads:get_and_display_browse_product
+hirise_tools = hirise_tools.cli:main
+
