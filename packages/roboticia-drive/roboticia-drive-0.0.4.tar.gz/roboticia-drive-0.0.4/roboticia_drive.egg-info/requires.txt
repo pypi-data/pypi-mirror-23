@@ -1,0 +1,3 @@
+pypot >= 3.0
+hampy
+rplidar-roboticia
