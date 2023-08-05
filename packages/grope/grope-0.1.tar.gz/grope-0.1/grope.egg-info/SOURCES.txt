@@ -1,0 +1,9 @@
+setup.py
+grope/__init__.py
+grope/bytes_io.py
+grope/io.py
+grope/rope.py
+grope.egg-info/PKG-INFO
+grope.egg-info/SOURCES.txt
+grope.egg-info/dependency_links.txt
+grope.egg-info/top_level.txt
