@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: grPyHole
+Version: 0.9.2
+Summary: A versatile and extensible black hole ray tracer.
+Home-page: https://gitlab.com/EuropeanSpaceAgency/PyHole
+Author: Alexander Wittig, Jai Grover
+Author-email: alexander@wittig.name
+License: Apache Software License
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: mpi
+Requires-Dist: mpi4py; extra == 'mpi'
+Provides-Extra: opencl
+Requires-Dist: pyopencl; extra == 'opencl'
+
+PyHole Repository
+
+
