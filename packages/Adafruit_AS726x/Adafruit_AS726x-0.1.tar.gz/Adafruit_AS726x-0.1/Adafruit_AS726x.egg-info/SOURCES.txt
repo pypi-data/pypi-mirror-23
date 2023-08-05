@@ -1,0 +1,8 @@
+setup.py
+Adafruit_AS726x/Adafruit_AS726x.py
+Adafruit_AS726x/__init__.py
+Adafruit_AS726x.egg-info/PKG-INFO
+Adafruit_AS726x.egg-info/SOURCES.txt
+Adafruit_AS726x.egg-info/dependency_links.txt
+Adafruit_AS726x.egg-info/requires.txt
+Adafruit_AS726x.egg-info/top_level.txt
