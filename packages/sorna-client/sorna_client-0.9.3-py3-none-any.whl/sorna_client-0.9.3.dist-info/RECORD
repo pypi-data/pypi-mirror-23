@@ -1,0 +1,15 @@
+sorna/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sorna/auth.py,sha256=_woVZVeNC5hf9SfSK0Rj5XvIdNNXKxendtUVCDr-7OY,1349
+sorna/compat.py,sha256=FGb4mwserqE5B9DHbypi5dG7N9BTFUqkTNf8ZgP16mg,1475
+sorna/config.py,sha256=jTpRLFdTX6Q8E17IKTWumczjYJoUMNn4ep0K_SELv_U,1802
+sorna/exceptions.py,sha256=ODMcoEyq25ir-pc3lyCrawdx7Lafsjm1OQIuwoC3ta4,339
+sorna/kernel.py,sha256=AEfdocq1XLc-bH1p8gXYwttDcL9W5JDAHuE0DRUlVe8,6504
+sorna/request.py,sha256=rh11eV_tAQ7HTMJJN6OIow8RXbjU4tSbOPOCi6qcM-M,8971
+sorna/asyncio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sorna/asyncio/kernel.py,sha256=LIjPcsu0bqK2DKm_vqFAEIfueYcsx7KqCgHZ6Pj9McQ,5475
+sorna_client-0.9.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sorna_client-0.9.3.dist-info/METADATA,sha256=bjY4s1b4-plITG-n4_CegJtns1CVdx_Zhq6jzRIcy7g,1608
+sorna_client-0.9.3.dist-info/RECORD,,
+sorna_client-0.9.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+sorna_client-0.9.3.dist-info/metadata.json,sha256=3P2-xvzgwjtg0UcsoX0tUjjWW-yEIDuYweVYgmubIXw,1369
+sorna_client-0.9.3.dist-info/top_level.txt,sha256=-Fz39utvkGJ-dmV4aWZe_srlYbTbckzE894O8HomIpg,6
