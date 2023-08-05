@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: nexpose
+Version: 0.1.0
+Summary: The official Python Nexpose API client library
+Home-page: https://github.com/rapid7/nexpose-client-python
+Author: Davinsi Labs
+Author-email: UNKNOWN
+License: BSD
+Download-URL: https://github.com/rapid7/nexpose-client-python/releases
+Keywords: nexpose
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: lxml
+
+UNKNOWN
+
+
