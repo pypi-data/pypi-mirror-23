@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: maxillo
+Version: 1.15
+Summary: A system for installing docker swarm based applications
+Home-page: https://bitbucket.com/Authentise/maxillo
+Author: Authentise, Inc.
+Author-email: engineering@authentise.com
+License: UNKNOWN
+Description: A system for intalling docker swarm based applications
+Platform: UNKNOWN

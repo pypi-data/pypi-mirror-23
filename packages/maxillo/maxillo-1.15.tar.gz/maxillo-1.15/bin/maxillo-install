@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+import logging
+import os
+import subprocess
+
+LOGGER = logging.getLogger('maxillo-install')
+def main():
+    logging.basicConfig(level=logging.DEBUG)
+    LOGGER.info("Starting maxillo")
+
+
+    flavor = get_os_flavor()
+    LOGGER.info("Found OS flavor '%s'", flavor)
+
+
+    if flavor == 'rhel':
+        install_docker_rhel()
+    elif flavor == 'ubuntu':
+        install_docker_ubuntu()
+    LOGGER.info("Docker installed, downloading maxillo")
+    execute(['docker', 'pull', 'authentise/maxillo:latest'])
+
+FLAVORS = {
+    'rhel',
+    'ubuntu',
+}
+def get_os_flavor():
+    "Return the flavor of OS we are on"
+    with open('/etc/os-release', 'r') as f:
+        content = f.read()
+        data = dict([l.split('=') for l in content.split('\n') if len(l.split('=')) == 2])
+        data = {k: v.strip('"') for k, v in data.items()}
+        flavor = data['ID']
+    if flavor not in FLAVORS:
+        raise Exception("unrecognized OS flavor '{}'".format(flavor))
+    return flavor
+
+def execute(commands):
+    LOGGER.debug("Executing %s", commands)
+    output = subprocess.check_output(commands)
+    LOGGER.debug("Output: %s", output)
+    return output
+
+def install_docker_rhel():
+    execute(['yum', 'install', '-y', 'yum-utils'])
+    if not 'docker-main' in execute('yum-config-manager'):
+        execute(['yum-config-manager', '--add-repo', 'https://download.docker.com/linux/centos/docker-ce.repo'])
+        execute(['yum', 'makecache', '-y', 'fast'])
+    execute(['yum', 'install', '-y', 'docker-ce'])
+    execute(['systemctl', 'enable', 'docker'])
+    execute(['systemctl', 'start', 'docker'])
+
+def install_docker_ubuntu():
+    execute(['apt-get', 'install', '-y', 'docker.io'])
+
+if __name__ == '__main__':
+    main()
