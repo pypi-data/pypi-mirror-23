@@ -1,0 +1,15 @@
+meican/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+meican/cmdline.py,sha256=uJabyIvYnEawyaSveJGv25JGGjdw5kroeKKMD4uqGSg,1416
+meican/commands.py,sha256=okqLKrJkBPT62j6EUcV3VWRnxLO4kAk6nLxVT6VPsGY,1042
+meican/exceptions.py,sha256=w4nnT7-dEvbd-0JFnaaqB7s0ZNo1_zIKFJBLrF-MU5k,402
+meican/models.py,sha256=ULLbSXtzuD1EA8Y5-azT_CelfLRJf4pVTLyGM2QRPnI,2859
+meican/settings.py,sha256=kMlHrvMivHoC2Qgj2O0jdnyKau_9OKMtlLK_-V16lz0,852
+meican/tools.py,sha256=RkyUm3_kUEGcc0l1YBVcOFjk0ShRfDtxYQt2-2zZ9R8,6176
+meican/utils.py,sha256=0wP9g1NYa40pN62jIWMs-HK66epbFxBkynfHGJhCZyw,744
+meican-0.2.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+meican-0.2.1.dist-info/METADATA,sha256=haTSdw-v5rsy_ySFXjx4bXNaevvkRMFBZLUNs80Ngiw,234
+meican-0.2.1.dist-info/RECORD,,
+meican-0.2.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+meican-0.2.1.dist-info/entry_points.txt,sha256=I7rVmtAKA3Cq7AfqRv_PE5hsdZVSF2CNsZu17bQj76c,51
+meican-0.2.1.dist-info/metadata.json,sha256=79k4iQicAMg-08CR1gT1ay8ScX3R5g_KYuTHgFT2it8,562
+meican-0.2.1.dist-info/top_level.txt,sha256=a4X1Zs1JYKvf2Xa4PX6ziWiNzE4dMgOKmtjSP0ks5Oo,7
