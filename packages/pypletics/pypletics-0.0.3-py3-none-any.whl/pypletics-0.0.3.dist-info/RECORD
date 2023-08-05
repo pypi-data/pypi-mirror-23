@@ -1,0 +1,11 @@
+pypletics/__init__.py,sha256=QhjjWRlYrI8hHADXH1A-fZoKeNCHmgmMvKOxgHmxL1Q,337
+pypletics/introduction.py,sha256=Kbj0cHEdkybmC3ZjPq6EXv1PIkRt6GTUzlI98dtczcI,351
+pypletics/network.py,sha256=_tfiAhyZ_Id6GMQz-sOFwgLAaHxrR_vhhuVpVoxMMEg,3235
+pypletics/structured.py,sha256=GhuRt2s1TVr0TIjX_lFMb5Fi8dZ3SgPWhqTQBqOeUsc,893
+pypletics-0.0.3.dist-info/DESCRIPTION.rst,sha256=-lFtbaBqF-QByNNSk4XCjTrlNi144cqiH0DHA06rsJc,42
+pypletics-0.0.3.dist-info/METADATA,sha256=A2nWYmUGutFC5UBD3J7vcc2BC_Peu6uGI25vgaJyHJM,550
+pypletics-0.0.3.dist-info/RECORD,,
+pypletics-0.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pypletics-0.0.3.dist-info/entry_points.txt,sha256=J8qGi1JNPhEu8tAS_TWmEBp2r_C3MBepyCe8lraT7XM,71
+pypletics-0.0.3.dist-info/metadata.json,sha256=BV6GUGAUR4WhcRrJApFaow3xPx5bzq4vrz_WbaC1W5Y,807
+pypletics-0.0.3.dist-info/top_level.txt,sha256=C4zHp5_lmROefAU59Uo_XulAjOcUFMFnZq3VbPhdiqk,10
