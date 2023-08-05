@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: real_environment
+Version: 1.0
+Summary: python shell environment management
+Home-page: https://github.com/cemkiy/python-shell-environment
+Author: Cem KIY
+Author-email: cemekiy@gmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
