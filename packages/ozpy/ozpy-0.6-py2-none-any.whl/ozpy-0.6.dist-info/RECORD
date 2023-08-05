@@ -1,0 +1,11 @@
+ozpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ozpy/base.py,sha256=Si3ShF-ljyQIQiyFVi5pnh1rXCM0Rk8QVHg6I21yIBg,3928
+ozpy/exceptions.py,sha256=UsNtwkDu2LKWWdmiEqLPitobUAy_4XukesfLZ1GS_WY,199
+ozpy/mailbox.py,sha256=VxoabwRSAwO-9gSDEbcYX4lulHUqL_Z62KD7lcs8ODw,1527
+ozpy/zmprov.py,sha256=HZI5iW8NMgWF8LeuhYUiTcOtoQhiqK5gs2LvZ-tiEC0,5701
+ozpy-0.6.dist-info/DESCRIPTION.rst,sha256=NVIXVZ9c4LbHNzIM1uY2OqmMOxTg3ZzTkc2sP2schK0,1543
+ozpy-0.6.dist-info/METADATA,sha256=QnEn06YLEb9l59rYYUhZwSGyzMld6ahq90xXoU0t7HA,1938
+ozpy-0.6.dist-info/RECORD,,
+ozpy-0.6.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ozpy-0.6.dist-info/metadata.json,sha256=oaY4BerwOSDcCY14obhBwVe_BZET6cdQCgbbzxgVEtg,620
+ozpy-0.6.dist-info/top_level.txt,sha256=_VuoCIxujwym3LOu8gWCWC-LQ4ewLdXKh-tZI8DLSng,5
