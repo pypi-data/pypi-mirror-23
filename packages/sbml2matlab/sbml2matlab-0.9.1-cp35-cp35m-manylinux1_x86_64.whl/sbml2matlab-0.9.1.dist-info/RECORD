@@ -1,0 +1,12 @@
+sbml2matlab/__init__.py,sha256=Mq5zLRel3Jqz9jGRiylvgWVBwqK_NitdEj1P2ZxaGeU,49
+sbml2matlab/_sbml2matlab.so,sha256=PML0t22WFgNhq5XRi0-Oq80qONAALhx5mexPZ1zxZgs,10500136
+sbml2matlab/libbz2.so.1,sha256=ciUni5zhNk8PLGuDBSnfmHRkkLrRVng2sMBvnpnavJ0,65528
+sbml2matlab/libxml2.so.2,sha256=jtRC97IXfu51ddt_lO4XwIO8Bn2-6hqHVxwmNBAhU3I,1298872
+sbml2matlab/libz.so.1,sha256=oUfcsInmyEri2hSviJOK-1IkAm6ANVquv9k77C1jkow,83280
+sbml2matlab/sbml2matlab.py,sha256=yyTvsJSOUmT8hEdAIx22Vl790TfGHSqtuXfjk7bihLc,3595
+sbml2matlab-0.9.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sbml2matlab-0.9.1.dist-info/METADATA,sha256=uAfYM1ubRQ1xZz_NhBlSDYpmsm2il1XaoPXjgTgy1JQ,285
+sbml2matlab-0.9.1.dist-info/RECORD,,
+sbml2matlab-0.9.1.dist-info/WHEEL,sha256=926EKQCZjf2scEUyZcMCQTKV924CVF8c0Aoxbhi7_tQ,107
+sbml2matlab-0.9.1.dist-info/metadata.json,sha256=E5O678pLFh5tZALHRKQc7hjmcI_H8bDoG1FQibioH3A,439
+sbml2matlab-0.9.1.dist-info/top_level.txt,sha256=F1AgxzHSkVz62Sel1PkqI9E36Vd120Pv3S2maA_l3i0,12
