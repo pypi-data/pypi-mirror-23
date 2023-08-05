@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: celery-extra-schedulers
+Version: 0.1.0
+Summary: Extra schedulers for celery.
+Home-page: https://github.com/mixkorshun/celery-extra-schedulers
+Author: Vladislav Bakin
+Author-email: mixkorshun@gmail.com
+License: MIT
+Keywords: celery,celerybeat,scheduler
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: celery
+Requires-Dist: redis
+
+UNKNOWN
+
+
