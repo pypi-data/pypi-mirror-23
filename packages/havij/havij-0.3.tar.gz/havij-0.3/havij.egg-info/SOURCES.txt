@@ -1,0 +1,8 @@
+setup.py
+havij/__init__.py
+havij/dard.py
+havij.egg-info/PKG-INFO
+havij.egg-info/SOURCES.txt
+havij.egg-info/dependency_links.txt
+havij.egg-info/not-zip-safe
+havij.egg-info/top_level.txt
