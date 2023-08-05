@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: python3-smpplib
+Version: 1.0.17
+Summary: SMPP library for python (fork https://github.com/podshumok/python-smpplib
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Communications :: Telephony
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved
