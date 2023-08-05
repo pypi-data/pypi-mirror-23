@@ -1,0 +1,9 @@
+setup.py
+aisparser.egg-info/PKG-INFO
+aisparser.egg-info/SOURCES.txt
+aisparser.egg-info/dependency_links.txt
+aisparser.egg-info/top_level.txt
+aisparser/core/cpp.i
+aisparser/core/cpp/srcdata_opt.cpp
+aisparser/core/cpp/vdm_opt.cpp
+aisparser/core/cpp/vdm_parse_core.cpp
