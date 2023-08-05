@@ -1,0 +1,9 @@
+setup.py
+arXiv_download/__init__.py
+arXiv_download.egg-info/PKG-INFO
+arXiv_download.egg-info/SOURCES.txt
+arXiv_download.egg-info/dependency_links.txt
+arXiv_download.egg-info/not-zip-safe
+arXiv_download.egg-info/requires.txt
+arXiv_download.egg-info/top_level.txt
+bin/arXiv
