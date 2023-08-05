@@ -1,0 +1,77 @@
+{
+    "client_payloads": [
+	{
+	    "authorized_grant_types": [
+		"client_credentials",
+		"authorization_code"
+	    ],
+	    "autoapprove": [
+		"openid"
+	    ],
+	    "client_id": "framework-client",
+	    "scope": [
+		"openid",
+		"uaa.user",
+		"uaa.none",
+		"analytics.zones.088b0c03-f059-4f09-9c9a-5124a331b6a7.user"
+	    ],
+	    "authorities": [
+		"openid",
+		"uaa.user",
+		"uaa.none",
+		"analytics.zones.088b0c03-f059-4f09-9c9a-5124a331b6a7.user"
+	    ],
+	    "client_secret": "ernesto"
+	}
+    ],
+    "user_payloads": [
+	{
+	    "userName" : "ernesto@ge.com",
+	    "password" : "ernesto",
+	    "name" : {
+		"familyName" : "Ernesto",
+		"givenName" : "Ernesto"
+	    },
+	    "emails" : [ {
+		"value" : "ernesto@ge.com",
+		"primary" : true
+	    } ]
+	},
+	{
+	    "userName" : "weijie@ge.com",
+	    "password" : "weijie",
+	    "name" : {
+		"familyName" : "Weijie",
+		"givenName" : "Weijie"
+	    },
+	    "emails" : [ {
+		"value" : "weijie@ge.com",
+		"primary" : true
+	    } ]
+	}
+    ],
+    "group_payloads": [
+	{
+	    "displayName" : "Cool Group Name"
+	}
+    ],
+    "group_mems": [
+	{
+	    "group": {
+		"displayName": "Cool Group Name"
+	    },
+	    "users": [
+		{
+		    "userName" : "ernesto@ge.com",
+		    "email": "ernesto@ge.com"
+		},
+		{
+		    "userName" : "weijie@ge.com",
+		    "email" : "weijie@ge.com"
+		}
+	    ]
+	}
+    ],
+    "uaa_uri": "https://651b3f38-9af3-4784-8622-304cb9219164.predix-uaa.run.aws-usw02-pr.ice.predix.io",
+    "uaa_client_secret": "ernesto"
+}
