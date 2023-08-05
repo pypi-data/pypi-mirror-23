@@ -1,0 +1,80 @@
+Metadata-Version: 1.1
+Name: py-task-scheduler
+Version: 0.0.3
+Summary: A tool to help you schedule your task according to your config file
+Home-page: https://github.com/tzutalin/task-scheduler
+Author: TzuTa Lin
+Author-email: tzu.ta.lin@gmail.com
+License: MIT license
+Description: ==============
+        task-scheduler
+        ==============
+        
+        task-scheduler is an in-process scheduler to arrange and run the task periodically according to YAML config file
+        
+        Inspired by `schedule <https://schedule.readthedocs.io/en/stable>`_
+        
+        Usage
+        -----
+        
+        .. code-block:: bash
+        
+            $ pip intall taskscheduler
+            $ taskscheduler -f tasks.yml
+        
+        
+        The format of tasks.yml is as below::
+        
+          task:
+             <First task name>
+               schedule_time_unit: [seconds/minutes/hours/day/monday/Thusday]
+               schedule_time_every: 1
+               prepare:
+                  - <shell command>
+                  - <shell command>
+               jobs:
+                 <jobname>:
+                   - <shell command>
+                 <jobname>:
+                   - <shell command>
+        
+        In the example below, we have two jobs in tasks.yml, a `prepare` job is used to install the additional package and print some messages::
+        
+          task:
+             schedule_task1:
+               schedule_time_unit: seconds
+               schedule_time_every: 2
+        
+               jobs:
+                 test1:
+                   - echo 'Hi, this is task-scheduler'
+        
+             schedule_task2:
+               schedule_time_unit: minutes
+               schedule_time_every: 2
+        
+               prepare:
+                 - pip install pyyaml
+        
+               jobs:
+                 test1:
+                   - echo 'Hello world'
+        
+        
+        
+        
+        Usage: py-task-scheduler -f task.yaml
+Keywords: taskscheduler
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
