@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+dvd/__init__.py
+dvd/dvd.py
+dvd/vgg16.py
+dvd.egg-info/PKG-INFO
+dvd.egg-info/SOURCES.txt
+dvd.egg-info/dependency_links.txt
+dvd.egg-info/entry_points.txt
+dvd.egg-info/top_level.txt
