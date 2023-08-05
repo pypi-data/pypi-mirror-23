@@ -1,0 +1,11 @@
+kamma/__init__.py,sha256=ciGBsuuUZ5uQLXLoXGprVUp90CF0nIZZFuFRPA4h3UQ,1795
+kamma/app.py,sha256=U-XVhaAiMeK41d86XrYtOkb8FPlT_Ey5kD62miXUMz0,5969
+kamma/queue.py,sha256=pR11-UOe128BmPw4uv_7-HaDrmN42TzWl5vXyGA0HG0,3459
+kamma/task.py,sha256=1jjsYetUktA069w22xmNq5-UOu2nBFag4u2A2Q2Bbsk,5711
+kamma-0.0.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kamma-0.0.7.dist-info/top_level.txt,sha256=IQYZ3su5CqEeUWWU2_G3hFSgDWEIJFh-RTEubd1GfU8,6
+kamma-0.0.7.dist-info/METADATA,sha256=kW9QXuxOMxk6VFvGU-kx2E35PB_0OqJiJ5HITer97oc,4039
+kamma-0.0.7.dist-info/DESCRIPTION.rst,sha256=HxzjMCfkg6Co4fWnAkVu4rTeSXnerf0s92Lzw0QjSRA,2770
+kamma-0.0.7.dist-info/metadata.json,sha256=vYp34ohD_HQ4vwnfpGa2DFCAT2Gv4GZJJv3tbofgRdw,1326
+kamma-0.0.7.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+kamma-0.0.7.dist-info/RECORD,,
