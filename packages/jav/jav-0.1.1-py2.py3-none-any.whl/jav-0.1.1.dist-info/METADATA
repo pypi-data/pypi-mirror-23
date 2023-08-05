@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: jav
+Version: 0.1.1
+Summary: Connect to Jira REST API to collect completed story points, calculate weekly velocity, and estimate completion date
+Home-page: https://github.com/Fgerthoffert/jira-agile-velocity
+Author: fgerthoffert
+Author-email: contact@mail.gerthoffert.net
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Dist: cement
+Requires-Dist: nose
+
+Connect to Jira REST API to collect completed story points, calculate weekly velocity, and estimate completion date
+
+
