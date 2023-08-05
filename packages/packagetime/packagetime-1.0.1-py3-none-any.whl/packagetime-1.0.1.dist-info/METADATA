@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: packagetime
+Version: 1.0.1
+Summary: commit and publish packages
+Home-page: UNKNOWN
+Author: Yoav Kleinberger
+Author-email: haarcuba@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Provides-Extra: testing
+
+commit and publish packages
+
+
