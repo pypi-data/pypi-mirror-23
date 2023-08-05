@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: test-client-vision
+Version: 0.221
+Summary: An upload to s3 utility
+Home-page: UNKNOWN
+Author: Fathom
+Author-email: mirabel.ekwenugo@andela.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: upload,files,s3
+Platform: UNKNOWN
