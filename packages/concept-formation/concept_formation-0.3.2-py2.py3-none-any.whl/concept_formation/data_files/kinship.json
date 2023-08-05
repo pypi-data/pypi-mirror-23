@@ -1,0 +1,33 @@
+[
+    {
+        "?mother": {"name": "Cathy", "gender": "female"},
+        "?father": {"name": "Mark", "gender": "male"},
+        "?daughter1": {"name": "Cecilia", "gender": "female"},
+        "?daughter2": {"name": "Megan", "gender": "female"},
+        "(parent ?mother ?daughter1)": "true",        
+        "(parent ?mother ?daughter2)": "true",        
+        "(parent ?father ?daughter1)": "true",        
+        "(parent ?father ?daughter2)": "true",        
+        "(daughter ?mother ?daughter1)": "true",        
+        "(daughter ?mother ?daughter2)": "true",        
+        "(daughter ?father ?daughter1)": "true",        
+        "(daughter ?father ?daughter2)": "true",        
+        "(sibbling ?daughter1 ?daughter2)": "true",
+        "(sibbling ?daughter2 ?daughter1)": "true",
+        "(sister ?daughter1 ?daughter2)": "true",
+        "(sister ?daughter2 ?daughter1)": "true",
+        "(husband ?mother ?father)": "true",
+        "(wife ?father ?mother)": "true"
+    },
+    {
+        "?father": {"name": "Ben", "gender": "male"},
+        "?mother": {"name": "Karen", "gender": "female"},
+        "?daughter": {"name": "Kayla", "gender": "female"},
+        "(parent ?father ?daughter)": "true",        
+        "(parent ?mother ?daughter)": "true",        
+        "(daughter ?father ?daughter)": "true",        
+        "(daughter ?mother ?daughter)": "true",
+        "(husband ?mother ?father)": "true"t
+        "(wife ?father ?mother)": "true"
+    }
+]
