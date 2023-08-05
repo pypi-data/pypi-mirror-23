@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: tidyextractors
+Version: 0.3.0
+Summary: A collection of tools for extracting data into tidy DataFrames.
+Home-page: https://github.com/networks-lab/tidyextractors/
+Author: networks-lab
+Author-email: john.mclevey@uwaterloo.ca
+License: GPLv3
+Download-URL: https://github.com/networks-lab/tidyextractors/archive/0.3.0.tar.gz
+Description: tidyextractors
+        =================
+        
+        Overview
+        -----------------
+        
+        ``tidyextractors`` makes extracting data from supported sources as painless as possible, delivering you a populated Pandas DataFrame in three lines of code. ``tidyextractors`` was inspired by `Hadley Whickham's (2014) paper <http://vita.had.co.nz/papers/tidy-data.html>`_  which introduces "tidy data" as a conceptual framework for data preparation.
+        
+        For more information, including code examples, API reference, and general documentation, click `HERE <readthedocs.io>`_.
+        
+        Features
+        -----------------
+        
+        * Extracts data with minimal effort.
+        * Creates readable code that requires minimal explanation.
+        * Exports Pandas Dataframes to maximize compatibility with the Python data science ecosystem.
+        
+        Currently Implemented Data Sources
+        ------------------------------------------
+        
+        * `Local Git Repositories <http://tidyextractors.readthedocs.io/en/latest/git_overview.html>`_
+        * `Twitter User Data (including Tweets) using the Twitter API <http://tidyextractors.readthedocs.io/en/latest/twitter_overview.html>`_
+        * `Emails stored in the Mbox file format. <http://tidyextractors.readthedocs.io/en/latest/mbox_overview.html>`_
+        
+        Installing
+        --------------
+        In the near future, ``tidyextractors`` will be distributed on PyPI and accessible via ``pip``. For now, clone the repository and run ``pip install -e .`` in the cloned directory.
+        
+        
+Keywords: Git Twitter Pandas Tidy Data mbox
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Sociology
+Classifier: Topic :: Software Development :: Version Control :: Git
