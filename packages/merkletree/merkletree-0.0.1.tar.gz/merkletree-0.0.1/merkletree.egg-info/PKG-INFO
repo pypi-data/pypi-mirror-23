@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: merkletree
+Version: 0.0.1
+Summary: Simple Merkle Tree datastructure
+Home-page: http://github.com/theSage21/merkletree
+Author: Arjoonn Sharma
+Author-email: arjoonn.94@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: merkle,tree
+Platform: UNKNOWN
