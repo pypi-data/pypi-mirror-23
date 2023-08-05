@@ -1,0 +1,10 @@
+[console_scripts]
+haystack-minidump-reverse = haystack.reverse.cli:minidump_reverse
+haystack-minidump-reverse-hex = haystack.reverse.cli:minidump_reverse_hex
+haystack-minidump-reverse-parents = haystack.reverse.cli:minidump_reverse_parents
+haystack-minidump-reverse-show = haystack.reverse.cli:minidump_reverse_show
+haystack-reverse = haystack.reverse.cli:main_reverse
+haystack-reverse-hex = haystack.reverse.cli:main_reverse_hex
+haystack-reverse-parents = haystack.reverse.cli:main_reverse_parents
+haystack-reverse-show = haystack.reverse.cli:main_reverse_show
+

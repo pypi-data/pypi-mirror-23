@@ -1,0 +1,4 @@
+haystack>=0.41
+numpy
+networkx
+python-Levenshtein
