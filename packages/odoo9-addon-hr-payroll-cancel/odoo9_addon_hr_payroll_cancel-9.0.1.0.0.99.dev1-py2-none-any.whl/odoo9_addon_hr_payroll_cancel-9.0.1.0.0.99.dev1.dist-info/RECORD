@@ -1,0 +1,17 @@
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1-py2.7-nspkg.pth,sha256=PPZ4oLhmfIcN2vdjZzJC3cW225yfTceRHg3_R0Eyzdk,320
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/DESCRIPTION.rst,sha256=FvhG4zx-H9boqs4MH9I7WY-gCZuMfjtj28v8T_VpTrE,1676
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/METADATA,sha256=xUhSnJGvzPbHn6S3_96lgLANZZQKu7h2DPscEeWtjO8,2147
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/RECORD,,
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/metadata.json,sha256=Ehn_MzGpZJtDQ4kCNR0XRjBG5oiKfEcBYrQ0tAE393s,683
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo9_addon_hr_payroll_cancel-9.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo_addons/hr_payroll_cancel/README.rst,sha256=r5E3zmqdOGp-NPKyU8qGl44t9Tral_vaL5h7_0LAsGA,1674
+odoo_addons/hr_payroll_cancel/__init__.py,sha256=7wqdBKFR9dqnRIH-_zCraozT3U1D33_yu7FWo4Bv0ZA,267
+odoo_addons/hr_payroll_cancel/__openerp__.py,sha256=SpVayriLQJ4NBTMZL1Sn85PbtoV5LDHR7Cf4RsXLhnM,699
+odoo_addons/hr_payroll_cancel/hooks.py,sha256=aMn-sO0yMdoDxZX_OMNUS3yRvp4wYnxu69ZC0YLWsKA,422
+odoo_addons/hr_payroll_cancel/hr_payslip_workflow.xml,sha256=P-2SfeYbGOrAGmXKoHpKS17cw6J-koI7FCGl4vXHThQ,754
+odoo_addons/hr_payroll_cancel/i18n/fr.po,sha256=L04nNCLFTLK89yowTmq8-WPuccSTXFSFKhFx2bSVK4c,857
+odoo_addons/hr_payroll_cancel/i18n/sl.po,sha256=FNqGNltcX7naUoCcAreZGRpSvOlSQ7yfh6SDcrJK7_U,891
+odoo_addons/hr_payroll_cancel/static/description/icon.png,sha256=WOPBgkbZKkecleUf9IVIIKQkZeLltvyCBiJXAAYNzpo,10707
+odoo_addons/hr_payroll_cancel/views/hr_payslip_view.xml,sha256=wyaLb-kiYFTd9FvC6-754PTDP4Y0sZnEPSUZ-H_eqNE,612
