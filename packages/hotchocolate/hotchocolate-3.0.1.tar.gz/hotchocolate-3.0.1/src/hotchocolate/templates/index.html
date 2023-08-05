@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if title %}
+<article>
+  <h2 class="index_title">{{ title }}</h2>
+</article>
+<hr/>
+{% endif %}
+
+{% for post in posts %}
+  {% with content = post.content.split('<!-- summary -->')[0]|safe %}
+  {% with metadata = post.metadata %}
+    {% include "post_content.html" %}
+    {% if '<!-- summary -->' in post.content %}
+    <p><a href="{{ post.metadata.url }}">Read more &rarr;</a></p>
+    {% endif %}
+    {% if loop.index != posts|count %}<hr/>{% endif %}
+  {% endwith %}
+  {% endwith %}
+{% endfor %}
+
+{% include "pagination.html" %}
+
+{% endblock %}
