@@ -1,0 +1,12 @@
+
+[Markdown]
+Markdown>=2.6
+
+[Textile]
+textile
+
+[highlighting]
+Pygments
+
+[reStructuredText]
+docutils
