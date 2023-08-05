@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: django-gatehouse
+Version: 0.4
+Summary: A simple Django app to create gatehouse Web app.
+Home-page: https://github.com/aulemasa/gatehouse
+Author: Aulemasa
+Author-email: yourname@example.com
+License: BSD License
+Description: =====
+        Gatehouse
+        =====
+        
+        This is a simple Django application that allows you to add guests and visits.
+        Visits are visible to the people working in the gatehouse.
+        The app also helps the catering staff
+        
+        
+        Quick start
+        -----------
+        1. Install Django Gatehouse
+        
+            pip install django-gatehouse
+        
+        2. Add "gatehouseapp" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'gatehouseapp',
+            ]
+        
+        3. Include the gatehouse URLconf in your project urls.py like this::
+        
+            url(r'', include('gatehouseapp.urls')),
+        
+        4. Run `python manage.py migrate` to create the gatehouse models.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
