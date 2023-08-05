@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: redshirt
+Version: 0.1.0a1
+Summary: A HTTP management api for taskwarrior's taskd
+Home-page: https://github.com/jrabbit/taskd-redshirt
+Author: Jack Laxson
+Author-email: jack@getpizza.cat
+License: GPL v3
+Keywords: taskd,taskwarrior,api,management
+Platform: UNKNOWN
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: baker (==1.3)
+Requires-Dist: bottle
+Requires-Dist: packaging
+Requires-Dist: psutil
+Requires-Dist: requests
+
+UNKNOWN
+
+
