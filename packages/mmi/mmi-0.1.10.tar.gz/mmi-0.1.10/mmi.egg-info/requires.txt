@@ -1,0 +1,6 @@
+numpy
+pyzmq
+docopt
+bmi-python
+tornado
+six
