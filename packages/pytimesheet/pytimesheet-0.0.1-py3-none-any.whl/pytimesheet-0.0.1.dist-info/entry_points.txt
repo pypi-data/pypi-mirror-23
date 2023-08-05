@@ -1,0 +1,3 @@
+[console_scripts]
+pytimetrack = pytimetrack.cli:main
+
