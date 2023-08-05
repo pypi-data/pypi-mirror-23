@@ -1,0 +1,11 @@
+lxml
+rdflib
+rdflib-jsonld
+
+[cli]
+requests
+
+[service]
+bottle
+gevent
+requests
