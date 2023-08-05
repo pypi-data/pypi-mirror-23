@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: pi-romulus
+Version: 1.1.2
+Summary: RetroPie ROM scraper
+Home-page: https://github.com/ArthurMoore85/pi_romulus
+Author: Arthur Moore
+Author-email: arthur.moore85@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: EasyProcess
+Requires-Dist: libarchive
+Requires-Dist: mechanize
+Requires-Dist: nose
+Requires-Dist: npyscreen
+Requires-Dist: pyunpack
+Requires-Dist: requests
+
+UNKNOWN
+
+
