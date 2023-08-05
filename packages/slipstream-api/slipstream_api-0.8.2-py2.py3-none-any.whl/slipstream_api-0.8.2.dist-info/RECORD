@@ -1,0 +1,11 @@
+slipstream_api-0.8.2-py2.7-nspkg.pth,sha256=Q7qoqg95BZfnBpvBXR-1Bwu6vC9E-Ghn6t_uZmVMvAU,367
+slipstream/api/__init__.py,sha256=eO-fBf1Rol0dYV_KlEwEdWJSRCloeGSQHvbO1QxHZ7c,82
+slipstream/api/api.py,sha256=XMuoZ1WE06T7czo3HelfZsaEpfcH_DjYDQK4N--1Ilk,43159
+slipstream/api/models.py,sha256=FacHZz3zhtElBmcBL7XON5s3qVroT4HKg-OTkaGKMa0,4513
+slipstream_api-0.8.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+slipstream_api-0.8.2.dist-info/METADATA,sha256=B83flADFJDOm7wjd4u7I8HwBlHHLM26tOqQ-HmWbi2c,1036
+slipstream_api-0.8.2.dist-info/RECORD,,
+slipstream_api-0.8.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+slipstream_api-0.8.2.dist-info/metadata.json,sha256=KC9XZzYr05bwY2gq19xClzaQxrxVss3sgyHjt6qnhbo,1125
+slipstream_api-0.8.2.dist-info/namespace_packages.txt,sha256=KTQNyCcrjCMaYG1hCyNjT3GU34U-NVsJlhQ1BRZAsjQ,11
+slipstream_api-0.8.2.dist-info/top_level.txt,sha256=KTQNyCcrjCMaYG1hCyNjT3GU34U-NVsJlhQ1BRZAsjQ,11
