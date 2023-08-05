@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+lxmlrpc_monkey.py
+setup.py
+lxmlrpc_monkey.egg-info/PKG-INFO
+lxmlrpc_monkey.egg-info/SOURCES.txt
+lxmlrpc_monkey.egg-info/dependency_links.txt
+lxmlrpc_monkey.egg-info/requires.txt
+lxmlrpc_monkey.egg-info/top_level.txt
