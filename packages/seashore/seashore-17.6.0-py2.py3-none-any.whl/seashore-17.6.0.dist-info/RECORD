@@ -1,0 +1,13 @@
+seashore/__init__.py,sha256=IIKEACpX9OI__tUCfi0KnAM-LP7vgY1p0WijrV0kvQ0,355
+seashore/_version.py,sha256=632YOD9D0qMsxDY6oSj8aYZRMKrKLFkQe20uaCRp3BY,320
+seashore/executor.py,sha256=nqfXUyxj-Ol_-QhXRFIiju-eB6yCcUTBLI-VE_fm0pQ,9690
+seashore/shell.py,sha256=_Q91tx0xmFdqB4ZscTCIe_QpnSIk6ntVFvKdD_gI_U4,6640
+seashore/tests/__init__.py,sha256=fuPxrq2APJ0dIHayqN0JUox3MwN3OmIOYn8FRKew8qQ,57
+seashore/tests/test_executor.py,sha256=Ita7RddEgR7VZ5M9BiEP4FWJaEf-Wm4l_hZDz9m2fYs,10961
+seashore/tests/test_shell.py,sha256=DLACJAKWbudBUKH-ScQANEmAaOszPWj7zBj-Edw0LQQ,6019
+seashore-17.6.0.dist-info/DESCRIPTION.rst,sha256=EPgPOw9zWDsxcvqzxNs_Iekspta6sXsD_5yD53InWYA,1004
+seashore-17.6.0.dist-info/METADATA,sha256=T6O_VAxSdWboXHoGpUQTyvCLo-gebtZTBteFyTE5oSc,1306
+seashore-17.6.0.dist-info/RECORD,,
+seashore-17.6.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+seashore-17.6.0.dist-info/metadata.json,sha256=EkDKGJljOpI04awfz_D9ByrU3-bLMiTdpNm1sohxWMg,500
+seashore-17.6.0.dist-info/top_level.txt,sha256=t0FHlt8eTbaMNzArfpVsEe4ZiRSbxFEjxqj2WxDdK-Q,9
