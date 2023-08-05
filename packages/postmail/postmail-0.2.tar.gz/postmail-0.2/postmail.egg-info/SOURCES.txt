@@ -1,0 +1,7 @@
+postmail.py
+setup.py
+postmail.egg-info/PKG-INFO
+postmail.egg-info/SOURCES.txt
+postmail.egg-info/dependency_links.txt
+postmail.egg-info/requires.txt
+postmail.egg-info/top_level.txt
