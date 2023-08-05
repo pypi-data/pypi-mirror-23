@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: hypothesis-geojson
+Version: 0.1
+Summary: Hypothesis extension for testing with GeoJSON
+Home-page: https://github.com/mapbox/hypothesis-geojson
+Author: Matthew Perry
+Author-email: mperry@mapbox.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: hypothesis
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+
+Generate GeoJSON data for testing,
+designed to expose edge cases in your code.
+Implemented as a custom extension of hypothesis.
+
+Documentation: https://github.com/mapbox/hypothesis_geojson
+
+Hypothesis home: https://github.com/HypothesisWorks/hypothesis-python
+
+
