@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: golangish
+Version: 0.0.3
+Summary: Port Golang's CSP semantics to Python
+Home-page: https://github.com/edouardklein/golangish
+Author: Edouard Klein
+Author-email: myfirstnamemylastname@mailproviderthatstartswithagfromgoogle.whyshouldibespammed.letmeinputhateveriwantinthisfieldffs.com
+License: AGPLv3
+Download-URL: https://github.com/edouardklein/golangish/tarball/0.0.3
+Description: # Golangish
+        
+        ## Overview
+        
+        Port golang's CSP semantics to Python, namely the behavior of the `go`, `<-` `->` and `select` constructs.
+        
+        ## Installation
+        
+        To install use pip:
+        
+            $ pip3 install golangish
+        
+        
+        Or clone the repo:
+        
+            $ git clone github.com/edouardklein/golangish
+            $ python3 setup.py install
+            
+            
+        
+        ## Usage
+        
+        ### Documentation
+        
+        Read the documentation http://golangish.readthedocs.io/en/latest/ to understand how to use golangish.
+        
+        ### In the cloned repo
+        
+        #### Helper targets
+        
+        To build the documentation, run:
+        
+            $ make doc
+            
+        To run the test, run:
+        
+            $ make test
+        
+        To check the code's superficial cleanliness run:
+        
+            $ make lint
+            
+        To run tests each time a Python file is edited
+        
+            $ make live
+        
+        
+Keywords: CSP,Golang,Channel,Coroutine,Select
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.6

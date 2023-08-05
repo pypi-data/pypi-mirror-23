@@ -1,0 +1,7 @@
+setup.py
+golangish/__init__.py
+golangish.egg-info/PKG-INFO
+golangish.egg-info/SOURCES.txt
+golangish.egg-info/dependency_links.txt
+golangish.egg-info/requires.txt
+golangish.egg-info/top_level.txt
