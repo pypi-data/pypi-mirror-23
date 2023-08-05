@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pdf_writer/__init__.py
+pdf_writer/pdfWriter.py
+pdf_writer.egg-info/PKG-INFO
+pdf_writer.egg-info/SOURCES.txt
+pdf_writer.egg-info/dependency_links.txt
+pdf_writer.egg-info/requires.txt
+pdf_writer.egg-info/top_level.txt
