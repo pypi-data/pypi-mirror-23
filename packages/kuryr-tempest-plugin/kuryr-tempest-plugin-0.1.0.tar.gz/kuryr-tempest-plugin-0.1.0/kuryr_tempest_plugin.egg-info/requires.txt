@@ -1,0 +1,8 @@
+pbr>=1.6
+oslotest>=1.10.0
+os-testr>=0.4.1
+six>=1.9.0
+tempest>=12.2.0
+testrepository>=0.0.18
+testtools>=1.4.0
+kubernetes==2.0.0
