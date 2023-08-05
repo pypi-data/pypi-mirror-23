@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+/home/kovid/work/unrardll/src/unrardll/wrapper.cpp
+src/unrardll/__init__.py
+src/unrardll.egg-info/PKG-INFO
+src/unrardll.egg-info/SOURCES.txt
+src/unrardll.egg-info/dependency_links.txt
+src/unrardll.egg-info/top_level.txt
