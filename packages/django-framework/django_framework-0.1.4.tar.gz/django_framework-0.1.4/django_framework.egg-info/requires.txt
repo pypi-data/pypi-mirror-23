@@ -1,0 +1,17 @@
+Django
+django-cors-headers
+django-debug-toolbar
+django-extensions
+django-nose
+django-redis
+googlemaps
+inflection
+Inflector
+jsonfield
+requests
+arrow
+pytz
+kafka-python
+redis
+MySQL-python
+websocket-client
