@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+rh.osxdiskutils.egg-info/PKG-INFO
+rh.osxdiskutils.egg-info/SOURCES.txt
+rh.osxdiskutils.egg-info/dependency_links.txt
+rh.osxdiskutils.egg-info/namespace_packages.txt
+rh.osxdiskutils.egg-info/not-zip-safe
+rh.osxdiskutils.egg-info/requires.txt
+rh.osxdiskutils.egg-info/top_level.txt
+rh/osxdiskutils/__init__.py
