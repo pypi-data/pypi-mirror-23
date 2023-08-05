@@ -1,0 +1,7 @@
+setup.py
+bin/mergesitemap
+mergesitemap.egg-info/PKG-INFO
+mergesitemap.egg-info/SOURCES.txt
+mergesitemap.egg-info/dependency_links.txt
+mergesitemap.egg-info/not-zip-safe
+mergesitemap.egg-info/top_level.txt
