@@ -1,0 +1,8 @@
+numpy
+comtypes
+matplotlib
+pypiwin32
+openpyxl
+xlrd
+xlwt
+requests
