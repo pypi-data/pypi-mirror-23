@@ -1,0 +1,49 @@
+{
+  "controllers": {
+    "my_dxl_controller": {
+      "sync_read": true,
+      "protocol": 2,
+      "attached_motors": [
+        "wheel",
+        "eyes"
+      ],
+      "port": "auto",
+	  "syncloop": "LightDxlController"
+    }
+  },
+  "motorgroups": {
+    "wheel": [
+      "m1",
+	  "m2"
+    ],
+    "eyes": [
+      "m3"
+    ]
+  },
+  "motors": {
+    "m1": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 1,
+      "wheel_mode": true,
+      "orientation": "indirect"
+    },
+    "m2": {
+      "offset": 0.0,
+      "type": "XL-320",
+      "id": 2,
+      "wheel_mode": true,
+      "orientation": "direct"
+    },
+    "m3": {
+      "offset": -90.0,
+      "type": "XL-320",
+      "id": 3,
+      "angle_limit": [
+        -150.0,
+        150.0
+      ],
+      "orientation": "direct"
+    }
+  }
+}
