@@ -1,0 +1,85 @@
+Metadata-Version: 1.2
+Name: btags
+Version: 0.1.1
+Summary: Generate tag file according to the debug information such as DWARF including in the binary file
+Home-page: https://github.com/KKRainbow/btagslib
+Author: KKRainbow
+Author-email: sunsijie@buaa.edu.cn
+License: MIT
+Description: 
+        Introduction
+        ============
+        
+        Generating tags file according to the DWARF debug information in the binary file.
+        
+        Prerequisites
+        =============
+        
+        
+        * SQLAlchemy
+        * SQLite3
+        
+        Installation
+        ============
+        
+        .. code-block::
+        
+           # Ubuntu
+           apt install sqlite3 
+           # ArchLinux
+           pacman -S sqlite3
+           pip install btags
+        
+        Usage
+        =====
+        
+        .. code-block::
+        
+           btags.py -j 2 -c /dir/to/the/build/root /path/to/the/binary
+        
+        
+        * -j max worker threads
+        * -c specify the directory under which the binary is compiled
+        
+        After, you will get a tags file under current working directory.
+        
+        It can be used as following
+        
+        .. code-block::
+        
+           vim -t main
+        
+        For examples
+        Assume there is a autoconf project under dir /tmp/project, and you use the following
+        command to build it.
+        
+        .. code-block::
+        
+           cd /tmp/project
+           mkdir build
+           cd build
+           ../configure
+           make
+        
+        Then, ``/tmp/project/build`` will be the build root, because the project is compiled
+        under this directory.
+        
+        TODO
+        ====
+        
+        
+        * [] Replace sqlite with other faster data store mean
+        * [] Add test cases
+        * [] Add Travis CI support
+        
+Keywords: dwarf ctags tag binary
+Platform: Cross Platform
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3

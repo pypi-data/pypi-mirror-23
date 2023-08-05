@@ -1,0 +1,3 @@
+[console_scripts]
+btags = btagslib.cli.btags:main
+
