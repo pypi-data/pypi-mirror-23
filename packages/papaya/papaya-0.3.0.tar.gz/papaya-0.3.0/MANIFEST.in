@@ -1,0 +1,11 @@
+include COPYING INSTALL LICENSE README.rst
+include requirements*.txt
+
+graft papaya
+
+prune dev
+prune tests
+
+global-exclude *.py[cod] __pycache__ *.swp
+
+exclude manage.py Makefile tox.ini .flake8 .travis.yml
