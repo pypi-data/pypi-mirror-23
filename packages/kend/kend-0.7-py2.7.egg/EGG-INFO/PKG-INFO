@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: kend
+Version: 0.7
+Summary: kend
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Client package for interacting with the Utopia kend server.
+Keywords: web pyramid pylons
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
