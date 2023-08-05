@@ -1,0 +1,12 @@
+README.rst
+setup.py
+web_trawler/__init__.py
+web_trawler/__main__.py
+web_trawler/version.py
+web_trawler/web_trawler.py
+web_trawler.egg-info/PKG-INFO
+web_trawler.egg-info/SOURCES.txt
+web_trawler.egg-info/dependency_links.txt
+web_trawler.egg-info/entry_points.txt
+web_trawler.egg-info/top_level.txt
+web_trawler/../LICENSE
