@@ -1,0 +1,17 @@
+sco_datastore-0.6.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sco_datastore-0.6.0.dist-info/METADATA,sha256=m6aoTqrZQ81ijBDSmLQLo9UrVMBVcYDsZaL0__vnFbc,360
+sco_datastore-0.6.0.dist-info/RECORD,,
+sco_datastore-0.6.0.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+sco_datastore-0.6.0.dist-info/metadata.json,sha256=E6xMC1uhCDnVKuCyC2BqFEtRo0NZx7zXzssj-he62Cs,588
+sco_datastore-0.6.0.dist-info/top_level.txt,sha256=QK2mrCyfjW-2GpEtyw7Kjo3etecgWquP4kWT1PpozNo,8
+scodata/__init__.py,sha256=_3fAdtKsOnJU0sEIzuuBH1YQboiCIEa3eokW3s6AtiM,40305
+scodata/api.py,sha256=11Mxz4z5Vtbo2LcB5fLVHaP_qcFvttFUZzbZ7Aobhp0,34168
+scodata/attribute.py,sha256=xoFEAfo2oTwnMVJtdkyt5cLrWE7vyreDcBjB4dOE68Q,14989
+scodata/datastore.py,sha256=n2hkQ-BaHr10xqoTkG39CBsnNhrDNYXkN7Vh8qSBU_4,25187
+scodata/experiment.py,sha256=0XUB3geB65YARwmEZtlsdWBi_LxlcyLizZl05yuciX4,9735
+scodata/funcdata.py,sha256=CeTqR3izfgMkrk9GGWqHabu4a9dt4lu_frAu0XhF71I,9495
+scodata/image.py,sha256=KFQ5hxb1BKWSz21Sc5xCJg-HaqTCBkqmhRKLBX8BFIM,27357
+scodata/modelrun.py,sha256=3Bmrasn90LKHfbKX7x0uiEUYvvxl4f_HPBcjmMkOrxI,24714
+scodata/mongo.py,sha256=w602roPUm-oram5b_xYQqzywnte2m1cHujQmOGw4Bns,1120
+scodata/prediction.py,sha256=kO5ceXUpxB1el8fQXihSkJCBE6QIxTOS8_txq4CgWD8,15941
+scodata/subject.py,sha256=WfSTi_cgvRHa_I3Z1l4nIEB3ctEB-Dnmm3WNGSZTUCA,12855
