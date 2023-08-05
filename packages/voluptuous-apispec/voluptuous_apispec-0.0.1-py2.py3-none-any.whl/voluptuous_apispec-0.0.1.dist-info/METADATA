@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: voluptuous-apispec
+Version: 0.0.1
+Summary: A voluptuous plugin for documenting REST APIs with apispec.
+Home-page: https://github.com/douglas-treadwell/voluptuous-apispec
+Author: Douglas Treadwell
+Author-email: douglas.treadwell@gmail.com
+License: MIT
+Keywords: voluptuous apispec swagger openapi specification documentation spec rest api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: apispec
+Requires-Dist: voluptuous
+
+==================
+voluptuous-apispec
+==================
+
+A voluptuous plugin for documenting REST APIs with apispec.
+
+
+Installation
+============
+
+::
+
+    pip install voluptuous-apispec
+
+
