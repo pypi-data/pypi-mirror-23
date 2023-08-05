@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: micropython-p9813
+Version: 1.0.0
+Summary: MicroPython library for the P9813 RGB LED driver.
+Home-page: https://github.com/mcauser/micropython-p9813
+Author: Mike Causer
+Author-email: mcauser@gmail.com
+License: MIT
+Description: This library lets you control individual or a strip of P9813 based RGB LEDs.
+Keywords: p9813 rgb led micropython
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: License :: OSI Approved :: MIT License
