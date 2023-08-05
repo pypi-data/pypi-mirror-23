@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: rho-django-user
+Version: 1.0.0
+Summary: RKM's Humble Opinion: A custom Django user model for best practices email-based login.
+Home-page: http://github.com/freakboy3742/rho-django-user/
+Author: Russell Keith-Magee
+Author-email: russell@keith-magee.com
+License: New BSD
+Description: RHO Django User
+        ===============
+        
+        A "RKM's Humble Opinion" package for Django's Custom User model.
+        
+        A custom Django user model that encompasses best practices:
+        
+        * Email-based login
+        
+        * "Full name"/"Short name", rather than the "First name"/"Last name"
+           antipattern
+        
+        Usage:
+        ------
+        
+        * Add `rhouser` to `INSTALLED_APPS`
+        * Add `AUTH_USER_MODEL="rhouser.User"` to your `settings.py` file.
+        
+        To run tests:
+        -------------
+        
+        Run::
+        
+            > python runtests.py
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
