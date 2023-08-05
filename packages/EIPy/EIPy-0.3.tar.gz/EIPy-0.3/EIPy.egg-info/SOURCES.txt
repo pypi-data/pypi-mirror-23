@@ -1,0 +1,9 @@
+setup.py
+EIPy/__init__.py
+EIPy/__main__.py
+EIPy.egg-info/PKG-INFO
+EIPy.egg-info/SOURCES.txt
+EIPy.egg-info/dependency_links.txt
+EIPy.egg-info/entry_points.txt
+EIPy.egg-info/pbr.json
+EIPy.egg-info/top_level.txt

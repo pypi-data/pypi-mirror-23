@@ -1,0 +1,3 @@
+[console_scripts]
+eipy = EIPy.__main__:main
+
