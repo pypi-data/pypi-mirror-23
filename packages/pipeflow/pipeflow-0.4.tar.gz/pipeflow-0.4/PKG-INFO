@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pipeflow
+Version: 0.4
+Summary: A clone of Spotify's Luigi library with less features and intended for workflows on a single machine.
+Home-page: https://github.com/hitch17/pipeflow
+Author: John Hitchings
+Author-email: john@wealthfront.com
+License: UNKNOWN
+Download-URL: https://github.com/hitch17/pipeflow/archive/0.4.tar.gz
+Description: UNKNOWN
+Keywords: python,workflow
+Platform: UNKNOWN
