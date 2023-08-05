@@ -1,0 +1,3 @@
+[console_scripts]
+mapstep = mapstep.mapstep:main
+

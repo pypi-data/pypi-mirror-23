@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: mapstep
+Version: 1.0.0
+Summary: A webapp to put some markers with a description on a leaflet map.
+Home-page: https://github.com/fspot/mapstep
+Author: fspot
+Author-email: fred@fspot.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: flask (>=0.12.2)
+Requires-Dist: flask-cors
+Requires-Dist: tinydb
+Requires-Dist: waitress
+
+# MapStep
+
+A webapp to put some markers with a description on a leaflet map.
+
+
+## Installation
+
+    pip install mapstep
+
+
+## Usage
+
+    mapstep [--port PORT] [--debug]
+
+

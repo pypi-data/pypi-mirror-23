@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Spots</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div id="vue-app">
+
+    <div id="mapid"></div>
+
+    <!-- myModal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <h2>{{ action }} un spot</h2>
+        </div>
+
+        <div class="modal-body">
+            <form id="modal-form" class="pure-form pure-form-stacked">
+                <label for="contenu">Contenu (HTML)</label>
+                <textarea id="contenu" class="pure-input-1" v-model="current_step.content">
+                </textarea>
+
+                <label for="color">Couleur du marqueur</label>
+                <select id="color" v-model="current_step.color">
+                    <option v-for="color in colors">{{ color }}</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <button v-if="action == 'Modifier'" @click="remove"
+                class="pure-button button-error">Supprimer</button>
+            <button class="pure-button" data-dismiss="modal" aria-hidden="true">Annuler</button>
+            <button @click="save"
+                class="pure-button pure-button-primary">Enregistrer</button>
+        </div>
+    </div>
+    <!-- /myModal -->
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/autosize@3.0.21/dist/autosize.min.js"></script>
+<script src="https://unpkg.com/vue@2.3.4/dist/vue.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
