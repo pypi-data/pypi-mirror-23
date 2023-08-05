@@ -1,0 +1,9 @@
+slack/__init__.py,sha256=_pq0wqol08nFrRG27tdG6T78js9gFPYUWIn2l7JUSJ0,1282
+slack/base.py,sha256=c-rE_chg1ypZOWPCSGS7W1ALQg3sMMxzcyQu9imp7Cs,4221
+slack/chat.py,sha256=NYH77MmYhej2mwJd5_iisc4wbL4fC-0xV7KnGB1GRH8,1578
+slack_api-0.1.1.dist-info/top_level.txt,sha256=vBoOMavyMpVKb8sKb-lx2951Lj4ltLu_Is9rfSgBa6o,6
+slack_api-0.1.1.dist-info/METADATA,sha256=XpwrPFiq1_pO49_WmuXj9lzWERDY84hIBTDXzWhpknM,963
+slack_api-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+slack_api-0.1.1.dist-info/metadata.json,sha256=6hQFMua6Wo2iGpKc1rxzvJyAglXUuXugb8Y3p3N7A7Y,1076
+slack_api-0.1.1.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+slack_api-0.1.1.dist-info/RECORD,,
