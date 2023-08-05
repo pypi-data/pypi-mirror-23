@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: shoelace
+Version: 0.1.0
+Summary: Neural Learning to Rank using Chainer
+Home-page: https://github.com/rjagerman/shoelace
+Author: Rolf Jagerman
+Author-email: rjagerman@gmail.com
+License: MIT
+Download-URL: https://github.com/rjagerman/shoelace/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
