@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rpihware
+Version: 0.1
+Summary: A layer to control common elements in raspberry pi 3 via GPIO
+Home-page: UNKNOWN
+Author: kneerunjun
+Author-email: kneerunjun@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
