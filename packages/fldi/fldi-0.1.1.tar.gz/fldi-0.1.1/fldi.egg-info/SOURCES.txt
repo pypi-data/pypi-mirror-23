@@ -1,0 +1,10 @@
+setup.py
+fldi/__init__.py
+fldi/di.py
+fldi.egg-info/PKG-INFO
+fldi.egg-info/SOURCES.txt
+fldi.egg-info/dependency_links.txt
+fldi.egg-info/requires.txt
+fldi.egg-info/top_level.txt
+fldi/tests/__init__.py
+fldi/tests/test_di.py
