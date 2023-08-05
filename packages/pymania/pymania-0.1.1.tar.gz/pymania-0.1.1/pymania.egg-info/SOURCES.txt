@@ -1,0 +1,16 @@
+setup.cfg
+setup.py
+mania/__init__.py
+mania/conf.py
+mania/group_mania.py
+mania/mania.py
+mania/optimization_tools.py
+mania/rankAggregation.py
+mania/synth.py
+mania/synth_tools.py
+mania/utils.py
+pymania.egg-info/PKG-INFO
+pymania.egg-info/SOURCES.txt
+pymania.egg-info/dependency_links.txt
+pymania.egg-info/not-zip-safe
+pymania.egg-info/top_level.txt
