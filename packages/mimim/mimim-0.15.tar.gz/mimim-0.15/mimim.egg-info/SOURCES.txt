@@ -1,0 +1,10 @@
+setup.py
+mimim.egg-info/PKG-INFO
+mimim.egg-info/SOURCES.txt
+mimim.egg-info/dependency_links.txt
+mimim.egg-info/pbr.json
+mimim.egg-info/requires.txt
+mimim.egg-info/top_level.txt
+vision/__init__.py
+vision/upload_to_s3.py
+vision/upload_to_s3_exe.py
