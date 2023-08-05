@@ -1,0 +1,16 @@
+setup.cfg
+setup.py
+sped_ecf/__init__.py
+sped_ecf.egg-info/PKG-INFO
+sped_ecf.egg-info/SOURCES.txt
+sped_ecf.egg-info/dependency_links.txt
+sped_ecf.egg-info/requires.txt
+sped_ecf.egg-info/top_level.txt
+sped_ecf/leiaute2/__init__.py
+sped_ecf/leiaute2/arquivos.py
+sped_ecf/leiaute2/blocos.py
+sped_ecf/leiaute2/registros.py
+sped_ecf/leiaute3/__init__.py
+sped_ecf/leiaute3/arquivos.py
+sped_ecf/leiaute3/blocos.py
+sped_ecf/leiaute3/registros.py
