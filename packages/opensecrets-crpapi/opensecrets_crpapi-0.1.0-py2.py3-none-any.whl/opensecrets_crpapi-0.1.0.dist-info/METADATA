@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: opensecrets-crpapi
+Version: 0.1.0
+Summary: A Python client for the Center for Responsive Politics API at OpenSecrets.org.
+Home-page: https://github.com/robrem/opensecrets-crpapi
+Author: Rob Remington
+Author-email: rob@rob.codes
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: httplib2
+
+opensecrets-crpapi
+==================
+
+A Python client for the Center for Responsive Politics API at OpenSecrets.org.
+
+
