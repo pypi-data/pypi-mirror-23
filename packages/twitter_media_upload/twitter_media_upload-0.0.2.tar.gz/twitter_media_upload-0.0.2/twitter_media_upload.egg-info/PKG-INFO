@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: twitter-media-upload
+Version: 0.0.2
+Summary: Uploading large video files asynchronously with the Twitter API.
+Home-page: https://github.com/twitterdev/large-video-upload-python
+Author: Twitter Dev
+Author-email: foo@bar.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
