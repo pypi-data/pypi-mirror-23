@@ -1,0 +1,16 @@
+msgen-0.7.1.dist-info/DESCRIPTION.rst,sha256=kMQ_xjbVV8KynzYreyIfnhbt1a01Bn0gbnSlWguZfeU,8349
+msgen-0.7.1.dist-info/METADATA,sha256=m7HCvpRDSVW6gsx81SEU5HVDTbK1Amu5TIq9ZuyVrng,9137
+msgen-0.7.1.dist-info/RECORD,,
+msgen-0.7.1.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+msgen-0.7.1.dist-info/entry_points.txt,sha256=nGCQeRsOSReIHLUKJrU7-AobLemtajDOO0l5dAYbivw,46
+msgen-0.7.1.dist-info/metadata.json,sha256=hzQcJVz0qaSdrpVBJ-2JmQrA7TomECJ3lcpiDrxTAYk,964
+msgen-0.7.1.dist-info/top_level.txt,sha256=jWizLdOh5Bq1ijlh4djCmLY9gHNzlB34744Ea1z6m98,10
+msgen_cli/__init__.py,sha256=WfqyzBHCh6OouAaF_KcePtQux8SGpQ51mbnI8tBt9eg,358
+msgen_cli/datatransfer.py,sha256=xE-QIWvdnw1gkj2gUWhspW_gHbkTfCvL6n3z36pZ5XI,1651
+msgen_cli/malibuargs.py,sha256=1M-moTXwHaHUxkwgTh_CBbaUzO9ivWQ-pxEi5jBaf58,19667
+msgen_cli/malibuargsactions.py,sha256=F69f4rw92431Sbv-9e4dQl7pHS46_urTTXsyH-JtAJo,13663
+msgen_cli/malibuazure.py,sha256=F_aImqJoSGk8ED5rArspsdwIueY4YmkpRjKa_GNMAj4,5261
+msgen_cli/malibucommon.py,sha256=cZ4LsvApEmts3kf5LbVf78U-psyu9V06Cl7XlVg8d58,1759
+msgen_cli/malibuservice.py,sha256=gEzKaenmsCP1sW3Z6X_7eKcSB6N9fi9IDrL-ajTdgIg,9159
+msgen_cli/malibuworkflow.py,sha256=F3SAFNXFzyApAktgn8sqUl74zyyHCkAVzpQoHlP2dG0,16781
+msgen_cli/msgen.py,sha256=3gZdmWvLHfZTyHXAWQQ8O1_Gz1PVAkJ4YXhX5pL5Omc,3487
