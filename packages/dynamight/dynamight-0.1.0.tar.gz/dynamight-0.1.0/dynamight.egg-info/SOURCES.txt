@@ -1,0 +1,6 @@
+setup.py
+dynamight.egg-info/PKG-INFO
+dynamight.egg-info/SOURCES.txt
+dynamight.egg-info/dependency_links.txt
+dynamight.egg-info/requires.txt
+dynamight.egg-info/top_level.txt
