@@ -1,0 +1,8 @@
+pySDCP-1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pySDCP-1.dist-info/METADATA,sha256=3aKojogAucnvn-olrqUezX7yBAFdCyCheKrpEAZeJpQ,515
+pySDCP-1.dist-info/RECORD,,
+pySDCP-1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+pySDCP-1.dist-info/metadata.json,sha256=MhcYO1-oYD0OM6RZMHie7KAgwVU660-iMBTmkop0iw8,668
+pySDCP-1.dist-info/top_level.txt,sha256=fl6Bg_VxtjuyI49QE45hOJe-KvLC6BzlBRR3bD7RZk0,7
+pysdcp/__init__.py,sha256=cQbsIukqzae9Do-8wdhLrczs2OoEs-HL-wW0q0-YQmY,7071
+pysdcp/protocol.py,sha256=wv47h_xxxkSBZCCm16b4BIDGZr6_VzZh5RFYDrwKuHs,783
