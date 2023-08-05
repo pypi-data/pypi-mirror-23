@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+brcpftester.py
+setup.cfg
+setup.py
+br_cpf_tester.egg-info/PKG-INFO
+br_cpf_tester.egg-info/SOURCES.txt
+br_cpf_tester.egg-info/dependency_links.txt
+br_cpf_tester.egg-info/requires.txt
+br_cpf_tester.egg-info/top_level.txt
