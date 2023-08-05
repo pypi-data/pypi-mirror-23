@@ -1,0 +1,7 @@
+click
+
+[all]
+powershift-cluster>=2.2.0
+
+[cluster]
+powershift-cluster>=2.2.0
