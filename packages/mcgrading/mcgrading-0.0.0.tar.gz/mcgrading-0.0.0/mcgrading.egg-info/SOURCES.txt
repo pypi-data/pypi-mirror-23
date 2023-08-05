@@ -1,0 +1,13 @@
+README
+setup.py
+mcgrading/__init__.py
+mcgrading/classroom.py
+mcgrading/errors.py
+mcgrading/functions.py
+mcgrading/student.py
+mcgrading/task.py
+mcgrading.egg-info/PKG-INFO
+mcgrading.egg-info/SOURCES.txt
+mcgrading.egg-info/dependency_links.txt
+mcgrading.egg-info/requires.txt
+mcgrading.egg-info/top_level.txt

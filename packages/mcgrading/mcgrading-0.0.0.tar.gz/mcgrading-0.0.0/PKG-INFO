@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mcgrading
+Version: 0.0.0
+Summary: Build to serve at UniAndes.
+Home-page: http://github.com/jsbarbosa/mcgrading
+Author: Juan Barbosa
+Author-email: js.barbosa10@uniandes.edu.co
+License: GPL
+Description: Build to be used at the UniAndes Computational Methods course.
+        
+        Written by Juan Barbosa, 2017
+        
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
