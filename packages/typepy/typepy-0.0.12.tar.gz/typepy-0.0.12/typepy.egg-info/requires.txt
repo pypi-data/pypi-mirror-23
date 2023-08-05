@@ -1,0 +1,6 @@
+mbstrdecoder>=0.2.2
+python-dateutil>=2.6.0
+pytz>=2017.2
+six>=1.10
+enum34
+ipaddress
