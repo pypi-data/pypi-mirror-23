@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+schematics_apispec/__init__.py
+schematics_apispec.egg-info/PKG-INFO
+schematics_apispec.egg-info/SOURCES.txt
+schematics_apispec.egg-info/dependency_links.txt
+schematics_apispec.egg-info/requires.txt
+schematics_apispec.egg-info/top_level.txt
