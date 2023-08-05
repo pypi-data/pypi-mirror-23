@@ -1,0 +1,3 @@
+[console_scripts]
+lvbasic = samspy.cmds.lvbasic:main
+
