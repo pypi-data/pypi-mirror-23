@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: Doconce
+Version: 1.4
+Summary: 
+Usage of this setup.py script:
+
+python setup.py install [, --prefix=$PREFIX]
+
+
+Home-page: https://github.com/hplgit/doconce
+Author: Hans Petter Langtangen
+Author-email: <hpl@simula.no>
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
