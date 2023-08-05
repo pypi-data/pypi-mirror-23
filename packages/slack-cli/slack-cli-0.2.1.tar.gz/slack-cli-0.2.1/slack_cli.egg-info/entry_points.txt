@@ -1,0 +1,7 @@
+[console_scripts]
+slack-pipe = slack_cli.pipe:main
+slack-run = slack_cli.run:main
+slack-send = slack_cli.send:main
+slack-stream = slack_cli.stream:main
+slack-upload = slack_cli.upload:main
+
