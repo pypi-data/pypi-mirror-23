@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aioeffect/__init__.py
+aioeffect/test_aioeffect.py
+aioeffect.egg-info/PKG-INFO
+aioeffect.egg-info/SOURCES.txt
+aioeffect.egg-info/dependency_links.txt
+aioeffect.egg-info/not-zip-safe
+aioeffect.egg-info/requires.txt
+aioeffect.egg-info/top_level.txt
