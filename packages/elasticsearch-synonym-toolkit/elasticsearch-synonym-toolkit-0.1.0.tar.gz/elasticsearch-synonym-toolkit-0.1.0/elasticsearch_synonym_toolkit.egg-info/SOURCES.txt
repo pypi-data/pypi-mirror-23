@@ -1,0 +1,16 @@
+setup.py
+elasticsearch_synonym_toolkit.egg-info/PKG-INFO
+elasticsearch_synonym_toolkit.egg-info/SOURCES.txt
+elasticsearch_synonym_toolkit.egg-info/dependency_links.txt
+elasticsearch_synonym_toolkit.egg-info/entry_points.txt
+elasticsearch_synonym_toolkit.egg-info/not-zip-safe
+elasticsearch_synonym_toolkit.egg-info/requires.txt
+elasticsearch_synonym_toolkit.egg-info/top_level.txt
+es_synonyms/__init__.py
+es_synonyms/__main__.py
+es_synonyms/constants.py
+es_synonyms/exceptions.py
+es_synonyms/parser.py
+es_synonyms/report.py
+es_synonyms/synlint.py
+es_synonyms/tests.py
