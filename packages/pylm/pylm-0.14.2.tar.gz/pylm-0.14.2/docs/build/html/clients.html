@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Clients &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Workers" href="workers.html" />
+    <link rel="prev" title="Server features" href="features.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="workers.html" title="Workers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="features.html" title="Server features"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" accesskey="U">High level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="features.html"
+                        title="previous chapter">Server features</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="workers.html"
+                        title="next chapter">Workers</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/clients.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="clients">
+<h1>Clients<a class="headerlink" href="#clients" title="Permalink to this headline">¶</a></h1>
+<p>A client has the mission of being the source, and maybe the sink, of the
+message pipeline. The capabilities of the clients are
+related on how the stream of messages is handled, so this section is a short
+review of all of them. You can find the clients in <a class="reference internal" href="hl-api-docstrings.html#module-pylm.clients" title="pylm.clients"><code class="xref py py-mod docutils literal"><span class="pre">pylm.clients</span></code></a>, like
+<a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client" title="pylm.clients.Client"><code class="xref py py-class docutils literal"><span class="pre">pylm.clients.Client</span></code></a>, and they all work in a
+very similar way.</p>
+<p>The simplest configuration is to connect the client to the
+<code class="docutils literal"><span class="pre">db_address</span></code> of a <a class="reference internal" href="hl-api-docstrings.html#pylm.servers.Server" title="pylm.servers.Server"><code class="xref py py-class docutils literal"><span class="pre">pylm.servers.Server</span></code></a> or a
+<a class="reference internal" href="hl-api-docstrings.html#pylm.servers.Master" title="pylm.servers.Master"><code class="xref py py-class docutils literal"><span class="pre">pylm.servers.Master</span></code></a>, with its corresponding <code class="docutils literal"><span class="pre">server_name</span></code>. If no
+other arguments are specified, the client will assume that you want to
+send all the messages to this server, and also to receive all its output back.
+There are several examples on how these sockets are managed manually to control
+the flow of data around the cluster, particularly when there are
+<a class="reference internal" href="hl-api-docstrings.html#pylm.servers.Pipeline" title="pylm.servers.Pipeline"><code class="xref py py-class docutils literal"><span class="pre">pylm.servers.Pipeline</span></code></a> and <a class="reference internal" href="hl-api-docstrings.html#pylm.servers.Hub" title="pylm.servers.Hub"><code class="xref py py-class docutils literal"><span class="pre">pylm.servers.Hub</span></code></a>. You can see
+some of the cases in the <a class="reference internal" href="examples.html#examples"><span class="std std-ref">Examples</span></a> section, in which the <code class="docutils literal"><span class="pre">sub_address</span></code>
+argument is set as the address of the last server in the pipeline.</p>
+<p>Another relevant argument is the <code class="docutils literal"><span class="pre">session</span></code>, a tag that is added to all the
+messages in case you need to label them somehow. It is relevant when using
+the cache of the servers, and it may be useful in some applications.</p>
+<p>Clients connect to the key-value store of the server they send the message
+stream. This feature can be used to implement all sorts of algorithms, and it
+comes handy when one has to communicate the client with the workers with
+more information that the one that is sent through the messages. A client
+has therefore the usual functions for the management of key-value stores:
+<a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.get" title="pylm.clients.Client.get"><code class="xref py py-meth docutils literal"><span class="pre">pylm.clients.Client.get()</span></code></a>, <a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.set" title="pylm.clients.Client.set"><code class="xref py py-meth docutils literal"><span class="pre">pylm.clients.Client.set()</span></code></a> and
+<a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.delete" title="pylm.clients.Client.delete"><code class="xref py py-meth docutils literal"><span class="pre">pylm.clients.Client.delete()</span></code></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The set function reverses the argument order from the usual. The first
+argument is the value and the second is the key. The reason for that is
+that you can set a value without the key, and the client generates a
+random key for you.</p>
+</div>
+<p>The two methods that are used to start the execution of a pipeline are
+<a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.eval" title="pylm.clients.Client.eval"><code class="xref py py-meth docutils literal"><span class="pre">pylm.clients.Client.eval()</span></code></a> and <a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.job" title="pylm.clients.Client.job"><code class="xref py py-meth docutils literal"><span class="pre">pylm.clients.Client.job()</span></code></a>.
+The former sends only one message, while the latter loops over a generator
+that produces the message stream. In any case, the message is of the type
+<a class="reference external" href="https://docs.python.org/3/library/functions.html#bytes" title="(in Python v3.6)"><code class="xref py py-class docutils literal"><span class="pre">bytes</span></code></a>.</p>
+<p>The first argument of these two methods is the function to be called in the
+server or the succession of servers forming a pipeline. The argument can be
+therefore a string or a list of string, always formatted as two words: the name
+of the server and the function, separated by a dot. For instance, if we
+have a server called <em>first</em> connected to a pipeline called <em>second</em>, and we
+want to call the <em>firstfunction</em> of the former, and the <em>secondfunction</em> of
+the latter, the first argument will be the following list:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="s1">&#39;first.firstfunction&#39;</span><span class="p">,</span> <span class="s1">&#39;second.secondfunction&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The second argument is the palyoad described previously, while the third
+argument <code class="docutils literal"><span class="pre">messages</span></code> refers to the number of messages the client has to
+receive before it exits. If this value is not set, it just stays alive
+forever waiting for a practically inifinite number of messages.</p>
+<p>The last argument <code class="docutils literal"><span class="pre">cache</span></code> sets the <em>cache</em> field of the message, and it is
+intended for advanced uses.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="workers.html" title="Workers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="features.html" title="Server features"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" >High level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

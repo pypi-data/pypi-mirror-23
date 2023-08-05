@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Server features &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Clients" href="clients.html" />
+    <link rel="prev" title="The PALM message" href="message.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="clients.html" title="Clients"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="message.html" title="The PALM message"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" accesskey="U">High level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Server features</a><ul>
+<li><a class="reference internal" href="#errors">Errors</a></li>
+<li><a class="reference internal" href="#logging">Logging</a></li>
+<li><a class="reference internal" href="#playing-with-the-stream-of-messages">Playing with the stream of messages</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="message.html"
+                        title="previous chapter">The PALM message</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="clients.html"
+                        title="next chapter">Clients</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/features.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="server-features">
+<span id="features"></span><h1>Server features<a class="headerlink" href="#server-features" title="Permalink to this headline">¶</a></h1>
+<p>All servers have built-in features that are useful to build a manageable cluster. This section explains how to
+use and to configure them. It builds upon the examples of <a class="reference internal" href="servers.html#standalone"><span class="std std-ref">Servers</span></a>.</p>
+<div class="section" id="errors">
+<h2>Errors<a class="headerlink" href="#errors" title="Permalink to this headline">¶</a></h2>
+<p>You are probably wondering what happens if there is a bug in any of your functions. Of course, your server will
+not crash. You must try really hard to force one exception in one of the servers and crash it completely. The
+<em>user</em> part of the server runs within an exception handler, that outputs the full exception traceback without
+side effects.</p>
+<p>For instance, take the simplest of the examples, the one in the introduction, and add an obvious bug in the
+<code class="docutils literal"><span class="pre">foo</span></code> function.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.servers</span> <span class="kn">import</span> <span class="n">Server</span>
+
+
+<span class="k">class</span> <span class="nc">MyServer</span><span class="p">(</span><span class="n">Server</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;Got a message&#39;</span><span class="p">)</span>
+<span class="hll">        <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span>        <span class="k">return</span> <span class="sa">b</span><span class="s1">&#39;you sent me &#39;</span> <span class="o">+</span> <span class="n">message</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span> <span class="o">=</span> <span class="n">MyServer</span><span class="p">(</span><span class="s1">&#39;my_server&#39;</span><span class="p">,</span> <span class="s1">&#39;tcp://127.0.0.1:5555&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;tcp://127.0.0.1:5556&#39;</span><span class="p">,</span> <span class="s1">&#39;tcp://127.0.0.1:5557&#39;</span><span class="p">)</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>Of course, this triggers a <code class="docutils literal"><span class="pre">NameError</span></code>, because the variable <code class="docutils literal"><span class="pre">x</span></code> was not defined within the user function.
+The result is that the server logs the error:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$&gt; python server.py
+2016-08-26 09:41:59,053 - my_server - WARNING - Got a message
+2016-08-26 09:41:59,053 - my_server - ERROR - User function gave an error
+2016-08-26 09:41:59,054 - my_server - ERROR - Traceback (most recent call last):
+Traceback (most recent call last):
+  File &quot;/usr/lib/python3.5/site-packages/pylm/servers.py&quot;, line 117, in start
+    result = user_function(message.payload)
+  File &quot;server.py&quot;, line 7, in foo
+    print(x)
+NameError: name &#39;x&#39; is not defined
+
+...
+</pre></div>
+</div>
+<p>After the error has been logged as such, the server keeps on running and waiting for more input.</p>
+</div>
+<div class="section" id="logging">
+<h2>Logging<a class="headerlink" href="#logging" title="Permalink to this headline">¶</a></h2>
+<p>Each server, independently on its variant, has a built-in logger with the usual Python&#8217;s logging levels. You can
+find them in the <a class="reference external" href="https://docs.python.org/3/library/logging.html#module-logging" title="(in Python v3.6)"><code class="xref py py-mod docutils literal"><span class="pre">logging</span></code></a> module of the standard library. The following example, that builds upon the
+previous one illustrates how to use the logging capabilities.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.servers</span> <span class="kn">import</span> <span class="n">Master</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+
+<span class="k">class</span> <span class="nc">MyMaster</span><span class="p">(</span><span class="n">Master</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MyMaster</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">scatter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+            <span class="k">yield</span> <span class="n">message</span>
+
+    <span class="k">def</span> <span class="nf">gather</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">counter</span> <span class="o">==</span> <span class="mi">30</span><span class="p">:</span>
+<span class="hll">            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="s1">&#39;Changing the payload of the message&#39;</span><span class="p">)</span>
+</span><span class="hll">            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">change_payload</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="sa">b</span><span class="s1">&#39;final message&#39;</span><span class="p">)</span>
+</span>        <span class="k">else</span><span class="p">:</span>
+            <span class="k">yield</span> <span class="n">message</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">MyMaster</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;server&#39;</span><span class="p">,</span>
+                  <span class="n">db_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5559&#39;</span><span class="p">,</span>
+                  <span class="n">pull_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5555&#39;</span><span class="p">,</span>
+                  <span class="n">pub_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5556&#39;</span><span class="p">,</span>
+                  <span class="n">worker_pull_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5557&#39;</span><span class="p">,</span>
+                  <span class="n">worker_push_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5558&#39;</span><span class="p">,</span>
+                  <span class="n">log_level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">WARNING</span><span class="p">)</span>
+
+<span class="hll"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+</span>    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>The server sets the <code class="docutils literal"><span class="pre">WARNING</span></code> logging level, and then logs as critical when it changes the payload of the last
+message.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.servers</span> <span class="kn">import</span> <span class="n">Worker</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+
+<span class="k">class</span> <span class="nc">MyWorker</span><span class="p">(</span><span class="n">Worker</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ncalls</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MyWorker</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ncalls</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;cached&#39;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">ncalls</span><span class="o">%</span><span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<span class="hll">            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Processed {} messages&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ncalls</span><span class="p">))</span>
+</span>            
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">data</span> <span class="o">+</span> <span class="n">message</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">MyWorker</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">db_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5559&#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>The worker server implementation just adds a counter, and each time it processes ten messages, it logs as <em>info</em>
+the number of messages processed. The output of the master is then:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$&gt; python master.py
+2016-08-26 08:08:38,679 - server - CRITICAL - Changing the payload of the message
+</pre></div>
+</div>
+<p>And the output of any of the workers (the two workers are probably doing exactly the same amount of work) is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$&gt; python worker.py worker1
+2016-08-26 08:08:38,672 - worker1 - INFO - Processed 10 messages
+</pre></div>
+</div>
+</div>
+<div class="section" id="playing-with-the-stream-of-messages">
+<h2>Playing with the stream of messages<a class="headerlink" href="#playing-with-the-stream-of-messages" title="Permalink to this headline">¶</a></h2>
+<p>Servers have an interesting feature that can be used to seriously tune how
+the message stream moves through the cluster. In a couple of sections you
+will learn about pipelines (<a class="reference internal" href="pipeline.html#pipeline"><span class="std std-ref">The Pipeline server</span></a>) and hubs (<a class="reference internal" href="hub.html#hub"><span class="std std-ref">The Hub server</span></a>), and how
+several steps can be connected forming a complete streaming pipeline of
+messages.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="clients.html" title="Clients"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="message.html" title="The PALM message"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" >High level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

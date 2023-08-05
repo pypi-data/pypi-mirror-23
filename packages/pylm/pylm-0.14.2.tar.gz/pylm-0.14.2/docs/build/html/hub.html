@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The Hub server &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Low level API" href="low-level.html" />
+    <link rel="prev" title="The Pipeline server" href="pipeline.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="low-level.html" title="Low level API"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="pipeline.html" title="The Pipeline server"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" accesskey="U">High level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pipeline.html"
+                        title="previous chapter">The Pipeline server</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="low-level.html"
+                        title="next chapter">Low level API</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/hub.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="the-hub-server">
+<span id="hub"></span><h1>The Hub server<a class="headerlink" href="#the-hub-server" title="Permalink to this headline">¶</a></h1>
+<p>The hub server is a master that can be connected like a pipeline. It
+therefore needs some more information to be added to a cluster. Instead of
+pulling from clients, it subscribes to a stream of messages coming from a
+master or a server. This is the reason why you have a sub connection instead
+of a pull service, and you have to take into account when configuring it.</p>
+<p>There is yet another change respect to a master server, the <em>previous</em>
+parameter. If you don&#8217;t want to play dirty tricks to the message stream, i.e.
+routing a message to a particular subscribed server, it&#8217;s just the name of
+the previous server the hub is subscribed to.</p>
+<p>Maybe the simplest stream of messages involving a hub is the following.</p>
+<div class="figure align-center">
+<img alt="_images/server_hub.png" src="_images/server_hub.png" />
+</div>
+<p>You can see an example how the output of a server can be pipelined to a hub
+in the example <a class="reference internal" href="examples.html#server-hub"><span class="std std-ref">Connecting a hub to a server</span></a>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="low-level.html" title="Low level API"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="pipeline.html" title="The Pipeline server"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" >High level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

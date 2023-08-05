@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>High level API documentation &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Low level API documentation" href="ll-api-docstrings.html" />
+    <link rel="prev" title="Turning a PALM master into a microservice" href="microservice.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="ll-api-docstrings.html" title="Low level API documentation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="microservice.html" title="Turning a PALM master into a microservice"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">High level API documentation</a><ul>
+<li><a class="reference internal" href="#module-pylm.servers">Servers</a></li>
+<li><a class="reference internal" href="#module-pylm.clients">Clients</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="microservice.html"
+                        title="previous chapter">Turning a PALM master into a microservice</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ll-api-docstrings.html"
+                        title="next chapter">Low level API documentation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/hl-api-docstrings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="high-level-api-documentation">
+<h1>High level API documentation<a class="headerlink" href="#high-level-api-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-pylm.servers">
+<span id="servers"></span><h2>Servers<a class="headerlink" href="#module-pylm.servers" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.servers.Hub">
+<em class="property">class </em><code class="descclassname">pylm.servers.</code><code class="descname">Hub</code><span class="sig-paren">(</span><em>name: str</em>, <em>sub_address: str</em>, <em>pub_address: str</em>, <em>worker_pull_address: str</em>, <em>worker_push_address: str</em>, <em>db_address: str</em>, <em>previous: str</em>, <em>pipelined: bool = False</em>, <em>cache: object = &lt;pylm.persistence.kv.DictDB object&gt;</em>, <em>log_level: int = 20</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Hub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Hub" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Hub is a pipelined Master.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the server</li>
+<li><strong>sub_address</strong> &#8211; Valid address for the sub service</li>
+<li><strong>pub_address</strong> &#8211; Valid address for the pub service</li>
+<li><strong>worker_pull_address</strong> &#8211; Valid address for the pull-from-workers service</li>
+<li><strong>worker_push_address</strong> &#8211; Valid address for the push-to-workers service</li>
+<li><strong>db_address</strong> &#8211; Valid address to bind the Cache service</li>
+<li><strong>previous</strong> &#8211; Name of the previous server to subscribe to the queue.</li>
+<li><strong>pipelined</strong> &#8211; The stream is pipelined to another server.</li>
+<li><strong>cache</strong> &#8211; Key-value embeddable database. Pick from one of the supported ones</li>
+<li><strong>log_level</strong> &#8211; Logging level</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.servers.Hub.change_payload">
+<code class="descname">change_payload</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em>, <em>new_payload: bytes</em><span class="sig-paren">)</span> &#x2192; messages_pb2.PalmMessage<a class="headerlink" href="#pylm.servers.Hub.change_payload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change the payload of the message</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>message</strong> &#8211; The binary message to be processed</li>
+<li><strong>new_payload</strong> &#8211; The new binary payload</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Serialized message with the new payload</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.gather">
+<code class="descname">gather</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.gather" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gather function for outbound messages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; Binary message</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Yield none, one or multiple binary messages</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.handle_stream">
+<code class="descname">handle_stream</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.handle_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; The message about to be sent to the next step in the
+cluster</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">topic (str) and message (PalmMessage)</td>
+</tr>
+</tbody>
+</table>
+<p>The default behaviour is the following. If you leave this function
+unchanged and pipeline is set to False, the topic is the ID of the
+client, which makes the message return to the client. If the pipeline
+parameter is set to True, the topic is set as the name of the server and
+the step of the message is incremented by one.</p>
+<p>You can alter this default behaviour by overriding this function.
+Take into account that the message is also available in this function,
+and you can change other parameters like the stage or the function.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.preset_cache">
+<code class="descname">preset_cache</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.preset_cache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send the following keyword arguments as cache variables. Useful
+for configuration variables that the workers or the clients
+fetch straight from the cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>kwargs</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.register_bypass">
+<code class="descname">register_bypass</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.register_bypass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register a bypass part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; part name</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.register_inbound">
+<code class="descname">register_inbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>block=False</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.register_inbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register inbound part to this server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes to</li>
+<li><strong>block</strong> &#8211; True if the part blocks waiting for a response</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed.</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.register_outbound">
+<code class="descname">register_outbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.register_outbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register outbound part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes the response (if there is) to</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scatter function for inbound messages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; Binary message</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Yield none, one or multiple binary messages</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Hub.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Hub.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the server with all its parts.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.servers.Master">
+<em class="property">class </em><code class="descclassname">pylm.servers.</code><code class="descname">Master</code><span class="sig-paren">(</span><em>name: str</em>, <em>pull_address: str</em>, <em>pub_address: str</em>, <em>worker_pull_address: str</em>, <em>worker_push_address: str</em>, <em>db_address: str</em>, <em>pipelined: bool = False</em>, <em>cache: object = &lt;pylm.persistence.kv.DictDB object&gt;</em>, <em>log_level: int = 20</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Master"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Master" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standalone master server, intended to send workload to workers.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the server</li>
+<li><strong>pull_address</strong> &#8211; Valid address for the pull service</li>
+<li><strong>pub_address</strong> &#8211; Valid address for the pub service</li>
+<li><strong>worker_pull_address</strong> &#8211; Valid address for the pull-from-workers service</li>
+<li><strong>worker_push_address</strong> &#8211; Valid address for the push-to-workers service</li>
+<li><strong>db_address</strong> &#8211; Valid address to bind the Cache service</li>
+<li><strong>pipelined</strong> &#8211; The output connects to a Pipeline or a Hub.</li>
+<li><strong>cache</strong> &#8211; Key-value embeddable database. Pick from one of the
+supported ones</li>
+<li><strong>log_level</strong> &#8211; Logging level</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.servers.Master.change_payload">
+<code class="descname">change_payload</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em>, <em>new_payload: bytes</em><span class="sig-paren">)</span> &#x2192; messages_pb2.PalmMessage<a class="headerlink" href="#pylm.servers.Master.change_payload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change the payload of the message</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>message</strong> &#8211; The binary message to be processed</li>
+<li><strong>new_payload</strong> &#8211; The new binary payload</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Serialized message with the new payload</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.gather">
+<code class="descname">gather</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.gather" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gather function for outbound messages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; Binary message</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Yield none, one or multiple binary messages</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.handle_stream">
+<code class="descname">handle_stream</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.handle_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; The message about to be sent to the next step in the
+cluster</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">topic (str) and message (PalmMessage)</td>
+</tr>
+</tbody>
+</table>
+<p>The default behaviour is the following. If you leave this function
+unchanged and pipeline is set to False, the topic is the ID of the
+client, which makes the message return to the client. If the pipeline
+parameter is set to True, the topic is set as the name of the server and
+the step of the message is incremented by one.</p>
+<p>You can alter this default behaviour by overriding this function.
+Take into account that the message is also available in this function,
+and you can change other parameters like the stage or the function.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.preset_cache">
+<code class="descname">preset_cache</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.preset_cache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send the following keyword arguments as cache variables. Useful
+for configuration variables that the workers or the clients
+fetch straight from the cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>kwargs</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.register_bypass">
+<code class="descname">register_bypass</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.register_bypass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register a bypass part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; part name</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.register_inbound">
+<code class="descname">register_inbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>block=False</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.register_inbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register inbound part to this server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes to</li>
+<li><strong>block</strong> &#8211; True if the part blocks waiting for a response</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed.</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.register_outbound">
+<code class="descname">register_outbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.register_outbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register outbound part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes the response (if there is) to</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message: messages_pb2.PalmMessage</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scatter function for inbound messages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; Binary message</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Yield none, one or multiple binary messages</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Master.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Master.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the server with all its parts.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.servers.Pipeline">
+<em class="property">class </em><code class="descclassname">pylm.servers.</code><code class="descname">Pipeline</code><span class="sig-paren">(</span><em>name</em>, <em>db_address</em>, <em>sub_address</em>, <em>pub_address</em>, <em>previous</em>, <em>to_client=True</em>, <em>log_level=20</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Pipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Pipeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Minimal server that acts as a pipeline.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Name of the server</li>
+<li><strong>db_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; ZeroMQ address of the cache service.</li>
+<li><strong>sub_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Address of the pub socket of the previous server</li>
+<li><strong>pub_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Address of the pub socket</li>
+<li><strong>previous</strong> &#8211; Name of the previous server.</li>
+<li><strong>to_client</strong> &#8211; True if the message is sent back to the client.</li>
+<li><strong>log_level</strong> &#8211; Minimum output log level.</li>
+<li><strong>messages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.6)"><em>int</em></a>) &#8211; Total number of messages that the server processes.
+Useful for debugging.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.servers.Pipeline.echo">
+<code class="descname">echo</code><span class="sig-paren">(</span><em>payload</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Pipeline.echo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Echo utility function that returns the unchanged payload. This
+function is useful when the server is there as just to modify the
+stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">payload (bytes)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Pipeline.handle_stream">
+<code class="descname">handle_stream</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Pipeline.handle_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; The message about to be sent to the next step in the
+cluster</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">topic (str) and message (PalmMessage)</td>
+</tr>
+</tbody>
+</table>
+<p>The default behaviour is the following. If you leave this function
+unchanged and pipeline is set to False, the topic is the ID of the
+client, which makes the message return to the client. If the pipeline
+parameter is set to True, the topic is set as the name of the server and
+the step of the message is incremented by one.</p>
+<p>You can alter this default behaviour by overriding this function.
+Take into account that the message is also available in this function,
+and you can change other parameters like the stage or the function.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Pipeline.start">
+<code class="descname">start</code><span class="sig-paren">(</span><em>cache_messages=9223372036854775807</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.servers.Pipeline.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cache_messages</strong> &#8211; Number of messages the cache service handles
+before it shuts down. Useful for debugging</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.servers.Server">
+<em class="property">class </em><code class="descclassname">pylm.servers.</code><code class="descname">Server</code><span class="sig-paren">(</span><em>name</em>, <em>db_address</em>, <em>pull_address</em>, <em>pub_address</em>, <em>pipelined=False</em>, <em>log_level=20</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Server" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standalone and minimal server that replies single requests.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Name of the server</li>
+<li><strong>db_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; ZeroMQ address of the cache service.</li>
+<li><strong>pull_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Address of the pull socket</li>
+<li><strong>pub_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.6)"><em>str</em></a>) &#8211; Address of the pub socket</li>
+<li><strong>pipelined</strong> &#8211; True if the server is chained to another server.</li>
+<li><strong>log_level</strong> &#8211; Minimum output log level.</li>
+<li><strong>messages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.6)"><em>int</em></a>) &#8211; Total number of messages that the server processes.
+Useful for debugging.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.servers.Server.echo">
+<code class="descname">echo</code><span class="sig-paren">(</span><em>payload</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Server.echo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Server.echo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Echo utility function that returns the unchanged payload. This
+function is useful when the server is there as just to modify the
+stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">payload (bytes)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Server.handle_stream">
+<code class="descname">handle_stream</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Server.handle_stream"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Server.handle_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; The message about to be sent to the next step in the
+cluster</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">topic (str) and message (PalmMessage)</td>
+</tr>
+</tbody>
+</table>
+<p>The default behaviour is the following. If you leave this function
+unchanged and pipeline is set to False, the topic is the ID of the
+client, which makes the message return to the client. If the pipeline
+parameter is set to True, the topic is set as the name of the server and
+the step of the message is incremented by one.</p>
+<p>You can alter this default behaviour by overriding this function.
+Take into account that the message is also available in this function,
+and you can change other parameters like the stage or the function.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Server.start">
+<code class="descname">start</code><span class="sig-paren">(</span><em>cache_messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Server.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Server.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cache_messages</strong> &#8211; Number of messages the cache service handles
+before it shuts down. Useful for debugging</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.servers.Worker">
+<em class="property">class </em><code class="descclassname">pylm.servers.</code><code class="descname">Worker</code><span class="sig-paren">(</span><em>name=''</em>, <em>db_address=''</em>, <em>push_address=None</em>, <em>pull_address=None</em>, <em>log_level=20</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Worker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Worker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standalone worker for the standalone master.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name assigned to this worker server</li>
+<li><strong>db_address</strong> &#8211; Address of the db service of the master</li>
+<li><strong>push_address</strong> &#8211; Address the workers push to. If left blank, fetches
+it from the master</li>
+<li><strong>pull_address</strong> &#8211; Address the workers pull from. If left blank,
+fetches it from the master</li>
+<li><strong>log_level</strong> &#8211; Log level for this server.</li>
+<li><strong>messages</strong> &#8211; Number of messages before it is shut down.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.servers.Worker.delete">
+<code class="descname">delete</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Worker.delete"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Worker.delete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes data in the server&#8217;s internal cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; Key of the data to be deleted</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Worker.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Worker.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Worker.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets a value from server&#8217;s internal cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; Key for the data to be selected.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Worker.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>value</em>, <em>key=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Worker.set"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Worker.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a key value pare in the remote database.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>key</strong> &#8211; </li>
+<li><strong>value</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.servers.Worker.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/servers.html#Worker.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.servers.Worker.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the server</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pylm.clients">
+<span id="clients"></span><h2>Clients<a class="headerlink" href="#module-pylm.clients" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.clients.Client">
+<em class="property">class </em><code class="descclassname">pylm.clients.</code><code class="descname">Client</code><span class="sig-paren">(</span><em>server_name: str</em>, <em>db_address: str</em>, <em>push_address: str = None</em>, <em>sub_address: str = None</em>, <em>session: str = None</em>, <em>logging_level: int = 20</em>, <em>this_config=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client" title="Permalink to this definition">¶</a></dt>
+<dd><p>Client to connect to parallel servers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>server_name</strong> &#8211; Server you are connecting to</li>
+<li><strong>db_address</strong> &#8211; Address for the cache service, for first connection or configuration.</li>
+<li><strong>push_address</strong> &#8211; Address of the push service of the server to pull from</li>
+<li><strong>sub_address</strong> &#8211; Address of the pub service of the server to subscribe to</li>
+<li><strong>session</strong> &#8211; Name of the pipeline if the session has to be reused</li>
+<li><strong>logging_level</strong> &#8211; Specify the logging level.</li>
+<li><strong>this_config</strong> &#8211; Do not fetch configuration from the server</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.clients.Client.delete">
+<code class="descname">delete</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client.delete"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client.delete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes data in the server&#8217;s internal cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; Key of the data to be deleted</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.clients.Client.eval">
+<code class="descname">eval</code><span class="sig-paren">(</span><em>function</em>, <em>payload: bytes</em>, <em>messages: int = 1</em>, <em>cache: str = ''</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client.eval"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client.eval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute single job.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>function</strong> &#8211; Sting or list of strings following the format
+<code class="docutils literal"><span class="pre">server.function</span></code>.</li>
+<li><strong>payload</strong> &#8211; Binary message to be sent</li>
+<li><strong>messages</strong> &#8211; Number of messages expected to be sent back to the
+client</li>
+<li><strong>cache</strong> &#8211; Cache data included in the message</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">If messages=1, the result data. If messages &gt; 1, a list with the results</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.clients.Client.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets a value from server&#8217;s internal cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; Key for the data to be selected.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Value</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.clients.Client.job">
+<code class="descname">job</code><span class="sig-paren">(</span><em>function</em>, <em>generator</em>, <em>messages: int = 9223372036854775807</em>, <em>cache: str = ''</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client.job"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client.job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Submit a job with multiple messages to a server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>function</strong> &#8211; Sting or list of strings following the format
+<code class="docutils literal"><span class="pre">server.function</span></code>.</li>
+<li><strong>payload</strong> &#8211; A generator that yields a series of binary messages.</li>
+<li><strong>messages</strong> &#8211; Number of messages expected to be sent back to the
+client. Defaults to infinity (sys.maxsize)</li>
+<li><strong>cache</strong> &#8211; Cache data included in the message</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">an iterator with the messages that are sent back to the client.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.clients.Client.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>value: bytes</em>, <em>key=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/clients.html#Client.set"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.clients.Client.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a key value pare in the remote database. If the key is not set,
+the function returns a new key. Note that the order of the arguments
+is reversed from the usual.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">If the session attribute is specified, all the keys will be
+prepended with the session id.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>value</strong> &#8211; Value to be stored</li>
+<li><strong>key</strong> &#8211; Key for the k-v storage</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">New key or the same key</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="ll-api-docstrings.html" title="Low level API documentation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="microservice.html" title="Turning a PALM master into a microservice"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

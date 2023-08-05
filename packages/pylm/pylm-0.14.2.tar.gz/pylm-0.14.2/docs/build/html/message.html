@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The PALM message &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Server features" href="features.html" />
+    <link rel="prev" title="Servers" href="servers.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="features.html" title="Server features"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="servers.html" title="Servers"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" accesskey="U">High level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="servers.html"
+                        title="previous chapter">Servers</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="features.html"
+                        title="next chapter">Server features</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/message.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="the-palm-message">
+<h1>The PALM message<a class="headerlink" href="#the-palm-message" title="Permalink to this headline">¶</a></h1>
+<p>Every single server and process in PALM, and of course pylm, uses the
+following
+<a class="reference external" href="https://developers.google.com/protocol-buffers/">Google&#8217;s protocol buffers message</a>.
+message.</p>
+<div class="highlight-protobuf"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="na">syntax</span> <span class="o">=</span> <span class="s">&quot;proto3&quot;</span><span class="p">;</span>
+
+<span class="kd">message</span> <span class="nc">PalmMessage</span> <span class="p">{</span>
+  <span class="kt">string</span> <span class="na">pipeline</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="kt">string</span> <span class="na">client</span>   <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+  <span class="kt">int64</span>  <span class="na">stage</span>    <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+  <span class="kt">string</span> <span class="na">function</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+  <span class="kt">string</span> <span class="na">cache</span>    <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+  <span class="kt">bytes</span>  <span class="na">payload</span>  <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p>If you don&#8217;t want to dive within the internals of the servers, it is likely
+that you don&#8217;t have to even know about it, but it is relevant if you want to
+understand how servers (and their parts) communicate with each other. As you
+see, the server has a set of fields, just like a tuple. Each one is used for
+a different purpose:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">pipeline:</th><td class="field-body">This is an unique identifier of the stream of messages that is
+sent from the client. It is necessary for the servers to be able to
+handle multiple streams of messages at the same time.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">client:</th><td class="field-body">An unique ID of the client that initiated the stream.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">stage:</th><td class="field-body">Counter of the step within the stream that the message is going
+through. Every client initiates this value to 0. Every time that the
+message goes through a server, this counter is incremented.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">function:</th><td class="field-body">A string with a server.method identifier, or a series of them
+separated by spaces. These are the functions that have to be called at
+each step of the pipeline. Of course, this variable needs <em>stage</em> to be
+useful if there are more than one steps to go through.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">cache:</th><td class="field-body">This is an utility variable used for various purposes. When the
+client communicates with the cache of the servers, this variable brings
+the key for the key-value store. It is also used internally by some
+servers to keep track of messages that are being circulated by their
+internal parts. You can mostly ignore this field, and use it only when
+you know what you are doing.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">payload:</th><td class="field-body">The actual data carried by the message. It is usually a bunch of
+bits that you have to deserialize.</td>
+</tr>
+</tbody>
+</table>
+<p>Again, if you use the simplest parts of the high-level API, you can probably
+ignore all of this, but if you want to play with the stream of messages, or
+you want to play with the internal of the servers, you need to get
+comfortable with all those fields.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="features.html" title="Server features"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="servers.html" title="Servers"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" >High level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

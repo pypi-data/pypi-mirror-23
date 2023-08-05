@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Introduction &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="High level API" href="high-level.html" />
+    <link rel="prev" title="Welcome to pylm’s documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="high-level.html" title="High level API"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to pylm’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to pylm&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="high-level.html"
+                        title="next chapter">High level API</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/introduction.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="introduction">
+<span id="id1"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>This is a short introduction of some of the key aspects of pylm, a framework to implement high performance
+micro-services from reusable components.</p>
+<p>But let&#8217;s begin with something basic, a server and a client able to call one of the server&#8217;s methods. Much in the
+fashion of a RPC server.</p>
+<div class="figure align-center">
+<img alt="_images/single.png" src="_images/single.png" />
+</div>
+<p>With pylm, the first step is to create the server by subclassing one of the available templates in the high-level API:</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.servers</span> <span class="kn">import</span> <span class="n">Server</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+
+<span class="k">class</span> <span class="nc">MyServer</span><span class="p">(</span><span class="n">Server</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;Got a message&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">b</span><span class="s1">&#39;you sent me &#39;</span> <span class="o">+</span> <span class="n">message</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span> <span class="o">=</span> <span class="n">MyServer</span><span class="p">(</span><span class="s1">&#39;my_server&#39;</span><span class="p">,</span>
+                      <span class="n">db_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5555&#39;</span><span class="p">,</span>
+                      <span class="n">pull_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5556&#39;</span><span class="p">,</span>
+                      <span class="n">pub_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5557&#39;</span><span class="p">,</span>
+                      <span class="n">log_level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span>
+                      <span class="p">)</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>Secondly, we create the client that connects to the server and calls the <code class="docutils literal"><span class="pre">foo</span></code> function from the server.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.clients</span> <span class="kn">import</span> <span class="n">Client</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">Client</span><span class="p">(</span><span class="s1">&#39;my_server&#39;</span><span class="p">,</span> <span class="s1">&#39;tcp://127.0.0.1:5555&#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">eval</span><span class="p">(</span><span class="s1">&#39;my_server.foo&#39;</span><span class="p">,</span> <span class="sa">b</span><span class="s1">&#39;a message&#39;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Client got: &#39;</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<p>It does not care in which order you start the client and the server, pylm
+uses ZeroMQ sockets for all the connections, that deal with all the details.
+Pylm uses ZeroMQ extensively, and somehow, it also follows its philosophy.</p>
+<p>This is what we get when we start the server:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$&gt; python server.py
+2016-08-09 07:34:53,205 - my_server - WARNING - Got a message
+</pre></div>
+</div>
+<p>And the client:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$&gt; python client.py
+Client got: b&#39;you sent me a message&#39;
+</pre></div>
+</div>
+<p>Which is what we expected. The function <code class="docutils literal"><span class="pre">foo</span></code> only picks what is sent from the client,
+and adds it to <code class="docutils literal"><span class="pre">you</span> <span class="pre">sent</span> <span class="pre">me</span></code>. As simple as it seems. However, this basic example
+allows us to discover some important aspects of pylm.</p>
+<ul class="simple">
+<li>All messages are binary, represented as a sequence of bytes. This means that
+you decide how to serialize and deserialize the data you send to the server.
+If I decided to send a number instead of a sequence of bytes
+(replacing line 6 for <code class="docutils literal"><span class="pre">result</span> <span class="pre">=</span> <span class="pre">client.job('foo',</span> <span class="pre">1)</span></code>), the client would
+crash with a <em>TypeError</em>.</li>
+<li>The server inherits from <a class="reference internal" href="hl-api-docstrings.html#pylm.servers.Server" title="pylm.servers.Server"><code class="xref py py-class docutils literal"><span class="pre">pylm.servers.Server</span></code></a>. This parent
+class includes some interesting capabilities so you don&#8217;t have to deal with
+health monitoring, logging, performance analysis and so on. Maybe you don&#8217;t need
+all these things with a single server, but they become really handy when you
+have to monitor hundreds of microservers.</li>
+<li>The philisopy of pylm has two main principles:<ol class="arabic">
+<li>Simple things must be simple. If you don&#8217;t need something, you just ignore it
+and the whole system will react accordingly.</li>
+<li>Pylm is a framework, and does not come with any imposition that is not strictly
+necessary. Use the deployment system of your choice, the infrastructure you
+want... Pylm gives you the pieces to create the cluster, and you are in charge
+of the rest.</li>
+</ol>
+</li>
+</ul>
+<p>This example does not honor of the capabilities of pylm. Particularly the
+patterns that support parallel execution of jobs. To learn what are the capabilities
+of the different servers that are already implemented in pylm, visit the section about
+the <a class="reference internal" href="high-level.html#high-level-api"><span class="std std-ref">High level API</span></a>.</p>
+<p>If you want to understand the underlying principles and algorithms of the small components
+that are used to implement a palm micro-service, visit the section about the <a class="reference internal" href="low-level.html#low-level-api"><span class="std std-ref">Low level API</span></a>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="high-level.html" title="High level API"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to pylm’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>
