@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: cave_miner
+Version: 1.6
+Summary: Search for code cave in all binaries
+Home-page: https://github.com/Antonin-Deniau/cave_miner
+Author: DENIAU Antonin
+Author-email: antonin.deniau@protonmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: code,cave,codecave,macho,mach-o,elf,pe
+Platform: UNKNOWN
