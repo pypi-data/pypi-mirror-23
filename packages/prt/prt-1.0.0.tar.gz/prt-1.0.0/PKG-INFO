@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: prt
+Version: 1.0.0
+Summary: PRT reference server-side implementation
+Home-page: https://github.com/wegotpop/prt-server
+Author: We Got POP Ltd.
+Author-email: devops@wegotpop.com
+License: MIT
+Description: PRT (POP Rich Text) is a safe, small and strict rich text serialisation protocol which can be used for example in server - client communications. More info on the protocol: https://github.com/wegotpop/prt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Python: >=2.7
