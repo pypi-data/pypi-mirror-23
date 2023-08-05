@@ -1,0 +1,10 @@
+ivona_api/__init__.py,sha256=JNEBA2Iq_lYpYHP6E9AqHaVYZo--4V7OJqiUcDQjGdo,416
+ivona_api/exceptions.py,sha256=xj4zi6fG6_xJWpyE7TMdmJyio7O7Ph9-2nZ4bDytOKY,199
+ivona_api/ivona_api.py,sha256=jygbeBHr0kxoPft9M3fdaFrNBfq-5f84vLyevePvJYw,5810
+ivona_api/test/test_ivona_api.py,sha256=BtElFMKzvRr_gY48z0BTDn0VkIXXvCrGIhMgLTlJGIQ,2179
+ivona_api-0.3.0.dist-info/DESCRIPTION.rst,sha256=TMjluwAao_omUPShVe232cONRIvrLyZCC3fcURMCSsM,2989
+ivona_api-0.3.0.dist-info/METADATA,sha256=7yjjPBlYozV5O72xZsqzq4lU1lSWaPbYAKZ5BAiTN8U,4202
+ivona_api-0.3.0.dist-info/RECORD,,
+ivona_api-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ivona_api-0.3.0.dist-info/metadata.json,sha256=j1VNvrYuI11oRdylH1L7LmiBxtjQ7Tj8jW9RFP3GMOI,1340
+ivona_api-0.3.0.dist-info/top_level.txt,sha256=rAwIyAE86Gbgm2BcMwUMDkKeablBRw1R1HFO1regT5I,10
