@@ -1,0 +1,9 @@
+setup.py
+sunniest/__init__.py
+sunniest/text.py
+sunniest.egg-info/PKG-INFO
+sunniest.egg-info/SOURCES.txt
+sunniest.egg-info/dependency_links.txt
+sunniest.egg-info/not-zip-safe
+sunniest.egg-info/requires.txt
+sunniest.egg-info/top_level.txt
