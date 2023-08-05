@@ -1,0 +1,9 @@
+signing_clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signing_clients/apps.py,sha256=3U_gU1gF7j_tbGKauXSXtAi0myJ3xkFh0HYm1oauPbg,13939
+signing_clients/tests/__init__.py,sha256=YpMPFY9Radxxo18ndOCP8_w29SYK9cUa1kGBFLW84d4,9280
+signing_clients-1.0.dist-info/DESCRIPTION.rst,sha256=wrbTkGZuPdAxSF2MNirREGVzPInVTxPTlYMeJ12P-nc,74
+signing_clients-1.0.dist-info/METADATA,sha256=TGJEoDcO1J8SjzRztXFGHCs0mmfvOTjvOxnq7J1Zw3o,1067
+signing_clients-1.0.dist-info/RECORD,,
+signing_clients-1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+signing_clients-1.0.dist-info/metadata.json,sha256=mvU6GKhf1BTY-U3lh4SZDkNBWlvISMdf2nHNaYB4ANY,1091
+signing_clients-1.0.dist-info/top_level.txt,sha256=BcETHCbs0o2shF2nCja90F15X9CtDkKifj3Ojs6dFSg,16
