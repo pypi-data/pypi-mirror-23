@@ -1,0 +1,9 @@
+datauri/__init__.py,sha256=a202g33Jue8M_IkBtpZun-nO7VlN_w0b87mOc5Msqg0,3463
+python_datauri-0.1.0.dist-info/DESCRIPTION.rst,sha256=keQiWf2i7rR26kd5oOrNYI3sjQR1RZla485PfTk_in8,1440
+python_datauri-0.1.0.dist-info/METADATA,sha256=754GZ3vTqwJ25tNvKD07fGCWAI6ygTjfz8QH_cUHWQg,2181
+python_datauri-0.1.0.dist-info/RECORD,,
+python_datauri-0.1.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+python_datauri-0.1.0.dist-info/metadata.json,sha256=sH12GVzPz52oayQaNjAT5L1YoOsa0cvDAvz1iGW_ZtY,880
+python_datauri-0.1.0.dist-info/top_level.txt,sha256=UuWMzrbVGvp51iuyGc5OpQ8SDAh6tj1ViM9ABoP7np0,14
+tests/__init__.py,sha256=gqw-pH0z2NYciDh3FchvpoSijUtUi6aHqn0XFyrc9Kw,28
+tests/test_parsing.py,sha256=YHAbmsUWRmLBt9pd8jFRq8CPoUPJhLPr1wk3zz-GrQo,763
