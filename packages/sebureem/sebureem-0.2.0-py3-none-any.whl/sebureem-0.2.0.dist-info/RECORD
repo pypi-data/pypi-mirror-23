@@ -1,0 +1,13 @@
+sebureem/__init__.py,sha256=hDEkwIgq9ZHxR_Q941HG-nsnTm9VMz0-nUTiCDVBf-E,1031
+sebureem/admin.py,sha256=rB412jUUQRsGkUAPV_ZqBF2kw22QeL2K8T-OfHtodeE,1681
+sebureem/cli.py,sha256=bXuz24ZZHqOAUBwpHNPI40v9_IKQgPDEekJ6iuUFG7s,2241
+sebureem/models.py,sha256=tOtjHUtHLGQT7BvFKfdvO8vWW2TwBdwxuFCSWKzKPdQ,657
+sebureem/setup_app.py,sha256=NjMCp5zc8y1WhlpK7c3_rGPU78TxYW_MH-3Hk7uGDhY,5388
+sebureem/views.py,sha256=BvdhWo0Ei2QDox1mZWYJkknXPH7dJWmOCH_yuENio8M,2140
+sebureem-0.2.0.dist-info/DESCRIPTION.rst,sha256=GENrNtRFB9DXMSuceYMip7WZ0nV3VkE81URacByaDgE,2162
+sebureem-0.2.0.dist-info/METADATA,sha256=T34882f8hx2NEerNNWb4L6Xp0fbZ_DjWeb_lfZNTeTc,2890
+sebureem-0.2.0.dist-info/RECORD,,
+sebureem-0.2.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+sebureem-0.2.0.dist-info/entry_points.txt,sha256=H43jzaQFhZj4bEP_lyzIe1KM8RmrFjbLZzpaLvwTIoU,52
+sebureem-0.2.0.dist-info/metadata.json,sha256=2R1KS3vKC4qeywJ8W1d8IkCfgjgenYR6sSPbgfdgKCs,1046
+sebureem-0.2.0.dist-info/top_level.txt,sha256=6tg5wXUE9EwJ6vAJUe7qnlpUuwIj5Savg3_Ex78ATtg,9
