@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: makecli
+Version: 0.0.1
+Summary: Tookit for generating command line interfaces
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: Tookit for generating command line interfaces
+Keywords: makecli cli
+Platform: any
