@@ -1,0 +1,28 @@
+FROM {{ image }}
+
+MAINTAINER Lukas Beumer
+
+
+# Install python dependencies
+RUN apt-get update && apt-get install -y \
+  python \
+  python-setuptools \
+  wget \
+  gcc \
+  make \
+  build-essential \
+  python-dev \
+  libffi-dev \
+  libssl-dev \
+  sudo
+
+# Install Pip
+RUN easy_install pip
+
+# Install Ansible
+RUN pip install ansible=={{ ansible }}
+
+ADD . /build
+WORKDIR /build
+
+CMD tail -f /dev/null

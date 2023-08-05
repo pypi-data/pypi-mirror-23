@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ansible-test-tool
+Version: 1.0.1
+Summary: An ansible testing framework
+Home-page: https://github.com/Nitaco/ansible-test.git
+Author: Lukas Beumer (forked from nylas)
+Author-email: lukas@familie-beumer.de
+License: UNKNOWN
+Download-URL: https://github.com/peterldowns/mypackage/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: testing,ansible,framework,roles
+Platform: UNKNOWN
