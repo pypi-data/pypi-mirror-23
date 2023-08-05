@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+config.cnf
+setup.py
+pdfebc_core/__init__.py
+pdfebc_core/compress.py
+pdfebc_core/config_utils.py
+pdfebc_core/email_utils.py
+pdfebc_core/misc_utils.py
+pdfebc_core.egg-info/PKG-INFO
+pdfebc_core.egg-info/SOURCES.txt
+pdfebc_core.egg-info/dependency_links.txt
+pdfebc_core.egg-info/requires.txt
+pdfebc_core.egg-info/top_level.txt
