@@ -1,0 +1,3 @@
+[console_scripts]
+zktop = zktop:main_func
+
