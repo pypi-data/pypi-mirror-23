@@ -1,0 +1,6 @@
+mlx90614.py
+setup.py
+micropython_mlx90614.egg-info/PKG-INFO
+micropython_mlx90614.egg-info/SOURCES.txt
+micropython_mlx90614.egg-info/dependency_links.txt
+micropython_mlx90614.egg-info/top_level.txt
