@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: fwipy
+Version: 0.0.1.dev0
+Summary: Fwipy - Python Wrapper for Content Player Socket Operations
+Home-page: https://github.com/FourWindsInteractive/fwipy
+Author: Erin O'Connell
+Author-email: erin.oconnell@fourwindsinteractive.com
+License: Apache 2.0
+Download-URL: https://github.com/fourwindsinteractive/fwipy/archive/0.0.1.dev0.tar.gz
+Description: Fwipy - Python Wrapper for Content Player Socket Operations
+        ===========================================================
+        
+        .. code-block:: python
+        
+            >>> from fwipy import Player
+        
+            >>> player = Player(host='127.0.0.1',
+                        port=10561,
+                        username='admin',
+                        password='fourwinds')
+        
+            >>> player.set_variable('foo', 'bar')
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
