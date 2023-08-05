@@ -1,0 +1,4 @@
+#!python
+
+from ascii_frame import ascii_frame
+ascii_frame.main()
