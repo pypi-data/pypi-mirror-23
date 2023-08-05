@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/scripts/wpm
+src/wpm/__init__.py
+src/wpm/__main__.py
+src/wpm/commandline.py
+src/wpm/data/examples.json
+wpm.egg-info/PKG-INFO
+wpm.egg-info/SOURCES.txt
+wpm.egg-info/dependency_links.txt
+wpm.egg-info/requires.txt
+wpm.egg-info/top_level.txt
+wpm.egg-info/zip-safe
