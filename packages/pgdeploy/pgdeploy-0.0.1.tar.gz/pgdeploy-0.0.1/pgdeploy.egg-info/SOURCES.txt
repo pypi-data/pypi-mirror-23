@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+pgdeploy/__init__.py
+pgdeploy/exceptions.py
+pgdeploy/migration.py
+pgdeploy/migrator.py
+pgdeploy/schemas.py
+pgdeploy.egg-info/PKG-INFO
+pgdeploy.egg-info/SOURCES.txt
+pgdeploy.egg-info/dependency_links.txt
+pgdeploy.egg-info/requires.txt
+pgdeploy.egg-info/top_level.txt
