@@ -1,0 +1,8 @@
+django>=1.10
+django-braces
+requests
+django-material
+requests-toolbelt
+django-braces
+django-rest-framework-social-oauth2
+Pillow
