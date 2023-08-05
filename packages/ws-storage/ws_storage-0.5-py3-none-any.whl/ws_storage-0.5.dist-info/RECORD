@@ -1,0 +1,17 @@
+ws_storage/__init__.py,sha256=XfZupGBgxY2AVIdnHxFFcw-Rvo1FvfBvCbC1HXKi0cM,561
+ws_storage/client.py,sha256=ExbW109yBYJ0IqgwKYkHMRS8dPTo0yL1K-mVofeBi2k,655
+ws_storage/coro_queue.py,sha256=zWwAn6ssFiXfSVvzsPrOhxExx88wTKs7oOmohQSoJYQ,1353
+ws_storage/daemon.py,sha256=_icVzQrhJUuapsM0AUITXn_YI-ZoNdVQ8_IzqT0SkTY,512
+ws_storage/packet.py,sha256=1L6Y6kZ3prcubMp6lM2i2Rygp0R73cBo0__aY6WwW74,1659
+ws_storage/protocol.py,sha256=RMgjhd1Th16AcVK-tDyOvnr2f3TxD2W9Z8nQLakrjEA,2393
+ws_storage/server.py,sha256=0Kl2VsHHMau3NKuJJhrWqswOCUF8WnnNUD_bdBNNQXw,2628
+ws_storage/filesystem/__init__.py,sha256=H54Pvel7-0HO8dkN5KrSFV9n2dUrbftbDkaRN67CrGQ,2145
+ws_storage/tests/__init__.py,sha256=YQiiQTOAC8Dlluq5d7dMO3w0InXLCR7PcqDeGFmHI6g,40
+ws_storage/tests/client.py,sha256=LuaDILroeV04S85rx4D4Afjast-BDlQrqpGJTwAuvVE,1963
+ws_storage-0.5.data/scripts/ws_storage,sha256=eG1wmjNqmhUWvj7aF3Kb-qoWfD-PE_DcOepg73bVWsA,66
+ws_storage-0.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+ws_storage-0.5.dist-info/METADATA,sha256=5dAqKpl1rYqP3-Az7_zsxWhyoM84gXW_D4jc1PAqsbM,231
+ws_storage-0.5.dist-info/RECORD,,
+ws_storage-0.5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+ws_storage-0.5.dist-info/metadata.json,sha256=fhbF3hsz_XTSK4iEGlKiTrTrpMzG8q3yCp1mvyXNn7g,407
+ws_storage-0.5.dist-info/top_level.txt,sha256=NOB07mTjsdChYzTRaQyitttBmeAwa8BIUEkhmYpmo6k,11
