@@ -1,0 +1,3 @@
+[console_scripts]
+hirise_tools = hirise_tools.cli:main
+
