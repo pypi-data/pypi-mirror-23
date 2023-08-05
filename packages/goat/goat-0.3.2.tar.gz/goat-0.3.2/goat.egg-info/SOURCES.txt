@@ -1,0 +1,12 @@
+setup.py
+goat/__init__.py
+goat/matcher.py
+goat/model.py
+goat/string.py
+goat/types.py
+goat.egg-info/PKG-INFO
+goat.egg-info/SOURCES.txt
+goat.egg-info/dependency_links.txt
+goat.egg-info/not-zip-safe
+goat.egg-info/requires.txt
+goat.egg-info/top_level.txt
