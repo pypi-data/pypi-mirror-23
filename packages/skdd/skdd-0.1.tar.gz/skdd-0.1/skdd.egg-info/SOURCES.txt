@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+skdd/__init__.py
+skdd.egg-info/PKG-INFO
+skdd.egg-info/SOURCES.txt
+skdd.egg-info/dependency_links.txt
+skdd.egg-info/top_level.txt
