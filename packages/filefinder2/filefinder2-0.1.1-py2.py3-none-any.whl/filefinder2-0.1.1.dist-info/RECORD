@@ -1,0 +1,17 @@
+filefinder2/__init__.py,sha256=fnHhzYD1aIy4yQr0l5LXtAAP5SFkNyCxjSWbK_iPNJw,186
+filefinder2/_filefinder2.py,sha256=ilqSyDKwmET4dyDipUqEa_Mb-1p217qEd6CMjlDxx94,4386
+filefinder2/_fileloader2.py,sha256=485BYMFBnLi-Kqy6mScvYjVj-jOYs4Hm9-3XuDDt2e4,5790
+filefinder2/_utils.py,sha256=ePndvKOGLBv-1Ad7U-wnddBkv1VNX_1XgDxZe7b3ZD0,1177
+filefinder2/_version.py,sha256=ICZuCDCoKLBHJg0D9yAVCcGGAYOKH35rnnlfYRQCEnE,266
+filefinder2/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filefinder2/tests/_utils.py,sha256=gci4EleDo-JoEkiuzLCNlgOrT3V70Xl6UHdxyJ_ID7s,353
+filefinder2/tests/test_filefinder2_import.py,sha256=qwY7MtGkGQQFmz61UDlIn4S090HdE7kE35gn0E6heeM,2792
+filefinder2/tests/test_filefinder2_importlib.py,sha256=CH4uonQFI1nonj4PnpWvekP0mjJisyT2rxo7pdhBp3E,14366
+filefinder2/tests/nspkg/subpkg/__init__.py,sha256=2wLd8XIvSOk_N5xW-OrU0v1uGY9j4FHRbBNe28q4ZNM,130
+filefinder2/tests/nspkg/subpkg/submodule.py,sha256=VkirVhQmIl67sfdFFgxl5ZqZjV2tTtfaGyjqADMBiZI,68
+filefinder2-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+filefinder2-0.1.1.dist-info/METADATA,sha256=47zUaQOCUPZ0YBQEnKlCRthQMb-U-RIZkR0ph4OSTE8,315
+filefinder2-0.1.1.dist-info/RECORD,,
+filefinder2-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+filefinder2-0.1.1.dist-info/metadata.json,sha256=0GeDN0VGwjopo9Dm_sWjEJIwDKIsN8JnFzJxqwfOFRc,515
+filefinder2-0.1.1.dist-info/top_level.txt,sha256=ZeJNoH0ndHOdMcXWlGYgW8SxNdmghQwY_-5UvngKHW4,12

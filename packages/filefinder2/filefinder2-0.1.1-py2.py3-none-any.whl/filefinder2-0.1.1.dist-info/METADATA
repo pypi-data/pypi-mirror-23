@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: filefinder2
+Version: 0.1.1
+Summary: PEP420 - implicit namespace packages for python 2.7
+Home-page: http://github.com/asmodehn/filefinder2
+Author: AlexV
+Author-email: asmodehn@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pytest (>=2.8.0)
+Requires-Dist: pytest-xdist
+
+UNKNOWN
+
+
