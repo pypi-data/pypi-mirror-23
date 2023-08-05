@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: itm
+Version: 0.1.2
+Summary: ITM <-> WGS84 conversions
+Home-page: https://github.com/tebeka/fastavro
+Author: Miki Tebeka
+Author-email: miki.tebeka@gmail.com
+License: MIT
+Description: # ITM
+        
+        Quick and dirty Python (Cython) wrapper for
+        http://zvikabenhaim.appspot.com/software/ITM/isr84lib.cpp
+        
+        See more at https://github.com/tebeka/itm
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
