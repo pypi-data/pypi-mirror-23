@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: ecxclient
+Version: 0.42
+Summary: A client for Catalogic Software's ECX. 
+Home-page: https://github.com/catalogicsoftware/ecxclient
+Author: Catalogic Software
+Author-email: raghu@catalogicsoftware.com
+License: Apache License 2.0
+Description: 
+        ============
+         ECX Client
+        ============
+        
+        This project aims to build a Python client for Catalogic Software's 
+        `ECX <https://catalogicsoftware.com/products/ecx/>`_ product. 
+        
+        This repo holds two components. 
+        
+        - An SDK that can be used by anyone interested in integrating ECX
+          operations in their workflow.
+        
+        - A command line utility with which ECX operations can be performed.
+        
+        Installation
+        ============
+        
+        ::
+        
+        $ pip install ecxclient
+        
+        Usage
+        =====
+        
+        ::
+        
+            $ ecxcli --help
+            
+            # This connects to ECX on localhost.
+            $ ecxcli --user admin --passwd <PASSWORD> job list
+            
+            # To connect to a different host. Default user is "admin".
+            $ ecxcli --url https://1.2.3.4:8443 --passwd <PASSWORD> job list
+            
+        Notes
+        =====
+        
+        - After a successful login, the command "remembers" the login session
+          so there is no need to pass user name and password with every
+          run.
+        
+        Known Issues
+        ============
+        
+        - When "https" URL is used, there are some warnings displayed on the
+          console. We need to find a way to get rid of them.
+        
+Keywords: development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
