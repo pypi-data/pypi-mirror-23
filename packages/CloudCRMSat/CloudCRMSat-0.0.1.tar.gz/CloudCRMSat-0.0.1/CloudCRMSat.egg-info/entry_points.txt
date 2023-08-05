@@ -1,0 +1,3 @@
+[console_scripts]
+landsat = cloudsat.cloudsat:__main__
+

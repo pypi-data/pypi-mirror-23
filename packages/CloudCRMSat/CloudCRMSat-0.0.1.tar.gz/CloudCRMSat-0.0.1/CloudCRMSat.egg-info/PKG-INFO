@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: CloudCRMSat
+Version: 0.0.1
+Summary: Plugin Modificado para permitir download direto da Scena
+Home-page: https://github.com/dgketchum
+Author: Gustavo Junior
+Author-email: gustavorgjunior@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/brackbk/CloudCRMSat/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: landsat download
+Platform: Posix; MacOS X; Windows

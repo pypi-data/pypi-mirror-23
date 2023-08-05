@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+CloudCRMSat.egg-info/PKG-INFO
+CloudCRMSat.egg-info/SOURCES.txt
+CloudCRMSat.egg-info/dependency_links.txt
+CloudCRMSat.egg-info/entry_points.txt
+CloudCRMSat.egg-info/requires.txt
+CloudCRMSat.egg-info/top_level.txt
+cloudsat/__init__.py
+cloudsat/cloudsat.py
+cloudsat/download.py
+cloudsat/exemplo.py
+cloudsat/web_tools.py
