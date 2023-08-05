@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: micropython-ssd1327
+Version: 1.0.0
+Summary: MicroPython library for SSD1327 based OLED displays.
+Home-page: https://github.com/mcauser/micropython-ssd1327
+Author: Mike Causer
+Author-email: mcauser@gmail.com
+License: MIT
+Description: This library lets you update SSD1327 based 128x128 4-bit grayscale OLED displays.
+Keywords: ssd1327 oled micropython
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: License :: OSI Approved :: MIT License
