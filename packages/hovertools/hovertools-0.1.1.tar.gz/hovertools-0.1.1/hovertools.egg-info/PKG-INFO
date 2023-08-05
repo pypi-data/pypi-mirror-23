@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: hovertools
+Version: 0.1.1
+Summary: Tools for airflow-hovercraft
+Home-page: https://github.com/gtoonstra/hovertools
+Author: Gerard Toonstra
+Author-email: gtoonstra@gmail.com
+License: Apache v2.0
+Description: # hovertools
+        General tools for airflow-hovercraft that are reusable between unit test and local development situations
+        
+Keywords: apache airflow airflow-hovercraft development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
