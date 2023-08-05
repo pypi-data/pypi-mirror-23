@@ -1,0 +1,9 @@
+README.rst
+setup.py
+zpython-tools/__init__.py
+zpython-tools/broker_meta_management.py
+zpython_tools.egg-info/PKG-INFO
+zpython_tools.egg-info/SOURCES.txt
+zpython_tools.egg-info/dependency_links.txt
+zpython_tools.egg-info/not-zip-safe
+zpython_tools.egg-info/top_level.txt
