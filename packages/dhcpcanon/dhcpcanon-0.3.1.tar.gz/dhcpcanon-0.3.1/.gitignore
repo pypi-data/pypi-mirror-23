@@ -1,0 +1,14 @@
+*~
+*.pyc
+.*swp
+*.egg-info/
+deb_dist
+dist
+build
+__pycache__
+docs/build
+docs/source/images/*.pdf
+.cache
+.tox
+.coverage*
+htmlcov
