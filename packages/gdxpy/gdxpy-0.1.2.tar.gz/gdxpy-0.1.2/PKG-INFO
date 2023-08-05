@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gdxpy
+Version: 0.1.2
+Summary: Manipulate GAMS GDX files as Pandas data structures for convenient computation and visualization
+Home-page: https://github.com/jackjackk/gdxpy
+Author: Giacomo Marangoni
+Author-email: jackjackk@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: gdx gams pandas
+Platform: UNKNOWN
