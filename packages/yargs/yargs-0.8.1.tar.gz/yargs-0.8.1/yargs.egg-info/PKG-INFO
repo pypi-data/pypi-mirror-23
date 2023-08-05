@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: yargs
+Version: 0.8.1
+Summary: Create CLI options from yaml
+Home-page: https://bitbucket.org/rit/yargs
+Author: Rit Li
+Author-email: get@rit.li
+License: MIT
+Description:  Create CLI options from yaml
+        
+Platform: UNKNOWN
