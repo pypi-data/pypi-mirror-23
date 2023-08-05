@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: postalcodeareas-fi
+Version: 0.1
+Summary: Postal code areas
+Home-page: http://github.com/koodaamo/postalcodeareas-fi
+License: UNKNOWN
+Keywords: gis postalcodes finnish finland
+Author: Petri Savolainen
+Author-email: petri@koodaamo.fi
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
