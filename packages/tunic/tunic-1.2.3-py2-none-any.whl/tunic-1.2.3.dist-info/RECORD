@@ -1,0 +1,11 @@
+tunic/__init__.py,sha256=ELC5o3vzf2ECkrG4On74TV6xgn6u2zRWOniGcDDBQ0o,236
+tunic/api.py,sha256=M_ebWxcMoqmfkHzeknFw9BOqiyszRa-LEwrSP-wq2t8,789
+tunic/core.py,sha256=WoRXf1YI5eWhxjRdZeSJWQ4gB4c6H_qIW_iddMzoIBw,17339
+tunic/install.py,sha256=J9znnkCVwkVPtjDrrBMO_VlqUKi0PuwEdxVUmb2FHTo,22442
+tunic-1.2.3.dist-info/METADATA,sha256=2n-lr52QDEjU4tPo15ZmJGQP_4HdQPwz1Yc7n9uFnQo,2234
+tunic-1.2.3.dist-info/RECORD,,
+tunic-1.2.3.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+tunic-1.2.3.dist-info/metadata.json,sha256=FT0rfAC3AJXrbQt-AwuwnN0yXSSkLI97nrsZWoPmWk8,758
+tunic-1.2.3.dist-info/DESCRIPTION.rst,sha256=iX5ed0hNRmyPGGMV_B16hBwiczRlvx98lp9WgorzXA4,1652
+tunic-1.2.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tunic-1.2.3.dist-info/top_level.txt,sha256=4-GGsng2mzbqIuL3Lw5fJfQREXUqLcIpbRETAijIaqg,6
