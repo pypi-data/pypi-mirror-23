@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+scikitcrf_ner/__init__.py
+scikitcrf_ner.egg-info/PKG-INFO
+scikitcrf_ner.egg-info/SOURCES.txt
+scikitcrf_ner.egg-info/dependency_links.txt
+scikitcrf_ner.egg-info/requires.txt
+scikitcrf_ner.egg-info/top_level.txt
+scikitcrf_ner/entityRecognition/__init__.py
+scikitcrf_ner/entityRecognition/entityRecognition.py
