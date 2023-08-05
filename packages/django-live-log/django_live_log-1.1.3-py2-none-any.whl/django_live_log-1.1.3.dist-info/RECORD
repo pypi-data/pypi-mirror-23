@@ -1,0 +1,14 @@
+django_live_log/__init__.py,sha256=JxvWkfnKeBRE9nK6IR5RgdR4y79dKFTWpR8m7Y9ZpAQ,243
+django_live_log/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_live_log/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_live_log/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_live_log/urls.py,sha256=aZIoGiFUocdy0I2jV9atrJk9Efp-ljOQt41vl3-24fs,254
+django_live_log/views.py,sha256=mCk3lnWB0nUMTgFeenBlo3BAK2IQutgzZ1A22OcxUmc,2110
+django_live_log/templates/.DS_Store,sha256=iRc2JU3-ZH6QOKzSzWrz676_00W9tBX3rNYaQSuExZs,6148
+django_live_log/templates/django_live_log/main.html,sha256=J9J8T1jRHQ3C1fwlTxd8SZELyEsMG2RPnV7LAURgwUQ,882
+django_live_log-1.1.3.dist-info/DESCRIPTION.rst,sha256=5K5An2iZHNhMXqOhKHlFpBEDeMlcBveOPgvoQdaG-1U,1130
+django_live_log-1.1.3.dist-info/METADATA,sha256=BzeQ77eUKbIix9FGTPJQrUKJ_iBQpJcJp-MdFg_wjAc,1805
+django_live_log-1.1.3.dist-info/RECORD,,
+django_live_log-1.1.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+django_live_log-1.1.3.dist-info/metadata.json,sha256=j502ztbJMecVymXp5mtz0NtVqv5FcIBuiAHwuT5mZVo,797
+django_live_log-1.1.3.dist-info/top_level.txt,sha256=ukvQUxayzI0akz0ditChgASJOYHnabZ4l9pHVcspf7o,16
