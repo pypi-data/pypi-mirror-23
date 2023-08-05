@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>cf-boot</title>
+<!-- 2017-06-17 Sat 13:57 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Ernesto Alfonso" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">cf-boot</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Quick Start</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Installation</a></li>
+<li><a href="#sec-1-2">1.2. Install specific version</a></li>
+<li><a href="#sec-1-3">1.3. Usage</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Overview</a>
+<ul>
+<li><a href="#sec-2-1">2.1. cf-boot components</a></li>
+<li><a href="#sec-2-2">2.2. Architecture diagram</a></li>
+<li><a href="#sec-2-3">2.3. Benefits</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Project Spec specification</a>
+<ul>
+<li><a href="#sec-3-1">3.1. Jobs</a></li>
+<li><a href="#sec-3-2">3.2. Spec file</a></li>
+<li><a href="#sec-3-3">3.3. Job execution order</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Subscripts</a>
+<ul>
+<li><a href="#sec-4-1">4.1. Built-in subscripts</a></li>
+<li><a href="#sec-4-2">4.2. Creating a new sub-script</a></li>
+<li><a href="#sec-4-3">4.3. Adding custom subscripts to the cf-boot path</a></li>
+<li><a href="#sec-4-4">4.4. Subscript environment variables, proxies</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. FAQ</a>
+<ul>
+<li>
+<ul>
+<li><a href="#sec-5-0-1">5.0.1. What happens if a cf-boot invocation fails with jobs left to run?</a></li>
+<li><a href="#sec-5-0-2">5.0.2. Is it possible to run a partial set of jobs? Is it possible to "undo" a job?</a></li>
+<li><a href="#sec-5-0-3">5.0.3. What if I'm behind a proxy?</a></li>
+<li><a href="#sec-5-0-4">5.0.4. Can I bootstrap several environments at the same time?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Bugs, features</a></li>
+</ul>
+</div>
+</div>
+<p>
+<b>cf-boot</b> is a utility to automate the bootstrap process of cloudfoundry
+products. It allows users to specificy a product's dependencies
+declaratively, and provides a consistent,
+reproducible, automated way to bootstrap or update an environment.
+</p>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Quick Start</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Installation</h3>
+<div class="outline-text-3" id="text-1-1">
+<div class="org-src-container">
+
+<pre class="src src-sh">$ sudo -E pip install cf-boot
+$ cf-boot -h
+ usage: cf-boot [-h] [-i INPUT] [-o OUTPUT] [-f] [-p PATH]
+		[-g DEPENDENCY_GRAPH_PDF] [-v VERBOSE] [-s]
+		project-spec
+ ...
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Install specific version</h3>
+<div class="outline-text-3" id="text-1-2">
+<div class="org-src-container">
+
+<pre class="src src-sh">$ sudo -E pip install cf-boot==1.6.0 --force-reinstall
+</pre>
+</div>
+
+<p>
+Or from the source tree (not recommended):
+</p>
+<div class="org-src-container">
+
+<pre class="src src-sh">$ git clone https://github.build.ge.com/hubs/cf-boot
+$ cd cf-boot
+$ sudo python setup.py install
+</pre>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Usage</h3>
+<div class="outline-text-3" id="text-1-3">
+<div class="org-src-container">
+
+<pre class="src src-sh">$ cf-boot ui-app-hub-boot.json -i envs/hubs-poc.json -o hubs-poc-results.json
+</pre>
+</div>
+<ul class="org-ul">
+<li>Obtain or <a href="#project-spec">create</a> the project spec: <a href="doc/examples/event-hub/event-hub-boot.json">event-hub-boot.json</a>
+</li>
+<li>Determine the free variables for the project spec
+<div class="org-src-container">
+
+<pre class="src src-sh">cf-boot event-hub-boot.json --free-vars
+[
+   "CF_ORG",
+   "CF_PASSWORD",
+   "CF_SPACE",
+   "CF_SPACE_UAA",
+   "CF_TARGET",
+   "CF_USER",
+   "event-hub-instance-name",
+   "event_hub_publish_client_id",
+   "event_hub_publish_client_secret",
+   "event_hub_subscribe_client_id",
+   "event_hub_subscribe_client_secret",
+   "uaa_admin_secret",
+   "uaa_instance_name"
+]
+</pre>
+</div>
+</li>
+<li>Create a file: <code>envs/hubs-poc.json</code> initializing all free variables
+<div class="org-src-container">
+
+<pre class="src src-js">{
+    "CF_TARGET": "https://api.system.asv-pr.ice.predix.io",
+    "CF_USER": "ernesto.alfonsogonzalez@ge.com",
+    "CF_PASSWORD": "***REMOVED***",
+    "CF_ORG": "HUBS",
+    "CF_SPACE": "poc",
+    "CF_SPACE_UAA": "sandbox",
+
+    "event-hub-instance-name": "event-hub-audit-poc",
+    "uaa_instance_name": "event-hub-audit-uaa-poc",
+    "uaa_admin_secret": "ernesto",
+
+    "event_hub_subscribe_client_id": "eh-subscribe",
+    "event_hub_subscribe_client_secret": "eh-subscribe-secret",
+
+    "event_hub_publish_client_id": "eh-publish",
+    "event_hub_publish_client_secret": "eh-publish-secret"
+ }
+</pre>
+</div>
+</li>
+<li>Run jobs to bootstrap the environment.
+<div class="org-src-container">
+
+<pre class="src src-sh">$ cf-boot event-hub-boot.json --input envs/hubs-poc.json --output envs/hubs-poc-results.json
+...
+RUNNING CHILD 3/5: 'service' with input:
+{
+  "service": "predix-uaa",
+  "instance_name": "event-hub-audit-uaa-poc",
+  "cf_home": "/tmp/cf-homes/fafe452c36298bad655f458cdd96a149",
+  "plan": "Tiered",
+  "credential_paths": {
+    "issuerId": [
+      "issuerId"
+    ],
+    "uri": [
+      "uri"
+    ],
+    "zoneId": [
+      "zone",
+      "http-header-value"
+    ]
+  },
+  "payload": {
+    "adminClientSecret": "mysecret"
+  }
+}
+
+...
+
+{
+  "issuerId": "https://fe5540ee-d75d-4d9a-8898-9ba9f6de29f5.predix-uaa.run.asv-pr.ice.predix.io/oauth/token",
+  "zoneId": "fe5540ee-d75d-4d9a-8898-9ba9f6de29f5",
+  "uri": "https://fe5540ee-d75d-4d9a-8898-9ba9f6de29f5.predix-uaa.run.asv-pr.ice.predix.io",
+  "SERVICE_GUID": "fe5540ee-d75d-4d9a-8898-9ba9f6de29f5"
+}
+
+...
+</pre>
+</div>
+</li>
+<li>View bootstrap results: <code>cat envs/hubs-poc-results.json</code>
+<div class="org-src-container">
+
+<pre class="src src-js"> {
+  "CF_HOME": "/tmp/cf-homes/1479497b751ec97462bb89660c4962a8",
+  "CF_HOME_UAA": "/tmp/cf-homes/fafe452c36298bad655f458cdd96a149",
+  "CF_ORG": "HUBS",
+  "CF_PASSWORD": "***REMOVED***",
+  "CF_SPACE": "poc",
+  "CF_SPACE_UAA": "sandbox",
+  "CF_TARGET": "https://api.system.asv-pr.ice.predix.io",
+  "CF_USER": "ernesto.alfonsogonzalez@ge.com",
+  "event-hub-instance-name": "event-hub-audit-poc",
+  "event_hub_instance_guid": "a06b5b4c-981a-4f86-84e8-c08f4d2d05e0",
+  "event_hub_publish_client_id": "eh-publish",
+  "event_hub_publish_client_secret": "***REMOVED***",
+  "event_hub_scope_publish_grpc": "predix-event-hub.zones.a06b5b4c-981a-4f86-84e8-c08f4d2d05e0.grpc.publish",
+  "event_hub_scope_publish_wss": "predix-event-hub.zones.a06b5b4c-981a-4f86-84e8-c08f4d2d05e0.wss.publish",
+  "event_hub_scope_subscribe_grpc": "predix-event-hub.zones.a06b5b4c-981a-4f86-84e8-c08f4d2d05e0.grpc.subscribe",
+  "event_hub_scope_user": "predix-event-hub.zones.a06b5b4c-981a-4f86-84e8-c08f4d2d05e0.user",
+  "event_hub_subscribe_client_id": "eh-subscribe",
+  "event_hub_subscribe_client_secret": "***REMOVED***",
+  "uaa_admin_secret": "***REMOVED***",
+  "uaa_instance_guid": "fe5540ee-d75d-4d9a-8898-9ba9f6de29f5",
+  "uaa_instance_name": "event-hub-audit-uaa-poc",
+  "uaa_issuer_id": "https://fe5540ee-d75d-4d9a-8898-9ba9f6de29f5.predix-uaa.run.asv-pr.ice.predix.io/oauth/token",
+  "uaa_uri": "https://fe5540ee-d75d-4d9a-8898-9ba9f6de29f5.predix-uaa.run.asv-pr.ice.predix.io",
+  "uaa_zone_id": "fe5540ee-d75d-4d9a-8898-9ba9f6de29f5"
+}
+</pre>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Overview</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> cf-boot components</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><b>project spec</b> (<code>what</code>)
+<ul class="org-ul">
+<li>User-provided specification of the bootstrap requirements:
+A JSON DSL specifying a set of <code>jobs</code>,
+each of which specifies
+<ul class="org-ul">
+<li>the script to execute it
+</li>
+<li>the inputs to the script
+</li>
+<li>the outputs to capture from the script
+</li>
+</ul>
+<p>
+Outputs from one job can be passed as inputs to another job
+</p>
+</li>
+<li><b>free variables</b> (<code>what</code>)
+<ul class="org-ul">
+<li>environment-specific values or sensitive values such as passwords
+or other credentials, which are decoupled from the project spec
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><b>subscripts</b> (<code>how</code>)
+<ul class="org-ul">
+<li>Executable, reusable scripts that are invoked
+by the master script to carry out a job
+specified in the user's project spec.
+</li>
+</ul>
+</li>
+<li><b>master script</b> (<code>what</code> + <code>how</code>)
+<ul class="org-ul">
+<li>project-spec parsing and execution engine, organizing jobs by dependency,
+piping job inputs and outputs, producing final JSON key-value map<br  />
+       The master script links the <code>what</code> and the <code>how</code>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Architecture diagram</h3>
+<div class="outline-text-3" id="text-2-2">
+
+<div id="fig:SED-HR4049" class="figure">
+<p><img src="cfboot/master/hubs-bootstrapper-architecture.png" alt="hubs-bootstrapper-architecture.png" width="1000px" />
+</p>
+<p><span class="figure-number">Figure 1:</span> Architecture diagram</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Benefits</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>Decoupling of <code>how</code> and <code>what</code> allows users to bootstrap
+their products declaratively instead of writting code
+</li>
+<li>Arbitrary chaining of jobs and the data they produce
+</li>
+<li>Automatic dependency management based on inputs/outputs
+</li>
+<li>Decoupling of environment-specific values, credentials, passwords from the
+project spec
+<ul class="org-ul">
+<li>Allows project spec to be published and serve as bootstrap documentation
+</li>
+<li>Allows project spec to remain stable across environments
+</li>
+</ul>
+</li>
+<li>Flexibility to allow user to provide custom subscripts
+to meet highly product-specific bootstrap needs
+</li>
+<li>Idempotence as a way to cleanly address the need to update,
+</li>
+<li>Idempotence as a way to handle or clean up undefined or undesirable state
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> <a id="project-spec" name="project-spec"></a> Project Spec specification</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+The project spec is a JSON document
+</p>
+</div>
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Jobs</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+A job is a JSON map with 3 required fields, <b>script</b>, <b>input</b>, <b>output</b>, and optionally a <b>description</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left"><b>field name</b></td>
+<td class="left"><b>field type</b></td>
+<td class="left"><b>field description</b></td>
+<td class="left"><b>example</b></td>
+</tr>
+
+<tr>
+<td class="left">script</td>
+<td class="left">string</td>
+<td class="left">the name of the sub-script to carry out the job</td>
+<td class="left">"create-uaa-service"</td>
+</tr>
+
+<tr>
+<td class="left">output</td>
+<td class="left">map of string -&gt; string</td>
+<td class="left">keys much match sub-script output names. values are the names that other jobs may refer to.</td>
+<td class="left">{"service_guid":"uaa_service_guid", "client_secret":"uaa_client_secret", "uaa_uri":"uaa_uri"}</td>
+</tr>
+
+<tr>
+<td class="left">input</td>
+<td class="left">map of string -&gt; JSON</td>
+<td class="left">keys must match sub-script input names. values may be any JSON object. nested strings starting with <code>$</code> are substituted with their known value</td>
+<td class="left">{"uaa_uri":"$uaa_uri", "uaa_client_secret":"$uaa_client_secret", "acs_zone":"$acs_zone"}</td>
+</tr>
+
+<tr>
+<td class="left">description</td>
+<td class="left">string</td>
+<td class="left">optional description of the job</td>
+<td class="left">"uaa service for config manager"</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Spec file</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+A spec file is a JSON mapping "jobs" to a list of jobs:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-js">{
+   "jobs": [
+...
+      {
+	 "script": "create-unique-cf-home",
+	 "description": "unique cf login for all sub-scripts that must use cf commands",
+	 "input": {
+	    "CF_TARGET": "$CF_TARGET",
+	    "CF_USER": "$CF_USER",
+	    "CF_PASSWORD": "$CF_PASSWORD",
+	    "CF_ORG": "$CF_ORG",
+	    "CF_SPACE": "$CF_SPACE"
+	 },
+	 "output": {
+	    "CF_HOME": "CF_HOME"
+	 }
+      },
+      {
+	"script": "service",
+	"description": "create event hub uaa",
+	"input": {
+	    "instance_name": "$uaa_instance_name",
+	    "service": "predix-uaa",
+	    "plan": "Tiered",
+	    "cf_home": "$CF_HOME",
+	    "payload": {"adminClientSecret": "$uaa_admin_secret"},
+	    "credential_paths": {"uri" : ["uri"],
+				 "issuerId": ["issuerId"],
+				 "zoneId": ["zone", "http-header-value"]}
+	},
+	"output": {
+	    "SERVICE_GUID": "uaa_instance_guid",
+	    "uri": "uaa_uri",
+	    "issuerId":  "uaa_issuer_id",
+	    "zoneId": "uaa_zone_id"
+	}
+    },
+    {
+	"script": "service",
+	"description": "create event hub instance",
+
+	"input": {
+	    "instance_name": "$event-hub-instance-name",
+	    "service": "predix-event-hub",
+	    "plan": "Beta",
+	    "cf_home": "$CF_HOME",
+	    "payload": {"trustedIssuerIds": ["$uaa_issuer_id"]},
+	    "credential_paths": {"event_hub_scope_user":
+				 ["publish", "protocol_details", 0, "zone-token-scope", 0],
+
+				 "event_hub_scope_publish_grpc":
+				 ["publish", "protocol_details", 0, "zone-token-scope", 1],
+
+				 "event_hub_scope_publish_wss":
+				 ["publish", "protocol_details", 1, "zone-token-scope", 1],
+
+				 "event_hub_scope_subscribe_grpc":
+				 ["subscribe", "protocol_details", 0, "zone-token-scope", 1]
+				}
+	},
+	"output": {
+	    "SERVICE_GUID": "event_hub_instance_guid",
+	    "event_hub_scope_user": "event_hub_scope_user",
+	    "event_hub_scope_publish_grpc": "event_hub_scope_publish_grpc",
+	    "event_hub_scope_publish_wss": "event_hub_scope_publish_wss",
+	    "event_hub_scope_subscribe_grpc": "event_hub_scope_subscribe_grpc"
+	}
+    }
+
+      ...
+    ]
+}
+</pre>
+</div>
+<ul class="org-ul">
+<li>In the first job
+<ul class="org-ul">
+<li><code>$CF_TARGET</code>, <code>$CF_USER</code>, <code>$CF_PASSWORD</code>, <code>$CF_ORG</code>, <code>$CF_SPACE</code> are free variables since they are not produced by any other job.
+</li>
+<li><code>create-unique-cf-home</code> script outputs a variable <code>CF_HOME</code>, which we capture internally as <code>CF_HOME</code>
+</li>
+</ul>
+</li>
+<li>The second job
+<ul class="org-ul">
+<li>refers to the <code>$CF_HOME</code> produced by the first job
+</li>
+<li>Its script outputs a variable <code>SERVICE_GUID</code>,
+which we capture internally as <code>uaa_instance_guid</code>
+</li>
+</ul>
+</li>
+<li>The third job uses <code>uaa_instance_guid</code> from the second job, as
+well as <code>CF_HOME</code> from the first job, and produces <code>event_hub_instance_guid</code>
+</li>
+</ul>
+
+<p>
+A project spec is malformed if it contains two jobs which output the same
+variable
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Job execution order</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+The master script automatically determines job order based on variable dependencies. If
+</p>
+<ul class="org-ul">
+<li>Job <b>A</b> outputs <b>X</b> and
+</li>
+<li>Job <b>B</b> refers to <b>$X</b>, then
+</li>
+<li>Job <b>A</b> must run before Job <b>B</b>
+</li>
+</ul>
+
+<p>
+This implies no job can depend on a job that produces no outputs.
+For such cases, a job may produce a dummy indicator variable that can be refered by any dependent jobs.<br  />
+</p>
+
+<p>
+A project spec is malformed if it contains cyclic job dependencies
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Subscripts</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Built-in subscripts</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+The following subscripts are provided by default as basic cf bootstrapping
+building blocks:
+</p>
+
+<ul class="org-ul">
+<li><a href="cfboot/scripts/create-unique-cf-home">create-unique-cf-home</a>
+<ul class="org-ul">
+<li>Allows other subscripts to call cf commands against a
+particular environment safely
+</li>
+<li>Allow jobs to target different environments simultaneously without
+conflict
+</li>
+</ul>
+</li>
+<li><a href="cfboot/scripts/create-service">service</a>,
+<ul class="org-ul">
+<li>create or update a service, and optionally extract some of its binding
+credentials by specifying each credential's JSON path
+</li>
+</ul>
+</li>
+<li><a href="cfboot/scripts/cf-cups">cf-cups</a>
+<ul class="org-ul">
+<li>create or update a user-provided service service
+</li>
+</ul>
+</li>
+<li><a href="cfboot/scripts/cf-push-app">cf-push-app</a>
+<ul class="org-ul">
+<li>push an app based on a git url. optionally specify services to bind,
+environment variables, route domain name, buildpack, etc
+</li>
+</ul>
+</li>
+<li><a href="cfboot/scripts/create-uaa-clients">create-uaa-clients</a>
+<ul class="org-ul">
+<li>create or update clients on a uaa server
+</li>
+</ul>
+</li>
+<li><a href="cfboot/scripts/create-acs-policy">create-acs-policy</a>
+<ul class="org-ul">
+<li>create or update an acs policy
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Creating a new sub-script</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+A subscript is any executable file NAME.EXT that conforms to the following requirements:
+</p>
+<ul class="org-ul">
+<li>Is executable
+</li>
+<li>Lives under <code>NAME/NAME.EXT</code> somewhere on the subscripts <b>path</b>
+</li>
+<li>Read all its input from stdin JSON
+</li>
+<li>Output all data as a JSON key-value pairs
+<ul class="org-ul">
+<li>May display progress/debug logs to stderr
+</li>
+</ul>
+</li>
+<li>Must be idempotent. Running the script multiple times should be equivalent to running it once
+<ul class="org-ul">
+<li>Most of the cf api, as well as cf commands already have this property
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+Sub-scripts should also observe the following guidelines
+</p>
+<ul class="org-ul">
+<li>Have small and clearly defined scope and meaningful name
+</li>
+<li>Be self-contained and not interfere with OS user or other processes
+<ul class="org-ul">
+<li>Any scripts running CF commands must explicitly set the CF_HOME environment variable
+</li>
+<li>Should not use uaac until CF_HOME-like support is added
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+Pull requests are welcome for subscripts which meet the above guidelines
+and provide functionality not already covered
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> Adding custom subscripts to the cf-boot path</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Use the <code>--path</code> flag to specify the custom subscript's directory:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-sh"> $ cf-boot -h
+ ...
+-p PATH, --path PATH  colon-delimited path where to find additional
+		       subscripts
+ $ cf-boot ui-app-hub-bootstrap.json --path /path/to/my/own/subscripts --input envs/hubs-poc.json
+ ...
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4-4" class="outline-3">
+<h3 id="sec-4-4"><span class="section-number-3">4.4</span> Subscript environment variables, proxies</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+The master script's environment variables are passed onto its children subscripts, including https_proxy.<br  />
+   It is up to the subscripts to either use or override these variables.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> FAQ</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-0-1" class="outline-4">
+<h4 id="sec-5-0-1"><span class="section-number-4">5.0.1</span> What happens if a cf-boot invocation fails with jobs left to run?</h4>
+<div class="outline-text-4" id="text-5-0-1">
+<p>
+Every subscript is designed to be idempotent, making it safe to re-run the bootstrap.
+If a job fails and bootstrap doesn't complete successfully, resolve the problem and re-run the
+bootstrap from start until it is successful.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-5-0-2" class="outline-4">
+<h4 id="sec-5-0-2"><span class="section-number-4">5.0.2</span> Is it possible to run a partial set of jobs? Is it possible to "undo" a job?</h4>
+<div class="outline-text-4" id="text-5-0-2">
+<p>
+No. The correct way to resolve an incomplete bootstrap is to fix all problems and re-run from start.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-5-0-3" class="outline-4">
+<h4 id="sec-5-0-3"><span class="section-number-4">5.0.3</span> What if I'm behind a proxy?</h4>
+<div class="outline-text-4" id="text-5-0-3">
+<p>
+Standard proxy environment variables are passed on to cf-boot's subprocesses (subscripts),
+which usually know how to interpret them. All the standard subscripts are known to work behind proxy.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-5-0-4" class="outline-4">
+<h4 id="sec-5-0-4"><span class="section-number-4">5.0.4</span> Can I bootstrap several environments at the same time?</h4>
+<div class="outline-text-4" id="text-5-0-4">
+<p>
+By design, the standard subscripts do not persist state, nor do they interfere with concurrent
+invocations. Additionally most subscripts rely on a unique, disposable, stateless CF_HOME login,
+on REST calls, etc.
+So it should be possible to run the same project spec on the same machine, with different free-vars
+inputs.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Bugs, features</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Submit bug reports or feature requests to cf-boot-devel@ge.com
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
