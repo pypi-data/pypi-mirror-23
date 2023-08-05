@@ -1,0 +1,9 @@
+malaffinity-1.1.0.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+malaffinity-1.1.0.dist-info/RECORD,,
+malaffinity-1.1.0.dist-info/METADATA,sha256=eJKjOFkPei6AlYTCpb7UkmBF2PYVDOQkXs3f1bn8vEQ,7383
+malaffinity-1.1.0.dist-info/metadata.json,sha256=e4supILA1gxyho9ADmnVsCVvm4-Q8HV-S4YUfYgsukI,841
+malaffinity-1.1.0.dist-info/top_level.txt,sha256=6dC0cDy3KKO3NHdZ__OOPy_tHbkK4c1O2xJYqQd0yoM,12
+malaffinity-1.1.0.dist-info/DESCRIPTION.rst,sha256=lVtUYzPpFc0DVqDgFnPWFL85YGCxowbUe1YtDccf1aw,6704
+malaffinity/__init__.py,sha256=c-iTp-FN1JhrEt9dbQDCLQgQOhIREM1kD5p_LNL2Y3s,7857
+malaffinity/__about__.py,sha256=NjT779Hkqnvr2vF4aY6oVAP6RRg7_UvyGI24GAYCgs4,453
+malaffinity/calcs.py,sha256=e18OprLszMseWXTJIRsBRe8tKVYJ0IiGUQ_wxkYS8GI,746
