@@ -1,0 +1,12 @@
+octoclient/__init__.py,sha256=RTPsLaqRCcGPJ65QoNmUYqmGI-kdct50WvkF556wJYc,300
+octoclient/client.py,sha256=hwq5q2phVshCwpEPRN6e0e69t9lhLHayXYyHgD8fOWw,20777
+octoclient/sockjsclient.py,sha256=gmB0ZTBtbGgOlADZXnPgGnzD121T4IJ0U34QLDv7y6E,1624
+octoclient/websocket.py,sha256=XqYN4Blzb27xudpN7Ud-uxowyudjv3PgtvOfupm3jjk,1962
+octoclient/xhrstreaming.py,sha256=UbSQQosND1fpA1gks7v8333K9o2F9RGPhaNszfoufbs,2565
+octoclient/xhrstreaminggenerator.py,sha256=h1c5CpzxzE_aAoXD0GxlTN7zwf2ybR0i2BqOEB45-NY,2223
+octoclient-0.2.dev1.dist-info/DESCRIPTION.rst,sha256=01GvXJboj6uvai-FYqBjs7xsltM2PqmBB6HH9jbaIYg,183
+octoclient-0.2.dev1.dist-info/METADATA,sha256=7XRfy2C9le8OhhMrzXfv6FX2TttIZg-bAU5T5LidDKc,1409
+octoclient-0.2.dev1.dist-info/RECORD,,
+octoclient-0.2.dev1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+octoclient-0.2.dev1.dist-info/metadata.json,sha256=0BbgyXUhoU--SeSAWkfNWrE8OHKChKrrcLi36e4_DlM,1404
+octoclient-0.2.dev1.dist-info/top_level.txt,sha256=KRHWBAVVDRWdunY-LZe0C86DofkqIhAmLmBlv6NvWuc,11
