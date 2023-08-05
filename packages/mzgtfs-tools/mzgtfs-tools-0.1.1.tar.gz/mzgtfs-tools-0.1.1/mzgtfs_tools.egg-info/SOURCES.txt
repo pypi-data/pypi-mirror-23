@@ -1,0 +1,14 @@
+README
+setup.py
+mzgtfs-tools/__init__.py
+mzgtfs-tools/add_feed_id.py
+mzgtfs-tools/add_route_type.py
+mzgtfs-tools/prepend_agency_id.py
+mzgtfs-tools/rename_route_id.py
+mzgtfs-tools/simple_agency_remove.py
+mzgtfs-tools/util.py
+mzgtfs_tools.egg-info/PKG-INFO
+mzgtfs_tools.egg-info/SOURCES.txt
+mzgtfs_tools.egg-info/dependency_links.txt
+mzgtfs_tools.egg-info/requires.txt
+mzgtfs_tools.egg-info/top_level.txt

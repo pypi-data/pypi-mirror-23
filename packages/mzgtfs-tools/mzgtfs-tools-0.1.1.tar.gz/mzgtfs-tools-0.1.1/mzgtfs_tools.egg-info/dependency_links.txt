@@ -1,0 +1,1 @@
+http://github.com/BusTechnology/mapzen-gtfs.git#egg=mzgtfs-tools
