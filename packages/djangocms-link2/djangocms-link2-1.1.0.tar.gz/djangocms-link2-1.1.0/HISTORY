@@ -1,0 +1,11 @@
+CHANGELOG
+=========
+
+1.0 (2017-03-20)
+----------------
+
+* initial project setup
+* forked from divio/cmsplugin_filer
+* removed all plugins except the cmsplugin_filer_link
+* renaming to link2
+* adds initial set of improvements and advanced features
