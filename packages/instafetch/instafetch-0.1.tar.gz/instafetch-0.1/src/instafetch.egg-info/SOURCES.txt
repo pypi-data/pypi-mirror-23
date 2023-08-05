@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+README.rst
+setup.py
+src/instafetch/Instafetch.py
+src/instafetch/__init__.py
+src/instafetch.egg-info/PKG-INFO
+src/instafetch.egg-info/SOURCES.txt
+src/instafetch.egg-info/dependency_links.txt
+src/instafetch.egg-info/entry_points.txt
+src/instafetch.egg-info/not-zip-safe
+src/instafetch.egg-info/requires.txt
+src/instafetch.egg-info/top_level.txt
