@@ -1,0 +1,8 @@
+setup.py
+logging-slack/__init__.py
+logging-slack/handlers.py
+logging_slack.egg-info/PKG-INFO
+logging_slack.egg-info/SOURCES.txt
+logging_slack.egg-info/dependency_links.txt
+logging_slack.egg-info/requires.txt
+logging_slack.egg-info/top_level.txt
