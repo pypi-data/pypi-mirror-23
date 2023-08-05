@@ -1,0 +1,3 @@
+[gui_scripts]
+rummage2.7 = rummage.__main__:main
+
