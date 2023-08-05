@@ -1,0 +1,14 @@
+mendeleev/__init__.py,sha256=zp02Hy7wPP-zdA00jKydVT0tEtQE2QTcDgv1oYZh3AY,1197
+mendeleev/econf.py,sha256=9WUgZFSlHAtlgQmP239EIVVAAxXdIhGkqT-eH9fUILQ,12923
+mendeleev/elements.db,sha256=dnvj_cN1v8jdOLziW6ea7__1vIvvQnIbjLbMv4Tce5o,339968
+mendeleev/mendeleev.py,sha256=xit2vjrcAbRfn0XKE1fju8rIRqs3YOcra7b1dkipNA0,11637
+mendeleev/plotting.py,sha256=GBs-BgDnMKtfFaAALjnKsDuF9vQEC1nBq3kWfUnTfrs,9563
+mendeleev/tables.py,sha256=ebYnuICC5c53aWMvFhVzx4-rWZUMGp7T1bXdbhWzozs,30990
+mendeleev/utils.py,sha256=xdxgADj48DzUAeyPopV2CQJXxY0z2EC3UsOWFfxkvQw,4800
+mendeleev-0.3.4.dist-info/DESCRIPTION.rst,sha256=NV3eYw841L50GCedShb-Ex-oFZa_R4IEKFoXFqowJWU,41038
+mendeleev-0.3.4.dist-info/METADATA,sha256=59TGCplAQ3Y3zU5yiWx7igAuL41kQsl_G06UA8gGIow,42005
+mendeleev-0.3.4.dist-info/RECORD,,
+mendeleev-0.3.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+mendeleev-0.3.4.dist-info/entry_points.txt,sha256=L04Jpi38jEBttVdxTKxG_bTXz_GDYsLGA2-EtPAFJCo,106
+mendeleev-0.3.4.dist-info/metadata.json,sha256=7pytmGBGVJeqo0Crp4sVn3s8XH3NAbsSdUszHvlXVtk,1389
+mendeleev-0.3.4.dist-info/top_level.txt,sha256=JDgpcmkpiEqo-MmAcwIex8uHkTTKY5snYouOtasux4Y,10
