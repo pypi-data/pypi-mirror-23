@@ -1,0 +1,10 @@
+setuptools
+Products.PloneFormGen
+Products.MasterSelectWidget
+Products.DataGridField
+
+[tests]
+zope.testing
+plone.testing
+plone.app.testing
+mock
