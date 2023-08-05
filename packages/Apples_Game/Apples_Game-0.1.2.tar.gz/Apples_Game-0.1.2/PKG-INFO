@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Apples_Game
+Version: 0.1.2
+Summary: Guess the color of the Apple!
+Home-page: http://pypi.python.org
+Author: Mahnoor Imran
+Author-email: mimran2@gmu.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
