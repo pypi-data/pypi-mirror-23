@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+oshino_zmq/__init__.py
+oshino_zmq/agent.py
+oshino_zmq/version.py
+oshino_zmq.egg-info/PKG-INFO
+oshino_zmq.egg-info/SOURCES.txt
+oshino_zmq.egg-info/dependency_links.txt
+oshino_zmq.egg-info/requires.txt
+oshino_zmq.egg-info/top_level.txt
