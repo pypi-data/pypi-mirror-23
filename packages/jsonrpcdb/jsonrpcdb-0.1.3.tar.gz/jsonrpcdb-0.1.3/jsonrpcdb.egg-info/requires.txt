@@ -1,0 +1,6 @@
+requests
+
+[test]
+coverage
+json-rpc
+werkzeug
