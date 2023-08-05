@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_upload_path/__init__.py
+django_upload_path/upload_path.py
+django_upload_path.egg-info/PKG-INFO
+django_upload_path.egg-info/SOURCES.txt
+django_upload_path.egg-info/dependency_links.txt
+django_upload_path.egg-info/requires.txt
+django_upload_path.egg-info/top_level.txt
+django_upload_path.egg-info/zip-safe
