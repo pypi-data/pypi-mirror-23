@@ -1,0 +1,11 @@
+settings_parser/__init__.py,sha256=TmANRaJPqNdY0H9TMOZL9Cl5eH3YLGewxGU5SFpa8rE,182
+settings_parser/settings.py,sha256=uePJ3kPHVTwxupfwOIX0Ie05AOEKRIl5Y87_pbmjiBs,7091
+settings_parser/settings_config.py,sha256=Dy_ilkBuowa8epw97pySa9brvXhOegOQ0HduxyWwyyE,938
+settings_parser/util.py,sha256=iC1yVQMF8JdhobGPaTF1Le1t8ap3R1m-et-wdmDOa1s,2954
+settings_parser/value.py,sha256=3Kdkcwospuqye_rZ1QmakIT_SY_bHb5WdHiWIxi3WKg,22214
+settings_parser-1.0.0.dist-info/DESCRIPTION.rst,sha256=z4GwW4YWfCdGrBy6TTH8YEExW9sbpft6NiX6tnleLdE,2343
+settings_parser-1.0.0.dist-info/METADATA,sha256=mpfn9hki_xOd61Almk6g3LZgkOzmyqzR_2aSmK8zBSc,3457
+settings_parser-1.0.0.dist-info/RECORD,,
+settings_parser-1.0.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+settings_parser-1.0.0.dist-info/metadata.json,sha256=QOtGKRwItpVNIzAjziKpmPSVZRV3PdlKy4hcYGp0Ysc,1086
+settings_parser-1.0.0.dist-info/top_level.txt,sha256=afW1Q51Zt60WR5_Q-mDz5Y6dwB9c1TivVR5Q98M6x08,16
