@@ -1,0 +1,13 @@
+Wikidata-0.5.2.dist-info/DESCRIPTION.rst,sha256=WswRvYMD6v-Tn7tIBdnSFVJ1ahXVjrO7-PIoQ4MeKn0,1159
+Wikidata-0.5.2.dist-info/METADATA,sha256=_wcedbquQFBIAmBx8rufCDQMCYuklNb_2zGn4gcnGl0,2191
+Wikidata-0.5.2.dist-info/RECORD,,
+Wikidata-0.5.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+Wikidata-0.5.2.dist-info/metadata.json,sha256=nyGzNNG54ltv6zX2kO6SmcLC--7Z4-y40fhwApl74RM,1160
+Wikidata-0.5.2.dist-info/top_level.txt,sha256=uA5vmuVkqtoogreQruBIoKViQCJ0xCkLaNyAJDOYg98,9
+wikidata/__init__.py,sha256=5PrX-cWJBvhQqj8iWq97Zy9Jo19rBT3yfAadN6KYxn4,165
+wikidata/cache.py,sha256=-YJslx6eudxuL4aEk9qSYiEVQppPJcL1l402wI99f_4,5716
+wikidata/client.py,sha256=4CZkdmWi0crLxQSV1XEgnhrW1WgSuD1bES3V5D4Xw_o,7920
+wikidata/commonsmedia.py,sha256=fWSmv2hIdEMjDHwo6pBnQdl0O98V3UN2ozd4sNFPIik,3508
+wikidata/datavalue.py,sha256=Z2ouAO4vVkaTwzDX5Gi7NYlLHKlTo1y06solGFSK-fQ,8191
+wikidata/entity.py,sha256=9lg4R65P4eoA-hftBtj17qoHlJyl8gyXB8noyd3v2mg,9134
+wikidata/multilingual.py,sha256=Eb6P4iV5GUEJ9F_vJC_FN2D1KNWUp30EsoGdC28Xf8Y,2830
