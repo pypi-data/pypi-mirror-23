@@ -1,0 +1,8 @@
+setup.py
+who_i/__init__.py
+who_i/new.py
+who_i.egg-info/PKG-INFO
+who_i.egg-info/SOURCES.txt
+who_i.egg-info/dependency_links.txt
+who_i.egg-info/not-zip-safe
+who_i.egg-info/top_level.txt
