@@ -1,0 +1,16 @@
+ufload/__init__.py,sha256=XjyYX7nZhgjBchsgK5ky2iHj6Q_LY-owY3xauMZYm0M,1769
+ufload/cloud.py,sha256=waWRTRwQdiFmiwo4YbYKzIzfUJInjc8zObRpJN504bQ,5594
+ufload/db.py,sha256=vdNmelpJt90mW11MaLSPPoMdkPbxOonoCc1tyh3OLIk,14743
+ufload/httpfile.py,sha256=6BKcTy076f1NvhuWT56PfeSPGEw8gHBqGpES-VU4RHU,1703
+ufload/test_cloud.py,sha256=Wne9uzSMQrqeDoRScJUtOECkhAHXk2FXIMfSrPen7-U,242
+ufload/test_db.py,sha256=9CSONuGK9BJUKGZFbY-nqFZmqZa4pq_nrlXR_MbzbPY,698
+ufload/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufload/cli/main.py,sha256=cCSIlOde6b8Lal8e_ESoRIic0neV3_eNCQHfcELeGfY,11670
+ufload/cli/test_main.py,sha256=ikqMgBMPTyIsdcU3Xg62WQYHmCcdeGT4vjA9i_AiJhU,358
+ufload-0.83.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+ufload-0.83.dist-info/METADATA,sha256=ZeLN0bYD9BVCtgJOsrEA9an1CzwMLHL4xZYHC0SIIFw,633
+ufload-0.83.dist-info/RECORD,,
+ufload-0.83.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ufload-0.83.dist-info/entry_points.txt,sha256=37cp4QBHV0boGH-WqxyLEXIMJ5Ot0iGRAJjwHsUNOzk,59
+ufload-0.83.dist-info/metadata.json,sha256=sHfb_Awk9zlp7PgMznRLfx1XLV8h8fWha4MaJJedH3s,950
+ufload-0.83.dist-info/top_level.txt,sha256=LOqEqVzqtOerKZpEztBEUqnjb5ueaQBNurRcSPRgG7A,7
