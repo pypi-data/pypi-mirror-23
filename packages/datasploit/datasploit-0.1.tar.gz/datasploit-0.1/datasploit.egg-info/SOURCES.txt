@@ -1,0 +1,7 @@
+setup.py
+datasploit/__init__.py
+datasploit.egg-info/PKG-INFO
+datasploit.egg-info/SOURCES.txt
+datasploit.egg-info/dependency_links.txt
+datasploit.egg-info/not-zip-safe
+datasploit.egg-info/top_level.txt
