@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    chestymetrics=chestymetrics.__init__:cli
+    
