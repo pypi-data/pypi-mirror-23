@@ -1,0 +1,12 @@
+recursive-include lib *
+
+#include Accord.dll
+#include Accord.Math.dll
+#include Accord.Math.Core.dll
+
+#include AQI.AQILabs.Kernel.dll
+#include AQI.AQILabs.Kernel.Adapters.dll
+#include AQI.AQILabs.Derivatives.dll
+#include AQI.AQILabs.SDK.Strategies.dll
+
+#include QuantApp.Core.dll
