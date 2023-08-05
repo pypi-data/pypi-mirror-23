@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: googlespider
+Version: 0.1.7
+Summary: A command line google spider. Extracts links.
+Home-page: http://gitlab.com/hyperion-gray/googlespider
+Author: Luke Maxwell
+Author-email: luke@codepunk.xyz
+License: MIT
+Download-URL: https://gitlab.com/hyperion-gray/googlespider/repository/archive.tar.gz?ref=0.1.7
+Description: UNKNOWN
+Platform: UNKNOWN

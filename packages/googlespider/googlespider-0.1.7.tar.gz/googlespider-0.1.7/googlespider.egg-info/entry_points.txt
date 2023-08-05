@@ -1,0 +1,3 @@
+[console_scripts]
+googlespider = googlespider.command_line:main
+
