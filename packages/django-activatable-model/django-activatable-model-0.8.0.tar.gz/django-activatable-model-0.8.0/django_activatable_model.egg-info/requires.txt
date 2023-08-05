@@ -1,0 +1,9 @@
+django>=1.7
+django-manager-utils>=0.9.1
+
+[dev]
+coverage
+psycopg2
+django-dynamic-fixture
+django-nose>=1.4
+mock
