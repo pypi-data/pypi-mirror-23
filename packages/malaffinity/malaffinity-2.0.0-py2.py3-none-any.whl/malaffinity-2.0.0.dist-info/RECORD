@@ -1,0 +1,11 @@
+malaffinity/malaffinity.py,sha256=lKzTSN1Z3UTjJg70G4exhuqNFJuc7Qx6pSKqILyIoQs,6467
+malaffinity/exceptions.py,sha256=4WoNKfcsVJSBgMgHx6wvyI5qzZ091DRVG667trx-58o,758
+malaffinity/calcs.py,sha256=v92YWL65jDVOjAT862MyaSgNy6lLMZbjZ9N--s0Fq-E,1004
+malaffinity/__init__.py,sha256=USsfz4FjBhrkWes1sQcLy7MeMX1fpiMU1mbSebH59GI,756
+malaffinity/__about__.py,sha256=V1rFPElA87JNauA6VnFLB9yddE9YQFvkm_uzh1nkl7Q,449
+malaffinity-2.0.0.dist-info/RECORD,,
+malaffinity-2.0.0.dist-info/metadata.json,sha256=1U4VNxXMVOIaeVGK37Kj6CuH16WmSkQ75bhsHbfOiqk,837
+malaffinity-2.0.0.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+malaffinity-2.0.0.dist-info/METADATA,sha256=GFx-zgZhncl2ZQDiWDhz30u53tF4zpATOC6UpkDC_10,8350
+malaffinity-2.0.0.dist-info/top_level.txt,sha256=6dC0cDy3KKO3NHdZ__OOPy_tHbkK4c1O2xJYqQd0yoM,12
+malaffinity-2.0.0.dist-info/DESCRIPTION.rst,sha256=rwcDGEU_WcHau8jm5zt3ecNQ7PZziTAOzqm-LZcxvD4,7675
