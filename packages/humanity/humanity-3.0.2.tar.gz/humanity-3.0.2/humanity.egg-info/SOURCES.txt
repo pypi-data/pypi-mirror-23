@@ -1,0 +1,9 @@
+setup.py
+humanity/__init__.py
+humanity/humd.py
+humanity/indexes.py
+humanity/main.py
+humanity.egg-info/PKG-INFO
+humanity.egg-info/SOURCES.txt
+humanity.egg-info/dependency_links.txt
+humanity.egg-info/top_level.txt
