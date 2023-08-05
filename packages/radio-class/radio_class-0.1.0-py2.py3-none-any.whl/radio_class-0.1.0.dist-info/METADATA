@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: radio-class
+Version: 0.1.0
+Summary: Event-bus implementation
+Home-page: https://github.com/unclechu/py-radio-class
+Author: Viacheslav Lotsmanov
+Author-email: lotsmanov89@gmail.com
+License: MIT
+Keywords: events bus library radio
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+Event-bus implementation inspired by backbone.radio
+
+
