@@ -1,0 +1,2 @@
+recursive-include httpparser *.c *.h *.o *.pxd
+include MANIFEST.in LICENSE* README*
