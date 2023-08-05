@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+sarltdtgore/__init__.py
+sarltdtgore.egg-info/PKG-INFO
+sarltdtgore.egg-info/SOURCES.txt
+sarltdtgore.egg-info/dependency_links.txt
+sarltdtgore.egg-info/top_level.txt
