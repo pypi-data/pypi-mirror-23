@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+fastqvalidator_sqlite/__init__.py
+fastqvalidator_sqlite/__main__.py
+fastqvalidator_sqlite/main.py
+fastqvalidator_sqlite.egg-info/PKG-INFO
+fastqvalidator_sqlite.egg-info/SOURCES.txt
+fastqvalidator_sqlite.egg-info/dependency_links.txt
+fastqvalidator_sqlite.egg-info/entry_points.txt
+fastqvalidator_sqlite.egg-info/requires.txt
+fastqvalidator_sqlite.egg-info/top_level.txt
+fastqvalidator_sqlite/metrics/__init__.py
+fastqvalidator_sqlite/metrics/fastqvalidator_metrics.py
