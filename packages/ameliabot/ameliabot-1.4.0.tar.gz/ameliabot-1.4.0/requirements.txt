@@ -1,0 +1,11 @@
+untwisted==1.1.0
+quickirc==1.0.0
+ehp
+libpad
+libdict
+wolframalpha
+ameliabot
+
+
+
+
