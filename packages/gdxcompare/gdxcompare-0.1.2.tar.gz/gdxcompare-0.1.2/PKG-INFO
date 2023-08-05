@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gdxcompare
+Version: 0.1.2
+Summary: Visually compare time series across GAMS GDX files
+Home-page: https://github.com/jackjackk/gdxcompare
+Author: Giacomo Marangoni
+Author-email: jackjackk@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: gdx gams dataviz
+Platform: UNKNOWN
