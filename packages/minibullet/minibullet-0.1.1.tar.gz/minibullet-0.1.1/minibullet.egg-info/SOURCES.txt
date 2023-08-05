@@ -1,0 +1,7 @@
+setup.py
+minibullet/__init__.py
+minibullet.egg-info/PKG-INFO
+minibullet.egg-info/SOURCES.txt
+minibullet.egg-info/dependency_links.txt
+minibullet.egg-info/requires.txt
+minibullet.egg-info/top_level.txt
