@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: postmail
+Version: 0.3
+Summary: Quickly send an email through a POST request
+Home-page: UNKNOWN
+Author: Mark Steve Samson
+Author-email: hello@marksteve.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: certifi (==2017.4.17)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==6.7)
+Requires-Dist: flask (==0.12.2)
+Requires-Dist: gunicorn (==19.7.1)
+Requires-Dist: idna (==2.5)
+Requires-Dist: itsdangerous (==0.24)
+Requires-Dist: jinja2 (==2.9.6)
+Requires-Dist: markupsafe (==1.0)
+Requires-Dist: python-dotenv (==0.6.4)
+Requires-Dist: requests (==2.18.1)
+Requires-Dist: urllib3 (==1.21.1)
+Requires-Dist: werkzeug (==0.12.2)
+
+UNKNOWN
+
+
