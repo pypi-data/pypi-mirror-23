@@ -1,0 +1,7 @@
+setup.py
+reactions/__init__.py
+reactions.egg-info/PKG-INFO
+reactions.egg-info/SOURCES.txt
+reactions.egg-info/dependency_links.txt
+reactions.egg-info/not-zip-safe
+reactions.egg-info/top_level.txt
