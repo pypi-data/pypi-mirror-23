@@ -1,0 +1,17 @@
+crowdai/__init__.py,sha256=8HaLTT4GUH6hDHkE4GV9C5ZLu-FJ7rD1PR4NlGJ8OnY,427
+crowdai/config.py,sha256=rXbWve19nqvz9XWXOw6bTZr-jOPDN3xx-h3Vtz7UM2Y,338
+crowdai/challenges/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crowdai/challenges/base_challenge.py,sha256=RBHEk4Up6t1F4KUnoIyLda1BuZkZb4R8j2KiDoG_CsE,11839
+crowdai/challenges/crowdai_errors.py,sha256=c4XWxqKPMLV3g_y-vqF8mFp3egf_Upow6kG2qalqi7k,187
+crowdai/challenges/events.py,sha256=wnHkpCYLWmjpxwoJjPDiaYiyaxclWXwIAFYgUnXjzyw,1079
+crowdai/challenges/gecco_optimization_challenge_2017.py,sha256=bZ0aHljDC3JIPFU4odh5n-AQAloLVZs3l7vJhp3NMA8,796
+crowdai/challenges/job_states.py,sha256=dbz8Tk7w7I181Ig6WjUY8EOy4YTbOWRsF1RhBUJevNY,355
+crowdai/challenges/logging_helpers.py,sha256=nn9sYU7i-0qK_Qlo_4DyVTiZwkzoK5tcGWvYP6DMWrc,1211
+crowdai/challenges/opensnp_challenge_2017.py,sha256=96KNoWU62QUpAtmvgfqf3qxCgRneItpJkZ0hw20eRqg,524
+crowdai/challenges/response_types.py,sha256=t0xXHXEo20rv2yWd7DuxXubVjQik2yfDhURgUZ1dnxI,212
+crowdai-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+crowdai-1.0.dist-info/METADATA,sha256=fL1o8xg1Mbv1KJBXenW1n2OuUUz2mRISsytakhi0DaA,859
+crowdai-1.0.dist-info/RECORD,,
+crowdai-1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+crowdai-1.0.dist-info/metadata.json,sha256=sd79cARiYY45AkMYLVrwPFS8KjCFg9JhN34TluQYtb4,922
+crowdai-1.0.dist-info/top_level.txt,sha256=rIO9myME1S_5wfPrYJqNiQcwdRwCThf2PxCgMS8VKsw,8

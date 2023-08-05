@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: crowdai
+Version: 1.0
+Summary: Python client to interact with CrowdAI Grading Server.
+Home-page: https://github.com/spMohanty/crowdai-client-py
+Author: S.P. Mohanty
+Author-email: sharada.mohanty@epfl.ch
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Flask (>=0.12.1)
+Requires-Dist: Jinja2 (>=2.9.6)
+Requires-Dist: MarkupSafe (>=1.0)
+Requires-Dist: Werkzeug (>=0.12.1)
+Requires-Dist: appdirs (>=1.4.3)
+Requires-Dist: click (>=6.7)
+Requires-Dist: enum-compat (>=0.0.2)
+Requires-Dist: enum34 (>=1.1.6)
+Requires-Dist: itsdangerous (>=0.24)
+Requires-Dist: packaging (>=16.8)
+Requires-Dist: pyparsing (>=2.2.0)
+Requires-Dist: requests (>=2.14.1)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: socketIO-client-2 (>=0.7.4)
+Requires-Dist: termcolor (>=1.1.0)
+Requires-Dist: tqdm (>=4.11.2)
+Requires-Dist: websocket-client (>=0.40.0)
+
+UNKNOWN
+
+
