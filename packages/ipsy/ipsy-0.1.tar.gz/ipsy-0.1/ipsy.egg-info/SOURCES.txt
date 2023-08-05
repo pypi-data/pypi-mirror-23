@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+ipsy/__init__.py
+ipsy/__main__.py
+ipsy/ipsy.py
+ipsy.egg-info/PKG-INFO
+ipsy.egg-info/SOURCES.txt
+ipsy.egg-info/dependency_links.txt
+ipsy.egg-info/entry_points.txt
+ipsy.egg-info/top_level.txt

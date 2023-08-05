@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: ipsy
+Version: 0.1
+Summary: Command line IPS (Internal Patch System) applier and differ
+Home-page: https://github.com/aanunez/ipsy
+Author: Adam Nunez
+Author-email: adam.a.nunez@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: emulation ips rom patch emulator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.5
