@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pygments-hackasm-lexer
+Version: 0.1
+Summary: Pygments lexer for the Nand2Tetris Hack Assembler
+Home-page: https://github.com/cprieto/pygments_hack_asm
+Author: Cristian Prieto
+Author-email: me@cprieto.com
+License: MIT
+Description: UNKNOWN
+Keywords: syntax highlighting,pygments,lexer,hack,assembler,nand2tetris
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Plugins
