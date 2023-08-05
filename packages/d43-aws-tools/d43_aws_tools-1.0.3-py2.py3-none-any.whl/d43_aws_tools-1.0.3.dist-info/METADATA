@@ -1,0 +1,43 @@
+Metadata-Version: 2.0
+Name: d43-aws-tools
+Version: 1.0.3
+Summary: Classes for accessing AWS APIs
+Home-page: https://github.org/unfoldingWord-dev/python-aws-tools
+Author: unfoldingWord
+Author-email: info@unfoldingword.org
+License: MIT
+Keywords: aws tools,unfoldingword,lambda
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: boto3 (==1.4.4)
+Requires-Dist: moto (==1.0.1)
+Requires-Dist: mock (==2.0.0)
+
+Master:
+  .. image:: https://travis-ci.org/unfoldingWord-dev/python-aws-tools.svg?branch=master
+    :alt: Build Status
+    :target: https://travis-ci.org/unfoldingWord-dev/python-aws-tools
+  .. image:: https://coveralls.io/repos/github/unfoldingWord-dev/python-gogs-client/badge.svg?branch=master
+    :alt: Coverage
+    :target: https://coveralls.io/github/unfoldingWord-dev/python-aws-tools?branch=master
+
+Develop:
+  .. image:: https://travis-ci.org/unfoldingWord-dev/python-aws-tools.svg?branch=develop
+    :alt: Build Status
+    :target: https://travis-ci.org/unfoldingWord-dev/python-aws-tools
+  .. image:: https://coveralls.io/repos/github/unfoldingWord-dev/python-aws-tools/badge.svg?branch=develop
+    :alt: Coverage
+    :target: https://coveralls.io/github/unfoldingWord-dev/python-aws-tools?branch=develop
+
+python-aws-tools
+================
+A library for performing actions against the AWS api
+
+Deploy via the command line:
+
+    $ python setup.py sdist bdist_wheel
+    $ twine upload dist/*
+
+Or tag a new release on the repo and let travis do the work.
+
