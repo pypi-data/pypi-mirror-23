@@ -1,0 +1,16 @@
+django_tokenauth-0.0.3.dist-info/DESCRIPTION.rst,sha256=su11dUD06vlyr_Ekd-u8k0637F419CYAgC71T9zmpvg,157
+django_tokenauth-0.0.3.dist-info/METADATA,sha256=7UT3oczSpqh6kUHbIBOADG807JYOB5IC-AqbQeSEHPE,475
+django_tokenauth-0.0.3.dist-info/RECORD,,
+django_tokenauth-0.0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_tokenauth-0.0.3.dist-info/metadata.json,sha256=LBHwx58ae-QNsHfk5RF7aAJHk86DC95QT-Gjw_q791U,511
+django_tokenauth-0.0.3.dist-info/top_level.txt,sha256=6gQHUjBGnRsh14YWtBcE8fnh4Ki1EkEPdNstaUi5pNo,10
+tokenauth/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+tokenauth/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+tokenauth/apps.py,sha256=qOpnYVb4s0p1rOdbVBVj40N74JsWH1M8pXRSBQaekic,93
+tokenauth/auth_backends.py,sha256=No09b416ji0WRR_xU46j4XbDG_tfL3_-H28Jsn0aIc4,891
+tokenauth/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+tokenauth/settings.py,sha256=ymRjpmPQdloPMNnNuIRZLP1YFFIeoqVwsO-bouKRgB8,638
+tokenauth/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+tokenauth/urls.py,sha256=U3sz3bLXHyHBl1-6Ej9ubVm0q7oHSjFGV--C1bSfzfI,180
+tokenauth/views.py,sha256=4deQxa3QcXnOoW3ijRt4RvS7ua7gpImLTCxf2vnrs9g,2865
+tokenauth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
