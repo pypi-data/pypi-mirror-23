@@ -1,0 +1,7 @@
+README.rst
+setup.py
+bin/zabbix-template-converter
+zabbix_template_converter.egg-info/PKG-INFO
+zabbix_template_converter.egg-info/SOURCES.txt
+zabbix_template_converter.egg-info/dependency_links.txt
+zabbix_template_converter.egg-info/top_level.txt
