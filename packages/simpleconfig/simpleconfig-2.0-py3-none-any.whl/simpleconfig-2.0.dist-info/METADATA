@@ -1,0 +1,104 @@
+Metadata-Version: 2.0
+Name: simpleconfig
+Version: 2.0
+Summary: Dead simple configuration file parser.
+Home-page: http://kisom.github.com/pysimpleconfig
+Author: Kyle Isom
+Author-email: coder@kyleisom.net
+License: Copyright (c) 2017 Kyle Isom <coder@kyleisom.net>
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above 
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. 
+
+Description: simpleconfig
+        ============
+        
+        .. image:: https://travis-ci.org/kisom/pysimpleconfig.svg?branch=master
+            :target: https://travis-ci.org/kisom/pysimpleconfig
+        
+        what?
+        -----
+        
+        simpleconfig is a Python module that reads INI files into a dictionary. It
+        is both Python 2 and Python 3 compatible.
+        
+        why?
+        ----
+        I've written this code several times for a couple projects; I got sick of
+        copying the file over to new project directories.
+        
+        how?
+        ----
+        
+        Both a ``parse`` and ``parse_string`` function are provided. The former parses
+        config files, and the latter parses a config file serialised into a string.
+        
+        return value and example
+        ------------------------
+        Both ``parse()`` and ``parse_string`` return a dictionary (see below) where each
+        section is a key at the top level,
+        and is a dictionary of key=value pairs itself. For example, given the config
+        file::
+        
+        	>>> config = """
+        	# random version information
+        	version = 1.0.5
+        
+        	; last modified 1 April 2001 by John Doe
+        	; example taken from wikipedia
+        	[owner]
+        	name=John Doe
+        	organization=Acme Widgets Inc.
+        
+        	[database]
+        	# use IP address in case network name resolution is not working
+        	server=192.0.2.62
+        	port=143
+        	file="payroll.dat"
+        	"""
+        
+        Parsing this with ``simpleconfig`` yields::
+        
+        	>>> import simpleconfig as sc
+        	>>> cfg = sc.parse_string(config)
+        	>>> cfg['owner']['name']
+        	'John Doe'
+        	>>> cfg.owner.name
+        	'John Doe'
+        
+        Note that the dictionary type returned by the parse functions is actually a
+        `kutils.dicts.AttrDictDict <http://kutils.readthedocs.io/en/latest/dicts.html>`_,
+        which is derived from the ``dict`` type and can be used wherever a ``dict`` can.
+        
+        license
+        -------
+        simpleconfig is released under an ISC license.
+        
+        author
+        ------
+        `simpleconfig` was written by Kyle Isom <coder@kyleisom.net>.
+        
+        additional
+        ----------
+        
+        The module is only tested for compatibility against Python 2.7 and
+        Python 3.3+. There are no guarantees (or attempts) at compatibility
+        with previous version of Python.
+        
+        The docs are on `RTD <https://simpleconfig.readthedocs.io>`_.
+        
+        The source for `simpleconfig` is online:
+        
+        * `Github <https://github.com/kisom/pysimpleconfig>`_
+        
+        
+Platform: UNKNOWN
