@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: pep-reader
+Version: 0.1.1
+Summary: A PEP reader
+Home-page: https://github.com/kylexlau/pep_reader
+Author: kylexlau
+Author-email: kylexlau@gmail.com
+License: MIT
+Keywords: pep
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+
+# A PEP Reader
+
+Read PEPs in command line.
+
+It will download a pep first, if the pep is aready downloaded, it will show it on the screen. The PEPs will be downloaded once only.  The downloaded PEPs stored in $HOME/.peps directory.
+
+

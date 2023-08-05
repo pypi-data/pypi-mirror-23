@@ -1,0 +1,11 @@
+pep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pep/pep.py,sha256=xLfEuODw3FhWJh9DKKDAQUbHE75uUz7af_1ZNUxjzBQ,2149
+pep_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pep_reader/pep.py,sha256=HTnVk-upzCZZGQTK5O8u4zAtRXeVGcfwef6Wt3QlFQs,2099
+pep_reader-0.1.1.dist-info/DESCRIPTION.rst,sha256=vA2-_L3VsOE5arTEc5pqczRiqkghOUS9XgoX_DFzzkQ,233
+pep_reader-0.1.1.dist-info/METADATA,sha256=kRcd_XJnewSbuLdvpYiPNeGZh_mLIsw05j12eBSMvYg,848
+pep_reader-0.1.1.dist-info/RECORD,,
+pep_reader-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pep_reader-0.1.1.dist-info/entry_points.txt,sha256=kcdFK4olohxMu4TdxZU28cTfveqUV-E7HAMenrYXbaY,38
+pep_reader-0.1.1.dist-info/metadata.json,sha256=blIjADHpZ5Ck3Q6LMlbPZmkPGcd8Ihv8OSLZtu_3Cb8,870
+pep_reader-0.1.1.dist-info/top_level.txt,sha256=yrUUQdyE0fi0h2P0fCsbhQ3jJskv9ka-frAdVu5CROY,4
