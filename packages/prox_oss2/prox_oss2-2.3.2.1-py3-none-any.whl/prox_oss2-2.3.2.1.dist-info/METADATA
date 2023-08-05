@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: prox-oss2
+Version: 2.3.2.1
+Summary: Aliyun OSS (Object Storage Service) SDK With Proxies Support
+Home-page: https://github.com/Yinzhe-Qi/aliyun-oss-python-sdk
+Author: Yinzhe_Qi
+Author-email: UNKNOWN
+License: UNKNOWN
+Requires-Dist: crcmod (>=1.7)
+Requires-Dist: requests (!=2.9.0)
+
+Alibaba Cloud OSS SDK for Python
+
+
