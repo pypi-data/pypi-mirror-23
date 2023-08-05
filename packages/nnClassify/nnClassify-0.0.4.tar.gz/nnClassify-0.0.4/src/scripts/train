@@ -1,0 +1,13 @@
+import os, sys 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from Main_ import Main
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("Training_Set", help="The name of the training set"
+                + " that you want to train on")
+parser.add_argument("Model_Name", help="The model you want to train")
+parser.add_argument("Epochs", help="The number of epochs you want to train on",
+                    type=int)
+args = parser.parse_args()
+Main.train(args.Training_Set, args.Model_Name, args.Epochs)
