@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: centerline
+Version: 0.2
+Summary: Calculate the centerline of a polygon
+Home-page: https://github.com/fitodic/centerline.git
+Author: Filip Todic
+Author-email: todic.filip@gmail.com
+License: MIT
+Description: README.rst
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: GIS
