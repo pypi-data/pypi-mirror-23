@@ -1,0 +1,2 @@
+include ph4whois/data/tlds.txt
+include README.rst
