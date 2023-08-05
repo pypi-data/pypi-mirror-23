@@ -1,0 +1,14 @@
+wikipedia
+PyUserInput
+google-api-python-client
+SpeechRecognition
+tinydb
+youtube_dl
+spacy
+
+[optionals]
+egenix-mx-base
+lxml
+nltk
+pyaudio
+httplib2>=0.9.1
