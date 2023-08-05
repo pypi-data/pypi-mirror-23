@@ -1,0 +1,3 @@
+[distutils.commands]
+bdist_pkg = setuptools_pkg.bdist_pkg:bdist_pkg
+
