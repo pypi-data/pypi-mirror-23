@@ -1,0 +1,36 @@
+---
+debug: off
+table_style: bare
+service: malzo
+
+services:
+  malzo:
+    handler: chevereto
+    url: "https://malzo.com/"
+    limit: 30M
+    types: [JPG, PNG, BMP, GIF]
+    nsfw: off
+
+  imgbb:
+    handler: chevereto
+    url: "https://imgbb.com/"
+    limit: 16M
+    types: [JPG, PNG, BMP, GIF]
+    nsfw: off
+
+  lutim:
+    handler: file_upload
+    url: "https://lut.im/"
+    limit: 5M
+    types: [JPG, PNG, BMP, GIF]
+    upload_url: "{url}"
+    headers:
+      Referer: "{url}"
+    data:
+      delete-day: 0
+      crypt: on
+    files_field_name: "file"
+    response_regex: '<a href="(?P<scheme>[^:]+)://(?P<domain>[^/]+)/(?P<image>[^"]+)"[^>]*><img class="thumbnail'
+    image_url: "https://{response[domain]}/{response[image]}"
+
+...

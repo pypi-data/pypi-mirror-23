@@ -1,0 +1,19 @@
+---
+version: 1
+
+formatters:
+  fmt:
+    format: '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+
+handlers:
+  stdout:
+    class: logging.StreamHandler
+    formatter: fmt
+    level: NOTSET
+
+root:
+  handlers:
+    - stdout
+  level: NOTSET
+
+...

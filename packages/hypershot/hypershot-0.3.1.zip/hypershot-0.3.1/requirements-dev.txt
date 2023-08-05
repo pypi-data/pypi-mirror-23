@@ -1,0 +1,21 @@
+#
+# development dependencies & tools
+#
+
+pylint==1.7.1
+pytest==3.1.2
+pytest-cov==2.5.1
+pytest-mock==1.6.0
+pytest-spec==1.1.0
+tox==2.7.0
+responses==0.5.1
+
+-r docs/requirements.txt
+sphinx-rtd-theme==0.2.4
+
+twine==1.9.1
+bpython==0.16
+pip-upgrader==1.4.1
+
+-r requirements.txt
+-e .

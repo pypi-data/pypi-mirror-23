@@ -1,0 +1,12 @@
+addict
+docopt
+appdirs
+better-exceptions
+colorama
+terminaltables
+PyYAML
+requests
+requests-toolbelt
+tqdm
+imgurpython
+Jinja2

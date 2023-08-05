@@ -1,0 +1,13 @@
+# Extra files for sdist
+include pylint.cfg requirements*.txt *.ini *.py *.rst
+include .env .gitignore .gitlab-ci.yml
+
+recursive-include src/hypershot/data/templates *.j2
+recursive-include src/tests *.py
+recursive-include src/tests/data *.j2 *.yaml *.ini
+
+recursive-include docs Makefile *.py *.rst *.txt
+recursive-include docs/examples *.yaml
+recursive-include docs/_static *.png *.svg
+
+prune docs/_build
