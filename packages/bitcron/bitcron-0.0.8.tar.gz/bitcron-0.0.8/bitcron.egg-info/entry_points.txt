@@ -1,0 +1,4 @@
+[console_scripts]
+bitcron = bitcron.console:main
+farbox = bitcron.console:main
+
