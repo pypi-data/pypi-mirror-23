@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytsugi
+Version: 0.0.2
+Summary: Python Implementation of Tsugi
+Home-page: https://github.com/tsugiproject/pytsugi
+Author: Dr. Charles Russell Severance (Dr. Chuck)
+Author-email: charles.severance@apereo.org
+License: Apache 2
+Description: UNKNOWN
+Platform: any
