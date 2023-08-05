@@ -1,0 +1,5 @@
+setup.py
+jaga_hello_world.egg-info/PKG-INFO
+jaga_hello_world.egg-info/SOURCES.txt
+jaga_hello_world.egg-info/dependency_links.txt
+jaga_hello_world.egg-info/top_level.txt
