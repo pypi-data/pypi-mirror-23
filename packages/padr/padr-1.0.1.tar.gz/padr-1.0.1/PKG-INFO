@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: padr
+Version: 1.0.1
+Summary: A Python 3 Library to Censor Strings
+Home-page: https://github.com/JCharante/padr
+Author: JCharante
+Author-email: contactme@jcharante.com
+License: UNKNOWN
+Download-URL: https://github.com/JCharante/padr/tarball/v1.0.1
+Description: UNKNOWN
+Keywords: padding
+Platform: UNKNOWN
