@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+xarray_topo.egg-info/PKG-INFO
+xarray_topo.egg-info/SOURCES.txt
+xarray_topo.egg-info/dependency_links.txt
+xarray_topo.egg-info/not-zip-safe
+xarray_topo.egg-info/requires.txt
+xarray_topo.egg-info/top_level.txt
+xtopo/__init__.py
+xtopo/_version.py
+xtopo/algos.py
+xtopo/models/__init__.py
+xtopo/models/fastscape_base.py

@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: xarray-topo
+Version: 0.0.9
+Summary: xarray extension for topographic analysis and modelling
+Home-page: https://gitext.gfz-potsdam.de/sec55-public/xarray-topo
+Author: Benoit Bovy
+Author-email: bbovy@gfz-potsdam.de
+License: BSD-Clause3
+Description: UNKNOWN
+Keywords: python xarray topography modelling DEM digital-elevation-model
+Platform: UNKNOWN
+Requires-Python: >=3.4
