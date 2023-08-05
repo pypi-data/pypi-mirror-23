@@ -1,0 +1,23 @@
+LICENSE (GPL) .txt
+MANIFEST.in
+README.md
+pytest.ini
+setup.py
+django_s3/__init__.py
+django_s3/exceptions.py
+django_s3/resource.py
+django_s3/s3_settings.py
+django_s3/transport.py
+real_django_s3.egg-info/PKG-INFO
+real_django_s3.egg-info/SOURCES.txt
+real_django_s3.egg-info/dependency_links.txt
+real_django_s3.egg-info/requires.txt
+real_django_s3.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_settings.py
+tests/test_configuration_settings/__init__.py
+tests/test_configuration_settings/test_configurations.py
+tests/test_resource/__init__.py
+tests/test_resource/conftest.py
+tests/test_resource/test_resource.py
