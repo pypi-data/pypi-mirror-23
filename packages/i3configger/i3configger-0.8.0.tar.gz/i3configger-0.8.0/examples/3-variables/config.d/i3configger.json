@@ -1,0 +1,19 @@
+{
+  "bars": {
+    "defaults": {
+      "target": "..",
+      "mode": "dock",
+      "template": "tpl"
+    },
+    "targets": {
+      "laptop": {
+        "output": "DP-3",
+        "position": "bottom",
+        "value": "default"
+      }
+    }
+  },
+  "main": {
+    "target": "../config"
+  }
+}

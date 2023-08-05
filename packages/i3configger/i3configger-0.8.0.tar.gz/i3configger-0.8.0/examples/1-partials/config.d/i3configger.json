@@ -1,0 +1,16 @@
+{
+  "bars": {
+    "defaults": {
+      "target": "..",
+      "template": "tpl"
+    },
+    "targets": {
+      "single-bar": {
+        "value": "default"
+      }
+    }
+  },
+  "main": {
+    "target": "../config"
+  }
+}

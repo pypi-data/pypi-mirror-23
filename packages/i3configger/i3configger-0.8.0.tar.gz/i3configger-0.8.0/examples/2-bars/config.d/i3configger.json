@@ -1,0 +1,25 @@
+{
+  "bars": {
+    "defaults": {
+      "key": "i3bar",
+      "target": "..",
+      "template": "tpl",
+      "mode": "dock"
+    },
+    "targets": {
+      "laptop": {
+        "output": "DP-3",
+        "position": "bottom",
+        "value": "full"
+      },
+      "external": {
+        "output": "DP-4",
+        "position": "top",
+        "value": "clock"
+      }
+    }
+  },
+  "main": {
+    "target": "../config"
+  }
+}
