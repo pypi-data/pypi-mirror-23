@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: mongofollow
+Version: 0.3.0
+Summary: Tail any mongodb collection
+Home-page: https://github.com/Shir0kamii/mongofollow
+License: UNKNOWN
+Author: Alexandre Bonnetain
+Author-email: alexandrebonnetain@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pymongo (>=3.4.0)
