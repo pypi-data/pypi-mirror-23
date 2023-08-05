@@ -1,0 +1,12 @@
+django_views/__init__.py,sha256=lgbwZ5uryVu4imUMl2WonvJOSQqFg9G_HNyOlHI-OkE,186
+django_views/exceptions.py,sha256=L3LvrH0xlXKJX1_wCWM3dF1kI2cZaZNoPT2DFwDmb7E,419
+django_views/mixins.py,sha256=gz7H4f5Vj5514xnv9WWWWMuJRAi7yiOFJJV4dBHW7d4,6749
+django_views/tests.py,sha256=ALy_QpP7Dyd1E4H2YeVwyfYAzZ6GD-SVnoysg9Wkvqw,314
+django_views/views.py,sha256=uhyRlPCgKHyOGvT17hJRCby7pH1-ONIuSPw9oQOk0AA,2709
+django_views-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_views-1.0.0.dist-info/METADATA,sha256=aSGt7zRyTJ1RUWSSwrGKMTdW0Td9DiL-j8iLCAKM93U,747
+django_views-1.0.0.dist-info/RECORD,,
+django_views-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_views-1.0.0.dist-info/entry_points.txt,sha256=lexK7RzT1xMyCvalZCkEXUV_pXjWKxyNU2NGRfSYmuo,40
+django_views-1.0.0.dist-info/metadata.json,sha256=NOtEhAc9Rlu4nSO670PTYO9dwZUA-j77ykrpmN-lK24,1045
+django_views-1.0.0.dist-info/top_level.txt,sha256=rE9uCZ4gpyocGyu5gy3wLBle7RWQA7ntnbxKet_5Pjk,13
