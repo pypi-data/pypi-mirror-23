@@ -1,0 +1,8 @@
+setup.py
+src/AdventoFGA.egg-info/PKG-INFO
+src/AdventoFGA.egg-info/SOURCES.txt
+src/AdventoFGA.egg-info/dependency_links.txt
+src/AdventoFGA.egg-info/entry_points.txt
+src/AdventoFGA.egg-info/requires.txt
+src/AdventoFGA.egg-info/top_level.txt
+src/AdventoFGA.egg-info/zip-safe

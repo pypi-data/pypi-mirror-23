@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: AdventoFGA
+Version: 0.1.1
+Summary: A game
+Home-page: https://github.com/halevalente/Advento
+Author: Hale Valente, Vinicius Oliveira
+Author-email: halevalente@gmail.com, vinifladf@gmail.com
+License: GPLv3
+Description: 
+        Advento
+        ===================
+        A spaceship game
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
