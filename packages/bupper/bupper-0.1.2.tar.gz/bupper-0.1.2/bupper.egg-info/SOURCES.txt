@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+bupper/__init__.py
+bupper/bupper.py
+bupper/utils.py
+bupper.egg-info/PKG-INFO
+bupper.egg-info/SOURCES.txt
+bupper.egg-info/dependency_links.txt
+bupper.egg-info/entry_points.txt
+bupper.egg-info/top_level.txt
+test/__init__.py
+test/requirements.txt
+test/test_bupper.py
