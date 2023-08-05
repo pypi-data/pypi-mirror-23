@@ -1,0 +1,6 @@
+
+        [console_scripts]
+        demultiplexfasta = paired_end_debarcoder.demultiplexfasta:demultiplex
+        demultiplexfastq = paired_end_debarcoder.demultiplexfastq:demultiplexfastq
+        fastqconcat = paired_end_debarcoder.fastq_concat:fastqconcat
+    
