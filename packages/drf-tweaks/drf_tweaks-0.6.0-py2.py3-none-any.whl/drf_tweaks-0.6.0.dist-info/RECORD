@@ -1,0 +1,14 @@
+drf_tweaks/__init__.py,sha256=b6Fr72s7zFTp4KIIkbo4ZWG3OYHSIQYpt1B1R8BTsEc,182
+drf_tweaks/autodoc.py,sha256=RQc5zYnpXZ6ZbVqUoWoLjhi19fzW36C45MixULLhgHU,9561
+drf_tweaks/autofilter.py,sha256=iy3cx374-I__73atWURgCo6o0mDN7TxMoapbcluuVbs,2962
+drf_tweaks/optimizator.py,sha256=Vbs0Y5JK9j8Hy6yZafRMXhg2gopxfYrXRuV9g8fUQiY,5359
+drf_tweaks/pagination.py,sha256=CPVjhZgJGc-78XvBknGV5oM-Gi5xz1oKfW6wGEYx5EQ,4999
+drf_tweaks/serializers.py,sha256=e95gdbPcLooS_-tBzjqnPzIvSOfL9Sm6SiSCyFskB0k,11001
+drf_tweaks/test_utils.py,sha256=Lbqx283z8Fr9kGzYsw5M-hKIf-BkuRwF1Vx7zfuj72Q,2697
+drf_tweaks/versioning.py,sha256=ifoMw4HTJE9iaBu0ht9FVCn3vOvbDz428Jf7j3mQy2o,4341
+drf_tweaks-0.6.0.dist-info/DESCRIPTION.rst,sha256=WjngwVaxITzqoO34xDMwmQpyBU7z21EsAi7Tx5u_lmU,21777
+drf_tweaks-0.6.0.dist-info/METADATA,sha256=kU27wHL736BaByGqXv5dkVo7fCfnvuyoFE6tAD26fVs,22628
+drf_tweaks-0.6.0.dist-info/RECORD,,
+drf_tweaks-0.6.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+drf_tweaks-0.6.0.dist-info/metadata.json,sha256=uF9rCzU8s75ePtHJfwTaLNYS6I0fNUu6XEkinAH28Hc,967
+drf_tweaks-0.6.0.dist-info/top_level.txt,sha256=kiiL6Mt71R4HjsJOdmYu4tYy2vhOiHRfaOkfK6U43u4,11
