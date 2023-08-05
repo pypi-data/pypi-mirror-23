@@ -1,0 +1,124 @@
+==========================
+django-affiliate-tracking
+==========================
+
+A `Django <https://www.djangoproject.com/>`_ application to track affiliations.
+
+Requirements
+******************
+
+This application requires::
+
+    django,
+    mock,
+    django-tls,
+
+
+Installation
+******************
+
+Install the application from PyPi::
+
+    $ pip install django-affiliate-tracking
+
+Add the application to your Django project::
+
+    INSTALLED_APPS = [
+        ...
+        'affiliations',
+        ...
+    ]
+
+Migrate the application::
+
+    $ ./manage.py migrate
+
+
+Also, please make sure the tests passed smoothly::
+
+    $ ./manage.py test affiliations
+
+
+If any test fails, then you could end up with missing data in your database or malfunction of the application.
+
+
+Using the application
+************************
+
+There is a ``dummy_project`` inside the application that should help to set a new project using the application, but we are giving more details about it below.
+
+Settings
+=============
+
+The following new settings should be introduced in the settings file
+for the project using the application:
+
+* AFFILIATE_QUERY_STRING_KEY – Optional name of the query string parameter that identifies which affiliate partner an incoming request is caused by. A default value of ``affiliate_id`` is assumed.
+* AFFILIATE_SESSION_KEY – Optional name of the session key that the visitor id is kept in. A default value of ``affiliate_visitor_id`` is assumed.
+* AFFILIATE_TRIGGERS – Mandatory list of 4 item tuples, defining which triggers should be enabled. The 4 items of each tuple should be:
+
+ #. A "pretty name" for the trigger.
+ #. A string defining a Python path to a signal.
+ #. A string defining a Python path to a function that works as the signal reciever for the trigger.
+ #. A valid value for the ``sender`` argument when connecting signal ``receivers``.
+
+An example::
+
+    [
+        (
+            'User registered',
+            'django.db.models.signals.post_save',
+            'affiliations.triggers.object_created',
+            'django.contrib.auth.models.User',
+        ),
+    ]
+
+
+Models explanation
+******************
+
+A partner is someone we make an affiliate deal with. The partner will then generate traffic to the project
+site. The initial referral will include the partner uid in the query string, to identify the traffic as
+originating from the particular partner::
+
+    Partner
+        * uid -- CharField, unique, 8 random alphanumeric characters.
+        * name -- CharField, the name of the affiliate partner.
+        * active -- BooleanField, whether there’s an active affiliate deal with this partner.
+
+
+A subscription tells which triggers a partner subscribes to::
+
+    Subscription
+        * partner, ForeignKey
+        * trigger, CharField -- the 'name' of one of the triggers defined in the settings.
+        * callback_url -- UrlField, the partner callback URL. Should have the placeholder
+        ``{visitor_id}`` in it somewhere, e.g. as the value for a query string parameter.
+
+
+A visitor is someone who gets referred to the project site by a partner. The new middleware will detect
+that a request was caused by an affiliate partner and then register a new visitor::
+
+    Visitor
+        * partner -- ForeignKey
+        * user -- ForeignKey, nullable, references user model (remember to use ``get_user_model``).
+        * referred_on -- datetime, auto_now_add=True.
+        * entry_point -- UrlField, the URL at which the visitor entered our site.
+        * successful_on -- datetime, nullable, tells the date the conditions of a "success" were met, if at all.
+
+
+Authors
+******************
+
+* Mikkel Munch Mortensen
+* Søren Howe Gersager
+* Vladir Parrado Cruz
+
+Maintenance
+******************
+
+To submit bugs, feature requests, submit patches, please use `the official repository <https://saxo.githost.io/publish/django-affiliate-tracking/>`_
+
+Copyright and licensing information
+
+BSD License 2.0, 3-clause license.

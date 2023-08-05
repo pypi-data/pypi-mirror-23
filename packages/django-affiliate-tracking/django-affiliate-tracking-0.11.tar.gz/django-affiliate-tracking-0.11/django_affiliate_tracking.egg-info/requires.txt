@@ -1,0 +1,4 @@
+django>=1.9
+django-tls>=0.0.2
+mock>=2.0.0
+requests>=2.13.0

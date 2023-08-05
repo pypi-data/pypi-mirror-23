@@ -1,0 +1,6 @@
+recursive-include affiliations/scripts *
+recursive-include affiliations/tests *
+recursive-include affiliations/migrations *
+include LICENSE.txt
+include README.rst
+
