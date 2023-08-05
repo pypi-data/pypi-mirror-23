@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+python_c/__init__.py
+python_c/python_c.py
+python_c.egg-info/PKG-INFO
+python_c.egg-info/SOURCES.txt
+python_c.egg-info/dependency_links.txt
+python_c.egg-info/entry_points.txt
+python_c.egg-info/top_level.txt

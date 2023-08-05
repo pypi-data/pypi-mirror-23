@@ -1,0 +1,3 @@
+[console_scripts]
+python-c = python_c.python_c:main
+
