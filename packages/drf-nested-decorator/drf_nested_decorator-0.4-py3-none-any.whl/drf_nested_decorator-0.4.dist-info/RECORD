@@ -1,0 +1,10 @@
+drf_nested_decorator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_nested_decorator/decorator.py,sha256=Cz8cJ1ruRNRu3kCzOQ6fDaJ_5NLZqdVg7W7-k4updT4,400
+drf_nested_decorator/routers.py,sha256=vmHO02KmO9Ettf4kBGIiWw7qhz4jYbKOCxcJ4C54qsU,5516
+drf_nested_decorator/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+drf_nested_decorator-0.4.dist-info/DESCRIPTION.rst,sha256=pJ-MwbA_4BgWFdy8--KQP55ute5WkuxqqbRuTrSyR48,2078
+drf_nested_decorator-0.4.dist-info/METADATA,sha256=VoP82lVVCFClgOqvFzCl0d9BUA2rbU5HhthANGAuMKA,2581
+drf_nested_decorator-0.4.dist-info/RECORD,,
+drf_nested_decorator-0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+drf_nested_decorator-0.4.dist-info/metadata.json,sha256=Gzm3jpXdM-6z6GNiZPeBihE_A-vEYOj1RA2C_0ej5WI,715
+drf_nested_decorator-0.4.dist-info/top_level.txt,sha256=45RBxruP5yd3SFPSGNRaHTATyBFk_MgY8xls-7xUJTs,21
