@@ -1,0 +1,5 @@
+requests
+pyswagger >= 0.8.30
+six
+pytz
+futures
