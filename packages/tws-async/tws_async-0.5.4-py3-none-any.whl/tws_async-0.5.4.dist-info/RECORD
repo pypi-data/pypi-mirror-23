@@ -1,0 +1,17 @@
+tws_async/__init__.py,sha256=W1u6SVuI-kMnyxKBHOFgBsiT4TKRwfjqW5Cn11-OjYk,239
+tws_async/contracts.py,sha256=qGLEIcXNnKCMEg5F3RD-duG34SDVbzf8AWwL8-zYDuw,2680
+tws_async/histrequester.py,sha256=UqRXX8NpxdeiYSd9GND5zceoofwgejVWJGwmyZJz-E0,5815
+tws_async/tws_async.py,sha256=yuNdHym5jKMaUIcUIeOmJDStu7qqUsaGvag6mqU3NXc,4765
+tws_async/tws_async_qt.py,sha256=05xfm09IkQFFIVu5-XduYeY3m7_pV3ZgWaPhVVIGP18,4299
+tws_async/twsclient.py,sha256=iWrrrLYGrgMQMIReIzjhZDXTSCwZ2GamkyMpQRFD0dc,5955
+tws_async/twsclientqt.py,sha256=Ohmkv3MFQ7Dvg0VvLCbJGZZQMQi4E5fNLG8HmdfouAY,5600
+tws_async/util.py,sha256=rV0PteeaSd0WHas-Ojddj-h7t9XS6ARawKK3wYaw-lU,1895
+tws_async-0.5.4.data/data/samples/histrequester_demo.py,sha256=ggGfZL4Sl2xl_sd9bItCi7i_E1HJ-HqE1da2SnfUdRg,880
+tws_async-0.5.4.data/data/samples/tickstreamer_demo.py,sha256=PWKx62QsQeWq_jfhsgHC2losrQjyJeULI_BXzfi8pZg,2524
+tws_async-0.5.4.data/data/samples/tws.ipynb,sha256=0rblbsVfTP8C-BajgfMqIGxNF0nse5jCt5McK-a4PMg,58921
+tws_async-0.5.4.dist-info/DESCRIPTION.rst,sha256=4MwuzcJyWWYGpHyDEiVyz_2iPf4suYATlrrclq6QMcw,5245
+tws_async-0.5.4.dist-info/METADATA,sha256=JTkX06ff7BYSmDIXEZIVHZ-IjtsNLtfpO9ZTBf8cf50,6092
+tws_async-0.5.4.dist-info/RECORD,,
+tws_async-0.5.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+tws_async-0.5.4.dist-info/metadata.json,sha256=WVlkj4jqK__wm4mvJ5CPsGbPO7dVieG3t6dxTd4KHZs,982
+tws_async-0.5.4.dist-info/top_level.txt,sha256=-eljctVv0LDsrdUna7GwqXcsgsL5JH7TANiwfQLMZRY,10
