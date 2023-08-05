@@ -1,0 +1,6 @@
+tensorflow>=1.1
+pandas
+scipy
+numpy
+sklearn
+dask>=0.15
