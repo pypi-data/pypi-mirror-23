@@ -1,0 +1,15 @@
+jsonapi_client/__init__.py,sha256=3Q0XmlyY7fEr-Waz2TxYG4fWVwwdVlpMV3Y4i-jNllg,1788
+jsonapi_client/common.py,sha256=5FspPZCpmiWmoOP50paqi1vsiDdquiKAbZ7oBxnn0AU,5201
+jsonapi_client/document.py,sha256=2nTAWa-kI_ywm2IzvASnToV9CGyunAF5RoUQikbUeB8,5355
+jsonapi_client/exceptions.py,sha256=nydaeDdnkrXUtu2ZJIF9dyN2xsZbuxaLQ-v3opMz7sY,2221
+jsonapi_client/filter.py,sha256=nuvzARu3CU8AEgdQsJcJShdJTxp5wqX8gey-2kRHotQ,3210
+jsonapi_client/objects.py,sha256=qtfKO4Jx97N_Ad37nDFehMUutiMeV7gY9Ok9EQNNpVQ,5660
+jsonapi_client/relationships.py,sha256=xXVpEZWNEw1w3lj-5lhBQWyfuo_2wyccUCWna3uhuuI,14965
+jsonapi_client/resourceobject.py,sha256=Y-4Y3AvqTBSQbvbd2EVZEgglW5Yt5OwYmmG2mGfZjoQ,23812
+jsonapi_client/session.py,sha256=ROlQLSafZsucEzwefQOHtpVN1iZ_Tg5mQaqF30gfvPc,23669
+jsonapi_client-0.9.6.dist-info/DESCRIPTION.rst,sha256=jo4GDAzFs5xkJt6E22TUZgieGmtiwIIh9u4ChBYuH5c,11326
+jsonapi_client-0.9.6.dist-info/METADATA,sha256=umoUHzBRzQejxXDm3qf6nbC5sC-GuCMXauro7A1X6A0,11935
+jsonapi_client-0.9.6.dist-info/RECORD,,
+jsonapi_client-0.9.6.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+jsonapi_client-0.9.6.dist-info/metadata.json,sha256=ItFdKZ9jBUGr_Jdt1SJtNOB_Q0oC4BUVLkU0sHJNyA0,804
+jsonapi_client-0.9.6.dist-info/top_level.txt,sha256=QeUyCMFnqYUEEVQlf5n7-C1ogMzC6TXbL5WZCrS4gsw,15
