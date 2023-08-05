@@ -1,0 +1,11 @@
+flask-restful
+SQLAlchemy
+Flask-SQLAlchemy
+marshmallow
+marshmallow-sqlalchemy
+redis
+Flask-Script
+Flask-Migrate
+Flask
+requests
+numpy
