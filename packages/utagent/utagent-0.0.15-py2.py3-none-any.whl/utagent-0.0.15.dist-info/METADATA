@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: utagent
+Version: 0.0.15
+Summary: slave agent
+Home-page: http://mafei.me
+Author: mafei
+Author-email: logan62334@gmail.com
+License: MIT Licence
+Keywords: pip,slave,agent,utagent
+Platform: any
+Requires-Dist: bottle
+Requires-Dist: click
+Requires-Dist: enum34
+Requires-Dist: requests
+
+slave agent
+
+
