@@ -1,0 +1,12 @@
+comp-0.3.7.data/data/share/man/man1/comp.1,sha256=DVtEnvdNNA9DofmJil8BW1AxPN9_nOaTHkw6jTQZNXA,2851
+comp-0.3.7.data/scripts/comp,sha256=YOyV3_bbJvHO0832Itsv6AH00GDKRquwqS2zXbURBxQ,17748
+comp-0.3.7.dist-info/DESCRIPTION.rst,sha256=FYxLpTSHN6Lc9jhTFsX7DtcrxI-QaSML27n8q-4MeV8,6751
+comp-0.3.7.dist-info/METADATA,sha256=Sv_DHqUszCRPg-3ZKZbAs16Wx63k2FOcEYVFLAkjEDE,7664
+comp-0.3.7.dist-info/RECORD,,
+comp-0.3.7.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+comp-0.3.7.dist-info/metadata.json,sha256=447kuRbyLeDL7XL-E4mJi4oct_N7eFV2a_w3k_Ssvtg,1091
+comp-0.3.7.dist-info/top_level.txt,sha256=Nh6mcPINhPF8w1CN4OanPKKzPgN45Fhn5AmU-mdxrpQ,4
+omp/__init__.py,sha256=g1_gE0T-Eb2BGQkHxRsvYD6MTqahVqbnnFcoFsmZCZM,893
+omp/ie.py,sha256=fRn9XW4gBqcq_x1Tch58Yuxad7Ga7MP2fcVuLvUpiQA,4433
+omp/omp.py,sha256=fT4-L8JTM7txhIoxHL5jIMGr-1h1H6-JOvjS9KyUPks,6215
+omp/locale/vi/LC_MESSAGES/omp.mo,sha256=uipKYOmzN1PQMw4bxtUBXvfc2WtS0btiVCGJaSrLpLQ,1596
