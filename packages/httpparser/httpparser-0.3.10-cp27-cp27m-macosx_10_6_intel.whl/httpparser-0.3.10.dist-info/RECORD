@@ -1,0 +1,14 @@
+httpparser/__init__.py,sha256=QAuymnQnm3s9riEcu19mUFP9YIQ68mQepM7bvKWZa8k,106
+httpparser/parser.c,sha256=U9an5aI8Eo0tn7g99ylFAxcf2dTaubOlsBcr1LVknAQ,220054
+httpparser/parser.pxd,sha256=YVK0f58Jpy54ZnqrP4CpB3G2ZdcF1rx7qHutePxu_qU,951
+httpparser/parser.so,sha256=8Kubs3grxmXvAMajmJiI3-6ehv6qkWT6V98EhrH7xDo,126192
+httpparser/pico.pxd,sha256=FXMnTfyAlU9w_sccqq-aUl8e7Ll5aPEOfdHiOF2C55M,1639
+httpparser/picohttpparser.c,sha256=4XCXsjhUANaJafEloEaJ5_Ab1WLxgwxvq086vmDqVQA,25002
+httpparser/picohttpparser.h,sha256=KI_HKypIULCmXjLuawGXCvVZRxhrjI4X5YUCQHTLSu8,3502
+httpparser/picohttpparser.o,sha256=iaWU_llTw9-GEt6TgRe2Y9SHZmPalQKYSdUjKgl5KO4,5240
+httpparser-0.3.10.dist-info/DESCRIPTION.rst,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+httpparser-0.3.10.dist-info/METADATA,sha256=6HeWWr1DlwaaXm_m29TN8Y8BSzSh6c4TixxKcOx7Utk,706
+httpparser-0.3.10.dist-info/RECORD,,
+httpparser-0.3.10.dist-info/WHEEL,sha256=or8QXS3UeC6CPEISQAfE3fxdclxHOiP10omjQFxImRA,109
+httpparser-0.3.10.dist-info/metadata.json,sha256=cfVL5f3so6XcyVm4tFh04kcA8YS5ctn25bdZ2Sk6Zq0,862
+httpparser-0.3.10.dist-info/top_level.txt,sha256=FPtBvVRQscVJ3VIFt0DT41h4GaShgvjonRPvq2LJbTI,11
