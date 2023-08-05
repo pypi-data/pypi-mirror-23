@@ -1,0 +1,7 @@
+pyexpander>=1.6
+
+[dev]
+sphinx
+
+[doe]
+pyDOE
