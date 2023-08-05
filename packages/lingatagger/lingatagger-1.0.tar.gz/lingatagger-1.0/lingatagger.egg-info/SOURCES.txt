@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+lingatagger/gender.py
+lingatagger/genderlist.py
+lingatagger/sentence.py
+lingatagger/tagger.py
+lingatagger/tokenizer.py
+lingatagger.egg-info/PKG-INFO
+lingatagger.egg-info/SOURCES.txt
+lingatagger.egg-info/dependency_links.txt
+lingatagger.egg-info/requires.txt
+lingatagger.egg-info/top_level.txt
