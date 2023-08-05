@@ -1,0 +1,10 @@
+README.rst
+__init__.py
+setup.py
+test_series.py
+unseries.py
+unseries.egg-info/PKG-INFO
+unseries.egg-info/SOURCES.txt
+unseries.egg-info/dependency_links.txt
+unseries.egg-info/requires.txt
+unseries.egg-info/top_level.txt
