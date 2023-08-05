@@ -1,0 +1,14 @@
+setup.py
+src/infi/__init__.py
+src/infi.clickhouse_fdw.egg-info/PKG-INFO
+src/infi.clickhouse_fdw.egg-info/SOURCES.txt
+src/infi.clickhouse_fdw.egg-info/dependency_links.txt
+src/infi.clickhouse_fdw.egg-info/entry_points.txt
+src/infi.clickhouse_fdw.egg-info/namespace_packages.txt
+src/infi.clickhouse_fdw.egg-info/not-zip-safe
+src/infi.clickhouse_fdw.egg-info/requires.txt
+src/infi.clickhouse_fdw.egg-info/top_level.txt
+src/infi/clickhouse_fdw/__init__.py
+src/infi/clickhouse_fdw/__version__.py
+src/infi/clickhouse_fdw/generate.py
+src/infi/clickhouse_fdw/main.py
