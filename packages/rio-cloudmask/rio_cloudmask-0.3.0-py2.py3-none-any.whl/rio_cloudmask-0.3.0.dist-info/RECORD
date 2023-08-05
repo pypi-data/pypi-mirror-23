@@ -1,0 +1,11 @@
+rio_cloudmask/__init__.py,sha256=qpOzGGrPER9cjZMMyu5eMu8uX8knnJyaWaQDWWKlJ9M,360
+rio_cloudmask/equations.py,sha256=H9Fo-Ah1yl6gd2ArYoOOpHMNUtCbGcVjwByuAmc1FDg,14740
+rio_cloudmask/scripts/__init__.py,sha256=6whtJaQQYQh6jrQhGIiMasRbSkD7lE0LfFTaPHZUO2E,24
+rio_cloudmask/scripts/cli.py,sha256=xd9o_6OsZpv_jgAM1j9mcO7jacvFy-Uzz6wIjxAoqOI,3523
+rio_cloudmask-0.3.0.dist-info/DESCRIPTION.rst,sha256=Z6c1ZBELV53VcIeOeTpib_m9GmA1bdya1ec_ANz1C7A,133
+rio_cloudmask-0.3.0.dist-info/METADATA,sha256=tRe6qFvfSOD_aHy1rIcWbXqkXyzxE4d1TJASj2YLefY,1200
+rio_cloudmask-0.3.0.dist-info/RECORD,,
+rio_cloudmask-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+rio_cloudmask-0.3.0.dist-info/entry_points.txt,sha256=vwi9qZEU6UuxmxUHa_4srIGe8_wVrWpnQVg_1hQazHQ,77
+rio_cloudmask-0.3.0.dist-info/metadata.json,sha256=rc5W0Hl9joztH6Yx321TYfayv3UhwNd-4ULKW6-cDNI,1186
+rio_cloudmask-0.3.0.dist-info/top_level.txt,sha256=lEHbZ9vP5XVNjQtRWIGLpRcjA8Sl0onEKzDX5TEUWrs,14
