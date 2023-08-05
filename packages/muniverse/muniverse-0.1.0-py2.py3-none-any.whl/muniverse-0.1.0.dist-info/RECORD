@@ -1,0 +1,13 @@
+muniverse/__init__.py,sha256=Jf2X5hWbeheMLNAQf2JEww0SjhgyYt8Ftok5pWuqr6M,193
+muniverse/actions.py,sha256=o0H78-ZKeh0lN0vRRiV0Qk-6s5AM4xTMXoaiXubL4Nw,2914
+muniverse/env.py,sha256=gIP8f9v3Bt-UBopG5Eun5SjZo0vlYuWAUTVpcWxJT6w,3119
+muniverse/errors.py,sha256=4ombS9IeWPrYSwpLMEkRYL518yzIGpVK4wNKOnyFHQ4,330
+muniverse/handle.py,sha256=fBGG2ugqQyrx66iddFGBi4u_6gZX0tbR2qTwAZhUgNU,6049
+muniverse/proto.py,sha256=7bPaTbowLMK_m3w-1aK7Sqe63vcvwHUUzTmiv2FeGyw,925
+muniverse/spec.py,sha256=VnlIqlrb6cmAniBFxGi9dxcEClPhdKDOw38uMNHKfT8,452
+muniverse-0.1.0.dist-info/DESCRIPTION.rst,sha256=VbH2RNtgpcJ96ukdK4b6rhwXhaH9OcQvCeX7xXMk7K4,177
+muniverse-0.1.0.dist-info/METADATA,sha256=-1tKiCKS_67RCEEXBnNZyijes73O_AsAEcOyCV7nbLw,935
+muniverse-0.1.0.dist-info/RECORD,,
+muniverse-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+muniverse-0.1.0.dist-info/metadata.json,sha256=faVsMeGfk-ZzvM4A1ADGSAFafQIT7x_cTqeBlUuEh78,917
+muniverse-0.1.0.dist-info/top_level.txt,sha256=8KeTiKZmmFg_zQshMZqhu7dr1JEHpqdKDK4J0P9OD-w,10
