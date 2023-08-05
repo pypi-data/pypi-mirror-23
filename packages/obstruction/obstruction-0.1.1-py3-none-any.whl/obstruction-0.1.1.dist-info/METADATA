@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: obstruction
+Version: 0.1.1
+Summary: Declarative parser for remapping object schemas and data
+Home-page: https://github.com/chrisinajar/py-obstruction
+Author: Chris Vickery
+Author-email: chrisinajar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: dot-prop (>=0.2.0)
+Requires-Dist: map-object (>=1.1.1)
+Requires-Dist: six (>=1.10)
+
+py-obstruction
+==============
+
+A python implementation of obstruction
+
+
