@@ -1,0 +1,15 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+stowage/__init__.py
+stowage/stowage.py
+stowage.egg-info/PKG-INFO
+stowage.egg-info/SOURCES.txt
+stowage.egg-info/dependency_links.txt
+stowage.egg-info/entry_points.txt
+stowage.egg-info/not-zip-safe
+stowage.egg-info/top_level.txt
+test/test_stowage.py
