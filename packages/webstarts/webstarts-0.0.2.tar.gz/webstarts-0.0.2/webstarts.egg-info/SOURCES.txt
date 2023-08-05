@@ -1,0 +1,17 @@
+setup.py
+webstarts/__init__.py
+webstarts/backend.py
+webstarts/defaults.py
+webstarts/gunicorn.py
+webstarts/log_id.py
+webstarts/sessions.py
+webstarts/types.py
+webstarts/wflask.py
+webstarts/wlog.py
+webstarts.egg-info/PKG-INFO
+webstarts.egg-info/SOURCES.txt
+webstarts.egg-info/dependency_links.txt
+webstarts.egg-info/entry_points.txt
+webstarts.egg-info/not-zip-safe
+webstarts.egg-info/requires.txt
+webstarts.egg-info/top_level.txt
