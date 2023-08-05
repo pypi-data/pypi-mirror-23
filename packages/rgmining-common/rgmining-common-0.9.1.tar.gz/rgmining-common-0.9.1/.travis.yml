@@ -1,0 +1,15 @@
+language: python
+python:
+- 2.7
+- 3.6
+script:
+- python setup.py test
+deploy:
+  provider: pypi
+  user: jkawamoto
+  password:
+    secure: DHQ92BUgZsgRMKptVKoDprKILEG41XYWOSCvGjqfLqfL6WeJV7jqDiT3eUxnOoPsafRuFePtJlL6NS2dkrX26wBPuR5bWXs7S9b92juEIXSc2/F7psClAb8NwLwxGiK1I3y+7oFSk5IKK3FRsaYpteQ62mh/oToYxH8XOCo/UOG5dp/yK/A3C37zCWIbIerceD3IQwSY5qmb+Tj0Ea3qcRQyl9CTdTQlGWzcLQg+ATe/XW3CQlJEEV1uZ9XtaYcSpCeMjl7SGTogwa22tMFp2l05gNQA5L14KZsguK3cgnp7pV2RYpy9jOnrH76CxqDx+rkeNrR/ra2tASGfVkJCTsRl0sMBg5ivSLDpiu8xBHRQNmlxqq7uqHg0laxP+IxrSla0BGW2F1+KvmAP88KcEEEVQ0qmbmehx3dI2lZBe3wScNM7NXPIkpGY2e1XDxtGUSMM/CvyucVhWsPSm58X8fSwXdBA40/6huUNLbsfnxzYL1+ZEZxL+cgIb0UUJhF+22dmJ5jNnCmPQVEA08ey0ev7A6XN90/T4a4fNOFuXPIszXvcQyu1MSgs6zFOPMIlDkPEI4z1okx+zNAUOlVqNA7SLu3g434yyz2VhhCaP7DJl0WBFjKrKxu2mj7tijI4x8u+LKwjT6CsJANqOiJwCGUUnapHAE7LB6a+/hWE5aA=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: rgmining/common
