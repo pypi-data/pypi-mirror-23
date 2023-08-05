@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: time_limit
+Version: 2017.6.15
+Summary: decorator that limits the runtime of a function
+Home-page: https://github.com/CodyKochmann/time_limit
+Author: Cody Kochmann
+Author-email: kochmanncody@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/CodyKochmann/time_limit/tarball/2017.6.15
+Description: UNKNOWN
+Keywords: time_limit,time,timeout,default_output,production
+Platform: UNKNOWN
