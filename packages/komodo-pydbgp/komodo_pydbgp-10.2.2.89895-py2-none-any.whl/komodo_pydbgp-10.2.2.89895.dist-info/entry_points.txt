@@ -1,0 +1,6 @@
+[console_scripts]
+dbgp = dbgp.__main__:__main__
+dbgpClient = dbgp.__main__:__main__
+dbgpproxy = dbgp.proxy:__main__
+pydbgp = dbgp.__main__:__main__
+
