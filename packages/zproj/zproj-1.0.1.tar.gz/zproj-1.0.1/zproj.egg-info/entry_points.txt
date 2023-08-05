@@ -1,0 +1,5 @@
+[console_scripts]
+zabc = zproj.zabc:main
+zapp = zproj.zapp:main
+zmake = zproj.zmake:main
+
