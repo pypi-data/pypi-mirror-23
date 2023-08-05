@@ -1,0 +1,57 @@
+Metadata-Version: 2.0
+Name: dhcpkit-vpp
+Version: 1.0.1
+Summary: DHCPKit extension to use it from VPP
+Home-page: https://github.com/sjm-steffann/dhcpkit_vpp
+Author: Sander Steffann
+Author-email: sander@steffann.nl
+License: GPLv3
+Keywords: dhcp server ipv6 vpp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Requires-Dist: cffi
+Requires-Dist: dhcpkit (>1.0.4)
+
+DHCPKit VPP
+===========
+
+This DHCPKit extension allows DHCPKit to be used as the DHCPv6 server of a Vector Packet Processing (VPP) router. See
+https://fd.io/technology and https://wiki.fd.io/view/VPP for more information on VPP.
+
+
+Distribution status
+-------------------
+
+.. image:: https://img.shields.io/pypi/v/dhcpkit_vpp.svg
+  :target: https://pypi.python.org/pypi/dhcpkit_vpp
+
+.. image:: https://img.shields.io/pypi/status/dhcpkit_vpp.svg
+  :target: https://pypi.python.org/pypi/dhcpkit_vpp
+
+.. image:: https://img.shields.io/pypi/l/dhcpkit_vpp.svg
+  :target: https://pypi.python.org/pypi/dhcpkit_vpp
+
+.. image:: https://img.shields.io/pypi/pyversions/dhcpkit_vpp.svg
+  :target: https://pypi.python.org/pypi/dhcpkit_vpp
+
+.. image:: https://img.shields.io/pypi/dw/dhcpkit_vpp.svg
+  :target: https://pypi.python.org/pypi/dhcpkit_vpp
+
+
