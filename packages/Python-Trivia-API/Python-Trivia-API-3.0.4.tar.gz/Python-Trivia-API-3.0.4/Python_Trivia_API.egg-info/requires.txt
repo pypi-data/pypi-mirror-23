@@ -1,0 +1,9 @@
+aiohttp
+async-timeout
+certifi
+chardet
+idna
+multidict
+requests
+urllib3
+yarl

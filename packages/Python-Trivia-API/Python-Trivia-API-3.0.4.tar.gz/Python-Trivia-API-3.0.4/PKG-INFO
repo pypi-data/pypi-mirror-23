@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Python-Trivia-API
+Version: 3.0.4
+Summary:  An API wrapper for opentdb
+Home-page: https://github.com/MaT1g3R/Python-Trivia-API
+Author: MaT1g3R
+Author-email: mat1g3r@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: api,trivia,opentdb
+Platform: UNKNOWN
