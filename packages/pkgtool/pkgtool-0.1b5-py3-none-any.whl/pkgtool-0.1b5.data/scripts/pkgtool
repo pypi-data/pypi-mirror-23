@@ -1,0 +1,7 @@
+#!python
+import sys
+import pkgtool
+
+pkgtool.main(sys.argv)
+
+

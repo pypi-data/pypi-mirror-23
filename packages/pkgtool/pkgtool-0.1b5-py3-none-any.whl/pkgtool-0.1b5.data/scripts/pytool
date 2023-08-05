@@ -1,0 +1,7 @@
+#!python
+import sys
+import pytool
+
+pytool.main(sys.argv)
+
+
