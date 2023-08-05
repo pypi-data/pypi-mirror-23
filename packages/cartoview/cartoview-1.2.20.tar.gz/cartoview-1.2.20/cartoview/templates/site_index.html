@@ -1,0 +1,174 @@
+{% extends 'index.html' %}
+{% load i18n %}
+{% load cartoview_tags %}
+{% block extra_head %}
+    {{ block.super }}
+    <style>
+        .center-counter a {
+
+            color: #ff8f31;
+            font-size: large;
+        }
+
+        .button_shadow {
+            background-color: #0d406d;
+        }
+
+        .icons-spaces {
+            margin-bottom: 20px;
+        }
+
+        .center-counter {
+            padding-bottom: 10px;
+            color: white;
+            padding-top: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-family: sans-serif;
+            font-size: x-large;
+        }
+
+        .works a {
+            color: #0D406D;
+        }
+    </style>
+{% endblock %}
+{% block hero %}
+    <div id="site-banner" style="text-shadow: 2px 2px black;" class="jumbotron">
+        <div class="container">
+            <h1 style="text-align: center;">{% trans "Build Geo Apps" %}</h1>
+            <h3 class="text-center">
+                <span class="count">{{ apps_instance_count }}</span>
+                Apps
+                Created
+            </h3>
+            <div class="row text-center" style="margin-top: 30px">
+                {% if not user.is_authenticated %}
+                    <div class="col-md-2 col-md-offset-4">
+                        <a class="btn button_shadow btn-primary" style="color: white"
+                           href="{% url 'account_login' %}?next={% url 'app_manager_base_url' %}"
+                           role="button">
+                            Create New
+                        </a>
+                    </div>
+                {% else %}
+                    <div class="col-md-2 col-md-offset-4">
+                        <a class="btn button_shadow btn-primary" style="color: white"
+                           href="{% url 'app_manager_base_url' %}"
+                           role="button">
+                            Create New
+                        </a>
+                    </div>
+                {% endif %}
+
+                <div class="col-md-2">
+                    <a class="btn button_shadow btn-primary" style="color: white"
+                       href="{% url 'appinstance_browse' %}"
+                       role="button">
+                        Explore
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;padding: 10px">
+            <p class="text-center">{% blocktrans %}
+                <a href="http://cartoview.net" class="cartoview_install">Cartoview is open source. Install on your
+                    Platform.
+                </a>
+            {% endblocktrans %}</p>
+        </div>
+    </div>
+    <div class="row" style="background: #0d406d;">
+        <div class="col-xs-6 col-sm-6 col-md-2 col-md-offset-1 text-center center-counter">
+            <div class="row">
+                <span class="count">{% layers_counts %}</span>
+            </div>
+            <a href="{% url 'layer_browse' %}">Layers</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-2 text-center center-counter">
+            <div class="row">
+                <span class="count">{% maps_counts %}</span>
+            </div>
+
+            <a href="{% url 'maps_browse' %}">Maps</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-2 text-center center-counter ">
+            <div class="row">
+                <span class="count">{% users_counts %}</span>
+            </div>
+
+            <a href="{% url 'profile_browse' %}">Users</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-2 text-center center-counter ">
+            <div class="row">
+                <span class="count">{% groups_counts %}</span>
+            </div>
+
+            <a href="{% url 'group_list' %}">Groups</a>
+        </div>
+        <div class="col-xs-6 col-sm-6  col-md-2 text-center center-counter">
+            <div class="row">
+                <span class="count">{% apps_counts %}</span>
+            </div>
+            <a href="{% url 'appinstance_browse' %}">Apps</a>
+        </div>
+
+    </div>
+    <div class="row text-center works" style="padding: 20px">
+        <h3 style="margin-bottom: 40px;color: #0D406D;">HOW IT WORKS</h3>
+        <div class="row" style="padding: 10px;margin-bottom: 40px">
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="row icons-spaces">
+                    <img src="{{ STATIC_URL }}/cartoview/img/edit.png">
+                </div>
+                <a href="{% url 'account_signup' %}">1. Register</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="row icons-spaces">
+                    <img src="{{ STATIC_URL }}/cartoview/img/layers.png">
+                </div>
+                <a href="{% url 'layer_upload' %}">2. Upload Layer</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="row icons-spaces">
+                    <img src="{{ STATIC_URL }}/cartoview/img/map.png">
+                </div>
+                <a href="{% url 'new_map' %}">3. Create Map</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="row icons-spaces">
+                    <img src="{{ STATIC_URL }}/cartoview/img/app.png">
+                </div>
+                {% if not user.is_authenticated %}
+
+                    <a href="{% url 'account_login' %}?next={% url 'app_manager_base_url' %}">4. Create Application</a>
+
+                {% else %}
+
+                    <a href="{% url 'app_manager_base_url' %}">
+                        4. Create Application
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+{% block mainbody %}
+    {{ block.super }}
+{% endblock %}
+{% block extra_script %}
+    {{ block.super }}
+    <script>
+        $('.count').each(function () {
+            var $this = $(this);
+            $({counter: 0}).animate({counter: $this.text()}, {
+                duration: 1000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.ceil(this.counter));
+                }
+            });
+        });
+    </script>
+{% endblock %}
