@@ -1,0 +1,5 @@
+UW-RestClients-Core>=0.8.9,<1.0
+UW-RestClients-SWS>=1.1,<2.0
+UW-RestClients-PWS>=0.5,<1.0
+commonconf
+unittest2

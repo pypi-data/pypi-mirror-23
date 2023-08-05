@@ -1,0 +1,10 @@
+setup.py
+UW_RestClients_bookstore.egg-info/PKG-INFO
+UW_RestClients_bookstore.egg-info/SOURCES.txt
+UW_RestClients_bookstore.egg-info/dependency_links.txt
+UW_RestClients_bookstore.egg-info/requires.txt
+UW_RestClients_bookstore.egg-info/top_level.txt
+uw_bookstore/__init__.py
+uw_bookstore/dao.py
+uw_bookstore/models.py
+uw_bookstore/test.py
