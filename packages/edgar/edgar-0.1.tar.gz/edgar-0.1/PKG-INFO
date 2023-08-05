@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: edgar
+Version: 0.1
+Summary: Scrape data from SEC's EDGAR
+Home-page: https://github.com/joeyism/py-edgar
+Author: Joey Sham
+Author-email: sham.joey@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/joeyism/py-edgar/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: edgar,sec
+Platform: UNKNOWN
