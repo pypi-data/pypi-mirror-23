@@ -1,0 +1,15 @@
+setup.py
+maggma/__init__.py
+maggma/builder.py
+maggma/core.py
+maggma/helpers.py
+maggma/runner.py
+maggma/stores.py
+maggma.egg-info/PKG-INFO
+maggma.egg-info/SOURCES.txt
+maggma.egg-info/dependency_links.txt
+maggma.egg-info/not-zip-safe
+maggma.egg-info/requires.txt
+maggma.egg-info/top_level.txt
+maggma/tests/__init__.py
+maggma/tests/test_runner.py
