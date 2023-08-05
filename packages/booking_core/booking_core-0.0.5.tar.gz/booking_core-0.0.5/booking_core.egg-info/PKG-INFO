@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: booking-core
+Version: 0.0.5
+Summary: Booking engine API
+Home-page: https://gitlab.com/booking-4geeks/booking-core
+Author: Jonathan Rodriguez Alejos
+Author-email: jrodriguez.5716@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/booking-4geeks/booking-core/repository/archive.tar.gz?ref=v0.5
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
