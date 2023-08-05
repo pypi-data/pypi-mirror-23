@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+wagtailcomments_xtd/__init__.py
+wagtailcomments_xtd/urls.py
+wagtailcomments_xtd/utils.py
+wagtailcomments_xtd/views.py
+wagtailcomments_xtd/wagtail_hooks.py
+wagtailcomments_xtd.egg-info/PKG-INFO
+wagtailcomments_xtd.egg-info/SOURCES.txt
+wagtailcomments_xtd.egg-info/dependency_links.txt
+wagtailcomments_xtd.egg-info/requires.txt
+wagtailcomments_xtd.egg-info/top_level.txt
+wagtailcomments_xtd/templatetags/__init__.py
+wagtailcomments_xtd/templatetags/wagtailcomments_xtd_tags.py
