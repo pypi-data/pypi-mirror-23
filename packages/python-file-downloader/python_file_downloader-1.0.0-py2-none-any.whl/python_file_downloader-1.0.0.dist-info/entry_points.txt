@@ -1,0 +1,3 @@
+[disutils.commands]
+py_reqs = file_downloader:PyReqs
+

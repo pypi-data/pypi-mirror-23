@@ -1,0 +1,17 @@
+file_downloader/__init__.py,sha256=PI8tzgD7oVELLXtSeBC4mKS8DuH1AgOLMD-0G10Chhs,357
+file_downloader/__main__.py,sha256=bT8bGI3KO6T6uvQwRdheBaC4HLQaPIyPHrVIUCAHsNw,1096
+file_downloader/constants.py,sha256=6OO1tX6mBCMy4_WEyd-uPVvGa4wUObvL-2IzvOjbHUE,2680
+file_downloader/downloader.py,sha256=heV4xvwrdbJecb4MYczux7WMsxj8hYj6TALy4WyAtN8,1832
+file_downloader/downloader_hyper.py,sha256=rZ49ye88KsYcQzDQwAjPaAAB-x621it7sx7maqES2JY,1624
+python_file_downloader-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+python_file_downloader-1.0.0.dist-info/METADATA,sha256=j6CtaB-2V6zty03y_nCWaYMHuLIAE7Aw4p1Ibuo2ACg,781
+python_file_downloader-1.0.0.dist-info/RECORD,,
+python_file_downloader-1.0.0.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+python_file_downloader-1.0.0.dist-info/entry_points.txt,sha256=NxNrIaxjVC1c-uJqb6bscpS3YFHuMmz1VGdTej6uNaA,54
+python_file_downloader-1.0.0.dist-info/metadata.json,sha256=9_jYiNtZUdlnUI5BtRd9jHMWTh36gEHPTqsuH89xVRQ,896
+python_file_downloader-1.0.0.dist-info/top_level.txt,sha256=lB7s6G0GYa2g4V39zAzpXagkwIvfmZIg7TJLZcRaa7I,16
+src/file_downloader/__init__.py,sha256=40SUHcXhwislKB6r3rs4DR4HSXyJANUKPNPDJ6kn2eA,251
+src/file_downloader/__main__.py,sha256=R8gHZsiiB_2s7lAvvz0CeiaB4ZFOkja0JGGVUJLicYU,971
+src/file_downloader/constants.py,sha256=6OO1tX6mBCMy4_WEyd-uPVvGa4wUObvL-2IzvOjbHUE,2680
+src/file_downloader/downloader.py,sha256=heV4xvwrdbJecb4MYczux7WMsxj8hYj6TALy4WyAtN8,1832
+src/file_downloader/downloader_hyper.py,sha256=rZ49ye88KsYcQzDQwAjPaAAB-x621it7sx7maqES2JY,1624
