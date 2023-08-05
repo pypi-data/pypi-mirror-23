@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: setuptools-i18n
+Version: 0.1.1
+Summary: Plugin for setuptools to build and compile i18n files
+Home-page: https://github.com/CZ-NIC/setuptools_i18n
+Author: Tomas Pazderka
+Author-email: tomas.pazderka@nic.cz
+License: GPLv3
+Description: # setuptools_i18n #
+        
+        Plugin for setuptools to build and compile i18n files.
+        
+        ## Usage ##
+        
+        This command provides `build_i18n` command.
+        
+        Run `python setup.py build_i18n --help` for available options.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Build Tools

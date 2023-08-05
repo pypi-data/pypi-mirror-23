@@ -1,0 +1,6 @@
+[distutils.commands]
+build_i18n = setuptools_i18n:build_i18n
+
+[distutils.setup_keywords]
+i18n_files = setuptools_i18n:validate_i18n
+
