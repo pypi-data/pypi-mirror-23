@@ -1,0 +1,4 @@
+terminaltables >= 3.0.0
+
+[styles]
+Pygments >= 1.6
