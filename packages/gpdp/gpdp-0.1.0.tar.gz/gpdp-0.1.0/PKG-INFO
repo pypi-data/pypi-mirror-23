@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: gpdp
+Version: 0.1.0
+Summary: General-purpose dataset parser
+Home-page: https://github.com/seominjoon/gpdp
+Author: Minjoon Seo
+Author-email: seominjoon@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/seominjoon/gpdp/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: qa,dataset,parser
+Platform: UNKNOWN
