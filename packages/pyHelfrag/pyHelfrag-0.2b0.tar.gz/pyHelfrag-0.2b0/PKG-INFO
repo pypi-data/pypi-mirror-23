@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pyHelfrag
+Version: 0.2b0
+Summary: Generate (U-Th)/He Apatite fragment ages
+Home-page: UNKNOWN
+Author: Romain Beucher
+Author-email: romain.beucher@unimelb.edu.au
+License: MIT
+Description: UNKNOWN
+Keywords: apatite,diffusion,helfrag,U-Th/He
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
