@@ -1,0 +1,6 @@
+nlpia
+timestring>=1.6.2
+datadog==0.16.0
+dogapi==1.11.1
+TA-Lib==0.4.10
+igraph==0.1.11
