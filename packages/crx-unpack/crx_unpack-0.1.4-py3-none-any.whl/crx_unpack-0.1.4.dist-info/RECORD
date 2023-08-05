@@ -1,0 +1,12 @@
+crx_unpack/VERSION,sha256=ij2tFtNIwWNWakVvz2UNhdeu7aXlPQHuH6jcFSEpFac,6
+crx_unpack/__init__.py,sha256=ivmrQgWy_xabrQr2Z9gegbPAONF7IgjO7_O9gBZNJ4g,15258
+crx_unpack/__main__.py,sha256=lPEkwwUhBRFN2QgCoVE6o9_JFcKqEjS3BYczD3NCLcI,3279
+crx_unpack/clr.py,sha256=9Rw0b7RXlyg8WdH9-r0m01R3qPSi49qsNKTwtnEqbek,2023
+crx_unpack/encrypted_dir.py,sha256=Y9NaXZ8tqv8HeMF5LQYN457E9c0G64fH7rA2t3vbDwA,6318
+crx_unpack-0.1.4.data/scripts/unpack,sha256=kUMuQskqpnoeOSDyGrhCe7yjcIt6xAjxdd_PJx9AX8w,212
+crx_unpack-0.1.4.dist-info/DESCRIPTION.rst,sha256=yGjNETop1nA1SmEi3xw-qpcMoI0KN6tIVvwSr055AGg,3343
+crx_unpack-0.1.4.dist-info/METADATA,sha256=rQA4db2AQFHFzIxzF_3NDkK5FWu2fph-2LIKrF83bic,4405
+crx_unpack-0.1.4.dist-info/RECORD,,
+crx_unpack-0.1.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+crx_unpack-0.1.4.dist-info/metadata.json,sha256=1u6RcMDdqv4ULGtkM8JIci_ZrA9Lf2WkBZIIvUjR_CY,1190
+crx_unpack-0.1.4.dist-info/top_level.txt,sha256=W0fwtfyt_X6SnlGDkXaYvwnVmIJ6KoEmApKzRVCMB_0,11
