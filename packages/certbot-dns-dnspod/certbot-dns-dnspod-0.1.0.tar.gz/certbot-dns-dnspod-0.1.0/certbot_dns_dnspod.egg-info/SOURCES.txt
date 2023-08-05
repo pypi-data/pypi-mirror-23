@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+certbot_dns_dnspod/__init__.py
+certbot_dns_dnspod/client.py
+certbot_dns_dnspod/dns_dnspod.py
+certbot_dns_dnspod.egg-info/PKG-INFO
+certbot_dns_dnspod.egg-info/SOURCES.txt
+certbot_dns_dnspod.egg-info/dependency_links.txt
+certbot_dns_dnspod.egg-info/entry_points.txt
+certbot_dns_dnspod.egg-info/requires.txt
+certbot_dns_dnspod.egg-info/top_level.txt
+tests/requirements.txt
