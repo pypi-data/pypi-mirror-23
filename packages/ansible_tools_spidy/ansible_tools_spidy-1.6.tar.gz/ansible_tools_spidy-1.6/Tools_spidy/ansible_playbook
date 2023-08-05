@@ -1,0 +1,157 @@
+#! /usr/local/bin/python
+
+import sys,os
+sys.path.append("../")
+import constrains_spidy.contrain_checker as constrains
+import FILE_spidy.file_functions as file
+import Utilities_spidy.mongo_functions as mongo
+import Utilities_spidy.command_line as command_line
+import pyaml, json
+import collections
+import inspect, subprocess,pprint
+
+
+class ansible_playbook:
+
+      def __init__(self):
+
+          self.tmp_yaml_file__ = "./temp.yaml"
+          self.tmp_json_file__ = "./temp.json"
+          self.tmp_file = "./temp"
+
+
+      def mongo_connect(self,baseline={}):
+          self.__baseline__ = baseline
+
+          ### Check Metadata
+          metadata_header = ["mongo_params_file","playbook_collection","host_collection"]
+          constrain = constrains.constrain_check()
+          constrain.metadata_checks(self.__baseline__,metadata_header)
+
+          ### Retrieve File Parameters
+          file_name = self.__baseline__["mongo_params_file"].split("/")[-1]
+          file_loc = self.__baseline__["mongo_params_file"].rsplit("/",1)[0]
+
+          self.json_name_temp = self.tmp_json_file__.split("/")[-1]
+          self.json_loc_temp = self.tmp_json_file__.rsplit("/",1)[0]
+
+          ### mongo_parameters for Connectivity
+          file_ops = file.file_functions({"file_name" : file_name, "file_loc" : file_loc } )
+          self.__mongo_info__ = file_ops.get_json()
+
+          ### Retrieve Data from mongo and convert into yaml for playbook collection
+          self.mongo_2_yaml()
+
+          ### Retrieve Data from mongo for host collection, Logic needs to be tweaked for a later day !!!!
+          if not self.__baseline__["host_collection"] == None:
+              file_ops = file.file_functions({"file_loc": self.json_loc_temp, "file_name": self.json_name_temp})
+              file_ops.write_json(self.mongo_data_retrieve("host_collection")[0])
+              read_data = file_ops.get_json()
+              for list in read_data["0"]:
+                  with open(self.tmp_file,"a") as file_data:
+                       file_data.writelines(list + "\n")
+
+          self.execute_ansible()
+
+      def __del__(self):
+          try:
+                type(os)
+                try:
+                     os.remove(self.tmp_yaml_file__)
+                     os.remove(self.tmp_json_file__)
+                     os.remove(self.tmp_file)
+
+                     pass
+                except EnvironmentError:
+                     if not inspect.stack().__len__() == 1:
+                        print("File not found, Message from -- Destructor ansible_playbook class")
+          except TypeError:
+                print(" ")
+          except AttributeError:
+                print(" ")
+
+      def mongo_data_retrieve(self,collection_name):
+          mongo_conn = mongo.mongo_functions(self.__mongo_info__)
+          json_data = mongo_conn.mongo_get_collection(self.__baseline__[collection_name])
+          if json_data.__len__() == 0:
+             print("Playbook/Host Collection/Database : " + self.__baseline__[collection_name] +  " Does not exists in mongo, kindly check with DB Administrator")
+             sys.exit(0)
+          return json_data
+
+
+      def mongo_2_yaml(self):
+
+          file_ops = file.file_functions({"file_loc": self.json_loc_temp,"file_name": self.json_name_temp})
+          file_ops.write_json(self.mongo_data_retrieve("playbook_collection")[0])
+
+          with open(self.tmp_json_file__, 'r') as json_file:
+              with open(self.tmp_yaml_file__,'w') as yaml_file:
+                   pyaml.dump(json.load(json_file, object_pairs_hook=collections.OrderedDict), yaml_file, safe=True)
+
+
+      def execute_ansible(self):
+          ### Run ansible command
+
+          ### Check if commands exists
+          constrain = constrains.constrain_check()
+          constrain.check_command_exists(["ansible","sed"])
+
+          ### Fix Spacing in Yaml file
+          constrain.check_file_exists(self.tmp_yaml_file__)
+          command = "sed -i '1 i\---' " + self.tmp_yaml_file__
+          subprocess.call(command, shell=True)
+          command = "sed -i '2 s/^/- /' " + self.tmp_yaml_file__
+          subprocess.call(command,shell=True)
+          command = "sed -i '3,$ s/^/  /' " + self.tmp_yaml_file__
+          subprocess.call(command, shell=True)
+
+
+          ### for the unknown args string
+          string_unknown = ""
+          for elements in self.unknown:
+              string_unknown = string_unknown + " " + elements
+
+          ### execute ansible
+          if not self.__baseline__["host_collection"] == None:
+             hosts_file = " -i " + self.tmp_file
+          else:
+             hosts_file = ""
+
+          if not self.args.sudo_ask == True:
+             command = "ansible-playbook " + self.tmp_yaml_file__  + hosts_file + " " + string_unknown
+          else:
+             command = "ansible-playbook " + self.tmp_yaml_file__ + " --ask-sudo-pass "  + hosts_file + " " + string_unknown
+          #os.execvp(command,args=["--ask-sudo-pass"])
+
+          subprocess.call(command, shell=True)
+
+
+      def start(self):
+          parser_obj = {
+              "args_list": ["-m", "-s", "-pc","-hc"],
+              "args_var": [ "--mongo_param", "--sudo-ask", "--mongo-playbook-collection-name","--mongo-host-collection-name"],
+              "args_action": [ "store", "store_true", "store","store"],
+              "args_help": [
+                            "mongo params file path, used to connect to Database, a reference file is available in /etc/mongo_connect.json", \
+                            "if specified will ask for the sudo password in case of root enviornments", \
+                            "collection name which contains the yaml config to be used to push", \
+                            "collection name which contains the hostname inventory"
+                            ],
+              "args_required" : ["True","False","True","False"],
+              "Description" : "\nKindly note the mandatory arguments are listed below,The wrapper only parses the arguments listed below, Any other arguments passed over and above is passed to ansible-playbook command without checking !!! The reason to do so is that the ansible-playbook command has a lot of switches and we cant parse all of them unless there is a need or request for the same\n\n"
+          }
+          cmd_parser = command_line.command_line(parser_obj)
+          parser = cmd_parser.argument_parser()
+          self.args,self.unknown = parser.parse_known_args()
+
+          ### Metadata Creation for mongo connectivity and yaml to mongo load
+
+          baseline = {"mongo_params_file": self.args.mongo_param, "playbook_collection": self.args.mongo_playbook_collection_name,
+                      "host_collection" : self.args.mongo_host_collection_name}
+
+
+          self.mongo_connect(baseline)
+
+
+ansible_play = ansible_playbook()
+ansible_play.start()
