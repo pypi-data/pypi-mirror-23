@@ -1,0 +1,10 @@
+wheel_example-0.2.dist-info/WHEEL,sha256=K393SHwcz7KWfaAX1vI5Mn-fHxOX6ngCsqegCXacWE8,110
+wheel_example-0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+wheel_example-0.2.dist-info/METADATA,sha256=Uqctv2JAiS_i9djQJ5Go57KgXztdEyemwK5N_WZeW1c,226
+wheel_example-0.2.dist-info/RECORD,,
+wheel_example-0.2.dist-info/top_level.txt,sha256=jum3NrQnpbOtTpD1bdPtWrQHUDe-56B64dmukUhBs8g,14
+wheel_example-0.2.dist-info/metadata.json,sha256=eAqrSWdzv1ku_ikQv5ykAMa5DlMYe4avqe0Ce8PF2XI,380
+wheel_example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wheel_example/module.so,sha256=eLF3eQy5LgRkOlGSo2a0FcyJgJ6RoYgCz7ePlF2DBMg,57458
+wheel_example/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wheel_example/testing/test_module.py,sha256=oiK8gIVnvEkuCsPUVS6SqqCalkRaEshJdf24SciricI,83
