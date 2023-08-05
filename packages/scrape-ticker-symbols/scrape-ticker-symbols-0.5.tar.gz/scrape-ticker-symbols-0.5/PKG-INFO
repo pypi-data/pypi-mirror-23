@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: scrape-ticker-symbols
+Version: 0.5
+Summary: Scrape all ticker symbols from a given URL.
+Home-page: https://github.com/kevin91nl/scrape-ticker-symbols
+Author: Kevin Jacobs
+Author-email: mail@kevinjacobs.nl
+License: UNKNOWN
+Download-URL: https://github.com/kevin91nl/scrape-ticker-symbols/archive/0.5.tar.gz
+Description: UNKNOWN
+Keywords: ticker symbol,ticker,symbol,stock market,stock,scrape
+Platform: UNKNOWN
