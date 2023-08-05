@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: dvd
+Version: 0.1.2
+Summary: Deep Vision library for Dummies
+Home-page: https://github.com/ajayrfhp/dvd
+Author: Ajay Prasadh V, Arnav Varma
+Author-email: ajayrfhp1710@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Deep learning,Computer Vision,Vision,Machine learning
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Utilities
