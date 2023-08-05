@@ -1,0 +1,5 @@
+setup.py
+eg27ec1cxt.egg-info/PKG-INFO
+eg27ec1cxt.egg-info/SOURCES.txt
+eg27ec1cxt.egg-info/dependency_links.txt
+eg27ec1cxt.egg-info/top_level.txt
