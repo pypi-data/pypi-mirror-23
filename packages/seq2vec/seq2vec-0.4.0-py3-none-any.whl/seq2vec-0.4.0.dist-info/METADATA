@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: seq2vec
+Version: 0.4.0
+Summary: A package to turn sequence of wordsinto a fix-length representation vector
+Home-page: UNKNOWN
+Author: cph
+Author-email: UNKNOWN
+License: GNU 3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: gensim
+Requires-Dist: h5py
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: yoctol-keras-layer-zoo
+Requires-Dist: yoctol-utils
+
+UNKNOWN
+
+
