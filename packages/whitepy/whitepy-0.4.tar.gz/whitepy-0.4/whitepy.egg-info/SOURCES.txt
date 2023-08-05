@@ -1,0 +1,17 @@
+README.rst
+setup.py
+whitepycli
+whitepy/__init__.py
+whitepy/debug.py
+whitepy/heap.py
+whitepy/lexer.py
+whitepy/lexerconstants.py
+whitepy/parser.py
+whitepy/stack.py
+whitepy/ws_io.py
+whitepy/ws_token.py
+whitepy.egg-info/PKG-INFO
+whitepy.egg-info/SOURCES.txt
+whitepy.egg-info/dependency_links.txt
+whitepy.egg-info/requires.txt
+whitepy.egg-info/top_level.txt
