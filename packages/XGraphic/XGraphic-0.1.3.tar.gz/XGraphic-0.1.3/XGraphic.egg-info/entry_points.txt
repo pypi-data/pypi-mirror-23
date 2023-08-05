@@ -1,0 +1,3 @@
+[console_scripts]
+xgraphic = xgraphic.__main__:main
+
