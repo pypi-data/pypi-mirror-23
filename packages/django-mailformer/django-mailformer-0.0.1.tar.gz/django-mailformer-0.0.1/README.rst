@@ -1,0 +1,72 @@
+=================
+Django Mailformer
+=================
+
+Application setup
+=================
+Assuming you have added this application in your projects requirements.txt, you
+can start using it by following these steps:
+
+First start with installing:
+
+   .. code:: console
+
+      pip install git+ssh://git@github.com/developersociety/django-mailformer.git@master#egg=django-mailformer
+
+
+1) Add `mailformer` to your applications in the settings file.
+2) In your urls.py add to your url patterns:
+
+     .. code:: console
+
+        urlpatterns = [
+            # all the other values
+            url(r'^email/', include('mailformer.urls')),
+        ]
+
+   The actual url these are added to is up to you. Do not define a namespace in
+   the include as this will prevent the internals of finding the URLs used for
+   the form and submission success page. It is however possible to manipulate
+   this if so required, however you will need to directly add the form and
+   submission page and override the constants.URL_NAME values.
+
+3) In your template add `{% load mailformer %}`
+4) Wherever you would display the email replace it with:
+
+   .. code:: console
+
+      <a href="{% get_url_by_email email_address %}">
+        contact form
+      </a>
+
+
+   Where `email_address` is the email_address you want to mail to.
+   You can also add other keys so that the form get prefilled values.
+
+   These keys are: [name, phone_number, subject, message]
+
+   The field `identifier` is hidden but required.
+
+5) You should define your own forms by creating a submit form named
+   `mailformer/mailformer-form.html` and a success form named
+   `mailformer/mailformer-success.html`.
+
+
+Development setup
+=================
+
+It's recommended you use `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io/en/latest/>`_
+and `The Developer Society Dev Tools <https://github.com/developersociety/tools>`_.
+
+Presuming you are using those tools, getting started on this project is pretty straightforward:
+
+.. code:: console
+
+    $ dev-clone example_instance
+    $ make reset
+
+You can now run the development server:
+
+.. code:: console
+
+    $ python manage.py runserver
