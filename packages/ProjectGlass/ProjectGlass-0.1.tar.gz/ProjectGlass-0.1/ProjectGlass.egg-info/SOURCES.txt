@@ -1,0 +1,7 @@
+setup.py
+ProjectGlass/__init__.py
+ProjectGlass.egg-info/PKG-INFO
+ProjectGlass.egg-info/SOURCES.txt
+ProjectGlass.egg-info/dependency_links.txt
+ProjectGlass.egg-info/not-zip-safe
+ProjectGlass.egg-info/top_level.txt
