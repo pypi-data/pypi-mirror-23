@@ -1,0 +1,3 @@
+[console_scripts]
+timetrack = pytimesheet.cli:main
+
