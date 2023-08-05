@@ -1,0 +1,11 @@
+sklearn_pandas/__init__.py,sha256=IK9NHFGiyPahFszY12HjS04LMckq2dqxSyAlgmKC2ls,225
+sklearn_pandas/categorical_imputer.py,sha256=K6nhVxjC4n5xnEyS25QzgmP3wy360wVSskfZZtPq1j4,2478
+sklearn_pandas/cross_validation.py,sha256=5dbgc87VR2aI7RufSeQ-nfGecuewgwHtPs8BiHaHyqI,2136
+sklearn_pandas/dataframe_mapper.py,sha256=6pCz-hC6Ow7e_w8MdgGHdUjUWf73kSAAtHMi0lzWOVQ,11181
+sklearn_pandas/pipeline.py,sha256=xi8CAdQn5afFHSh0LIEW7C2kgnWeLeFNZnr-Qk9G2wQ,3570
+sklearn_pandas-1.5.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sklearn_pandas-1.5.0.dist-info/METADATA,sha256=mSqueHC4PxRSsWl2xMXEqR9ET784PIG_XTxc9UXPpJo,430
+sklearn_pandas-1.5.0.dist-info/RECORD,,
+sklearn_pandas-1.5.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sklearn_pandas-1.5.0.dist-info/metadata.json,sha256=4VYsft14VU5Fbqu7Cp0oQGNHRxju6vAVgIJ7P0PButo,654
+sklearn_pandas-1.5.0.dist-info/top_level.txt,sha256=qwEWyA_CKkNRd16IWPhIuKZbfaHg0bcCRp2urjCBbZ0,15
