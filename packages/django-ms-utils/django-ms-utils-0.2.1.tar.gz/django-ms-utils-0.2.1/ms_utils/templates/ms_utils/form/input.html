@@ -1,0 +1,16 @@
+<div class="form-group {{ field.bs_class }}">
+    {% if field.label %}
+    <label>{{ field.label }}</label>
+    {% endif %}
+    {% if field.has_addon %}
+    <div class="input-group">
+    {% endif %}
+        {{ field }}
+    {% if field.is_date %}
+        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+    {% endif %}
+    {% if field.has_addon %}
+    </div>
+    {% endif %}
+    {% include './errors.html' %}
+</div>
