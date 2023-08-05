@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+porticatolarcematorfa.egg-info/PKG-INFO
+porticatolarcematorfa.egg-info/SOURCES.txt
+porticatolarcematorfa.egg-info/dependency_links.txt
+porticatolarcematorfa.egg-info/entry_points.txt
+porticatolarcematorfa.egg-info/requires.txt
+porticatolarcematorfa.egg-info/top_level.txt

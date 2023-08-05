@@ -1,0 +1,8 @@
+peppercorn
+scapy
+
+[dev]
+check-manifest
+
+[test]
+coverage
