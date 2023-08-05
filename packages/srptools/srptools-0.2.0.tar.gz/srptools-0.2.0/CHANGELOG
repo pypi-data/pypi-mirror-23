@@ -1,0 +1,20 @@
+srptools changelog
+==================
+
+
+v0.2.0
+------
+* Fixed unable to install into envs with 'six' unavailable
++ Added 'preset' CLI option
+* Improved compatibility with other implementations.
+
+
+v0.1.1
+------
+* Hex strings are now even-length.
+* Fixed shareable hashed values with leading zeros issue.
+
+
+v0.1.0
+------
++ Basic functionality.
