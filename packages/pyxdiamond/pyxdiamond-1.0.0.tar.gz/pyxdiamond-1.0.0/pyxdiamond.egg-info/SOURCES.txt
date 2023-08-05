@@ -1,0 +1,8 @@
+setup.py
+pyxdiamond/XdiamondClient.py
+pyxdiamond/__init__.py
+pyxdiamond.egg-info/PKG-INFO
+pyxdiamond.egg-info/SOURCES.txt
+pyxdiamond.egg-info/dependency_links.txt
+pyxdiamond.egg-info/requires.txt
+pyxdiamond.egg-info/top_level.txt
