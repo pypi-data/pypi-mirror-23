@@ -1,0 +1,4 @@
+[console_scripts]
+faraday-proxy = faraday.proxy:main
+faraday-telemetry = faraday.telemetry:main
+
