@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: tkPopup
+Version: 0.0.9
+Summary: extension to Tkinter: 3 popup classes for user interaction
+Home-page: http://packages.python.org/tkPopup
+Author: Franz Beck
+Author-email: fbeck@intekom.co.za
+License: BSD
+Description: 
+        The package contains 3 classes, each a pop-up window based on Tkinter.
+        Purpose is to simplify user-interaction.
+        Classes **WindowOptions** and **WindowButtons** are multiple choice pop-ups,
+        Class **WindowEntries** is a multiple parameter input popup
+            
+Keywords: tkinter popup user-interaction
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License

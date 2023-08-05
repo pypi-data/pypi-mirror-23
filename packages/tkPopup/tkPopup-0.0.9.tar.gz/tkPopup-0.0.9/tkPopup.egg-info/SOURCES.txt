@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+tkPopup.py
+tkPopup.egg-info/PKG-INFO
+tkPopup.egg-info/SOURCES.txt
+tkPopup.egg-info/dependency_links.txt
+tkPopup.egg-info/top_level.txt
