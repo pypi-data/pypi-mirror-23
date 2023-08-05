@@ -1,0 +1,106 @@
+Metadata-Version: 2.0
+Name: peachy
+Version: 0.1.0
+Summary: A python3 game development framework
+Home-page: https://github.com/shellbotx/peachy
+Author: Sheldon Allen (shellbot)
+Author-email: studio.shellbot@gmail.com
+License: MIT
+Keywords: peachy pygame gamedev game gaming development 2d graphics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pygame
+Requires-Dist: pytmx
+
+Peachy
+------
+"A python3 framework that makes developing 2d games peachy keen."
+
+.. image:: images/logo.png
+   :alt: PEACHY
+
+Peachy is a python game development framework made to make developing games in
+python a bit more streamlined.
+
+Features
+________
+
+* Entity, World structure
+* Simple architecture
+* 2d collision detection for basic shapes
+* 2d rendering
+* Resource management and loading
+* Tiled support
+* Command line utility (TODO)
+    * Project scaffolding
+    * Profiling
+    * Building Executable
+
+(Some features are still under development)
+
+Modules
+________
+
+* peachy - The core modules, contains the Engine, World, and Entity classes among others.
+* peachy.audio - Contains sound classes (still under heavy maintenance).
+* peachy.collision - Multiple collision detection functions for 2d shapes.
+* peachy.fs - Short for 'filesystem', this module is used for loading and storing resources.
+* peachy.geo - Geometric shapes and collision detection between them.
+* peachy.graphics - Drawing and animation.
+* peachy.stage - Used to load popular level editor templates (only Tiled at the moment).
+* peachy.resources - Resource handling. Loading & management.
+* peachy.utils - Utility functions for camera, input, etc.
+* peachy.etc - Everything else.
+
+
+Building Docs
+-------------
+Peachy is documented using Google Style Python Docstrings. Docs are held
+within /docs.
+
+You can build the docs using Sphinx.
+
+
+Running Tests
+-------------
+Just use pytest
+
+
+Installation
+____________
+Requirements
+ * Python 3
+ * Pygame (check out resources for compatible versions)
+ * PyTMX (If you intend to use peachy to load tiled stages)
+ * PyInstaller (If you intend to use Peachy for building your executables)
+ * Click (Used for the Peachy CLI tool)
+
+Install via PyPi
+    pip install peachy
+
+Install manually
+    git clone https://github.com/shellbotx/peachy
+    python setup.py install
+
+
+Resources
+_________
+Repository ~ https://github.com/shellbotx/peachy
+
+Tutorial ~ coming soon
+
+Peachy is licensed under the MIT license.
+
+
