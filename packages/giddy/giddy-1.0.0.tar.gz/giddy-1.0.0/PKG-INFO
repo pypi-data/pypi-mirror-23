@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: giddy
+Version: 1.0.0
+Summary: GIDDY: GeospatIal Distribution DYnamics
+Home-page: https://github.com/pysal/giddy
+Author: Wei Kang
+Author-email: weikang9009@gmail.com
+License: 3-Clause BSD
+Description: Giddy is an open-source python library for the analysis of dynamics of
+        longitudinal spatial data. Originating from the spatial dynamics module
+        in PySAL (Python Spatial Analysis Library), it is under active development
+        for the inclusion of many newly proposed analytics that consider the
+        role of space in the evolution of distributions over time and has
+        several new features including inter- and intra-regional decomposition
+        of mobility association and local measures of exchange mobility in
+        addition to space-time LISA and spatial markov methods. Give
+        giddy a try if you are interested in space-time analysis!
+        
+        
+Keywords: spatial statistics,spatiotemporal analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
