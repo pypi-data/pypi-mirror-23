@@ -1,0 +1,3 @@
+[console_scripts]
+eprl = eprl.cli:main
+
