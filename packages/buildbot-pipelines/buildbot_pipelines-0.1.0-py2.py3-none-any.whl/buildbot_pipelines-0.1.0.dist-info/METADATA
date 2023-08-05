@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: buildbot-pipelines
+Version: 0.1.0
+Summary: Pipelines DSL for Buildbot
+Home-page: http://github.com/buildbot/buildbot_pipelines
+Author: Buildbot community
+Author-email: buildbot-devel@lists.sourceforge.net
+License: MIT
+Keywords: buildbot pipeline ci
+Platform: UNKNOWN
+Requires-Dist: setuptools
+Requires-Dist: buildbot (>=0.9.8)
+Requires-Dist: buildbot-www
+Requires-Dist: buildbot-console-view
+Requires-Dist: buildbot-worker
+Requires-Dist: klein
+Requires-Dist: PyYAML
+Requires-Dist: txrequests
+Requires-Dist: txgithub
+Requires-Dist: ldap3
+Requires-Dist: hyper-sh
+Requires-Dist: future
+
+Buildbot Pipelines
+===================
+
+Pipeline DSL for Buildbot
+
+https://coggle.it/diagram/WSvfhlDsrgABldkz
+
+
