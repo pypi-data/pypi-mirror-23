@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: voluum
+Version: 0.0.1.dev1
+Summary: Python client for Voluum API
+Home-page: https://github.com/mateusz-sikora/python-voluum
+Author: Mateusz Sikora
+Author-email: sikora2048@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: python voluum api client
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
