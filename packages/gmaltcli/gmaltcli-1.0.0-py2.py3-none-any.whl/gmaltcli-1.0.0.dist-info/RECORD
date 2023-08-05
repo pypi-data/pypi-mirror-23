@@ -1,0 +1,14 @@
+gmaltcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmaltcli/app.py,sha256=NpK43In8Ds8Ta7r6G2f9VXmucfzKb17TQFEPeVmTd0g,9852
+gmaltcli/database.py,sha256=dXSQ5b9cckecsGaERMURmGQT6Zs66nNxMUzRObNl2sw,14139
+gmaltcli/tools.py,sha256=q4kbm7G1_AmpT9o2apYqeYVIY3bmFmR0g7MNM1hERKU,5327
+gmaltcli/worker.py,sha256=YVs-izd2gFKDVQx7GPV8Bu4CrJws8O4gqaj27CtQ5Es,12650
+gmaltcli/datasets/small.json,sha256=y9mJBxgNBCkcpOublaagQ_ZPPJFFjhLLs5jp8lXSeCY,440
+gmaltcli/datasets/srtm3.json,sha256=UqSOpnJdOfEI-L_wGLpUKazmhn5wGxmj36xv_VLfKX4,2175482
+gmaltcli-1.0.0.dist-info/DESCRIPTION.rst,sha256=QjexbJ8Fs9o-6_h0Q60BSNjBpDF9jG8ewZP1b2EnwaA,1267
+gmaltcli-1.0.0.dist-info/METADATA,sha256=nRLcMd57xc6exO0NTmx35raIzcXbLgtKJePGRxV3bPs,2347
+gmaltcli-1.0.0.dist-info/RECORD,,
+gmaltcli-1.0.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+gmaltcli-1.0.0.dist-info/entry_points.txt,sha256=DW8us9HQ-QZ4v6JjrSxvSLl7su_6KGK0KzPpVCeSSdA,172
+gmaltcli-1.0.0.dist-info/metadata.json,sha256=jY_eu8IhQJNgqULPVK0pQvIvwysgt_21o2I9LGEV6xA,1475
+gmaltcli-1.0.0.dist-info/top_level.txt,sha256=5kCAO0Tmgojo8SWdyRX_qJPyNx0_ZftKJRAbpX2yRYg,9
