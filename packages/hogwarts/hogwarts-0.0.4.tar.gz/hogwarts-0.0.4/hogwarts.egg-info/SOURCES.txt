@@ -1,0 +1,8 @@
+setup.py
+hogwarts/__init__.py
+hogwarts/version.py
+hogwarts.egg-info/PKG-INFO
+hogwarts.egg-info/SOURCES.txt
+hogwarts.egg-info/dependency_links.txt
+hogwarts.egg-info/requires.txt
+hogwarts.egg-info/top_level.txt
