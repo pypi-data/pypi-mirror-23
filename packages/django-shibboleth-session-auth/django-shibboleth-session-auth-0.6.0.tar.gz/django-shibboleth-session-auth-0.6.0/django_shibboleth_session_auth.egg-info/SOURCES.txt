@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_shibboleth_session_auth.egg-info/PKG-INFO
+django_shibboleth_session_auth.egg-info/SOURCES.txt
+django_shibboleth_session_auth.egg-info/dependency_links.txt
+django_shibboleth_session_auth.egg-info/top_level.txt
+shibboleth_session_auth/__init__.py
+shibboleth_session_auth/models.py
+shibboleth_session_auth/views.py
