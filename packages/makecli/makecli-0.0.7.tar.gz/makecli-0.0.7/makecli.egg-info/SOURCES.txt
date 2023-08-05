@@ -1,0 +1,11 @@
+setup.py
+makecli/__init__.py
+makecli/cli.py
+makecli/run.py
+makecli/template.py
+makecli.egg-info/PKG-INFO
+makecli.egg-info/SOURCES.txt
+makecli.egg-info/dependency_links.txt
+makecli.egg-info/entry_points.txt
+makecli.egg-info/requires.txt
+makecli.egg-info/top_level.txt
