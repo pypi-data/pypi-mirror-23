@@ -1,0 +1,9 @@
+setup.py
+pysdr/__init__.py
+pysdr/gui.py
+pysdr/themes.py
+pysdr.egg-info/PKG-INFO
+pysdr.egg-info/SOURCES.txt
+pysdr.egg-info/dependency_links.txt
+pysdr.egg-info/requires.txt
+pysdr.egg-info/top_level.txt

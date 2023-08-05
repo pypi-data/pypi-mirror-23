@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pysdr
+Version: 1.0
+Summary: A software-defined radio (SDR) framework
+Home-page: https://github.com/pysdr/pysdr
+Author: Marc L, Nathan W
+Author-email: pysdr@vt.edu
+License: GPL-3.0
+Description: A software-defined radio (SDR) framework designed for extremely rapid development of computationally intensive SDR apps with beautiful GUIs
+Keywords: software-defind radio dsp sdr digital signal processing wireless communications
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
