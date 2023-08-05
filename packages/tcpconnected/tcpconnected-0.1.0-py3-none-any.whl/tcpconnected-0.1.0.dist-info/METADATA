@@ -1,0 +1,47 @@
+Metadata-Version: 2.0
+Name: tcpconnected
+Version: 0.1.0
+Summary: A library for managing TCP Connected lighting devices
+Home-page: https://github.com/azend/python-tcpconnected
+Author: azend
+Author-email: pypa+verdi@azend.org
+License: MIT
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: requests
+Requires-Dist: untangle
+Provides-Extra: dev
+Provides-Extra: test
+
+TCP Connected for Python
+========================
+
+An interface library for Python that connects to and controls TCP Connected
+branded lighting through its unofficial and community documented API. This
+library is designed to be used as middleware for projects such as home
+automation systems.
+
+Features
+--------
+
+ - Turn on/off lights connected to gateway
+ - Turn on/off rooms connected to gateway
+ - Change intensity of lights connected to gateway
+ - Change intensity of rooms connected to gateway
+
+While this library is able to monitor and control lights connected to a TCP
+Connected gateway, it is not yet able to generate its own app token. To do
+this, you must use another app or library such as stockmopar's Connected by
+TCP Node.js library to generate a token.
+
+
