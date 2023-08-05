@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: heidelberg-subtyping
+Version: 0.1.2
+Summary: Subtype Salmonella Heidelberg genomes using a 33bp k-mer typing scheme
+Home-page: https://github.com/peterk87/heidelberg_subtyping
+Author: Peter Kruczkiewicz
+Author-email: peter.kruczkiewicz@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: Salmonella Heidelberg subtyping
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX :: Linux
