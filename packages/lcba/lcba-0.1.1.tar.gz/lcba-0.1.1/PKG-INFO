@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: lcba
+Version: 0.1.1
+Summary: lint clean android and compress android resources
+Home-page: https://www.baidu.com
+Author: tory you
+Author-email: feiy1@jumei.com
+License: MIT
+Description: LCBA is a wrapper around dulwich. It provides an easy and familiar interface to git.
+            It's pure python (no dependency on the ``git`` binary) and has no other dependencies besides
+            the python stdlib, dulwich and paramiko (optional).
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
