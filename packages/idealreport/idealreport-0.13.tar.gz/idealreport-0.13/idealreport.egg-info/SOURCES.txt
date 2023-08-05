@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+idealreport/__init__.py
+idealreport/create_html.py
+idealreport/reporter.py
+idealreport.egg-info/PKG-INFO
+idealreport.egg-info/SOURCES.txt
+idealreport.egg-info/dependency_links.txt
+idealreport.egg-info/requires.txt
+idealreport.egg-info/top_level.txt
