@@ -1,0 +1,17 @@
+zc.recipe.cmmi-2.0.0-py2.7-nspkg.pth,sha256=koBiVvN4SBpGTJgNu5Y-CpHJSTtoQ2EjWx6L11J8h3g,1640
+zc/recipe/cmmi/README.rst,sha256=0yg9w6HqZ6QIrAZa5l2sM99wuqwS9GtMic0gfdaxC70,10095
+zc/recipe/cmmi/__init__.py,sha256=daNHZ9SPr5_3rGRGTKSj1HoVOOpy7rcR5dMkn5zpIms,8742
+zc/recipe/cmmi/downloadcache.rst,sha256=3VSHWAgU-aOzVJViyX8ktIVuc_DvgrVketvWyQhygCM,6046
+zc/recipe/cmmi/misc.rst,sha256=F4SVzQkW9x0EfKvOlj1nK4RT42mk07hEv8_RJn4ShVc,2764
+zc/recipe/cmmi/patching.rst,sha256=U6kd9RrPAyj9-Dj20jtZu-XfxWINN4FonSzqV8F85Xo,2666
+zc/recipe/cmmi/shared.rst,sha256=UuhtyJWtI0tgAtATCtwgeeooo8KXJkU_LqHYafQf6OQ,10602
+zc/recipe/cmmi/tests.py,sha256=M4c_sU4wucsVAsmVqaopJoVfdRMpMWD9B1zNp28GEqg,5655
+zc.recipe.cmmi-2.0.0.dist-info/DESCRIPTION.rst,sha256=RaPVuhpplgyL3ddqNg9tI2r-M7E5nvIXTORcFmegYf8,15796
+zc.recipe.cmmi-2.0.0.dist-info/METADATA,sha256=RxMSKjo8NI_tESj1fi5N_Q-FdL2yQtbdJ5R8BqRci8U,17136
+zc.recipe.cmmi-2.0.0.dist-info/RECORD,,
+zc.recipe.cmmi-2.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+zc.recipe.cmmi-2.0.0.dist-info/entry_points.txt,sha256=29bhoHjpCdKm8ikjbAf2qIFKnKVoaTN08NwDbbndRjA,47
+zc.recipe.cmmi-2.0.0.dist-info/metadata.json,sha256=lp0EzaaBzvhkPSn7M-Iz9K9eGsPr_WFTQnTlyWdqwSc,1452
+zc.recipe.cmmi-2.0.0.dist-info/namespace_packages.txt,sha256=uMzgkrnE7pysjpFc1Bregxb8hDX5ahs4PeMwx341JOE,13
+zc.recipe.cmmi-2.0.0.dist-info/top_level.txt,sha256=nptwHX5ivUBBZ49av8trjckjjvj_7OZ_f0bSLnluz1k,3
+zc.recipe.cmmi-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
