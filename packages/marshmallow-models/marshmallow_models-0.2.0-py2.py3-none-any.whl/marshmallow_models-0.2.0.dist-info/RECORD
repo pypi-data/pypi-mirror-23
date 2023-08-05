@@ -1,0 +1,10 @@
+marshmallow_models/__init__.py,sha256=gMfBE3pCSQ002noPLKt863HtRnCywuxE17UcZuMM0nY,62
+marshmallow_models/compat.py,sha256=Q8ixUt9yUxqvpUarKBtxBy8u-3pB3pIVzNcBXBZUieQ,463
+marshmallow_models/field_descriptor.py,sha256=Y2bmDLCuhaOTllATocLH3qG1fJC0QxbEHrZKtQlwHNA,3069
+marshmallow_models/models.py,sha256=jlyafqE6r2Rro_DYs0DCHmc75aqFTi73uVsG0T6jjPE,5378
+marshmallow_models-0.2.0.dist-info/DESCRIPTION.rst,sha256=seUl4B0mGWlPqdbE4H51QJkvQ8BBK_6M94jEjJKUzoQ,3992
+marshmallow_models-0.2.0.dist-info/METADATA,sha256=4M38SebJKq-nNbCUt4hipi71I8EGeJC-D_X6eiHzSZQ,5052
+marshmallow_models-0.2.0.dist-info/RECORD,,
+marshmallow_models-0.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+marshmallow_models-0.2.0.dist-info/metadata.json,sha256=78LsB7hKVSHa2ywJv8se-VIp0NGj_AFkpwACwLfxh8U,1246
+marshmallow_models-0.2.0.dist-info/top_level.txt,sha256=q08Vk9uZpvUpFwsICzmpwd96ADXUn1XxeV0wiLfdQVk,19
