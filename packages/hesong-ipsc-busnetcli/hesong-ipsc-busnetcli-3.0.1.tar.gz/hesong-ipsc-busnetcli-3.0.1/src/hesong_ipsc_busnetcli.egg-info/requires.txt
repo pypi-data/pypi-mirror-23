@@ -1,0 +1,15 @@
+enum34;python_version<"3.4"
+futures;python_version<"3.2"
+
+[dev]
+setuptools
+wheel
+twine
+Sphinx
+recommonmark
+sphinx-autobuild
+sphinx-pypi-upload
+coverage
+
+[test]
+coverage
