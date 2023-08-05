@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sebureem installer</title>
+    </head>
+    <body>
+        <h1>Creating site</h1>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class=flashes>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        {% if not created %}
+            <form action="{{ url_for('.create_site') }}" method="POST">
+                <label>Site name:</label>
+                <input type="text" name="site_name" placeholder="Site name" />
+                <label>Site url:</label>
+                <input type="text" name="site_url" placeholder="Site url" />
+                <input type="submit" />
+            </form>
+        {% else %}
+            <h2>Congratulations, Sebureem is now properly configured</h2>
+        {% endif %}
+    </body>
+</html>

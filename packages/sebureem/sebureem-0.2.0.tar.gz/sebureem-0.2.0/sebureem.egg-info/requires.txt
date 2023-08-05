@@ -1,0 +1,4 @@
+Flask>=0.12
+docopt>=0.6
+peewee>=2.8
+bcrypt>=3.1

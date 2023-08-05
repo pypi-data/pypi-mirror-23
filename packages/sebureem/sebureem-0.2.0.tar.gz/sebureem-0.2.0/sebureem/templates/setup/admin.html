@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sebureem installer</title>
+    </head>
+    <body>
+        <h1>Admin account creation</h1>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class=flashes>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        {% if not created %}
+            <form action="{{ url_for('.create_admin') }}" method="POST">
+                <label>Admin username:</label>
+                <input type="text" name="admin_login" placeholder="Admin name" value="Admin"/>
+                <label>Admin password:</label>
+                <input type="text" name="admin_passwd" placeholder="Admin password" />
+                <input type="submit" />
+            </form>
+        {% else %}
+            Next step: <a href="{{ url_for('.create_site') }}">Create site</a>
+        {% endif %}
+    </body>
+</html>
