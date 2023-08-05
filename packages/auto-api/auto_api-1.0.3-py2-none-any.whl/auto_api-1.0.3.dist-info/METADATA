@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: auto-api
+Version: 1.0.3
+Summary: Automatic API REST
+Home-page: https://github.com/fvalverd/AutoApi
+Author: Felipe Valverde Campos
+Author-email: felipe.valverde.campos@gmail.com
+License: MIT
+Download-URL: https://github.com/fvalverd/AutoApi/tarball/v1.0.3
+Keywords: api rest authentication mongodb automatic web flask json
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask (==0.12.2)
+Requires-Dist: click (==6.7)
+Requires-Dist: flask-cors (==3.0.2)
+Requires-Dist: pyOpenSSL (==17.0.0)
+Requires-Dist: pymongo (==3.4.0)
+
+AutoApi was created to not wasting time to developing an API REST at the
+project start. Has an authentication system to provided secure data based on
+MongoDB 3.X.
+
+
