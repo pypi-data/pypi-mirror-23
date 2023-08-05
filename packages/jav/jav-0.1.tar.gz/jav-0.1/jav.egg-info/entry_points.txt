@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        jav = jav.cli.main:main
+    
