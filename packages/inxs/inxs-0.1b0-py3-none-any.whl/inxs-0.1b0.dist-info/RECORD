@@ -1,0 +1,11 @@
+inxs/__init__.py,sha256=e4cHrjLjQ1pJw-XKav3F4Jb7XmxPWnpxkuRTNOCTlLg,23754
+inxs/contrib.py,sha256=La7H1DgXSsNezCzCZYzg6qA3WacrCcaLFvy0Gd9mo8Y,1028
+inxs/lib.py,sha256=u4F-l7ygVgiVDHnAxKIbSIc0j6p3RsdTB3qMcdJILWY,7991
+inxs/lxml_utils.py,sha256=2u_WmmKTnWJ-GdlwzcfnH6S4o-760gjzbjVpvab88Ds,746
+inxs-0.1b0.dist-info/DESCRIPTION.rst,sha256=WritT62f9m6hp4jeF5KfZFz87MsWzjNwv0NPMmxYAqM,2217
+inxs-0.1b0.dist-info/METADATA,sha256=yNY6jfxm5x_-OkgmqtSIQS4pzUaKnZpRMnlBp5uT5No,3126
+inxs-0.1b0.dist-info/RECORD,,
+inxs-0.1b0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+inxs-0.1b0.dist-info/dependency_links.txt,sha256=KgaAzvPKwZeTXx-GBgWV-H5KPSGg00pFCsmHUpReY-0,65
+inxs-0.1b0.dist-info/metadata.json,sha256=7IlPlZqhI1NmL6C57iCLfj3RDze7vIwNk_jwcCnGUb8,1116
+inxs-0.1b0.dist-info/top_level.txt,sha256=tk8T5Zoq6IS98Tz69qiOw0ZGqPTsPICsd4sBn9qiO1w,5
