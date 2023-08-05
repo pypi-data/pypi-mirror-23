@@ -1,0 +1,6 @@
+osconf
+expects
+click
+mamba
+coverage
+babel
