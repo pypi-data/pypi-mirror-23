@@ -1,0 +1,12 @@
+pkgtool/__init__.py,sha256=bnqN7YD6xP7C1sqa8MEjP-nKxeraqw23CU5hUh7z5k4,24683
+pkgtool/tests/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+pkgtool-0.1b19.data/scripts/pkgtool,sha256=e7Vez_RkWryYW6dOE8QRJ-lzHhuck0zdEa7eA5CYqso,61
+pkgtool-0.1b19.data/scripts/pytool,sha256=7kSYJaJfVvX4sdPq7g7Ddht5X3Od7SCmUFIMnDewT8o,59
+pkgtool-0.1b19.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pkgtool-0.1b19.dist-info/METADATA,sha256=cIqK-EsxcaP0wKQYt0H9qS87JZBqPWfdm7t4AqmCa-E,354
+pkgtool-0.1b19.dist-info/RECORD,,
+pkgtool-0.1b19.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pkgtool-0.1b19.dist-info/metadata.json,sha256=zgCevbik3O_osd7kryT_ZFaUH2Z_Mwlat7wkaoW32p0,530
+pkgtool-0.1b19.dist-info/top_level.txt,sha256=pAirJgAOg_nZCtt5-cs-hQ_q_ujI5Kk4H9ho-gIISsI,8
+pytool/__init__.py,sha256=_ZZ8h2ias5y5ibTeWF6ccNB8pWgC_ZX_hR6I8ts5ztQ,15751
+pytool/tests/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
