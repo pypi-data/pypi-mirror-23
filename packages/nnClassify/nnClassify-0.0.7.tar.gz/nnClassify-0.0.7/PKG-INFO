@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: nnClassify
+Version: 0.0.7
+Summary: A command line tool for classifying images using transfer learning
+Home-page: https://github.com/PatrickgHayes/nnClassify
+Author: Patrick Hayes and Aaron Graham
+Author-email: patrickghayes@gmail.com
+License: MIT
+Description: A transfer learning classifier
+Keywords: image classification transfer learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
