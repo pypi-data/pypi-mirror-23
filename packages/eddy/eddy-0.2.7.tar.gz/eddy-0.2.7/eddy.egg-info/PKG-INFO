@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: eddy
+Version: 0.2.7
+Summary: Static site generator with markdown support
+Home-page: https://github.com/joajfreitas/eddy
+Author: joajfreitas
+Author-email: joaj.freitas@gmail.com
+License: GPLv3
+Download-URL: https://github.com/joajfreitas/eddy
+Description: .. figure:: https://cdn.rawgit.com/joajfreitas/eddy/2e495926/icons/eddy_long.png
+           :alt: eddy logo
+        
+           eddy logo
+        
+        --------------
+        
+        |Build Status|
+        
+        Eddy is a simple static website generator.
+        
+        -  Create content with github
+           `Markdown <https://pythonhosted.org/Markdown/>`__
+        -  Includes a simple CLI interface
+        -  Generetad pages can be hosted anywhere
+        
+        Features
+        --------
+        
+        -  Site themes with `Jinja2 <http://jinja.pocoo.org/>`__
+        -  Use or create personalized stylecheats
+        -  Support for TeX math equations with
+           `Mathjax <https://www.mathjax.org/>`__
+        -  Syntex highligth with `Pygments <http://pygments.org/>`__
+        -  Embeded videos
+        
+        Documentation
+        -------------
+        
+        Check the `documentation <http://pythonhosted.org/eddy>`__
+        
+        Install
+        -------
+        
+        ::
+        
+            pip install eddy
+        
+        TODO
+        ----
+        
+        -  Document user style
+        -  Docs
+        -  Pretty urls
+        
+        .. |Build Status| image:: https://travis-ci.org/joajfreitas/eddy.png?branch=master
+           :target: https://travis-ci.org/joajfreitas/eddy
+        
+Platform: UNKNOWN
