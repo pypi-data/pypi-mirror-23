@@ -1,0 +1,5 @@
+setup.py
+pymatrixmod.egg-info/PKG-INFO
+pymatrixmod.egg-info/SOURCES.txt
+pymatrixmod.egg-info/dependency_links.txt
+pymatrixmod.egg-info/top_level.txt
