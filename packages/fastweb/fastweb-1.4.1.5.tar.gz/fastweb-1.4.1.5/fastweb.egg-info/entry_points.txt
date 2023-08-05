@@ -1,0 +1,3 @@
+[console_scripts]
+fasthrift = fastweb.command.service.thrift:gen_thrift_auxiliary
+
