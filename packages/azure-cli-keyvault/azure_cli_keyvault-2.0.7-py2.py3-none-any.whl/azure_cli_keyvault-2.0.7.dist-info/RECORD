@@ -1,0 +1,14 @@
+azure/cli/command_modules/keyvault/__init__.py,sha256=M4ExKzuG9Jfzhui2CG-UW6gyil8FDRYnxV-k0woV5c4,695
+azure/cli/command_modules/keyvault/_client_factory.py,sha256=OIGeAKJ4FltY4HdxRtBEJ2LhsxS7bu-n2FQeKkh3x4w,680
+azure/cli/command_modules/keyvault/_command_type.py,sha256=yOVQK_Ve_BhDoaasG2Lckesfxl-u--_2jWo0OTaOwu4,5432
+azure/cli/command_modules/keyvault/_help.py,sha256=xBWkhXUU1spBnFgf3jvEK-914CdA1DiRIX5LeD8FdxY,5777
+azure/cli/command_modules/keyvault/_params.py,sha256=FAEFOC_GCHmiKxX56C70OXad7LiTyii5f_l_1lZTYao,20358
+azure/cli/command_modules/keyvault/_validators.py,sha256=mPrD2xAncYfQv9lM7M4XcYMZcIocqrP4ktSTdOGcJXI,8229
+azure/cli/command_modules/keyvault/commands.py,sha256=DbTFBlYTXhVPeZqVr1QR9GFowyUXEv5rNWOhLMyINkc,12840
+azure/cli/command_modules/keyvault/custom.py,sha256=W5lFrVykAIEmMSPdauOepbgn8EFG1xzDltdV_G_3EXI,37723
+azure_cli_keyvault-2.0.7.dist-info/DESCRIPTION.rst,sha256=sNC6JyqUTnOr2JgKbhM4aOTCeB733ctrz5LifK0vyQs,2788
+azure_cli_keyvault-2.0.7.dist-info/METADATA,sha256=vKRaATLx4lvJugkOl8pr5eqCF_l5xrYG4gxD4XrEp4A,3792
+azure_cli_keyvault-2.0.7.dist-info/RECORD,,
+azure_cli_keyvault-2.0.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+azure_cli_keyvault-2.0.7.dist-info/metadata.json,sha256=bHZ9aO9IfNIRnnWthkCA3k1KnuFRv1EJRYxTLdCx3A4,1096
+azure_cli_keyvault-2.0.7.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
