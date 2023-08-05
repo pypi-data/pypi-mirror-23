@@ -1,0 +1,17 @@
+setup.py
+tscrnsvr/__init__.py
+tscrnsvr/bounce.py
+tscrnsvr/clock.py
+tscrnsvr/cmdline.py
+tscrnsvr/colortest.py
+tscrnsvr/imgbounce.py
+tscrnsvr/matrix.py
+tscrnsvr/pipes.py
+tscrnsvr/shared.py
+tscrnsvr/snake.py
+tscrnsvr/stars.py
+tscrnsvr.egg-info/PKG-INFO
+tscrnsvr.egg-info/SOURCES.txt
+tscrnsvr.egg-info/dependency_links.txt
+tscrnsvr.egg-info/entry_points.txt
+tscrnsvr.egg-info/top_level.txt

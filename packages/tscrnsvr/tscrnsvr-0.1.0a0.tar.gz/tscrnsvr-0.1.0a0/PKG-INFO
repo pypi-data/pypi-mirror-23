@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tscrnsvr
+Version: 0.1.0a0
+Summary: Cool screensavers for the terminal
+Home-page: https://github.com/illinoisjackson/terminal-screensavers
+Author: illinoisjackson
+Author-email: icantpostmyemailhere@gmail.com
+License: MIT License
+Description: `Repo
+        <https://github.com/illinoisjackson/tscrnsvr/>`_
+Keywords: screensaver terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only

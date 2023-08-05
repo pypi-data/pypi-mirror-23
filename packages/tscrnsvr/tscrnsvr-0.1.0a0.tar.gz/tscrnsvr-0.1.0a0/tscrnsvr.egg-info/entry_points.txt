@@ -1,0 +1,3 @@
+[console_scripts]
+tscrnsvr = tscrnsvr.cmdline:main
+
