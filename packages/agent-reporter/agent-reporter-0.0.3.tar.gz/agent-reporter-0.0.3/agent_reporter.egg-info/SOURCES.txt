@@ -1,0 +1,8 @@
+setup.py
+agent_reporter.egg-info/PKG-INFO
+agent_reporter.egg-info/SOURCES.txt
+agent_reporter.egg-info/dependency_links.txt
+agent_reporter.egg-info/requires.txt
+agent_reporter.egg-info/top_level.txt
+agent_reporting/__init__.py
+agent_reporting/event-reporter.py
