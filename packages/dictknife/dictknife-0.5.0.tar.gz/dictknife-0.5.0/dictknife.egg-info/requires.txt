@@ -1,0 +1,17 @@
+
+[command]
+PyYAML
+click
+magicalimport
+prestring
+
+[docs]
+sphinx
+recommonmark
+sphinx_rtd_theme
+
+[load]
+PyYAML
+
+[testing]
+PyYAML
