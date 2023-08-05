@@ -1,0 +1,4 @@
+[console_scripts]
+flext = FlexTransform.FlexT:main
+flextbatch = FlexTransform.FlexTBatch:main
+
