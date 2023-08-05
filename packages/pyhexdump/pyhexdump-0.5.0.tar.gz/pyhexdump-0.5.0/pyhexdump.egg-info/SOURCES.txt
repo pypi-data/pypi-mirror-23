@@ -1,0 +1,8 @@
+setup.py
+pyhexdump/__init__.py
+pyhexdump/pyhexdump.py
+pyhexdump.egg-info/PKG-INFO
+pyhexdump.egg-info/SOURCES.txt
+pyhexdump.egg-info/dependency_links.txt
+pyhexdump.egg-info/requires.txt
+pyhexdump.egg-info/top_level.txt
