@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: ph-confer
+Version: 1.2.0
+Summary: A mako-based auto configuration generator similar to confd.
+Home-page: https://www.parsehub.com
+Author: Colin Chartier
+Author-email: colin@parsehub.com
+License: GNU Lesser General Public License v3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: Mako (==1.0.6)
+Requires-Dist: python-etcd (==0.4.5)
+
+UNKNOWN
+
+
