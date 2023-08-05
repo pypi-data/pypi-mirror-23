@@ -1,0 +1,9 @@
+[dhcpkit.ipv6.server.extensions]
+listen-vpp = dhcpkit_vpp.listeners.vpp
+
+[dhcpkit_vpp.protocols.layer3]
+34525 = dhcpkit_vpp.protocols.layer3:IPv6
+
+[dhcpkit_vpp.protocols.layer4]
+17 = dhcpkit_vpp.protocols.layer4:UDP
+
