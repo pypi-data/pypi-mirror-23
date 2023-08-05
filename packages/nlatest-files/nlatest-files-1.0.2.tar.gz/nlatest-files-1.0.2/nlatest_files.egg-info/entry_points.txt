@@ -1,0 +1,3 @@
+[console_scripts]
+nlf = nlf:main
+
