@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+mongua/__init__.py
+mongua/errors.py
+mongua.egg-info/PKG-INFO
+mongua.egg-info/SOURCES.txt
+mongua.egg-info/dependency_links.txt
+mongua.egg-info/not-zip-safe
+mongua.egg-info/pbr.json
+mongua.egg-info/requires.txt
+mongua.egg-info/top_level.txt
