@@ -1,0 +1,17 @@
+setup.py
+megamix/DPGMM.py
+megamix/GMM.py
+megamix/VBGMM.py
+megamix/__init__.py
+megamix/base.py
+megamix/initializations.py
+megamix/kmeans.py
+megamix.egg-info/PKG-INFO
+megamix.egg-info/SOURCES.txt
+megamix.egg-info/dependency_links.txt
+megamix.egg-info/not-zip-safe
+megamix.egg-info/requires.txt
+megamix.egg-info/top_level.txt
+test/test_DPGMM.py
+test/test_Kmeans.py
+test/test_writing.py
