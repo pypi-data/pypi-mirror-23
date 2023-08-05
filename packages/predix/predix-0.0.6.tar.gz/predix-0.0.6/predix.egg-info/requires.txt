@@ -1,0 +1,5 @@
+python-dateutil
+PyYAML
+requests
+boto3
+websocket
