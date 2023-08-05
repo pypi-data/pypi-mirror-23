@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: flaskpress
+Version: 0.0.1
+Summary: Python Flask CMS
+Home-page: https://flaskpress.infrascloudy.info
+Author: @InfrasCloudy, @allanice001
+Author-email: support@linaccess.za.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Software Distribution
+Requires-Dist: flask
+
+UNKNOWN
+
+
