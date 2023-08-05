@@ -1,0 +1,6 @@
+am2320.py
+setup.py
+micropython_am2320.egg-info/PKG-INFO
+micropython_am2320.egg-info/SOURCES.txt
+micropython_am2320.egg-info/dependency_links.txt
+micropython_am2320.egg-info/top_level.txt
