@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: essm
+Version: 0.1.0.dev0
+Summary: Environmental Science for SageMath.
+Home-page: https://github.com/environmentalscience/essm
+Author: Stan Schymanski
+Author-email: schymans@gmail.com
+License: GPLv2
+Description: 
+        
+        
+Keywords: sagemath environmental science
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 1 - Planning
