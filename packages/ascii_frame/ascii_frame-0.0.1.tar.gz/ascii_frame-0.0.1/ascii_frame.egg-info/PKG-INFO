@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ascii-frame
+Version: 0.0.1
+Summary: Wrap text with an ASCII frame.
+Home-page: https://github.com/pi314/ascii_frame
+Author: Cychih
+Author-email: michael66230@gmail.com
+License: WTFPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
