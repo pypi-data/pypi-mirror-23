@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: octoclient
+Version: 0.2.dev1
+Summary: Client library for OctoPrint REST API
+Home-page: https://github.com/hroncok/octoclient
+Author: Miro Hrončok, Jiří Makarius
+Author-email: miro@hroncok.cz, meadowfrey@gmail.com
+License: MIT
+Description: octoclient
+        ==========
+        
+        Python client library for `OctoPrint REST API <http://docs.octoprint.org/en/master/api/index.html>`_.
+        
+        Currently work in progress, don't expect much from it.
+        
+Keywords: octoprint,3d printing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Printing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Networking :: Monitoring
