@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: s-tui
+Version: 0.2.2
+Summary: Terminal UI stress test and monitoring tool
+Home-page: https://github.com/amanusk/s-tui
+Author: Alex Manuskin
+Author-email: alex.manuskin@gmail.com
+License: GPL2
+Download-URL: https://github.com/amanusk/s-tui/archive/v0.2.1.tar.gz
+Description: UNKNOWN
+Keywords: stress,monitoring,TUI
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 2
+Classifier: Topic :: System :: Monitoring
