@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: hatebase
+Version: 0.4
+Summary: Python Version of Andrew Welter's Hatebase Wrapper
+Home-page: https://github.com/DanielJDufour/hatebase
+Author: Daniel J. Dufour
+Author-email: daniel.j.dufour@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/DanielJDufour/hatebase/tarball/download
+Description: UNKNOWN
+Keywords: conflict,hatespeech,language,nlp,python,tagging
+Platform: UNKNOWN
