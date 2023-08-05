@@ -1,0 +1,11 @@
+attrs>=17,<18
+click
+cerberus
+colorlog
+ijson
+iso8601
+pyyaml
+pyxdg
+requests
+sqlalchemy
+urwid
