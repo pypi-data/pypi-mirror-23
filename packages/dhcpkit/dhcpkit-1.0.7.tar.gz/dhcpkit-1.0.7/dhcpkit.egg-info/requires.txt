@@ -1,0 +1,5 @@
+cached_property
+idna >= 2.5
+netifaces
+setuptools
+ZConfig
