@@ -1,0 +1,13 @@
+typesentry/__init__.py,sha256=lUpgzB2pcSwfeywk-Z5FrctjRnXb0pvDjk_Dflu3-Ok,326
+typesentry/__version__.py,sha256=Ol46aCzjPby3m1nNAIFXf7slJ5qsIJ9Q45AUFc9-Tj0,539
+typesentry/checks.py,sha256=hNRVl6FysaS0jgrfsPwG-SQeWwjADT0wDykavEowaMI,11512
+typesentry/config.py,sha256=naWDHFGu-eFcbAY3jJGKUA9BD1se3fC-Wwp1FlOyV6g,4847
+typesentry/signature.py,sha256=fcvDXVkNUISljRdYXdo_v78D4ZvkE8dRNh4GObCrnc8,12766
+typesentry-0.1.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+typesentry-0.1.4.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+typesentry-0.1.4.dist-info/METADATA,sha256=cw1gjGyzgIbdMzHAHwjawrIReMuaOGcQmgabTKnU_O0,658
+typesentry-0.1.4.dist-info/metadata.json,sha256=3iPS5BYBw1pOf9Nv2QT17aYKOmsGfVgFEaL3Vep2tl0,927
+typesentry-0.1.4.dist-info/RECORD,,
+typesentry-0.1.4.dist-info/top_level.txt,sha256=MrE5aR7l54YMREeHjBjpdIOAdXK88IrUnC6dSMnEN_g,11
+typesentry-0.1.4.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+typesentry-0.1.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
