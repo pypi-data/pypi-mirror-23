@@ -1,0 +1,78 @@
+Use Python 3.6
+--------------
+lorax was tested under Anaconda Python 3.6. As of this writing, there is
+no compelling reason to use earlier or later versions. Begin by downloading
+Anaconda Python 3.6 (the command-line installer is fine) and
+making sure that it is in your PATH.
+
+Configure Channels
+-------------------
+lorax requires some packages that are in non-default channels, which
+may be obtained by the following:
+
+	conda config --add channels conda-forge
+	conda config --add channels defaults
+	conda config --add channels bioconda
+
+After the channels are configured, update the installation by issuing:
+
+	conda update --all
+
+This command usually results in several packages being updated.
+
+Create a Virtualenv
+-------------------
+Although it is possible to run lorax directly from the root installation,
+it is not advisable to do so because lorax's dependencies could break other
+packages.  As of the current conda version (4.3.21), there are four packages
+in the channels that are too old for use with lorax:
+
+Package     Anaconda Version Required Version
+----------- ---------------- ----------------
+setuptools  27.2.0           >30.3.0)
+markupsafe  0.23             1.0.0
+gunicorn    19.1.0           19.7.1
+supervisor  3.3.2            4.0 (from git)
+
+Replacing setuptools, in particular, could cause breakage of your root
+Anaconda Python distribution. For this reason, it is required to create a
+python virtual environment for lorax and its dependencies. I prefer to name
+this environment "loraxenv" to prevent confusion between package and
+environment names.  You should create this environment as the user under which
+you intend the web server to run (using "sudo -u USER -i " if necessary),
+using the following commands:
+
+	conda create -y --name loraxenv biopython click hmmer raxml redis
+	source activate loraxenv
+
+
+Install gcc if using MacOSX
+---------------------------
+If you are installing under MacOS (and only under MacOS), gcc and libgcc
+MUST be installed in the current virtual environment:
+
+	conda install -y gcc libgcc
+
+Failure to do this step will result in a message to the effect "Unable to
+resolve paths in MacOS executable" in the lorax installation step 
+later.
+
+Do pip installs
+---------------
+Next continue the installation by updating setuptools and installing lorax.
+The first will end with an error; this is expected, so don't be worried by it:
+
+	pip install -U setuptools
+	pip install --global-option=build_py lorax
+
+
+Create a temporary command alias
+---------------------------------
+Next, we define a command of convenience for running a script that
+defines two environmental variables and activates the correct virtual
+environment from _outside_ the virtual environment:
+
+    alias runinenv="${CONDA_PREFIX}/bin/run_in_lorax_env"
+    source deactivate
+
+Next, follow the instructions in INSTALL.configure+run.txt.
