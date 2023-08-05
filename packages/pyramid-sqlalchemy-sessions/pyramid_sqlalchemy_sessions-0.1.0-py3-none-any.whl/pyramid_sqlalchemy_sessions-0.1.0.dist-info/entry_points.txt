@@ -1,0 +1,3 @@
+      [console_scripts]
+      pyramid_session_gc = pyramid_sqlalchemy_sessions.gc:main
+      

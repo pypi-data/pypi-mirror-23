@@ -1,0 +1,16 @@
+pyramid_sqlalchemy_sessions/__init__.py,sha256=xGeJ_0Jpp4yKksAMcNrzRjV4uwBbC8Ot24rV_PAqpGg,1479
+pyramid_sqlalchemy_sessions/authn.py,sha256=DBxo-4pOAvBeIsAPlx5AlJi1nPYoFZLFjOr1HxsF7a8,1273
+pyramid_sqlalchemy_sessions/events.py,sha256=xxn7JbcdabSEwDQA3xHF_05s76tSj5URclE1YT3WdkE,695
+pyramid_sqlalchemy_sessions/exceptions.py,sha256=9_utSgzgLpjTtVjA4L_sV50mDyZ3NkpZ8B0YHXlgJ1c,1421
+pyramid_sqlalchemy_sessions/gc.py,sha256=aFSc-B_CzQJRQ2hKqrODxYQtTlfXYg6_6aR_KQAEQx4,2726
+pyramid_sqlalchemy_sessions/model.py,sha256=sqrnP_6-PoI4vMIK33BQ9r97XF5bESR5Wqr96yuCLzc,5468
+pyramid_sqlalchemy_sessions/serializer.py,sha256=u_-IS6U6braxvuk7C1GYvoohDVG0TbImtQ3Vy1jFjMc,1783
+pyramid_sqlalchemy_sessions/session.py,sha256=GnqzEfic0O60xLUMuthqbi4xyOV8r46iikEWxZ0XNX0,27344
+pyramid_sqlalchemy_sessions/util.py,sha256=xJaTIwVq-u9cNb-K6Y_CpRbqmW1NcSGixATnKfbfdiA,317
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/DESCRIPTION.rst,sha256=74sLoBLdedtv7Nlk6kL56MxBsQ6UzfMGgkcbxD8F8TQ,783
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/METADATA,sha256=isWQjqo5TSjHFKxmqrIlq6Xl6MdYz4YS1jx0tgSvj_A,1983
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/RECORD,,
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/entry_points.txt,sha256=GV-Aw1nDmwVKMc3Qa51Aq4_zoDF_U2GEFgR1DbjveQQ,93
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/metadata.json,sha256=pEFZH7rDywy6e5DHCZkAzZztsPlupmakQp9uqxkqpqE,1479
+pyramid_sqlalchemy_sessions-0.1.0.dist-info/top_level.txt,sha256=5mTzs2mixccSK6MjErDV0GaWqXJSpXyp6M4yn_XLG9E,28
