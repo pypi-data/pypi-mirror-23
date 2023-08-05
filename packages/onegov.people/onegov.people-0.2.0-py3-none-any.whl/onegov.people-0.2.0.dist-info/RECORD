@@ -1,0 +1,16 @@
+onegov.people-0.2.0-py3.5-nspkg.pth,sha256=MT9Phjlm8YcyK255EdvRM6ADPTupSUxlwopyEJelXxU,539
+onegov/people/.gitignore,sha256=IDKwAhPyBaqv1HYUcWpb-g7kE04Fv0AoDw375XgN7uw,675
+onegov/people/__init__.py,sha256=otABsK-LdQ0VnmfK4BdAAIW8TD3j6fjyaAJRQ9xIfZg,146
+onegov/people/collection.py,sha256=5EhQOneUWMvRGD1jtExl7eREKB55FbrGZoHIxfGvzrc,670
+onegov/people/models.py,sha256=_fk1ZxVqLIAWupdiXnxThkuht7VyLLjD2Zdw68VEc5k,1427
+onegov/people/upgrade.py,sha256=GODwE7YXrZZykbg_W0JCyQK2WulyZXKnQm5RZUPadK4,766
+onegov/people/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onegov/people/tests/test_collections.py,sha256=FcjbTjwAq3VGGw3Dy1b-mel5B923T-17LAeZV2I0Bbo,391
+onegov.people-0.2.0.dist-info/DESCRIPTION.rst,sha256=hftvzO1L4VllYS1UPMWtKGpP4tVKzEPOBfIS2lRG1iA,2005
+onegov.people-0.2.0.dist-info/METADATA,sha256=cXcobpoaRQAkreLMjb17mWdZgJGklnTujLkec2Q6Mnk,2795
+onegov.people-0.2.0.dist-info/RECORD,,
+onegov.people-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+onegov.people-0.2.0.dist-info/entry_points.txt,sha256=eMItcih4QQXP7v6HBsMipiLVQq_J3PjqzrXb0xTNFFA,42
+onegov.people-0.2.0.dist-info/metadata.json,sha256=tRd_2O2xVlpl4IAwT1Y5VvfFDziAzTayquitKEQSMII,985
+onegov.people-0.2.0.dist-info/namespace_packages.txt,sha256=jgdvRSw9EnHQZ3lUFqBiKCu_WBL-6hlsuREzMWiTRxk,7
+onegov.people-0.2.0.dist-info/top_level.txt,sha256=jgdvRSw9EnHQZ3lUFqBiKCu_WBL-6hlsuREzMWiTRxk,7
