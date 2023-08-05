@@ -1,0 +1,10 @@
+opvoeden_api/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+opvoeden_api/article_utils.py,sha256=WZGRYLHK1Eiyl7dGhR0EbJiMeRpsice0zxD9GfPgf8g,2858
+opvoeden_api/client.py,sha256=ftXKxzJiEDC01xP7ds1NFbUwgXkuB8MBOhcYEAEdFRc,1645
+opvoeden_api/models.py,sha256=LKnre3uP4eVDja_fhkU0gcqYez_hWejaKj9I5oNXYqc,5054
+opvoeden_api_client-2.0.0.dist-info/DESCRIPTION.rst,sha256=VCxg4isVjZI8317Wrwzcg3cZQCvp_FpgcrSfm6ccmkA,8639
+opvoeden_api_client-2.0.0.dist-info/METADATA,sha256=z4p5xDnIv3tRgolXZz_iIYoKco2hofPDbRP5GNwiKnc,9291
+opvoeden_api_client-2.0.0.dist-info/RECORD,,
+opvoeden_api_client-2.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+opvoeden_api_client-2.0.0.dist-info/metadata.json,sha256=5-UoDO4or8wZEkD0XQ-NROMPgG12A16TA6qKoFic6fg,847
+opvoeden_api_client-2.0.0.dist-info/top_level.txt,sha256=SlNA8krqX_kR--n1uunuxiNegRuFg82URIYshxgS7OM,13
