@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: chestymetrics
+Version: 0.0.3
+Summary: foo
+Home-page: http://www.google.com
+Author: max
+Author-email: max@max.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: pika
+Requires: click
+Requires: psutil
+Requires: cassandra_driver
+Requires: riemann_client
