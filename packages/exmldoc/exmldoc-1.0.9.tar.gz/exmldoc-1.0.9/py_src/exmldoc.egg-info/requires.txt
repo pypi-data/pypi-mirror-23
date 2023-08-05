@@ -1,0 +1,6 @@
+isounidecode
+simplejson
+msgpack-python
+sortedcontainers
+setuptools >= 19
+mock >= 2.0.0
