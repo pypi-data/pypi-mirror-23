@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: NCs_tools
+Version: 0.2
+Summary: A collection of useful python scripts
+Home-page: https://github.com/ncvangilse/NCs_tools
+Author: Niels Christian van Gilse
+Author-email: ncvangilse@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ncvangilse/NCs_tools/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: matplotlib,general_purpose
+Platform: UNKNOWN
