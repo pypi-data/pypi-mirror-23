@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: uploadcare-migro
+Version: 1.0
+Summary: Uploadcare migration tool
+Home-page: https://github.com/uploadcare/migro
+Author: Uploadcare team
+Author-email: hello@uploadcare.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
