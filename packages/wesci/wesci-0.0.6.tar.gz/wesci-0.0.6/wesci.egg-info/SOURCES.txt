@@ -1,0 +1,8 @@
+README.rst
+setup.py
+wesci/__init__.py
+wesci/tools.py
+wesci.egg-info/PKG-INFO
+wesci.egg-info/SOURCES.txt
+wesci.egg-info/dependency_links.txt
+wesci.egg-info/top_level.txt
