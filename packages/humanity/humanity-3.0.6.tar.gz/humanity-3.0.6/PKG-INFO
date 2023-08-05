@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: humanity
+Version: 3.0.6
+Summary: Module for newbies, changes start index from 0 to 1
+Home-page: https://github.com/vlad1777d/humanity
+Author: vlad1777d
+Author-email: naumovvladislav@mail.ru
+License: UNKNOWN
+Description: # humanity
+        Humanity is a Python 3.x module for newbies or those, who likes when in A = [1,2,3,4] element A[3] ==3.
+        
+Platform: UNKNOWN
