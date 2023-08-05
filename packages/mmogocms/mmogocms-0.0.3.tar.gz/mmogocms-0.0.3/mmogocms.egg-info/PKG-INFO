@@ -1,0 +1,121 @@
+Metadata-Version: 1.1
+Name: mmogocms
+Version: 0.0.3
+Summary: Django custom apps to help you get up and running quickly.
+Home-page: http://github.com/mmogodigital/mmogocms
+Author: Mmogo Digital
+Author-email: dev@mmogodigital.com
+License: BSD
+Description: # MmogoCMS
+        
+        This is a collection of Django Apps that will help you easily get started with creating a basic cms driven website. 
+        
+        The initial setup will run a basic website with the following pages ready:
+        
+        * Homepage
+        * About Us
+        * Contact Us
+        * Blog
+        * Products / Services
+        
+        Link to demo site
+        
+        ## Installation
+        
+        Install using pip by running the following command:
+        
+        ``` bash 
+         $ pip install mmogocms 
+        ```
+        Add ```mmogo``` to installed apps 
+        
+        ```python
+        INSTALLED_APPS = [
+            ..... all other apps .....
+        
+            'mmogo',
+            'mmogo.categories',
+        ]
+        ```
+        This is where you can also activate all the other apps that come with mmogo, the list is as follows
+        
+        ```python
+        INSTALLED_APPS = [
+            ..... all other apps .....
+        
+            'mmogo',
+            'mmogo.categories',
+            'mmogo.companies',
+            'mmogo.people',
+            'mmogo.blog',
+            'mmogo.leads',
+            'mmogo.social',
+            'mmogo.search',
+            'mmogo.products',
+            'mmogo.services',
+            'mmogo.website',
+        ]
+        
+        
+        ```
+        
+        ## Usage
+        
+        To get a basic website up and running
+        
+        
+        1. Add this line to your admin/url.py file
+        
+        ```python
+            url(r'', include('mmogo.routes.urls')),
+        ```
+        
+        
+        To use the ```BaseModel``` Abstract class for your models import the ```BaseModel``` as follows:
+        
+        ``` python 
+        from mmogo.core.models import BaseModel
+        
+        class Post(BaseModel):
+            pass
+        
+        ```
+        
+        If you want to add more fields on top of the ones on the BaseModel you can do so as follows:
+        
+        ``` python 
+         from django.db import models
+         from mmogo.core.models import BaseModel
+        
+        class Post(BaseModel):
+            teaser = models.TextField()
+        
+        ```
+        
+        ## Support
+        
+        ## Contributing
+        Tawanda Abraham Makunike
+        
+        Godwill Likius
+        Changelog
+        =========
+        
+        next
+        ----
+        #. Add Comments, Like and Follow system.
+        #. Add Django Rest Framwork to support API for Companies and People and Blog
+        
+        0.0.1
+        -----
+        #. First super alpha release.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
