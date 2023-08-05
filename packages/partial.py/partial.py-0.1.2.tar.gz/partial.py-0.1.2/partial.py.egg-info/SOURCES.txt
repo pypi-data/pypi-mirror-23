@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+partial.py.egg-info/PKG-INFO
+partial.py.egg-info/SOURCES.txt
+partial.py.egg-info/dependency_links.txt
+partial.py.egg-info/top_level.txt
+src/__init__.py
+src/partial.py
