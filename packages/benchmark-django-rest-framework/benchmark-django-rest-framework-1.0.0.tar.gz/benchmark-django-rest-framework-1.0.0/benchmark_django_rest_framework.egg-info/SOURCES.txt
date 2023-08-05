@@ -1,0 +1,10 @@
+setup.py
+benchmark_django_rest_framework/__init__.py
+benchmark_django_rest_framework/benchmark_api_view.py
+benchmark_django_rest_framework/benchmark_model.py
+benchmark_django_rest_framework/create_benchmark_settings.py
+benchmark_django_rest_framework.egg-info/PKG-INFO
+benchmark_django_rest_framework.egg-info/SOURCES.txt
+benchmark_django_rest_framework.egg-info/dependency_links.txt
+benchmark_django_rest_framework.egg-info/requires.txt
+benchmark_django_rest_framework.egg-info/top_level.txt
