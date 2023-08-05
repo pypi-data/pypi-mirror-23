@@ -1,0 +1,12 @@
+_libhfst.so,sha256=T3tbxnWTefHzUgSNAGRhOmXpE9yIizRYhnjcXoxv80k,20467656
+libhfst.py,sha256=s7Qb0UdeWv4yKRPOhPIbpJnYE2tDzawlYt9q1FK6sQ0,176429
+hfst/__init__.py,sha256=cqAShp78lkWU0lxw5QGYg5VOeGjVKgeebe0rgCGr9AI,41675
+hfst/exceptions/__init__.py,sha256=90NjIUHsxtDfxizZYkTD3OkSUS-6c03GtXAS8JvtR0I,1932
+hfst/sfst_rules/__init__.py,sha256=0h7hKL7Udh6E2ucy622Vnex2-l4qcAm7BOYjNaqpSBw,597
+hfst/xerox_rules/__init__.py,sha256=ILm-iaDha_lhvGYzucM97vaNVtfavW3iWOODp0hSSt8,991
+hfst-3.12.2.4b0.dist-info/DESCRIPTION.rst,sha256=EstG6AywWXCcrINAX4ANib8LRGJ5AX51tj_fpORLM_8,5617
+hfst-3.12.2.4b0.dist-info/METADATA,sha256=4wWsdN4IPCTWcrK2iXOf_dMhej04Fp5Soot0R0MmkJ4,5830
+hfst-3.12.2.4b0.dist-info/RECORD,,
+hfst-3.12.2.4b0.dist-info/WHEEL,sha256=4zIIZrFRKVLVTdCftX8v6heU-6QpJM_B0Rdg9AsBGfo,109
+hfst-3.12.2.4b0.dist-info/metadata.json,sha256=3LcjhkmStCtE1ailp1pqtlsWG6NP3ryVdz4oMDLX1mI,399
+hfst-3.12.2.4b0.dist-info/top_level.txt,sha256=f8QsUssq-JhZHsrMFW0JByn8CdLSDpc1jwvvSbHUaPY,22
