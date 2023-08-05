@@ -1,0 +1,8 @@
+setup.py
+pseudohex/__init__.py
+pseudohex/pseudohex.py
+pseudohex.egg-info/PKG-INFO
+pseudohex.egg-info/SOURCES.txt
+pseudohex.egg-info/dependency_links.txt
+pseudohex.egg-info/not-zip-safe
+pseudohex.egg-info/top_level.txt
