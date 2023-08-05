@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: quantapp
+Version: 0.1.4
+Summary: QuantApp Libraries for Systematic Investments and Data Science
+Home-page: https://www.quantapp.net
+Author: Arturo Rodriguez
+Author-email: arturo.rodriguez@quantapp.net
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
