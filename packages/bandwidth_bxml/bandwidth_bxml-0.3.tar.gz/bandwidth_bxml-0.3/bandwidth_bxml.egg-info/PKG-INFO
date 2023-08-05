@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bandwidth-bxml
+Version: 0.3
+Summary: Bandwidth BXML Generator in pure python
+Home-page: https://github.com/wavycloud/bandwidth_bxml
+Author: WavyCloud
+Author-email: gehad.shaath@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: bandwidth bxml
+Platform: UNKNOWN

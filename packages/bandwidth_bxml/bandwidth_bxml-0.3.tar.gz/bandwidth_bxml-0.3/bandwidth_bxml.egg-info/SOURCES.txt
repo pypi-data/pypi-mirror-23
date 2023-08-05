@@ -1,0 +1,7 @@
+setup.py
+bandwidth_bxml/__init__.py
+bandwidth_bxml.egg-info/PKG-INFO
+bandwidth_bxml.egg-info/SOURCES.txt
+bandwidth_bxml.egg-info/dependency_links.txt
+bandwidth_bxml.egg-info/top_level.txt
+bandwidth_bxml.egg-info/zip-safe
