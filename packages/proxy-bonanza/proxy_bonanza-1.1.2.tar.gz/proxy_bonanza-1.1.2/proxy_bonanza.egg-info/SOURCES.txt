@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+proxy_bonanza/__init__.py
+proxy_bonanza/client.py
+tests/__init__.py
+tests/test_proxy_client.py
+tests/__pycache__/__init__.cpython-36.pyc
+tests/__pycache__/test_proxy_client.cpython-36-PYTEST.pyc
