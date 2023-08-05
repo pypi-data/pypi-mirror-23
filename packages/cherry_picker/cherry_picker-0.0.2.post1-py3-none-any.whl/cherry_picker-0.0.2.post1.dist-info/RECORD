@@ -1,0 +1,11 @@
+cherry_picker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cherry_picker/__main__.py,sha256=INbt0-8zc6W4LrbqvtyXpJ45JKv_3NOpbP0LFYo8Kl0,93
+cherry_picker/cherry_picker.py,sha256=XqX33ptsrHlpLPGmlUlhmRQ_xqQorqacaLqT0IkSFGI,11546
+cherry_picker/test.py,sha256=38n7_FMKSm1lPg5BqiSVRYm7JsxCGCuI1Oeb1Hh9pcI,3684
+cherry_picker-0.0.2.post1.dist-info/DESCRIPTION.rst,sha256=wGCRNVO9geQqO8UhXKS5hcWe39FysgWpfNVHEh6OtmQ,6729
+cherry_picker-0.0.2.post1.dist-info/METADATA,sha256=cRNmUGtkDvpcQcJtsO100AajdTij0EuLuWct428xBt8,7482
+cherry_picker-0.0.2.post1.dist-info/RECORD,,
+cherry_picker-0.0.2.post1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cherry_picker-0.0.2.post1.dist-info/entry_points.txt,sha256=FvZB8V2wv9rd43xAqoCSxATFiD_37UUag3nyq66FCL4,79
+cherry_picker-0.0.2.post1.dist-info/metadata.json,sha256=JtCj9ABDkgB9KbN9uDF4oFgWwVX6CJLPViBbEivvycE,1062
+cherry_picker-0.0.2.post1.dist-info/top_level.txt,sha256=HAGwqjA_ByLqgKKHvb9T6Ye6NoEUNdXKh3oHFseBwvc,14
