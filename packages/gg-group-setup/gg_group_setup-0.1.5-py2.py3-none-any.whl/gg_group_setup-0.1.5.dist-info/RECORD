@@ -1,0 +1,12 @@
+gg_group_setup/__init__.py,sha256=L4NZxZMkmNt5RFNEinvonTT283ieNmr-X6eACNRTeqQ,685
+gg_group_setup/cfg.json,sha256=1he0uYzY15cp2HyauTxDiPtHTHVSN2DnqkT7lTus5hQ,1149
+gg_group_setup/cmd.py,sha256=ejU5nFPRagG7mmrylGCtKN8qdQU_LR9Q1mUvi7ZJRuQ,13274
+gg_group_setup/group.py,sha256=mKGQpdJdUwlkFIjB96oWbhp9-2qVJg0VkZBu9wyRiH0,12569
+gg_group_setup/mock_device.py,sha256=NGkSdD6UqLpzU9JU4qo_n2phZOH_raz7ktQJEhXkdzs,4029
+gg_group_setup-0.1.5.dist-info/DESCRIPTION.rst,sha256=Qb0cxPdF1Cf8z26tg1qrHNDdZqnK7LATmb_9_wdtkqk,249
+gg_group_setup-0.1.5.dist-info/METADATA,sha256=h4zLbZkbYgl0BlCj85uShvTWSqQuNMcEJMjBxRyPmsM,1129
+gg_group_setup-0.1.5.dist-info/RECORD,,
+gg_group_setup-0.1.5.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+gg_group_setup-0.1.5.dist-info/entry_points.txt,sha256=W7SeVQTZ4zf1ht56tktm0woQW82d2kWj_nMuZmaHaYY,74
+gg_group_setup-0.1.5.dist-info/metadata.json,sha256=wn23tsIuwlfoZfPedLzxi5kHtBaWmRKgG2mqZk1ZBGQ,1195
+gg_group_setup-0.1.5.dist-info/top_level.txt,sha256=vmMrYuDdZqp1S7l4OxUKugVlk9e02rIN71L2nMavjDc,27
