@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: apiaiwebhook
+Version: 0.1.0.dev1
+Summary: API.AI Webhook is a fulfillment microframework for API.AI based on Flask for getting started quickly with API.AI webhooks.
+Home-page: https://github.com/paoro-solutions/apiaiwebhook
+Author: Paoro
+Author-email: paoro.biz@outlook.com
+License: GPLv3
+Requires-Dist: Flask (>=0.12.1)
+
+# API.AI Webhook
+
+
