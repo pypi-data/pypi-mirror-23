@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: iml-common
+Version: 1.0.2
+Summary: Common library used by multiple IML component
+Home-page: https://pypi.python.org/pypi/iml-common
+Author: Intel(R) Corporation
+Author-email: tom.nabarro@intel.com
+License: MIT
+Description: A Python package that contains common components for the IML project
+        ====================================================================
+        
+        Different areas of the IML project utilise common code that is shared
+        distributed through this package.
+        
+        This packaging intends to improve code reuse and componentization
+        within the IML project.
+        
+        The main IML public repository is located at
+        https://github.com/intel-hpdd/intel-manager-for-lustre/
+        
+Keywords: IML lustre high-availability
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
