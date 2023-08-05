@@ -1,0 +1,12 @@
+helga_roll/__init__.py,sha256=_ylQTwGObmSEwbKu4LfMrVboVroe57KBZuVvN3X-cHU,71
+helga_roll/plugin.py,sha256=wswy8nNV6g64UMuFRxtXmXEBtHtWhLdszL2doEhHjqg,1373
+helga_roll-1.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+helga_roll-1.1.0.dist-info/METADATA,sha256=gsRmpbkOT1XCNeipTAkiAqn9rx5DyEssYLQb6gzHIAQ,738
+helga_roll-1.1.0.dist-info/RECORD,,
+helga_roll-1.1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+helga_roll-1.1.0.dist-info/entry_points.txt,sha256=TEqLLsPl_2pKEhW5N9yC2EcwO5qicZW2IJ4jNKYUvM4,47
+helga_roll-1.1.0.dist-info/metadata.json,sha256=3SQqIuY5GE2EQyx8sAQRLXuWBlXAKxeraL_VkotR1BI,1002
+helga_roll-1.1.0.dist-info/top_level.txt,sha256=i1gaoNCXievdXui6ZSVyqnF1aX1cILAND3LMCFpnR34,17
+helga_roll-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_roll.py,sha256=5cLMsVJOuB7kKk4rhDVC96_Q_-m2uVhVRHoRX4lY35E,617
