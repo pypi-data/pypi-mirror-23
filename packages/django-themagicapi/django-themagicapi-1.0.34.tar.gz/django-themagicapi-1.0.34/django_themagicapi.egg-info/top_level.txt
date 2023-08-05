@@ -1,0 +1,3 @@
+themagicapi
+themagicapi/controller
+themagicapi/migrations
