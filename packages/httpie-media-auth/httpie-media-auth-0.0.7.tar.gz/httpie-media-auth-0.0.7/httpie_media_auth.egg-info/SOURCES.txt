@@ -1,0 +1,12 @@
+README.rst
+bcesigner.py
+httpie_media_auth.py
+mediaauth.py
+setup.py
+httpie_media_auth.egg-info/PKG-INFO
+httpie_media_auth.egg-info/SOURCES.txt
+httpie_media_auth.egg-info/dependency_links.txt
+httpie_media_auth.egg-info/entry_points.txt
+httpie_media_auth.egg-info/not-zip-safe
+httpie_media_auth.egg-info/requires.txt
+httpie_media_auth.egg-info/top_level.txt
