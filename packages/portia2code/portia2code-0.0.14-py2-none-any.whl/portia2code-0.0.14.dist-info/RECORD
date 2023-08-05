@@ -1,0 +1,16 @@
+portia2code/__init__.py,sha256=OES2E8N7MyTbyBfehgSMA4ziToHam22q0JhGy_iML8c,23
+portia2code/parser.py,sha256=JlPTFsnwwnOBhSTcOM2lBPyhsvrpjK6XFCZFvDdZ8OE,5417
+portia2code/porter.py,sha256=KvoVsC_6sv6RI2zD6pIC9NU-AIwJL2gvPLmQMJrVuBk,10233
+portia2code/processors.py,sha256=2WF3y8SCJZEXTSX2wl9lzBrRn7G2UtIcTzsF_-ztGqc,7457
+portia2code/samples.py,sha256=aK3lvD4ebUNIa3uNcFIvnTAWyGlOD8-AnST5dmgCLy8,2586
+portia2code/spiders.py,sha256=zi9RAp4ST51rRyw0TExK_61CbDzTJJeqN-7JBrVniSw,2894
+portia2code/starturls.py,sha256=o0ExVSAUdZehhcAABv4SjnJDlP5e7hmkN9Q8ykDrKgs,285
+portia2code/templates.py,sha256=NSx40J325UvGZ_e1gVdbHLqjeXXLLWIux0LmViQ7ZJU,2196
+portia2code/utils.py,sha256=-jECBxck8ObMRi_gfDS3h6SnbiGldtrOvGw2SyLBRoo,10586
+portia2code-0.0.14.data/scripts/portia_porter,sha256=HuWGkry73o8xOqkdD9YY8mxIsjMp5OqCrMOSJPE_2OY,2060
+portia2code-0.0.14.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+portia2code-0.0.14.dist-info/METADATA,sha256=TeDtXqlCbMZWsS2bDdoJMPVlV_2buaRkoRvYfEOX8xo,864
+portia2code-0.0.14.dist-info/RECORD,,
+portia2code-0.0.14.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+portia2code-0.0.14.dist-info/metadata.json,sha256=s9kWnN8uXVNtpUTDy9GFNTEFdPKQXKnU5C6FLPiwPzI,983
+portia2code-0.0.14.dist-info/top_level.txt,sha256=kiCKwk7EGyoO1C9eP2hLgszeGfOHW2TVHrbXswG7KmY,12
