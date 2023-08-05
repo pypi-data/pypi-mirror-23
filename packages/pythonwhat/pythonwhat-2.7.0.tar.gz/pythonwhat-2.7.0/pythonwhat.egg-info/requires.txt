@@ -1,0 +1,6 @@
+dill
+IPython
+numpy
+pandas
+markdown2
+jinja2
