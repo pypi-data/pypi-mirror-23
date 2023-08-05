@@ -1,0 +1,8 @@
+README.txt
+fq2fa
+setup.py
+fq2fa.egg-info/PKG-INFO
+fq2fa.egg-info/PKG-INFO~
+fq2fa.egg-info/SOURCES.txt
+fq2fa.egg-info/dependency_links.txt
+fq2fa.egg-info/top_level.txt
