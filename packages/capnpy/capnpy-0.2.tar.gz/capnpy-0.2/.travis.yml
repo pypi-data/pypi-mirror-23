@@ -1,0 +1,67 @@
+sudo: false
+language: python
+
+matrix:
+  fast_finish: true
+  include:
+    - python: '2.7'
+      env: TOXENV=nopyx-test
+
+    - python: '2.7'
+      env: TOXENV=py27-test
+
+    - python: '2.7'
+      env: TOXENV=py27-bench
+
+    - python: 'pypy-5.4'
+      env: TOXENV=pypy-test
+
+    - python: 'pypy-5.4'
+      env: TOXENV=pypy-bench
+
+    - python: '2.7'
+      env: TOXENV=docs
+
+cache:
+  pip: true
+  directories:
+  - $HOME/capnp
+
+# ucspi-tcp is currently not allowed on travis, so for now we use the binary
+# we committed to the repo. That's why we add travis/bin to the PATH
+env:
+  global:
+    - CC=gcc-4.8
+    - CXX=g++-4.8
+    - export PATH="$PATH:$HOME/capnp/bin:$TRAVIS_BUILD_DIR/travis/bin"
+    - export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/capnp/lib"
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-4.8
+      - g++-4.8
+      - python-dev
+      #- ucspi-tcp # for tcpserver, see the comment above
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_571f1f821904_key -iv $encrypted_571f1f821904_iv -in ./travis/travis.rsa.enc -out ./travis/travis.rsa -d
+
+install:
+  - bash ./travis/install_capnp.sh
+  - pip install -U pip # so that we can use wheels
+  - pip install tox-travis
+
+script:
+  - bash ./travis/clone-benchmarks-repo.sh
+  - tox
+  - bash ./travis/commit-results.sh
+
+notifications:
+  webhooks:
+    urls:
+      - https://readthedocs.org/build/capnpy # trigger docs build
+    on_success: always
+    on_failure: never
