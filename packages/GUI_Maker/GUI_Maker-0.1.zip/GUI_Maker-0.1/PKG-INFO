@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: GUI_Maker
+Version: 0.1
+Summary: Streamlines wxPython to simplify your code and make it easier to create a GUI.
+Home-page: https://github.com/peterldowns/mypackage
+Author: Joshua Mayberry
+Author-email: dragonkade333@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/JoshMayberry/GUI_Maker/archive/v0.1-beta.1.tar.gz
+Description: UNKNOWN
+Keywords: GUI,wxPython,Interface
+Platform: UNKNOWN
