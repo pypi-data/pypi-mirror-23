@@ -1,0 +1,4 @@
+django_project
+lattice_sync
+tests
+zinc
