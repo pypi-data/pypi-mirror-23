@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: vdd
+Version: 0.1.1
+Summary: Tools to assist value-driven design & decisions
+Home-page: https://github.com/corriander/vdd
+Author: Alex Corrie
+Author-email: ajccode@gmail.com
+License: MIT
+Download-URL: https://github.com/corriander/vdd/archive/v0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: design engineering
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Manufacturing
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
