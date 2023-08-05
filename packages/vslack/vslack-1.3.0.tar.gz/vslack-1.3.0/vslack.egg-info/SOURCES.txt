@@ -1,0 +1,8 @@
+setup.py
+vslack/VERSION
+vslack/__init__.py
+vslack/core.py
+vslack.egg-info/PKG-INFO
+vslack.egg-info/SOURCES.txt
+vslack.egg-info/dependency_links.txt
+vslack.egg-info/top_level.txt
