@@ -1,0 +1,13 @@
+re
+ostqdm
+nltk
+petl
+numpy
+types
+pandas
+tweepy
+mailbox
+warnings
+itertools
+gitpython
+sphinx_rtd_theme
