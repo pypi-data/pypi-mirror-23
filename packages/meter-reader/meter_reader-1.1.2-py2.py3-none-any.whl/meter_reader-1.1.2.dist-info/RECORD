@@ -1,0 +1,11 @@
+meter_reader/__init__.py,sha256=Tj-nJ57d0HuFTAOJNEnZLh8B3CQ7FwHq_RUTv-e5hA8,88
+meter_reader/client.py,sha256=9OnOgECzrrxsOnvNdPDRgA16KaHeNZzinOPYP94RDqY,2492
+meter_reader/gateway.py,sha256=y3NRmxRR4bjIfpUtDjAkVRFRpjVkiPb53ERMR58oDcc,6106
+meter_reader/utc.py,sha256=9m2lNWwJHLyU3srI8YMwgYFVA0MdlzPp1X2kE5h9uic,394
+meter_reader-1.1.2.dist-info/DESCRIPTION.rst,sha256=C-eQXHNB3jDZnWXmTimgXesbNueIMky_Gl-Ke1XtcMM,5735
+meter_reader-1.1.2.dist-info/METADATA,sha256=4kLkTx5zgHHRiWGE0kn7bCwuGnkywn6EzdsQ-ve8ckE,6409
+meter_reader-1.1.2.dist-info/RECORD,,
+meter_reader-1.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+meter_reader-1.1.2.dist-info/entry_points.txt,sha256=uXgANVHBiv1k04xDTZY9h0nM7npYHEJkdM7zg-0pPu8,49
+meter_reader-1.1.2.dist-info/metadata.json,sha256=ucrw6Nr9WbdlH4KhChcb_35DUobluQ1Qkta0Sjxn2cs,969
+meter_reader-1.1.2.dist-info/top_level.txt,sha256=2UsiCXfaIsHByxzNPizAmhOtxMSBdXoWR-c8wk3iw1Y,13
