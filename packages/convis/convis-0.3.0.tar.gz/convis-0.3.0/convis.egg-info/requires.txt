@@ -1,0 +1,4 @@
+matplotlib
+Theano
+pygpu
+litus
