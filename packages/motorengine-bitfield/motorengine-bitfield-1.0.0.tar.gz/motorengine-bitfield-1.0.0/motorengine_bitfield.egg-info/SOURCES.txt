@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+bitfield.py
+setup.cfg
+setup.py
+test_bitfield.py
+motorengine_bitfield.egg-info/PKG-INFO
+motorengine_bitfield.egg-info/SOURCES.txt
+motorengine_bitfield.egg-info/dependency_links.txt
+motorengine_bitfield.egg-info/requires.txt
+motorengine_bitfield.egg-info/top_level.txt
