@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: Fathom-Workloads
+Version: 1.0rc0
+Summary: Reference workloads for modern deep learning
+Home-page: http://github.com/rdadolf/fathom
+Author: Saketh Rama
+Author-email: rama@seas.harvard.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: System :: Hardware
