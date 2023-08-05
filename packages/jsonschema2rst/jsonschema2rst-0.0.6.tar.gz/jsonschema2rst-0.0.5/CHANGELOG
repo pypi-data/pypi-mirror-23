@@ -1,0 +1,17 @@
+* 0.0.5 "Micha Moskovic <michamos@gmail.com>"
+    MINOR b96bcdbd: Merge pull request #5 from michamos/fix_filter_iterators
+    MINOR 9cbe849c: Improve Python 3 compatibility
+
+* 0.0.4 "Antonio <cesarano2607@gmail.com>"
+    MINOR 5892f0ea: Merge pull request #3 from michamos/fix-python3
+    MINOR 56ef335e: Handle Python 3 writing of bytes
+
+* 0.0.3 "Antonio <cesarano2607@gmail.com>"
+    MINOR bf9e05d3: Merge pull request #2 from ammirate/master
+    MINOR 5db5569a: Baseline implementation for jsonschema2rst.
+
+* 0.0.2 "David Caro <david@dcaro.es>"
+    MINOR 3da16349: build: added travis boilerplate
+
+* 0.0.1 "David Caro <david@dcaro.es>"
+    MINOR 1aeceeee: Inital commit
