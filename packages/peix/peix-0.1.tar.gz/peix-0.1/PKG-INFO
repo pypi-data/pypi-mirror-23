@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: peix
+Version: 0.1
+Summary: Python implementation of the eix database format
+Home-page: https://ercpe.de/projects/peix
+Author: Johann Schmitz
+Author-email: johann@j-schmitz.net
+License: GPL-3
+Download-URL: https://code.not-your-server.de/peix.git/tags/
+Description: UNKNOWN
+Platform: UNKNOWN

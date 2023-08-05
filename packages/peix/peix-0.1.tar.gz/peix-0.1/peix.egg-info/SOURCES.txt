@@ -1,0 +1,8 @@
+setup.py
+peix/__init__.py
+peix/format.py
+peix.egg-info/PKG-INFO
+peix.egg-info/SOURCES.txt
+peix.egg-info/dependency_links.txt
+peix.egg-info/not-zip-safe
+peix.egg-info/top_level.txt
