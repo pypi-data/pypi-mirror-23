@@ -1,0 +1,2 @@
+sympy
+uncertainties>=3.0.1
