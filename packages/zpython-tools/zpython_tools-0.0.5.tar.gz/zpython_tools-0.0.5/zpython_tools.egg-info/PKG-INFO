@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: zpython-tools
+Version: 0.0.5
+Summary: kafka tools with python
+Home-page: UNKNOWN
+Author: Tony Liu
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: ZPYTHON TOOLS PACKAGE
+        ======================
+        
+        This package is mainly used to build utils with python, the utils will be as many as needed, e.g, we have a util for
+        manging kafka broker meta.properties.
+        
+        
+Keywords: kafka tools built against our env.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
