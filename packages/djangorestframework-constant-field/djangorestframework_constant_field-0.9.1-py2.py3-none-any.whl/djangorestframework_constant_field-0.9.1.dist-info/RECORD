@@ -1,0 +1,10 @@
+djangorestframework_constant_field-0.9.1.dist-info/DESCRIPTION.rst,sha256=Ws5NJJFJHmpVdFTaDLVScu1wcBw_TnSU9ErAT8-qlJs,1566
+djangorestframework_constant_field-0.9.1.dist-info/METADATA,sha256=YfB6odibkNXw3Qjdm80nXT0LEE3xIswbGw32PXXSrX0,2302
+djangorestframework_constant_field-0.9.1.dist-info/RECORD,,
+djangorestframework_constant_field-0.9.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+djangorestframework_constant_field-0.9.1.dist-info/metadata.json,sha256=lx3SJLU-SDwmsmP0t96aa9ggvMQrAYXZ2yX-KrU_x1Y,936
+djangorestframework_constant_field-0.9.1.dist-info/top_level.txt,sha256=SZkx5p4e3Rz3NRo0rQ0TgilfJ2iB0uAWALXczmDm3Lo,30
+rest_framework_constant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_constant/fields.py,sha256=UZ14xcy4Mw7GGdN65ngnuUiLE0-OESE194c5bQqm48k,905
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_serializer.py,sha256=kgQMG5zYxYH-fWnWVpdEkqmtBu8dIdOo5ROeKKKttGY,863
