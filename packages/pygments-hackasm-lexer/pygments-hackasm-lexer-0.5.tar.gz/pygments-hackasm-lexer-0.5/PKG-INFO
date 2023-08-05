@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: pygments-hackasm-lexer
+Version: 0.5
+Summary: Pygments lexer for the Nand2Tetris Hack Assembler
+Home-page: https://github.com/cprieto/pygments_hack_asm
+Author: Cristian Prieto
+Author-email: me@cprieto.com
+License: MIT
+Description: Nand2Tetris Hack Assembler lexer
+        ================================
+        
+        .. image:: https://badge.fury.io/py/pygments-hackasm-lexer.svg
+            :target: https://badge.fury.io/py/pygments-hackasm-lexer
+        
+        `Pygments`_ lexer for `Nand2Tetris Hack Assembler`_ language.
+        
+        Part of the languages used/developed in the `Building a Modern Computer from First Principles`_ book.
+        
+        Usage
+        -----
+        
+        The name of the lexer is ``hack_asm`` so you can call it from ``pygmentize`` like this:
+        
+        ::
+        
+            pygmentize -l hack_asm -f html -O full test.asm
+        
+        The recognize extension is ``.asm`` but it is as well used by many other lexers (like, you know, other assemblers), so I recommend passing  directly the lexer name.
+        
+        Installation
+        ------------
+        
+        The lexer is available in PyPI, just install using ``pip``:
+        
+        ::
+        
+            pip install pygments-hackasm-lexer
+        
+        And start using it.
+        
+        .. _Pygments: http://pygments.org/
+        .. _Nand2Tetris Hack Assembler: http://www.nand2tetris.org/chapters/chapter%2004.pdf
+        .. _Building a Modern Computer from First Principles: http://www.nand2tetris.org/`
+        
+Keywords: syntax highlighting,pygments,lexer,hack,assembler,nand2tetris
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Plugins
