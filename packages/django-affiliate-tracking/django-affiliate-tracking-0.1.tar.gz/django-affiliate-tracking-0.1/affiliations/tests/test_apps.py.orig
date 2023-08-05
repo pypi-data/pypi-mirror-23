@@ -1,0 +1,11 @@
+from django.apps import AppConfig
+from django.test import TestCase
+
+from affiliations.apps import AffiliateTrackingConfig
+
+
+class TestAffiliateTrackingConfig(TestCase):
+
+    def test_name(self):
+        self.assertEqual(AffiliateTrackingConfig.name, 'affiliations')
+        self.assertTrue(issubclass(AffiliateTrackingConfig, AppConfig))
