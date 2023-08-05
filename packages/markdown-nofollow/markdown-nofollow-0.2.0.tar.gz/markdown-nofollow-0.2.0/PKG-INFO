@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: markdown-nofollow
+Version: 0.2.0
+Summary: Markdown Extension to add rel="nofollow" to all links.
+Home-page: https://github.com/merelinguist/markdown-nofollow
+Author: Dylan Brookes
+Author-email: merelinguist@users.noreply.github.com
+License: CC0
+Description: UNKNOWN
+Platform: UNKNOWN
