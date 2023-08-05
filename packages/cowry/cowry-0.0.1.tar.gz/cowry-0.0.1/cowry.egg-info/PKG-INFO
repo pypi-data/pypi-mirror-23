@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cowry
+Version: 0.0.1
+Summary: a secure distributed file transfer and share system
+Home-page: https://github.com/yxwzaxns/cowry
+Author: aong
+Author-email: yxwzaxns@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: File Transfer Protocol (FTP)

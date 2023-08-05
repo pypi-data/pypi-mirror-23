@@ -1,0 +1,5 @@
+
+    [console_scripts]
+    cowry_server = server.server:main
+    cowry_client = client.client:main
+    
