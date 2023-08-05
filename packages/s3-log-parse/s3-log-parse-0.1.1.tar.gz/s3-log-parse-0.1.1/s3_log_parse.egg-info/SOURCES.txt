@@ -1,0 +1,11 @@
+README.rst
+setup.py
+s3_log_parse.egg-info/PKG-INFO
+s3_log_parse.egg-info/SOURCES.txt
+s3_log_parse.egg-info/dependency_links.txt
+s3_log_parse.egg-info/entry_points.txt
+s3_log_parse.egg-info/requires.txt
+s3_log_parse.egg-info/top_level.txt
+s3logparse/__init__.py
+s3logparse/cli.py
+s3logparse/s3logparse.py

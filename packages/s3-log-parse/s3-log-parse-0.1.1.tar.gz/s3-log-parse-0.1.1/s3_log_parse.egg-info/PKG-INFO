@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: s3-log-parse
+Version: 0.1.1
+Summary: Tool for procesing AWS S3 access logs
+Home-page: https://github.com/cocoonlife/s3-log-parse
+Author: Rob Clarke
+Author-email: rob.clarke@cocoon.life
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
