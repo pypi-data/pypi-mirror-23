@@ -1,0 +1,16 @@
+numpy
+
+[doc]
+sphinx
+numpydoc
+jinjia2
+sphinx_rtd_theme
+
+[example]
+scikit-learn
+flask
+
+[test]
+pytest
+coverage
+python-coveralls
