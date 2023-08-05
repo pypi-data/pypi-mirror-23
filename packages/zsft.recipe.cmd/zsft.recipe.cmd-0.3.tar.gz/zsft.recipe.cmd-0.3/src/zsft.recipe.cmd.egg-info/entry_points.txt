@@ -1,0 +1,3 @@
+[zc.buildout]
+default = zsft.recipe.cmd.shell:ShellRecipe
+
