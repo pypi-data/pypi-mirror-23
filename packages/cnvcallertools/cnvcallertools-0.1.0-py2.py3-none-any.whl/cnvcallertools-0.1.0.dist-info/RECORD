@@ -1,0 +1,13 @@
+cnvcallertools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnvcallertools/main.py,sha256=3ElJu3o1G9tfUYgAsdpgkgsEhiZYsaIUlT0mjMnff90,1028
+cnvcallertools/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cnvcallertools/utilities/groupdescribe.py,sha256=89UwkzATdYzNQ9yLT_hJ6M3rnPn_WLuG_5uUSToalqU,832
+cnvcallertools/utilities/parse.py,sha256=ryImCyIbl_i2Qgxtfc_wBRrhyC3vUrmadGdfTESoMnQ,2066
+cnvcallertools-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cnvcallertools-0.1.0.dist-info/METADATA,sha256=q5yv0iLelknhUL-gyE5PwFXk85B31HI_R5nMXpA9eEA,399
+cnvcallertools-0.1.0.dist-info/RECORD,,
+cnvcallertools-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+cnvcallertools-0.1.0.dist-info/entry_points.txt,sha256=-qXwLE6llz4DHMg4Ay5nD3wiqZ_b2Glf6l5fXGiu9pc,52
+cnvcallertools-0.1.0.dist-info/metadata.json,sha256=ZX6Unl_YnsbDsb0EEoeTBxL6L0d2szJoj1ERxeF0fmU,742
+cnvcallertools-0.1.0.dist-info/top_level.txt,sha256=_beCnTB3ar1CQkLzSA29HcPK5m-uEMOiTsstYCTRlPw,15
+cnvcallertools-0.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
