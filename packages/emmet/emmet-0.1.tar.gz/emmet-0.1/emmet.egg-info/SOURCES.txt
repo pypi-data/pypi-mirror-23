@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+emmet/__init__.py
+emmet/submissions.py
+emmet.egg-info/PKG-INFO
+emmet.egg-info/SOURCES.txt
+emmet.egg-info/dependency_links.txt
+emmet.egg-info/not-zip-safe
+emmet.egg-info/requires.txt
+emmet.egg-info/top_level.txt
+emmet/vasp/__init__.py
+emmet/vasp/builders/__init__.py
+emmet/vasp/builders/task_tagger.py
