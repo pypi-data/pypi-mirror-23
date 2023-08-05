@@ -1,0 +1,10 @@
+ivona_speak/__init__.py,sha256=7lHd4v6P2-WdRPd45Vb-yC15OKyFGIlYzjOoIQc1Q4k,381
+ivona_speak/command_line.py,sha256=SIy3JBfa2sbpxMSoMSzbe3Y7G5WRNW8OP9DPm7BnnY0,3415
+ivona_speak/test/test_command_line.py,sha256=pIFCvkwoxTw_csV2uyShk1tiWoqZ-bc475XOUh9QAbg,2072
+ivona_speak-0.3.0.data/scripts/ivona-speak,sha256=Fw3vXtiI-2N-kllqZXD97JD-ZloSR02UptLT510N6wc,295
+ivona_speak-0.3.0.dist-info/DESCRIPTION.rst,sha256=JJUKi1NmuwKXvK1VA9Jd1_26viZDFH0qzWe2HxhxDL0,3969
+ivona_speak-0.3.0.dist-info/METADATA,sha256=xxCqRmjMEdQquUpMJ8Yy1QHlmjrUxzbbb-7kRYD3atM,5185
+ivona_speak-0.3.0.dist-info/RECORD,,
+ivona_speak-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ivona_speak-0.3.0.dist-info/metadata.json,sha256=L0URh8hmrpxec2jLBjeJz_TBjfAflXw0O5J5VmR8piE,1334
+ivona_speak-0.3.0.dist-info/top_level.txt,sha256=9fWF54f0kf_DRv2hHtrz_EgTG7rH4qT0yY8vD8S3g6M,12
