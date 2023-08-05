@@ -1,0 +1,10 @@
+libsoundtouch-0.6.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+libsoundtouch-0.6.0.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+libsoundtouch-0.6.0.dist-info/RECORD,,
+libsoundtouch-0.6.0.dist-info/top_level.txt,sha256=-1bIL9RMakTy2Vf_VKckdGypPJnymlcdOtIkdDIHxB8,14
+libsoundtouch-0.6.0.dist-info/METADATA,sha256=SdMpNeiFKcNF3vWnnGjdZHeynj4-oG9UOHkiHY1lg0o,909
+libsoundtouch-0.6.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+libsoundtouch-0.6.0.dist-info/metadata.json,sha256=GvL7WaWjPyV2XKNrmwDTx-Dd3SH9NeRePd78OdZzmVI,1068
+libsoundtouch/__init__.py,sha256=ic0ZD4j5j5GH4rWr4XkkmjwgQm7kXd7KbMVDjGyJAOk,1366
+libsoundtouch/device.py,sha256=LHom48p-YX85E7mzTYetrUbBoBAHn463PCCTt-BV4KI,31465
+libsoundtouch/utils.py,sha256=jtvmM-GTItaCl0L1u_rQ97xl8YESMlJpQL0ZJrddHGw,2573
