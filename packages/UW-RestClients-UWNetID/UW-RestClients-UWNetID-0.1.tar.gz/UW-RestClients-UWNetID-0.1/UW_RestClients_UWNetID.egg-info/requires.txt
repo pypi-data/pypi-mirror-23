@@ -1,0 +1,4 @@
+UW-RestClients-Core>=0.8.9,<1.0
+UW-Restclients-PWS>=0.5,<1.0
+python-dateutil
+pytimeparse

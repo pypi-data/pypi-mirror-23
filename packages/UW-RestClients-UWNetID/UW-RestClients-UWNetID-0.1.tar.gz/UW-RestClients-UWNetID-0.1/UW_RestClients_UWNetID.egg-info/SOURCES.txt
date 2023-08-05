@@ -1,0 +1,15 @@
+setup.py
+UW_RestClients_UWNetID.egg-info/PKG-INFO
+UW_RestClients_UWNetID.egg-info/SOURCES.txt
+UW_RestClients_UWNetID.egg-info/dependency_links.txt
+UW_RestClients_UWNetID.egg-info/requires.txt
+UW_RestClients_UWNetID.egg-info/top_level.txt
+uw_uwnetid/__init__.py
+uw_uwnetid/dao.py
+uw_uwnetid/models.py
+uw_uwnetid/password.py
+uw_uwnetid/subscription.py
+uw_uwnetid/subscription_233.py
+uw_uwnetid/subscription_60.py
+uw_uwnetid/test.py
+uw_uwnetid/util.py
