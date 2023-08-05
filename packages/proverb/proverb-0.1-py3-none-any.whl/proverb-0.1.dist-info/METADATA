@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: proverb
+Version: 0.1
+Summary: Statement to Live By
+Home-page: http://github.com/testerstories/proverb
+Author: Jeff Nyman
+Author-email: jeffnyman@gmail.com
+License: MIT
+Keywords: bible proverbs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: markdown
+
+Proverb
+-------
+
+Cultivate alike your outward exhibition and inward possession.
+
+To get that which it helps to live by:
+
+    >>> import proverb
+    >>> print(proverb.saying())
+
+

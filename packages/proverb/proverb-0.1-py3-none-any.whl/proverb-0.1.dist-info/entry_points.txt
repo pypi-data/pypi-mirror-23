@@ -1,0 +1,3 @@
+[console_scripts]
+proverb-saying = proverb.command_line:main
+
