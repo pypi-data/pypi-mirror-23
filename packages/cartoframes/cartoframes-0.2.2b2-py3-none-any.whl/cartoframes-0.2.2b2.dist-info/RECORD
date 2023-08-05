@@ -1,0 +1,17 @@
+.DS_Store,sha256=uvWkktOVpSBaIFlOOIBkqS4hstBzveuIYyFo19d1e40,6148
+cartoframes/__init__.py,sha256=l4LcZQ1j8EWgaWqTZG4ohTwz346N-0cYL5Spd7uQ--A,110
+cartoframes/context.py,sha256=LuMRS89xwFaSgrDQ9XSArLfc52gbuOz88EbIMAiq_j8,45341
+cartoframes/credentials.py,sha256=SjvGAoW7ifoXr2Kj6EVoJrq4oAfr76562Q9ly4L8bdo,6344
+cartoframes/layer.py,sha256=z7pifjjhZfIny4O3H4_BaCi8CCs6tPsp-4DL8fF0fzY,22332
+cartoframes/maps.py,sha256=fF4uxUvnSxxtSc4xU0mEHCWMHgz3wmxmYttYuOTW3tA,5546
+cartoframes/styling.py,sha256=AcZtffPbssRi9DC_hlyQmDgxuuTl-Jb1LpVdURnwSm8,6237
+cartoframes/updates.py,sha256=cEQJuQcPjqbAB_acf10KOCKk6ntoCAs_pnGDNuXNe24,1906
+cartoframes/utils.py,sha256=MQL9FXy2MfHf-uAnf-5OBiI4IBqeadv3SuJhpa8tKZo,851
+cartoframes/assets/cartoframes.html,sha256=UEZaqh9GOqiG7VN5FnF2iAD78Y4-UKVSOj5j_kZ9OZk,1988
+cartoframes/assets/data_obs_augment.sql,sha256=b_ev3WwAWkTSyPQphcVOZxXohB0_WzoXvLz9MhhR2hY,5353
+cartoframes-0.2.2b2.dist-info/DESCRIPTION.rst,sha256=N1Cza5K197qo4MpFbI3XdFhoGe1EouGHZiIPsAuuO2g,5882
+cartoframes-0.2.2b2.dist-info/METADATA,sha256=PhWpXeXeDMgFnxA1FhWGa30x8occ8gCEn0akvi9EbAc,7034
+cartoframes-0.2.2b2.dist-info/RECORD,,
+cartoframes-0.2.2b2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cartoframes-0.2.2b2.dist-info/metadata.json,sha256=1NTpi2MQJeN41blxX-vs-DJiqqpqCrclCx09bXCt0i0,1379
+cartoframes-0.2.2b2.dist-info/top_level.txt,sha256=uMTADt2iW5gGg4OmOR8J-gCX-1wx0tImxsgEfu9qCJY,12
