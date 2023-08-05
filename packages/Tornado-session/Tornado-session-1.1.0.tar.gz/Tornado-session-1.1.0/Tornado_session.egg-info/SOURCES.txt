@@ -1,0 +1,6 @@
+setup.py
+Tornado_session.egg-info/PKG-INFO
+Tornado_session.egg-info/SOURCES.txt
+Tornado_session.egg-info/dependency_links.txt
+Tornado_session.egg-info/top_level.txt
+tornadosession/__init__.py

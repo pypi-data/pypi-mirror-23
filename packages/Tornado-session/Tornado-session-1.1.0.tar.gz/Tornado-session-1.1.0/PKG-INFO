@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Tornado-session
+Version: 1.1.0
+Summary: Tornado-session is a Session manager with Redis for Tornado web framework.
+Home-page: http://github.com/Nightsuki/tornado-session
+Author: Nightsuki
+Author-email: i@ymr.me
+License: MIT License
+Description: UNKNOWN
+Keywords: Session,Redis,Tornado
+Platform: UNKNOWN
