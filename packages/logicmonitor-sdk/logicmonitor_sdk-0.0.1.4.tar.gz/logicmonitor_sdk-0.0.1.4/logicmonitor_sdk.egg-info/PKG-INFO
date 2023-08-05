@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: logicmonitor-sdk
+Version: 0.0.1.4
+Summary: logicmonitor_sdk
+Home-page: https://github.com/logicmonitor/lm-sdk-python
+Author: UNKNOWN
+Author-email: sdk@logicmonitor.com
+License: UNKNOWN
+Description:     LogicMonitor is a cloud-based, full stack, IT infrastructure monitoring solution that allows you to manage your infrastructure from the cloud. logicmonitor_sdk lets you manage your LogicMonitor account programmatically.
+            
+Keywords: Swagger,logicmonitor_sdk
+Platform: UNKNOWN
