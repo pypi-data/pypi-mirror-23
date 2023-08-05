@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+d43_aws_tools/__init__.py
+d43_aws_tools/dynamodb_handler.py
+d43_aws_tools/s3_handler.py
+d43_aws_tools/ses_handler.py
+d43_aws_tools.egg-info/PKG-INFO
+d43_aws_tools.egg-info/SOURCES.txt
+d43_aws_tools.egg-info/dependency_links.txt
+d43_aws_tools.egg-info/requires.txt
+d43_aws_tools.egg-info/top_level.txt
