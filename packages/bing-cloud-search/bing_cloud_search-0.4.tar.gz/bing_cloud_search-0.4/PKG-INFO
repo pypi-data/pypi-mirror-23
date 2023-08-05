@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: bing_cloud_search
+Version: 0.4
+Summary: A method of turning search terms into wordclouds.
+Home-page: https://github.com/tim-shane/cloudy_search
+Author: Tim Edwards
+Author-email: timedwards8@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: wordcloud search Bing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
