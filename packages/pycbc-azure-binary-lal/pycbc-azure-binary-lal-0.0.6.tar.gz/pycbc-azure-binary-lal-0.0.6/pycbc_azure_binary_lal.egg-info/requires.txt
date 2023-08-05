@@ -1,0 +1,2 @@
+pycbc
+numpy==1.13.0
