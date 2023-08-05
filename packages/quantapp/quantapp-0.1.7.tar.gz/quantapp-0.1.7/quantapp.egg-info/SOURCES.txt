@@ -1,0 +1,15 @@
+MANIFEST.in
+quantapp
+setup.py
+lib/AQI.AQILabs.Derivatives.dll
+lib/AQI.AQILabs.Kernel.Adapters.dll
+lib/AQI.AQILabs.Kernel.dll
+lib/AQI.AQILabs.SDK.Strategies.dll
+lib/Accord.Math.Core.dll
+lib/Accord.Math.dll
+lib/Accord.dll
+lib/QuantApp.Core.dll
+quantapp.egg-info/PKG-INFO
+quantapp.egg-info/SOURCES.txt
+quantapp.egg-info/dependency_links.txt
+quantapp.egg-info/top_level.txt
