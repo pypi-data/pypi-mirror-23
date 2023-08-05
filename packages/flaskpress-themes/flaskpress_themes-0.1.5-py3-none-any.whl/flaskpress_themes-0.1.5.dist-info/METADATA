@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: flaskpress-themes
+Version: 0.1.5
+Summary: Provides infrastructure for theming FlaskPress applications
+Home-page: https://github.com/infrascloudy/flaskpress-themes
+Author: InfrasCloudy, @allanice001
+Author-email: support@linaccess.za.net
+License: MIT
+Keywords: flask themes theming style
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask (>=0.6)
+Requires-Dist: simplejson
+
+FlaskPress-Themes
+=================
+
+It is a fork of Flask-themes2 adapted to work with FlaskPress.
+
+This provides infrastructure for themes in Flask.
+
+
