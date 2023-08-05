@@ -1,0 +1,10 @@
+metadater/__init__.py,sha256=5QOTvdj4k0otJTnh4feIhvWJqAhxko80XYXibBGfoHw,6877
+metadater/exe.py,sha256=AJ7uKh5Ar2sR-C0hni1etaRpC3MuMN4_-swl0G9-PGI,665
+metadater/git.py,sha256=r4t6HlfhFzQy5BBzQQdPEDHdOwE01B4sslguqgX0dB4,2252
+metadater-1.0.0.dist-info/DESCRIPTION.rst,sha256=fB1g1_LnWpLBanwykkScQsfLWZt8Kkm3p6JwjFy-8F8,12
+metadater-1.0.0.dist-info/METADATA,sha256=fDsRS8bkcgaC6WI3Wjzd1_kOC4Hbg9UGUK7a0scd4Ro,407
+metadater-1.0.0.dist-info/RECORD,,
+metadater-1.0.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+metadater-1.0.0.dist-info/entry_points.txt,sha256=fZ-pTBxsosR7VlCv23yC1Jhv2WtXmDZQ9oFsbbdjGk0,46
+metadater-1.0.0.dist-info/metadata.json,sha256=G48ylsXjBjm0Ry2JlH2izmrZnQ9MxbjT0enmSDRZbA0,765
+metadater-1.0.0.dist-info/top_level.txt,sha256=3PGH1ODBwgP26PfyFFvJTx8bJAcM3i-hFQLmJKS025o,10
