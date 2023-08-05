@@ -1,0 +1,15 @@
+multidict-3.0.0.dist-info/WHEEL,sha256=nd6vkSWs8DEKiyCL0EDgvNKKSV5WLkJz4DczUuxkLLk,109
+multidict-3.0.0.dist-info/DESCRIPTION.rst,sha256=qe7MMINdyYnrHMlzZ4ZnUu40f562qC9T3pqPGe0o0Rw,3714
+multidict-3.0.0.dist-info/METADATA,sha256=sDyoWBZC3mrB5iXYtVyf0dQGOm2ZBRv93c_JWOk5JeQ,4304
+multidict-3.0.0.dist-info/RECORD,,
+multidict-3.0.0.dist-info/top_level.txt,sha256=-euDElkk5_qkmfIJ7WiqCab02ZlSFZWynejKg59qZQQ,10
+multidict-3.0.0.dist-info/metadata.json,sha256=G90XRYaACHd-bEW_qS1KpFbXifOqHXs08iuSI1BR4IQ,775
+multidict/_multidict_py.py,sha256=HnajAh0UMSdF4gQgLe0ODY1CLZXrsMRcZJqd0WZ2Yww,12181
+multidict/__init__.py,sha256=cB1ci-dvP9jCAH1lSaOfOPuvQnom2FXWsBjeku58iaU,1162
+multidict/_multidict.cpython-36m-x86_64-linux-gnu.so,sha256=YY4Obi0LbPFHHqwGdVeqfzxZ2wBWmkT53hm9Ks68-IE,945633
+multidict/_multidict.c,sha256=gJpyjyC0hjxkkmoHNbO21JTUDGRqR0qd6Ty2DuWLdgI,739075
+multidict/_istr.cpython-36m-x86_64-linux-gnu.so,sha256=8VmSxJRw0vebwGvx_HvXYyfiyA6LUbY4kiG-_zAiO8w,30379
+multidict/_istr.c,sha256=vkvyZtkYXoPoEjuOwHKTROjOF_7sCXNiQVejMWrL-g8,6727
+multidict/_multidict.pyx,sha256=Y4OsDnATfLenMAye7Ca6ACO8281W0ckj1b4e9eOWPuY,22768
+multidict/_istr.cpython-35m-x86_64-linux-gnu.so,sha256=6CJ02mOp9bFUaehAGH8_0lSDQg0b8bnGTDN8x0Yy9xU,30970
+multidict/__init__.pyi,sha256=MlS_1KKMUTlH4pGIzRKuXLEkrXe9Vbr6n296qyq3aho,2742
