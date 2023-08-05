@@ -1,0 +1,15 @@
+connect/__init__.py,sha256=EGXQsfZsb-2aU8i86ysNX8xjaOMneCIIatFU7D1aXXw,745
+connect/artist.py,sha256=0XfHMN4RBdvDjWBoaB8DgySWBpeXIWsv3vMIOyiWBoc,3415
+connect/client.py,sha256=9t0AATkiv1L5AtxegesBF8F2t93DXvnwo-MxowyOE10,7660
+connect/errors.py,sha256=LjXsBM9TR-UFE0c-iGnR2fs1JVcj0GuU_Z3O-wMFEmw,2545
+connect/http.py,sha256=3uN7vmFCAALhqBJBdWp4xhS-tH-UvELEa007a9xOzXE,7706
+connect/playlist.py,sha256=H3oTMUSniiABFWqZtyktf0TKxGr_TopBoUGLJ9FpWvg,4556
+connect/release.py,sha256=vP2dOOo6d8BnJ2bTw7Wg2jYKbjAIkwupC7BiZ4TJ0lg,4649
+connect/track.py,sha256=t6znmw1mspzDgLu4r6wlF8SBPaYsA8AJvY3NVmiBHUY,3289
+connect/utils.py,sha256=BSPbzL2RHmYUkHlUcvrEvwJBeZlnt2lFBvF0sMj4hqA,2637
+connect.py-0.3.1.dist-info/DESCRIPTION.rst,sha256=y9_5VNpqUpPJSWlomrpFENAwYlAuNbw5BFWMkI7tahc,1511
+connect.py-0.3.1.dist-info/METADATA,sha256=tLhcWt5BljSC10d4Eqk99tMT14qe3lVHF2wmL7IfsUM,2329
+connect.py-0.3.1.dist-info/RECORD,,
+connect.py-0.3.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+connect.py-0.3.1.dist-info/metadata.json,sha256=xHV1zqdhP183pBA1-Uv_IbS2yjqSURfLqyuU252tf5Y,1001
+connect.py-0.3.1.dist-info/top_level.txt,sha256=jdHQZCexp8gDBvhVgbNotMao00FkQFY9AONopq424-0,8
