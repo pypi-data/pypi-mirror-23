@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+peewee_rest_query/__init__.py
+peewee_rest_query.egg-info/PKG-INFO
+peewee_rest_query.egg-info/SOURCES.txt
+peewee_rest_query.egg-info/dependency_links.txt
+peewee_rest_query.egg-info/requires.txt
+peewee_rest_query.egg-info/top_level.txt
