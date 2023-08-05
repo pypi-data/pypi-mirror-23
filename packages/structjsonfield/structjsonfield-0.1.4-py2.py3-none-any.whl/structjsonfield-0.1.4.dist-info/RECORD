@@ -1,0 +1,14 @@
+structjsonfield/__init__.py,sha256=ZIH3EkuXF8lzXfsaAB_eksv6v8esEqWLh8vRiv1TG_8,66
+structjsonfield/apps.py,sha256=5Qoz5e8gxuglSnPMXA3sJfQgZ6aII4ypmGb6UtlonGY,125
+structjsonfield/forms.py,sha256=fKkaLWxR10TTAvEY00EYCsblNkMrMS5CrBs78UjZM70,3007
+structjsonfield/widgets.py,sha256=GcKxj__LtoQZEyY-P8xPoODJJpRitEFlOMXmSh01n0w,3315
+structjsonfield/static/css/structjsonfield.css,sha256=V8ZcYFk_fn56gx_A5rwPhWBLL7RtQsNI4J_09efBoPU,278
+structjsonfield/static/js/structjsonfield.js,sha256=FG8-QxSCE_gyPeTWJ9SJh0VnyxPt5D85-JJMKVCkGms,4035
+structjsonfield/templates/structjsonfield/line_template.html,sha256=SpSy5B02b6N6ZnuFpmmoQZzTHG_xL9cOzadUeoi-1wc,321
+structjsonfield/templates/structjsonfield/widget.html,sha256=rBoZq1c-UIWi5lWckqGDhX-YUp3IOVrRlQyiyVSIglk,1169
+structjsonfield-0.1.4.dist-info/DESCRIPTION.rst,sha256=taKwQuBFXQQsJuUK5V8LE9ATtpx93qgtQzDUaK8IJm0,2064
+structjsonfield-0.1.4.dist-info/METADATA,sha256=rBzZKiEuWoUodL1TYBzpPxKIsGTxmNPEq3OushQwkKY,2885
+structjsonfield-0.1.4.dist-info/RECORD,,
+structjsonfield-0.1.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+structjsonfield-0.1.4.dist-info/metadata.json,sha256=KECqnaO7T3SkEVUevpM02M8M7B6E2YaJ7sNN6NvFgPE,923
+structjsonfield-0.1.4.dist-info/top_level.txt,sha256=nwTJklKHNUVJOVi3eRBImA7X5md7CDWxvfT_bqqwCvI,16
