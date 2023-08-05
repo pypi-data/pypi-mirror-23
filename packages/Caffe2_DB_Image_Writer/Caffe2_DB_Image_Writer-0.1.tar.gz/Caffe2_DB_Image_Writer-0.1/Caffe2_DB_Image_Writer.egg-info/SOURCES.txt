@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+Caffe2_DB_Image_Writer.egg-info/PKG-INFO
+Caffe2_DB_Image_Writer.egg-info/SOURCES.txt
+Caffe2_DB_Image_Writer.egg-info/dependency_links.txt
+Caffe2_DB_Image_Writer.egg-info/top_level.txt

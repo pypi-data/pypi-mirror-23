@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: Caffe2-DB-Image-Writer
+Version: 0.1
+Summary: caffe2 image writer
+Home-page: https://github.com/Knight-X/Caffe2_IMG
+Author: kazami
+Author-email: kazamizero@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Knight-X/Caffe2_IMG/v1.0
+Description: UNKNOWN
+Keywords: for easy create dataset
+Platform: UNKNOWN
