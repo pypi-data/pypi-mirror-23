@@ -1,0 +1,10 @@
+0.0.2
+-----
+
+* Tweaked Python package MANIFEST
+
+0.0.1
+-----
+
+* Initial release
+
