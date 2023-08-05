@@ -1,0 +1,63 @@
+Metadata-Version: 2.0
+Name: map-object
+Version: 1.1.1
+Summary: A method for mapping dict objects as if it were an array
+Home-page: https://github.com/chrisinajar/py-map-obj
+Author: Chris Vickery
+Author-email: chrisinajar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: six (>=1.10)
+
+Map Object
+==========
+
+A python implementation of the map-obj function
+
+Installation
+------------
+
+``pip install map_object``
+
+Usage
+-----
+
+.. code:: python
+
+    from map_object import mapObject
+
+    def mapper (key, value, source):
+      return [value, ley]
+
+    newObject = mapObject({'foo'='bar'}, mapper);
+    # => {bar: 'foo'}
+
+API
+---
+
+mapObject(source, mapper)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+source
+^^^^^^
+
+Type: ``Object``
+
+Source object to copy properties from.
+
+mapper
+^^^^^^
+
+Type: ``Function``
+
+Mapping function.
+
+-  It has signature ``mapper(sourceKey, sourceValue, source)``
+-  It must return a two item array: ``[targetKey, targetValue]``.
+
+License
+=======
+
+MIT
+
+
