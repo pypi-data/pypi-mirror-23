@@ -1,0 +1,72 @@
+<html><head>
+		<style>
+		  body {
+		    max-width: 100%;
+		  }
+		  .faultrow > td {
+		     background-color: LightCoral;
+		  }
+		  #resulttable {
+		    border-collapse: collapse;
+		    width: 100%;
+		    table-layout: fixed;
+		  }
+		  #resulttable th, #resulttable td {
+		    border: 1px solid grey;
+		  }
+		  .testletheader > td {
+		    background-color: LightSkyBlue;
+		  }
+		  .header-pos {
+		    width: 20%;
+		  }
+		  .header-val {
+		    width: 30%;
+		  }
+		  .py-pos,.trans-pos {
+		    width: 20%;
+		    overflow: hidden;
+		  }
+		  .py-val, .trans-val {
+		    width: 30%;
+		    overflow-x: auto;
+		  }
+		  .exc-header {
+	      color: red;
+		  }
+		  .collapsed {
+		    display: None;
+		  }
+		</style>
+		</head><body><b>Status:</b>
+<div id="message"></div><br><br>
+
+<div id="python" style="display: None"><div id="division">
+<div id="pyresults">42 | '0.0238095238095' | 42 | 0 | 21 | '0.0476190476190' | 21 | 0 | 14 | '0.0714285714285' | 14 | 0 | '10.5' | '0.0952380952380' | 10 | 0 | '8.4' | '0.1190476190476' | 8 | 0 | 7 | '0.1428571428571' | 7 | 0 | 6 | '0.1666666666666' | 6 | 0 | '5.25' | '0.1904761904761' | 5 | 0 | '4.6666666666666' | '0.2142857142857' | 4 | 0</div>
+
+<div id="pypos">.\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16 | .\division.py:16</div>
+</div>
+<div id="generators">
+<div id="pyresults">0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9</div>
+
+<div id="pypos">.\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5 | .\generators.py:5</div>
+</div>
+<div id="nested_scope">
+<div id="pyresults">42</div>
+
+<div id="pypos">.\nested_scopes.py:9</div>
+</div>
+<div id="print_function">
+<div id="pyresults">'from __future__ import print_function works'</div>
+
+<div id="pypos">.\print_function.py:4</div>
+</div>
+<div id="unicode_literals">
+<div id="pyresults">'Hello, world!' | 'Hello, world!'</div>
+
+<div id="pypos">.\unicode_literals.py:4 | .\unicode_literals.py:5</div>
+</div>
+</div></div>
+<div id="exc-area"></div><div id="results"><div> <a id="force-collapse" href="#"> Collapse All</a> <a id="force-expand" href="#">Expand All</a></div><table id="resulttable"><thead><tr> <th colspan="2"> CPython </th> <th colspan="2"> Transcrypt </th> </tr><tr> <th class="header-pos"> Location </th> <th class="header-val"> Value </th> <th class="header-val"> Value </th> <th class="header-pos"> Location </th> </tr></thead><tbody></tbody></table></div><script src="__javascript__/autotest.js"></script>
+
+</body></html>
