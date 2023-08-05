@@ -1,0 +1,3 @@
+[console_scripts]
+faraday-proxy = faraday.proxy:main
+
