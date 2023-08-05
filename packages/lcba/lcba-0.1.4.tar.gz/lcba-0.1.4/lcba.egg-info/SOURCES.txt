@@ -1,0 +1,14 @@
+setup.py
+lcba/AndResGuard-cli-1.2.0.jar
+lcba/AndResGuard_config.xml
+lcba/__init__.py
+lcba/android_clean_app.py
+lcba/hashmap.py
+lcba/lcbaConfig.py
+lcba/lcbaGolbal.py
+lcba/xxx.html
+lcba.egg-info/PKG-INFO
+lcba.egg-info/SOURCES.txt
+lcba.egg-info/dependency_links.txt
+lcba.egg-info/requires.txt
+lcba.egg-info/top_level.txt
