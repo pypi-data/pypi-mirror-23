@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+apiaiwebhook/__init__.py
+apiaiwebhook/apiai_webhook.py
+apiaiwebhook/apiai_webhook_test.py
+apiaiwebhook.egg-info/PKG-INFO
+apiaiwebhook.egg-info/SOURCES.txt
+apiaiwebhook.egg-info/dependency_links.txt
+apiaiwebhook.egg-info/requires.txt
+apiaiwebhook.egg-info/top_level.txt
