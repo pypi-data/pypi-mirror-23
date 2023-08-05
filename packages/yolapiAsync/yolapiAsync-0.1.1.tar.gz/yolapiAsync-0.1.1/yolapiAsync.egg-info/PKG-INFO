@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: yolapiAsync
+Version: 0.1.1
+Summary: A basic async wrapper around the Rainbird API
+Home-page: http://rainbird.ai
+Author: craigbot
+Author-email: craig.cochran@rainbird.ai
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
