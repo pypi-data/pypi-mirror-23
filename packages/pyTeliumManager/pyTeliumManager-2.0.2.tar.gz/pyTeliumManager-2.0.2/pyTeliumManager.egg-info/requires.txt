@@ -1,0 +1,2 @@
+pyserial
+pycountry>=17.0
