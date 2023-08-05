@@ -1,0 +1,5 @@
+setup.py
+Emalier_Sendgrid.egg-info/PKG-INFO
+Emalier_Sendgrid.egg-info/SOURCES.txt
+Emalier_Sendgrid.egg-info/dependency_links.txt
+Emalier_Sendgrid.egg-info/top_level.txt
