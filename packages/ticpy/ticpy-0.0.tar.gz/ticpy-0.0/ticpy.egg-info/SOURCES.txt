@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+ticpy/__init__.py
+ticpy/board.py
+ticpy/cell.py
+ticpy/constants.py
+ticpy/game.py
+ticpy.egg-info/PKG-INFO
+ticpy.egg-info/SOURCES.txt
+ticpy.egg-info/dependency_links.txt
+ticpy.egg-info/entry_points.txt
+ticpy.egg-info/not-zip-safe
+ticpy.egg-info/requires.txt
+ticpy.egg-info/top_level.txt
