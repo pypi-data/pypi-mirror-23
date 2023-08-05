@@ -1,0 +1,32 @@
+mlarsen	Mikkel Oscar Lyderik Larsen	mikkel.larsen@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+ghildebrand	Georg Hildebrand	georg.hildebrand@zalando.de	Data Engineer	Platform Engineering / Cloud Provider
+ytussupbekov	Yerken Tussupbekov	yerken.tussupbekov@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+mkerk	Matthias Kerk	matthias@zalando.de	Architect	Platform Engineering / Cloud Provider
+astarnell	Alexander Starnell	alexander.starnell@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+sszuecs	Sandor Szuecs	sandor.szuecs@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+rdifazio	Raffaele Di Fazio	raffaele.di.fazio@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+mlinkhorst	Martin Linkhorst	martin.linkhorst@zalando.de	Software Engineer	Platform Engineering / Cloud Provider
+nvemuri	Naga Nikhil Anurag Vemuri	naga.vemuri@zalando.de	Software Engineer	Platform Engineering / Git & Deploy
+jsantos	Joao Santos	joao.santos@zalando.de	Software Engineer	Platform Engineering / Git & Deploy
+ddolgov	Dmitrii Dolgov	dmitrii.dolgov@zalando.de	Software Engineer	Platform Engineering / Git & Deploy
+dmbalakhonsk	Dmitrii Balakhonskii	dmitrii.balakhonskii@zalando.de	Software Engineer	Platform Engineering / Continuous Delivery
+jylipoti	Juho Eino Oskari Ylipoti	juho.ylipoti@zalando.de	Software Engineer	Platform Engineering / Continuous Delivery
+maryefyev	Maksym Aryefyev	maksym.aryefyev@zalando.de	Software Engineer	Platform Engineering / Continuous Delivery
+jbellmann	Joerg Bellmann	joerg.bellmann@zalando.de	Architect	Platform Engineering / Continuous Delivery
+pkhawam	Paul Imad Khawam	paul.khawam@zalando.de	Practice Lead	Core Engineering / Platform Engineering
+lschulz	Lothar Schulz	lothar.schulz@zalando.de	Delivery Lead Engineering	Platform Engineering / MSSQL Database Administration
+lottermann	Lars Ottermann	lars.ottermann@zalando.de	Engineer	Platform Engineering / Artifact & SCM Management
+rmalek	Rasha Malek	rasha.malek@zalando.de	Software Engineer	Platform Engineering / Artifact & SCM Management
+pgronkiewicz	Pawel Gronkiewicz	pawel.gronkiewicz@zalando.de	Software Engineer	Platform Engineering / Artifact & SCM Management
+msaleem	Muhammad Muaaz Saleem	muhammad.muaaz.saleem@zalando.de	Software Engineer	Platform Engineering / Artifact & SCM Management
+neremic	Norman Eremic	norman.eremic@zalando.de	Software Engineer	Platform Engineering / Visualization & Interaction
+mkonar	Muhammed Emre Konar	muhammed.emre.konar@zalando.de	Software Engineer	Platform Engineering / Visualization & Interaction
+unkwocha	Udoka Kenneth Nkwocha	udoka.kenneth.nkwocha@zalando.de	Software Engineer	Platform Engineering / Visualization & Interaction
+kwilcke	Kolja Wilcke	kolja.wilcke@zalando.de	Software Engineer	Platform Engineering / Visualization & Interaction
+mawenzel	Markus Wenzel	markus@zalando.de	Producer	Platform Engineering / Visualization & Interaction
+nchinnakavet	Nagarajan Chinnakaveti Thulasiraman	nagarajan.chinnakaveti.thulasiraman@zalando.de	Delivery Lead Engineering	BA Engineering Productivity / EP-Release
+dmolinabocan	Diego Fernando Molina Bocanegra	diego.fernando.molina.bocanegra@zalando.de	Software Engineer	BA Engineering Productivity / EP-Release
+butomo	Budi Utomo	budi.utomo@zalando.de	Software Engineer	BA Engineering Productivity / EP-Release
+tkudryavtsev	Tatiana Kudryavtseva	tatiana.kudryavtseva@zalando.de	Software Engineer	BA Engineering Productivity / EP-Release
+lgallucci	Leo Gallucci	leo.gallucci@zalando.de	Software Engineer	BA Engineering Productivity / EP-Development
+scherniavsky	Serhii Cherniavskyi	serhii.cherniavskyi@zalando.de	Software Engineer	BA Engineering Productivity / EP-Development
