@@ -1,0 +1,12 @@
+jodel_api/__init__.py,sha256=ayfPEuCQ71p8vfNvdQwlbEIpv5qWhyFcQCa3rMxpBZY,233
+jodel_api/gcmhack.py,sha256=O7Z1Dk0iFSD7G2txldZu5J1koBDUaYSPyjfNmndnyUs,5286
+jodel_api/jodel_api.py,sha256=OXez34VuhKTKgKaeDqDUEEn98I92YHM6LTJy0zELDy0,15761
+jodel_api/protos/__init__.py,sha256=EqD46FuhlfLc061G9anfZVkieT3a17bsz3fw-NMkmQs,78
+jodel_api/protos/checkin_pb2.py,sha256=5VASH2kFei81BeoViNJi6eRO5ZRJ6pXZV2m0kDUuBKQ,44429
+jodel_api/protos/mcs_pb2.py,sha256=wNUFyjwVX-PSuHbFE74lT98FWOl8tn4bWvCE1tSUNTY,52076
+jodel_api-1.2.1.dist-info/top_level.txt,sha256=8bA5sEdCjtUkuvOstKQMaC1cGpWt3hoT-DV8Dln6Fkc,10
+jodel_api-1.2.1.dist-info/METADATA,sha256=jcLhwngi7b9uyPYPAguScAA6Ch2PoQG8r1pB_D91eu8,12212
+jodel_api-1.2.1.dist-info/DESCRIPTION.rst,sha256=Ol7z_dpp_68AGR7oamzFa9OpO9B_f6xIgKol9eBSelo,11193
+jodel_api-1.2.1.dist-info/metadata.json,sha256=bwFCQTM2XvriVm-QOpEFNpFJrLmAT-vbh1TirkF1EsA,1163
+jodel_api-1.2.1.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+jodel_api-1.2.1.dist-info/RECORD,,
