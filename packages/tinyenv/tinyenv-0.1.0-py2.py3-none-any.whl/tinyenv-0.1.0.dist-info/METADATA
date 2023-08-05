@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: tinyenv
+Version: 0.1.0
+Summary: TinyMind runtime environment helpers
+Home-page: https://github.com/mind/tinyenv
+Author: TinyMind
+Author-email: hello@tinymind.ai
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: clint (==0.5.1)
+Requires-Dist: requests (==2.14.2)
+
+UNKNOWN
+
+
