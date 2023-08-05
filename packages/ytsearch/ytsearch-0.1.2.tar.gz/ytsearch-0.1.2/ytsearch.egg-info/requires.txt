@@ -1,0 +1,6 @@
+clipboard
+pafy
+pyyaml
+requests
+urwid
+youtube-dl
