@@ -1,0 +1,9 @@
+OctoPrint_Twilio-0.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+OctoPrint_Twilio-0.2.0.dist-info/METADATA,sha256=IGR81wKpB7YESDZ4VMgJTvhSmC6qYUqkF1p81XkrzO0,373
+OctoPrint_Twilio-0.2.0.dist-info/RECORD,,
+OctoPrint_Twilio-0.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+OctoPrint_Twilio-0.2.0.dist-info/entry_points.txt,sha256=WBgyO46DSyr0P5Fq0EngVNj3i8lLBjXGBhdfGOpnVJ8,56
+OctoPrint_Twilio-0.2.0.dist-info/metadata.json,sha256=Wh4R2pVhs7APy3QE1pFmF4JnWrSIQ56cUXQOPMr-370,643
+OctoPrint_Twilio-0.2.0.dist-info/top_level.txt,sha256=upkGGlN8LWmkVXtxu3VrJjPd3COCFp0iLFYFeDJq7Zg,22
+octoprint_smsnotifier/__init__.py,sha256=EqzvY9lC6pcx0vAWIHXfPAMkh_D8ms_YG63C_ynLGVg,3612
+octoprint_smsnotifier/templates/smsnotifier_settings.jinja2,sha256=p00x7FRDJWswhx0Icf8wBaTD2ZixzolsDWUMXQEn_bs,2640
