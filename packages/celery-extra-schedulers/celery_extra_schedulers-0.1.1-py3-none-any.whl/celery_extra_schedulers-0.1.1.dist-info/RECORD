@@ -1,0 +1,8 @@
+celery_extra_schedulers-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+celery_extra_schedulers-0.1.1.dist-info/METADATA,sha256=w0m8rrjnjiS6pDu06vI1EUTdeL_PwqxZP7_ALyEJrWg,728
+celery_extra_schedulers-0.1.1.dist-info/RECORD,,
+celery_extra_schedulers-0.1.1.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+celery_extra_schedulers-0.1.1.dist-info/metadata.json,sha256=J8wPJ_ARfcpgs-zi2R9nHgD56Et7JIIlkjYhmgC6H5c,889
+celery_extra_schedulers-0.1.1.dist-info/top_level.txt,sha256=ngQjG7krpefzkxwuOBWlAErdaomY7KfVEWkzlOqgt50,18
+celery_schedulers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_schedulers/redis.py,sha256=y-aPzMAzcDti6-hjQRbp4lX24N7mdsylLcwEH_edP00,2309
