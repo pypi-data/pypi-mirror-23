@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: django-activecollab-digger
+Version: 0.3.1
+Summary: Django ActiveCollab application
+Home-page: https://github.com/kingsdigitallab/django-activecollab-digger
+Author: King's Digital Lab
+Author-email: kdl-info@kcl.ac.uk
+License: MIT
+Description: ActiveCollab Digger
+        ===================
+        
+        Django application to integrate ActiveCollab issue reporting into Django based projects.
+        
+        To use:
+        
+        #. ``pip install django-activecollab-digger``
+        #. add ``activecollab_digger`` to ``INSTALLED_APPS``
+        #. add ``url(r'^digger/', include('activecollab_digger.urls'))`` to ``urls.py``
+        #. add the settings::
+        
+            AC_BASE_URL = 'https://app.activecollab.com/COMPANY_ID/api/v1/'
+            AC_TOKEN = ''
+            AC_PROJECT_ID = 1
+            AC_USER = 1
+        
+        Notes
+        -----
+        
+        The application needs to be behind authentication.
+        
+Keywords: django activecollab
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
