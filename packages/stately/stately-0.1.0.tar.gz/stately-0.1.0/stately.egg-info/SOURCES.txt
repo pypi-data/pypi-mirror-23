@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+stately/__init__.py
+stately.egg-info/PKG-INFO
+stately.egg-info/SOURCES.txt
+stately.egg-info/dependency_links.txt
+stately.egg-info/requires.txt
+stately.egg-info/top_level.txt
