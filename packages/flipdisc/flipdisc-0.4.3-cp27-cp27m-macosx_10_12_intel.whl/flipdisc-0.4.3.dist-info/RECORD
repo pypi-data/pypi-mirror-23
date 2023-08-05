@@ -1,0 +1,17 @@
+flipdisc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flipdisc/_particle.so,sha256=lwPpaUrXmXdiX3hHwoGCpfqMOtOIb6c9wv8Fj1iXtXw,27888
+flipdisc/binarize.so,sha256=NC3-dU7aeLK0ppHBxOs5PgolTFsSZuEN_-41B_LjdcM,107968
+flipdisc/image.py,sha256=PoOneT0txgJ28ah4jUX22wiC6NY6WNxtU13WWhbKcBE,831
+flipdisc/optical_flow.py,sha256=PU6BOsEV4KLAWxRcFYhLnMDq1oFuE5TvUQ7yhwWTiAU,2252
+flipdisc/particle.py,sha256=_PEimphxMcTwSMLFADqLBFzRBjoNsVcFEGahBXjD-n0,2923
+flipdisc/util.py,sha256=XvEy1sq291gmB2OgEx2TW8ZeN6oVQJvursHI5IeBe6c,2203
+flipdisc/framework/__init__.py,sha256=RSP9RBCtuKbUdSkXr0eoTnfqMvSU32RqSzTyTRzHYyI,56
+flipdisc/framework/app.py,sha256=BBJkTW-5XnWX6x_XbhE462MeZlqbnj668R1E5ZTi06c,16748
+flipdisc/framework/common.py,sha256=zVNEvaBeHqM3yrwSPTXPJnO_uEIXC2JHPFHCHdVu9FE,656
+flipdisc/framework/red.py,sha256=jzBc_kzIQFk-KfEuaxoQrwS9B5Tbjv_A3ZwsZGUAlyg,1304
+flipdisc-0.4.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+flipdisc-0.4.3.dist-info/METADATA,sha256=rx40a4wefpK0Ty2QXlv_7LP6c5h3Y9CSztF5Wrvtavo,396
+flipdisc-0.4.3.dist-info/RECORD,,
+flipdisc-0.4.3.dist-info/WHEEL,sha256=UXoPBllP0F2o_dRgJdm69wuDew2n49gqiBVQa-SKixk,110
+flipdisc-0.4.3.dist-info/metadata.json,sha256=3KsZv5fnnL8MVbvZR2BtNfdSFrehCex33aG5jhdWBiM,465
+flipdisc-0.4.3.dist-info/top_level.txt,sha256=knkxvA5P9qnzhIvHPrf8iOh7YOOv7slnxIN0MD1mCqQ,9
