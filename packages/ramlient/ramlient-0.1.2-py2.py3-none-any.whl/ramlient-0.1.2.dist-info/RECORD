@@ -1,0 +1,11 @@
+ramlient/__init__.py,sha256=kXV0OrHj5fFxad_bYTAaQk2XyP-QRvzmTSubIME7XNg,301
+ramlient/core.py,sha256=VOi_Q5Bc-AvWkIHqexHmMn8z7xlkWZKpj93nm_wh-vs,5121
+ramlient/errors.py,sha256=N_3gzfq3BdlqJZ8B5jf5Z5t_M_bRy8PyxmWuZRJSUS4,1678
+ramlient/request.py,sha256=HnnxDIN0dgItIAthDw99bW8wtVG6F-ySKDtmo6QOeZQ,1422
+ramlient/utils.py,sha256=XcdBRVXPnXhjwSFrNlacljdoZcUa9RKw6FVPnI66n98,1626
+ramlient-0.1.2.dist-info/DESCRIPTION.rst,sha256=U7-vA5fYmT19nYmE_Mrsr10NOc7pxJZuzj8Y6u-KLJ0,46
+ramlient-0.1.2.dist-info/METADATA,sha256=BBeprd8cwOHLShc7z1CGExhHguNCXRqdMk2iISylYZU,1616
+ramlient-0.1.2.dist-info/RECORD,,
+ramlient-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ramlient-0.1.2.dist-info/metadata.json,sha256=qXisvbedyaHeiKi4HRy6AW1rpeFAZ8jte5CR1A9IYz0,1550
+ramlient-0.1.2.dist-info/top_level.txt,sha256=YbdrwNwPEE9uPMV__giq49qT6fiaijJD-I60qapn7Vw,9
