@@ -1,0 +1,11 @@
+pyexcel_odsr/__init__.py,sha256=OytBnSiGLhrUoB61HZv2DqU8IzpFpkpuD2KayUwQolo,929
+pyexcel_odsr/converter.py,sha256=xeWKjOtHW2GFEKrfmRlE41T8TWe882ovvN8YhnqVvv8,2493
+pyexcel_odsr/messyods.py,sha256=hn8Id0Dj1-WtL2b-Z8awtKZGvbbLbLR6m74RN_tXu_M,7889
+pyexcel_odsr/ods.py,sha256=JBQ0_y--85LAB9Yr7sZ1cEnvMbLLaU_DudQLmfzR0KA,3609
+pyexcel_odsr/odsr.py,sha256=tNEGDFE8xSX_QFat23Cgcc4fpX3EbCeltiXluewSme0,3456
+pyexcel_odsr-0.4.0.dist-info/DESCRIPTION.rst,sha256=mF160FmswYDV_y-auD3FPH8d2Hm1tCI3Q9448F6ZqL4,9249
+pyexcel_odsr-0.4.0.dist-info/METADATA,sha256=Pl83vmWrwFiGbmuxP_yRoCy2N6-omODCeGm_a_vRpiY,10183
+pyexcel_odsr-0.4.0.dist-info/RECORD,,
+pyexcel_odsr-0.4.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+pyexcel_odsr-0.4.0.dist-info/metadata.json,sha256=sa5vwxyUG_OeWq6Ss1Gfkx8lE7SaBFH9X9IEqIiBCjs,1075
+pyexcel_odsr-0.4.0.dist-info/top_level.txt,sha256=BEYM8yLyt8TOJ-GvsQH7B4Nzw0e-J6e6fTgw22mTcG8,13
