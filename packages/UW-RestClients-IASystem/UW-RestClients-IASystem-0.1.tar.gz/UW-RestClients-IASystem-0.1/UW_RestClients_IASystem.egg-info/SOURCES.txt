@@ -1,0 +1,12 @@
+setup.py
+UW_RestClients_IASystem.egg-info/PKG-INFO
+UW_RestClients_IASystem.egg-info/SOURCES.txt
+UW_RestClients_IASystem.egg-info/dependency_links.txt
+UW_RestClients_IASystem.egg-info/requires.txt
+UW_RestClients_IASystem.egg-info/top_level.txt
+uw_iasystem/__init__.py
+uw_iasystem/dao.py
+uw_iasystem/evaluation.py
+uw_iasystem/models.py
+uw_iasystem/test.py
+uw_iasystem/util.py
