@@ -1,0 +1,2 @@
+thriftpy
+py_zipkin
