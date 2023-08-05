@@ -1,0 +1,13 @@
+httpparser/parser.so,sha256=VjrFGR8q4EGkA1f-NFAkUJrrQ44SbGO8ldN005Pl0A0,217147
+httpparser/parser.pxd,sha256=YVK0f58Jpy54ZnqrP4CpB3G2ZdcF1rx7qHutePxu_qU,951
+httpparser/picohttpparser.c,sha256=4XCXsjhUANaJafEloEaJ5_Ab1WLxgwxvq086vmDqVQA,25002
+httpparser/pico.pxd,sha256=FXMnTfyAlU9w_sccqq-aUl8e7Ll5aPEOfdHiOF2C55M,1639
+httpparser/picohttpparser.h,sha256=KI_HKypIULCmXjLuawGXCvVZRxhrjI4X5YUCQHTLSu8,3502
+httpparser/__init__.py,sha256=r11cBOy0i934F3z4xpTdSUE5IfaJRJc2-KfmKz6S9Tw,105
+httpparser/parser.c,sha256=U9an5aI8Eo0tn7g99ylFAxcf2dTaubOlsBcr1LVknAQ,220054
+httpparser-0.3.9.dist-info/DESCRIPTION.rst,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+httpparser-0.3.9.dist-info/top_level.txt,sha256=FPtBvVRQscVJ3VIFt0DT41h4GaShgvjonRPvq2LJbTI,11
+httpparser-0.3.9.dist-info/METADATA,sha256=6e9zERDZLyiLdJlPCGxv_xIV5RpLNkn2oTk_gFn3a1Y,705
+httpparser-0.3.9.dist-info/RECORD,,
+httpparser-0.3.9.dist-info/metadata.json,sha256=xATpmXW0fh0ZEosjg15BLmnau7Y_9TrHySJYiXp72bU,861
+httpparser-0.3.9.dist-info/WHEEL,sha256=K393SHwcz7KWfaAX1vI5Mn-fHxOX6ngCsqegCXacWE8,110
