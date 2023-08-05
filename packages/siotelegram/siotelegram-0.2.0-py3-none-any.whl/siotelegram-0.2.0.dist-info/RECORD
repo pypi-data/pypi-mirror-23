@@ -1,0 +1,12 @@
+siotelegram/__init__.py,sha256=P4aqbuCLVYgxthA3pq1PumgrRzY0LLZL0ukYGzyTxz4,208
+siotelegram/protocol.py,sha256=EJhTR0w6uxpUrua8MsU7mGf2JjVVuHAyMeazNhwdmO4,932
+siotelegram/io/__init__.py,sha256=Sd-KfZhI7d8Gxk4As3cs50hZvRoV7vyAbZR0BGn1cnU,416
+siotelegram/io/io_aiohttp.py,sha256=mreta-hgu4Zok5uauCdNbB9IFFIzQhE7fjPfPy7BQDI,1688
+siotelegram/io/io_aiorequests.py,sha256=DjAtNEULxWoh7w7B3JBZ7wfc7lg0q5ltXCUvM2S1AiY,1498
+siotelegram/io/io_requests.py,sha256=lOb75CUkH0wK8EQFssOg0kq9yY7pvF93cjy_tuYA_s4,1349
+siotelegram-0.2.0.dist-info/DESCRIPTION.rst,sha256=s7fSxRsaZyg2cpuzYESs_gKb7egERoavAUIs-gyeY_Q,1956
+siotelegram-0.2.0.dist-info/METADATA,sha256=We3sVhqaC9WLo_HSL1oz4icc6QjmaIsj_30r0FmtFQ4,2297
+siotelegram-0.2.0.dist-info/RECORD,,
+siotelegram-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+siotelegram-0.2.0.dist-info/metadata.json,sha256=CctORX38WltwnLQBs56wOtelZdN2XxTgvepo_lfM7U0,526
+siotelegram-0.2.0.dist-info/top_level.txt,sha256=_FW1j1qxwSIpXrFVPbjtrC0McBRsNJofQSECO04lRKY,12
