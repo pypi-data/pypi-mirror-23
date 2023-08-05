@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: salsa
+Version: 0.8.0
+Summary: SQLAlchemy utility
+Home-page: https://bitbucket.org/rit/salsa
+Author: Rit Li
+Author-email: get@rit.li
+License: MIT
+Description: salsa
+        =====
+        
+        A thin SQAlchemy wrapper for test driven development.
+        
+Platform: UNKNOWN
