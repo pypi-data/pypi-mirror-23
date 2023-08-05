@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: pyfeatures
+Version: 0.1.1
+Summary: Python feature flagging. Similar to Rollout.
+Home-page: https://github.com/aisola/pyfeatures
+Author: Abram C. Isola
+Author-email: abram@isola.mn
+License: UNKNOWN
+Download-URL: https://github.com/aisola/pyfeatures/archive/v0.1.1.tar.gz
+Keywords: feature,features,rollout,tagging,releases,flagging,startups
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+
+UNKNOWN
+
+

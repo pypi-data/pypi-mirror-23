@@ -1,0 +1,12 @@
+pyfeatures/__init__.py,sha256=s0oowRDU0b4fsabezcXmDNpFU1-_oOsGf9plRs7mkw0,161
+pyfeatures/feature.py,sha256=Y5bjxYMt7oHYgFSjiwTUhkPbJV7zNOA6lRR9g-urnXU,4075
+pyfeatures/manager.py,sha256=y1FuMrE80PhfI6kp-D3VQZvXkzDBpB-ecjs7wScDFCI,1539
+pyfeatures/storage/__init__.py,sha256=En3jm4sMqhwSXxAwt254vWl15vqxErYPeWh6s0QvFRw,88
+pyfeatures/storage/base.py,sha256=oeyNAfuCT7Z5Qh_ZNCy9Aap1-shvAIK8qxjqmSyx3Pg,1218
+pyfeatures/storage/memory.py,sha256=6odQL44p_Lzmx6M5MqoSHkgiNIk7O7526kwwLqvY4Ks,323
+pyfeatures-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pyfeatures-0.1.1.dist-info/METADATA,sha256=GGLXpeWoKGVlx-sWs4Pw5_lXuXJ_ctjiYCPqdj1VCdM,904
+pyfeatures-0.1.1.dist-info/RECORD,,
+pyfeatures-0.1.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyfeatures-0.1.1.dist-info/metadata.json,sha256=sfM1U3u7wOwquZ5vSYaBY1_8t2UJKfKr7NhYBfBbEOI,1015
+pyfeatures-0.1.1.dist-info/top_level.txt,sha256=NmAx8rvrwTNaLV82Le4to4oh7cA1SsI6fWB1hYX-q-0,11
