@@ -1,0 +1,10 @@
+api_commons/__init__.py,sha256=9N4Jspv06lnjgnMJCebGOPYXNZQaod67oZV-fxPG9KI,1243
+api_commons/common.py,sha256=N3AN6-zuYLT8iPGwl6x53pVJsX-S8nE2hYpldC7d0wU,9653
+api_commons/dto.py,sha256=pCn1-Fdz_L83i7ceeem2CKvvChDttDUgyjhyOKLYjUM,4738
+api_commons/error.py,sha256=ecgnKjROeqcMxMuEOq-OdZoTsIosiYTkoK9qsps6Pbk,1844
+django_api_commons-1.0.0.dist-info/DESCRIPTION.rst,sha256=z7W_EUuLEp7utQQGpUux3gd8Ajnh1kd57HrRhQHvLFw,359
+django_api_commons-1.0.0.dist-info/METADATA,sha256=vgoJNAxA5b1u7qCHlOBOfbQCZrUWbRvZzJxMx2fd8HM,1190
+django_api_commons-1.0.0.dist-info/RECORD,,
+django_api_commons-1.0.0.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+django_api_commons-1.0.0.dist-info/metadata.json,sha256=FCT8NFoSfqXcn285Y16BVyqFHntXlIjgG0eGbxDh0nE,963
+django_api_commons-1.0.0.dist-info/top_level.txt,sha256=Rv53NrACpN8lTV5v-5gfzdQ5kGhqDCJBdyAxSkT9Yp0,12
