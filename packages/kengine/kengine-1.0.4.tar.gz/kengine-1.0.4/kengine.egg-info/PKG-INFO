@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: kengine
+Version: 1.0.4
+Summary: MMORPG Game Server Framework (Based on Websocket)
+Home-page: https://github.com/land-pack/kengine
+Author: Frank AK
+Author-email: 804048353@qq.com
+License: MIT
+Description: 
+        Landport
+        --------------
+        
+        Python MMO game server framework, you can easy build a virtual room by websocket!
+        The player can easily chat with other player~
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
