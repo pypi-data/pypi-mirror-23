@@ -1,0 +1,12 @@
+MongoRouter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MongoRouter/config_generator.py,sha256=bN1VbrpoTMZd3EalN2V9M6zNGvOpoD2yNfWg-E2kpes,2761
+MongoRouter/Executable.py,sha256=wBf9bJZ2oRUVZU2eJahUcfn4cFx8P4oPJ9YvgJ3oqW4,904
+MongoRouter/MongoProxy.py,sha256=3C5FzOI4Y1UMeFiUL686szH_wsxEkbLX_nHAYAQ3Ay4,1157
+MongoRouter/MongoRouter.py,sha256=shWZcFFbzOC7xhZu9dINTk247xAEp8rkbTnkLs_DA_U,2572
+MongoRouter/MongoRouterUtils.py,sha256=btqZtQerrmaKBpydWrfXL4Dk84fUlLrynP0-bae1mkg,978
+MongoRouter-0.0.10.dist-info/DESCRIPTION.rst,sha256=3ilyhJRWDOeM5qvfuyc2DiaXwW_k--2PfIapo2l4z8Y,79
+MongoRouter-0.0.10.dist-info/METADATA,sha256=kAhNRWl3iI1qWwG9O7RipkfqP7y1J0z5vPpv8zptSm0,572
+MongoRouter-0.0.10.dist-info/metadata.json,sha256=iYFKQnTDx5ybusuV208PsJT1cwhJJ5dCsxpg4doQdm0,700
+MongoRouter-0.0.10.dist-info/RECORD,,
+MongoRouter-0.0.10.dist-info/top_level.txt,sha256=0H7c-09G7oQF-6SDJpCgBowuiOtSZD8F1U2z56D7kso,12
+MongoRouter-0.0.10.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
