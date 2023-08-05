@@ -1,0 +1,6 @@
+adb-wifi
+setup.py
+ADB_Wifi.egg-info/PKG-INFO
+ADB_Wifi.egg-info/SOURCES.txt
+ADB_Wifi.egg-info/dependency_links.txt
+ADB_Wifi.egg-info/top_level.txt
