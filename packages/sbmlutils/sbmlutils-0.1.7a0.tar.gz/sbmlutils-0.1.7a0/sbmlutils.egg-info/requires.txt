@@ -1,0 +1,15 @@
+Cython
+python-libsbml>=5.15.0
+libroadrunner>=1.4.18
+cobra>=0.6.1
+optlang>=1.2.0
+six
+pandas
+tabulate
+Jinja2
+pyexcel
+pyexcel-xlsx
+pytest
+pytest-cov
+requests
+beautifulsoup4
