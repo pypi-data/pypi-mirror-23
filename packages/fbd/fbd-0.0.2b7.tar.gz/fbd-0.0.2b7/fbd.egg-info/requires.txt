@@ -1,0 +1,13 @@
+tqdm
+bokeh
+SQLAlchemy
+setuptools
+aiohttp
+geopy
+alembic
+numpy
+requests
+matplotlib
+gmplot
+async_timeout
+python_dateutil
