@@ -1,0 +1,8 @@
+README.rst
+setup.py
+typec/__init__.py
+typec.egg-info/PKG-INFO
+typec.egg-info/SOURCES.txt
+typec.egg-info/dependency_links.txt
+typec.egg-info/not-zip-safe
+typec.egg-info/top_level.txt
