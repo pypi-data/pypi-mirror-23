@@ -1,0 +1,16 @@
+CHANGELOG.rst
+COPYING
+MANIFEST.in
+README.rst
+replacer.py
+setup.py
+replacer.egg-info/PKG-INFO
+replacer.egg-info/SOURCES.txt
+replacer.egg-info/dependency_links.txt
+replacer.egg-info/entry_points.txt
+replacer.egg-info/top_level.txt
+test/test_replacer.py
+test/test_path/top.txt
+test/test_path/.hidden/hidden.txt
+test/test_path/a_dir/sub/foo.txt
+test/test_path/b_dir/file.noext
