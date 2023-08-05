@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+tiny2d/__init__.py
+tiny2d/line.py
+tiny2d/polygon.py
+tiny2d/vector.py
+tiny2d.egg-info/PKG-INFO
+tiny2d.egg-info/SOURCES.txt
+tiny2d.egg-info/dependency_links.txt
+tiny2d.egg-info/not-zip-safe
+tiny2d.egg-info/top_level.txt
