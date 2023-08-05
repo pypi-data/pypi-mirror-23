@@ -1,0 +1,6 @@
+setup.py
+math123.egg-info/PKG-INFO
+math123.egg-info/SOURCES.txt
+math123.egg-info/dependency_links.txt
+math123.egg-info/not-zip-safe
+math123.egg-info/top_level.txt
