@@ -1,0 +1,6 @@
+README.rst
+setup.py
+simpleconfig.egg-info/PKG-INFO
+simpleconfig.egg-info/SOURCES.txt
+simpleconfig.egg-info/dependency_links.txt
+simpleconfig.egg-info/top_level.txt
