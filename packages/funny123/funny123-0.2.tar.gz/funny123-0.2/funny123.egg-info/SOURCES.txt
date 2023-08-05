@@ -1,0 +1,7 @@
+setup.py
+funny123/__init__.py
+funny123.egg-info/PKG-INFO
+funny123.egg-info/SOURCES.txt
+funny123.egg-info/dependency_links.txt
+funny123.egg-info/not-zip-safe
+funny123.egg-info/top_level.txt
