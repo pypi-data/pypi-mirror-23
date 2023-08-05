@@ -1,0 +1,11 @@
+ipython
+lockfile
+python-openflow>=2017.1b3
+kytos-utils>=2017.1b3
+flask-socketio
+flask
+python-daemon>=2.1.2
+# For some reason setuptools
+# Maybe we need to remove this on the future
+setuptools>=34.0.0
+jinja2
