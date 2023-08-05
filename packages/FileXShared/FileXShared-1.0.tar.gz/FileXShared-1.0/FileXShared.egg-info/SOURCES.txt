@@ -1,0 +1,7 @@
+FileXShared
+setup.py
+FileXShared.egg-info/PKG-INFO
+FileXShared.egg-info/SOURCES.txt
+FileXShared.egg-info/dependency_links.txt
+FileXShared.egg-info/requires.txt
+FileXShared.egg-info/top_level.txt
