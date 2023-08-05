@@ -1,0 +1,9 @@
+
+[build]
+yapf
+pyflakes
+nose
+unittest2
+
+[docs]
+sphinx
