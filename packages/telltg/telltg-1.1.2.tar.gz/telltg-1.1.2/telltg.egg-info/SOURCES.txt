@@ -1,0 +1,7 @@
+setup.py
+telltg/telltg
+telltg.egg-info/PKG-INFO
+telltg.egg-info/SOURCES.txt
+telltg.egg-info/dependency_links.txt
+telltg.egg-info/requires.txt
+telltg.egg-info/top_level.txt

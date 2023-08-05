@@ -1,0 +1,83 @@
+#!/usr/bin/env python
+
+import json
+import sys
+import os
+import platform
+import argparse
+import requests
+import argparse
+
+# Sending
+def send_msg(conf, msg):
+    URL = 'https://api.telegram.org/{}/sendMessage'
+    for i in conf['ids']:
+        payload = {'chat_id': i, 'text': msg}
+        requests.post(URL.format(conf['key']), json=payload)
+
+HELP_TEXT = '''
+telltg "Hello world"
+longrunning_program && telltg -o "My batch job" "Done"
+echo "Hello world" | telltg
+
+Configuration. choose one of the following options:
+- Config file:
+    - create a telltg.conf.json file in
+        - ~/.telltg.conf.json
+        - /etc/telltg.conf.json
+    - copy and customize this config:
+        {"key":"bot123:abc","ids":["1234", "456"]}
+- ENVIRONMENTAL VARIABLE
+    - set the following environmental variables
+    - TELLTG_BOT_KEY
+    - TELLTG_CHAT_IDS (as comma separated values)
+'''
+
+# Argument parsing
+parser = argparse.ArgumentParser(
+    description='A CLI Telegram message sender', usage=HELP_TEXT)
+parser.add_argument('message',nargs='?', help='The message you want to send')
+parser.add_argument('--object', '-o', help='Message object')
+parser.add_argument('--hostname', '-n', action='store_true', help='Include hostname')
+parser.add_argument('--id', '-i', nargs='*', help='Send to specific chat_id')
+args = parser.parse_args()
+
+
+conf = {}
+
+# Try to fech config from files
+conf_paths =[os.path.expanduser('~/.{}') , '/etc/{}']
+for path in conf_paths:
+    path = path.format('telltg.conf.json')
+    if os.path.isfile(path):
+        with open(path, 'r') as f:
+            conf = json.load(f)
+            break
+
+# Try to fetch config from environmental variables
+if not conf:
+    try:
+        conf['key'] = os.environ['TELLTG_BOT_KEY']
+        conf['ids'] = os.environ['TELLTG_CHAT_IDS'].split(',')
+    except KeyError:
+        parser.print_help()
+        sys.exit(1)
+
+# Configuration fetch from args
+if args.id:
+    conf['ids'] = args.id
+
+# Message creation
+msg = 'Host: {}\n'.format(platform.node()) if args.hostname else ''
+msg += 'Object: {}\n'.format(args.object) if args.object else ''
+if args.message:
+    msg += args.message if args.message else ''
+    send_msg(conf, msg)
+else:
+    if not sys.stdin.isatty():
+        while True:
+            line = sys.stdin.readline()
+            if not line:
+                break
+            else:
+                send_msg(conf, line)
