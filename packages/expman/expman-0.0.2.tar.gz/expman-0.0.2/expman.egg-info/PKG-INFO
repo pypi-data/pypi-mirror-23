@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: expman
+Version: 0.0.2
+Summary: Library for managing experiments.
+Home-page: https://github.com/vzhong/expman
+Author: Vcitor Zhong
+Author-email: victor@victorzhong.com
+License: MIT
+Description: # Expman
+        
+        Experiment management tools for machine learning.
+        
+Keywords: machine learning,development,job tracking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5

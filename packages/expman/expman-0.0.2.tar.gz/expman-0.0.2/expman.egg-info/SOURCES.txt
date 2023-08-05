@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+expman/__init__.py
+expman/experiment.py
+expman/expman.py
+expman/listing.py
+expman.egg-info/PKG-INFO
+expman.egg-info/SOURCES.txt
+expman.egg-info/dependency_links.txt
+expman.egg-info/entry_points.txt
+expman.egg-info/requires.txt
+expman.egg-info/top_level.txt
