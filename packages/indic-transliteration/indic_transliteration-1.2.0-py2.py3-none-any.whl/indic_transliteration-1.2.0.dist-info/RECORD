@@ -1,0 +1,10 @@
+indic_transliteration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indic_transliteration/detect.py,sha256=TzqNcoSaVrEaeMfVuQUpRx3oxisiBYtH0Bi9Tcprg24,2883
+indic_transliteration/detect_test.py,sha256=CPuygRdUnBTSDmuF6I23QFgoiNUkEV_zW7NJCEhTE3Q,3462
+indic_transliteration/sanscript.py,sha256=GEmGvLelGlf6_xRpEOENsOVUjeWjNx28fUhx4lYGFaY,20796
+indic_transliteration-1.2.0.dist-info/DESCRIPTION.rst,sha256=JaLBZBIVSpFbc_D5-FfwI1QEsxPrBaQR7OXUso465Pc,1046
+indic_transliteration-1.2.0.dist-info/METADATA,sha256=YYwRHbtxX92wD49UKVMXdgXjszzYxLRwbqih8dC0Ry8,2306
+indic_transliteration-1.2.0.dist-info/RECORD,,
+indic_transliteration-1.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+indic_transliteration-1.2.0.dist-info/metadata.json,sha256=kKqJH3iy90Q-2yX6aSUgNhbl_BLmD8mA7HcyljCm8dY,1359
+indic_transliteration-1.2.0.dist-info/top_level.txt,sha256=PoxdJobwnallcG2bSqCNhLKCO2hChorKOTF1t1wH658,22
