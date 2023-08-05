@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: kedo-ddtrace
+Version: 0.8.5.0
+Summary: Datadog tracing code
+Home-page: https://github.com/DataDog/dd-trace-py
+Author: Datadog, Inc.
+Author-email: dev@datadoghq.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: msgpack-python
+Requires-Dist: wrapt
+
+UNKNOWN
+
+
