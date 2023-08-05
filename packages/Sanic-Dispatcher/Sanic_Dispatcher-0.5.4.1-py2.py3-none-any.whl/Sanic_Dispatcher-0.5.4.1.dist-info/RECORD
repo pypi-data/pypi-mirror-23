@@ -1,0 +1,9 @@
+Sanic_Dispatcher-0.5.4.1.dist-info/DESCRIPTION.rst,sha256=pqFMLNqf0A1KScbLICIgR1KSM2EeVhy5tBrctQ5oWKk,6466
+Sanic_Dispatcher-0.5.4.1.dist-info/METADATA,sha256=L3jrhb23u8KYaoA-qd_ixPPs_LiH5Ifxuld-SxL0Xt8,7352
+Sanic_Dispatcher-0.5.4.1.dist-info/RECORD,,
+Sanic_Dispatcher-0.5.4.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Sanic_Dispatcher-0.5.4.1.dist-info/metadata.json,sha256=58Fi9iUpOWAPlXfp4DnVYvK04pcyFWkixUXCX-8HZWI,1101
+Sanic_Dispatcher-0.5.4.1.dist-info/top_level.txt,sha256=RTbBJI2KQ4N9E-gmV-9xCtlzM1PP7NTCb6OMpw1x7wM,17
+sanic_dispatcher/__init__.py,sha256=DwX2omgft7BsHI_4ChiDaEqFefZACuhAcC8UYzN1zHM,411
+sanic_dispatcher/extension.py,sha256=xiUIwG21sfitRCsFWr-bbv2Ub9beyhSant6tA-358aQ,15663
+sanic_dispatcher/version.py,sha256=IPjQgLnGoVkVn-bYDGMQUryXJbPdjb8DH9lTX4r3IK4,48
