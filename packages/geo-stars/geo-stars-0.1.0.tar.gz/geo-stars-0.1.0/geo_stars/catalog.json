@@ -1,0 +1,3533 @@
+{
+   "HD 193432": {
+      "common_names": [
+         "Alshat"
+      ], 
+      "coordinates": {
+         "dec": -12.75908, 
+         "ra": 305.1659
+      }, 
+      "label": "Nu Capricorni", 
+      "magnitude": 4.760000228881836, 
+      "entity": "Q676853", 
+      "id": "HD 193432"
+   }, 
+   "HD 204867": {
+      "common_names": [
+         "Sadalsuud"
+      ], 
+      "coordinates": {
+         "dec": -5.57118, 
+         "ra": 322.88972
+      }, 
+      "label": "Beta Aquarii", 
+      "magnitude": 2.869999885559082, 
+      "entity": "Q13243", 
+      "id": "HD 204867"
+   }, 
+   "HD 108662": {
+      "common_names": [
+         "** STFA 21"
+      ], 
+      "coordinates": {
+         "dec": 25.9128, 
+         "ra": 187.2279
+      }, 
+      "label": "Q5653650", 
+      "magnitude": 5.289999961853027, 
+      "entity": "Q5653650", 
+      "id": "HD 108662"
+   }, 
+   "HD 206088": {
+      "common_names": [
+         "Nashira"
+      ], 
+      "coordinates": {
+         "dec": -16.66231, 
+         "ra": 325.02274
+      }, 
+      "label": "Gamma Capricorni", 
+      "magnitude": 3.6700000762939453, 
+      "entity": "Q1571085", 
+      "id": "HD 206088"
+   }, 
+   "HD 102224": {
+      "common_names": [
+         "Alkafzah"
+      ], 
+      "coordinates": {
+         "dec": 47.77941, 
+         "ra": 176.51256
+      }, 
+      "label": "Chi Ursae Majoris", 
+      "magnitude": 3.7200000286102295, 
+      "entity": "Q1071577", 
+      "id": "HD 102224"
+   }, 
+   "HD 198001": {
+      "common_names": [
+         "Albali"
+      ], 
+      "coordinates": {
+         "dec": -9.49577, 
+         "ra": 311.91897
+      }, 
+      "label": "Epsilon Aquarii", 
+      "magnitude": 3.7699999809265137, 
+      "entity": "Q1501569", 
+      "id": "HD 198001"
+   }, 
+   "HD 31964": {
+      "common_names": [
+         "Almaaz"
+      ], 
+      "coordinates": {
+         "dec": 43.82331, 
+         "ra": 75.49222
+      }, 
+      "label": "Epsilon Aurigae", 
+      "magnitude": 2.990000009536743, 
+      "entity": "Q13222", 
+      "id": "HD 31964"
+   }, 
+   "HD 61421": {
+      "common_names": [
+         "Procyon"
+      ], 
+      "coordinates": {
+         "dec": 5.22499, 
+         "ra": 114.8255
+      }, 
+      "label": "Procyon", 
+      "magnitude": 0.3700000047683716, 
+      "entity": "Q13034", 
+      "id": "HD 61421"
+   }, 
+   "HD 152667": {
+      "common_names": [
+         "OAO 1653-40"
+      ], 
+      "coordinates": {
+         "dec": -40.82346, 
+         "ra": 254.14991
+      }, 
+      "label": "Q10940705", 
+      "magnitude": 6.110000133514404, 
+      "entity": "Q10940705", 
+      "id": "HD 152667"
+   }, 
+   "HD 23480": {
+      "common_names": [
+         "Merope"
+      ], 
+      "coordinates": {
+         "dec": 23.9483, 
+         "ra": 56.5817
+      }, 
+      "label": "Merope", 
+      "magnitude": 4.179999828338623, 
+      "entity": "Q13436", 
+      "id": "HD 23480"
+   }, 
+   "HD 135742": {
+      "common_names": [
+         "Zubeneschamali"
+      ], 
+      "coordinates": {
+         "dec": -9.38291, 
+         "ra": 229.25172
+      }, 
+      "label": "Beta Librae", 
+      "magnitude": 2.609999895095825, 
+      "entity": "Q13053", 
+      "id": "HD 135742"
+   }, 
+   "HD 42995": {
+      "common_names": [
+         "Propus"
+      ], 
+      "coordinates": {
+         "dec": 22.50679, 
+         "ra": 93.7194
+      }, 
+      "label": "Eta Geminorum", 
+      "magnitude": 3.2799999713897705, 
+      "entity": "Q505752", 
+      "id": "HD 42995"
+   }, 
+   "HD 52089": {
+      "common_names": [
+         "Adara"
+      ], 
+      "coordinates": {
+         "dec": -28.97209, 
+         "ra": 104.65645
+      }, 
+      "label": "Epsilon Canis Majoris", 
+      "magnitude": 1.5, 
+      "entity": "Q13414", 
+      "id": "HD 52089"
+   }, 
+   "HD 107259": {
+      "common_names": [
+         "Zaniah"
+      ], 
+      "coordinates": {
+         "dec": -0.66679, 
+         "ra": 184.97647
+      }, 
+      "label": "Eta Virginis", 
+      "magnitude": 3.9000000953674316, 
+      "entity": "Q146922", 
+      "id": "HD 107259"
+   }, 
+   "HD 164058": {
+      "common_names": [
+         "Etamin"
+      ], 
+      "coordinates": {
+         "dec": 51.4889, 
+         "ra": 269.15154
+      }, 
+      "label": "Gamma Draconis", 
+      "magnitude": 2.2200000286102295, 
+      "entity": "Q14246", 
+      "id": "HD 164058"
+   }, 
+   "HD 89025": {
+      "common_names": [
+         "Adhafera"
+      ], 
+      "coordinates": {
+         "dec": 23.41731, 
+         "ra": 154.17257
+      }, 
+      "label": "Zeta Leonis", 
+      "magnitude": 3.440000057220459, 
+      "entity": "Q14207", 
+      "id": "HD 89025"
+   }, 
+   "HD 53244": {
+      "common_names": [
+         "Muliphein"
+      ], 
+      "coordinates": {
+         "dec": -15.63329, 
+         "ra": 105.93955
+      }, 
+      "label": "Gamma Canis Majoris", 
+      "magnitude": 4.119999885559082, 
+      "entity": "Q617675", 
+      "id": "HD 53244"
+   }, 
+   "HD 17506": {
+      "common_names": [
+         "Miram"
+      ], 
+      "coordinates": {
+         "dec": 55.8955, 
+         "ra": 42.67421
+      }, 
+      "label": "Eta Persei", 
+      "magnitude": 3.7899999618530273, 
+      "entity": "Q1434398", 
+      "id": "HD 17506"
+   }, 
+   "HD 89021": {
+      "common_names": [
+         "Tania Borealis"
+      ], 
+      "coordinates": {
+         "dec": 42.91436, 
+         "ra": 154.2741
+      }, 
+      "label": "Lambda Ursae Majoris", 
+      "magnitude": 3.450000047683716, 
+      "entity": "Q1414755", 
+      "id": "HD 89021"
+   }, 
+   "HD 188512": {
+      "common_names": [
+         "Alshain"
+      ], 
+      "coordinates": {
+         "dec": 6.40676, 
+         "ra": 298.8283
+      }, 
+      "label": "Beta Aquilae", 
+      "magnitude": 3.7200000286102295, 
+      "entity": "Q428417", 
+      "id": "HD 188512"
+   }, 
+   "HD 71369": {
+      "common_names": [
+         "Muscida"
+      ], 
+      "coordinates": {
+         "dec": 60.71817, 
+         "ra": 127.56613
+      }, 
+      "label": "Omicron Ursae Majoris", 
+      "magnitude": 3.359999895095825, 
+      "entity": "Q956651", 
+      "id": "HD 71369"
+   }, 
+   "HD 221345": {
+      "common_names": [
+         "Veritate"
+      ], 
+      "coordinates": {
+         "dec": 39.2364, 
+         "ra": 352.8225
+      }, 
+      "label": "14 Andromedae", 
+      "magnitude": 5.21999979019165, 
+      "entity": "Q940004", 
+      "id": "HD 221345"
+   }, 
+   "HD 110914": {
+      "common_names": [
+         "La Superba"
+      ], 
+      "coordinates": {
+         "dec": 45.44026, 
+         "ra": 191.28262
+      }, 
+      "label": "La Superba", 
+      "magnitude": 4.869999885559082, 
+      "entity": "Q785840", 
+      "id": "HD 110914"
+   }, 
+   "HD 37795": {
+      "common_names": [
+         "Phact"
+      ], 
+      "coordinates": {
+         "dec": -34.0742, 
+         "ra": 84.9121
+      }, 
+      "label": "Alpha Columbae", 
+      "magnitude": 2.640000104904175, 
+      "entity": "Q15709", 
+      "id": "HD 37795"
+   }, 
+   "HD 14386": {
+      "common_names": [
+         "Mira"
+      ], 
+      "coordinates": {
+         "dec": -2.97764, 
+         "ra": 34.83663
+      }, 
+      "label": "Mira", 
+      "magnitude": 3.0399999618530273, 
+      "entity": "Q12965", 
+      "id": "HD 14386"
+   }, 
+   "HD 36079": {
+      "common_names": [
+         "Nihal"
+      ], 
+      "coordinates": {
+         "dec": -20.75944, 
+         "ra": 82.06135
+      }, 
+      "label": "Beta Leporis", 
+      "magnitude": 2.8399999141693115, 
+      "entity": "Q830887", 
+      "id": "HD 36079"
+   }, 
+   "HD 176437": {
+      "common_names": [
+         "Sulafat"
+      ], 
+      "coordinates": {
+         "dec": 32.68956, 
+         "ra": 284.73593
+      }, 
+      "label": "Gamma Lyrae", 
+      "magnitude": 3.240000009536743, 
+      "entity": "Q1334044", 
+      "id": "HD 176437"
+   }, 
+   "HD 12929": {
+      "common_names": [
+         "Hamal"
+      ], 
+      "coordinates": {
+         "dec": 23.46242, 
+         "ra": 31.79336
+      }, 
+      "label": "Alpha Arietis", 
+      "magnitude": 2.0, 
+      "entity": "Q13213", 
+      "id": "HD 12929"
+   }, 
+   "HD 18322": {
+      "coordinates": {
+         "dec": -8.89814, 
+         "ra": 44.10687
+      }, 
+      "magnitude": 3.869999885559082, 
+      "id": "HD 18322", 
+      "common_names": [
+         "Azha"
+      ]
+   }, 
+   "HD 137391": {
+      "common_names": [
+         "Alkalurops"
+      ], 
+      "coordinates": {
+         "dec": 37.37716, 
+         "ra": 231.12262
+      }, 
+      "label": "Mu Bo\u00f6tis", 
+      "magnitude": 4.320000171661377, 
+      "entity": "Q1504634", 
+      "id": "HD 137391"
+   }, 
+   "HD 76756": {
+      "common_names": [
+         "Acubens"
+      ], 
+      "coordinates": {
+         "dec": 11.8577, 
+         "ra": 134.62176
+      }, 
+      "label": "Alpha Cancri", 
+      "magnitude": 4.260000228881836, 
+      "entity": "Q13768", 
+      "id": "HD 76756"
+   }, 
+   "HD 159532": {
+      "common_names": [
+         "Sargas"
+      ], 
+      "coordinates": {
+         "dec": -42.9978, 
+         "ra": 264.33
+      }, 
+      "label": "Theta Scorpii", 
+      "magnitude": 1.8700000047683716, 
+      "entity": "Q14236", 
+      "id": "HD 159532"
+   }, 
+   "HD 66811": {
+      "common_names": [
+         "Naos"
+      ], 
+      "coordinates": {
+         "dec": -40.0033, 
+         "ra": 120.8962
+      }, 
+      "label": "Zeta Puppis", 
+      "magnitude": 2.25, 
+      "entity": "Q13200", 
+      "id": "HD 66811"
+   }, 
+   "HD 60178": {
+      "coordinates": {
+         "dec": 31.88849, 
+         "ra": 113.65042
+      }, 
+      "magnitude": 1.5800000429153442, 
+      "id": "HD 60178", 
+      "common_names": [
+         "Castor B"
+      ]
+   }, 
+   "HD 18622": {
+      "coordinates": {
+         "dec": -40.30471, 
+         "ra": 44.5654
+      }, 
+      "magnitude": 2.9100000858306885, 
+      "id": "HD 18622", 
+      "common_names": [
+         "ACAMAR"
+      ]
+   }, 
+   "HD 214376": {
+      "common_names": [
+         "Situla"
+      ], 
+      "coordinates": {
+         "dec": -4.22805, 
+         "ra": 339.43909
+      }, 
+      "label": "Kappa Aquarii", 
+      "magnitude": 5.03000020980835, 
+      "entity": "Q1759022", 
+      "id": "HD 214376"
+   }, 
+   "HD 214923": {
+      "common_names": [
+         "Homam"
+      ], 
+      "coordinates": {
+         "dec": 10.83129, 
+         "ra": 340.36555
+      }, 
+      "label": "Zeta Pegasi", 
+      "magnitude": 3.4000000953674316, 
+      "entity": "Q607426", 
+      "id": "HD 214923"
+   }, 
+   "HD 23249": {
+      "common_names": [
+         "Rana"
+      ], 
+      "coordinates": {
+         "dec": -9.76339, 
+         "ra": 55.81209
+      }, 
+      "label": "Delta Eridani", 
+      "magnitude": 3.5399999618530273, 
+      "entity": "Q1146399", 
+      "id": "HD 23249"
+   }, 
+   "HD 19656": {
+      "common_names": [
+         "Gorgonea Quarta"
+      ], 
+      "coordinates": {
+         "dec": 39.61158, 
+         "ra": 47.82242
+      }, 
+      "label": "Omega Persei", 
+      "magnitude": 4.639999866485596, 
+      "entity": "Q3232415", 
+      "id": "HD 19656"
+   }, 
+   "HD 112185": {
+      "common_names": [
+         "Alioth"
+      ], 
+      "coordinates": {
+         "dec": 55.95982, 
+         "ra": 193.50729
+      }, 
+      "label": "Epsilon Ursae Majoris", 
+      "magnitude": 1.7699999809265137, 
+      "entity": "Q13091", 
+      "id": "HD 112185"
+   }, 
+   "HD 209750": {
+      "common_names": [
+         "Sadalmelik"
+      ], 
+      "coordinates": {
+         "dec": -0.31985, 
+         "ra": 331.44598
+      }, 
+      "label": "Alpha Aquarii", 
+      "magnitude": 2.930000066757202, 
+      "entity": "Q13246", 
+      "id": "HD 209750"
+   }, 
+   "HD 35497": {
+      "common_names": [
+         "Elnath"
+      ], 
+      "coordinates": {
+         "dec": 28.60745, 
+         "ra": 81.57297
+      }, 
+      "label": "Beta Tauri", 
+      "magnitude": 1.649999976158142, 
+      "entity": "Q13508", 
+      "id": "HD 35497"
+   }, 
+   "HD 112300": {
+      "common_names": [
+         "Minelauva"
+      ], 
+      "coordinates": {
+         "dec": 3.39747, 
+         "ra": 193.90087
+      }, 
+      "label": "Delta Virginis", 
+      "magnitude": 3.380000114440918, 
+      "entity": "Q14200", 
+      "id": "HD 112300"
+   }, 
+   "HD 108903": {
+      "common_names": [
+         "Gacrux"
+      ], 
+      "coordinates": {
+         "dec": -57.1133, 
+         "ra": 187.7912
+      }, 
+      "label": "Gamma Crucis", 
+      "magnitude": 1.6299999952316284, 
+      "entity": "Q14233", 
+      "id": "HD 108903"
+   }, 
+   "HD 11443": {
+      "common_names": [
+         "Mothallah"
+      ], 
+      "coordinates": {
+         "dec": 29.57883, 
+         "ra": 28.27045
+      }, 
+      "label": "Alpha Trianguli", 
+      "magnitude": 3.4200000762939453, 
+      "entity": "Q1302050", 
+      "id": "HD 11443"
+   }, 
+   "HD 207971": {
+      "common_names": [
+         "Al Dhanab"
+      ], 
+      "coordinates": {
+         "dec": -37.365, 
+         "ra": 328.4821
+      }, 
+      "label": "Gamma Gruis", 
+      "magnitude": 3.009999990463257, 
+      "entity": "Q1434407", 
+      "id": "HD 207971"
+   }, 
+   "HD 94264": {
+      "coordinates": {
+         "dec": 34.215, 
+         "ra": 163.3279
+      }, 
+      "magnitude": 3.8299999237060547, 
+      "id": "HD 94264", 
+      "common_names": [
+         "Praecipua"
+      ]
+   }, 
+   "HD 220061": {
+      "common_names": [
+         "Salm"
+      ], 
+      "coordinates": {
+         "dec": 23.74034, 
+         "ra": 350.15934
+      }, 
+      "label": "Tau Pegasi", 
+      "magnitude": 4.599999904632568, 
+      "entity": "Q1359966", 
+      "id": "HD 220061"
+   }, 
+   "HD 16970": {
+      "common_names": [
+         "Kaffaljidhma"
+      ], 
+      "coordinates": {
+         "dec": 3.23582, 
+         "ra": 40.82516
+      }, 
+      "label": "Gamma Ceti", 
+      "magnitude": 3.4700000286102295, 
+      "entity": "Q15819", 
+      "id": "HD 16970"
+   }, 
+   "HD 10144": {
+      "common_names": [
+         "ACHERNAR"
+      ], 
+      "coordinates": {
+         "dec": -57.2367, 
+         "ra": 24.4287
+      }, 
+      "label": "Achernar", 
+      "magnitude": 0.46000000834465027, 
+      "entity": "Q12183", 
+      "id": "HD 10144"
+   }, 
+   "HD 222404": {
+      "common_names": [
+         "Errai"
+      ], 
+      "coordinates": {
+         "dec": 77.63227, 
+         "ra": 354.83688
+      }, 
+      "label": "Gamma Cephei", 
+      "magnitude": 3.2100000381469727, 
+      "entity": "Q13265", 
+      "id": "HD 222404"
+   }, 
+   "HD 147165": {
+      "common_names": [
+         "Alniyat"
+      ], 
+      "coordinates": {
+         "dec": -25.59279, 
+         "ra": 245.29715
+      }, 
+      "label": "Sigma Scorpii", 
+      "magnitude": 2.880000114440918, 
+      "entity": "Q1036361", 
+      "id": "HD 147165"
+   }, 
+   "HD 51802": {
+      "coordinates": {
+         "dec": 87.02009, 
+         "ra": 115.12703
+      }, 
+      "magnitude": 5.070000171661377, 
+      "id": "HD 51802", 
+      "common_names": [
+         "51 H. Cep"
+      ]
+   }, 
+   "HD 23850": {
+      "common_names": [
+         "Atlas"
+      ], 
+      "coordinates": {
+         "dec": 24.0533, 
+         "ra": 57.2904
+      }, 
+      "label": "Atlas", 
+      "magnitude": 3.630000114440918, 
+      "entity": "Q13427", 
+      "id": "HD 23850"
+   }, 
+   "HD 100029": {
+      "common_names": [
+         "Giausar"
+      ], 
+      "coordinates": {
+         "dec": 69.33107, 
+         "ra": 172.85092
+      }, 
+      "label": "Lambda Draconis", 
+      "magnitude": 3.8499999046325684, 
+      "entity": "Q1347243", 
+      "id": "HD 100029"
+   }, 
+   "HD 156164": {
+      "common_names": [
+         "Sarin"
+      ], 
+      "coordinates": {
+         "dec": 24.83921, 
+         "ra": 258.75796
+      }, 
+      "label": "Delta Herculis", 
+      "magnitude": 3.130000114440918, 
+      "entity": "Q13347", 
+      "id": "HD 156164"
+   }, 
+   "HD 95272": {
+      "common_names": [
+         "Alkes"
+      ], 
+      "coordinates": {
+         "dec": -18.29878, 
+         "ra": 164.9436
+      }, 
+      "label": "Alpha Crateris", 
+      "magnitude": 4.070000171661377, 
+      "entity": "Q1759080", 
+      "id": "HD 95272"
+   }, 
+   "HD 81797": {
+      "common_names": [
+         "Alphard"
+      ], 
+      "coordinates": {
+         "dec": -8.6586, 
+         "ra": 141.89684
+      }, 
+      "label": "Alphard", 
+      "magnitude": 1.9700000286102295, 
+      "entity": "Q13577", 
+      "id": "HD 81797"
+   }, 
+   "HD 23408": {
+      "common_names": [
+         "Maia"
+      ], 
+      "coordinates": {
+         "dec": 24.3678, 
+         "ra": 56.4567
+      }, 
+      "label": "Maia", 
+      "magnitude": 3.869999885559082, 
+      "entity": "Q13434", 
+      "id": "HD 23408"
+   }, 
+   "HD 203280": {
+      "common_names": [
+         "Alderamin"
+      ], 
+      "coordinates": {
+         "dec": 62.58557, 
+         "ra": 319.64488
+      }, 
+      "label": "Alpha Cephei", 
+      "magnitude": 2.450000047683716, 
+      "entity": "Q13259", 
+      "id": "HD 203280"
+   }, 
+   "HD 36861": {
+      "coordinates": {
+         "dec": 9.93416, 
+         "ra": 83.78449
+      }, 
+      "magnitude": 3.390000104904175, 
+      "id": "HD 36861", 
+      "common_names": [
+         "lambda Ori X-3"
+      ]
+   }, 
+   "HD 23338": {
+      "common_names": [
+         "Taygeta", 
+         "Taygete"
+      ], 
+      "coordinates": {
+         "dec": 24.4672, 
+         "ra": 56.3021
+      }, 
+      "label": "Taygeta", 
+      "magnitude": 4.300000190734863, 
+      "entity": "Q13439", 
+      "id": "HD 23338"
+   }, 
+   "HD 155763": {
+      "common_names": [
+         "Aldhibah"
+      ], 
+      "coordinates": {
+         "dec": 65.71468, 
+         "ra": 257.19665
+      }, 
+      "label": "Zeta Draconis", 
+      "magnitude": 3.1700000762939453, 
+      "entity": "Q15713", 
+      "id": "HD 155763"
+   }, 
+   "HD 168454": {
+      "common_names": [
+         "Kaus Media"
+      ], 
+      "coordinates": {
+         "dec": -29.8281, 
+         "ra": 275.24851
+      }, 
+      "label": "Delta Sagittarii", 
+      "magnitude": 2.700000047683716, 
+      "entity": "Q14038", 
+      "id": "HD 168454"
+   }, 
+   "HD 111123": {
+      "common_names": [
+         "Mimosa"
+      ], 
+      "coordinates": {
+         "dec": -59.6886, 
+         "ra": 191.93
+      }, 
+      "label": "Mimosa", 
+      "magnitude": 1.25, 
+      "entity": "Q13105", 
+      "id": "HD 111123"
+   }, 
+   "HD 22049": {
+      "common_names": [
+         "Ran"
+      ], 
+      "coordinates": {
+         "dec": -9.45826, 
+         "ra": 53.23269
+      }, 
+      "label": "Epsilon Eridani", 
+      "magnitude": 3.7300000190734863, 
+      "entity": "Q194394", 
+      "id": "HD 22049"
+   }, 
+   "HD 177482": {
+      "common_names": [
+         "Polaris Australis"
+      ], 
+      "coordinates": {
+         "dec": -88.9564, 
+         "ra": 317.1925
+      }, 
+      "label": "Sigma Octantis", 
+      "magnitude": 5.46999979019165, 
+      "entity": "Q584553", 
+      "id": "HD 177482"
+   }, 
+   "HD 886": {
+      "common_names": [
+         "Algenib"
+      ], 
+      "coordinates": {
+         "dec": 15.18359, 
+         "ra": 3.30896
+      }, 
+      "label": "Gamma Pegasi", 
+      "magnitude": 2.8399999141693115, 
+      "entity": "Q954716", 
+      "id": "HD 886"
+   }, 
+   "HD 125337": {
+      "common_names": [
+         "Khambalia"
+      ], 
+      "coordinates": {
+         "dec": -13.3711, 
+         "ra": 214.77747
+      }, 
+      "label": "Lambda Virginis", 
+      "magnitude": 4.519999980926514, 
+      "entity": "Q968611", 
+      "id": "HD 125337"
+   }, 
+   "HD 8207": {
+      "common_names": [
+         "Adhil"
+      ], 
+      "coordinates": {
+         "dec": 45.52878, 
+         "ra": 20.58508
+      }, 
+      "label": "Xi Andromedae", 
+      "magnitude": 4.900000095367432, 
+      "entity": "Q356632", 
+      "id": "HD 8207"
+   }, 
+   "HD 50310": {
+      "common_names": [
+         "Taleban", 
+         "Altaleban"
+      ], 
+      "coordinates": {
+         "dec": -50.6147, 
+         "ra": 102.4842
+      }, 
+      "label": "Tau Puppis", 
+      "magnitude": 2.930000066757202, 
+      "entity": "Q14057", 
+      "id": "HD 50310"
+   }, 
+   "HD 29139": {
+      "common_names": [
+         "Aldebaran"
+      ], 
+      "coordinates": {
+         "dec": 16.5093, 
+         "ra": 68.98016
+      }, 
+      "label": "Aldebaran", 
+      "magnitude": 0.8600000143051147, 
+      "entity": "Q12170", 
+      "id": "HD 29139"
+   }, 
+   "HD 105707": {
+      "common_names": [
+         "Minkar"
+      ], 
+      "coordinates": {
+         "dec": -22.61977, 
+         "ra": 182.53117
+      }, 
+      "label": "Epsilon Corvi", 
+      "magnitude": 2.9800000190734863, 
+      "entity": "Q15700", 
+      "id": "HD 105707"
+   }, 
+   "HD 24912": {
+      "common_names": [
+         "Menkhib", 
+         "Menkib"
+      ], 
+      "coordinates": {
+         "dec": 35.79103, 
+         "ra": 59.74126
+      }, 
+      "label": "Xi Persei", 
+      "magnitude": 4.039999961853027, 
+      "entity": "Q1194275", 
+      "id": "HD 24912"
+   }, 
+   "HD 169916": {
+      "common_names": [
+         "Kaus Borealis"
+      ], 
+      "coordinates": {
+         "dec": -25.4217, 
+         "ra": 276.99267
+      }, 
+      "label": "Lambda Sagittarii", 
+      "magnitude": 2.809999942779541, 
+      "entity": "Q14040", 
+      "id": "HD 169916"
+   }, 
+   "HD 23862": {
+      "common_names": [
+         "Pleione"
+      ], 
+      "coordinates": {
+         "dec": 24.1367, 
+         "ra": 57.2967
+      }, 
+      "label": "Pleione", 
+      "magnitude": 5.090000152587891, 
+      "entity": "Q13440", 
+      "id": "HD 23862"
+   }, 
+   "HD 56986": {
+      "common_names": [
+         "Wasat"
+      ], 
+      "coordinates": {
+         "dec": 21.98232, 
+         "ra": 110.03075
+      }, 
+      "label": "Delta Geminorum", 
+      "magnitude": 3.5299999713897705, 
+      "entity": "Q505787", 
+      "id": "HD 56986"
+   }, 
+   "HD 116842": {
+      "coordinates": {
+         "dec": 54.9881, 
+         "ra": 201.3062
+      }, 
+      "magnitude": 4.010000228881836, 
+      "id": "HD 116842", 
+      "common_names": [
+         "Alcor"
+      ]
+   }, 
+   "HD 54605": {
+      "common_names": [
+         "Wezen"
+      ], 
+      "coordinates": {
+         "dec": -26.3932, 
+         "ra": 107.09785
+      }, 
+      "label": "Delta Canis Majoris", 
+      "magnitude": 1.840000033378601, 
+      "entity": "Q13411", 
+      "id": "HD 54605"
+   }, 
+   "HD 216385": {
+      "coordinates": {
+         "dec": 9.83566, 
+         "ra": 343.10031
+      }, 
+      "magnitude": 5.159999847412109, 
+      "id": "HD 216385", 
+      "common_names": [
+         "sig Peg A"
+      ]
+   }, 
+   "HD 131873": {
+      "common_names": [
+         "Kochab"
+      ], 
+      "coordinates": {
+         "dec": 74.1555, 
+         "ra": 222.67636
+      }, 
+      "label": "Beta Ursae Minoris", 
+      "magnitude": 2.0799999237060547, 
+      "entity": "Q14059", 
+      "id": "HD 131873"
+   }, 
+   "HD 85503": {
+      "coordinates": {
+         "dec": 26.00695, 
+         "ra": 148.1909
+      }, 
+      "magnitude": 3.880000114440918, 
+      "id": "HD 85503", 
+      "common_names": [
+         "Rasalas"
+      ]
+   }, 
+   "HD 172167": {
+      "common_names": [
+         "Vega"
+      ], 
+      "coordinates": {
+         "dec": 38.78369, 
+         "ra": 279.23473
+      }, 
+      "label": "Vega", 
+      "magnitude": 0.029999999329447746, 
+      "entity": "Q3427", 
+      "id": "HD 172167"
+   }, 
+   "HD 3712": {
+      "common_names": [
+         "Schedar"
+      ], 
+      "coordinates": {
+         "dec": 56.53733, 
+         "ra": 10.12684
+      }, 
+      "label": "Alpha Cassiopeiae", 
+      "magnitude": 2.2300000190734863, 
+      "entity": "Q13108", 
+      "id": "HD 3712"
+   }, 
+   "HD 74198": {
+      "common_names": [
+         "Asellus Borealis"
+      ], 
+      "coordinates": {
+         "dec": 21.4685, 
+         "ra": 130.82145
+      }, 
+      "label": "Gamma Cancri", 
+      "magnitude": 4.659999847412109, 
+      "entity": "Q15707", 
+      "id": "HD 74198"
+   }, 
+   "HD 2261": {
+      "common_names": [
+         "Ankaa"
+      ], 
+      "coordinates": {
+         "dec": -42.3061, 
+         "ra": 6.5708
+      }, 
+      "label": "Alpha Phoenicis", 
+      "magnitude": 2.390000104904175, 
+      "entity": "Q14251", 
+      "id": "HD 2261"
+   }, 
+   "HD 148112": {
+      "common_names": [
+         "Cujam"
+      ], 
+      "coordinates": {
+         "dec": 14.03327, 
+         "ra": 246.35398
+      }, 
+      "label": "Omega Herculis", 
+      "magnitude": 4.579999923706055, 
+      "entity": "Q1759003", 
+      "id": "HD 148112"
+   }, 
+   "HD 158408": {
+      "common_names": [
+         "Lesath"
+      ], 
+      "coordinates": {
+         "dec": -37.29581, 
+         "ra": 262.69099
+      }, 
+      "label": "Upsilon Scorpii", 
+      "magnitude": 2.680000066757202, 
+      "entity": "Q431136", 
+      "id": "HD 158408"
+   }, 
+   "HD 23432": {
+      "common_names": [
+         "Asterope"
+      ], 
+      "coordinates": {
+         "dec": 24.5547, 
+         "ra": 56.4767
+      }, 
+      "label": "Asterope", 
+      "magnitude": 5.760000228881836, 
+      "entity": "Q13446", 
+      "id": "HD 23432"
+   }, 
+   "HD 123139": {
+      "common_names": [
+         "Menkent"
+      ], 
+      "coordinates": {
+         "dec": -36.36995, 
+         "ra": 211.67061
+      }, 
+      "label": "Theta Centauri", 
+      "magnitude": 2.059999942779541, 
+      "entity": "Q14225", 
+      "id": "HD 123139"
+   }, 
+   "HD 69267": {
+      "common_names": [
+         "Altarf"
+      ], 
+      "coordinates": {
+         "dec": 9.18554, 
+         "ra": 124.12884
+      }, 
+      "label": "Beta Cancri", 
+      "magnitude": 3.5299999713897705, 
+      "entity": "Q13766", 
+      "id": "HD 69267"
+   }, 
+   "HD 89758": {
+      "common_names": [
+         "Tania Australis"
+      ], 
+      "coordinates": {
+         "dec": 41.49952, 
+         "ra": 155.58225
+      }, 
+      "label": "Mu Ursae Majoris", 
+      "magnitude": 3.049999952316284, 
+      "entity": "Q1335059", 
+      "id": "HD 89758"
+   }, 
+   "HD 137909": {
+      "common_names": [
+         "Nusakan"
+      ], 
+      "coordinates": {
+         "dec": 29.1057, 
+         "ra": 231.95721
+      }, 
+      "label": "Beta Coronae Borealis", 
+      "magnitude": 3.680000066757202, 
+      "entity": "Q830861", 
+      "id": "HD 137909"
+   }, 
+   "HD 187642": {
+      "common_names": [
+         "Altair"
+      ], 
+      "coordinates": {
+         "dec": 8.86832, 
+         "ra": 297.69583
+      }, 
+      "label": "Altair", 
+      "magnitude": 0.7599999904632568, 
+      "entity": "Q12975", 
+      "id": "HD 187642"
+   }, 
+   "HD 4128": {
+      "common_names": [
+         "Diphda"
+      ], 
+      "coordinates": {
+         "dec": -17.98661, 
+         "ra": 10.89738
+      }, 
+      "label": "Beta Ceti", 
+      "magnitude": 2.0199999809265137, 
+      "entity": "Q13170", 
+      "id": "HD 4128"
+   }, 
+   "HD 56855": {
+      "common_names": [
+         "Ahadi"
+      ], 
+      "coordinates": {
+         "dec": -37.0975, 
+         "ra": 109.2858
+      }, 
+      "label": "Pi Puppis", 
+      "magnitude": 2.700000047683716, 
+      "entity": "Q14054", 
+      "id": "HD 56855"
+   }, 
+   "HD 34085": {
+      "common_names": [
+         "Rigel"
+      ], 
+      "coordinates": {
+         "dec": -8.20164, 
+         "ra": 78.63447
+      }, 
+      "label": "Rigel", 
+      "magnitude": 0.12999999523162842, 
+      "entity": "Q12126", 
+      "id": "HD 34085"
+   }, 
+   "HD 18411": {
+      "common_names": [
+         "Gorgonea Secunda"
+      ], 
+      "coordinates": {
+         "dec": 39.66273, 
+         "ra": 44.69029
+      }, 
+      "label": "Pi Persei", 
+      "magnitude": 4.699999809265137, 
+      "entity": "Q3232264", 
+      "id": "HD 18411"
+   }, 
+   "HD 33111": {
+      "common_names": [
+         "Cursa"
+      ], 
+      "coordinates": {
+         "dec": -5.08645, 
+         "ra": 76.96244
+      }, 
+      "label": "Beta Eridani", 
+      "magnitude": 2.7899999618530273, 
+      "entity": "Q13350", 
+      "id": "HD 33111"
+   }, 
+   "HD 11353": {
+      "common_names": [
+         "Baten Kaitos"
+      ], 
+      "coordinates": {
+         "dec": -10.33504, 
+         "ra": 27.86514
+      }, 
+      "label": "Zeta Ceti", 
+      "magnitude": 3.7200000286102295, 
+      "entity": "Q810765", 
+      "id": "HD 11353"
+   }, 
+   "HD 155125": {
+      "common_names": [
+         "Sabik"
+      ], 
+      "coordinates": {
+         "dec": -15.72491, 
+         "ra": 257.59453
+      }, 
+      "label": "Eta Ophiuchi", 
+      "magnitude": 2.4200000762939453, 
+      "entity": "Q670536", 
+      "id": "HD 155125"
+   }, 
+   "HD 67523": {
+      "common_names": [
+         "Tureis"
+      ], 
+      "coordinates": {
+         "dec": -24.30432, 
+         "ra": 121.88604
+      }, 
+      "label": "Rho Puppis", 
+      "magnitude": 2.809999942779541, 
+      "entity": "Q14055", 
+      "id": "HD 67523"
+   }, 
+   "HD 38771": {
+      "common_names": [
+         "Saiph"
+      ], 
+      "coordinates": {
+         "dec": -9.6696, 
+         "ra": 86.93912
+      }, 
+      "label": "Saiph", 
+      "magnitude": 2.049999952316284, 
+      "entity": "Q14028", 
+      "id": "HD 38771"
+   }, 
+   "HD 20320": {
+      "common_names": [
+         "Zibal"
+      ], 
+      "coordinates": {
+         "dec": -8.81973, 
+         "ra": 48.95844
+      }, 
+      "label": "Zeta Eridani", 
+      "magnitude": 4.800000190734863, 
+      "entity": "Q5174820", 
+      "id": "HD 20320"
+   }, 
+   "HD 59717": {
+      "common_names": [
+         "Hadir"
+      ], 
+      "coordinates": {
+         "dec": -43.3014, 
+         "ra": 112.3075
+      }, 
+      "label": "Sigma Puppis", 
+      "magnitude": 3.25, 
+      "entity": "Q1283215", 
+      "id": "HD 59717"
+   }, 
+   "HD 23180": {
+      "common_names": [
+         "Atik"
+      ], 
+      "coordinates": {
+         "dec": 32.28825, 
+         "ra": 56.07972
+      }, 
+      "label": "Omicron Persei", 
+      "magnitude": 3.8299999237060547, 
+      "entity": "Q755863", 
+      "id": "HD 23180"
+   }, 
+   "HD 58715": {
+      "common_names": [
+         "Gomeisa"
+      ], 
+      "coordinates": {
+         "dec": 8.28932, 
+         "ra": 111.78767
+      }, 
+      "label": "Beta Canis Minoris", 
+      "magnitude": 2.890000104904175, 
+      "entity": "Q13420", 
+      "id": "HD 58715"
+   }, 
+   "HD 97633": {
+      "common_names": [
+         "Chertan"
+      ], 
+      "coordinates": {
+         "dec": 15.42957, 
+         "ra": 168.56002
+      }, 
+      "label": "Theta Leonis", 
+      "magnitude": 3.3499999046325684, 
+      "entity": "Q14206", 
+      "id": "HD 97633"
+   }, 
+   "HD 123299": {
+      "common_names": [
+         "Thuban"
+      ], 
+      "coordinates": {
+         "dec": 64.37585, 
+         "ra": 211.09729
+      }, 
+      "label": "Thuban", 
+      "magnitude": 3.6500000953674316, 
+      "entity": "Q15714", 
+      "id": "HD 123299"
+   }, 
+   "HD 19787": {
+      "common_names": [
+         "Botein"
+      ], 
+      "coordinates": {
+         "dec": 19.72668, 
+         "ra": 47.90735
+      }, 
+      "label": "Delta Arietis", 
+      "magnitude": 4.369999885559082, 
+      "entity": "Q894687", 
+      "id": "HD 19787"
+   }, 
+   "HD 218045": {
+      "common_names": [
+         "Markab"
+      ], 
+      "coordinates": {
+         "dec": 15.20527, 
+         "ra": 346.19022
+      }, 
+      "label": "Alpha Pegasi", 
+      "magnitude": 2.4800000190734863, 
+      "entity": "Q14262", 
+      "id": "HD 218045"
+   }, 
+   "HD 74442": {
+      "common_names": [
+         "Asellus Australis"
+      ], 
+      "coordinates": {
+         "dec": 18.15431, 
+         "ra": 131.17125
+      }, 
+      "label": "Delta Cancri", 
+      "magnitude": 3.940000057220459, 
+      "entity": "Q15706", 
+      "id": "HD 74442"
+   }, 
+   "HD 127762": {
+      "common_names": [
+         "Seginus"
+      ], 
+      "coordinates": {
+         "dec": 38.30825, 
+         "ra": 218.01947
+      }, 
+      "label": "Gamma Bo\u00f6tis", 
+      "magnitude": 3.0199999809265137, 
+      "entity": "Q14022", 
+      "id": "HD 127762"
+   }, 
+   "HD 9906": {
+      "common_names": [
+         "CCD J01361-2954AB"
+      ], 
+      "coordinates": {
+         "dec": -29.9075, 
+         "ra": 24.035
+      }, 
+      "label": "Tau Sculptoris", 
+      "magnitude": 5.690000057220459, 
+      "entity": "Q5178025", 
+      "id": "HD 9906"
+   }, 
+   "HD 113226": {
+      "common_names": [
+         "Vindemiatrix"
+      ], 
+      "coordinates": {
+         "dec": 10.95915, 
+         "ra": 195.54416
+      }, 
+      "label": "Epsilon Virginis", 
+      "magnitude": 2.8399999141693115, 
+      "entity": "Q14198", 
+      "id": "HD 113226"
+   }, 
+   "HD 166937": {
+      "common_names": [
+         "Polis"
+      ], 
+      "coordinates": {
+         "dec": -21.05883, 
+         "ra": 273.44087
+      }, 
+      "label": "Mu Sagittarii", 
+      "magnitude": 3.8499999046325684, 
+      "entity": "Q2482706", 
+      "id": "HD 166937"
+   }, 
+   "HD 158899": {
+      "common_names": [
+         "Maasym"
+      ], 
+      "coordinates": {
+         "dec": 26.11064, 
+         "ra": 262.68463
+      }, 
+      "label": "Lambda Herculis", 
+      "magnitude": 4.409999847412109, 
+      "entity": "Q1536950", 
+      "id": "HD 158899"
+   }, 
+   "HD 116658": {
+      "common_names": [
+         "Spica"
+      ], 
+      "coordinates": {
+         "dec": -11.16132, 
+         "ra": 201.29825
+      }, 
+      "label": "Spica", 
+      "magnitude": 0.9700000286102295, 
+      "entity": "Q13008", 
+      "id": "HD 116658"
+   }, 
+   "HD 37043": {
+      "common_names": [
+         "Hatysa"
+      ], 
+      "coordinates": {
+         "dec": -5.9099, 
+         "ra": 83.85826
+      }, 
+      "label": "Iota Orionis", 
+      "magnitude": 2.7699999809265137, 
+      "entity": "Q14029", 
+      "id": "HD 37043"
+   }, 
+   "HD 40183": {
+      "common_names": [
+         "Menkalinan"
+      ], 
+      "coordinates": {
+         "dec": 44.94743, 
+         "ra": 89.88218
+      }, 
+      "label": "Beta Aurigae", 
+      "magnitude": 1.899999976158142, 
+      "entity": "Q13219", 
+      "id": "HD 40183"
+   }, 
+   "HD 169022": {
+      "common_names": [
+         "Kaus Australis"
+      ], 
+      "coordinates": {
+         "dec": -34.38462, 
+         "ra": 276.04299
+      }, 
+      "label": "Epsilon Sagittarii", 
+      "magnitude": 1.850000023841858, 
+      "entity": "Q14034", 
+      "id": "HD 169022"
+   }, 
+   "HD 31398": {
+      "common_names": [
+         "Hassaleh"
+      ], 
+      "coordinates": {
+         "dec": 33.1661, 
+         "ra": 74.24842
+      }, 
+      "label": "Iota Aurigae", 
+      "magnitude": 2.690000057220459, 
+      "entity": "Q13225", 
+      "id": "HD 31398"
+   }, 
+   "HD 68273": {
+      "common_names": [
+         "Regor"
+      ], 
+      "coordinates": {
+         "dec": -47.33659, 
+         "ra": 122.38313
+      }, 
+      "label": "Gamma Velorum", 
+      "magnitude": 1.8300000429153442, 
+      "entity": "Q14235", 
+      "id": "HD 68273"
+   }, 
+   "HD 133640": {
+      "common_names": [
+         "I Boo*"
+      ], 
+      "coordinates": {
+         "dec": 47.6544, 
+         "ra": 225.9475
+      }, 
+      "label": "44 Bo\u00f6tis", 
+      "magnitude": 4.760000228881836, 
+      "entity": "Q1326486", 
+      "id": "HD 133640"
+   }, 
+   "HD 58350": {
+      "common_names": [
+         "Aludra"
+      ], 
+      "coordinates": {
+         "dec": -29.30311, 
+         "ra": 111.02376
+      }, 
+      "label": "Eta Canis Majoris", 
+      "magnitude": 2.440000057220459, 
+      "entity": "Q13416", 
+      "id": "HD 58350"
+   }, 
+   "HD 217014": {
+      "common_names": [
+         "Helvetios"
+      ], 
+      "coordinates": {
+         "dec": 20.7689, 
+         "ra": 344.3662
+      }, 
+      "label": "51 Pegasi", 
+      "magnitude": 5.489999771118164, 
+      "entity": "Q14265", 
+      "id": "HD 217014"
+   }, 
+   "HD 10761": {
+      "common_names": [
+         "Torcular"
+      ], 
+      "coordinates": {
+         "dec": 9.15774, 
+         "ra": 26.34847
+      }, 
+      "label": "Omicron Piscium", 
+      "magnitude": 4.260000228881836, 
+      "entity": "Q1339867", 
+      "id": "HD 10761"
+   }, 
+   "HD 116656": {
+      "common_names": [
+         "Mizar A"
+      ], 
+      "coordinates": {
+         "dec": 54.92536, 
+         "ra": 200.98143
+      }, 
+      "label": "Mizar", 
+      "magnitude": 2.059999942779541, 
+      "entity": "Q13086", 
+      "id": "HD 116656"
+   }, 
+   "HD 36822": {
+      "common_names": [
+         "lambda Ori X-5"
+      ], 
+      "coordinates": {
+         "dec": 9.48958, 
+         "ra": 83.70516
+      }, 
+      "label": "Phi1 Orionis", 
+      "magnitude": 4.409999847412109, 
+      "entity": "Q2088389", 
+      "id": "HD 36822"
+   }, 
+   "HD 25025": {
+      "common_names": [
+         "Zaurak"
+      ], 
+      "coordinates": {
+         "dec": -13.50852, 
+         "ra": 59.50736
+      }, 
+      "label": "Gamma Eridani", 
+      "magnitude": 2.940000057220459, 
+      "entity": "Q166815", 
+      "id": "HD 25025"
+   }, 
+   "HD 78647": {
+      "common_names": [
+         "Suhail"
+      ], 
+      "coordinates": {
+         "dec": -43.4325, 
+         "ra": 136.9992
+      }, 
+      "label": "Lambda Velorum", 
+      "magnitude": 2.2100000381469727, 
+      "entity": "Q14245", 
+      "id": "HD 78647"
+   }, 
+   "HD 95689": {
+      "common_names": [
+         "Dubhe"
+      ], 
+      "coordinates": {
+         "dec": 61.75103, 
+         "ra": 165.93196
+      }, 
+      "label": "Alpha Ursae Majoris", 
+      "magnitude": 1.7899999618530273, 
+      "entity": "Q13084", 
+      "id": "HD 95689"
+   }, 
+   "HD 193924": {
+      "common_names": [
+         "Peacock"
+      ], 
+      "coordinates": {
+         "dec": -56.735, 
+         "ra": 306.4121
+      }, 
+      "label": "Alpha Pavonis", 
+      "magnitude": 1.940000057220459, 
+      "entity": "Q14240", 
+      "id": "HD 193924"
+   }, 
+   "HD 216956": {
+      "common_names": [
+         "Fomalhaut"
+      ], 
+      "coordinates": {
+         "dec": -29.62224, 
+         "ra": 344.41269
+      }, 
+      "label": "Fomalhaut", 
+      "magnitude": 1.159999966621399, 
+      "entity": "Q13169", 
+      "id": "HD 216956"
+   }, 
+   "HD 47670": {
+      "common_names": [
+         "Kaimana"
+      ], 
+      "coordinates": {
+         "dec": -43.19593, 
+         "ra": 99.4403
+      }, 
+      "label": "Nu Puppis", 
+      "magnitude": 3.1700000762939453, 
+      "entity": "Q2402166", 
+      "id": "HD 47670"
+   }, 
+   "HD 205021": {
+      "common_names": [
+         "Alfirk"
+      ], 
+      "coordinates": {
+         "dec": 70.56072, 
+         "ra": 322.16499
+      }, 
+      "label": "Beta Cephei", 
+      "magnitude": 3.2300000190734863, 
+      "entity": "Q13264", 
+      "id": "HD 205021"
+   }, 
+   "HD 210418": {
+      "common_names": [
+         "Biham"
+      ], 
+      "coordinates": {
+         "dec": 6.19786, 
+         "ra": 332.54994
+      }, 
+      "label": "Theta Pegasi", 
+      "magnitude": 3.549999952316284, 
+      "entity": "Q800204", 
+      "id": "HD 210418"
+   }, 
+   "HD 95418": {
+      "common_names": [
+         "Merak"
+      ], 
+      "coordinates": {
+         "dec": 56.38243, 
+         "ra": 165.46032
+      }, 
+      "label": "Beta Ursae Majoris", 
+      "magnitude": 2.369999885559082, 
+      "entity": "Q13096", 
+      "id": "HD 95418"
+   }, 
+   "HD 185144": {
+      "common_names": [
+         "Alsafi"
+      ], 
+      "coordinates": {
+         "dec": 69.66118, 
+         "ra": 293.08996
+      }, 
+      "label": "Sigma Draconis", 
+      "magnitude": 4.690000057220459, 
+      "entity": "Q311489", 
+      "id": "HD 185144"
+   }, 
+   "HD 9826": {
+      "common_names": [
+         "Titawin"
+      ], 
+      "coordinates": {
+         "dec": 41.40546, 
+         "ra": 24.19934
+      }, 
+      "label": "Upsilon Andromedae", 
+      "magnitude": 4.099999904632568, 
+      "entity": "Q848579", 
+      "id": "HD 9826"
+   }, 
+   "HD 98230J": {
+      "common_names": [
+         "Alula Australis"
+      ], 
+      "coordinates": {
+         "dec": 31.52929, 
+         "ra": 169.54555
+      }, 
+      "label": "Xi Ursae Majoris", 
+      "magnitude": 3.7899999618530273, 
+      "entity": "Q1072624", 
+      "id": "HD 98230J"
+   }, 
+   "HD 358": {
+      "common_names": [
+         "Alpheratz", 
+         "Sirrah"
+      ], 
+      "coordinates": {
+         "dec": 29.09043, 
+         "ra": 2.09692
+      }, 
+      "label": "Alpha Andromedae", 
+      "magnitude": 2.059999942779541, 
+      "entity": "Q13039", 
+      "id": "HD 358"
+   }, 
+   "HD 30652": {
+      "common_names": [
+         "Tabit"
+      ], 
+      "coordinates": {
+         "dec": 6.96127, 
+         "ra": 72.46005
+      }, 
+      "label": "Pi3 Orionis", 
+      "magnitude": 3.190000057220459, 
+      "entity": "Q14216", 
+      "id": "HD 30652"
+   }, 
+   "HD 185758": {
+      "common_names": [
+         "Sham"
+      ], 
+      "coordinates": {
+         "dec": 18.01389, 
+         "ra": 295.02413
+      }, 
+      "label": "Alpha Sagittae", 
+      "magnitude": 4.369999885559082, 
+      "entity": "Q379214", 
+      "id": "HD 185758"
+   }, 
+   "HD 44743": {
+      "common_names": [
+         "Mirzam"
+      ], 
+      "coordinates": {
+         "dec": -17.95592, 
+         "ra": 95.67494
+      }, 
+      "label": "Beta Canis Majoris", 
+      "magnitude": 1.9700000286102295, 
+      "entity": "Q13415", 
+      "id": "HD 44743"
+   }, 
+   "HD 8890": {
+      "coordinates": {
+         "dec": 89.26411, 
+         "ra": 37.95456
+      }, 
+      "magnitude": 2.0199999809265137, 
+      "id": "HD 8890", 
+      "common_names": [
+         "Lodestar", 
+         "Polaris", 
+         "North Star"
+      ]
+   }, 
+   "HD 27697": {
+      "common_names": [
+         "Secunda Hyadum"
+      ], 
+      "coordinates": {
+         "dec": 17.54251, 
+         "ra": 65.73372
+      }, 
+      "label": "Delta Tauri", 
+      "magnitude": 3.759999990463257, 
+      "entity": "Q1307884", 
+      "id": "HD 27697"
+   }, 
+   "HD 194093": {
+      "common_names": [
+         "SADR"
+      ], 
+      "coordinates": {
+         "dec": 40.25668, 
+         "ra": 305.55709
+      }, 
+      "label": "Gamma Cygni", 
+      "magnitude": 2.2300000190734863, 
+      "entity": "Q13327", 
+      "id": "HD 194093"
+   }, 
+   "HD 4614": {
+      "common_names": [
+         "Achird"
+      ], 
+      "coordinates": {
+         "dec": 57.81519, 
+         "ra": 12.27621
+      }, 
+      "label": "Eta Cassiopeiae", 
+      "magnitude": 3.440000057220459, 
+      "entity": "Q13605", 
+      "id": "HD 4614"
+   }, 
+   "HD 36486": {
+      "common_names": [
+         "Mintaka"
+      ], 
+      "coordinates": {
+         "dec": -0.29909, 
+         "ra": 83.00167
+      }, 
+      "label": "Mintaka", 
+      "magnitude": 2.240000009536743, 
+      "entity": "Q680341", 
+      "id": "HD 36486"
+   }, 
+   "HD 163588": {
+      "common_names": [
+         "Grumium"
+      ], 
+      "coordinates": {
+         "dec": 56.87264, 
+         "ra": 268.38221
+      }, 
+      "label": "Xi Draconis", 
+      "magnitude": 3.75, 
+      "entity": "Q1758971", 
+      "id": "HD 163588"
+   }, 
+   "HD 97603": {
+      "common_names": [
+         "Zosma"
+      ], 
+      "coordinates": {
+         "dec": 20.52372, 
+         "ra": 168.52709
+      }, 
+      "label": "Delta Leonis", 
+      "magnitude": 2.559999942779541, 
+      "entity": "Q14204", 
+      "id": "HD 97603"
+   }, 
+   "HD 29503": {
+      "common_names": [
+         "Sceptrum"
+      ], 
+      "coordinates": {
+         "dec": -14.3039, 
+         "ra": 69.545
+      }, 
+      "label": "53 Eridani", 
+      "magnitude": 3.869999885559082, 
+      "entity": "Q243233", 
+      "id": "HD 29503"
+   }, 
+   "HD 19476": {
+      "common_names": [
+         "Misam"
+      ], 
+      "coordinates": {
+         "dec": 44.85754, 
+         "ra": 47.37405
+      }, 
+      "label": "Kappa Persei", 
+      "magnitude": 3.809999942779541, 
+      "entity": "Q1758874", 
+      "id": "HD 19476"
+   }, 
+   "HD 217906": {
+      "common_names": [
+         "Scheat"
+      ], 
+      "coordinates": {
+         "dec": 28.08279, 
+         "ra": 345.94357
+      }, 
+      "label": "Beta Pegasi", 
+      "magnitude": 2.4200000762939453, 
+      "entity": "Q14258", 
+      "id": "HD 217906"
+   }, 
+   "HD 39801": {
+      "common_names": [
+         "Betelgeuse"
+      ], 
+      "coordinates": {
+         "dec": 7.40706, 
+         "ra": 88.79294
+      }, 
+      "label": "Betelgeuse", 
+      "magnitude": 0.41999998688697815, 
+      "entity": "Q12124", 
+      "id": "HD 39801"
+   }, 
+   "HD 145502": {
+      "coordinates": {
+         "dec": -19.4607, 
+         "ra": 242.9989
+      }, 
+      "magnitude": 4.0, 
+      "id": "HD 145502", 
+      "common_names": [
+         "Jabbah"
+      ]
+   }, 
+   "HD 106591": {
+      "common_names": [
+         "Megrez"
+      ], 
+      "coordinates": {
+         "dec": 57.03262, 
+         "ra": 183.8565
+      }, 
+      "label": "Delta Ursae Majoris", 
+      "magnitude": 3.309999942779541, 
+      "entity": "Q850779", 
+      "id": "HD 106591"
+   }, 
+   "HD 109358": {
+      "common_names": [
+         "Chara"
+      ], 
+      "coordinates": {
+         "dec": 41.35748, 
+         "ra": 188.4356
+      }, 
+      "label": "Beta Canum Venaticorum", 
+      "magnitude": 4.269999980926514, 
+      "entity": "Q44409", 
+      "id": "HD 109358"
+   }, 
+   "HD 215182": {
+      "common_names": [
+         "Matar"
+      ], 
+      "coordinates": {
+         "dec": 30.22124, 
+         "ra": 340.75057
+      }, 
+      "label": "Eta Pegasi", 
+      "magnitude": 2.950000047683716, 
+      "entity": "Q1417104", 
+      "id": "HD 215182"
+   }, 
+   "HD 130945": {
+      "common_names": [
+         "Merga"
+      ], 
+      "coordinates": {
+         "dec": 46.1161, 
+         "ra": 222.3279
+      }, 
+      "label": "38 Bo\u00f6tis", 
+      "magnitude": 5.739999771118164, 
+      "entity": "Q228635", 
+      "id": "HD 130945"
+   }, 
+   "HD 12446J": {
+      "common_names": [
+         "Alrescha"
+      ], 
+      "coordinates": {
+         "dec": 2.76376, 
+         "ra": 30.51175
+      }, 
+      "label": "Alpha Piscium", 
+      "magnitude": 3.819999933242798, 
+      "entity": "Q14072", 
+      "id": "HD 12446J"
+   }, 
+   "HD 102870": {
+      "common_names": [
+         "Zavijava"
+      ], 
+      "coordinates": {
+         "dec": 1.76472, 
+         "ra": 177.67383
+      }, 
+      "label": "Beta Virginis", 
+      "magnitude": 3.5999999046325684, 
+      "entity": "Q14201", 
+      "id": "HD 102870"
+   }, 
+   "HD 62509": {
+      "common_names": [
+         "Pollux"
+      ], 
+      "coordinates": {
+         "dec": 28.0262, 
+         "ra": 116.32896
+      }, 
+      "label": "Pollux", 
+      "magnitude": 1.1399999856948853, 
+      "entity": "Q13028", 
+      "id": "HD 62509"
+   }, 
+   "HD 148478J": {
+      "common_names": [
+         "Antares"
+      ], 
+      "coordinates": {
+         "dec": -26.432, 
+         "ra": 247.35192
+      }, 
+      "label": "Antares", 
+      "magnitude": 0.9100000262260437, 
+      "entity": "Q12166", 
+      "id": "HD 148478J"
+   }, 
+   "HD 196524": {
+      "common_names": [
+         "Rotanev"
+      ], 
+      "coordinates": {
+         "dec": 14.59509, 
+         "ra": 309.38726
+      }, 
+      "label": "Beta Delphini", 
+      "magnitude": 3.630000114440918, 
+      "entity": "Q13522", 
+      "id": "HD 196524"
+   }, 
+   "HD 83809": {
+      "common_names": [
+         "Subra"
+      ], 
+      "coordinates": {
+         "dec": 9.89231, 
+         "ra": 145.28764
+      }, 
+      "label": "Omicron Leonis", 
+      "magnitude": 3.5199999809265137, 
+      "entity": "Q637953", 
+      "id": "HD 83809"
+   }, 
+   "HD 206936": {
+      "common_names": [
+         "Erakis", 
+         "Herschel's Garnet Star"
+      ], 
+      "coordinates": {
+         "dec": 58.78004, 
+         "ra": 325.87692
+      }, 
+      "label": "Mu Cephei", 
+      "magnitude": 4.170000076293945, 
+      "entity": "Q13781", 
+      "id": "HD 206936"
+   }, 
+   "HD 202447": {
+      "common_names": [
+         "Kitalpha"
+      ], 
+      "coordinates": {
+         "dec": 5.24785, 
+         "ra": 318.95597
+      }, 
+      "label": "Alpha Equulei", 
+      "magnitude": 3.9000000953674316, 
+      "entity": "Q15711", 
+      "id": "HD 202447"
+   }, 
+   "HD 143275": {
+      "common_names": [
+         "Dschubba"
+      ], 
+      "coordinates": {
+         "dec": -22.62171, 
+         "ra": 240.08336
+      }, 
+      "label": "Delta Scorpii", 
+      "magnitude": 2.319999933242798, 
+      "entity": "Q14248", 
+      "id": "HD 143275"
+   }, 
+   "HD 103287": {
+      "common_names": [
+         "Phecda"
+      ], 
+      "coordinates": {
+         "dec": 53.69476, 
+         "ra": 178.4577
+      }, 
+      "label": "Gamma Ursae Majoris", 
+      "magnitude": 2.440000057220459, 
+      "entity": "Q13099", 
+      "id": "HD 103287"
+   }, 
+   "HD 166205": {
+      "common_names": [
+         "Yildun"
+      ], 
+      "coordinates": {
+         "dec": 86.58646, 
+         "ra": 263.05415
+      }, 
+      "label": "Delta Ursae Minoris", 
+      "magnitude": 4.360000133514404, 
+      "entity": "Q14066", 
+      "id": "HD 166205"
+   }, 
+   "HD 170693": {
+      "common_names": [
+         "Fafnir"
+      ], 
+      "coordinates": {
+         "dec": 65.5636, 
+         "ra": 276.4962
+      }, 
+      "label": "42 Draconis", 
+      "magnitude": 4.820000171661377, 
+      "entity": "Q1152871", 
+      "id": "HD 170693"
+   }, 
+   "HD 206672": {
+      "coordinates": {
+         "dec": 51.18962, 
+         "ra": 325.5236
+      }, 
+      "magnitude": 4.670000076293945, 
+      "id": "HD 206672", 
+      "common_names": [
+         "Azelfafage"
+      ]
+   }, 
+   "HD 17824": {
+      "coordinates": {
+         "dec": -21.00402, 
+         "ra": 42.75967
+      }, 
+      "magnitude": 4.739999771118164, 
+      "id": "HD 17824", 
+      "common_names": [
+         "Angetenar"
+      ]
+   }, 
+   "HD 26965": {
+      "common_names": [
+         "Keid"
+      ], 
+      "coordinates": {
+         "dec": -7.65287, 
+         "ra": 63.818
+      }, 
+      "label": "40 Eridani", 
+      "magnitude": 4.429999828338623, 
+      "entity": "Q1052822", 
+      "id": "HD 26965"
+   }, 
+   "HD 209952": {
+      "common_names": [
+         "Alnair"
+      ], 
+      "coordinates": {
+         "dec": -46.9611, 
+         "ra": 332.0583
+      }, 
+      "label": "Alpha Gruis", 
+      "magnitude": 1.7400000095367432, 
+      "entity": "Q854042", 
+      "id": "HD 209952"
+   }, 
+   "HD 432": {
+      "common_names": [
+         "Caph"
+      ], 
+      "coordinates": {
+         "dec": 59.14978, 
+         "ra": 2.29452
+      }, 
+      "label": "Beta Cassiopeiae", 
+      "magnitude": 2.2699999809265137, 
+      "entity": "Q13594", 
+      "id": "HD 432"
+   }, 
+   "HD 181869": {
+      "common_names": [
+         "Rukbat"
+      ], 
+      "coordinates": {
+         "dec": -40.6161, 
+         "ra": 290.9717
+      }, 
+      "label": "Alpha Sagittarii", 
+      "magnitude": 3.9700000286102295, 
+      "entity": "Q911232", 
+      "id": "HD 181869"
+   }, 
+   "HD 34029": {
+      "coordinates": {
+         "dec": 45.99799, 
+         "ra": 79.17233
+      }, 
+      "magnitude": 0.07999999821186066, 
+      "id": "HD 34029", 
+      "common_names": [
+         "Capella"
+      ]
+   }, 
+   "HD 18884": {
+      "common_names": [
+         "Menkar"
+      ], 
+      "coordinates": {
+         "dec": 4.08974, 
+         "ra": 45.56989
+      }, 
+      "label": "Alpha Ceti", 
+      "magnitude": 2.5299999713897705, 
+      "entity": "Q13173", 
+      "id": "HD 18884"
+   }, 
+   "HD 76644": {
+      "common_names": [
+         "Talitha"
+      ], 
+      "coordinates": {
+         "dec": 48.04183, 
+         "ra": 134.80189
+      }, 
+      "label": "Iota Ursae Majoris", 
+      "magnitude": 3.140000104904175, 
+      "entity": "Q1501930", 
+      "id": "HD 76644"
+   }, 
+   "HD 120315": {
+      "common_names": [
+         "Alkaid", 
+         "Alcaid"
+      ], 
+      "coordinates": {
+         "dec": 49.31327, 
+         "ra": 206.88516
+      }, 
+      "label": "Eta Ursae Majoris", 
+      "magnitude": 1.8600000143051147, 
+      "entity": "Q13093", 
+      "id": "HD 120315"
+   }, 
+   "HD 216627": {
+      "common_names": [
+         "Skat"
+      ], 
+      "coordinates": {
+         "dec": -15.82083, 
+         "ra": 343.66256
+      }, 
+      "label": "Delta Aquarii", 
+      "magnitude": 3.2799999713897705, 
+      "entity": "Q13250", 
+      "id": "HD 216627"
+   }, 
+   "HD 28305": {
+      "common_names": [
+         "Ain"
+      ], 
+      "coordinates": {
+         "dec": 19.18043, 
+         "ra": 67.15416
+      }, 
+      "label": "Epsilon Tauri", 
+      "magnitude": 3.5399999618530273, 
+      "entity": "Q405857", 
+      "id": "HD 28305"
+   }, 
+   "HD 87901": {
+      "common_names": [
+         "Regulus"
+      ], 
+      "coordinates": {
+         "dec": 11.96721, 
+         "ra": 152.09296
+      }, 
+      "label": "Regulus", 
+      "magnitude": 1.350000023841858, 
+      "entity": "Q13013", 
+      "id": "HD 87901"
+   }, 
+   "HD 39425": {
+      "common_names": [
+         "Wazn"
+      ], 
+      "coordinates": {
+         "dec": -35.7683, 
+         "ra": 87.74
+      }, 
+      "label": "Beta Columbae", 
+      "magnitude": 3.119999885559082, 
+      "entity": "Q830856", 
+      "id": "HD 39425"
+   }, 
+   "HD 197345": {
+      "common_names": [
+         "Deneb"
+      ], 
+      "coordinates": {
+         "dec": 45.28034, 
+         "ra": 310.35798
+      }, 
+      "label": "Deneb", 
+      "magnitude": 1.25, 
+      "entity": "Q12179", 
+      "id": "HD 197345"
+   }, 
+   "HD 44478": {
+      "common_names": [
+         "Tejat"
+      ], 
+      "coordinates": {
+         "dec": 22.51358, 
+         "ra": 95.74011
+      }, 
+      "label": "Mu Geminorum", 
+      "magnitude": 2.869999885559082, 
+      "entity": "Q1571647", 
+      "id": "HD 44478"
+   }, 
+   "HD 82308": {
+      "common_names": [
+         "Alterf"
+      ], 
+      "coordinates": {
+         "dec": 22.96797, 
+         "ra": 142.93011
+      }, 
+      "label": "Lambda Leonis", 
+      "magnitude": 4.309999942779541, 
+      "entity": "Q438320", 
+      "id": "HD 82308"
+   }, 
+   "HD 183439": {
+      "common_names": [
+         "Anser"
+      ], 
+      "coordinates": {
+         "dec": 24.6649, 
+         "ra": 292.17637
+      }, 
+      "label": "Alpha Vulpeculae", 
+      "magnitude": 4.449999809265137, 
+      "entity": "Q138916", 
+      "id": "HD 183439"
+   }, 
+   "HD 23288": {
+      "common_names": [
+         "Celeno", 
+         "Celaeno"
+      ], 
+      "coordinates": {
+         "dec": 24.2894, 
+         "ra": 56.2008
+      }, 
+      "label": "Celaeno", 
+      "magnitude": 5.460000038146973, 
+      "entity": "Q13445", 
+      "id": "HD 23288"
+   }, 
+   "HD 140573": {
+      "common_names": [
+         "Unukalhai"
+      ], 
+      "coordinates": {
+         "dec": 6.42563, 
+         "ra": 236.06698
+      }, 
+      "label": "Alpha Serpentis", 
+      "magnitude": 2.640000104904175, 
+      "entity": "Q1333626", 
+      "id": "HD 140573"
+   }, 
+   "HD 146791": {
+      "common_names": [
+         "Yed Posterior"
+      ], 
+      "coordinates": {
+         "dec": -4.69251, 
+         "ra": 244.58037
+      }, 
+      "label": "Epsilon Ophiuchi", 
+      "magnitude": 3.2300000190734863, 
+      "entity": "Q1347738", 
+      "id": "HD 146791"
+   }, 
+   "HD 150798": {
+      "common_names": [
+         "Atria"
+      ], 
+      "coordinates": {
+         "dec": -69.0278, 
+         "ra": 252.1662
+      }, 
+      "label": "Alpha Trianguli Australis", 
+      "magnitude": 1.9199999570846558, 
+      "entity": "Q14242", 
+      "id": "HD 150798"
+   }, 
+   "HD 158926": {
+      "common_names": [
+         "Shaula"
+      ], 
+      "coordinates": {
+         "dec": -37.10382, 
+         "ra": 263.40217
+      }, 
+      "label": "Lambda Scorpii", 
+      "magnitude": 1.6299999952316284, 
+      "entity": "Q13023", 
+      "id": "HD 158926"
+   }, 
+   "HD 181623": {
+      "common_names": [
+         "Arkab Posterior"
+      ], 
+      "coordinates": {
+         "dec": -44.79978, 
+         "ra": 290.80474
+      }, 
+      "label": "Beta2 Sagittarii", 
+      "magnitude": 4.289999961853027, 
+      "entity": "Q671815", 
+      "id": "HD 181623"
+   }, 
+   "HD 63700": {
+      "common_names": [
+         "Asmidiske", 
+         "Azmidiske"
+      ], 
+      "coordinates": {
+         "dec": -24.85979, 
+         "ra": 117.32357
+      }, 
+      "label": "Xi Puppis", 
+      "magnitude": 3.3499999046325684, 
+      "entity": "Q1077129", 
+      "id": "HD 63700"
+   }, 
+   "HD 102647": {
+      "common_names": [
+         "Denebola"
+      ], 
+      "coordinates": {
+         "dec": 14.57206, 
+         "ra": 177.26491
+      }, 
+      "label": "Denebola", 
+      "magnitude": 2.140000104904175, 
+      "entity": "Q13015", 
+      "id": "HD 102647"
+   }, 
+   "HD 180711": {
+      "common_names": [
+         "Altais"
+      ], 
+      "coordinates": {
+         "dec": 67.66154, 
+         "ra": 288.13876
+      }, 
+      "label": "Delta Draconis", 
+      "magnitude": 3.069999933242798, 
+      "entity": "Q434054", 
+      "id": "HD 180711"
+   }, 
+   "HD 122451": {
+      "common_names": [
+         "Agena"
+      ], 
+      "coordinates": {
+         "dec": -60.3731, 
+         "ra": 210.9558
+      }, 
+      "label": "Beta Centauri", 
+      "magnitude": 0.6100000143051147, 
+      "entity": "Q13175", 
+      "id": "HD 122451"
+   }, 
+   "HD 40312": {
+      "common_names": [
+         "Mahasim"
+      ], 
+      "coordinates": {
+         "dec": 37.21258, 
+         "ra": 89.93029
+      }, 
+      "label": "Theta Aurigae", 
+      "magnitude": 2.619999885559082, 
+      "entity": "Q13227", 
+      "id": "HD 40312"
+   }, 
+   "HD 136726": {
+      "common_names": [
+         "Pherkad Minor"
+      ], 
+      "coordinates": {
+         "dec": 71.8239, 
+         "ra": 229.2746
+      }, 
+      "label": "11 Ursae Minoris", 
+      "magnitude": 5.019999980926514, 
+      "entity": "Q2983139", 
+      "id": "HD 136726"
+   }, 
+   "HD 199665": {
+      "common_names": [
+         "Musica"
+      ], 
+      "coordinates": {
+         "dec": 10.8392, 
+         "ra": 314.6079
+      }, 
+      "label": "18 Delphini", 
+      "magnitude": 5.480000019073486, 
+      "entity": "Q204485", 
+      "id": "HD 199665"
+   }, 
+   "HD 8538": {
+      "common_names": [
+         "Ruchbah"
+      ], 
+      "coordinates": {
+         "dec": 60.23528, 
+         "ra": 21.45396
+      }, 
+      "label": "Delta Cassiopeiae", 
+      "magnitude": 2.680000066757202, 
+      "entity": "Q13597", 
+      "id": "HD 8538"
+   }, 
+   "HD 80404": {
+      "common_names": [
+         "Aspidiske"
+      ], 
+      "coordinates": {
+         "dec": -59.2753, 
+         "ra": 139.2725
+      }, 
+      "label": "Iota Carinae", 
+      "magnitude": 2.25, 
+      "entity": "Q14247", 
+      "id": "HD 80404"
+   }, 
+   "HD 141003": {
+      "common_names": [
+         "Chow"
+      ], 
+      "coordinates": {
+         "dec": 15.42183, 
+         "ra": 236.54689
+      }, 
+      "label": "Beta Serpentis", 
+      "magnitude": 3.6700000762939453, 
+      "entity": "Q830895", 
+      "id": "HD 141003"
+   }, 
+   "HD 29291": {
+      "common_names": [
+         "Theemin"
+      ], 
+      "coordinates": {
+         "dec": -30.56234, 
+         "ra": 68.88766
+      }, 
+      "label": "Upsilon2 Eridani", 
+      "magnitude": 3.819999933242798, 
+      "entity": "Q2141642", 
+      "id": "HD 29291"
+   }, 
+   "HD 121370": {
+      "common_names": [
+         "Muphrid"
+      ], 
+      "coordinates": {
+         "dec": 18.39772, 
+         "ra": 208.67116
+      }, 
+      "label": "Eta Bo\u00f6tis", 
+      "magnitude": 2.680000066757202, 
+      "entity": "Q14020", 
+      "id": "HD 121370"
+   }, 
+   "HD 105452": {
+      "common_names": [
+         "Alchiba"
+      ], 
+      "coordinates": {
+         "dec": -24.72887, 
+         "ra": 182.1034
+      }, 
+      "label": "Alpha Corvi", 
+      "magnitude": 4.019999980926514, 
+      "entity": "Q15702", 
+      "id": "HD 105452"
+   }, 
+   "HD 196867": {
+      "common_names": [
+         "Svalocin"
+      ], 
+      "coordinates": {
+         "dec": 15.91207, 
+         "ra": 309.90953
+      }, 
+      "label": "Alpha Delphini", 
+      "magnitude": 3.7699999809265137, 
+      "entity": "Q13527", 
+      "id": "HD 196867"
+   }, 
+   "HD 148857": {
+      "common_names": [
+         "Marfik"
+      ], 
+      "coordinates": {
+         "dec": 1.98392, 
+         "ra": 247.72843
+      }, 
+      "label": "Lambda Ophiuchi", 
+      "magnitude": 3.8299999237060547, 
+      "entity": "Q1700110", 
+      "id": "HD 148857"
+   }, 
+   "HD 148856": {
+      "common_names": [
+         "Kornephoros"
+      ], 
+      "coordinates": {
+         "dec": 21.48961, 
+         "ra": 247.555
+      }, 
+      "label": "Beta Herculis", 
+      "magnitude": 2.7699999809265137, 
+      "entity": "Q13337", 
+      "id": "HD 148856"
+   }, 
+   "HD 160691": {
+      "common_names": [
+         "Cervantes"
+      ], 
+      "coordinates": {
+         "dec": -51.83405, 
+         "ra": 266.03625
+      }, 
+      "label": "Mu Arae", 
+      "magnitude": 5.150000095367432, 
+      "entity": "Q667504", 
+      "id": "HD 160691"
+   }, 
+   "HD 161096": {
+      "common_names": [
+         "Cebalrai"
+      ], 
+      "coordinates": {
+         "dec": 4.5673, 
+         "ra": 265.86814
+      }, 
+      "label": "Beta Ophiuchi", 
+      "magnitude": 2.7699999809265137, 
+      "entity": "Q1052228", 
+      "id": "HD 161096"
+   }, 
+   "HD 35468": {
+      "common_names": [
+         "Bellatrix"
+      ], 
+      "coordinates": {
+         "dec": 6.3497, 
+         "ra": 81.28276
+      }, 
+      "label": "Bellatrix", 
+      "magnitude": 1.6399999856948853, 
+      "entity": "Q13066", 
+      "id": "HD 35468"
+   }, 
+   "HD 9270": {
+      "common_names": [
+         "Alpherg"
+      ], 
+      "coordinates": {
+         "dec": 15.34582, 
+         "ra": 22.87088
+      }, 
+      "label": "Eta Piscium", 
+      "magnitude": 3.619999885559082, 
+      "entity": "Q14068", 
+      "id": "HD 9270"
+   }, 
+   "HD 133216": {
+      "common_names": [
+         "Brachium"
+      ], 
+      "coordinates": {
+         "dec": -25.28196, 
+         "ra": 226.01757
+      }, 
+      "label": "Sigma Librae", 
+      "magnitude": 3.2699999809265137, 
+      "entity": "Q15719", 
+      "id": "HD 133216"
+   }, 
+   "HD 95128": {
+      "common_names": [
+         "Chalawan"
+      ], 
+      "coordinates": {
+         "dec": 40.4303, 
+         "ra": 164.8667
+      }, 
+      "label": "47 Ursae Majoris", 
+      "magnitude": 5.050000190734863, 
+      "entity": "Q236654", 
+      "id": "HD 95128"
+   }, 
+   "HD 193495": {
+      "common_names": [
+         "Dabih Major"
+      ], 
+      "coordinates": {
+         "dec": -14.78138, 
+         "ra": 305.25281
+      }, 
+      "label": "Beta Capricorni", 
+      "magnitude": 3.0799999237060547, 
+      "entity": "Q1068047", 
+      "id": "HD 193495"
+   }, 
+   "HD 159561": {
+      "common_names": [
+         "Rasalhague"
+      ], 
+      "coordinates": {
+         "dec": 12.56004, 
+         "ra": 263.73362
+      }, 
+      "label": "Alpha Ophiuchi", 
+      "magnitude": 2.069999933242798, 
+      "entity": "Q13504", 
+      "id": "HD 159561"
+   }, 
+   "HD 186791": {
+      "common_names": [
+         "Tarazed"
+      ], 
+      "coordinates": {
+         "dec": 10.61326, 
+         "ra": 296.56492
+      }, 
+      "label": "Gamma Aquilae", 
+      "magnitude": 2.7200000286102295, 
+      "entity": "Q13206", 
+      "id": "HD 186791"
+   }, 
+   "HD 11415": {
+      "common_names": [
+         "Segin"
+      ], 
+      "coordinates": {
+         "dec": 63.6701, 
+         "ra": 28.59886
+      }, 
+      "label": "Epsilon Cassiopeiae", 
+      "magnitude": 3.380000114440918, 
+      "entity": "Q13602", 
+      "id": "HD 11415"
+   }, 
+   "HD 176687": {
+      "common_names": [
+         "Ascella"
+      ], 
+      "coordinates": {
+         "dec": -29.88006, 
+         "ra": 285.65304
+      }, 
+      "label": "Zeta Sagittarii", 
+      "magnitude": 2.5899999141693115, 
+      "entity": "Q14037", 
+      "id": "HD 176687"
+   }, 
+   "HD 212061": {
+      "common_names": [
+         "Sadachbia"
+      ], 
+      "coordinates": {
+         "dec": -1.38733, 
+         "ra": 335.41406
+      }, 
+      "label": "Gamma Aquarii", 
+      "magnitude": 3.8399999141693115, 
+      "entity": "Q1146408", 
+      "id": "HD 212061"
+   }, 
+   "HD 48329": {
+      "common_names": [
+         "Mebsuta"
+      ], 
+      "coordinates": {
+         "dec": 25.13113, 
+         "ra": 100.98303
+      }, 
+      "label": "Epsilon Geminorum", 
+      "magnitude": 2.9800000190734863, 
+      "entity": "Q1416569", 
+      "id": "HD 48329"
+   }, 
+   "HD 216131": {
+      "common_names": [
+         "Sadalbari"
+      ], 
+      "coordinates": {
+         "dec": 24.60158, 
+         "ra": 342.5008
+      }, 
+      "label": "Mu Pegasi", 
+      "magnitude": 3.4800000190734863, 
+      "entity": "Q1931308", 
+      "id": "HD 216131"
+   }, 
+   "HD 205767": {
+      "common_names": [
+         "Bunda"
+      ], 
+      "coordinates": {
+         "dec": -7.8542, 
+         "ra": 324.43796
+      }, 
+      "label": "Xi Aquarii", 
+      "magnitude": 4.690000057220459, 
+      "entity": "Q1005366", 
+      "id": "HD 205767"
+   }, 
+   "HD 181454": {
+      "common_names": [
+         "Arkab Prior"
+      ], 
+      "coordinates": {
+         "dec": -44.45896, 
+         "ra": 290.65957
+      }, 
+      "label": "Beta Sagittarii", 
+      "magnitude": 3.930000066757202, 
+      "entity": "Q671833", 
+      "id": "HD 181454"
+   }, 
+   "HD 192947": {
+      "common_names": [
+         "Secunda Giedi"
+      ], 
+      "coordinates": {
+         "dec": -12.54485, 
+         "ra": 304.51357
+      }, 
+      "label": "Alpha2 Capricorni", 
+      "magnitude": 3.5799999237060547, 
+      "entity": "Q77155", 
+      "id": "HD 192947"
+   }, 
+   "HD 109379": {
+      "common_names": [
+         "Kraz"
+      ], 
+      "coordinates": {
+         "dec": -23.39676, 
+         "ra": 188.59681
+      }, 
+      "label": "Beta Corvi", 
+      "magnitude": 2.640000104904175, 
+      "entity": "Q15697", 
+      "id": "HD 109379"
+   }, 
+   "HD 130841": {
+      "common_names": [
+         "Zubenelgenubi"
+      ], 
+      "coordinates": {
+         "dec": -16.04178, 
+         "ra": 222.71964
+      }, 
+      "label": "Q12065240", 
+      "magnitude": 2.75, 
+      "entity": "Q12065240", 
+      "id": "HD 130841"
+   }, 
+   "HD 44402": {
+      "common_names": [
+         "Furud"
+      ], 
+      "coordinates": {
+         "dec": -30.06337, 
+         "ra": 95.0783
+      }, 
+      "label": "Zeta Canis Majoris", 
+      "magnitude": 3.0199999809265137, 
+      "entity": "Q13418", 
+      "id": "HD 44402"
+   }, 
+   "HD 114378J": {
+      "common_names": [
+         "Diadem"
+      ], 
+      "coordinates": {
+         "dec": 17.52946, 
+         "ra": 197.49702
+      }, 
+      "label": "Alpha Comae Berenices", 
+      "magnitude": 4.320000171661377, 
+      "entity": "Q1150389", 
+      "id": "HD 114378J"
+   }, 
+   "HD 98262": {
+      "common_names": [
+         "Alula Borealis"
+      ], 
+      "coordinates": {
+         "dec": 33.09431, 
+         "ra": 169.61974
+      }, 
+      "label": "Nu Ursae Majoris", 
+      "magnitude": 3.490000009536743, 
+      "entity": "Q1434418", 
+      "id": "HD 98262"
+   }, 
+   "HD 137759": {
+      "common_names": [
+         "Edasich"
+      ], 
+      "coordinates": {
+         "dec": 58.96606, 
+         "ra": 231.23239
+      }, 
+      "label": "Iota Draconis", 
+      "magnitude": 3.2899999618530273, 
+      "entity": "Q611329", 
+      "id": "HD 137759"
+   }, 
+   "HD 26574": {
+      "common_names": [
+         "Beid"
+      ], 
+      "coordinates": {
+         "dec": -6.83758, 
+         "ra": 62.96641
+      }, 
+      "label": "Omicron1 Eridani", 
+      "magnitude": 4.050000190734863, 
+      "entity": "Q814649", 
+      "id": "HD 26574"
+   }, 
+   "HD 178524": {
+      "common_names": [
+         "Albaldah"
+      ], 
+      "coordinates": {
+         "dec": -21.02361, 
+         "ra": 287.44097
+      }, 
+      "label": "Pi Sagittarii", 
+      "magnitude": 2.880000114440918, 
+      "entity": "Q14044", 
+      "id": "HD 178524"
+   }, 
+   "HD 47129": {
+      "coordinates": {
+         "dec": 6.13538, 
+         "ra": 99.35017
+      }, 
+      "magnitude": 6.059999942779541, 
+      "id": "HD 47129", 
+      "common_names": [
+         "Plaskett's star", 
+         "Plaskett star"
+      ]
+   }, 
+   "HD 188310": {
+      "common_names": [
+         "Libertas"
+      ], 
+      "coordinates": {
+         "dec": 8.46145, 
+         "ra": 298.56201
+      }, 
+      "label": "Xi Aquilae", 
+      "magnitude": 4.679999828338623, 
+      "entity": "Q1509518", 
+      "id": "HD 188310"
+   }, 
+   "HD 27371": {
+      "common_names": [
+         "Prima Hyadum"
+      ], 
+      "coordinates": {
+         "dec": 15.62764, 
+         "ra": 64.94835
+      }, 
+      "label": "Gamma Tauri", 
+      "magnitude": 3.6500000953674316, 
+      "entity": "Q1493218", 
+      "id": "HD 27371"
+   }, 
+   "HD 36673A": {
+      "common_names": [
+         "Arneb"
+      ], 
+      "coordinates": {
+         "dec": -17.82229, 
+         "ra": 83.18257
+      }, 
+      "label": "Alpha Leporis", 
+      "magnitude": 2.569999933242798, 
+      "entity": "Q693059", 
+      "id": "HD 36673A"
+   }, 
+   "HD 112413": {
+      "common_names": [
+         "Cor Caroli"
+      ], 
+      "coordinates": {
+         "dec": 38.31838, 
+         "ra": 194.00694
+      }, 
+      "label": "Cor Caroli", 
+      "magnitude": 2.890000104904175, 
+      "entity": "Q13176", 
+      "id": "HD 112413"
+   }, 
+   "HD 188119": {
+      "common_names": [
+         "Tyl"
+      ], 
+      "coordinates": {
+         "dec": 70.26793, 
+         "ra": 297.04313
+      }, 
+      "label": "Epsilon Draconis", 
+      "magnitude": 3.819999933242798, 
+      "entity": "Q1347727", 
+      "id": "HD 188119"
+   }, 
+   "HD 23302": {
+      "common_names": [
+         "Electra"
+      ], 
+      "coordinates": {
+         "dec": 24.1133, 
+         "ra": 56.2188
+      }, 
+      "label": "Electra", 
+      "magnitude": 3.700000047683716, 
+      "entity": "Q13429", 
+      "id": "HD 23302"
+   }, 
+   "HD 124850": {
+      "common_names": [
+         "Syrma"
+      ], 
+      "coordinates": {
+         "dec": -6.00055, 
+         "ra": 214.00362
+      }, 
+      "label": "Iota Virginis", 
+      "magnitude": 4.090000152587891, 
+      "entity": "Q2144471", 
+      "id": "HD 124850"
+   }, 
+   "HD 104985": {
+      "common_names": [
+         "Tonatiuh"
+      ], 
+      "coordinates": {
+         "dec": 76.90574, 
+         "ra": 181.313
+      }, 
+      "label": "HD 104985", 
+      "magnitude": 5.800000190734863, 
+      "entity": "Q377850", 
+      "id": "HD 104985"
+   }, 
+   "HD 133208": {
+      "common_names": [
+         "Nekkar"
+      ], 
+      "coordinates": {
+         "dec": 40.39057, 
+         "ra": 225.48651
+      }, 
+      "label": "Beta Bo\u00f6tis", 
+      "magnitude": 3.5, 
+      "entity": "Q14025", 
+      "id": "HD 133208"
+   }, 
+   "HD 211391": {
+      "common_names": [
+         "Ancha"
+      ], 
+      "coordinates": {
+         "dec": -7.78329, 
+         "ra": 334.20848
+      }, 
+      "label": "Theta Aquarii", 
+      "magnitude": 4.150000095367432, 
+      "entity": "Q337846", 
+      "id": "HD 211391"
+   }, 
+   "HD 6860": {
+      "common_names": [
+         "MIRACH"
+      ], 
+      "coordinates": {
+         "dec": 35.62056, 
+         "ra": 17.43302
+      }, 
+      "label": "Beta Andromedae", 
+      "magnitude": 2.049999952316284, 
+      "entity": "Q13043", 
+      "id": "HD 6860"
+   }, 
+   "HD 159181": {
+      "common_names": [
+         "Rastaban"
+      ], 
+      "coordinates": {
+         "dec": 52.30139, 
+         "ra": 262.60817
+      }, 
+      "label": "Beta Draconis", 
+      "magnitude": 2.7799999713897705, 
+      "entity": "Q1321897", 
+      "id": "HD 159181"
+   }, 
+   "HD 20902": {
+      "common_names": [
+         "Mirfak"
+      ], 
+      "coordinates": {
+         "dec": 49.86118, 
+         "ra": 51.08071
+      }, 
+      "label": "Alpha Persei", 
+      "magnitude": 1.7899999618530273, 
+      "entity": "Q13790", 
+      "id": "HD 20902"
+   }, 
+   "HD 70272": {
+      "common_names": [
+         "Alsciaukat"
+      ], 
+      "coordinates": {
+         "dec": 43.1881, 
+         "ra": 125.7087
+      }, 
+      "label": "31 Lyncis", 
+      "magnitude": 4.25, 
+      "entity": "Q1842355", 
+      "id": "HD 70272"
+   }, 
+   "HD 106625": {
+      "common_names": [
+         "Gienah Corvi"
+      ], 
+      "coordinates": {
+         "dec": -17.54193, 
+         "ra": 183.95154
+      }, 
+      "label": "Gamma Corvi", 
+      "magnitude": 2.5799999237060547, 
+      "entity": "Q15694", 
+      "id": "HD 106625"
+   }, 
+   "HD 118098": {
+      "common_names": [
+         "Heze"
+      ], 
+      "coordinates": {
+         "dec": -0.59594, 
+         "ra": 203.67394
+      }, 
+      "label": "Zeta Virginis", 
+      "magnitude": 3.380000114440918, 
+      "entity": "Q14199", 
+      "id": "HD 118098"
+   }, 
+   "HD 180163": {
+      "coordinates": {
+         "dec": 39.14597, 
+         "ra": 288.43953
+      }, 
+      "magnitude": 4.380000114440918, 
+      "id": "HD 180163", 
+      "common_names": [
+         "Aladfar"
+      ]
+   }, 
+   "HD 175191": {
+      "common_names": [
+         "Nunki"
+      ], 
+      "coordinates": {
+         "dec": -26.29672, 
+         "ra": 283.81636
+      }, 
+      "label": "Sigma Sagittarii", 
+      "magnitude": 2.0299999713897705, 
+      "entity": "Q14036", 
+      "id": "HD 175191"
+   }, 
+   "HD 108767": {
+      "common_names": [
+         "Algorab"
+      ], 
+      "coordinates": {
+         "dec": -16.51543, 
+         "ra": 187.46606
+      }, 
+      "label": "Delta Corvi", 
+      "magnitude": 2.940000057220459, 
+      "entity": "Q15698", 
+      "id": "HD 108767"
+   }, 
+   "HD 80007": {
+      "common_names": [
+         "Miaplacidus"
+      ], 
+      "coordinates": {
+         "dec": -69.7172, 
+         "ra": 138.3
+      }, 
+      "label": "Beta Carinae", 
+      "magnitude": 1.6799999475479126, 
+      "entity": "Q13174", 
+      "id": "HD 80007"
+   }, 
+   "HD 165135": {
+      "common_names": [
+         "Alnasl"
+      ], 
+      "coordinates": {
+         "dec": -30.42409, 
+         "ra": 271.45203
+      }, 
+      "label": "Gamma Sagittarii", 
+      "magnitude": 2.990000009536743, 
+      "entity": "Q10388599", 
+      "id": "HD 165135"
+   }, 
+   "HD 47105": {
+      "common_names": [
+         "Alhena"
+      ], 
+      "coordinates": {
+         "dec": 16.39928, 
+         "ra": 99.42796
+      }, 
+      "label": "Gamma Geminorum", 
+      "magnitude": 1.9199999570846558, 
+      "entity": "Q14238", 
+      "id": "HD 47105"
+   }, 
+   "HD 206778": {
+      "common_names": [
+         "Enif"
+      ], 
+      "coordinates": {
+         "dec": 9.87501, 
+         "ra": 326.04648
+      }, 
+      "label": "Epsilon Pegasi", 
+      "magnitude": 2.390000104904175, 
+      "entity": "Q14255", 
+      "id": "HD 206778"
+   }, 
+   "HD 139006": {
+      "common_names": [
+         "Alphecca"
+      ], 
+      "coordinates": {
+         "dec": 26.71469, 
+         "ra": 233.67195
+      }, 
+      "label": "Alphecca", 
+      "magnitude": 2.240000009536743, 
+      "entity": "Q14046", 
+      "id": "HD 139006"
+   }, 
+   "HD 19058": {
+      "common_names": [
+         "Gorgonea Tertia"
+      ], 
+      "coordinates": {
+         "dec": 38.84028, 
+         "ra": 46.29414
+      }, 
+      "label": "Rho Persei", 
+      "magnitude": 3.390000104904175, 
+      "entity": "Q1503464", 
+      "id": "HD 19058"
+   }, 
+   "HD 110379J": {
+      "common_names": [
+         "Porrima"
+      ], 
+      "coordinates": {
+         "dec": -1.44937, 
+         "ra": 190.41518
+      }, 
+      "label": "Gamma Virginis", 
+      "magnitude": 2.740000009536743, 
+      "entity": "Q14197", 
+      "id": "HD 110379J"
+   }, 
+   "HD 19356": {
+      "common_names": [
+         "Algol A", 
+         "Algol B", 
+         "Algol C", 
+         "Algol"
+      ], 
+      "coordinates": {
+         "dec": 40.95565, 
+         "ra": 47.04222
+      }, 
+      "label": "Algol", 
+      "magnitude": 2.119999885559082, 
+      "entity": "Q13080", 
+      "id": "HD 19356"
+   }, 
+   "HD 146051": {
+      "common_names": [
+         "Yed Prior"
+      ], 
+      "coordinates": {
+         "dec": -3.69432, 
+         "ra": 243.58641
+      }, 
+      "label": "Delta Ophiuchi", 
+      "magnitude": 2.75, 
+      "entity": "Q543080", 
+      "id": "HD 146051"
+   }, 
+   "HD 207098": {
+      "common_names": [
+         "Deneb Algedi"
+      ], 
+      "coordinates": {
+         "dec": -16.12729, 
+         "ra": 326.76018
+      }, 
+      "label": "Delta Capricorni", 
+      "magnitude": 2.8299999237060547, 
+      "entity": "Q1054991", 
+      "id": "HD 207098"
+   }, 
+   "HD 23630": {
+      "common_names": [
+         "Alcyone"
+      ], 
+      "coordinates": {
+         "dec": 24.10514, 
+         "ra": 56.87115
+      }, 
+      "label": "Alcyone", 
+      "magnitude": 2.869999885559082, 
+      "entity": "Q13425", 
+      "id": "HD 23630"
+   }, 
+   "HD 192876": {
+      "common_names": [
+         "Prima Giedi"
+      ], 
+      "coordinates": {
+         "dec": -12.50821, 
+         "ra": 304.41196
+      }, 
+      "label": "Alpha1 Capricorni", 
+      "magnitude": 4.260000228881836, 
+      "entity": "Q73894", 
+      "id": "HD 192876"
+   }, 
+   "HD 137422": {
+      "common_names": [
+         "Pherkad"
+      ], 
+      "coordinates": {
+         "dec": 71.83402, 
+         "ra": 230.18215
+      }, 
+      "label": "Gamma Ursae Minoris", 
+      "magnitude": 3.049999952316284, 
+      "entity": "Q14061", 
+      "id": "HD 137422"
+   }, 
+   "HD 37128": {
+      "common_names": [
+         "Alnilam"
+      ], 
+      "coordinates": {
+         "dec": -1.20192, 
+         "ra": 84.05339
+      }, 
+      "label": "Alnilam", 
+      "magnitude": 1.690000057220459, 
+      "entity": "Q13070", 
+      "id": "HD 37128"
+   }, 
+   "HD 11636": {
+      "common_names": [
+         "Sheratan"
+      ], 
+      "coordinates": {
+         "dec": 20.80803, 
+         "ra": 28.66005
+      }, 
+      "label": "Beta Arietis", 
+      "magnitude": 2.6500000953674316, 
+      "entity": "Q13215", 
+      "id": "HD 11636"
+   }
+}

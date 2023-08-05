@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: geo-stars
+Version: 0.1.0
+Summary: A REST API to query the celestial vault of anywhere in the Earth
+Home-page: https://github.com/fserena/geo-stars
+Author: Fernando Serena
+Author-email: fserena@fi.upm.es
+License: Apache 2
+Download-URL: https://github.com/fserena/geo-stars/tarball/0.1.0
+Description: UNKNOWN
+Keywords: overpass,osm
+Platform: UNKNOWN
