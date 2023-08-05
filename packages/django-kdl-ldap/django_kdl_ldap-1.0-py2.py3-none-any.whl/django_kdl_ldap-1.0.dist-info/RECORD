@@ -1,0 +1,10 @@
+django_kdl_ldap-1.0.dist-info/DESCRIPTION.rst,sha256=t6EVaiPE-nN1ZN7cGQsAyswqtZB7oSeu1-nA1L88nW4,1112
+django_kdl_ldap-1.0.dist-info/METADATA,sha256=donLnPN1jhH3yKvgS2G06dK87EVTb5wnq6qlyzXyDeQ,2025
+django_kdl_ldap-1.0.dist-info/RECORD,,
+django_kdl_ldap-1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_kdl_ldap-1.0.dist-info/metadata.json,sha256=FRAHlthkPEO5t71N_-bqp07cZ0M3dzXTqr7mZTG32F8,1057
+django_kdl_ldap-1.0.dist-info/top_level.txt,sha256=EsUZMVHREm73_vibLSI-EALpGUBv9iJcdYwjs0s7_QU,9
+kdl_ldap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kdl_ldap/apps.py,sha256=JJO4kL3VeVq5Z1vJVOrOoa3RxyvO-ijN3p8Lg1A2x8o,131
+kdl_ldap/settings.py,sha256=82l-ff-jNbG6AzA8T-pUoML6BnZBqkKcwL2yHN_WLNU,1605
+kdl_ldap/signal_handlers.py,sha256=uPdoKUwKW8rUEdLgVQ1SaH87qrY-yNeF0qb9pfscn5o,277
