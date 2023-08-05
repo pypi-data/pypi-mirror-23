@@ -1,0 +1,15 @@
+setup.py
+UW_RestClients_Grad.egg-info/PKG-INFO
+UW_RestClients_Grad.egg-info/SOURCES.txt
+UW_RestClients_Grad.egg-info/dependency_links.txt
+UW_RestClients_Grad.egg-info/requires.txt
+UW_RestClients_Grad.egg-info/top_level.txt
+uw_grad/__init__.py
+uw_grad/committee.py
+uw_grad/dao.py
+uw_grad/degree.py
+uw_grad/leave.py
+uw_grad/models.py
+uw_grad/petition.py
+uw_grad/test.py
+uw_grad/util.py
