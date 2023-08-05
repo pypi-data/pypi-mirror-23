@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+multichain/__init__.py
+multichain/multichain.py
+multichain.egg-info/PKG-INFO
+multichain.egg-info/SOURCES.txt
+multichain.egg-info/dependency_links.txt
+multichain.egg-info/not-zip-safe
+multichain.egg-info/top_level.txt
+multichain/source/README.txt
+multichain/source/multichain-cli.exe
+multichain/source/multichain-util.exe
+multichain/source/multichaind.exe

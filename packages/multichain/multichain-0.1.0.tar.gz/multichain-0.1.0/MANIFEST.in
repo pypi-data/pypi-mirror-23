@@ -1,0 +1,7 @@
+include multichain/source/multichain-cli.exe
+include multichain/source/multichaind.exe
+include multichain/source/multichain-util.exe
+include multichain/source/README.txt
+include README.rst
+include LICENSE.txt
+

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: multichain
+Version: 0.1.0
+Summary: Pure Python wrapper for multichain cli
+Home-page: https://github.com/edunuke/multichain
+Author: edunuke
+Author-email: eduardo.perez@banistmo.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
