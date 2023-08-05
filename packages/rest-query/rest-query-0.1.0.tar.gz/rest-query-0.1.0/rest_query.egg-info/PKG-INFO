@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: rest-query
+Version: 0.1.0
+Summary: A parser for rest query request. like no-sql select style
+Home-page: https://github.com/dracarysX/rest-query
+Author: dracarysX
+Author-email: huiquanxiong@gmail.com
+License: MIT
+Description: A parser for rest query request. like no-sql select style.(/?select=id,name,author{*}&id=gte.20&order=id.desc).
+Keywords: rest,query,no-sql,parser
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
