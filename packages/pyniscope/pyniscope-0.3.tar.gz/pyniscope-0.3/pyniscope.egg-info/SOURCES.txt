@@ -1,0 +1,11 @@
+README.rst
+setup.py
+niscope/__init__.py
+niscope/niScopeTypes.py
+niscope/ordered_symbols.py
+pyniscope.egg-info/PKG-INFO
+pyniscope.egg-info/SOURCES.txt
+pyniscope.egg-info/dependency_links.txt
+pyniscope.egg-info/requires.txt
+pyniscope.egg-info/top_level.txt
+test/test_niscope.py
