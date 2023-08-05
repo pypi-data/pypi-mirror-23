@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tox.ini
+namerator/__init__.py
+namerator.egg-info/PKG-INFO
+namerator.egg-info/SOURCES.txt
+namerator.egg-info/dependency_links.txt
+namerator.egg-info/entry_points.txt
+namerator.egg-info/top_level.txt
+namerator/.ropeproject/config.py
