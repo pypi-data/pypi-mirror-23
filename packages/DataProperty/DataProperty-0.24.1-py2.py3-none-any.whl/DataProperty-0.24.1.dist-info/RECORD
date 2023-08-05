@@ -1,0 +1,17 @@
+dataproperty/__init__.py,sha256=zulIgsEuP1EVd3CNVoTks0YvX9ewYLfNaq9EgcsOA_Q,700
+dataproperty/_align.py,sha256=dqAwZtzo6ypXxneyjF_PiogkkPoohXQSSWFuitKmqQs,713
+dataproperty/_align_getter.py,sha256=Dus8AiPhs-YPcSErH_xu4xvBtcoFnziDnXQnO_4fivY,818
+dataproperty/_common.py,sha256=TrMLpnQpje-Ft80PdWeE8duy5_-cDZyn1bKijiPtxTg,1817
+dataproperty/_container.py,sha256=7RsLizXR76Sdtc93WVpMyWjXgOzaqsMTN_xbu9-ixSo,3679
+dataproperty/_dataproperty.py,sha256=9bjh4vrKsZo5E_6PTIKHDoVUUBZYG_V5ezp-ZFEjSbU,19844
+dataproperty/_dataproperty_converter.py,sha256=Pm9e3Xyz385gvM0uXydB7wSfiquJGVbhoLathN2bWIw,3294
+dataproperty/_extractor.py,sha256=AL_blf_o-MC1Ix5atOxKke4clWwMPSKIgx181BuproE,13813
+dataproperty/_function.py,sha256=LIKNyzMXpjYC9frYRVhtteO_nebid6oSf9KU9UW4Xyo,3941
+dataproperty/_interface.py,sha256=Pm8xcb4k8XOz-LQCUfJEy2YoE_EYCpg--yNhPGN5LjM,584
+dataproperty/_logger.py,sha256=Kvna_umYSD5r_dgZmWCo1cEu6VLD4fMiowKebjNmq-Y,975
+DataProperty-0.24.1.dist-info/top_level.txt,sha256=RiW0aJCSmIPslrGSqg9wyPRas0Rl7Kcdi_fBBEd0-LY,13
+DataProperty-0.24.1.dist-info/METADATA,sha256=Ry_Xt3xDju0JlmTJRkuplbNwdDreR8jN89IUBQlH6nY,9450
+DataProperty-0.24.1.dist-info/DESCRIPTION.rst,sha256=cX_0f0pisbHZLEP8c3xvyyFPTIW46k5emn8D9vGa8EI,9270
+DataProperty-0.24.1.dist-info/metadata.json,sha256=kNC-4JqQ3pmL06NHFoZZvUTCrv9vRETxZ9uJmGgBpHc,439
+DataProperty-0.24.1.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+DataProperty-0.24.1.dist-info/RECORD,,
