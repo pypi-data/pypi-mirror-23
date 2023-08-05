@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+changelog.txt
+setup.py
+nbtransom/__init__.py
+nbtransom/nbtransom.py
+nbtransom.egg-info/PKG-INFO
+nbtransom.egg-info/SOURCES.txt
+nbtransom.egg-info/dependency_links.txt
+nbtransom.egg-info/not-zip-safe
+nbtransom.egg-info/requires.txt
+nbtransom.egg-info/top_level.txt
