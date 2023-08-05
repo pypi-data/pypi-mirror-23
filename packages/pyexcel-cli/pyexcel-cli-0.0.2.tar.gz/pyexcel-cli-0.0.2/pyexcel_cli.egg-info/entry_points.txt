@@ -1,0 +1,3 @@
+[console_scripts]
+pyexcel = pyexcel_cli.main:main
+
