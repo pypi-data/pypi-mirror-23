@@ -1,0 +1,16 @@
+.env
+.gitignore
+LICENSE
+MANIFEST.in
+README.rst
+dev-requirements.txt
+ezpy.py
+requirements.txt
+setup.cfg
+setup.py
+tasks.py
+ezpy.egg-info/PKG-INFO
+ezpy.egg-info/SOURCES.txt
+ezpy.egg-info/dependency_links.txt
+ezpy.egg-info/entry_points.txt
+ezpy.egg-info/top_level.txt
