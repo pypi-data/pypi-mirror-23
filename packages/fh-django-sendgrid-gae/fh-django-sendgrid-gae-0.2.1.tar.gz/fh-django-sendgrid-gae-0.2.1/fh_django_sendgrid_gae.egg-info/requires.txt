@@ -1,0 +1,2 @@
+sendgrid >= 3.5, < 4
+fh-django-gae-tasks
