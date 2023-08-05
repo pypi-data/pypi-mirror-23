@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: qtx
+Version: 0.2
+Summary: API client for Quantextive AEX Data Platform
+Home-page: https://github.com/quantextive/qtx
+Author: Quantextive
+Author-email: api@quantextive.com
+License: UNKNOWN
+Download-URL: https://github.com/quantextive/qtx/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: africa,finance,quantextive
+Platform: UNKNOWN
