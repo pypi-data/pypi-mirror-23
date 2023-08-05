@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: cylinder_fitting
+Version: 1.1.3
+Summary: Fit a set of 3D points to a cylinder surface.
+Home-page: https://github.com/xingjiepan/cylinder_fitting
+Author: Xingjie Pan
+Author-email: xingjiepan@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/xingjiepan/cylinder_fitting/archive/1.1.3.tar.gz
+Description: 
+        
+        .. image:: https://badge.fury.io/py/cylinder_fitting.svg
+              :target: https://badge.fury.io/py/cylinder_fitting
+        
+        Fit a set of 3D points to a cylinder surface.
+        
+        Usage example:
+        
+        .. code-block:: python
+        
+              from cylinder_fitting import fit
+              w_fit, C_fit, r_fit, fit_err = fit(data)
+        
+        For a detailed example, see the `unit test <https://github.com/xingjiepan/cylinder_fitting/blob/master/tests/test_fitting.py>`_.
+        
+Keywords: geometry,fitting-algorithm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
