@@ -1,0 +1,34 @@
+Metadata-Version: 2.0
+Name: attrs-jsonschema
+Version: 0.1
+Summary: convert a attrs annotation to json a json schema.
+Home-page: https://github.com/toumorokoshi/attrs-jsonschema
+Author: Yusuke Tsutsumi
+Author-email: yusuke@tsutsumi.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Software Distribution
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: attrs
+Requires-Dist: jinja2
+Requires-Dist: pyyaml
+Requires-Dist: schematics (>=2.0.0)
+Requires-Dist: six
+Requires-Dist: swagger-schema (>=0.4.0)
+
+================
+attrs-jsonschema
+================
+
+>From an attrs class, return back a jsonschema object.
+
+
