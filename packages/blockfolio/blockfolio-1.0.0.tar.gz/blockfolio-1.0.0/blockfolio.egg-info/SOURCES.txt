@@ -1,0 +1,8 @@
+blockfolio.py
+setup.py
+blockfolio.egg-info/PKG-INFO
+blockfolio.egg-info/SOURCES.txt
+blockfolio.egg-info/dependency_links.txt
+blockfolio.egg-info/entry_points.txt
+blockfolio.egg-info/requires.txt
+blockfolio.egg-info/top_level.txt
