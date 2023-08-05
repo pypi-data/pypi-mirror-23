@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Pycasia
+Version: 0.1
+Summary: Pycasia is an open source library to work with the CASIA Chinese Handwriting library.
+Home-page: https://github.com/lucaskjaero/pycasia
+Author: Lucas Kjaero
+Author-email: Lucas@LucasKjaero.com
+License: UNKNOWN
+Description: Pycasia is an open source library to work with the CASIA Chinese Handwriting library.
+        
+Keywords: handwriting,Chinese,CASIA
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Linguistic
