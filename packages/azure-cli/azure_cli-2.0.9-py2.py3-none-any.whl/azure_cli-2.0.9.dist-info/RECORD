@@ -1,0 +1,11 @@
+azure/cli/__main__.py,sha256=XzMjjOWyWZkHEgkGl6M7FEy56J-XGuoJhSHOLZ2aUTM,1056
+azure/cli/main.py,sha256=gqskrmJ-FS6q7Xd-sa_STwSehkOI1KpoMM3h1grqYi8,2196
+azure_cli-2.0.9.data/scripts/az,sha256=NlJsBQhT4BVEJGuP9yGeIeQtLyNjBWMOqnxlH93vO1M,496
+azure_cli-2.0.9.data/scripts/az.bat,sha256=CSnhKfdbliB2eTopL-yVbXDlWl04loQZSQBHgqQwoYg,96
+azure_cli-2.0.9.data/scripts/az.completion.sh,sha256=REdg4vsa9rH_V6zVGu7SXCwnfoxAGMbljjsEr_uDRq0,176
+azure_cli-2.0.9.dist-info/DESCRIPTION.rst,sha256=0KW4d1BvkwHO3z-KU_pK4iIMNoVZ4yucdeF-CkCfhF8,5271
+azure_cli-2.0.9.dist-info/METADATA,sha256=LzBP_QzRGEiN5ujPfLGxy502ODwJ_ACKM1amUqVxizE,7155
+azure_cli-2.0.9.dist-info/RECORD,,
+azure_cli-2.0.9.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+azure_cli-2.0.9.dist-info/metadata.json,sha256=KFX91ESPVgkgWWXSABdpVx0OVMa_b8907V7BwRk5Wp4,1628
+azure_cli-2.0.9.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
