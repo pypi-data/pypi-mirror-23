@@ -1,0 +1,17 @@
+pygsheets/__init__.py,sha256=GF1jduKcEn-04_DWkEvnvjjUagZ3fnR1HXQJIaww8BM,766
+pygsheets/worksheet.py,sha256=XKRi7XdbSYcpt1trZuleTkD_7mWWQesC5Hc_NP56KD0,33696
+pygsheets/utils.py,sha256=kRFhpfjhBzNsYWp8J6xKdrxEA8P9HFc5DesKXDPigfQ,3303
+pygsheets/cell.py,sha256=GLcnq86ECSIQj-oAnAdhzCvSX3TAW3StfAAvVHSXIw4,12870
+pygsheets/client.py,sha256=vwB8IA94xO311qE4TqtwrJv7vVXareZO0c5NGJFJ-0Y,24096
+pygsheets/custom_types.py,sha256=_Dc5IEFDpfP__d5yO0uaVpEUpdfEJA1fPL5hmHyfX5U,1045
+pygsheets/datarange.py,sha256=JI0BQ3E4NrMSZpJwZNDIa4VhNaYP4UvGP9Y27Vf2VWw,7068
+pygsheets/spreadsheet.py,sha256=86TbzywYvWcKassSuYhoa7wHLRzj_8URzIrwtlvI5x8,12644
+pygsheets/exceptions.py,sha256=HqJM9ZTEyg4rDjz2Euob5atuscHMOYbOUMe-kC9lizc,1175
+pygsheets/data/drive_discovery.json,sha256=wPHNLkzmpt5h3aEHcctEw2EsX9AJSeQwndeEt4QLR70,103448
+pygsheets/data/sheets_discovery.json,sha256=bT2RQRiic30QSLJNBZnINAIqneqAazIi4rxbZqNMWEY,177368
+pygsheets-1.1.2.dist-info/METADATA,sha256=E-bi27T869ZSr-nWhbj0ywZF0hGmiF-an3U4DRYBf4s,1013
+pygsheets-1.1.2.dist-info/RECORD,,
+pygsheets-1.1.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pygsheets-1.1.2.dist-info/top_level.txt,sha256=iU_iYNXQ1SXC7hdyx8RS0fQDaC7hM-BdqJMM2c9ZPjE,10
+pygsheets-1.1.2.dist-info/metadata.json,sha256=9W9jBpY61NFMMdNFht5ONtB5NN6NMrDL4CMm_-EhVIg,1159
+pygsheets-1.1.2.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
