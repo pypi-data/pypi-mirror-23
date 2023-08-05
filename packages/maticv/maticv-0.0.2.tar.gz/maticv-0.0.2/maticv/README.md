@@ -1,0 +1,1 @@
+MATICV is an automated test framework that uses the visual image matching method to automate graphical user interface (GUI).

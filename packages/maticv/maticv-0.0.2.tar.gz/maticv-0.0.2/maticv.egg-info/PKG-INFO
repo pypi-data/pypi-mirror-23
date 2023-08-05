@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: maticv
+Version: 0.0.2
+Summary: MATICV is an automated test framework that uses the visual image matching method to automate graphical user interface (GUI).
+Home-page: https://github.com/quentin-xia/Maticv
+Author: Quentin
+Author-email: 873334303@qq.com
+License: MIT
+Description: MATICV is an automated test framework that uses the visual image matching method to automate graphical user interface (GUI).
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
