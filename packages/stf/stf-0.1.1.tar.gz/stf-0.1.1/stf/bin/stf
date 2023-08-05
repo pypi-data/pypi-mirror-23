@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+#put stf in /usr/lib/python2.7/dist-packages/STF
+# or export PYTHONPATH
+
+
+import os
+import argparse
+import sys
+try:
+    from stf.lib.stf_utils import *
+except Exception:
+    stf_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+    if not stf_path in sys.path:
+        sys.path.insert(1, stf_path)
+    from stf.lib.stf_utils import *
+    
+from stf.managers.plugin_manager import *
+from stf.managers.module_manager import *
+from stf.managers.view_manager import *
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='A Simple Test Framework.')
+
+    sub_parser = parser.add_subparsers(dest='view_name')
+    sp_test = sub_parser.add_parser('test')
+    sp_deploy = sub_parser.add_parser('deploy')
+
+    sp_test.add_argument("-c", "--case", nargs='+', help="file or directory path, multi paths split by whitespace", required=False)
+    sp_test.add_argument("-s", "--section", help="The test section name (without Test:)", required=False)
+    sp_test.add_argument("-t", "--tags", help="To filter the cases by tags", required=False)
+    sp_test.add_argument("-i", "--ini", help="the ini file path", required=False)
+    sp_test.add_argument("-p", "--pipeline", help="The test section pipeline name or deploy parallel number", required=False)
+    sp_test.add_argument("--log",help="the name of log flag, The log file will be stf_logFlag",required=False)
+
+    sp_deploy.add_argument("-o", "--operation", help="Deploy operation (setup, get, destroy)", required=True)
+    sp_deploy.add_argument("-i", "--ini", help="the ini file path", required=False)
+    sp_deploy.add_argument("-p", "--pipeline", help="The test section pipeline name or deploy parallel number", required=False)
+    sp_deploy.add_argument("--log",help="the name of log flag, The log file will be stf_logFlag",required=False)
+
+    args = parser.parse_args()
+
+    plugin_manager = PluginManager()
+    module_manager = ModuleManager(plugin_manager)
+    view_manager = ViewManager(module_manager)
+
+    variables = plugin_manager.getInstance('variable')
+
+    view_initVariable_functions = {'test': lambda : variables.init(args.ini, pipeline=args.pipeline, section=args.section),
+                             'deploy': lambda: variables.init(args.ini)}
+
+    if args.view_name in view_initVariable_functions:
+        view_initVariable_functions[args.view_name]()
+
+    #begin to get the view name, e.g. test, deploy
+    view = view_manager.getInstance(args.view_name)
+
+    if view is None:
+        errorAndExit('View %s not available' % args.view_name)
+
+    #different pre conditions for different views
+    view_initOp_functions = {'deploy': lambda : view.initOp(args.operation, args.pipeline),
+                             'test': lambda: (view.addCaseSource(args.case), view.addTags(args.tags))}
+
+    if args.view_name in view_initOp_functions:
+        view_initOp_functions[args.view_name]()
+
+    #regular view call sequence
+    view.preCheck()
+    sys.exit(view.run())
