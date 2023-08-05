@@ -1,0 +1,17 @@
+scikit_dsp_comm-0.0.3.dist-info/DESCRIPTION.rst,sha256=dwIoQRe67JwiBWpKrlPdVnpGaWtHMRljezabSTJ7H7g,3118
+scikit_dsp_comm-0.0.3.dist-info/METADATA,sha256=_sneOl2sbSgQV_CeIbFnYQC9Iuu9eO1KbRRYQUfA46A,3416
+scikit_dsp_comm-0.0.3.dist-info/RECORD,,
+scikit_dsp_comm-0.0.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+scikit_dsp_comm-0.0.3.dist-info/metadata.json,sha256=xg46S0cmwk9BoLLMDDygLr4kIhwaz6tGR53ZrxdnyAM,555
+scikit_dsp_comm-0.0.3.dist-info/top_level.txt,sha256=fra0q_usTyeGAEsl31qjSdHlAWS5qhxId1X8IHaetcU,12
+sk_dsp_comm/__init__.py,sha256=XxKwT5JYTK6VwCFNmkG8-ZLK8Yu4kOfYv-LNDONAR4k,242
+sk_dsp_comm/ca1thru37.txt,sha256=8qTbuGAClE_QVftKbsEWSMA2w7Ie2s3H9OkIHOYpxfU,76723
+sk_dsp_comm/coeff2header.py,sha256=1kgYZqr31l8FWWYTiHolOAnSAH3REf4LZRYwHimzzA8,11131
+sk_dsp_comm/digitalcom.py,sha256=__IGQYJxex_lCdYbKlY7doACSbVSTSNyPq2MqKaYtak,36676
+sk_dsp_comm/fec_conv.py,sha256=mwiNjbm9QCDNsCrv-KOkmen-XSHQmds7Y_gKGV9613Q,22942
+sk_dsp_comm/fir_design_helper.py,sha256=4N4DPmhHJJK8jNG7_SfCdINqPNfRBk6nMq2zqUZsnHw,15555
+sk_dsp_comm/iir_design_helper.py,sha256=tfe94Mr62dT8GQAEXhVVKn8BRKlRSggaSNxQWXjXyHE,20372
+sk_dsp_comm/multirate_helper.py,sha256=U8KGO3jh9irvVGpQa57RmijcrK_fyNZpwslpw6pfzJo,9726
+sk_dsp_comm/optfir.py,sha256=MzIfkqtTUhUp4sDsMUOQavqhZ9DJ9eXn3I6gat28_9w,13373
+sk_dsp_comm/sigsys.py,sha256=E2Pt9z6esECG57FPNPT6PvOh_6t5RjHvgwViZs7dycM,81712
+sk_dsp_comm/synchronization.py,sha256=cHoJuty2k6LqUcvSoOdSRxvaEn75gn1WrdQvfcJgui4,21881
