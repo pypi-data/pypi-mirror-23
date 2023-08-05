@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: factorgraph
+Version: 0.0.1
+Summary: Factor graph and loopy belief propagation.
+Home-page: https://github.com/mbforbes/py-factorgraph/
+Author: Maxwell Forbes
+Author-email: mbforbes@gmail.com
+License: MIT
+Description: # py-factorgraph
+        
+        Factor graph and loopy belief propagation in Python
+        
+        # TODO
+        
+        -	[x] graph
+        -	[x] bp/lbp
+        -	[ ] repo structure
+        -	[ ] tests
+        -	[ ] viz
+        -	[ ] CI
+        -	[ ] examples
+        -	[ ] cleanup (pep8, requirements.txt, use logging lib, etc.)
+        -	[ ] Readme (e.g. add BP tutorial link, note pyfac for inspiration / e.g.s)
+        -	[ ] timing and optimization
+        
+Keywords: factorgraph factor graph loopy belief propagation lbp sum product
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
