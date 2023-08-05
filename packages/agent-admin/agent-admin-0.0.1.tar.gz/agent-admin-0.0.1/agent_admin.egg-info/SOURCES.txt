@@ -1,0 +1,10 @@
+setup.py
+admin/__init__.py
+admin/common.py
+admin/event_reporter.py
+agent_admin.egg-info/PKG-INFO
+agent_admin.egg-info/SOURCES.txt
+agent_admin.egg-info/dependency_links.txt
+agent_admin.egg-info/requires.txt
+agent_admin.egg-info/top_level.txt
+scripts/run_report
