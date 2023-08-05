@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: wubi
+Version: 0.0.1
+Summary: Translate chinese chars to wubi
+Home-page: https://github.com/arcsecw/wubi
+Author: arcsecw
+Author-email: tob-wang@qq.com
+License: BSD
+Description: Pinyin
+        ======
+        
+        .. image:: http://img.shields.io/pypi/v/wubi.svg?style=flat
+           :target: https://pypi.python.org/pypi/wubi
+        
+        .. image:: http://img.shields.io/travis/lxyu/pinyin/master.svg?style=flat
+           :target: https://travis-ci.org/lxyu/pinyin
+        
+        
+        Translate chinese chars to pinyin based on Mandarin.dat
+        
+        Install
+        -------
+        
+        .. code:: bash
+        
+            $ pip install pinyin
+        
+        Usage
+        -----
+        
+        .. code:: python
+        
+            >>> import wubi
+            >>> print wubi.get('你 好')wubi.get('你 好')
+            nǐ hǎo
+        
+            >>> print pinyin.get('你好', format="strip", delimiter=" ")
+            ni hao
+        
+            >>> print pinyin.get('你好', format="numerical")
+            ni3hao3
+        
+            >>> print pinyin.get_initial('你好')
+            n h
+        
+        .. note::
+        
+            `format` must be one of: numerical/diacritical/strip
+        
+        
+        License
+        -------
+        
+        `pinyin` is free software, under an MIT-style license. See LICENSE for details.
+        
+        The data file for translations is the CC-BY-SA 3.0.
+        
+        The translations are from the CC-CE-DICT project (https://cc-cedict.org/wiki/), by Denisowski, Peterson, Brelsford, and others.
+        
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
