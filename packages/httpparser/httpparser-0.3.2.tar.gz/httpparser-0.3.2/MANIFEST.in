@@ -1,0 +1,2 @@
+recursive-include httpparser *.py *.c
+include MANIFEST.in LICENSE* README*
