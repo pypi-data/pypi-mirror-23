@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pywordlist
+Version: 0.0.2
+Summary: Random phrase generator. https://xkcd.com/936/
+Home-page: http://github.com/f0rkz/pywordlist
+Author: f0rkz
+Author-email: f0rkz@f0rkznet.net
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (==2.18.1)
+
+UNKNOWN
+
+
