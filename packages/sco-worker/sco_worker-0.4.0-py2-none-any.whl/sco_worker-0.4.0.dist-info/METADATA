@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: sco-worker
+Version: 0.4.0
+Summary: Library to to execute predictive model run requests
+Home-page: https://github.com/heikomuller/sco-worker
+Author: Heiko Mueller
+Author-email: heiko.muller@gmail.com
+License: GPLv3
+Keywords: neuroscience vision cortex
+Platform: UNKNOWN
+Requires-Dist: pika
+Requires-Dist: neuropythy (>="0.2.26")
+Requires-Dist: pimms (>="0.1.8")
+Requires-Dist: scikit-image
+Requires-Dist: sco-datastore (>="0.6.0")
+Requires-Dist: sco-engine
+Requires-Dist: sco-models (>=0.2.0)
+Requires-Dist: sco-client
+
+UNKNOWN
+
+

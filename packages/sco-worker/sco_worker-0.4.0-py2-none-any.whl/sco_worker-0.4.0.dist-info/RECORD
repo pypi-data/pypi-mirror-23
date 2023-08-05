@@ -1,0 +1,12 @@
+sco_worker-0.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sco_worker-0.4.0.dist-info/METADATA,sha256=REypTBLDGOb-K9FlrLSQgH7Z3loAViTCBtC0ZyGwYG0,557
+sco_worker-0.4.0.dist-info/RECORD,,
+sco_worker-0.4.0.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+sco_worker-0.4.0.dist-info/metadata.json,sha256=spSpc0gdqgqiy9HfUP4cwZ8qFcsVHhM8c64Mc0m-drk,707
+sco_worker-0.4.0.dist-info/top_level.txt,sha256=Zpke8LJr0hO4z2M2xTcpcXAzrmpQmF4w2fKJUWLnqjM,10
+scoworker/__init__.py,sha256=-y8koN3om-UlafX-jpPBhB-Mu7OA4YvuNEKb82yiVzc,11049
+scoworker/convert.py,sha256=rLwkWFTMMb9pADL8BMXSPehH9JlEAi3xBPnvdKzHYic,357
+scoworker/cortical.py,sha256=NbSimZM_GCD1EWFh5ay_1TLoVPhheOohzBpNb3-OqGQ,545
+scoworker/rabbitmq_worker.py,sha256=uWLnMIjZ9wSDApg7jRQfGAXcyEyPZnvc30NEUvmk5tk,7848
+scoworker/socket_backend.py,sha256=NJwRNEgQeHArPYeGFy9sJyXtHQylNX5zjcTg-canDYI,2917
+scoworker/workflow.py,sha256=5HSCOJJPGUC1Q6isGEziHaqqCjC5LadNc4aHDNvb6D0,4724
