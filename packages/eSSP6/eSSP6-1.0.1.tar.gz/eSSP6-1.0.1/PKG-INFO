@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: eSSP6
+Version: 1.0.1
+Summary: Encrypted Smiley Secure Protocol Python 3 Implementation
+Home-page: https://github.com/Minege/eSSP
+Author: Loan
+Author-email: minege@protonmail.com
+License: MIT
+Description: The description is avaible on the github repository
+Platform: cygwin
+Platform: osx
