@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: emmet
+Version: 0.1
+Summary: Emmet is a builder framework for the Materials Project
+Home-page: https://github.com/materialsproject/emmet
+Author: MP team
+Author-email: matproj-develop@googlegroups.com
+License: modified BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: FireWorks (>=1.4.0)
+Requires-Dist: maggma
+Requires-Dist: monty (>=0.9.5)
+Requires-Dist: pymatgen (>=4.7.1)
+Requires-Dist: pymatgen-db (>=0.5.1)
+Requires-Dist: six
+
+# emmet
+Be a master builder of databases of material properties. Avoid the Kragle.
+
+
