@@ -1,0 +1,9 @@
+setup.py
+fair/__init__.py
+fair/forward.py
+fair.egg-info/PKG-INFO
+fair.egg-info/SOURCES.txt
+fair.egg-info/dependency_links.txt
+fair.egg-info/not-zip-safe
+fair.egg-info/requires.txt
+fair.egg-info/top_level.txt
