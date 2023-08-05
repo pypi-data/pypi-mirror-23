@@ -1,0 +1,9 @@
+README.rst
+setup.py
+yargs/__init__.py
+yargs/yargs.py
+yargs.egg-info/PKG-INFO
+yargs.egg-info/SOURCES.txt
+yargs.egg-info/dependency_links.txt
+yargs.egg-info/requires.txt
+yargs.egg-info/top_level.txt
