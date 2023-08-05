@@ -1,0 +1,8 @@
+pyssm.py
+setup.cfg
+setup.py
+pyssm_sca.egg-info/PKG-INFO
+pyssm_sca.egg-info/SOURCES.txt
+pyssm_sca.egg-info/dependency_links.txt
+pyssm_sca.egg-info/requires.txt
+pyssm_sca.egg-info/top_level.txt
