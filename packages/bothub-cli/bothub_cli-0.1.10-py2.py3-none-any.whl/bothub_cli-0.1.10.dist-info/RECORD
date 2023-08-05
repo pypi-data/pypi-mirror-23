@@ -1,0 +1,16 @@
+bothub_cli/__init__.py,sha256=-B4z0FSEXFXM6bkz8mqlM1YPdW9Jn9cx1ifoRsTIr90,48
+bothub_cli/api.py,sha256=ySLSTQKJ2qcV6w-be5GONlOZR62zOIp27fMuk4KyCws,8196
+bothub_cli/clients.py,sha256=HME6lXo1bPlyHjs5lCj-rUyJOgreZba8dKpx_OxbqOI,2346
+bothub_cli/config.py,sha256=rv3OTwbny0VIcSaInnnLzomfw3anJyz1QdIQtlrwqMU,1481
+bothub_cli/exceptions.py,sha256=m7vCHND84yOmQgkUCH7utN-ESsQL8BSLwO7gQDv-gKM,520
+bothub_cli/lib.py,sha256=CTGtHte5rdnfF4LrKkny2jAJXzZRMfkrbv3xQMNfKKI,9638
+bothub_cli/main.py,sha256=P3saLgpib0YrB_AVMtANaENbCUo4kv-617KitcZEunw,9330
+bothub_cli/template.py,sha256=iMb8LNdaicUICB0HGJqgs_6oDCIfTTT_G9UeS-9myMQ,1213
+bothub_cli/utils.py,sha256=FuUHWkW8-iMnx9wbBpeoEHpisDV3obb5RI0wYfaV2_0,433
+bothub_cli-0.1.10.dist-info/DESCRIPTION.rst,sha256=U5Un0hMIY9CRwzHWhluvzAN5cwMb3LIHM4XWpqlBtf0,4056
+bothub_cli-0.1.10.dist-info/METADATA,sha256=t8UCGKVcVyXvD2cT6lxcRXe7GqjhYjWE4WrI3Uo4whw,5006
+bothub_cli-0.1.10.dist-info/RECORD,,
+bothub_cli-0.1.10.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+bothub_cli-0.1.10.dist-info/entry_points.txt,sha256=PjT6lUoUjGb1H2iZgFocRKPxR3LGhvPsxHDph2dsG78,49
+bothub_cli-0.1.10.dist-info/metadata.json,sha256=uxwYXQ-Izc4qd0r7oIO5v3FTBPweKuP74ngVPUA7Y0M,1268
+bothub_cli-0.1.10.dist-info/top_level.txt,sha256=QOLDB9CN-567TYyNSfXSXlGRbaz20sQZ2yzTncrZeJI,11
