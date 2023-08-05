@@ -1,0 +1,12 @@
+setup.py
+datacubesdk/__init__.py
+datacubesdk.egg-info/PKG-INFO
+datacubesdk.egg-info/SOURCES.txt
+datacubesdk.egg-info/dependency_links.txt
+datacubesdk.egg-info/requires.txt
+datacubesdk.egg-info/top_level.txt
+datacubesdk/datasets/__init__.py
+datacubesdk/datasets/allen/__init__.py
+datacubesdk/datasets/allen/api_cam_cell_metric.py
+datacubesdk/datasets/allen/util/__init__.py
+datacubesdk/datasets/allen/util/convert.py
