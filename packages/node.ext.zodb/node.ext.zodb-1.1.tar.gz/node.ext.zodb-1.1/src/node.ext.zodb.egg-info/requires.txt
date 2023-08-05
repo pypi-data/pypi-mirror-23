@@ -1,0 +1,12 @@
+setuptools
+node
+ZODB
+
+[test]
+interlude
+
+[zodb3]
+ZODB3
+
+[zodb5]
+ZODB
