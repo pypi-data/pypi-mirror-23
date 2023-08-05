@@ -1,0 +1,9 @@
+nameko>=2.6.0
+statsd>=3.2.1
+six>=1.10.0
+
+[dev]
+coverage
+flake8
+pytest
+mock
