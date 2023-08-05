@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mongofollow
+Version: 0.3.1
+Summary: Tail any mongodb collection
+Home-page: https://github.com/Shir0kamii/mongofollow
+Author: Alexandre Bonnetain
+Author-email: alexandrebonnetain@gmail.com
