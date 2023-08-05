@@ -1,0 +1,14 @@
+
+[dev]
+flake8
+wheel
+twine
+
+[doc]
+sphinx
+sphinx_rtd_theme
+pygenstub
+
+[test]
+pytest
+pytest-cov
