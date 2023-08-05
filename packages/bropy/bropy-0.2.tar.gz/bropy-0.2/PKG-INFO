@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: bropy
+Version: 0.2
+Summary: A lightweight bro log reader
+Home-page: https://github.com/Thijsvanede/bropy
+Author: Thijs van Ede
+Author-email: t.s.vanede@student.utwente.nl
+License: UNKNOWN
+Download-URL: https://github.com/Thijsvanede/bropy/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: bro,log,reader,python
+Platform: UNKNOWN
