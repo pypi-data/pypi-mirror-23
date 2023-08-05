@@ -1,0 +1,6 @@
+numpy
+pyzmq
+docopt
+bmi
+tornado
+six
