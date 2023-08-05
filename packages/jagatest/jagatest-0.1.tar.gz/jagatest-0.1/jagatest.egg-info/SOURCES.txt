@@ -1,0 +1,5 @@
+setup.py
+jagatest.egg-info/PKG-INFO
+jagatest.egg-info/SOURCES.txt
+jagatest.egg-info/dependency_links.txt
+jagatest.egg-info/top_level.txt
