@@ -1,0 +1,11 @@
+click
+click-log
+colorlog
+ephemeral_port_reserve
+gevent
+prompt_toolkit
+pygments
+termcolor
+textx
+urlnorm
+websocket-client
