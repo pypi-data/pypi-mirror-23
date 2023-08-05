@@ -1,0 +1,37 @@
+amqp==1.4.9               # via kombu
+anyjson==0.3.3            # via kombu
+certifi==2017.4.17        # via requests
+chardet==3.0.4            # via requests
+enum-compat==0.0.2        # via eventlet
+enum34==1.1.6             # via enum-compat
+eventlet==0.21.0          # via nameko
+funcsigs==1.0.2           # via mock
+greenlet==0.4.12          # via eventlet
+idna==2.5                 # via requests
+kombu==3.0.37             # via nameko
+mock==2.0.0               # via nameko
+nameko==2.6.0
+path.py==10.3.1           # via nameko
+pbr==3.0.1                # via mock
+pyyaml==3.12              # via nameko
+requests==2.17.3          # via nameko
+six==1.10.0
+statsd==3.2.1
+urllib3==1.21.1           # via requests
+werkzeug==0.12.2          # via nameko
+wrapt==1.10.10            # via nameko
+
+[dev]
+configparser==3.5.0       # via flake8
+coverage==4.4.1
+enum34==1.1.6             # via flake8
+flake8==3.3.0
+funcsigs==1.0.2           # via mock
+mccabe==0.6.1             # via flake8
+mock==2.0.0
+pbr==3.0.1                # via mock
+py==1.4.34                # via pytest
+pycodestyle==2.3.1        # via flake8
+pyflakes==1.5.0           # via flake8
+pytest==3.1.2
+six==1.10.0               # via mock
