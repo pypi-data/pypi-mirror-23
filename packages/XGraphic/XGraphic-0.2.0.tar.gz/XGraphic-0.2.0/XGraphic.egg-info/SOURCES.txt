@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+XGraphic.egg-info/PKG-INFO
+XGraphic.egg-info/SOURCES.txt
+XGraphic.egg-info/dependency_links.txt
+XGraphic.egg-info/entry_points.txt
+XGraphic.egg-info/top_level.txt
+xgraphic/__init__.py
+xgraphic/__main__.py
+xgraphic/stubs/60-xgraphic-bumblebee.sh
+xgraphic/stubs/60-xgraphic-nvidia.sh
+xgraphic/stubs/bumblebee.conf
+xgraphic/stubs/nvidia.conf
+xgraphic/stubs/xorg.conf
