@@ -1,0 +1,13 @@
+setup.py
+tests/__init__.py
+tests/custom_test.py
+tests/datos_test.py
+tests/modelo_heredado.py
+valleorm/__init__.py
+valleorm/campos.py
+valleorm/models.py
+valleorm/relationship.py
+valleorm.egg-info/PKG-INFO
+valleorm.egg-info/SOURCES.txt
+valleorm.egg-info/dependency_links.txt
+valleorm.egg-info/top_level.txt
