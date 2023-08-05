@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aws_polly.egg-info/PKG-INFO
+aws_polly.egg-info/SOURCES.txt
+aws_polly.egg-info/dependency_links.txt
+aws_polly.egg-info/entry_points.txt
+aws_polly.egg-info/not-zip-safe
+aws_polly.egg-info/requires.txt
+aws_polly.egg-info/top_level.txt
+awspolly/__init__.py
