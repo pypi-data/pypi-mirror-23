@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: djangocms-reversion2
+Version: 0.3
+Summary: page versioning for django-cms
+Home-page: https://github.com/Blueshoe/djangocms-reversion2
+Author: Daniel Pollithy
+Author-email: daniel@blueshoe.de
+License: UNKNOWN
+Download-URL: https://github.com/Blueshoe/djangocms-reversion2/archive/0.3.zip
+Description: UNKNOWN
+Keywords: django,Django CMS,version history,versioning,reversion,revision,CMS,Blueshoe,basket,bin,revert
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks

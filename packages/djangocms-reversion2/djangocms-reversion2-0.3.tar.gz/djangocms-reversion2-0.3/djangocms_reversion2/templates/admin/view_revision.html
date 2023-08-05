@@ -1,0 +1,23 @@
+
+
+{% load i18n %}
+{% load staticfiles %}
+
+
+    <div class="reversion2_diff_rendered_preview_infobar">
+        <p><button onclick="window.history.back();"> &lt; {% trans 'go back' %}</button> &nbsp; {% trans 'This is an archieved version of page' %} {{ page_version.draft.pk }} @version {{ page_version.title }}</p>
+    </div>
+
+    <script type="text/javascript">
+        function inject_code() {
+            var iframe_document = document.getElementById('myframe').contentWindow.document;
+            iframe_document.getElementsByClassName('cms-toolbar')[0].remove();
+            iframe_document.getElementsByClassName('cms-toolbar-trigger')[0].remove();
+        }
+    </script>
+
+    <iframe id="myframe" src="{{ page_absolute_url }}?edit" style="width:100%; height:100%;" onload="inject_code();">
+
+    </iframe>
+
+
