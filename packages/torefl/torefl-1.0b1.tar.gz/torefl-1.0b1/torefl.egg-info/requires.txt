@@ -1,0 +1,4 @@
+appdirs>=1.4.3
+bibtexparser>=0.6.2
+colorama>=0.3.9
+sortedcontainers>=1.5.7
