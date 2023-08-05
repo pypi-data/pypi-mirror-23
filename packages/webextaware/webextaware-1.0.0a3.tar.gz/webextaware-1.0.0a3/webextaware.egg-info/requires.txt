@@ -1,0 +1,11 @@
+coloredlogs
+grequests
+hashfs
+requests
+pynpm
+python-magic
+
+[dev]
+ipython
+mock
+nose
