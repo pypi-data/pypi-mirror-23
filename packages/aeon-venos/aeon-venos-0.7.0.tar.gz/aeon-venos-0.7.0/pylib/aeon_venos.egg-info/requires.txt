@@ -1,0 +1,13 @@
+
+[cumulus]
+paramiko<2.0.0
+
+[eos]
+pyeapi
+
+[nxos]
+lxml
+requests
+
+[ubuntu]
+paramiko<2.0.0
