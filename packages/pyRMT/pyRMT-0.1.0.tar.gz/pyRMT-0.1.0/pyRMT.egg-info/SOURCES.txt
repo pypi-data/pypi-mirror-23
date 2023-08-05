@@ -1,0 +1,9 @@
+README
+pyRMT.py
+setup.cfg
+setup.py
+pyRMT.egg-info/PKG-INFO
+pyRMT.egg-info/SOURCES.txt
+pyRMT.egg-info/dependency_links.txt
+pyRMT.egg-info/requires.txt
+pyRMT.egg-info/top_level.txt
