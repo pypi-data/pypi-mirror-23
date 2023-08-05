@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: transfixed
+Version: 0.0.3
+Summary: FIX TRADING LIBRARY
+Home-page: https://github.com/th3sys/transfixed
+Author: Alexy Shelest
+Author-email: alexy@th3sys.com
+License: MIT
+Description: TRANSFIXED - FIX TRADING LIBRARY
+        ================================
+        
+        This is an implementation of the following FIX APIs:
+        
+        - GAIN CAPITAL FUTURES FIX API
+        - CQG FIX API
+        
+        *This product includes software developed by quickfixengine.org (http://www.quickfixengine.org/).*
+Keywords: gain capital futures cqg quickfix fix protocol trading
+Platform: any
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
