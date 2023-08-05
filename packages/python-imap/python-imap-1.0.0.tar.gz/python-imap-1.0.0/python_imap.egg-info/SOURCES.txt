@@ -1,0 +1,6 @@
+README.rst
+setup.py
+python_imap.egg-info/PKG-INFO
+python_imap.egg-info/SOURCES.txt
+python_imap.egg-info/dependency_links.txt
+python_imap.egg-info/top_level.txt
