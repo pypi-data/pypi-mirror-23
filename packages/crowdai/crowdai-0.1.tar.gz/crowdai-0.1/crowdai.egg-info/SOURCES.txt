@@ -1,0 +1,8 @@
+setup.py
+crowdai/__init__.py
+crowdai/config.py
+crowdai.egg-info/PKG-INFO
+crowdai.egg-info/SOURCES.txt
+crowdai.egg-info/dependency_links.txt
+crowdai.egg-info/not-zip-safe
+crowdai.egg-info/top_level.txt
