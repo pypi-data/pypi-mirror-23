@@ -1,0 +1,11 @@
+watson/__init__.py,sha256=HAPFSDzYZTcMVQz_7AI3KlmE4Q0sbPgPAfOVkkvqDj4,321
+watson/form/__init__.py,sha256=CkM7EiS0Ax1zOmud5OCFFgxGyUxUhk3nJ2pvaewDMZ8,234
+watson/form/decorators.py,sha256=k2bXx0dDib2MvsTBCZwCdpaGzjvfWTO8_dH5SPrAidY,3698
+watson/form/fields.py,sha256=YeQ-yjIUrlqVZgzmk1rl6zv9OFFNm74ESINCO-6ls70,24167
+watson/form/types.py,sha256=QLosYShqFj__FvpVX7OlH7C1Oo6EVM5FyBeDF3kRCL8,17267
+watson_form-4.1.2.dist-info/DESCRIPTION.rst,sha256=icE9pH7PzA_s12sXWkE8XQVTMQFqfgE9mm8GDTHXCWI,3206
+watson_form-4.1.2.dist-info/METADATA,sha256=zU-FQ0mFij_uwpEDbHiRwlfRwzbt-sXrouRJj4QZN8I,3928
+watson_form-4.1.2.dist-info/RECORD,,
+watson_form-4.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+watson_form-4.1.2.dist-info/metadata.json,sha256=XF3a3kzsWvn196-2hqYCNM1JFYM7-8vfGPJFlc3jnMo,787
+watson_form-4.1.2.dist-info/top_level.txt,sha256=QQZdZ6AxPCQ1a1p0y2MpAF1x2wkCHy_btt5UXoEjT34,7
