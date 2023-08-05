@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: mapstep
+Version: 1.0.0
+Summary: A webapp to put some markers with a description on a leaflet map.
+Home-page: https://github.com/fspot/mapstep
+Author: fspot
+Author-email: fred@fspot.org
+License: BSD
+Description: # MapStep
+        
+        A webapp to put some markers with a description on a leaflet map.
+        
+        
+        ## Installation
+        
+            pip install mapstep
+        
+        
+        ## Usage
+        
+            mapstep [--port PORT] [--debug]
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,3 @@
+include README.md
+
+recursive-include mapstep/static *.html *.js *.css *.png
