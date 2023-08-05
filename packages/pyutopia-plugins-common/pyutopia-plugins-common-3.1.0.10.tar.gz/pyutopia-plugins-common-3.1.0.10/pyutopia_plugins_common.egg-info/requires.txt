@@ -1,0 +1,4 @@
+lxml
+kend==0.7.1
+pyutopia==3.1.0.10
+pyutopia-tools==3.1.0.10
