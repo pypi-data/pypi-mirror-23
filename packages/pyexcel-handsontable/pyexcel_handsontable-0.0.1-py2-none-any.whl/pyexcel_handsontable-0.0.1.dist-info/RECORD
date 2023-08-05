@@ -1,0 +1,13 @@
+pyexcel_handsontable/__init__.py,sha256=qwkD1UJmMYVWVu9GpVpxDBADUqo9IePrTg_ze4o6py0,642
+pyexcel_handsontable/handsontable.py,sha256=LcoBSzoDLeibBotSTnSBwLyVMJw94i-AIbCllKehoyo,2877
+pyexcel_handsontable/templates/components.html,sha256=wa9kf6z7pNegFbGH0dKkEFopVMrHhAlCzJS5S2NVflU,778
+pyexcel_handsontable/templates/css.html,sha256=3ovIQ8jVQHiKnPiYj7iEhmHhOqk7MM0CuDVZErIuf1o,995
+pyexcel_handsontable/templates/embed.html,sha256=6jVubRieR2SHGXx2UxUPyam-KWOf_B1DRwGcR55lnKs,1351
+pyexcel_handsontable/templates/full.html,sha256=NwJDktg2SLsg0CJOc4VrtDcorp9iasvcytdLgR4nAa4,227
+pyexcel_handsontable/templates/sheet.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyexcel_handsontable-0.0.1.dist-info/DESCRIPTION.rst,sha256=5_7B_wtRgoGw2W7QGev1Lzo5af4LOC4hMaJFETCVSSQ,5440
+pyexcel_handsontable-0.0.1.dist-info/METADATA,sha256=gIUYMj07IBjzqoryoBod_VpHZcFCiofBRHMIAG2lSbo,6327
+pyexcel_handsontable-0.0.1.dist-info/RECORD,,
+pyexcel_handsontable-0.0.1.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+pyexcel_handsontable-0.0.1.dist-info/metadata.json,sha256=iugW3Z6xTSJ5vxGS_O7ZkFuC6KGmxe4pdmrJ9hG1HE4,1028
+pyexcel_handsontable-0.0.1.dist-info/top_level.txt,sha256=hG5kbyTn-j2IFRUsUBE2X3y-MhxaRWsl4hrM1yQ181Y,21
