@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: macosko2015
+Version: 1.0.0
+Summary: Expression data for Macosko et al, "Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets," Cell (2015)
+Home-page: https://github.com/olgabot/macosko2015
+Author: Olga Botvinnik
+Author-email: olga.botvinnik@gmail.com
+License: MIT
+Description: See https://github.com/olgabot/macosko2015
+Platform: UNKNOWN
