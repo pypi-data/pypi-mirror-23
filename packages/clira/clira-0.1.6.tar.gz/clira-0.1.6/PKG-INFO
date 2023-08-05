@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: clira
+Version: 0.1.6
+Summary: Command line client for Jira
+Home-page: https://gitlab.com/havk/clira
+Author: Paweł Jastrzębski
+Author-email: jastrzab5@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: JIRA,jira,terminal,cli
+Platform: UNKNOWN
