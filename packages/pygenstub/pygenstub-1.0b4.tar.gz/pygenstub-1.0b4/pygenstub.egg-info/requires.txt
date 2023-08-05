@@ -1,0 +1,14 @@
+docutils
+
+[dev]
+flake8
+wheel
+twine
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov
