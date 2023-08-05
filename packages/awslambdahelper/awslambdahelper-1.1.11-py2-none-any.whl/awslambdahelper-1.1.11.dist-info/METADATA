@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: awslambdahelper
+Version: 1.1.11
+Summary: UNKNOWN
+Home-page: http://lambda.awshelpers.com/
+Author: Drew J. Sonne
+Author-email: drew.sonne@gmail.com
+License: LGLP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Dist: boto3
+Requires-Dist: pip (>=7.1)
+Requires-Dist: setuptools (~=35.0)
+Requires-Dist: wheel
+
+UNKNOWN
+
+
