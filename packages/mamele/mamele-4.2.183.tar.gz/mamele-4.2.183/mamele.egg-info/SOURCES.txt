@@ -1,0 +1,17 @@
+README.rst
+setup.py
+examples/randomplayer.py
+mamele/__init__.py
+mamele/connection.py
+mamele/mamele.py
+mamele/passthrough.py
+mamele.egg-info/PKG-INFO
+mamele.egg-info/SOURCES.txt
+mamele.egg-info/dependency_links.txt
+mamele.egg-info/not-zip-safe
+mamele.egg-info/requires.txt
+mamele.egg-info/top_level.txt
+mamele/mamele_real/mame64
+mamele/mamele_real/learning_environment/gameover_description.txt
+mamele/mamele_real/learning_environment/score_description.txt
+mamele/mamele_real/learning_environment/example_agents/pythonbinding.so

@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mamele
+Version: 4.2.183
+Summary: Python bindings to MAME games
+Home-page: https://github.com/alito/mamele_pippable
+Author: Alejandro Dubrovsky
+Author-email: alito@organicrobot.com
+License: GPL-v2,BSD-3
+Download-URL: https://github.com/alito/mamele_pippable/releases
+Description: This is a Python wrapper around mamele, a framework for putting computer programs as players of games supported by MAME
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
