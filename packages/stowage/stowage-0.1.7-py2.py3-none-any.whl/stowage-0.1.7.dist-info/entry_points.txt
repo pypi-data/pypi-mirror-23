@@ -1,0 +1,3 @@
+[console_scripts]
+stowage = stowage.stowage:cli
+
