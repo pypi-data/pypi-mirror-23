@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+zktop.py
+zktop.egg-info/PKG-INFO
+zktop.egg-info/SOURCES.txt
+zktop.egg-info/dependency_links.txt
+zktop.egg-info/entry_points.txt
+zktop.egg-info/top_level.txt
