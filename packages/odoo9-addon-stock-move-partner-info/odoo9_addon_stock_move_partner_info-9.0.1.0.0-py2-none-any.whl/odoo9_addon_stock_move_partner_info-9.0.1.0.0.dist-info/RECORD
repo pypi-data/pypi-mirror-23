@@ -1,0 +1,17 @@
+odoo9_addon_stock_move_partner_info-9.0.1.0.0-py2.7-nspkg.pth,sha256=PPZ4oLhmfIcN2vdjZzJC3cW225yfTceRHg3_R0Eyzdk,320
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/DESCRIPTION.rst,sha256=mosT7eblvmBLOY0WFA4jEC6xJaPMYy-qTZg1hF4DRsg,1714
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/METADATA,sha256=LQnOOn7A7QX4U2TdDFa1Q3EgMVi0ziQfTL8emffHIOw,2196
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/RECORD,,
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/metadata.json,sha256=mkRKfRn-9mHBOCSwX4LpQkdQl_v_3iu1jAlnNyNcN-I,694
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo9_addon_stock_move_partner_info-9.0.1.0.0.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo_addons/stock_move_partner_info/README.rst,sha256=G94yZaUSUHY2Ml01tXnBRpCwpwlA4gPIjZOJ6l7DSlc,1712
+odoo_addons/stock_move_partner_info/__init__.py,sha256=r-OIHPKWawkgWX5LlvOg11QJEnbm0CdASC7xSmDf1cA,205
+odoo_addons/stock_move_partner_info/__openerp__.py,sha256=DGDxhcZSikv01_dQMFMaa8BG1XlWAxu8xIhFswcPUio,593
+odoo_addons/stock_move_partner_info/i18n/es.po,sha256=H4LDTc4Xne699JsXKKhKU50Msdi_SYmg_xnGtuolkpI,1334
+odoo_addons/stock_move_partner_info/i18n/pt_BR.po,sha256=4Nt3OzoWr4c3iqSA-DoKq2uag8Zhgt9N74W51j0xlws,1339
+odoo_addons/stock_move_partner_info/i18n/sl.po,sha256=1RpvSc7qacf4v5KPCIK39rmKJgPlG459WQI3OjaEFl4,1354
+odoo_addons/stock_move_partner_info/models/__init__.py,sha256=mwzmj7d9HfRofRDXnE7dvFKhUCd7fe8w6O8T1knj12c,209
+odoo_addons/stock_move_partner_info/models/stock_move.py,sha256=UHxpkvCl5Fns5spYeReEZ46vh6o20QeYYtwdnX_x2PQ,518
+odoo_addons/stock_move_partner_info/views/stock_move_view.xml,sha256=oVGtMtkGPUPjCG5IJro3Ye1XqLDjKaOP-4QbjihcRf8,1972
