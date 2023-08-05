@@ -1,0 +1,15 @@
+pconf/__init__.py,sha256=jswWS_Cl8GWWscPZNIdyB9M0bTZUqlJJZoWYSF4d_xg,25
+pconf/pconf.py,sha256=ahp6I4o1FHlqT_NC1QM1K8Vvgy7bZV40CrYJx0jORuk,3786
+pconf-0.5.0.dist-info/DESCRIPTION.rst,sha256=yK6FO9kEITu2OPZzTbM9jYThgS9i3wSKbGlr18hLVh8,5949
+pconf-0.5.0.dist-info/METADATA,sha256=tVYvAODRzGPOUSIGfgA5qSORTLuRi6ErVuakX_F5LEQ,6696
+pconf-0.5.0.dist-info/RECORD,,
+pconf-0.5.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pconf-0.5.0.dist-info/metadata.json,sha256=4mpfGrdq7ylaIwgnGU_zk4DqgkeR6DObWDktR-QpptU,902
+pconf-0.5.0.dist-info/top_level.txt,sha256=tcSJR3I5Kk51fKbllzxOq1fW9sW0SYZZ1bCsJTLENZc,12
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_argv.py,sha256=wDBhPl-TMXlQNXL6sBkiOzD9at5QZ5tnGxUuyaoO8Xc,3436
+tests/test_env.py,sha256=w4JmMXuthNHqB-iVyyaUzVEiYLAD7BF3mgjqeYavYGI,3232
+tests/test_file.py,sha256=p4rgxvx4fr3dR7_2mNnCwSwb9KtFnJED1zl4rhdL1hM,2940
+tests/test_hierarchy.py,sha256=Z9SYBO4f1bPLIh_lUx35jH_mJFCpYHpQtxPAVhWtryU,2312
+tests/test_memory.py,sha256=yammZ8MIA12C9ZsuT-gbuRbzPTX2g8hFSMOb_qC-L50,361
+tests/test_pconf.py,sha256=OU-Gj44yIypB0n-ql9Jn8KONHBbDvKDmMC2Dhch_EOU,5003
