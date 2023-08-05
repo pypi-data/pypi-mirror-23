@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+ice_yml_log_formatter/__init__.py
+ice_yml_log_formatter/src.py
+ice_yml_log_formatter.egg-info/PKG-INFO
+ice_yml_log_formatter.egg-info/SOURCES.txt
+ice_yml_log_formatter.egg-info/dependency_links.txt
+ice_yml_log_formatter.egg-info/requires.txt
+ice_yml_log_formatter.egg-info/top_level.txt
