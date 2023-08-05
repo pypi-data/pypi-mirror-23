@@ -1,0 +1,1 @@
+https://github.com/trolldbois/python-haystack/tarball/development#egg=haystack
