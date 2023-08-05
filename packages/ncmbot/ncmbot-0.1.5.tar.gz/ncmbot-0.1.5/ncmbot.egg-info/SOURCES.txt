@@ -1,0 +1,12 @@
+setup.py
+ncmbot/__init__.py
+ncmbot/core.py
+ncmbot/utils.py
+ncmbot.egg-info/PKG-INFO
+ncmbot.egg-info/SOURCES.txt
+ncmbot.egg-info/dependency_links.txt
+ncmbot.egg-info/requires.txt
+ncmbot.egg-info/top_level.txt
+ncmbot/util/__init__.py
+ncmbot/util/cookiesJar.py
+ncmbot/util/encrypt.py
