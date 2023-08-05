@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ypconfig
+Version: 1.0.0
+Summary: Tools required for ypconfig
+Home-page: https://github.com/tuxis-ie/ypconfig
+Author: Mark Schouten
+Author-email: mark@tuxis.nl
+License: BSD 2-Clause
+Description: UNKNOWN
+Platform: linux
