@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: lingatagger
+Version: 1.0
+Summary: A simple gender tagger for Hindi based on an Multi Layer Perceptron Classifier trained with gensim's word2vec. It is backed off by Regex and Lookup Tagger
+Home-page: https://github.com/djokester/lingatagger
+Author: Samriddhi Sinha
+Author-email: samridhhisinha.iitkgp@gmail.com
+License: Apache License
+Keywords: nlp,hindi,linguistics
+Platform: UNKNOWN
+Requires-Dist: gensim
+Requires-Dist: regex
+Requires-Dist: sklearn
+
+UNKNOWN
+
+

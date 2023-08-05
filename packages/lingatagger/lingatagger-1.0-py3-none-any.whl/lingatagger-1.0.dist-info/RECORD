@@ -1,0 +1,11 @@
+lingatagger/gender.py,sha256=BYZ_DjfMIGw7X_tZmR89hWeRCrZDaqLmtacowyrpo4k,85581676
+lingatagger/genderlist.py,sha256=1tg9QgO6zldQmtjDjVqmGtDQu-1jC05sCnaiH5Cc6R4,568115
+lingatagger/sentence.py,sha256=tr1x6ZwFR-lbvhe-hHuQ_uSavBmkMAEv82ed2Tn-G0A,5043873
+lingatagger/tagger.py,sha256=gi1f8YrH1htLmUMyoOKyxkmQPF1u3Ma0dhCropukIgc,6842
+lingatagger/tokenizer.py,sha256=4yEMyezRw5NAlC5GZ81794aqIEQy5RGx1dF846UYmGg,2923
+lingatagger-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+lingatagger-1.0.dist-info/METADATA,sha256=eFXsCTvv77qmNGm6zIQnnc2cbubQjFps9KL5lqpyVtw,490
+lingatagger-1.0.dist-info/RECORD,,
+lingatagger-1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+lingatagger-1.0.dist-info/metadata.json,sha256=k5sgoiwR8FMGn2qMma_SM5ML_inLFO2dPy95xdQ8kdA,691
+lingatagger-1.0.dist-info/top_level.txt,sha256=Yzjxuun32TqLOZJZWdnBDNf_ITTR8Hwbijt9BxkHZp4,12
