@@ -1,0 +1,17 @@
+ecxclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecxclient/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecxclient/cli/ecxcli.py,sha256=IXA-2tt0cM8SIVOdgtw7fo8uqmXUtmfP1SHyuLf-El0,2717
+ecxclient/cli/util.py,sha256=TPTYzYHw2kFzBdAOnO2WoxZITbL4LyYP4RgvBq58cSQ,651
+ecxclient/cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecxclient/cli/commands/cmd_job.py,sha256=GwtmTvWixdJ3ivFYkaiAQd-eBWcpFpnFTE86y3yFGoE,3454
+ecxclient/cli/commands/cmd_logs.py,sha256=aST0lRcOBy8ctY2xyPszlwGDmVQO2oxhbNSmn4MwEE4,562
+ecxclient/cli/commands/cmd_resource.py,sha256=iSQSn0kpR4lpNlUbB2eqH6XDjQmMbuSvZ9hq6wT5AHE,2387
+ecxclient/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecxclient/sdk/client.py,sha256=81noi4EhQiiJbiGIYbFtoYy8TFo9IyZrgD9YKms4B4U,12645
+ecxclient-0.42.dist-info/DESCRIPTION.rst,sha256=kaQjvCwsWV9Ay2maSTW7Y4kynWqRThNPo9gRNJtmx1g,1005
+ecxclient-0.42.dist-info/METADATA,sha256=fTbHQWMFgWauQLDrYsETEPht0bqC5uvJSyj1s598Bpg,1789
+ecxclient-0.42.dist-info/RECORD,,
+ecxclient-0.42.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ecxclient-0.42.dist-info/entry_points.txt,sha256=56MwKQXBvva7qIrDuBJZmIBHqlJWp1okk9CC0CTcsaA,54
+ecxclient-0.42.dist-info/metadata.json,sha256=9S8tUdVtWRNxm1Pz0qC5IvKBrevC6Jw53bu_xSgsHEE,1090
+ecxclient-0.42.dist-info/top_level.txt,sha256=nhKBlIhaCt_kcXZnTlWON4jYqIlnQ4ltZiaXno_GBVg,10
