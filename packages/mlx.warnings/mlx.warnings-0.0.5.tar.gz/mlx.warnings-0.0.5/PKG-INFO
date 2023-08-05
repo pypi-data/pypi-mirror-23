@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: mlx.warnings
+Version: 0.0.5
+Summary: Command-line alternative for https://github.com/jenkinsci/warnings-plugin. Useable with plugin-less CI systems.
+Home-page: https://github.com/melexis/warnings-plugin
+Author: Bavo Van Achte
+Author-email: bavo.van.achte@gmail.com
+License: Apache License, Version 2.0
+Download-URL: https://github.com/melexis/warnings-plugin/tarball/0.0.5
+Description: .. image:: https://img.shields.io/hexpm/l/plug.svg
+            :target: http://www.apache.org/licenses/LICENSE-2.0
+        
+        ============================
+        Command line warnings-plugin
+        ============================
+        
+        Command-line alternative for https://github.com/jenkinsci/warnings-plugin.
+        Useable with plugin-less CI systems. It can be used with GitLab-CI to enable
+        warning threshold setting for failing the job and for parsing warnings from
+        various tools and report them as errors.
+        
+        
+        
+        
+Keywords: Gitlab CI,warnings,CI
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
