@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+cdata/__init__.py
+cdata/core.py
+cdata/misc.py
+cdata/table.py
+cdata/web.py
+cdata.egg-info/PKG-INFO
+cdata.egg-info/SOURCES.txt
+cdata.egg-info/dependency_links.txt
+cdata.egg-info/not-zip-safe
+cdata.egg-info/requires.txt
+cdata.egg-info/top_level.txt
