@@ -1,0 +1,12 @@
+rust_pypi_example.pyd,sha256=hTq82-mRlHRNUJ0qhRrT4WH8HyVsZsphSfwUWI8alwY,96256
+rust_pypi_example/__init__.py,sha256=Nx4s1EHYbxCWBfd9hS7Vfo13k-T_BMNRyzrplARs2SE,111
+rust_pypi_example/cli.py,sha256=mMw17lAiQGQgdAhQbCrdRQTlBbGCBLAZ0PTsgzDAO8A,892
+rust_pypi_example/rust_pypi_example.py,sha256=LDtyI0VcSExhB-XJL2ZlrvNBtO7XRWfkzNq93FlVQJk,1149
+rust_pypi_example/rust/src/rust_pypi_example.h,sha256=LKFJf52hWpxH6u4eXdJg_DY5CeKemVc-3FNKApMfubw,28
+rust_pypi_example-0.7.7.dist-info/DESCRIPTION.rst,sha256=pRlTQlgipqBIshZpxCS3EGf8w_2yJnAm4W9mDPsKdfg,1381
+rust_pypi_example-0.7.7.dist-info/METADATA,sha256=Mojti-raBuTYb1q07Et4FqlaJF4BEkNvcxzH6-M9C94,2415
+rust_pypi_example-0.7.7.dist-info/RECORD,,
+rust_pypi_example-0.7.7.dist-info/WHEEL,sha256=DJKIF4fXYhO5FvKr47vMFPnA882v1seiq13SS1FTbM4,102
+rust_pypi_example-0.7.7.dist-info/entry_points.txt,sha256=znc2kNH6A_H8m63XBDUM4CSYBwywmz6qOLXy90gLUqY,66
+rust_pypi_example-0.7.7.dist-info/metadata.json,sha256=OUEewefGJikfhSZKAzeoNRpbbNtOMDxS9ovUKiBpfKo,1355
+rust_pypi_example-0.7.7.dist-info/top_level.txt,sha256=1i8QsU9K1A0iQ2tfeWl9U3_dZjFmA1b35H5qewq-IGk,18
