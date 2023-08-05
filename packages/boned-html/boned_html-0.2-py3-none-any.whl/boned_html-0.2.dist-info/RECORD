@@ -1,0 +1,12 @@
+boned_html/__init__.py,sha256=_zhp46KbWBSphRCP29N41NFmuJfUKtlVRm_6d48hknI,90
+boned_html/boner.py,sha256=zoMvP2cObDRwTmzRjAeYu_MWq7P8MK4For8MROSVd_w,3596
+boned_html/chunker.py,sha256=mCigaE6jWmF_4MEsLpq_IpA7BBks_H-l4nQRkB6kXsY,11667
+boned_html/exceptions.py,sha256=Lqrozsdukc7VWfg3M1tjgKp3jMsv2ZGeOQE2R3EE-zI,274
+boned_html/tests.py,sha256=CFwLa529P762oRik7NYpY2O-pKlaMuofXckTvZHhy4Y,10546
+boned_html/version.py,sha256=4kNtXcTuEAHDeOlsqL0G8iMocOQrtsAsw_vWcJ_031I,18
+boned_html-0.2.dist-info/DESCRIPTION.rst,sha256=2_5aFEob_EDpbSEX2w9KoypfT2BCRcd6MWnQChiSptM,3003
+boned_html-0.2.dist-info/METADATA,sha256=_rvT683bIeqpRArF6wIQ5DB32tSe9SVm17nzW6hvNYY,3868
+boned_html-0.2.dist-info/RECORD,,
+boned_html-0.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+boned_html-0.2.dist-info/metadata.json,sha256=74YTokIjiQoPO6_Wj0-lhPDE1aHx1GKL9B2AaWaqh-c,983
+boned_html-0.2.dist-info/top_level.txt,sha256=mo5WZPYUgr9n3si-gQ3Q4h_74XjBCOFfQCoxATM4vQ4,11
