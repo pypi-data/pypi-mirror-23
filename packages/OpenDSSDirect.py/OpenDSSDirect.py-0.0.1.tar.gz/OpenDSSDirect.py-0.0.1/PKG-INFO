@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: OpenDSSDirect.py
+Version: 0.0.1
+Summary: Python direct-mode interface to OpenDSS
+Home-page: https://github.com/NREL/OpenDSSDirect.py
+Author: Dheepak Krishnamurthy
+Author-email: dheepak.krishnamurthy@nrel.gov
+License: UNKNOWN
+Download-URL: https://github.com/NREL/OpenDSSDirect.py
+Description: UNKNOWN
+Keywords: OpenDSS,ctypes
+Platform: UNKNOWN
