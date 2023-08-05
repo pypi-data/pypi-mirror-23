@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: awslambdahelper
+Version: 1.0.0
+Summary: Handlers the nasty bits of AWS config rules
+Home-page: http://github.com/drewsonne/awslambdahelper
+Author: Drew J. Sonne
+Author-email: drew.sonne@gmail.com
+License: GLPG
+Description: UNKNOWN
+Platform: UNKNOWN
