@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: aiobasex
+Version: 0.0.1
+Summary: non-blocking client for BaseX, based on python/asyncio platform
+Home-page: https://github.com/Intel471/prom-stats/
+Author: Summer Babe
+Author-email: mksh@null.net
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Database
+
+UNKNOWN
+
+

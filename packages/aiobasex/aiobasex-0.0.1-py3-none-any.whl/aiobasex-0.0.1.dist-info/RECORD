@@ -1,0 +1,12 @@
+aiobasex/__init__.py,sha256=AAP4w-nbejPQpGwMQlaWwAKpZgEA-m-KnHy8TYj_nNE,126
+aiobasex/connection.py,sha256=as9Qne7gQL4fScEROFdlLYHvxTBjsa7PubL5iJmzYJU,8100
+aiobasex/errors.py,sha256=CzlrY-mEbEBK7_N3s76n_yMmcc49JaPWdz0huBShgy8,610
+aiobasex/query.py,sha256=awCCfgMJENMuUgqo7iRvECoZhdzQ0otDOYHf4dMtFC4,3383
+aiobasex/session.py,sha256=_zH9vZRb6W5wHPymCdOamVA-LTlfSi2AdAoWjAKvpZA,4270
+aiobasex/utils.py,sha256=OripoXneHLf6hHFA60nKQNa_z1AZ53l-I34y-ibnWUY,1573
+aiobasex-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+aiobasex-0.0.1.dist-info/METADATA,sha256=I6zIBHRVL05IY7NL1gOgxF_jxy2l3UoOuYREMZwSs0o,713
+aiobasex-0.0.1.dist-info/RECORD,,
+aiobasex-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+aiobasex-0.0.1.dist-info/metadata.json,sha256=ZRrod0_J1IrD6NnIFho_Yk4LsJzr7_oP168oWFgRO4E,816
+aiobasex-0.0.1.dist-info/top_level.txt,sha256=KTsp-KqtI7HdYBWrFhtBOb-yE6CPZLt5wYg2MAWwGA4,9
