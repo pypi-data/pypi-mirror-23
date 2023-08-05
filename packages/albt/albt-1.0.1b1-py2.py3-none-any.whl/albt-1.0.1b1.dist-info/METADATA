@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: albt
+Version: 1.0.1b1
+Summary: AWS Lambda Build tool
+Home-page: https://github.com/geothird/albt
+Author: geothird
+Author-email: UNKNOWN
+License: MIT
+Keywords: aws lambda python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: Click
+Requires-Dist: boto3
+Requires-Dist: pyyaml
+
+AWS Lambda Build tool
+=========================================
+
+Allows for building, creating, and invoking lambda functions.
+
+
