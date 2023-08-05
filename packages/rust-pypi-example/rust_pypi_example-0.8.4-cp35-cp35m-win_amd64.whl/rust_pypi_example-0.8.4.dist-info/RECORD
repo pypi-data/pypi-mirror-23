@@ -1,0 +1,17 @@
+rust_pypi_example.cp35-win_amd64.pyd,sha256=xAMa1bPryak2k5OGbro-ZKE8Ew2P0RdxD437wq9r-40,116736
+rust_pypi_example/__init__.py,sha256=OecEIlKEh9hv2HRG6ABPtYOUIR1bDiYN1XxEcxl8Yao,111
+rust_pypi_example/cli.py,sha256=mMw17lAiQGQgdAhQbCrdRQTlBbGCBLAZ0PTsgzDAO8A,892
+rust_pypi_example/rust_pypi_example.py,sha256=DbSugkYmK1JsgQL5HyjRya0-kYoMPUmBRJ8Z-TzhN7o,2362
+rust_pypi_example/rust/Cargo.toml,sha256=25F6WjOXgUsstwGV6gmaQYItoeHqcwmipUVJ-cBqCNw,132
+rust_pypi_example/rust/src/lib.rs,sha256=geoYyUlctpkNFdsyVFPzlnsNjITH26yqnojedxqQSzw,818
+rust_pypi_example/rust/src/rust_pypi_example.h,sha256=LKFJf52hWpxH6u4eXdJg_DY5CeKemVc-3FNKApMfubw,28
+rust_pypi_example/rust/target/release/rust_pypi_example.dll,sha256=xAMa1bPryak2k5OGbro-ZKE8Ew2P0RdxD437wq9r-40,116736
+rust_pypi_example/rust/target/release/deps/rust_pypi_example.dll,sha256=xAMa1bPryak2k5OGbro-ZKE8Ew2P0RdxD437wq9r-40,116736
+rust_pypi_example/rust/target/release/deps/rust_pypi_example.dll.lib,sha256=Ti5RcqRHSQSn6pEtHP-I70JD8-T4H_IEXGywNOVudYY,2294
+rust_pypi_example-0.8.4.dist-info/DESCRIPTION.rst,sha256=WgPiQOLf0AabYiO9I0-SVp8IMl9Wb_IApEZaVejx0kU,1381
+rust_pypi_example-0.8.4.dist-info/METADATA,sha256=bjeob9eWDHWVihkl4LohoUnkHhkBP2ohMBmUr65v6KA,2339
+rust_pypi_example-0.8.4.dist-info/RECORD,,
+rust_pypi_example-0.8.4.dist-info/WHEEL,sha256=SUgfiiDWQYcL1n6t2OS_7aUz1Z2lCAWOT6Rx0MQyQko,106
+rust_pypi_example-0.8.4.dist-info/entry_points.txt,sha256=znc2kNH6A_H8m63XBDUM4CSYBwywmz6qOLXy90gLUqY,66
+rust_pypi_example-0.8.4.dist-info/metadata.json,sha256=QxHynK3tVU2iqXt5R9vg3S5mix4LJubPCjY588rNpEY,1355
+rust_pypi_example-0.8.4.dist-info/top_level.txt,sha256=1i8QsU9K1A0iQ2tfeWl9U3_dZjFmA1b35H5qewq-IGk,18
