@@ -1,0 +1,899 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight - NBC News
+
+     {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "url": "http://www.nbcnews.com",
+          "logo": {
+                  "@type": "ImageObject",
+                  "url": "http://nodeassets.nbcnews.com/cdnassets/projects/site-images/nbcnews-logo-white.png",
+                  "width": 166,
+                  "height": 24
+          },
+          "sameAs": [
+                    "https://twitter.com/NBCNews",
+                    "https://www.facebook.com/NBCNews",
+                    "https://plus.google.com/+NBCnews",
+                    "https://www.instagram.com/nbcnews",
+                    "https://www.youtube.com/nbcnews"
+                    ]
+     }
+    
+
+          {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "headline": "U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight",
+            "url": "http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351",
+            "thumbnailUrl": "https://media3.s-nbcnews.com/j/newscms/2017_18/1989876/170505-somalia-map-mn-1355_a23b77308027721fdbc114c9ccb91311.nbcnews-fp-1200-800.jpg",
+            "creator": "Courtney Kube",
+            "alternativeHeadline": "",
+            "dateCreated": "2017-05-05T12:57:55.000Z",
+            "datePublished": "2017-05-05T12:57:55.000Z",
+            "dateModified": "2017-05-05T15:39:00.000Z",
+            "articleSection":"news",
+            "documentId":"755351",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://media3.s-nbcnews.com/j/newscms/2017_18/1989876/170505-somalia-map-mn-1355_a23b77308027721fdbc114c9ccb91311.nbcnews-fp-1200-800.jpg",
+              "width": 1200,
+              "height": 800
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Courtney Kube"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "NBC News",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "http://nodeassets.nbcnews.com/cdnassets/projects/site-images/nbcnews-logo-white.png",
+                "width": 166,
+                "height": 24
+              }
+            },
+            "description": "American special forces are in the country as part of a train and advise mission.",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351"
+            }
+          }
+    
+
+
+
+
+
+
+
+
+
+
+      html body .no-js-show{ display: block !important;}
+      html body .no-js-hide{ display: none !important;}
+    
+
+
+
+
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    
+
+        function getCookie(cname) {var name = cname + "="; var ca = document.cookie.split(';'); for(var i=0; i<ca.length; i++) {var c = ca[i];while (c.charAt(0)==' ') c = c.substring(1);if (c.indexOf(name) == 0) return c.substring(name.length,c.length);}return "";}
+        function loadCSS(e,n,o,t){"use strict";var d=window.document.createElement("link"),i=n||window.document.getElementsByTagName("script")[0],s=window.document.styleSheets;return d.rel="stylesheet",d.href=e,d.media="only x",t&&(d.onload=t),i.parentNode.insertBefore(d,i),d.onloadcssdefined=function(n){for(var o,t=0;t<s.length;t++)s[t].href&&s[t].href.indexOf(e)>-1&&(o=!0);o?n():setTimeout(function(){d.onloadcssdefined(n)})},d.onloadcssdefined(function(){d.media=o||"all"}),d}
+
+        if(getCookie('fonts_cached')){
+            loadCSS('https://nodeassets.nbcnews.com/styles/fonts-b858ad4bb0.min.css');
+            loadCSS('https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sections
+
+ Nightly News
+MSNBC
+ Meet the Press
+ Dateline
+Today
+
+
+
+Search
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+Share on Facebook
+
+
+
+
+
+
+
+Share on Twitter
+
+
+
+
+
+
+
+Email page link
+
+
+
+
+
+
+
+
+
+Secondary Navigation
+
+
+
+
+Sections
+
+U.S.
+World
+Local
+Politics
+Investigations
+Health
+MACH
+Tech
+Science
+BETTER
+Pop Culture
+Lifestyle
+Business
+Weather
+Sports
+Latino
+Asian America
+NBCBLK
+NBC OUT
+
+
+
+
+
+Top Ongoing
+
+
+America's Heroin Epidemic
+
+
+The Big Questions
+
+
+TV
+
+Nightly News
+Meet The Press
+Dateline
+Today
+
+Featured
+
+NBC News VR
+Your Business
+Inspiring America
+NBCBLK28
+College Game Plan
+
+
+
+
+
+Multimedia
+
+Video
+Photo
+
+More From NBC
+
+Sports
+CNBC
+MSNBC.com
+NBC.com
+NBC Learn
+Re/Code
+Peacock Productions
+Next Steps for Vets
+Parent Toolkit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ NBC News works best with JavaScript turned on
+            
+
+
+
+
+
+
+
+ Feedback
+
+
+advertisement
+
+
+
+
+
+advertisement
+
+
+
+
+
+
+
+
+
+
+News
+
+
+  Military
+
+
+
+
+U.S.
+World
+Investigations
+Crime & Courts
+Asian America
+Latino
+NBCBLK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+May 5 2017, 11:39 am ET
+
+
+
+
+U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight
+
+
+by Courtney Kube and Hans Nichols
+
+
+
+
+
+
+
+
+
+Share
+
+
+
+Share
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+Email
+
+
+
+Print
+
+
+
+
+
+
+advertisement
+
+
+
+
+
+ A Navy SEAL was killed during a gunfight in Somalia with the terrorist group al-Shabab that also injured two other U.S. service members late Thursday, U.S. defense officials told NBC News. 
+
+
+
+
+
+
+
+Map showing location of Somalia Google
+
+
+ The attackers were "neutralized" and the wounded service members were taken to neighboring Djibouti, said an official. 
+ The U.S. service members were conducting an operation with Somali commandos to target a local leader of al-Shabab. U.S. helicopters dropped the U.S. and Somali forces off near Barii, Somalia, about 40 miles west of Mogadishu. 
+ Before the partnered force reached its target, it came under heavy fire from al-Shabab fighters, a second U.S. military official in the region told NBC News. 
+ In the ensuing firefight "several" al Shabaab fighters were killed, according to a U.S. military official, and three American troops were wounded, as was an interpreter. No U.S. airstrikes were called in to support the ground forces. 
+ The Americans were medevaced to nearby Djibouti but one later died of his injuries. All of the al-Shabab fighters were killed, but U.S. military officials are still analyzing intelligence to determine whether the actual target of the mission was among those killed. 
+
+
+
+
+
+
+
+A Somali soldier stands by the wreckage of a minibus that was destroyed by a suicide car bomb attack in Mogadishu on April 9. Farah Abdi Warsameh / AP
+
+
+ U.S. Steps Up Efforts Against al-Shabab 
+ According to one official, there are about 50 American special forces now working with African Union Mission in Somalia and local national commandos as part of a "train and advise mission," and the U.S. military has been moving in and out of Somalia since last year. In recent weeks both the U.S. and Somalia have stepped up their efforts against al-Shabab. Last month, President Donald Trump approved expanded operations against the militants, including more aggressive airstrikes. 
+ Also last month, Somalia's new military chief survived a suicide car bomb attack that killed 13 people, according to police. Al-Shabab, which claimed responsibility for the incident, is based in Somalia but has also said it was behind major attacks elsewhere in East Africa. The al-Qaeda-allied group was chased out of Mogadishu years ago but continues to fight the country's United Nations-backed government. It promotes the Wahhabi version of Islam and has imposed Sharia law in areas under its control. 
+
+
+
+
+
+
+Courtney Kube
+
+
+
+
+Hans Nichols
+
+Twitter
+Email
+
+
+
+
+
+                        Contributor
+                      
+Saphora Smith 
+
+
+                      Topics
+                    Military, Africa, Investigations, U.S. news, World
+
+First Published May 5 2017, 8:57 am ET
+
+
+
+
+
+
+
+ Next Story
+Trump's Army Secretary Pick Slammed as 'Anti-Transgender,' 'Islamophobic' 
+
+
+
+
+
+
+
+
+
+advertisement
+
+
+
+
+
+
+
+
+
+
+advertisement
+
+
+
+
+
+advertisement
+
+
+
+
+
+
+
+
+      // Note: this loads inside the article body
+      if (typeof articleApp !== 'undefined') { // only execute after pageload
+        articleApp.hasLoadedAjaxArticle = true;
+        articleApp.lastAjaxArticle = {"contentSource":"NBCNews","pageName":"nbcnews:post:u-s-navy-seal-killed-2-colleagues-hurt-somalia-gunfight","page":"article","section":"news","topic":"military","byline":"Courtney Kube","externalId":"755351","contentType":"post","entryId":"NewsCms/Entry/755351","headline":"U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight","summary":"American special forces are in the country as part of a train and advise mission.","canonical_url":"http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351","breakingNews":false,"publishDate":"2017-05-05 12:57:55 Z","modifiedDate":"2017-05-05 15:39:00 Z","isNative":false,"videoCount":0,"channelSection":"news","isFeature":false}; // adds Analytics data so it can be used for analyticsDataLayerHistory
+        articleApp.lastAjaxArticle.externalId = '755351'; // articleApp.lastAjaxArticle.headline = "";
+        articleApp.lastAjaxArticle.canonical_url = 'http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351';
+        articleApp.lastAjaxArticle.type = 'post';
+        articleApp.lastAjaxArticle.sectionTopic = '/news/military';
+
+        // re-init value for DTM
+        window.analyticsDataLayer = {"contentSource":"NBCNews","pageName":"nbcnews:post:u-s-navy-seal-killed-2-colleagues-hurt-somalia-gunfight","page":"article","section":"news","topic":"military","byline":"Courtney Kube","externalId":"755351","contentType":"post","entryId":"NewsCms/Entry/755351","headline":"U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight","summary":"American special forces are in the country as part of a train and advise mission.","canonical_url":"http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351","breakingNews":false,"publishDate":"2017-05-05 12:57:55 Z","modifiedDate":"2017-05-05 15:39:00 Z","isNative":false,"videoCount":0,"channelSection":"news","isFeature":false};
+        articleApp.analyticsDataLayerHistory.push(articleApp.lastAjaxArticle);
+        window.analyticsDataLayer.sectionTopic = '/news/military';
+
+        window.videoAnalyticsDataLayer.channelSection = analyticsDataLayer.channelSection;
+
+        $(function () {
+          articleApp.articleViewBindings(true, '755351');
+        });
+      }
+    
+
+
+
+
+
+
+
+
+
+
+About Us
+Careers
+Contact
+
+
+Privacy Policy
+                  New
+
+
+Terms of Service
+
+
+nbcnews.com Site Map
+
+
+Advertise
+
+
+AdChoices
+
+© 2017 NBCnews.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    DY = {scsec : 8765428 ,API: function(){(DY.API.actions = DY.API.actions || []).push(arguments)}};
+
+
+
+
+
+var console = window.console || { log: function() {} };
+var xfinityShell={referer:document.referrer,isXfinity:false,validDomains:[],validReferers:[],isValidDomain:false,init:function(){this.validDomains=xfinityShell.loadValidDomains();this.validReferers=["xfinity.comcast.net","xfinity.today.com","xfinity.nbcnews.com","my.xfinity.com"];this.isXfinity=xfinityShell.checkForXfinity()},loadValidDomains:function(){return["assets.nbcnews.com","assets.today.com"]},checkForXfinity:function(){var e=xfinityShell.readCookie("P7");if(e==="X")return true;else{var t=this.isValidReferer();if(t){for(var n in xfinityShell.validDomains){var r=new Image;r.src="http://"+xfinityShell.validDomains[n]+"/rendering/crossdomaincookiepush.ashx/X"}return true}}return false},isValidDomain:function(){if(this.referer.length==0)return true;for(var e in xfinityShell.validDomains)if(this.referer.indexOf(validDomains[e])>-1)return true;return false},isValidReferer:function(){if(this.referer.length==0)return false;for(var e in xfinityShell.validReferers)if(this.referer.indexOf(xfinityShell.validReferers[e])>-1)return true;return false},readCookie:function(e){var t=document.cookie,n=t.toUpperCase().indexOf(e.toUpperCase()+"="),r="";if(n!=-1){var i=n+e.length+1,s=t.indexOf(";",i);if(s==-1)s=t.length;r=t.substring(i,s);r=unescape(r)}return r},deleteXfinityCookie:function(){document.cookie="P7=X;expires=Thu, 01-Jan-1970 00:00:01 GMT"}}
+
+if(document.documentElement.clientWidth >= 992) {xfinityShell.init();}
+
+
+  var screenWidth = {'small': 768, 'medium':1000, 'large':1230}
+
+  var mpsapp = {
+    currentBreakpoint: "",
+    breakpointSizes: {'xs':'xs', 'sm':'sm', 'md':'md', 'lg':'lg'},
+    init: function(){
+      this.currentBreakpoint = this.getBreakpoint();
+      this.isPixelmanEnabled = this.getPixelmanEnabled();
+    },
+    getBreakpoint: function(){
+      var width = document.documentElement.clientWidth;
+
+      if(width < screenWidth.small) {
+        return this.breakpointSizes.xs;
+      }
+      else if(width >= screenWidth.small && width < screenWidth.medium) {
+        return this.breakpointSizes.sm;
+      }
+      else if(width >= screenWidth.medium && width < screenWidth.large) {
+        return this.breakpointSizes.md;
+      }
+      else if(width >= screenWidth.large) {
+        return this.breakpointSizes.lg;
+      }
+      return this.breakpointSizes.lg;
+    },
+    isPixelmanEnabled: false,
+    getPixelmanEnabled: function(){
+      if (this.currentBreakpoint === this.breakpointSizes.lg || this.currentBreakpoint === this.breakpointSizes.md){
+        return true;
+      }
+      return false;
+    }
+  }
+  mpsapp.init();
+
+  var ads = {
+    site: 'nbcnews.com',
+    mpscall: {
+      site: 'nbcnews-web',
+      path: '/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351',
+      cat: 'news|military|article',
+      type: 'post',
+      articleIndex: 1,
+    },
+    videoPlayer: {
+      freewheelValue: 'nbcnews_fallbacksitesection',
+      sect:'',
+      topic:'',
+      show:'',
+      storyline:'',
+      feature:''
+    },
+      videoData: {
+        section: 'news',
+        topic:'military',
+        show:'',
+        storyline:'',
+        feature:''
+      },
+      sectionList: 'news|investigations',
+    init: function(){
+
+    },
+    getFreewheelValue: function(){
+
+      if(mps && mps.pagevars){
+        return mps.pagevars.freewheel_section
+      }
+      return 'nbcnews_fallbacksitesection';
+    },
+    getVideoPlayerConfig: function(){
+
+      if (mps && mps.pagevars){
+        this.videoPlayer.freewheelValue = mps.pagevars.freewheel_section;
+
+        if(mps.pagevars.cats){
+          var mpsSection = mps.pagevars.cats[0];
+          this.videoPlayer.sect = mpsSection;
+          this.videoPlayer.show = mpsSection;
+        }
+      }
+
+      return this.videoPlayer;
+    }
+  }
+  ads.init();
+
+
+
+  var mpsopts = {'host':'mps.nbcnews.com'};
+  mpsopts.isHostStage = function(){
+    if (window.location.href.indexOf('prodads=true') > -1 || window.location.host.indexOf('sys02') === 0){return false;}
+    if (window.location.href.indexOf('stageads=true') > -1 || window.location.host.indexOf('sys') === 0 || window.location.host.indexOf('local.nbcnews.com:9001') === 0  || window.location.host.indexOf('nbcnews.com') === -1){return true;}
+    return false;
+  };
+  if (mpsopts.isHostStage()) {mpsopts.host = 'stage.mps.nbcnews.com';}
+  var mpscall = {};
+  mpscall.site = ads.mpscall.site;
+  mpscall.path = ads.mpscall.path;
+  mpscall.cat = ads.mpscall.cat;
+  mpscall.type = ads.mpscall.type;
+  mpscall['cag[entryno]'] = ads.mpscall.articleIndex;
+
+  if (ads.sectionList){
+    mpscall['cag[sections]'] = ads.sectionList;
+  }
+
+  if(ads.storylineList){
+    mpscall['cag[storylines]'] = ads.storylineList;
+  }
+
+  if (ads.noAds){
+    mpscall['cag[noads]'] =  ads.noAds;
+  }
+
+  var mps = mps || {};
+  document.write('<scr'+'ipt id="mps-ext-load" src="//'+mpsopts.host+'/fetch/ext/load-'+mpscall.site+'.js"></scr'+'ipt>');
+
+
+  function viewport() {
+    var e = window, t = "inner";
+    if (!("innerWidth"in window)) {
+      t = "client";
+      e = document.documentElement || document.body
+    }
+    return {width: e[t + "Width"], height: e[t + "Height"]}
+  }
+
+
+
+
+    var stylesheets = [
+        'https://nodeassets.nbcnews.com/styles/fonts-b858ad4bb0.min.css',
+        'https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        'https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.2/css/weather-icons.min.css',
+        'https://nvcdn.nbcnews.com/_elliott/jenga_css?widgets=zinger2,cowboy'
+    ];
+    function onloadCSS( ss, callback ) {ss.onload = function() {ss.onload = null;if( callback ) {callback.call( ss );}};if( "isApplicationInstalled" in navigator && "onloadcssdefined" in ss ) {ss.onloadcssdefined( callback );}}
+
+    setTimeout(function () {
+        if(!getCookie('fonts_cached')){
+            var fonts = loadCSS(stylesheets[0]);
+            onloadCSS(fonts, function() {
+                $.cookie('fonts_cached','Y', {path:'/', expires: 14});
+            });
+        }
+        loadCSS(stylesheets[1]);loadCSS(stylesheets[2]);loadCSS(stylesheets[3]);
+    }, 1);
+
+  window.DTM = {
+    routedata:{},
+    routename: 'article',
+    pagetype: '',
+    taxonomy: 'military',
+    taxonomy_parent: 'news',
+    social_share : {}
+  };
+
+  window.analyticsDataLayer = {"contentSource":"NBCNews","pageName":"nbcnews:post:u-s-navy-seal-killed-2-colleagues-hurt-somalia-gunfight","page":"article","section":"news","topic":"military","byline":"Courtney Kube","externalId":"755351","contentType":"post","entryId":"NewsCms/Entry/755351","headline":"U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight","summary":"American special forces are in the country as part of a train and advise mission.","canonical_url":"http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351","breakingNews":false,"publishDate":"2017-05-05 12:57:55 Z","modifiedDate":"2017-05-05 15:39:00 Z","isNative":false,"videoCount":0,"channelSection":"news","isFeature":false};
+
+
+
+
+  $(function () {
+    if (!Modernizr.svg) {
+      $('.svg-fallback').attr('src', function () {
+        return $(this).attr('src').replace(/\.(svg)$/i, '.png');
+      });
+    }
+  });
+
+
+
+
+
+
+
+
+
+    <% if ((isAd) || (isVideo && useDuringContent)) { %>
+      <% if ((lastMouseMove + hideDelay) > (currentTime)) { %>
+        <div class="controlrack_video-ad-scrubber" id="video-control-rack">
+          <% if (isPlaying) { %>
+            <div class="controlrack_btn-controls js-control-pause">
+              <i class="fa fa-pause" aria-label="Pause"></i>
+            </div>
+          <% } else { %>
+            <div class="controlrack_btn-controls js-control-play">
+              <i class="fa fa-play" aria-label="Play"></i>
+            </div>
+          <% } %>
+          <% if (isAd) { %>
+            <div class="controlrack_ad-control">
+              <div class="controlrack_center-content">
+                Your video begins in <div class="controlrack_ad-time">
+                  <%- timeFormat(endTime-currentTime) %>
+                </div>
+              </div>
+            </div>
+          <% } %>
+          <% if (isLive) { %>
+            <div class="controlrack_ad-control">
+              <div class="controlrack_center-content">
+                <div class="controlrack_ad-time">
+                  <i class="fa fa-circle">  </i>LIVE
+                </div>
+              </div>
+            </div>
+          <% } %>
+          <% if (isVideo && !isAd && !isLive) { %>
+            <div class="time-control">
+              <div class="time time-progress">
+                <%-timeFormat(currentTime)%>
+              </div>
+              <div class="scrubber-wrapper">
+                <div class="scrubber">
+                  <div id="scrubber-status" class="scrubber-status" style="width: <%= Math.floor((currentTime * 100) / endTime) %>%">&nbsp;</div>
+                </div>
+              </div>
+              <div class="time time-end">
+                <%-timeFormat(endTime)%>
+              </div>
+            </div>
+          <% } %>
+          <% if (isVideo || isLive) { %>
+            <div class="btn-right">
+              <% if (isDesktop) { %>
+                <% if (inMutedState) { %>
+                  <div class="controlrack_btn-controls js-control-volume-off">
+                    <i class="fa fa-volume-off"></i>
+                  </div>
+                <% } else { %>
+                  <div class="controlrack_btn-controls js-control-volume-on">
+                    <i class="fa fa-volume-up"></i>
+                  </div>
+                <% } %>
+              <% } %>
+              <div class="controlrack_btn-controls js-control-cc">
+                <i class="fa fa-cc"></i>
+              </div>
+              <% if (inFullscreenState) { %>
+                <div class="controlrack_btn-controls js-control-compress">
+                  <i class="fa fa-compress"></i>
+                </div>
+              <% } else { %>
+                <div class="controlrack_btn-controls js-control-expand">
+                  <i class="fa fa-expand"></i>
+                </div>
+              <% } %>
+            </div>
+          <% } %>
+        </div>
+      <% } %>
+    <% } %>
+  
+
+
+    $(function () {
+      // reminder: this only loads on initial pageload
+      articleApp.articleViewBindings(false, '755351');
+      articleApp.sectionTopic = '/news/military';
+      articleApp.nextArticles = [{"externalId":"754806","canonical_url":"http://www.nbcnews.com/feature/nbc-out/trump-s-army-secretary-pick-slammed-anti-transgender-islamophobic-n754806","headline":"Trump's Army Secretary Pick Slammed as 'Anti-Transgender,' 'Islamophobic' "},{"externalId":"755336","canonical_url":"http://www.nbcnews.com/news/north-korea/north-korea-accuses-cia-failed-kim-jong-un-assassination-plot-n755336","headline":"North Korea Accuses CIA of Failed Kim Jong Un Assassination Plot"},{"externalId":"754346","canonical_url":"http://www.nbcnews.com/news/world/haunting-image-soldier-killed-blast-released-army-n754346","headline":"Haunting Image by Soldier Killed in Blast Released by Army"},{"externalId":"754441","canonical_url":"http://www.nbcnews.com/news/world/what-s-crazy-scary-north-korean-propaganda-n754441","headline":"What's With the Crazy, Scary North Korean Propaganda?"},{"externalId":"753756","canonical_url":"http://www.nbcnews.com/news/north-korea/north-korean-warns-region-close-nuclear-war-amid-u-s-n753756","headline":"North Korea Warns Region Is 'Close to Nuclear War' Amid U.S. Drills"},{"externalId":"753581","canonical_url":"http://www.nbcnews.com/news/world/north-korea-speeds-missile-tests-send-message-trump-n753581","headline":"North Korea Speeds Up Missile Tests to Send Message to Trump"},{"externalId":"753521","canonical_url":"http://www.nbcnews.com/feature/inspiring-america/inspiring-america-vietnam-veterans-fly-again-n753521","headline":"Inspiring America: Vietnam Veterans Fly Again"},{"externalId":"753041","canonical_url":"http://www.nbcnews.com/news/world/russia-s-military-buildup-arctic-has-u-s-watching-closely-n753041","headline":"Russia's Military Buildup in Arctic Has U.S. Watching Closely"},{"externalId":"753081","canonical_url":"http://www.nbcnews.com/news/world/violence-bloodshed-mount-afghanistan-report-says-n753081","headline":"Violence, Bloodshed Mount in Afghanistan, Report Says"},{"externalId":"752966","canonical_url":"http://www.nbcnews.com/storyline/isis-terror/u-s-service-member-killed-mosul-iraq-pentagon-n752966","headline":"U.S. Service Member Killed in Mosul, Iraq: Pentagon"},{"externalId":"752566","canonical_url":"http://www.nbcnews.com/storyline/isis-terror/friendly-fire-may-have-led-deaths-2-u-s-army-n752566","headline":"Friendly Fire May Have Led to Deaths of 2 U.S. Army Rangers in Afghanistan"},{"externalId":"751826","canonical_url":"http://www.nbcnews.com/news/world/least-2-u-s-service-members-killed-anti-isis-raid-n751826","headline":"Two U.S. Army Rangers Killed in Anti-ISIS Raid in Eastern Afghanistan"},{"externalId":"749771","canonical_url":"http://www.nbcnews.com/news/military/trump-awards-purple-heart-1st-visit-walter-reed-military-hospital-n749771","headline":"Trump Awards Purple Heart at 1st Visit to Walter Reed Military Hospital"},{"externalId":"749111","canonical_url":"http://www.nbcnews.com/news/world/u-s-spy-planes-watching-possible-north-korea-nuke-test-n749111","headline":"U.S. Spy Planes Watching for Possible North Korea Nuke Test"},{"externalId":"748641","canonical_url":"http://www.nbcnews.com/news/us-news/navy-marines-ban-distributing-nude-photos-without-consent-amid-scandal-n748641","headline":"Navy, Marines Ban Distributing Nude Photos Without Consent Amid Scandal"},{"externalId":"748046","canonical_url":"http://www.nbcnews.com/news/us-news/u-s-may-not-be-able-shoot-down-north-korean-n748046","headline":"U.S. May Not Be Able to Shoot Down North Korean Missiles, Say Experts"},{"externalId":"747461","canonical_url":"http://www.nbcnews.com/news/us-news/military-helicopter-crashes-maryland-golf-course-n747461","headline":"Military Helicopter Crashes on Maryland Golf Course, Killing One Crew Member"},{"externalId":"746041","canonical_url":"http://www.nbcnews.com/news/world/inside-world-s-first-all-female-special-forces-unit-norway-n746041","headline":"Inside the World's First All-Female Special Forces Unit: Norway's Jegertroppen"},{"externalId":"746806","canonical_url":"http://www.nbcnews.com/news/world/moab-strike-didn-t-need-trump-s-approval-officials-say-n746806","headline":"MOAB Strike Didn't Need Trump's Approval, Officials Say"},{"externalId":"746511","canonical_url":"http://www.nbcnews.com/storyline/isis-terror/video-shows-moment-mother-all-bombs-strikes-isis-afghanistan-n746511","headline":"Video Shows the Moment the 'Mother of All Bombs' Strikes ISIS in Afghanistan"},{"externalId":"746106","canonical_url":"http://www.nbcnews.com/politics/politics-news/u-s-targets-isis-afghanistan-large-non-nuclear-bomb-n746106","headline":"U.S. Drops 'Mother of All Bombs' on ISIS Target in Afghanistan"},{"externalId":"746366","canonical_url":"http://www.nbcnews.com/news/world/u-s-may-launch-strike-if-north-korea-reaches-nuclear-n746366","headline":"U.S. May Launch Strike If North Korea Reaches for Nuclear Trigger"},{"externalId":"746096","canonical_url":"http://www.nbcnews.com/health/health-news/va-hospital-washington-d-c-dirty-disorganized-inspector-finds-n746096","headline":"VA Hospital in Washington D.C. Is Dirty, Disorganized, Inspector Finds"},{"externalId":"745986","canonical_url":"http://www.nbcnews.com/storyline/isis-terror/u-s-led-coalition-airstrike-killed-18-sdf-fighters-syria-n745986","headline":"U.S.-Led Coalition Airstrike Kills 18 Anti-Assad Fighters in Syria: Pentagon"},{"externalId":"745126","canonical_url":"http://www.nbcnews.com/news/us-news/navy-won-t-pursue-criminal-charges-seal-training-death-n745126","headline":"Navy Won't Pursue Criminal Charges in SEAL Training Death"},{"externalId":"744271","canonical_url":"http://www.nbcnews.com/news/world/u-s-move-carrier-strike-group-closer-korean-peninsula-n744271","headline":"U.S. to Move Carrier Strike Group Closer to Korean Peninsula"},{"externalId":"744221","canonical_url":"http://www.nbcnews.com/storyline/isis-terror/u-s-soldier-killed-afghanistan-anti-isis-operation-u-s-n744221","headline":"American Soldier Killed in Afghanistan in Anti-ISIS Operation: U.S. Military "},{"externalId":"744096","canonical_url":"http://www.nbcnews.com/news/us-news/2-marines-demoted-more-investigated-nude-photo-probe-n744096","headline":"2 Marines Demoted, More Investigated In Nude Photo Probe"},{"externalId":"743911","canonical_url":"http://www.nbcnews.com/politics/donald-trump/supporters-back-trump-after-syrian-strike-decision-rankles-some-far-n743911","headline":"Supporters Back Trump After Syrian Strike, But Decision Rankles Some on Far-Right"},{"externalId":"743571","canonical_url":"http://www.nbcnews.com/news/us-news/trump-s-options-north-korea-include-placing-nukes-south-korea-n743571","headline":"Trump's Options for North Korea Include Placing Nukes in South Korea"},{"externalId":"744046","canonical_url":"http://www.nbcnews.com/slideshow/week-pictures-march-31-april-7-n744046","headline":"The Week in Pictures: March 31 - April 7"},{"externalId":"743956","canonical_url":"http://www.nbcnews.com/news/world/why-does-syria-still-have-chemical-weapons-n743956","headline":"Why Does Syria Still Have Chemical Weapons?"},{"externalId":"743936","canonical_url":"http://www.nbcnews.com/news/us-news/was-u-s-missile-strike-syria-legal-n743936","headline":"Was the U.S. Missile Strike on Syria Legal?"},{"externalId":"743636","canonical_url":"http://www.nbcnews.com/news/us-news/u-s-launches-missiles-syrian-base-after-chemical-weapons-attack-n743636","headline":"U.S. Launches Missiles at Syrian Base Over Chemical Weapons Attack"},{"externalId":"743676","canonical_url":"http://www.nbcnews.com/news/world/syrian-airfield-strike-what-tomahawk-land-attack-missile-n743676","headline":"Syrian Airfield Strike: What Is a Tomahawk Land Attack Missile?"},{"externalId":"742886","canonical_url":"http://www.nbcnews.com/news/us-news/f-16-military-plane-crashes-near-joint-base-andrews-sources-n742886","headline":"F-16 Military Plane Crashes Near Joint Base Andrews: Sources"},{"externalId":"742981","canonical_url":"http://www.nbcnews.com/news/world/u-s-officials-syria-gas-attack-consistent-nerve-agent-n742981","headline":"U.S. Officials: Syria Gas Attack Consistent With Nerve Agent"},{"externalId":"742246","canonical_url":"http://www.nbcnews.com/news/world/win-tonight-men-women-south-korean-base-poised-war-24-n742246","headline":"'Win Tonight': Men and Women at South Korean Base Poised for War 24/7"},{"externalId":"739591","canonical_url":"http://www.nbcnews.com/news/us-news/general-says-u-s-probably-had-role-killing-mosul-civilians-n739591","headline":"General Says U.S. 'Probably Had a Role' in Killing Mosul Civilians"},{"externalId":"739356","canonical_url":"http://www.nbcnews.com/news/world/russians-are-fighting-near-u-s-same-side-syria-s-n739356","headline":"Russians Are Fighting Near Americans on Same Side of Syria's Battlefield"}];
+      articleApp.articleContext = {"contentSource":"NBCNews","pageName":"nbcnews:post:u-s-navy-seal-killed-2-colleagues-hurt-somalia-gunfight","page":"article","section":"news","topic":"military","byline":"Courtney Kube","externalId":"755351","contentType":"post","entryId":"NewsCms/Entry/755351","headline":"U.S. Navy SEAL Killed, 2 Colleagues Hurt in Somalia Gunfight","summary":"American special forces are in the country as part of a train and advise mission.","canonical_url":"http://www.nbcnews.com/news/military/u-s-service-member-killed-2-hurt-somalia-exchange-gunfire-n755351","breakingNews":false,"publishDate":"2017-05-05 12:57:55 Z","modifiedDate":"2017-05-05 15:39:00 Z","isNative":false,"videoCount":0,"channelSection":"news","isFeature":false};
+
+      window.videoAnalyticsDataLayer ={};
+      window.videoAnalyticsDataLayer.channelSection = analyticsDataLayer.channelSection;
+
+      articleApp.updateArticle('755351');
+    });
+  
+
+_satellite.pageBottom();
+ 
+	if (mps && typeof(mps.writeFooter) === 'function'){
+		mps.writeFooter();
+	} 
+
+
+
