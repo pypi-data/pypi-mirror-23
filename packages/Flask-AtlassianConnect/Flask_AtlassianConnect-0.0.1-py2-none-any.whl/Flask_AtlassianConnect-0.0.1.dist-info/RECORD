@@ -1,0 +1,11 @@
+Flask_AtlassianConnect-0.0.1.dist-info/DESCRIPTION.rst,sha256=iMThNrOuShZWurPaXV5bMumOFEto1smNXKMk8yrwRLU,11902
+Flask_AtlassianConnect-0.0.1.dist-info/METADATA,sha256=Up3LdgcmGiQomsbYFFZ7-DfFvp8oz7bdVJ1fvy_M2HY,12394
+Flask_AtlassianConnect-0.0.1.dist-info/RECORD,,
+Flask_AtlassianConnect-0.0.1.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+Flask_AtlassianConnect-0.0.1.dist-info/metadata.json,sha256=MzvyFvdK9DXmGNjuAwrooBrzdFcErQzDQXXg5PxJyJc,845
+Flask_AtlassianConnect-0.0.1.dist-info/top_level.txt,sha256=OVpRngY-iUqHlOMEjq3ElRUaYPGbuLwA09ZirixqNqQ,24
+flask_atlassian_connect/__init__.py,sha256=spQKhMQ-nVIvjfc7U5Tos333n1D9lYfzl4yIKoRRbm4,329
+flask_atlassian_connect/base.py,sha256=DjcDCm8zZ7aoUpZmMDH0UyfO7xe47Frvmsy0MS9vDlA,16386
+flask_atlassian_connect/client.py,sha256=CI2oZCJedKSVIZ65FE23ADRKayuyo-80kNiuX4CRaFE,1688
+flask_atlassian_connect/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_atlassian_connect/tests/test_addon.py,sha256=7pFWoU4Wk8L6IBdEm_yH02sR-ZCpbQ6JAM_f4yZHCM8,11487
