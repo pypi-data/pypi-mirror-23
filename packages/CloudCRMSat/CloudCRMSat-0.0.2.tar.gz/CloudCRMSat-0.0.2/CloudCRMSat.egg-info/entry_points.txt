@@ -1,0 +1,3 @@
+[console_scripts]
+cloudsat = cloudsat.cloudsat:__main__
+
