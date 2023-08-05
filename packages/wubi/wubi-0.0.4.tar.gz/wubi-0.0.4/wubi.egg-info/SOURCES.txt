@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+wubi/__init__.py
+wubi/_compat.py
+wubi/build_map.py
+wubi/cmd.py
+wubi/wubi.py
+wubi.egg-info/PKG-INFO
+wubi.egg-info/SOURCES.txt
+wubi.egg-info/dependency_links.txt
+wubi.egg-info/entry_points.txt
+wubi.egg-info/top_level.txt
