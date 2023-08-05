@@ -1,0 +1,13 @@
+README.rst
+setup.py
+i2csense/__init__.py
+i2csense/__main__.py
+i2csense/bh1750.py
+i2csense/bme280.py
+i2csense/htu21d.py
+i2csense.egg-info/PKG-INFO
+i2csense.egg-info/SOURCES.txt
+i2csense.egg-info/dependency_links.txt
+i2csense.egg-info/entry_points.txt
+i2csense.egg-info/requires.txt
+i2csense.egg-info/top_level.txt
