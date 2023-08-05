@@ -1,0 +1,8 @@
+README.rst
+setup.py
+hca.egg-info/PKG-INFO
+hca.egg-info/SOURCES.txt
+hca.egg-info/dependency_links.txt
+hca.egg-info/not-zip-safe
+hca.egg-info/requires.txt
+hca.egg-info/top_level.txt
