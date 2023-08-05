@@ -1,0 +1,2 @@
+click
+check-pypi-name>=0.3.0
