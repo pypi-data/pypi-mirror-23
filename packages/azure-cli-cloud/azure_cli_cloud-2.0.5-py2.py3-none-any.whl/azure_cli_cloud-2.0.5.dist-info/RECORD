@@ -1,0 +1,11 @@
+azure/cli/command_modules/cloud/__init__.py,sha256=c4LJx8dWWewhnS12UBtpKq8TG4MFYwl8xxVAjmFnRAQ,686
+azure/cli/command_modules/cloud/_help.py,sha256=g74BJcygJmSRVOL0T2fY7f09eAaQcEKiRnFwxfareRQ,1343
+azure/cli/command_modules/cloud/_params.py,sha256=pRJ31aWtwh8Vqm14hAnNNQ2N5CvMawxTuK8n4LBuVG4,4076
+azure/cli/command_modules/cloud/commands.py,sha256=2IKGSfghvKpgB-9VBFMj_JLzuBIKmz_f94ZCUvRdk7U,1053
+azure/cli/command_modules/cloud/custom.py,sha256=jkVyappb7743X9X3UMtdih-7B4jEgFyVHpIa8MNLPeU,4782
+azure_cli_cloud-2.0.5.dist-info/DESCRIPTION.rst,sha256=LGH27gIS1okkrWD2OaOfm323mh_ohIJSvCdAIBd0UK8,1367
+azure_cli_cloud-2.0.5.dist-info/METADATA,sha256=d-ct5Qfw-aU66wRTjOFpNur3MgiMtNsprNpsDmeN-a4,2267
+azure_cli_cloud-2.0.5.dist-info/RECORD,,
+azure_cli_cloud-2.0.5.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+azure_cli_cloud-2.0.5.dist-info/metadata.json,sha256=gu0_Xbp_5kYZIwbpQ1UXDvvcyXQUW_PPM-efBfxiRqs,1028
+azure_cli_cloud-2.0.5.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
