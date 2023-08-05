@@ -1,0 +1,3 @@
+[console_scripts]
+heidelberg_subtyping = heidelberg_subtyping.main:main
+
