@@ -1,0 +1,9 @@
+pkgtool/__init__.py,sha256=5GBJlYqse7nD9ZOB3WeiZH_BG2mXzgnIYpzVJF3tSGU,23617
+pkgtool/version.py,sha256=ReFXblWnD3EseT5iOKnjKeRTLsyTavE1ttkhom6_XXQ,4957
+pkgtool-0.1b49.data/scripts/pkgtool,sha256=e7Vez_RkWryYW6dOE8QRJ-lzHhuck0zdEa7eA5CYqso,61
+pkgtool-0.1b49.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pkgtool-0.1b49.dist-info/METADATA,sha256=-ZVHzzPReik5_dqVg9aHdJB2NpPM-EL6DKBQsKtr8cE,354
+pkgtool-0.1b49.dist-info/RECORD,,
+pkgtool-0.1b49.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pkgtool-0.1b49.dist-info/metadata.json,sha256=GBoSANaL0F5RYETw0DNeCoxk4DGcgH-kWDkpPnCXTlA,530
+pkgtool-0.1b49.dist-info/top_level.txt,sha256=pAirJgAOg_nZCtt5-cs-hQ_q_ujI5Kk4H9ho-gIISsI,8
