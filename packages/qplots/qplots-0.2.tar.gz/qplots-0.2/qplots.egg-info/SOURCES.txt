@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+qplots/DynamicZoom.py
+qplots/VERSION
+qplots/__init__.py
+qplots/qplots.py
+qplots/widgetmultiplot.py
+qplots.egg-info/PKG-INFO
+qplots.egg-info/SOURCES.txt
+qplots.egg-info/dependency_links.txt
+qplots.egg-info/requires.txt
+qplots.egg-info/top_level.txt
