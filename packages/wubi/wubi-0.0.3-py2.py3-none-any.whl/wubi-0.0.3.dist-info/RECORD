@@ -1,0 +1,13 @@
+wubi/__init__.py,sha256=3ZOMoWaEf1PX-0vLapplv5k_nArFOmK4gDsvuQX-pbU,45
+wubi/_compat.py,sha256=Q1F7MYnb-_seCgcd_g0xx7wAfW0hpIrBTVvyMn0k1Rw,241
+wubi/build_map.py,sha256=rnXiHdzCzXzUH4GrgZAuTMl2yGPES6eGmhad-CVO4AQ,1203
+wubi/cmd.py,sha256=iRd0Woc3O03d0SyE4tpqtwlx6N9oNWVMsk1Y_PdfkDc,483
+wubi/wubi.cPickle,sha256=WoNcvYL1imwmFTUorW0ANSLVPcbiKNhARotBNy-sd7E,1024241
+wubi/wubi.py,sha256=fdPqn8mkHGu2214_BArIYD_tMp7ePm8elqVcbLCKESA,1699
+wubi-0.0.3.dist-info/DESCRIPTION.rst,sha256=5nJphQwxtQV-WR0LxiZ-dEE4s0Zq3mRmXGJHFC77IY0,3389
+wubi-0.0.3.dist-info/METADATA,sha256=bmeFCaNSQrXTaNENHDzBKoEIXOfpwA9rHF4DH1LolxI,4220
+wubi-0.0.3.dist-info/RECORD,,
+wubi-0.0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+wubi-0.0.3.dist-info/entry_points.txt,sha256=GEcVYhSEz5fhrV_T1gJGnMXASKbVbNAbConKIZbG2KQ,40
+wubi-0.0.3.dist-info/metadata.json,sha256=hb04D2Zafc7ecZiroF5Z7eFE0aau5oqXHRmFZczSZ-c,1056
+wubi-0.0.3.dist-info/top_level.txt,sha256=SN1-SkPokwaHtMxLfOYU1rWev-AGFMyi1QkeHZueQNA,5
