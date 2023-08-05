@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+rh.osx.egg-info/PKG-INFO
+rh.osx.egg-info/SOURCES.txt
+rh.osx.egg-info/dependency_links.txt
+rh.osx.egg-info/namespace_packages.txt
+rh.osx.egg-info/not-zip-safe
+rh.osx.egg-info/top_level.txt
+rh/osx/__init__.py
+rh/osx/basetypes.py
+rh/osx/corefoundation.py
+rh/osx/diskarbitration.py
+rh/osx/iokit.py
