@@ -1,0 +1,6 @@
+include README.md
+recursive-include admin_sort *.py
+recursive-include admin_sort/locale *
+recursive-include admin_sort/static *
+recursive-include admin_sort/templates *
+recursive-exclude * *.pyc
