@@ -1,0 +1,57 @@
+# 0.7.1 2017.07.12 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Issue fixing
+
+# 0.7 2017.07.12 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Not using cookies to get the csrf token, the token is on the html now
+    * Issue fixing
+
+# 0.6.3 2017.07.10 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Moved app css to a separate file
+
+# 0.6.2 2017.07.10 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Fixed column wrapping issue
+
+# 0.6.1 2017.07.06 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Added missing font files
+
+# 0.6 2017.07.06 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Added navbar with items to go to the project's home and admin
+
+# 0.5.4 2017.07.06 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Modified the requirements to install requests[security] due to ssl verification errors on older python versions.
+
+# 0.5.3 2017.07.05 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Modified the task links to show the task number rather than the task id
+
+# 0.5.2 2017.07.05 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Added missing bulma dependency
+
+# 0.5.1 2017.07.05 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Including minified version of tiny cookie
+
+# 0.5 2017.07.05 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Fixed styling issues
+    * Packaged static files
+
+# 0.4 2017.06.27 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Changed looked and feel
+    * New tasks get added to the top of the Inbox list
+    * Issue fixing
+
+# 0.3.4 2017.06.26 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Made imports compatible with Python 3
+
+# 0.3.3 2017.06.20 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Documented each of the settings
+
+# 0.3.2 2017.06.19 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Fixed github path
+
+# 0.3 2017.06.19 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Now includes templates and static files
+
+# 0.2 2017.06.19 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Removed unused files
+
+# 0.1 2017.06.19 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Initial version
