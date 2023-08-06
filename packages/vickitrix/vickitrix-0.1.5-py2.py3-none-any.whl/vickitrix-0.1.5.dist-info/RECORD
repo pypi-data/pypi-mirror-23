@@ -1,0 +1,12 @@
+vickitrix/__init__.py,sha256=Qzfly6Bvg6eXbjnkVKRdipOfuoH8jVRWRNeusRfdFB8,29542
+vickitrix/__main__.py,sha256=fkUepAfHzE9tXGrBIg6YVgFEDBfJmiHHUD5p1btUv4g,85
+vickitrix/rules/sentiment.py,sha256=zpKY2lJ5HAjVpUpGjFI70bZgWUY7u2QXIve8OuJ2N88,700
+vickitrix/rules/vicki.py,sha256=GTMGDtf5V06MlQFSujJgOuUC3BggFRiKDWGCoVgtPrU,680
+vickitrix-0.1.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+vickitrix-0.1.5.dist-info/METADATA,sha256=TdD00ivamkGXOiTbK11CjiAGhLuBe0eN3hYKLAAq884,713
+vickitrix-0.1.5.dist-info/RECORD,,
+vickitrix-0.1.5.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+vickitrix-0.1.5.dist-info/entry_points.txt,sha256=MWLgs4Ry_4JuJ5O4PjmNWkxTyAUsbg0C5681MNVu-20,44
+vickitrix-0.1.5.dist-info/metadata.json,sha256=EBMJehT6chqyTOdiuClUHZV6vKwmbLVsF5ZCdeOx0Io,1017
+vickitrix-0.1.5.dist-info/top_level.txt,sha256=ZE_Tp0FXQ6h9u0TIlrv5d7dtgmxo3D_13oz0pNtQyjs,10
+vickitrix-0.1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1

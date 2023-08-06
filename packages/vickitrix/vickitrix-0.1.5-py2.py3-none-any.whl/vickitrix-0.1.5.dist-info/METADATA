@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: vickitrix
+Version: 0.1.5
+Summary: trade crypto on GDAX based on tweets
+Home-page: http://github.com/nellore/vickitrix
+Author: Abhi Nellore
+Author-email: anellore@gmail.com
+License: MIT
+Download-URL: https://github.com/nellore/vickitrix/tarball/0.1.5
+Keywords: bitcoin,btc,ethereum,eth,twitter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Utilities
+Requires-Dist: gdax
+Requires-Dist: pycrypto
+Requires-Dist: twython
+
+UNKNOWN
+
+
