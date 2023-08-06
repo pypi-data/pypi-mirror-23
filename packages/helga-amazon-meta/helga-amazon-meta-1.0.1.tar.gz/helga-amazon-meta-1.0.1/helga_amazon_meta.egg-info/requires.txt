@@ -1,0 +1,3 @@
+helga
+python-amazon-simple-product-api
+requests
