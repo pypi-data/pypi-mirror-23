@@ -1,0 +1,5 @@
+jupyterhub
+pyyaml
+pycurl
+escapism
+kubernetes==2.*
