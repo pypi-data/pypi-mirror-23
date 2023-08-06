@@ -1,0 +1,14 @@
+scdlbot/__init__.py,sha256=Tydqnt9_DIyxRWNrQLrfQhy5C2Gc5oH2_QIZavgExFw,187
+scdlbot/__main__.py,sha256=tCrE_4F8cgU8g4mmYv3sFPJwrnZinRCAcigtPLiqlCU,1799
+scdlbot/scdlbot.py,sha256=Utt15ZBugd7SxrtZRxwrxQz6Sa_f3R-k-4YVx_UJ7p8,20621
+scdlbot/texts/help.tg.md,sha256=bcskDXOqMtCiufzjQ1bYZa9LyJsGOk3lq4Kq63attns,1343
+scdlbot/texts/no_audio.txt,sha256=WBEF4MitHb5KB7TQfCFLDPACLfv3liJm1jbDFoGIV0M,33
+scdlbot/texts/wait.txt,sha256=xQsL_ic5dpl44A7LqiUxti4wy9lxPecRG2XRX33q3VA,13
+scdlbot-0.6.0.dist-info/DESCRIPTION.rst,sha256=bM71pQJ1jCG0cf5sGp1usgp52KlNmkvF3ECiGck2sIM,9766
+scdlbot-0.6.0.dist-info/METADATA,sha256=ikLFT0XFImb76HuOwWoSE5wYJG8_T4RfEqxB5Qw_AkY,10974
+scdlbot-0.6.0.dist-info/RECORD,,
+scdlbot-0.6.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+scdlbot-0.6.0.dist-info/entry_points.txt,sha256=KpxDRPo9Zy7G-x2YxuytRtoOS2fy59wfnEbj_0Vz7-w,51
+scdlbot-0.6.0.dist-info/metadata.json,sha256=cYjmY1w02kcLR34HcpEkcic8jNV2HJbR8wGvQ_2TfBc,1428
+scdlbot-0.6.0.dist-info/top_level.txt,sha256=HTjOk-65N6oKwqS0yiguUex5kRPZGssUjjGdvAu7HxY,8
+scdlbot-0.6.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
