@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+awslambdahelper/__init__.py
+awslambdahelper/cli.py
+awslambdahelper/evaluation.py
+awslambdahelper.egg-info/PKG-INFO
+awslambdahelper.egg-info/SOURCES.txt
+awslambdahelper.egg-info/dependency_links.txt
+awslambdahelper.egg-info/namespace_packages.txt
+awslambdahelper.egg-info/requires.txt
+awslambdahelper.egg-info/top_level.txt
+awslambdahelper.egg-info/zip-safe
+scripts/lambdahelper-bundler
