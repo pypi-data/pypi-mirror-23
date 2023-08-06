@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+djangodbu/__init__.py
+djangodbu/shell.py
+djangodbu/terminalsize.py
+djangodbu.egg-info/PKG-INFO
+djangodbu.egg-info/SOURCES.txt
+djangodbu.egg-info/dependency_links.txt
+djangodbu.egg-info/top_level.txt
