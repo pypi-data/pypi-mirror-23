@@ -1,0 +1,10 @@
+nose
+numpy
+scipy
+sklearn
+pandas
+spacy
+jieba
+tinysegmenter
+empath
+gensim
