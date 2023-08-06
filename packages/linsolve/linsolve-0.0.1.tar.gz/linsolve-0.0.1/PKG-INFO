@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: linsolve
+Version: 0.0.1
+Summary: high-level tools for linearizing and solving systems of equations
+Home-page: https://github.com/HERA-Team/linsolve
+Author: HERA Team
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Keywords: linear equations optimal estimation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Mathematics
