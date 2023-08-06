@@ -1,0 +1,13 @@
+ldap2pg/__init__.py,sha256=yr2_YOhOrv3ZUIEh1YmZoRAdY5YrVtZizsC4axBRErU,22
+ldap2pg/config.py,sha256=wfW89QmJuw5qcPrXcVBDH1jV4Mt1lKCTyhmGvTJ_yXg,12827
+ldap2pg/manager.py,sha256=VCa4OzeJVU2z6qT-hjSGa2zNQB38zNqQqBj4vkAdVWc,6555
+ldap2pg/role.py,sha256=RUBnAKQm5LuXoSKDS1iXQBqunPm8Hy9FdL95R73lFc8,7469
+ldap2pg/script.py,sha256=JueQxu6_xnPW8xjMPQBMkRZsx1K14AZ1ZTpFTXphsQk,2630
+ldap2pg/utils.py,sha256=VDw_mGd81L7NpsnhziwoOFy_Ai2VPkw8Z_-XMZatjvk,847
+ldap2pg-1.0b1.dist-info/DESCRIPTION.rst,sha256=LaQibVLKZtxhRAA9E6Ce3kKSHk1KD-wCJBz-bnlO6g0,1905
+ldap2pg-1.0b1.dist-info/METADATA,sha256=1TN1pKZBr2H4elIZgiQuzPVlyzcI19qWvTPvMvOduWE,2463
+ldap2pg-1.0b1.dist-info/RECORD,,
+ldap2pg-1.0b1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ldap2pg-1.0b1.dist-info/entry_points.txt,sha256=2jNpGttFPkIr1KvHFVtYQeCG8eLXABK3zBXEhBJa7j8,49
+ldap2pg-1.0b1.dist-info/metadata.json,sha256=b3-Rp9w4i77wTxdaZKJH8L8OHEH9YRDRCeE12M5G7mo,864
+ldap2pg-1.0b1.dist-info/top_level.txt,sha256=amRbo-3BQ94BAiDrdHhGAlZW4RcODZJHMk02SeofwEc,8
