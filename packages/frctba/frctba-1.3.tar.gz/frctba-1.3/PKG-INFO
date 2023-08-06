@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: frctba
+Version: 1.3
+Summary: UNKNOWN
+Home-page: https://github.com/CrispyBacon1999/WoodieFlowersBot
+Author: Josh Bacon
+Author-email: bacon.josh09@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: requests
+Requires: json
+Requires: re
