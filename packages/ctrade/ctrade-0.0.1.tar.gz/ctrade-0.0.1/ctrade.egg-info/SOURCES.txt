@@ -1,0 +1,7 @@
+README
+setup.py
+ctrade.egg-info/PKG-INFO
+ctrade.egg-info/SOURCES.txt
+ctrade.egg-info/dependency_links.txt
+ctrade.egg-info/not-zip-safe
+ctrade.egg-info/top_level.txt
