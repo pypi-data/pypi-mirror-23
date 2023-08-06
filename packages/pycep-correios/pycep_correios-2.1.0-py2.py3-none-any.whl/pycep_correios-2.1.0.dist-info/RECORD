@@ -1,0 +1,12 @@
+pycep_correios/__init__.py,sha256=23zhOv3L9X15CZawmRlzW8yTXRt2Ts-RYCBrLGvbqO4,666
+pycep_correios/__version__.py,sha256=sfQPjRto4rJaWZ3gl9sUqvQmoNlMhGlKie7l2YkKIVA,556
+pycep_correios/cliente.py,sha256=aCxpdmnFj6n3b2v5aak2pugIDsrO-BOTnEWbqHLRQkI,1472
+pycep_correios/excecoes.py,sha256=Yx3EqGlwcYaWsVfkl_t8Cv3nict8jzQJ1XHwEiLs3Aw,161
+pycep_correios/parser.py,sha256=S6LMHFY9s028rW4dQ0E74NnOlM0yzA9FIKW5sYlX_cQ,1454
+pycep_correios/templates/consultacep.xml,sha256=xFszAX_M6c7P4tJ8ygyd8ZvPfaGksSLBlJtizOkfTMk,261
+pycep_correios-2.1.0.dist-info/DESCRIPTION.rst,sha256=VBSWNbDZ-whN0HH7Uqh509EmDxLxdTxkAdhcuw2wDIo,4516
+pycep_correios-2.1.0.dist-info/METADATA,sha256=FMLYXopZCRegF_1IYNJ5jmt5nz-jC08SJQbnlA8Fl10,5420
+pycep_correios-2.1.0.dist-info/RECORD,,
+pycep_correios-2.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pycep_correios-2.1.0.dist-info/metadata.json,sha256=SaGAIepjfowilfxJyqu9Ue69ZrHbW2IduoaPoPSrzJ8,1168
+pycep_correios-2.1.0.dist-info/top_level.txt,sha256=dEomHEZoXl6GDlqy6EFPBJB7WY3u6-7O49Vz3i6jhLc,15
