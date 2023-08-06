@@ -1,0 +1,11 @@
+analytic_wfm/__init__.py,sha256=45bDYdh09z2BZ0N_FGXrKqYyAvXWx6nEzIDHoR_7-Lw,54
+analytic_wfm/analytic_wfm.py,sha256=FNQbwabFleZxPFsOx2ZcuQS0RS7TuWtTuKnq6j1kbRQ,6481
+analytic_wfm/peakdetect.py,sha256=aSQ36WTrd5xj4Qp6sUhgb0VjDUeo5Y5WjHfefJ-54pI,35633
+analytic_wfm/test.py,sha256=kNRm6qLWKpCDIxuGLnD1wHwpv81YsfKKaOlZxZZuk84,22688
+analytic_wfm-0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+analytic_wfm-0.4.dist-info/METADATA,sha256=BAcLm2qL5AoqyOLaTOCN4ckYGb0dNDXzvmxUy8MrAXw,259
+analytic_wfm-0.4.dist-info/RECORD,,
+analytic_wfm-0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+analytic_wfm-0.4.dist-info/metadata.json,sha256=bddop-QaxMeCXWgZtDM0Yi21cmc7sWicN3OdxOcf0tU,466
+analytic_wfm-0.4.dist-info/pbr.json,sha256=z8_8ZTqMbhrpq0HXem8FoIZTYIhTRjiNQOHv_If-lL0,47
+analytic_wfm-0.4.dist-info/top_level.txt,sha256=gJBD1Eot5cn34smuVO7UYHZYM5gk2ytxuqQECrLD5Lk,13
