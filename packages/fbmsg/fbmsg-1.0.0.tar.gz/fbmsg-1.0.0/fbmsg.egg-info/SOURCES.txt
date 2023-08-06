@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+fbmsg/__init__.py
+fbmsg/msg.py
+fbmsg.egg-info/PKG-INFO
+fbmsg.egg-info/SOURCES.txt
+fbmsg.egg-info/dependency_links.txt
+fbmsg.egg-info/top_level.txt
