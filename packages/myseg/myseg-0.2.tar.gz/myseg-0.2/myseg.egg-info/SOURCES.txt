@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+setup.py
+bin/myseg
+myseg/__init__.py
+myseg/classifier.py
+myseg/models.py
+myseg/preview.py
+myseg/query.py
+myseg/search.py
+myseg/utils.py
+myseg.egg-info/PKG-INFO
+myseg.egg-info/SOURCES.txt
+myseg.egg-info/dependency_links.txt
+myseg.egg-info/requires.txt
+myseg.egg-info/top_level.txt
