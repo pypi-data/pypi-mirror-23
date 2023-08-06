@@ -1,0 +1,10 @@
+update_dotdee/__init__.py,sha256=HgJ3hQICiiKdQbo7QLOGVV1TXW6uSnkLUhloVWCV0ps,6379
+update_dotdee/cli.py,sha256=Y3wqf5Ubi7ny52Zl8fkvawdnSALEw1dfxTQ2TjYfuj0,3427
+update_dotdee/tests.py,sha256=L5yVI6oljKJ37464MM4finy5kABuFitXKQtTRWctAik,5969
+update_dotdee-3.0.dist-info/DESCRIPTION.rst,sha256=CBM-j5MUVr1_K76JYzf-_nKVmlTvGXiRLD9fqp2kU1A,6542
+update_dotdee-3.0.dist-info/METADATA,sha256=DbQQscfYQyGYZnC99lW2BSqANULCrNVabToVdA1x63E,8229
+update_dotdee-3.0.dist-info/RECORD,,
+update_dotdee-3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+update_dotdee-3.0.dist-info/entry_points.txt,sha256=D-B5_AAzP5RaOYeYJuOcYHJ7_nRCxSj7-4e-bPY71fk,58
+update_dotdee-3.0.dist-info/metadata.json,sha256=1-5UJlwmH3O5-FBCkVNkpH7WlzhMosD3V0iZEd4Lw5A,1797
+update_dotdee-3.0.dist-info/top_level.txt,sha256=aa0ePYXhzVMkcJlkmVMkrirXCohQxpTGgVD-oMrM4Es,14
