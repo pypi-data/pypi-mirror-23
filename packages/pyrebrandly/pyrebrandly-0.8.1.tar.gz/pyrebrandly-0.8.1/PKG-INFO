@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pyrebrandly
+Version: 0.8.1
+Summary: Interfaces with the Rebrandly.com API
+Home-page: https://github.com/ElectroCode/pyrebrandly
+Author: Ken Spencer
+Author-email: ken@electrocode.net
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
