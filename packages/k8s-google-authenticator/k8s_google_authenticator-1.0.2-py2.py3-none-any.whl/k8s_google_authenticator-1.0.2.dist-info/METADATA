@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: k8s-google-authenticator
+Version: 1.0.2
+Summary: Kubernetes Google OpenID authentication helper
+Home-page: http://github.com/trbs/k8s-google-authenticator
+Author: trbs
+Author-email: trbs@trbs.net
+License: MIT
+Keywords: kubernetes k8s google authentication authenticator openid connector kubectl config
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: six
+
+UNKNOWN
+
+

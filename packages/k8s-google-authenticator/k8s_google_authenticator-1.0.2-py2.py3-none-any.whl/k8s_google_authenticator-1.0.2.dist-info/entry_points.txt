@@ -1,0 +1,3 @@
+[console_scripts]
+k8s-google-authenticator = k8s_google_authenticator.main:main
+
