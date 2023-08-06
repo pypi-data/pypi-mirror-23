@@ -1,0 +1,8 @@
+[console_scripts]
+create_model = src.scripts:create_model
+crop = src.scripts:crop
+predict = src.scripts:predict
+test_individual = src.scripts:test_individual
+test_wells = src.scripts:test_wells
+train = src.scripts:train
+
