@@ -1,0 +1,40 @@
+Metadata-Version: 2.0
+Name: goma
+Version: 0.1
+Summary: Python library for genaralized object mapping algorithms.
+Home-page: https://github.com/pbrisk/goma
+Author: Deutsche Postbank AG [pbrisk]
+Author-email: pbrisk_at_github@icloud.com
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Education
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Utilities
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Localization
+
+====
+goma
+====
+
+.. image:: https://img.shields.io/codeship/dff6cee0-3f2b-0135-cf66-3aa03d7e55ef/master.svg
+    :target: https://codeship.com//projects/229716
+
+generic object mapping algorithms
+
+lib for easy to use complex mappings
+
+

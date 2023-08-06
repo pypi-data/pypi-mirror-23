@@ -1,0 +1,10 @@
+goma/__init__.py,sha256=ZUlsdYIaE9IMuPgBjghLOssuAByh18hTMfNZfvxi44I,76
+goma/basematch.py,sha256=xKM90c-r4POsb_rAs4FD8KCnbynmm-QM70wHmy9-5kE,2071
+goma/exactmatch.py,sha256=YAGR--0awble53iMZRaXc36h5_o7utVLHAxHztBOMb4,3426
+goma/prioritymatch.py,sha256=nGyPnyhEypXa5q-4dE_oSs2BY98gXzmKaMsg5SGMyWc,5876
+goma-0.1.dist-info/DESCRIPTION.rst,sha256=-dkUXwYuNfoV5wta5VuMYa2XwJeqHad5z7W2j6XvBt4,233
+goma-0.1.dist-info/METADATA,sha256=ThwovnqvR95mJ9nUyv28rgkzjQq7H62X2SLSf0A7ga8,1393
+goma-0.1.dist-info/RECORD,,
+goma-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+goma-0.1.dist-info/metadata.json,sha256=Ps666mzHeDwFLq4n82JpHyYzP-QcFhWXLjwb8IDJs10,1224
+goma-0.1.dist-info/top_level.txt,sha256=w6JVeE-xY1mLVRkYCc74sivcCM_J32Cw3C_z8t-yVss,5
