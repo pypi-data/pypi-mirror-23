@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: osfclient
+Version: 0.0.3
+Summary: An OSF command-line library
+Home-page: https://github.com/dib-lab/osf-cli
+Author: The OSF-cli authors
+Author-email: UNKNOWN
+License: BSD3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: tqdm
+
+An OSF command-line client and library.
+
+
