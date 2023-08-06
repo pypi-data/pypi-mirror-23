@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+trequests/__init__.py
+trequests/trequests_version.txt
+trequests_xsren.egg-info/PKG-INFO
+trequests_xsren.egg-info/SOURCES.txt
+trequests_xsren.egg-info/dependency_links.txt
+trequests_xsren.egg-info/requires.txt
+trequests_xsren.egg-info/top_level.txt
