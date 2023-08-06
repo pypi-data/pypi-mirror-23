@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: stable-world-example-package
+Version: 1.0
+Summary: Build reliability tool
+Home-page: UNKNOWN
+Author: Sean Ross-Ross
+Author-email: srossross@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: certifi
+
+UNKNOWN
+
+
