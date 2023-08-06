@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.cfg
+setup.py
+champ/__init__.py
+champ/champ_functions.py
+champ/plot_domains.py
+champ/test_champ.py
+champ.egg-info/PKG-INFO
+champ.egg-info/SOURCES.txt
+champ.egg-info/dependency_links.txt
+champ.egg-info/not-zip-safe
+champ.egg-info/requires.txt
+champ.egg-info/top_level.txt
