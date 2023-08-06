@@ -1,0 +1,15 @@
+setup.py
+bis_users_client/__init__.py
+bis_users_client/api_client.py
+bis_users_client/configuration.py
+bis_users_client/rest.py
+bis_users_client/apis/__init__.py
+bis_users_client/apis/users_api.py
+bis_users_client/models/__init__.py
+bis_users_client_py.egg-info/PKG-INFO
+bis_users_client_py.egg-info/SOURCES.txt
+bis_users_client_py.egg-info/dependency_links.txt
+bis_users_client_py.egg-info/requires.txt
+bis_users_client_py.egg-info/top_level.txt
+test/__init__.py
+test/test_users_api.py
