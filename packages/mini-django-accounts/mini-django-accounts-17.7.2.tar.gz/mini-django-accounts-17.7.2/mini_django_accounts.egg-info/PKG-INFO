@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: mini-django-accounts
+Version: 17.7.2
+Summary: A simple replacement for django.auth.user
+Home-page: https://gitlab.com/chaosengine256/mini-django-accounts
+Author: Chaos Engine
+Author-email: chaosengine265@gmail.com
+License: MIT
+Description: # Mini Django Accounts
+        
+        [![build status](https://gitlab.com/chaosengine256/mini-django-accounts/badges/master/build.svg)](https://gitlab.com/chaosengine256/mini-django-accounts/commits/master)
+        [![coverage report](https://gitlab.com/chaosengine256/mini-django-accounts/badges/master/coverage.svg)](https://gitlab.com/chaosengine256/mini-django-accounts/commits/master)
+        
+Platform: UNKNOWN
