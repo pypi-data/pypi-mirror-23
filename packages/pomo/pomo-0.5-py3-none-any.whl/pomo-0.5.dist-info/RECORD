@@ -1,0 +1,13 @@
+pomo/__init__.py,sha256=32y3WW-4Fg_yYf49mk6X6Hk1Orjj3h_6-24yzGlGHFI,13
+pomo/core.py,sha256=qxDALvZF7EYpGLMRaf2e9MVX7ngRQedBefWygp8T1Xg,1698
+pomo/sound.py,sha256=aRw-xw8I30ihjG0KNzfft8ldXUaqsRGr0E3l0RM8siM,314
+pomo/utils.py,sha256=m-bT2miALBsykCGN0SElep3HUa1-O6zEnFCQnrOI9Ps,345
+pomo-0.5.data/scripts/pomo,sha256=7qk6768JnJW0zigjL-nPItD-691bOQ9kIAU4LCg4_kA,1975
+pomo-0.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pomo-0.5.dist-info/METADATA,sha256=-Np4FWabCbd6ZQw-yob153vv2J6FPUqjOkTFLpw7HoE,319
+pomo-0.5.dist-info/RECORD,,
+pomo-0.5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pomo-0.5.dist-info/metadata.json,sha256=zYbgRA2dftp9yPhqbLSx8buebbVQh6_RDohWH5WnT8I,374
+pomo-0.5.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pomo-0.5.dist-info/top_level.txt,sha256=zrbWcX4Ucpj2b41JmY7qt2fv4XoMX_XQaxqkUxnoOy0,5
+pomo-0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
