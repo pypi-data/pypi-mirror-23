@@ -1,0 +1,40 @@
+Metadata-Version: 1.2
+Name: Config-editor
+Version: 0.9.1
+Summary: Context manager for changing content of config files
+Home-page: https://github.com/penguinolog/Config-Editor
+Author: Alexey Stepanov
+Author-email: penguinolog@gmail.com
+License: Apache License, Version 2.0
+Description: Config editor
+        =============
+        
+        .. image:: https://img.shields.io/pypi/v/Config-editor.svg
+            :target: https://pypi.python.org/pypi/Config-editor
+        .. image:: https://img.shields.io/pypi/pyversions/Config-editor.svg
+            :target: https://pypi.python.org/pypi/Config-editor
+        .. image:: https://img.shields.io/pypi/status/Config-editor.svg
+            :target: https://pypi.python.org/pypi/Config-editor
+        .. image:: https://img.shields.io/github/license/penguinolog/Config-editor.svg
+            :target: https://raw.githubusercontent.com/penguinolog/Config-editor/master/LICENSE
+        
+        
+        Config editor is a context manager for changing content of config files.
+        This is useful for generating/updating content in runtime.
+        
+Keywords: config,ini,yaml,json
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.6,!=3.0.*,!=3.1.*,!=3.2.*
