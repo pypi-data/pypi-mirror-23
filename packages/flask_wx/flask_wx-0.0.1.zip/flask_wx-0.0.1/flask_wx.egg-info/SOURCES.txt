@@ -1,0 +1,7 @@
+setup.py
+flask_wx/__init__.py
+flask_wx.egg-info/PKG-INFO
+flask_wx.egg-info/SOURCES.txt
+flask_wx.egg-info/dependency_links.txt
+flask_wx.egg-info/not-zip-safe
+flask_wx.egg-info/top_level.txt
