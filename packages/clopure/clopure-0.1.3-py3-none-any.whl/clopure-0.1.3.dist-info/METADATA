@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: clopure
+Version: 0.1.3
+Summary: Multi-processing supported functional language
+Home-page: https://github.com/vbkaisetsu/clopure
+Author: Koichi Akabe
+Author-email: vbkaisetsu@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Interpreters
+
+UNKNOWN
+
+
