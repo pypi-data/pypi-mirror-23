@@ -1,0 +1,10 @@
+MANIFEST.in
+MSNumpress.cpp
+MSNumpress.hpp
+PyMSNumpress.cpp
+PyMSNumpress.pyx
+setup.py
+PyMSNumpress.egg-info/PKG-INFO
+PyMSNumpress.egg-info/SOURCES.txt
+PyMSNumpress.egg-info/dependency_links.txt
+PyMSNumpress.egg-info/top_level.txt
