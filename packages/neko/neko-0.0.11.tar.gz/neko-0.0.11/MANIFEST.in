@@ -1,0 +1,3 @@
+recursive-include neko/_layouts *
+recursive-include neko/_posts *
+recursive-include neko/_static *

@@ -1,0 +1,3 @@
+[console_scripts]
+neko = neko.main:main
+
