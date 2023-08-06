@@ -1,0 +1,3 @@
+[console_scripts]
+csvtotable = csvtotable.cli:cli
+
