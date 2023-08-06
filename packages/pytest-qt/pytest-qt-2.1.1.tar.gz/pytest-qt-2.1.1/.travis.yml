@@ -1,0 +1,59 @@
+language: generic
+sudo: required
+dist: trusty
+
+env:
+ - PYTEST_QT_API=pyqt4   PYTHON=python2.7
+ - PYTEST_QT_API=pyqt4v2 PYTHON=python2.7
+ - PYTEST_QT_API=pyside  PYTHON=python2.7
+
+ - PYTEST_QT_API=pyqt4   PYTHON=python3.4
+ - PYTEST_QT_API=pyqt4v2 PYTHON=python3.4
+ - PYTEST_QT_API=pyside  PYTHON=python3.4
+ - PYTEST_QT_API=pyqt5   PYTHON=python3.4
+
+install:
+ - sudo apt-get update
+
+ # Xvfb / window manager
+ - sudo apt-get install -y xvfb herbstluftwm
+
+ # Qt
+ - $PYTHON scripts/install-qt.py
+
+ # Pip (3.4 does not have it by default)
+ - wget https://bootstrap.pypa.io/get-pip.py
+ - sudo $PYTHON get-pip.py
+
+ # Dependencies
+ - sudo $PYTHON -m pip install -U pytest tox coveralls
+
+ # pytest-qt
+ - sudo $PYTHON setup.py develop
+
+before_script:
+ - "export DISPLAY=:99.0"
+ - start-stop-daemon --start --background --exec /usr/bin/Xvfb -- $DISPLAY -screen 0 1024x768x24
+ - sleep 3 # give xvfb some time to start
+ - "herbstluftwm &"
+ - sleep 1
+
+script:
+ - sudo catchsegv coverage run --source=pytestqt setup.py test
+ - sudo tox -e lint
+
+after_success:
+ - coveralls
+
+deploy:
+  provider: pypi
+  skip_upload_docs: true
+  user: nicoddemus
+  password:
+    secure: Uj4XhkIUGE8CkE9mbP4y2wrp1s+jODkEi+wXCL1ZDhcCxxs3gjEOtAlqIXS/4PMLZcxeV2rXNGzGJ6n+i6Ruj2T1wfar7hmy2faaur6tcUDhEpXLkAl6DAKlMiZbEyT4C7OpunBoYmw8Gh/3kaDeGgz4FxEiJakAqzEmmeyFvFY=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: pytest-dev/pytest-qt
+    condition: $PYTEST_QT_API = pyqt5
+
