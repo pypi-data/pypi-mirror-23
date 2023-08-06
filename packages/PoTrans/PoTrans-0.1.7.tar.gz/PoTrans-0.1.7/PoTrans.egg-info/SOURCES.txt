@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+PoTrans/__init__.py
+PoTrans/cli.py
+PoTrans/potrans.py
+PoTrans.egg-info/PKG-INFO
+PoTrans.egg-info/SOURCES.txt
+PoTrans.egg-info/dependency_links.txt
+PoTrans.egg-info/entry_points.txt
+PoTrans.egg-info/requires.txt
+PoTrans.egg-info/top_level.txt
