@@ -1,0 +1,5 @@
+setup.py
+resumable.egg-info/PKG-INFO
+resumable.egg-info/SOURCES.txt
+resumable.egg-info/dependency_links.txt
+resumable.egg-info/top_level.txt
