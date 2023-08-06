@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pymcell
+Version: 0.1
+Summary: Python bindings to libmcell
+Home-page: https://github.com/mcellteam/mcell
+Author: The MCell team
+Author-email: mcell-devel@salk.edu
+License: GPL v2
+Download-URL: https://github.com/mcellteam/mcell/archive/pymcell_0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
