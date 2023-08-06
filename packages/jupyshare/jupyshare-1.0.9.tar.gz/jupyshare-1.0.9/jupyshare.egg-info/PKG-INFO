@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: jupyshare
+Version: 1.0.9
+Summary: Share your python notebooks in the cloud
+Home-page: https://github.com/biancasubion/jupyshare
+Author: bianca subion
+Author-email: bianca.subion@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/biancasubion/jupyshare/archive/1.0.9.tar.gz
+Description: UNKNOWN
+Keywords: jupyter,notebook,share
+Platform: UNKNOWN
