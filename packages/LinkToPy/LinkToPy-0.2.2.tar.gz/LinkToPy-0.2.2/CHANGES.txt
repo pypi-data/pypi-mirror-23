@@ -1,0 +1,4 @@
+v0.1, 2017.7.23 -- Initial release.
+v0.2, 2017.7.23 --Fixing pypi issues
+v0.2.2 2017.7.23 --Updated for python 2
+
