@@ -1,0 +1,6 @@
+[console_scripts]
+haystack-reverse = haystack.reverse.cli:reverse
+haystack-reverse-hex = haystack.reverse.cli:reverse_hex
+haystack-reverse-parents = haystack.reverse.cli:reverse_parents
+haystack-reverse-show = haystack.reverse.cli:reverse_show
+
