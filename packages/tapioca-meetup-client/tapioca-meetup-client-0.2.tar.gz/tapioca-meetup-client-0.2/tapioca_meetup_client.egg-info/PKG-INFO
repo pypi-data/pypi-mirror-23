@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: tapioca-meetup-client
+Version: 0.2
+Summary: Meetup API wrapper using tapioca
+Home-page: https://github.com/lamenezes/tapioca-meetup
+Author: Geoffrey Sechter / Mantained by Luiz Menezes
+Author-email: luiz.menezesf@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: meetup
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
