@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"name": "J. M. Franck", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "license": "LICENSE.md", "metadata_version": "2.0", "name": "paramset-pyspecdata", "summary": "helper for pyspecdata", "version": "0.1.0"}

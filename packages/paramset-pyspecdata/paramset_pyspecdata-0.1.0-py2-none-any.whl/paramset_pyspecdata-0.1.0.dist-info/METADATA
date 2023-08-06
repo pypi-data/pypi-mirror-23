@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: paramset-pyspecdata
+Version: 0.1.0
+Summary: helper for pyspecdata
+Home-page: UNKNOWN
+Author: J. M. Franck
+Author-email: UNKNOWN
+License: LICENSE.md
+Platform: UNKNOWN
+
+just a module for storing global variables -- needed to change what's imported for notebook vs. graphical display
+
+
