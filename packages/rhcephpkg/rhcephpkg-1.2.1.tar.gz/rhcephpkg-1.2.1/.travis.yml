@@ -1,0 +1,18 @@
+language: python
+sudo: false
+# Add or remove version for match with Travis support
+python:
+    - 2.7
+    - 3.5
+    - 3.6
+install:
+  - ./travisci/install.sh
+script:
+  - python setup.py test -v -a "--cov-config .coveragerc --cov=rhcephpkg"
+after_success:
+  - coveralls
+
+cache:
+  directories:
+  - $HOME/.cache/pip
+  - $HOME/.cache/v/flake8
