@@ -1,0 +1,6 @@
+README.rst
+setup.py
+rehash.egg-info/PKG-INFO
+rehash.egg-info/SOURCES.txt
+rehash.egg-info/dependency_links.txt
+rehash.egg-info/top_level.txt
