@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+fts/__init__.py
+fts/__main__.py
+fts/fts.py
+fts/opensubs.py
+fts.egg-info/PKG-INFO
+fts.egg-info/SOURCES.txt
+fts.egg-info/dependency_links.txt
+fts.egg-info/entry_points.txt
+fts.egg-info/requires.txt
+fts.egg-info/top_level.txt
