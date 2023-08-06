@@ -1,0 +1,7 @@
+README.rst
+setup.py
+dove/__init__.py
+dove.egg-info/PKG-INFO
+dove.egg-info/SOURCES.txt
+dove.egg-info/dependency_links.txt
+dove.egg-info/top_level.txt
