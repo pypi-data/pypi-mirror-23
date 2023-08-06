@@ -1,0 +1,10 @@
+debuntu_tools/__init__.py,sha256=KiueUdDiVFHlTw1dRdECy1t2Y-lmC8tmBHeinDwfN-U,408
+debuntu_tools/kernel_manager.py,sha256=XMaHlrLMbnc-GEdt9E-szh-Rcx_Zm_E8kSZCMo_LxrM,28147
+debuntu_tools/nodejs_installer.py,sha256=yAuLXEklvIM3NVS89XTXFUpemQIMxNXwau4FuikGjdE,11039
+debuntu_tools-0.3.8.dist-info/DESCRIPTION.rst,sha256=pGhAF_TMoUVKV7Dj8YrYPq-OoRYYZSu1Z5ljAFTnCAE,7723
+debuntu_tools-0.3.8.dist-info/METADATA,sha256=MbA_KDMY6hfCSMMkP3VIRfnAQRKtUXbGYpCbf7P8XGg,10253
+debuntu_tools-0.3.8.dist-info/RECORD,,
+debuntu_tools-0.3.8.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+debuntu_tools-0.3.8.dist-info/entry_points.txt,sha256=pPClBZYnYPI2gfphXK38nrlv1Lkc3M8d2s1FZEtaviE,141
+debuntu_tools-0.3.8.dist-info/metadata.json,sha256=G1xJgFmfmp52dJQXkLL8pASjNU3vMj2_tI4dDqPBvcs,2199
+debuntu_tools-0.3.8.dist-info/top_level.txt,sha256=8qwwqQ3S49pZ4qU0qgckqJnQAjAu5KIwrDGuRnv5xDQ,14
