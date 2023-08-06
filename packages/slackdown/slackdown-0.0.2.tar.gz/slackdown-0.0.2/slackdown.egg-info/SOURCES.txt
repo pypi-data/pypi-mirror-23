@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+slackdown/__init__.py
+slackdown/tests.py
+slackdown.egg-info/PKG-INFO
+slackdown.egg-info/SOURCES.txt
+slackdown.egg-info/dependency_links.txt
+slackdown.egg-info/top_level.txt
