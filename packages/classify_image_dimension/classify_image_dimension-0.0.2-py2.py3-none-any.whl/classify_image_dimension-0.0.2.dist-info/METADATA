@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: classify-image-dimension
+Version: 0.0.2
+Summary: classify images by dimension
+Home-page: https://github.com/yassu/ClassifyImageDimension
+Author: Yassu
+Author-email: mathyassu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Utilities
+Requires-Dist: argparse
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: six
+Requires-Dist: sklearn
+
+UNKNOWN
+
+
