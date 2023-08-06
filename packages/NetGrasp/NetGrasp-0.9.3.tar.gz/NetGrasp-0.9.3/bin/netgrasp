@@ -1,0 +1,120 @@
+#!/usr/bin/env python2
+
+from netgrasp.utils import debug
+from netgrasp.utils import exclusive_lock
+from netgrasp.utils import email
+from netgrasp.utils import simple_timer
+from netgrasp.utils import pretty
+from netgrasp.utils import cli
+from netgrasp.config import config
+from netgrasp.notify import notify
+from netgrasp.database import database
+from netgrasp import netgrasp
+
+import argparse
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+            prog="netgrasp",
+            description="A passive network observation tool")
+    # --verbose -v, verbose
+    parser.add_argument("--verbose", "-v", action="count", help="verbose output")
+    # --config -c, configuration file
+    parser.add_argument("--config", "-c", help="specify custom path for configuration file")
+
+    subparsers = parser.add_subparsers()
+
+    # start
+    parser_start = subparsers.add_parser("start", help="start netgrasp")
+    parser_start.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_start.add_argument("--foreground", "-f", action="count", help="don't daemonize, run in the foreground")
+    parser_start.set_defaults(func=cli.start)
+
+    # stop
+    parser_stop = subparsers.add_parser("stop", help="stop netgrasp")
+    parser_stop.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_stop.set_defaults(func=cli.stop)
+
+    # restart
+    parser_restart = subparsers.add_parser("restart", help="restart netgrasp")
+    parser_restart.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_restart.add_argument("--foreground", "-f", action="count", help="don't daemonize, run in the foreground")
+    parser_restart.set_defaults(func=cli.restart)
+
+    # status
+    parser_status = subparsers.add_parser("status", help="netgrasp status")
+    parser_status.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_status.set_defaults(func=cli.status)
+
+    # update
+    parser_update = subparsers.add_parser("update", help="update database schema")
+    parser_update.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_update.set_defaults(func=cli.update)
+
+    # list
+    parser_list = subparsers.add_parser("list", help="list devices")
+    parser_list.add_argument("--type", "-t", choices=["device", "event"], default="device", help="type of object to list")
+    parser_list.add_argument("--all", "-a", action="count", help="list all devices/events")
+    parser_list.add_argument("--mac", "-m", help="filter by mac address (ex. -m ff:ff)")
+    parser_list.add_argument("--ip", "-i", help="filter by ip address (ex. -i 127.0)")
+    parser_list.add_argument("--vendor", "-v", help="filter by vendor (ex. -v apple)")
+    parser_list.add_argument("--hostname", "-n", help="filter by hostname (ex. -h localhost)")
+    parser_list.add_argument("--custom", "-c", help="filter by custom name (ex. -i phone)")
+    parser_list.set_defaults(func=cli.list)
+
+    # identify (id, -i) ,v,i(ip),m(mac)
+    parser_identify = subparsers.add_parser("identify", help="identify devices")
+    parser_identify.add_argument("--set", "-s", nargs=2, help="set custom name (ex. -s 4 'my iPhone')")
+    parser_identify.add_argument("--all", "-a", action="count", help="list all devices")
+    parser_identify.add_argument("--mac", "-m", help="filter by mac address (ex. -m ff:ff:ff:ff:ff:ff)")
+    parser_identify.add_argument("--ip", "-i", help="filter by ip address (ex. -i 127.0.0.1)")
+    parser_identify.add_argument("--vendor", "-v", help="filter by vendor (ex. -v apple)")
+    parser_identify.add_argument("--hostname", "-n", help="filter by hostname (ex. -h localhost)")
+    parser_identify.add_argument("--custom", "-c", help="filter by custom name (ex. -i iphone)")
+    parser_identify.set_defaults(func=cli.identify)
+
+    # template
+    parser_template = subparsers.add_parser("template", help="display templates")
+    parser_template.add_argument("--type", choices=["config", "alert"], default="config", help="type of template to display")
+    parser_template.add_argument("--alert", choices=["requested_ip", "first_requested_ip", "first_requested_ip_recently", "seen_device", "first_seen_device", "first_seen_device_recently", "seen_mac", "first_seen_mac", "seen_ip", "first_seen_ip", "seen_host", "first_seen_host", "seen_vendor", "first_seen_vendor", "device_stale", "request_stale", "changed_ip", "duplicate_ip", "duplicate_mac", "network_scan", "ip_not_on_network", "src_mac_broadcast", "requested_self"], help="which alert template you'd like to display")
+    parser_template.set_defaults(func=cli.template)
+
+    args = parser.parse_args()
+
+    # Where to look for configuration file.
+    if args.config:
+        config = args.config
+    else:
+        config = netgrasp.DEFAULT_CONFIG
+
+    # Instantiate netgrasp instance.
+    ng = netgrasp.Netgrasp(config)
+
+    # Whether or not we will daemonize.
+    try:
+        # Not all subparsers define this option.
+        if args.foreground:
+            ng.daemonize = False
+        else:
+            ng.daemonize = True
+    except:
+        ng.daemonize = False
+
+    # How verbose we should be.
+    if args.verbose:
+        ng.verbose = args.verbose
+    else:
+        ng.verbose = False
+
+    ng._load_debugger()
+    ng._load_configuration()
+    ng._enable_debugger()
+
+    if ng.verbose and not ng.daemonize:
+        ng.debugger.warning("output forced to stdout, started with --foreground flag.")
+
+    ng._include_dependencies()
+
+    ng.args = args
+
+    args.func(ng)
