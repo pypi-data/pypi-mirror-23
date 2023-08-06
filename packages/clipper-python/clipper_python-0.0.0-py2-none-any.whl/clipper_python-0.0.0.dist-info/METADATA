@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: clipper-python
+Version: 0.0.0
+Summary: Python wrapper for the Clipper crystallographic library
+Home-page: http://www.ysbl.york.ac.uk/~cowtan/clipper/doc/
+Author: Colin Palmer
+Author-email: colin.palmer@stfc.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+clipper_python
+==============
+
+``clipper_python`` is a Python wrapper for the `Clipper`_ crystallographic
+library.
+
+.. _Clipper: http://www.ysbl.york.ac.uk/~cowtan/clipper/doc/
+
+
