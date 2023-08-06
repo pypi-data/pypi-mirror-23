@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+sample_app/__init__.py
+sample_app/mod1.py
+sample_app.egg-info/PKG-INFO
+sample_app.egg-info/SOURCES.txt
+sample_app.egg-info/dependency_links.txt
+sample_app.egg-info/requires.txt
+sample_app.egg-info/top_level.txt
+scripts/text-spider
