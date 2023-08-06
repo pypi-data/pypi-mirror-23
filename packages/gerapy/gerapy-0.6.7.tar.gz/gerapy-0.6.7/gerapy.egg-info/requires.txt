@@ -1,0 +1,4 @@
+django-cors-headers
+requests
+docopt
+django
