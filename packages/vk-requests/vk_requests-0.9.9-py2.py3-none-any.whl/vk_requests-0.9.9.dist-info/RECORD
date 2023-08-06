@@ -1,0 +1,12 @@
+vk_requests/__init__.py,sha256=p1lB3WswrFKeV86SmefSw4o76hqDBRQdPWyA51GqBfM,1832
+vk_requests/api.py,sha256=7Ek2TpFK-mHaOVeODvChtBLJLwy3YZVgMuPYGLWIEc0,2152
+vk_requests/exceptions.py,sha256=6E0VuP36eGaNHIaL_vCzgkpcnx3Y6Urlqrd1RdwLoxY,2137
+vk_requests/session.py,sha256=NqdNqD4n1JY_f1FC2Vm9vyTpUDHOd4qC9CYwUPkdsqY,13983
+vk_requests/settings.py,sha256=Ul2rFIEmrxmphMIqPK6fCs__mhzFKkfDD7LKJt8y4YQ,340
+vk_requests/utils.py,sha256=4OXrxuvoxr8fPtaFKu5F67aPK1NmgT_TmNvfMILySMo,4342
+vk_requests-0.9.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+vk_requests-0.9.9.dist-info/METADATA,sha256=2Ki04vrn_ap16hQ7PUkbCtde6R1wsc47Mhvb_Uls2ZY,637
+vk_requests-0.9.9.dist-info/RECORD,,
+vk_requests-0.9.9.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+vk_requests-0.9.9.dist-info/metadata.json,sha256=jwlsWIWAsgdV_HQ1-HLQrWi1XR0rUgCBth2QO-XC9Y0,788
+vk_requests-0.9.9.dist-info/top_level.txt,sha256=3Z3P5v4_Wn86Mj1Cx9vKZrsAzzd7YtAO75fcOwGQfWk,12
