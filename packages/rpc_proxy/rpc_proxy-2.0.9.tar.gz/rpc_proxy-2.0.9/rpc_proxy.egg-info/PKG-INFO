@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rpc-proxy
+Version: 2.0.9
+Summary: rpc_proxy is a flexible RPC based on thrift.
+Home-page: https://github.com/wfxiang08/rpc_proxy_python
+Author: wangfei
+Author-email: wfxiang08@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
