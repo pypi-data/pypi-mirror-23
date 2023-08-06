@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: Splipy
+Version: 1.1.0
+Summary: Spline modelling library for Python
+Home-page: https://github.com/sintefmath/Splipy
+Author: Kjetil Andre Johannessen
+Author-email: kjetijo@gmail.com
+License: GNU public license v3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy (>=1.9)
+Requires-Dist: scipy (>=0.17)
+
+UNKNOWN
+
+
