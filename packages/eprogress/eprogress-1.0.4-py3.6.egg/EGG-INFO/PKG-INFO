@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: eprogress
+Version: 1.0.4
+Summary: A simple and easy to use module for Python3 to print multi and single line progress bar in terminal
+Home-page: https://github.com/homgwu/eprogress.git
+Author: HomgWu
+Author-email: homgwu@gmail.com
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: multi line progress,progress bar,progress
+Platform: UNKNOWN
