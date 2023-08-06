@@ -1,0 +1,32 @@
+===========
+basicweb
+===========
+
+It lauches a basic web server, provides a login page, validates the credenatilas fron sqlite DB and maintains cookies. 
+
+-----------
+
+Useful for basic reporting of confidential data. It is a scalable application which launches more number of threads as per the requirement. 
+
+Pre-requisite
+============
+
+* sqlite DB knowledge
+
+* Basic HTML, CSS
+
+* Baisc HTTP protocol 
+
+Execution & Output
+-------------------
+
+arjun$ python web.py
+
+('Started httpserver on port ', 8080)
+
+192.168.2.1 - - [16/Jul/2017 15:14:14] "GET / HTTP/1.1" 200 -Filename: web.py
+
+192.168.2.1 - - [16/Jul/2017 15:15:06] "GET /css/table.css HTTP/1.1" 200 -
+
+192.168.2.1 - - [16/Jul/2017 15:15:06] "GET /js/table.js HTTP/1.1" 200 -
+
