@@ -1,0 +1,20 @@
+{% load i18n %}
+{% if rank %}
+    <table class="table table-condensed table-striped table-hover">
+    <thead>
+    <tr>
+        <th class="col-md-4">{%  trans 'Points' %}</th>
+        <th class="col-md-8">{%  trans 'Team' %}</th>
+    </tr>
+    </thead>
+    {% for entry in rank %}
+        <tr>
+        <td>{{ entry.points }}</td>
+        <td><a href="{% url 'dr27-profile-team-view' entry.team.pk %}">{{ entry.team }}</a></td>
+        </tr>
+    {% endfor %}
+
+    </table>
+{% else %}
+    <p>No teams</p>
+{% endif %}
