@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: TaroColor
+Version: 0.2
+Summary: python color print, using ANSI escape code
+Home-page: https://github.com/ZaneMuir/Taro-Color
+Author: Zane Muir
+Author-email: zanemuir1995@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ZaneMuir/Taro-Color/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: color print,ANSI escape code
+Platform: UNKNOWN
