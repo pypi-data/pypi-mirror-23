@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ubelt
+Version: 0.0.25
+Summary: A "utility belt" of commonly needed utility and helper functions
+Home-page: https://github.com/Erotemic/ubelt
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
