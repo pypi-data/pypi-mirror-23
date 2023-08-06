@@ -1,0 +1,14 @@
+CONTRIBUTORS.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+norma/__init__.py
+norma/joint_normal.py
+norma.egg-info/PKG-INFO
+norma.egg-info/SOURCES.txt
+norma.egg-info/dependency_links.txt
+norma.egg-info/not-zip-safe
+norma.egg-info/requires.txt
+norma.egg-info/top_level.txt
