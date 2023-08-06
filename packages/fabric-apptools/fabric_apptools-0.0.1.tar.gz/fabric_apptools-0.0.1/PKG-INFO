@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: fabric_apptools
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/i2bskn/fabric-apptools
+Author: Ken Iiboshi
+Author-email: i2bskn@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
