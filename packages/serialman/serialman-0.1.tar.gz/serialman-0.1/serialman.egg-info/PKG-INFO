@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: serialman
+Version: 0.1
+Summary: serialman = PySerial Manager : A Python package facilitating the use of PySerial.
+Home-page: https://github.com/pklaus/serialman
+Author: Philipp Klaus
+Author-email: philipp.l.klaus@web.de
+License: GPL
+Description: serialman
+        =========
+        
+        A Python package facilitating the use of PySerial.
+        
+Keywords: PySerial Manager
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
