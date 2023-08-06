@@ -1,0 +1,5 @@
+DataExtraction.egg-info/PKG-INFO
+DataExtraction.egg-info/SOURCES.txt
+DataExtraction.egg-info/dependency_links.txt
+DataExtraction.egg-info/top_level.txt
+DataExtraction.egg-info/zip-safe
