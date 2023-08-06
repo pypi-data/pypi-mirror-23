@@ -1,0 +1,14 @@
+django>=1.8,<1.12
+django-mptt
+jsonschema
+six
+
+[all-backends]
+django-haystack
+pyelasticsearch
+
+[backend-django]
+django-haystack
+
+[backend-elastic]
+pyelasticsearch
