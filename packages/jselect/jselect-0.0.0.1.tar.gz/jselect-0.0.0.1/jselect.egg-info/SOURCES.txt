@@ -1,0 +1,13 @@
+setup.py
+jselect/__init__.py
+jselect/ast.py
+jselect/cmd.py
+jselect/lex.py
+jselect/parser.py
+jselect/parsetab.py
+jselect/query.py
+jselect.egg-info/PKG-INFO
+jselect.egg-info/SOURCES.txt
+jselect.egg-info/dependency_links.txt
+jselect.egg-info/entry_points.txt
+jselect.egg-info/top_level.txt
