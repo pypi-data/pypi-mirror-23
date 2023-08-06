@@ -1,0 +1,7 @@
+paramset_pyspecdata
+sympy
+qt
+numpy
+scipy
+matplotlib
+tables
