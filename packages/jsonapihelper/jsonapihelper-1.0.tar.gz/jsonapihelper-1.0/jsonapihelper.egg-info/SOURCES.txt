@@ -1,0 +1,7 @@
+setup.py
+jsonapihelper/__init__.py
+jsonapihelper.egg-info/PKG-INFO
+jsonapihelper.egg-info/SOURCES.txt
+jsonapihelper.egg-info/dependency_links.txt
+jsonapihelper.egg-info/requires.txt
+jsonapihelper.egg-info/top_level.txt
