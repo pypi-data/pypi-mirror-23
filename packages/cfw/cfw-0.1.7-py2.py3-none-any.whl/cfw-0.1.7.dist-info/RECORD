@@ -1,0 +1,16 @@
+cfw/__init__.py,sha256=hMgQLKnaxbLJiFXF4SqBRdLlGHZDI9nNaMad1j_D0-o,28
+cfw/framework/__init__.py,sha256=TC8W7KrVBffQi99XAwwRXUkSGXvnf8PCwirxk9G9fms,266
+cfw/framework/arguments.py,sha256=fbMrN6pQuGeVF3HUBJtn7v629Xlt_UaBocHLC76Trcs,2365
+cfw/framework/command.py,sha256=geHLQO3ugbDyzVJcC9hi3aLjkc5GlDSikK8h5wL8vk4,13111
+cfw/framework/discovery.py,sha256=LKlDB8bf_aokUIjGtbXvMLdu4q6kSHrLckNh2d61-Dw,4786
+cfw/framework/errors.py,sha256=dc1bmivsz2SlXzjIyUGtmMtsMpZzV7j4KTTqYwjB50k,418
+cfw/framework/formatting.py,sha256=1M4kVgpufGI49jDpx8rAkMR_c0rBN-oELb-SBJ05j2w,2300
+cfw/framework/util.py,sha256=m61BH3Job3kG0Ez6_0An_ehAMJastu5lCqONmRw1J2k,53
+cfw/testapp/__init__.py,sha256=NN4uHMI_a8xSJCUbzuPTfd14fY-t0vPGHwWjrmzgSL4,20
+cfw/testapp/test.py,sha256=FGc5eG-2dssD0CVF1tuPh-79xgVxP-PxwJ84cMO1lYQ,2352
+cfw-0.1.7.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cfw-0.1.7.dist-info/METADATA,sha256=DrggimAhydPah9lPVf7iOSMpGKwiZ-GxZFNdHgFtmhU,242
+cfw-0.1.7.dist-info/RECORD,,
+cfw-0.1.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+cfw-0.1.7.dist-info/metadata.json,sha256=sABWI1iA8bkioXumP4AHt2fsuFLTwMS_QXerHS0LRI8,418
+cfw-0.1.7.dist-info/top_level.txt,sha256=j6re9E-mZ6u9LhC_zdLt2G5CPSpvjYVyf48uKFUSfdo,4
