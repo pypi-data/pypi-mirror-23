@@ -1,0 +1,12 @@
+vickitrix/__init__.py,sha256=4uDg8jAma-ntJbuldh7KjJ4W3CzYNAlOLpEyxPZRkto,22532
+vickitrix/__main__.py,sha256=fkUepAfHzE9tXGrBIg6YVgFEDBfJmiHHUD5p1btUv4g,85
+vickitrix/rules/sentiment.py,sha256=kF1DwOcRvfX05-kk6hWMgZMc_Pxfqlmavul8u7jjgfM,449
+vickitrix/rules/vicki.py,sha256=zPQ0k3nE6NIH_EfVkXtjEu3RmhP5zRV7ei8Eltk3FII,430
+vickitrix-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+vickitrix-0.1.0.dist-info/METADATA,sha256=nxxMT29gnurWAzN-6lt0PDmcWjw1skD5pLzqFitatnE,712
+vickitrix-0.1.0.dist-info/RECORD,,
+vickitrix-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+vickitrix-0.1.0.dist-info/entry_points.txt,sha256=MWLgs4Ry_4JuJ5O4PjmNWkxTyAUsbg0C5681MNVu-20,44
+vickitrix-0.1.0.dist-info/metadata.json,sha256=yukB1GxoGwB0trO810uBuK_JEUItns8QiZxsoqT7oGs,1016
+vickitrix-0.1.0.dist-info/top_level.txt,sha256=ZE_Tp0FXQ6h9u0TIlrv5d7dtgmxo3D_13oz0pNtQyjs,10
+vickitrix-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
