@@ -1,0 +1,44 @@
+- name: set listening port
+  set_fact:
+    _listening_port: "{{ https_enabled | ternary(443, 80) }}"
+  when: ansible_connection != 'docker'
+  tags:
+    - jenkins_check_mode
+
+- name: check for running in a container
+  set_fact:
+    _listening_port: "{{ https_enabled | ternary(8443, 8080) }}"
+  when: ansible_connection == 'docker'
+  tags:
+    - jenkins_check_mode
+
+- name: construct Jenkins URL
+  set_fact:
+    _jenkins_url: "http{{ https_enabled | ternary('s', '') }}://localhost:{{ _listening_port }}"
+  tags:
+    - jenkins_check_mode
+
+- name: wait for Jenkins to start up
+  become: false
+  uri:
+    url: "{{ _jenkins_url }}"
+    status_code: 200,401
+    timeout: 5
+    validate_certs: false
+  register: jenkins_status
+  retries: 30
+  delay: 15
+  until: >-
+    'status' in jenkins_status and
+    (jenkins_status['status'] == 200 or jenkins_status['status'] == 401)
+
+- name: get user api key
+  jenkins_user_api:
+    user: "{{ jenkins_admin.nickname }}"
+  register: jenkins_admin_api_key
+  become: true
+  become_user: "{{ jenkins_user }}"
+
+- name: save API key
+  set_fact:
+    admin_api_key: "{{ jenkins_admin_api_key.api_key }}"
