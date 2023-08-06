@@ -1,0 +1,6 @@
+include bsc/*.pyx
+recursive-includde bsc/libbsc *.c
+recursive-include bsc/libbsc *.cpp
+recursive-include bsc/libbsc *.h
+recursive-include bsc/libbsc *.cuh
+recursive-include bsc/libbsc makefile
