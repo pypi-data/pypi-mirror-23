@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+eyap.egg-info/PKG-INFO
+eyap.egg-info/SOURCES.txt
+eyap.egg-info/dependency_links.txt
+eyap.egg-info/entry_points.txt
+eyap.egg-info/requires.txt
+eyap.egg-info/top_level.txt
