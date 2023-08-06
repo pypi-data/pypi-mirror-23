@@ -1,0 +1,39 @@
+{#
+    Each pre-processed document have the following sections:
+        head - optional, inserted into the head block of the full page.
+        main - required, inserted into the main body of the full page.
+            must have the id "mapp-container"
+        scripts - optional, any script elements
+
+    Partials will only include the main section, while
+    head and scripts are applied to the full document.
+
+#}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {# Include anything from the head block in the original #}
+    {{ head }}
+</head>
+
+
+<body>
+<main id="mapp-container">
+    {# rip out scripts so they don't start running before dependencies are loaded below#}
+    {{ main }}
+</main>
+<script type="application/javascript">
+    const rq=(c,b,a)=>{a=new XMLHttpRequest;a.open(b.m||"GET",c);a.responseType=b.r||"";a.timeout=b.t||0;Object.keys(b.h||0).forEach(c=>a.setRequestHeader(c,b.h[c]));return new Promise((c,d)=>{a.onreadystatechange=b=>{4==a.readyState&&[d,c][(!!a.response&&1==(a.status/200|0))|0](a)};a.ontimeout=b=>d(a);a.send(b.b||[]._)})};
+</script>
+<script src="/static/js/mapp.min.js" type="application/javascript"></script>
+
+{{ scripts }}
+</body>
+
+
+</html>
