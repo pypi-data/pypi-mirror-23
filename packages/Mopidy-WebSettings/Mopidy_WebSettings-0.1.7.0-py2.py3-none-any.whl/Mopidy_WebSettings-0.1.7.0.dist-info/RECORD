@@ -1,0 +1,12 @@
+Mopidy_WebSettings-0.1.7.0.dist-info/DESCRIPTION.rst,sha256=PtVHX4VESHSC4x0vGxL8vmN4dAjIz3SKWAfEnrhgOIE,4377
+Mopidy_WebSettings-0.1.7.0.dist-info/METADATA,sha256=oprGHFKr0wRoOMKpeVUMBjGKadXrPdSAQHeXBCJUOZI,5157
+Mopidy_WebSettings-0.1.7.0.dist-info/RECORD,,
+Mopidy_WebSettings-0.1.7.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Mopidy_WebSettings-0.1.7.0.dist-info/entry_points.txt,sha256=U8wzrfyQYb2SSmnPbL3Id-BBKVkvEUOwYhGb-DWFMGY,57
+Mopidy_WebSettings-0.1.7.0.dist-info/metadata.json,sha256=yg_ymChZplqu7c-v1a9078oLW9NCS8_VdAJQa-mmvLo,1059
+Mopidy_WebSettings-0.1.7.0.dist-info/top_level.txt,sha256=EnFR0N_aUojt8iqRDYkBmXm01wck4nVVa0BUcIvTDeg,19
+mopidy_websettings/__init__.py,sha256=bmkHOoxrMlY0_1fnlbnhCLZEmJhVm1N3EapieTCD4jQ,7570
+mopidy_websettings/__init__.pyc,sha256=N5QDh0bRc9tWPQO2FidU3gS3YzYi4jyLXoFyOcwgi8Y,9470
+mopidy_websettings/ext.conf,sha256=6n8__taTaDbzskkEfjp9-PLEgKCpm0lpaah6z-sCECQ,84
+mopidy_websettings/index.html,sha256=wjLWAz3gIZoMOo_5XF52i_MJp68m_6BV-BmWyhRQYjk,32368
+mopidy_websettings/settingsspec.ini,sha256=ECuopwnODWSWKNtRZlShBQD120fB0gEF5aj4ov14DHE,2584
