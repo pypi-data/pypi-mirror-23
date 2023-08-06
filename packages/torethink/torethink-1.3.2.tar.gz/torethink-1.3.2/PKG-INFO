@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: torethink
+Version: 1.3.2
+Summary: Rethinkdb Wrapper For Tornado Framework
+Home-page: https://github.com/mehmetkose/torethink
+Author: Mehmet Kose
+Author-email: mehmet@linux.com
+License: MIT
+Description: UNKNOWN
+Keywords: tornado,rethinkdb,layer
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Utilities
