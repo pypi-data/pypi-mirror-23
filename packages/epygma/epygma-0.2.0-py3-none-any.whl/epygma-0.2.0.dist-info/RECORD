@@ -1,0 +1,16 @@
+epygma/__init__.py,sha256=4tjmlpSBgn1Dryyo0vScvEEXwHz1N3gxCmVR30CUBAc,511
+epygma/epygma.py,sha256=_2DtGvARBTayBf4Tct5Hs7Bd8cbtHMTwuIuNMX0f5mQ,3442
+epygma/epygma_gui.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epygma/epygma_rpi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epygma/components/__init__.py,sha256=kM6KSiHl0ygK3AQ8IBQDqDUgD-IaELxexas3C6OS8U4,316
+epygma/components/reflector.py,sha256=r9lG7tVirJz4XWdmUFPKCX0SZ5hAl1xXljnCPs55coU,3839
+epygma/components/rotor.py,sha256=ZJjDhSxdNK04ELnGqiWrjwa1HLYUzdw-pIec_F2R6DU,3170
+epygma/components/scrambler.py,sha256=Kg2BSebibhYj1sNGSu_LT9yR_-63mQk1_hXBNUu2iLk,2772
+epygma/components/stator.py,sha256=kaX59JBmELHhoUPfwkd503zsyppaIg5m_EJGYEhYjxQ,3013
+epygma/components/stecker.py,sha256=q5OLUDaDKL1gGMkxqzToQSjtUe5pBVMhftA34Kzt6l8,4513
+epygma-0.2.0.dist-info/DESCRIPTION.rst,sha256=gZKXe_4q3k4Ddjr_-37lMZU6O5B9sy5Kiy79iF4CKNY,944
+epygma-0.2.0.dist-info/METADATA,sha256=-B4ueMzA8hRotUag4ugVYONaZi4ktQcwzwdah2hmDsU,1572
+epygma-0.2.0.dist-info/RECORD,,
+epygma-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+epygma-0.2.0.dist-info/metadata.json,sha256=tE9LXepCLoJaIJDmsVRUtWEZtgPOBsnguEMSIeFicj0,752
+epygma-0.2.0.dist-info/top_level.txt,sha256=lqVz-fDeOfWAQhSGfQDVGIoDBMO07Aq41Oa8kVmzkeU,7
