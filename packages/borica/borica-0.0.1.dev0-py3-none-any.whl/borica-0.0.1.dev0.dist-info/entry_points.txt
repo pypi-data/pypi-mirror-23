@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      borica=borica.scripts.cli:cli
+      

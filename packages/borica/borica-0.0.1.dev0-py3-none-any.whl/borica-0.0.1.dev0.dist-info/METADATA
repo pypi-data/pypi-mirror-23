@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: borica
+Version: 0.0.1.dev0
+Summary: Python integration for Borica
+Home-page: https://github.com/IOEra/borica
+Author: Jordan Jambazov
+Author-email: jordan.jambazov@era.io
+License: MIT
+Keywords: Borica payment gateway
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Python: >=2.6, <4
+Requires-Dist: click
+Requires-Dist: pycrypto
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+
+[![Build Status](https://travis-ci.org/IOEra/borica.svg?maxAge=0&branch=master)](https://travis-ci.org/IOEra/borica)
+[![Coverage Status](https://coveralls.io/repos/github/IOEra/borica/badge.svg?maxAge=0&branch=master)](https://coveralls.io/github/IOEra/borica?branch=master)
+
+# Borica
+
+Low-level Python integration for Borica payment gateway.
+
+## Usage
+
+TODO
+
+
