@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ush
+Version: 0.0.1
+Summary: unix shell DSL for python
+Home-page: https://github.com/tarruda/ush
+Author: Thiago de Arruda
+Author-email: tpadilha84@gmail.com
+License: MIT
+Download-URL: https://github.com/tarruda/ush/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: sh,unix,bash,shell
+Platform: UNKNOWN
