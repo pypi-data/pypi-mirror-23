@@ -1,0 +1,37 @@
+Gitlab Tags to Pip Index
+========================
+
+This python script uses the gitlab api to inspect all tags for the a project and build a
+python repository index to be used for automated installations with pip.
+This is best used in Gitlab CI in conjunction with gitlab_release package to first attach a python package
+to the current build tag, after which this can be used to generate a static web page to be hosted by gitlab
+which pip can be pointed to as an index to install your package.
+This can assist in distributing python packages that aren't suitable for publishing on PyPI official index.
+
+
+It can be used in a gitlab-ci.yml stage like:
+
+::
+
+    release:
+      stage: release
+      script:
+        - python3 setup.py sdist bdist_wheel
+        - pip3 install gitlab_release
+        - python3 -m gitlab_release $PRIVATE_TOKEN dist/*
+      only:
+        - tags
+
+    pages:
+      stage: deploy
+      script:
+        - pip3 install gitlab_tags_to_pip_index
+        - python3 -m gitlab_tags_to_pip_index ./public
+      only:
+        - tags
+      artifacts:
+        paths:
+        - public
+
+See https://pypi.python.org/pypi/gitlab-release for more information about gitlab_release script.
+
