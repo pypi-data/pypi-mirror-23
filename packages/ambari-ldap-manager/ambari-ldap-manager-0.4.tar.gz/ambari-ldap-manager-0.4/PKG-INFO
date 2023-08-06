@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ambari-ldap-manager
+Version: 0.4
+Summary: A tool to manage Ambari users and groups when authentication uses LDAP.
+Home-page: https://github.com/Barneyjm/ambari-ldap-manager
+Author: James Barney
+Author-email: jamesbarney71@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Barneyjm/ambari-ldap-manager/archive/0.4.tar.gz
+Description: UNKNOWN
+Keywords: hadoop,ldap,active-directory,ambari,manager
+Platform: UNKNOWN
