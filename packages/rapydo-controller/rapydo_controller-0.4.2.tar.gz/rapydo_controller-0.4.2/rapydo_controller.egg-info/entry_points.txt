@@ -1,0 +1,4 @@
+[console_scripts]
+do = rapydo.do.__main__:main
+rapydo = rapydo.do.__main__:main
+
