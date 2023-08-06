@@ -1,0 +1,9 @@
+README.rst
+setup.py
+awsparams.egg-info/PKG-INFO
+awsparams.egg-info/SOURCES.txt
+awsparams.egg-info/dependency_links.txt
+awsparams.egg-info/entry_points.txt
+awsparams.egg-info/requires.txt
+awsparams.egg-info/top_level.txt
+awsparams.egg-info/zip-safe
