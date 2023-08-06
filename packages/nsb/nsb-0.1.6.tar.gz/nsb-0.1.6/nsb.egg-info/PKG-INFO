@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: nsb
+Version: 0.1.6
+Summary: Draws nightsky allskymaps
+Home-page: https://git.ecap.work/mbuechele/allskymaps
+Author: Matthias Buechele
+Author-email: matthias.buechele@fau.de
+License: UNKNOWN
+Download-URL: https://git.ecap.work/mbuechele/allskymaps/repository/archive.tar?ref=0.0.2
+Description: Draws nightsky allskymaps corresponding to KRISCIUNAS Model of the Brightness of Moonlight, together with star data obtained from the GAIA public data release catalog. The result is a 2D Pixel array with physical brightness values for each sky position.
+Platform: UNKNOWN
