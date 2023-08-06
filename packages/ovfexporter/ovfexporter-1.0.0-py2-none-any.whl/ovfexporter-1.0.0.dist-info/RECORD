@@ -1,0 +1,11 @@
+ovfexporter/OvfExporter.py,sha256=-7V0YtZMDXPVELkjYhkZOGbaGCtvHLRuKNapC6inHnA,12652
+ovfexporter/VcenterInterfaces.py,sha256=mY3vKbZoJY0JG8XumpBZ0Uul642fReQVt06fgKLJP2M,1593
+ovfexporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovfexporter/ovfexport.py,sha256=P92t3d7SXXhpYFHgc4d-c3vdUjB2GRrH8_tRyHDSwPY,2084
+ovfexporter-1.0.0.data/scripts/ovfexport,sha256=XErkbBsw9ysATandNG1mq9Z66wudOVneKdoDbA0HPo0,61
+ovfexporter-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+ovfexporter-1.0.0.dist-info/METADATA,sha256=xHXmjGNLI1A1Y5zwB2QMVw0p8rXX8M4QjooVZ7F3KyE,633
+ovfexporter-1.0.0.dist-info/RECORD,,
+ovfexporter-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ovfexporter-1.0.0.dist-info/metadata.json,sha256=_6-zk_7uOiS_8Szz_azRT85CoNLWh1cgO2MEqSAPfnc,824
+ovfexporter-1.0.0.dist-info/top_level.txt,sha256=ljd65iC4Ol8PhA6X-rKmoKY1hmkfrL4lxakDRsDpujY,12
