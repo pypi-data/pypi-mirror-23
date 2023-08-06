@@ -1,0 +1,205 @@
+Metadata-Version: 2.0
+Name: logzero
+Version: 1.1.2
+Summary: Python logging made easy
+Home-page: https://github.com/metachris/logzero
+Author: Chris Hager
+Author-email: chris@linuxuser.at
+License: MIT license
+Keywords: logzero
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+=======
+logzero
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/logzero.svg
+        :target: https://pypi.python.org/pypi/logzero
+
+.. image:: https://img.shields.io/travis/metachris/logzero.svg
+        :target: https://travis-ci.org/metachris/logzero
+
+.. image:: https://readthedocs.org/projects/logzero/badge/?version=latest
+        :target: https://logzero.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+.. image:: https://pyup.io/repos/github/metachris/logzero/shield.svg
+     :target: https://pyup.io/repos/github/metachris/logzero/
+     :alt: Updates
+
+
+Robust and effective logging for Python 2 and 3.
+
+.. image:: docs/_static/logo-small.png
+   :alt: Logo
+   :width: 300px
+
+* GitHub repository: https://github.com/metachris/logzero
+* Documentation: https://logzero.readthedocs.io
+
+
+Features
+--------
+
+* Easy logging to console and/or file.
+* Provides a fully configured standard `Python logger object <https://docs.python.org/2/library/logging.html#module-level-functions>`_.
+* Pretty formatting, including level-specific colors in the console.
+* Robust against str/bytes encoding problems, works with all kinds of character encodings and special characters.
+* Multiple loggers can write to the same logfile (also across multiple Python files).
+* Global default logger with `logzero.logger` and custom loggers with `logzero.setup_logger(..)`.
+* Compatible with Python 2 and 3.
+* All contained in a `single file`_.
+* No further Python dependencies.
+* Licensed under the MIT license.
+* Heavily inspired by the `Tornado web framework`_.
+
+
+.. image:: docs/_static/demo_output.png
+   :alt: Demo output in color
+   :width: 300px
+
+
+.. _single file: https://github.com/metachris/logzero/blob/master/logzero/__init__.py
+.. _Tornado web framework: https://github.com/tornadoweb/tornado
+
+
+Example Usage
+-------------
+
+.. code-block:: python
+
+    from logzero import logger
+
+    logger.debug("hello")
+    logger.info("info")
+    logger.warn("warn")
+    logger.error("error")
+
+Take a look at the documentation for more information and examples:
+
+* Documentation: https://logzero.readthedocs.io.
+
+
+Installation
+=============
+
+Install `logzero` with `pip`_:
+
+.. code-block:: console
+
+    $ pip install -U logzero
+
+
+Changelog
+---------
+
+See the changelog here: https://github.com/metachris/logzero/blob/master/HISTORY.rst
+
+
+Future Features & Ideas
+-----------------------
+
+* Easier usage of custom log handlers (currently works `like this <https://logzero.readthedocs.io/en/latest/#adding-custom-handlers-eg-rotatinglogfile>`_)
+* JSON output (a la 12 factor app)
+* Send logs to remote log collector (maybe)
+* Structured logging a la https://structlog.readthedocs.io/en/stable/index.html (maybe)
+
+
+Related Projects
+----------------
+
+* https://12factor.net/logs
+* Log collectors: fluentd, logstash, etc.
+* https://structlog.readthedocs.io/en/stable/why.html
+
+
+Notes: How to release a new version
+-----------------------------------
+
+via https://cookiecutter-pypackage.readthedocs.io/en/latest/pypi_release_checklist.html
+
+.. code-block:: console
+
+    # Run the tests
+    py.test
+    make lint
+
+    # Update history
+    vi HISTORY.rst
+    git add HISTORY.rst
+    git commit -m "Changelog for upcoming release 0.1.1."
+
+    # Update version
+    bumpversion minor
+
+    # Push
+    git push && git push --tags
+
+
+Credits
+---------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+.. _pip: https://pip.pypa.io
+
+
+
+=======
+History
+=======
+
+1.1.2 (2017-07-04)
+------------------
+
+* Better reconfiguration of handlers, doesn't remove custom handlers anymore
+
+
+1.1.0 (2017-07-03)
+------------------
+
+* Bugfix: Disabled color logging to logfile
+
+
+1.1.0 (2017-07-02)
+------------------
+
+* Global default logger instance (`logzero.logger`)
+* Ability to reconfigure the default logger with (`logzero.setup_default_logger(..)`)
+* More tests
+* More documentation
+
+1.0.0 (2017-06-27)
+------------------
+
+* Cleanup and documentation
+
+
+0.2.0 (2017-06-12)
+------------------
+
+* Working logzero package with code and tests
+
+
+0.1.0 (2017-06-12)
+------------------
+
+* First release on PyPI.
+
+
