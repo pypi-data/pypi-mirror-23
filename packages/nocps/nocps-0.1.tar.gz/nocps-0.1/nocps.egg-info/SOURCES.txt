@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+nocps/__init__.py
+nocps/nocps.py
+nocps.egg-info/PKG-INFO
+nocps.egg-info/SOURCES.txt
+nocps.egg-info/dependency_links.txt
+nocps.egg-info/not-zip-safe
+nocps.egg-info/requires.txt
+nocps.egg-info/top_level.txt
