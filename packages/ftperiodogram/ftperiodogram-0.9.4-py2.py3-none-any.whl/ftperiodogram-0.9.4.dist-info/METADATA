@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: ftperiodogram
+Version: 0.9.4
+Summary: Tools for efficiently fitting periodic templates to irregularly-sampled timeseries data
+Home-page: https://github.com/PrincetonUniversity/FastTemplatePeriodogram
+Author: John Hoffman, Jake Vanderplas
+Author-email: jah5@princeton.edu, jakevdp@cs.washington.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires: numpy
+Requires: scipy
+Requires: nfft
+
+UNKNOWN
+
+
