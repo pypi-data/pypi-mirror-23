@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: pykbart
+Version: 0.1.0a1
+Summary: Models, reads, and writes KBART files
+Home-page: https://github.com/chill17/pykbart
+Author: Ed Hill
+Author-email: hill.charles2@gmail.com
+License: MIT
+Keywords: libraries,library holdings,e-resources,KBART,Knowledge Bases
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: six (>=1)
+Requires-Dist: unicodecsv
+
+pykbart is a library for dealing with data created according to the [KBART standard](http://www.niso.org/workrooms/kbart, "Kbart page on NISO"). It should work under Python 2.7 or 3.x, and should also work for KBART Recommended Practice 1 and 2. It is mostly a convenience wrapper for reading and representing TSV files containing knowledge base data, but can also be used to modify item data in bulk or create KBART files of data from other formats.
+
+
