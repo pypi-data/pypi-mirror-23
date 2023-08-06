@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: arrfunc
+Version: 1.0
+Summary: Lazy evaluation to treat functions as numpy arrays.
+Home-page: http://github.com/adamjermyn/arrfunc
+Author: Adam S. Jermyn
+Author-email: adamjermyn@example.com
+License: MIT
+Download-URL: http://github.com/adamjermyn/arrfunc/1.0.tar.gz
+Description: UNKNOWN
+Keywords: mathematics,lazy evaluation,numpy
+Platform: UNKNOWN

@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+arrfunc/__init__.py
+arrfunc/arrfunc.py
+arrfunc/linalg.py
+arrfunc/test.py
+arrfunc/utils.py
+arrfunc.egg-info/PKG-INFO
+arrfunc.egg-info/SOURCES.txt
+arrfunc.egg-info/dependency_links.txt
+arrfunc.egg-info/not-zip-safe
+arrfunc.egg-info/top_level.txt
