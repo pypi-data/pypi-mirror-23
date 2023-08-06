@@ -1,0 +1,4 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include pyramid_iconizer *.ico *.png *.css *.gif *.jpg *.jinja2 *.pt *.txt *.mak *.mako *.js *.html *.xml
+recursive-include pyramid_iconizer/lib/api/svg/templates *.xml
+include pyramid_iconizer/lib/api/sld/v1_0_0/schema.xsd
