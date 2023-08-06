@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: snipsowm
+Version: 0.1.2
+Summary: OpenWeatherMap weather skill for Snips
+Home-page: https://github.com/snipsco/snips-skill-weather-owm
+Author: Michael Fester
+Author-email: michael.fester@gmail.com
+License: MIT
+Keywords: snips
+Platform: UNKNOWN
+Requires-Dist: paho-mqtt
+Requires-Dist: pyyaml
+Requires-Dist: requests (==2.6.0)
+
+UNKNOWN
+
+
