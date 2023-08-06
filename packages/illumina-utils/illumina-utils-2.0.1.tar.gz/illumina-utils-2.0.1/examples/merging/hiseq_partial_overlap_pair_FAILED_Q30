@@ -1,0 +1,678 @@
+>hiseq_partial_overlap_pair_1|D4ZHLFP1:36:C10H4ACXX:8:2203:21201:39665 1:N:0:CCAT|o:18|m/o:0.055556|MR:n=0;r1=1;r2=0|Q30:p=39;f=27|CO:0|mismatches:1
+cagcaatagaattttaactattttatatgaaataaaaaaaatgtttttgacatactgtttctcttatttatttttaatttttatttcttttGtattaacctttttgggtttttcttttttaaatattaaatatgccctattacttagtgtaattgctgctttattagatttactccctgt
+>hiseq_partial_overlap_pair_7|D4ZHLFP1:36:C10H4ACXX:8:2203:1491:39847 1:N:0:CCAT|o:22|m/o:0.045455|MR:n=0;r1=1;r2=0|Q30:p=36;f=23|CO:0|mismatches:1
+ctgctcttccaatgcccggattacaggcagtgtcacatttaattttttcgtcaccagctcataatccagaattggggcttccttcaaAgcttccaaaagctttgctcttgctttctgattcttcttctgataaaaagccagcttctcctgactctcttcctcagtaagcagcaaac
+>hiseq_partial_overlap_pair_15|D4ZHLFP1:36:C10H4ACXX:8:2203:1552:39940 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=37;f=26|CO:0|mismatches:1
+ttctaatattgaggatacaaatacaaatcataaaaatacaaatataaagacaaatgttaatttaccaactaaacatgataatagtatagaAttatactcttttgaaaactttaaatatagtggatattatatagtggtaaaagatcctactagagtaaaaataggagtttctaaatac
+>hiseq_partial_overlap_pair_22|D4ZHLFP1:36:C10H4ACXX:8:2203:2228:39788 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=22|CO:0|mismatches:0
+tcaattcgttgaagacagtaaatcattcttaaagcatagtgattttactaaactaagtgatgaagaattaacattaattactggtgaaaaagatttagaagcaggtgttaaggctttacatgacttaggggttaaagttgtaactataactttaggatctaagggaacttacctaag
+>hiseq_partial_overlap_pair_44|D4ZHLFP1:36:C10H4ACXX:8:2203:3455:39808 1:N:0:CCAT|o:31|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=33;f=8|CO:0|mismatches:0
+taacttctcttaattatttatcttaaaatttattctttgccttataatcttatattctaacttattaaactttctctaatctctcttatttcaaccctattagaatcatagttggatgtaaccttaaaaaaaaatctaaacttacattctctaccccccccattttt
+>hiseq_partial_overlap_pair_58|D4ZHLFP1:36:C10H4ACXX:8:2203:3974:39847 1:N:0:CCAT|o:31|m/o:0.064516|MR:n=0;r1=2;r2=0|Q30:p=33;f=17|CO:0|mismatches:2
+gccgggtcggtggcccgttcatccatgatggcgtagtcagggttctcctgctgccaggcgtcgagggtggcgaagTcgcccatgAcgccggttatttgcccggctttcagcgcggccagggcgctggcgacatcgtcgtaagggacagcctgtacggctttctgttt
+>hiseq_partial_overlap_pair_60|D4ZHLFP1:36:C10H4ACXX:8:2203:3971:39889 1:N:0:CCAT|o:15|m/o:0.133333|MR:n=0;r1=2;r2=0|Q30:p=41;f=16|CO:0|mismatches:2
+aaaatcaccctttactctttttaaaaattcatcagtatttttaggagttgtttaataggctaaccttaataacttatttattGtatctaacccatAcctttcgtaaattttatcaaataacaaaactcctccaaagtgggctgttctaggtcttgatccatcctctggtttcattataggatt
+>hiseq_partial_overlap_pair_88|D4ZHLFP1:36:C10H4ACXX:8:2203:5448:39896 1:N:0:CCAT|o:24|m/o:0.208333|MR:n=0;r1=5;r2=0|Q30:p=34;f=14|CO:0|mismatches:5
+gtggtggcatgcacctatagtcccagctacttgggagggtgaggcaggagaatcgcttgaacccaggagacagAgGttgCagtgAgcCaagattgtgccactgcacgatgacagagtgagacttcatcagacttctggggaaagaattgagaccatatggcaatgaaaaaagag
+>hiseq_partial_overlap_pair_95|D4ZHLFP1:36:C10H4ACXX:8:2203:5677:39939 1:N:0:CCAT|o:24|m/o:0.041667|MR:n=0;r1=1;r2=0|Q30:p=36;f=19|CO:0|mismatches:1
+taagtgataaagaatgtgaatatcttgctaaaagtatagcgggaggagttttaataggacttgctttaggagctAtttttaataatcctcagtttggctttcccttaggtggattaactgaaatagtagcctctcttatttatattttagtaaaaagagctaagattaaatcag
+>hiseq_partial_overlap_pair_99|D4ZHLFP1:36:C10H4ACXX:8:2203:5856:39900 1:N:0:CCAT|o:36|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=29;f=20|CO:0|mismatches:0
+agatattacttattttgataaagaattagagtcttttaaaatatctccagatagtgtaaatgccatttatgaagataaatataataatttatggatatcaactcaaaatggattattagaatataataaagaaaataaaaaaatgcatctttttgaaagcag
+>hiseq_partial_overlap_pair_127|D4ZHLFP1:36:C10H4ACXX:8:2203:7413:39787 1:N:0:CCAT|o:36|m/o:0.083333|MR:n=0;r1=3;r2=0|Q30:p=30;f=9|CO:0|mismatches:3
+cttttccgcttcaagtattctttttaaataaaagattcaagcatataaaagaagctggacttgTaGaaaattcaGttatggatagaagtatatacggagatgttatatttgctaagatgctatgtgaaaagggcgagatgacagttgaagagtttgaattag
+>hiseq_partial_overlap_pair_129|D4ZHLFP1:36:C10H4ACXX:8:2203:7279:39847 1:N:0:CCAT|o:25|m/o:0.160000|MR:n=0;r1=4;r2=0|Q30:p=36;f=0|CO:0|mismatches:4
+atatcagcagcctggcttactggatatattaaaaatcctgctggaatactattttcataatttttttgtttaatttcagAtttaActgtaggAtttCtttcaagtcttgataatgtaacaagattaaaatagtgaatttttaattcatgaagttctggaagttgtaattgacc
+>hiseq_partial_overlap_pair_131|D4ZHLFP1:36:C10H4ACXX:8:2203:7500:39948 1:N:0:CCAT|o:24|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=22|CO:0|mismatches:0
+aataaatatgtgtcttattatcactttcatctatatcatcaaaaaagcttttctcattatatttaatattcaatgaattaatatcttcttgcaaattttttatccatcttagtcttgtatcttttgtctcttggctatcataaatacttacatattctttaataacataatagc
+>hiseq_partial_overlap_pair_143|D4ZHLFP1:36:C10H4ACXX:8:2203:8042:39822 1:N:0:CCAT|o:29|m/o:0.241379|MR:n=0;r1=7;r2=0|Q30:p=34;f=1|CO:0|mismatches:7
+tcctggttttattccgtagcgtagccaaaaaggcgaccagcggtgtgccaggtaagtttcagaccgcgAttgAgCtggTgAtCggctttgttaaTggtagggggaaagacatgttccaaggcaaaaggaaggcgatttcccccgctgccccggccgacttcgtccgggg
+>hiseq_partial_overlap_pair_159|D4ZHLFP1:36:C10H4ACXX:8:2203:8787:39763 1:N:0:CCAT|o:31|m/o:0.161290|MR:n=0;r1=5;r2=0|Q30:p=33;f=3|CO:0|mismatches:5
+atcagaagagaatattgtaaaagctactataactgaagagacaataaaagatagaaaagatccagagcttGaaaaGCttccagaaggaGaagttaGaccaactttaaaaactgaaaaaaaaaaaaaagctagaaaaaaaaaaaaaaccgcttaataaaaaaaaatgg
+>hiseq_partial_overlap_pair_166|D4ZHLFP1:36:C10H4ACXX:8:2203:9461:39760 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=25|CO:0|mismatches:0
+cacttccctacgctggttctaaccagatcaggtgttgagggttagtgaaaaaatcacctctcagccaaaggcacccctagcacacttattaacatttaccatctaaagtatatatctttctgaagaattaatcaataatatttagatattatgaagatggtacctaaaaatagttttg
+>hiseq_partial_overlap_pair_169|D4ZHLFP1:36:C10H4ACXX:8:2203:9480:39882 1:N:0:CCAT|o:34|m/o:0.147059|MR:n=0;r1=5;r2=0|Q30:p=31;f=0|CO:0|mismatches:5
+gaacaaacaagtgttatggaatctgtaacagaagctttgaaaaatttaactgatttagcagaggagctacagGttACtgtaaataacttTaaggttTaaattaaattttattaaatagtactttacatgattttaaaatttatataaaaatggggaagtgatgc
+>hiseq_partial_overlap_pair_179|D4ZHLFP1:36:C10H4ACXX:8:2203:9564:39961 1:N:0:CCAT|o:24|m/o:0.291667|MR:n=0;r1=7;r2=0|Q30:p=36;f=7|CO:0|mismatches:7
+aagtatctatagggttgctaggggaattttaaataacaaggaagacatagaagatgcacttcagaatacaataaTaaaatCttaTgaGaaGaTagGatttaaaaaaaaggaggtttttttaaaatttggaaaaaaaagtttttaaaaaaaggggtttattttaatttaaaaaac
+>hiseq_partial_overlap_pair_186|D4ZHLFP1:36:C10H4ACXX:8:2203:10242:39798 1:N:0:CCAT|o:33|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=32;f=11|CO:0|mismatches:0
+agtcagcagctgtagcagattataaagctaaaaattatagcaatgaaaagattaaaaaaacaggtgatgatttaaatttaatttttgagagagatagagatattctaaaacctcttggagatatgaaagaaaatcaaattctagtaggctttgcagcagaaagta
+>hiseq_partial_overlap_pair_194|D4ZHLFP1:36:C10H4ACXX:8:2203:10296:39955 1:N:0:CCAT|o:27|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=35;f=21|CO:0|mismatches:0
+gtaagtaagtaagtaagtaagtaagtaagtaagtaaggattgtgattaaagtgattgataaagaaaaaattgaaaaaattatattagaaactttaccacaagataaaacagaaggtatttatatatttggaagttataatactgagttttttgatgaagattcagatattg
+>hiseq_partial_overlap_pair_201|D4ZHLFP1:36:C10H4ACXX:8:2203:10807:39796 1:N:0:CCAT|o:26|m/o:0.230769|MR:n=0;r1=6;r2=0|Q30:p=35;f=10|CO:0|mismatches:6
+attcgggtcggattgctgcgaaagaaatgatacactagcacgtcaaagtaagtgcgttatcagtattcaggTagctGTtgAgcctggggCggtagCgttcttttttctggttaacctaacccaacaatcccccaaaaagagccctaatggaaaaacccattccaaaaaaccc
+>hiseq_partial_overlap_pair_205|D4ZHLFP1:36:C10H4ACXX:8:2203:11173:39842 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=16|CO:0|mismatches:0
+catatccctcttccagacaatgttgataaatgttcgggaaatgacccatgatggtttcttttccaagtttttccatggacagccagacatgatctgtgccttccttttccatctcttctctgattgccttagtcacaacatctcttggaaggagttcatttacgaaacgttcttt
+>hiseq_partial_overlap_pair_207|D4ZHLFP1:36:C10H4ACXX:8:2203:11372:39796 1:N:0:CCAT|o:16|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=40;f=22|CO:0|mismatches:0
+ccaatcataaaatatattccccagattagtgctgtaagaatagccaatacactcacataagaaagaattacggcagtaattcttcttgtaccgaatttttgaatttttaatattttattattctcaagaaagttttcaattatttttgtaattggataaagtatgtacgcaattacaatggc
+>hiseq_partial_overlap_pair_210|D4ZHLFP1:36:C10H4ACXX:8:2203:11674:39782 1:N:0:CCAT|o:37|m/o:0.216216|MR:n=0;r1=8;r2=0|Q30:p=30;f=18|CO:0|mismatches:8
+atccagttcgttgacgaagaaggcaaaccgttcatgccggtttacgcatatgacccgcgtcttgTaaaagTaGaagAtAcctactacaTcaTcTggtcccaggcctcctccggtgcagccatcggaatggcaaaaacaaaaaattttgaacccttcgtacg
+>hiseq_partial_overlap_pair_211|D4ZHLFP1:36:C10H4ACXX:8:2203:11545:39793 1:N:0:CCAT|o:27|m/o:0.074074|MR:n=0;r1=2;r2=0|Q30:p=35;f=10|CO:0|mismatches:2
+tattatctttcaaactattattcaggatataatacatctaaagtagcaaaatattggagaatacgtgcaggaaTaaaTcagacagatacagctctcactgttgaaactaacttaaaacttgcccttcaaaactatgatggagtagagagtgttaatcttgcaacagtttgg
+>hiseq_partial_overlap_pair_212|D4ZHLFP1:36:C10H4ACXX:8:2203:11731:39836 1:N:0:CCAT|o:25|m/o:0.160000|MR:n=0;r1=4;r2=0|Q30:p=36;f=5|CO:0|mismatches:4
+cttataaaatttgtaactaactgaatattttttgctatgttattaataatatataaaatagtaaactttcaaatAttGttGttaggagTggatttttaagaataaaccaaaaccaataaaaaaaggtgaaacaaaaggaaaaaaaaggtcaagcaagccccccaaaaaaaggg
+>hiseq_partial_overlap_pair_220|D4ZHLFP1:36:C10H4ACXX:8:2203:11821:39860 1:N:0:CCAT|o:24|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=9|CO:0|mismatches:0
+tcttaaattactatttataaaaaacaggaattatgaaatttcataattcctgttttttatagtacaatatataattttttatcacatgaaactctatatcatctattttttatatctaaacaattaaaatctaaaatcccgttttccgctatctatatcatttatatgctcttt
+>hiseq_partial_overlap_pair_221|D4ZHLFP1:36:C10H4ACXX:8:2203:11769:39881 1:N:0:CCAT|o:25|m/o:0.040000|MR:n=0;r1=1;r2=0|Q30:p=36;f=17|CO:0|mismatches:1
+gtgcgcatccttagcggagcgttttttatatattaggaaagcactttcctaatatataaaaaagctgccatactctCtttttgagagtacaacagcttcttttatatcttttctcttaattatttaccagcggctgccattgctgcattgatcttctctacaagcagatctgg
+>hiseq_partial_overlap_pair_228|D4ZHLFP1:36:C10H4ACXX:8:2203:12256:39861 1:N:0:CCAT|o:32|m/o:0.062500|MR:n=0;r1=2;r2=0|Q30:p=32;f=14|CO:0|mismatches:2
+tagtgaaaatgtaaagagtctaggaaagactgagtggaaagttattgtacagattgggcgtggactttcaaaTaaggaaataGcaaaggttctatttttgtcaaaaggaactgttagaaaatatcttaatcaaattttaaacaaactttaaataaaggaaaaaacc
+>hiseq_partial_overlap_pair_233|D4ZHLFP1:36:C10H4ACXX:8:2203:12673:39829 1:N:0:CCAT|o:16|m/o:0.125000|MR:n=0;r1=2;r2=0|Q30:p=40;f=22|CO:0|mismatches:2
+caagacccgggaacgtattcaccgcgacattctgattcgcgattactagtaactccagcttcatgtaggcgagtttcagccTacaatccgaactgAgattggtttttaagtttggccccccctcgcgtttttgcttctctctgtaccagccattgtagcacgtgtgtagccctacacaatgg
+>hiseq_partial_overlap_pair_240|D4ZHLFP1:36:C10H4ACXX:8:2203:12877:39793 1:N:0:CCAT|o:41|m/o:0.219512|MR:n=0;r1=9;r2=0|Q30:p=28;f=6|CO:0|mismatches:9
+ttgttgctttttcatgttctcaatattatcaagagtccatgttttaggtgcaataccAtGtttagTAgctgCAttttcTgcaggcaTaCcaaaggaacccccgcccattggaatcaattatttaaaaccttttttttttttaaaaccgcgccactac
+>hiseq_partial_overlap_pair_248|D4ZHLFP1:36:C10H4ACXX:8:2203:13019:39787 1:N:0:CCAT|o:24|m/o:0.041667|MR:n=0;r1=1;r2=0|Q30:p=36;f=10|CO:0|mismatches:1
+tttaggattagatgaaaaaacaggaatggagactaagggagatgtccctgaaaatgttagtataacaaatctttctataggccaatCtatgcaaactagtttaattcaaatggcaggtataatatctactgttgttaatgaaggggaaaacgtagagccatatatattaaaagg
+>hiseq_partial_overlap_pair_254|D4ZHLFP1:36:C10H4ACXX:8:2203:13426:39792 1:N:0:CCAT|o:32|m/o:0.218750|MR:n=0;r1=7;r2=0|Q30:p=32;f=3|CO:0|mismatches:7
+taatattcttctgggtgaatatatcttaaacacaaatcttctaattcccactttattttagatatAcctaatCtaTgAgCtaaaggtGcaaatAtatttaaagttttttgggcttttttcttctgtttttcaggctttatatttttaagtgttctcatattatgaa
+>hiseq_partial_overlap_pair_259|D4ZHLFP1:36:C10H4ACXX:8:2203:13384:39911 1:N:0:CCAT|o:18|m/o:0.111111|MR:n=0;r1=2;r2=0|Q30:p=39;f=19|CO:0|mismatches:2
+gaactgctgcatctacaatttctttatgtggctttggtgttacaccaatttttattactttatcatctttcgaatctgcTcctgaaccgttActtccagttcccccacatcctattaatccaattgcaagtactcctgctaaaactactgataatattgatttctttttcattatttatc
+>hiseq_partial_overlap_pair_274|D4ZHLFP1:36:C10H4ACXX:8:2203:14130:39762 1:N:0:CCAT|o:23|m/o:0.086957|MR:n=0;r1=2;r2=0|Q30:p=37;f=19|CO:0|mismatches:2
+gttctctgtgtcaagctttactcttacataaccttcctgatgcttgttcgctacacggttcgcaagatactgcagaGaatccagagtctGtcctctcttcccaatcaaaattcccatatgctctcccctcatatctacgcaaagtgcaccatcctgatcgatctcagtcttaagc
+>hiseq_partial_overlap_pair_276|D4ZHLFP1:36:C10H4ACXX:8:2203:14228:39853 1:N:0:CCAT|o:18|m/o:0.055556|MR:n=0;r1=1;r2=0|Q30:p=39;f=23|CO:0|mismatches:1
+cgtcagaaaccattaggagatgatgttgatcttcatgagatcgcaagaacaacagcaggttttgtgggagcagatcttgaGaatctgatgaatgaggcggccattcaggcagcaagagacgacagagcttatatcatgaaagaagatattgataaatcatttatcaaagtaggaatatgg
+>hiseq_partial_overlap_pair_283|D4ZHLFP1:36:C10H4ACXX:8:2203:14547:39964 1:N:0:CCAT|o:27|m/o:0.148148|MR:n=0;r1=4;r2=0|Q30:p=35;f=20|CO:0|mismatches:4
+tagcaaaagaattaggatatgtaggaaaatctttaattgacacattagtgtcaccaagagggtatagaatatCaaaTaaggtacCaagaataccttCaaatgtaatagaaaacttagtaggacattttggaaagcttaaatatattcttgaagctggtaatgaagaattag
+>hiseq_partial_overlap_pair_286|D4ZHLFP1:36:C10H4ACXX:8:2203:14938:39862 1:N:0:CCAT|o:18|m/o:0.111111|MR:n=0;r1=2;r2=0|Q30:p=39;f=18|CO:0|mismatches:2
+agaagctagtatgaaaaatgctataattaaatctagtttaaaaacttatttagttgctgaaaatgaaaagttttatactgatGgtCtttgtgaattttctaaatgggaggatattgactttataataagtgataaaaagcctaatgaagaaaatttaaaacttttaaaagaaagaaataa
+>hiseq_partial_overlap_pair_294|D4ZHLFP1:36:C10H4ACXX:8:2203:15105:39947 1:N:0:CCAT|o:22|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=23|CO:0|mismatches:0
+aacgaaataatttcaggagaaccgacgcatgtttaaacgtttaatgatggtcgctttgctggtgattgcaccgctgagtgcggcaaccgcggcagaccagacaaatccgtataagctgatggacgaggcggcgcagaaaacgttcgatcgcctgaagaatgagcaaccgcaaattc
+>hiseq_partial_overlap_pair_311|D4ZHLFP1:36:C10H4ACXX:8:2203:15945:39864 1:N:0:CCAT|o:31|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=33;f=23|CO:0|mismatches:0
+agcatcatacattggtacagttcctatcatcgctttagaatattctataagcttttctctaaattcctgtgtcttaccataattacttaaatccataatggcttctgcaccatactcaattgctaatttaactttttccatttctctgcagtaatcaactgaatctc
+>hiseq_partial_overlap_pair_313|D4ZHLFP1:36:C10H4ACXX:8:2203:15894:39942 1:N:0:CCAT|o:25|m/o:0.200000|MR:n=0;r1=5;r2=0|Q30:p=36;f=10|CO:0|mismatches:5
+aagctaatattatatgactacgtgctgcaaaaagttcatttccttcaggagatctatgagttttcatatcagttACaaagtCttcagcAcctaagGcaatccccataaaccgttttgaagaggttgctatttcataagcgtttaaaacccctaaagctgattctatagcagcc
+>hiseq_partial_overlap_pair_316|D4ZHLFP1:36:C10H4ACXX:8:2203:16248:39819 1:N:0:CCAT|o:27|m/o:0.259259|MR:n=0;r1=7;r2=0|Q30:p=35;f=4|CO:0|mismatches:7
+aaatagttttaagaccaagtgaaatagcatgtcggatcatttcttccataggagattcagaatcggaagaaaaActgGTatgTaaatGataaTctgCaagcatcataaaaaccccttttgtaaatagttaatataatccttttattatatccattatgaaaaaaaggtaaa
+>hiseq_partial_overlap_pair_322|D4ZHLFP1:36:C10H4ACXX:8:2203:16042:39981 1:N:0:CCAT|o:31|m/o:0.064516|MR:n=0;r1=2;r2=0|Q30:p=33;f=8|CO:0|mismatches:2
+tataagctttccacctctgaattcacgtacactaaacttggaatagaacccaatgagttaaaatagtccaTaagatgagcgaatAcagtttgaacagagttttgtaattcaatattaacagggaccagttcctcatcatctacagatttttctacaacaaaaggagg
+>hiseq_partial_overlap_pair_328|D4ZHLFP1:36:C10H4ACXX:8:2203:16294:39943 1:N:0:CCAT|o:28|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=34;f=16|CO:0|mismatches:0
+gttcaatatatctaaagatgaattgttctctttttgtaaggtagttcctgctggaattattgaacttgctgaaaagcaatcagaaggatatctatacatcaaaccataaaatttaacataactccctaccctttaaaaatttctaaaaactctatgctataaggcatagg
+>hiseq_partial_overlap_pair_331|D4ZHLFP1:36:C10H4ACXX:8:2203:16551:39881 1:N:0:CCAT|o:28|m/o:0.178571|MR:n=0;r1=5;r2=0|Q30:p=34;f=6|CO:0|mismatches:5
+actgtatataaaatatgaaagtacattaaatatatattttattctgtacatcaaatatcaaagtacaccaGatatatAttCtaTagtgtacaTaaaaaaacaagtaccccaacctataaattatatcctgtacataaaatataaaattacaccaaatatatattaggtac
+>hiseq_partial_overlap_pair_337|D4ZHLFP1:36:C10H4ACXX:8:2203:16849:39855 1:N:0:CCAT|o:16|m/o:0.187500|MR:n=0;r1=3;r2=0|Q30:p=40;f=0|CO:0|mismatches:3
+taaagattcaagagaagagttaattaaatattatccagttgcattatatgaaggtgaaactgcaagtgaaaaaaataaaccaaaatatTcTaaaCaattgaaaaaaaagtaagttttgatttaataagaccacctcaaccaatttttaaaaaagccaaattaattaagaaaaaaaaaaatgg
+>hiseq_partial_overlap_pair_341|D4ZHLFP1:36:C10H4ACXX:8:2203:17391:39795 1:N:0:CCAT|o:37|m/o:0.216216|MR:n=0;r1=8;r2=0|Q30:p=30;f=8|CO:0|mismatches:8
+aaattgataagaatggtaagaaaattaagatagaagaatatgaagtaaagaatataaaagaaaaaaGaTaTaTagCaGaatttgaaTaTaaagatgtttaaattcaggttaaaagaaataaggaaaaagaagaattttgaaaaaattaaaaaaaatttttt
+>hiseq_partial_overlap_pair_342|D4ZHLFP1:36:C10H4ACXX:8:2203:17453:39812 1:N:0:CCAT|o:22|m/o:0.045455|MR:n=0;r1=1;r2=0|Q30:p=37;f=22|CO:0|mismatches:1
+gaatctctaagcttcaagatggaatatattataatgtgggaaatcgaaactaagactgcatcaggcaattaaaatgtcctgagaggttTaaaaaatagaattaaaatacaaaacaatgatatcagataaattaggagaaatataattgcagttactgtgttctaagtgtctttgag
+>hiseq_partial_overlap_pair_345|D4ZHLFP1:36:C10H4ACXX:8:2203:17301:39829 1:N:0:CCAT|o:25|m/o:0.200000|MR:n=0;r1=5;r2=0|Q30:p=36;f=14|CO:0|mismatches:5
+acctaccatgtagccttccatattgataaatctttgagcagcccctgcagtgaatattcctgatggtctatcTcCTgGaatActtatagctcctcttgttctttcacgacatcccatagcaagtactatagcttctgcttctattgttaaatatcctttttcagtatttatag
+>hiseq_partial_overlap_pair_350|D4ZHLFP1:36:C10H4ACXX:8:2203:17523:39860 1:N:0:CCAT|o:28|m/o:0.214286|MR:n=0;r1=6;r2=0|Q30:p=34;f=1|CO:0|mismatches:6
+cattttaaaagaatttaaaggggacatagtattaacaccccatccaggagagatggcaagattattaggtatagaGAtTaaagatgtTGaaagagaTagattgggatttccaaggatttttccaaaaaaaaatggggttcaagttctattaaaaggctataatacaaggg
+>hiseq_partial_overlap_pair_352|D4ZHLFP1:36:C10H4ACXX:8:2203:17933:39782 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=25|CO:0|mismatches:0
+atttcattcataagtctgtcagatactactgatgaagcagatttagcaagctgtttaataagattatccattgaaactttattttcctgtatctcatattctatgctagaaatttggttgtttttaaaatcacagcagatattatctattgaatctctcaaagttttcataagagctg
+>hiseq_partial_overlap_pair_356|D4ZHLFP1:36:C10H4ACXX:8:2203:17767:39872 1:N:0:CCAT|o:15|m/o:0.266667|MR:n=0;r1=4;r2=0|Q30:p=41;f=0|CO:0|mismatches:4
+tcaattaaatcctttaagaatttttttatatcttcaaagctttctgccttttcttccattaccttttcttcttctactttactttCttCttCtCtttttttctttttttttctaaatatatataaatgcataaaaaacacccccaccaaaaccttctaatgcctttttagcttccgcgtaagg
+>hiseq_partial_overlap_pair_358|D4ZHLFP1:36:C10H4ACXX:8:2203:17953:39902 1:N:0:CCAT|o:15|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=41;f=21|CO:0|mismatches:0
+aaacttccatatttaatgaatatttgaatatcaggccagaacttattaaattcctccctattatttttaaataaatcaacaagtttatctgcaactttctttattatatgatttgagattttcgccacatctctatcattttgaaggaagcttcttgaaacatttaatggtaaatcaggacaa
+>hiseq_partial_overlap_pair_359|D4ZHLFP1:36:C10H4ACXX:8:2203:17902:39905 1:N:0:CCAT|o:30|m/o:0.166667|MR:n=0;r1=5;r2=0|Q30:p=33;f=0|CO:0|mismatches:5
+attgattaatcttatatcagttttttgtgtttacacaaaacttgaaacagtctccatgatatcggcaatttttCtttttGCtCtaattcatCtaaattttcccctaattcgttttctaaattttttttttacattcttaacccccccggcccaggtggcaccattaag
+>hiseq_partial_overlap_pair_362|D4ZHLFP1:36:C10H4ACXX:8:2203:18034:39882 1:N:0:CCAT|o:24|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=23|CO:0|mismatches:0
+aagaaatggcaaggtcattaggaataaaaactttgtatttaaaaatattaataatatctatagtatcagttttatcaggagtatctgtagcacttgctggacccatagtatttgttggattagtacctccaagtatggtgcataaatttattggttcagattataaatggatgg
+>hiseq_partial_overlap_pair_370|D4ZHLFP1:36:C10H4ACXX:8:2203:18326:39975 1:N:0:CCAT|o:17|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=40;f=17|CO:0|mismatches:0
+agtacataaccctagagaacattttagttctttcttttctaggtgtatatgatgtaaacatcacagggtaaatacgatcaaacattcccaaaccaatatttacaactatatatgcaaaagttatgattagaccatctttactatatatacaaaccaataaaccaagaactgaaaaaatagg
+>hiseq_partial_overlap_pair_373|D4ZHLFP1:36:C10H4ACXX:8:2203:18502:39776 1:N:0:CCAT|o:22|m/o:0.090909|MR:n=0;r1=2;r2=0|Q30:p=37;f=21|CO:0|mismatches:2
+gttttccagtagtatcgcatttatttgttttaagttcaccatcttcaaagtccaaatttgtgttggataaatttagacctaatGttatttCtaatagttgtccgcttttgcctttgttctttataatatctgtcatttgttcttgttttaagacttgtccaaatcttttaccagcc
+>hiseq_partial_overlap_pair_385|D4ZHLFP1:36:C10H4ACXX:8:2203:18866:39926 1:N:0:CCAT|o:39|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=28;f=11|CO:0|mismatches:0
+aaacagaatgaaaaagagtgaagatggcctatggaacttatgggacaccattaaataaattttgcattatgggagtttcagaaggaaaagagacagagaaagggacagacaggttatttaatgaaataattgctgaaaacatctcaagtcttgggagaa
+>hiseq_partial_overlap_pair_393|D4ZHLFP1:36:C10H4ACXX:8:2203:19291:39813 1:N:0:CCAT|o:59|m/o:0.050847|MR:n=0;r1=3;r2=0|Q30:p=19;f=12|CO:0|mismatches:3
+caccttattaccaggtggtgatcaggtagagattctgatcgttaatgacggatCttccgataacactgcTgcgatcgCagatgaatatgaaaaaaaatatcctgacatctgccgtgcaattccccaggaaaataaaggg
+>hiseq_partial_overlap_pair_395|D4ZHLFP1:36:C10H4ACXX:8:2203:19293:39945 1:N:0:CCAT|o:18|m/o:0.111111|MR:n=0;r1=2;r2=0|Q30:p=39;f=22|CO:0|mismatches:2
+gattttaaagtgttaaaaatatagaattaatgaacattgaagaaggtagagttgcttaattaaaaaaatatagaatcaatGaacttTaaaaaatataaaaataatgaattgaaaaatataaaattagtgaaactttaaaaaatatagaaatttatgaattttagaaagtatagaattatg
+>hiseq_partial_overlap_pair_399|D4ZHLFP1:36:C10H4ACXX:8:2203:19710:39805 1:N:0:CCAT|o:29|m/o:0.137931|MR:n=0;r1=4;r2=0|Q30:p=34;f=13|CO:0|mismatches:4
+gatttttctctagtctattagcactatgcaatattttcctcatataccgtttcatgaaatcacaaacaagccatatcatcgctAttcTaAgtgctAtgggcggatgcgtatcggcagaatatgggattagcgctaagtctggtataacaggtatgaccttgggtttatg
+>hiseq_partial_overlap_pair_407|D4ZHLFP1:36:C10H4ACXX:8:2203:19774:39908 1:N:0:CCAT|o:43|m/o:0.023256|MR:n=0;r1=1;r2=0|Q30:f=14;p=27|CO:0|mismatches:1
+ggcggtgcagattctgtatatctgttacttattttaaatgaattaagagaatcaatgaaTctcacgatcacagcagtccacatcaatcacatgattcgaagagaagctgtggatgatcagaagtttgtgcaggatctttgtggacaacttttgat
+>hiseq_partial_overlap_pair_408|D4ZHLFP1:36:C10H4ACXX:8:2203:19843:39926 1:N:0:CCAT|o:28|m/o:0.178571|MR:n=0;r1=5;r2=0|Q30:p=34;f=0|CO:0|mismatches:5
+tgccatgattttatactctctttttataaatgtattaaggctatatatattttctggtgctactgtagccGcaatcattttATcTccAttttccttttccagcccccttttttgctttcaataggatatccgaaagcccattccccctgtatttaggccttaaaaaagtc
+>hiseq_partial_overlap_pair_409|D4ZHLFP1:36:C10H4ACXX:8:2203:19795:39970 1:N:0:CCAT|o:35|m/o:0.085714|MR:n=0;r1=3;r2=0|Q30:p=31;f=19|CO:0|mismatches:3
+tatcttctgtattaaactgtaataaatcctaatccttcaagtactgagaacactaagattgcaacaatacagatTggtGCaatatacttaaccataataaggaatagtgattttctcttaaattccccagagctttcaacttcatcaacaattacttttggct
+>hiseq_partial_overlap_pair_418|D4ZHLFP1:36:C10H4ACXX:8:2203:20700:39895 1:N:0:CCAT|o:28|m/o:0.071429|MR:n=0;r1=2;r2=0|Q30:p=34;f=20|CO:0|mismatches:2
+gaagcttaaacaggcctttatggtctgtcttagctaattgtataacactgtttttaaaaatgatcatttcTcccctttggtttgtaatgtaaaCtttatttaccccccccccccccaaaaatatctttatttcattttcagttcttgataacacatgatcatgttgaagg
+>hiseq_partial_overlap_pair_420|D4ZHLFP1:36:C10H4ACXX:8:2203:20751:39762 1:N:0:CCAT|o:31|m/o:0.193548|MR:n=0;r1=6;r2=0|Q30:p=29;f=17|CO:0|mismatches:6
+ccttttagttttatgtcatcttgagtaaatcttagcttctctcctgatgcaattcttatctgctcttTaaCaatATcaatccCaGttatcatttctgttataggatgttctacctgtattcttgtattcatctccataaaatagaaattattgtccttatcaaataa
+>hiseq_partial_overlap_pair_431|D4ZHLFP1:36:C10H4ACXX:8:2203:21141:39950 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=16|CO:0|mismatches:0
+tatacagtcaataaagataagatattgaactaccatccacatgatcaagctgcatccatctcagctatacaaggactgttgaacattagaaaatttcttaatgtaatttgtgatgctaattaattgtaagaaatatatatataaataaaatcatcttaactttaaaaatcatgtg
+>hiseq_partial_overlap_pair_439|D4ZHLFP1:36:C10H4ACXX:8:2203:1327:40108 1:N:0:CCAT|o:36|m/o:0.055556|MR:n=0;r1=2;r2=0|Q30:p=30;f=21|CO:0|mismatches:2
+aacattactttttcctcctttcccaatccttaaatattataacataattacataaatataaagtgtctGctataaaaTctccttataaaaagcacacactcatctatgaaataaaatgtaattaactaaataaaatctatctcttaaataatattgcctttc
+>hiseq_partial_overlap_pair_440|D4ZHLFP1:36:C10H4ACXX:8:2203:1341:40165 1:N:0:CCAT|o:30|m/o:0.033333|MR:n=0;r1=1;r2=0|Q30:p=33;f=22|CO:0|mismatches:1
+cgattcctaaggctcctcctattatggctccataaattacaaagccatttccaaaatctctaaatattaaActtggatcttgcataactgttttccactcagttattatatagagtatttttcctcctaaaatccctgaaataacagttaagatagtagcattaaaaa
+>hiseq_partial_overlap_pair_448|D4ZHLFP1:36:C10H4ACXX:8:2203:1613:40197 1:N:0:CCAT|o:16|m/o:0.062500|MR:n=0;r1=1;r2=0|Q30:p=40;f=16|CO:0|mismatches:1
+aaatgttttagcatctatatcatttagaaaaacattaaaatcatctctgtgaggacctactgatgtcaatcccttctctcgatcacgCttaatattattttgtaatttttttaaataattatttttataattatttaaatcgacattacagctatacttaaatttaatctcttctttatcaa
+>hiseq_partial_overlap_pair_461|D4ZHLFP1:36:C10H4ACXX:8:2203:2207:40172 1:N:0:CCAT|o:36|m/o:0.083333|MR:n=0;r1=3;r2=0|Q30:p=30;f=13|CO:0|mismatches:3
+atctattctaaagcgaatgttagcatattcttctaagggttcaatatgaatatcactagtatttttttctatAcctaaaGatataagaCttattaattcttcctaaataaatttacccttagaaaacctttttcccccataacaatcttaaattaaaatttc
+>hiseq_partial_overlap_pair_480|D4ZHLFP1:36:C10H4ACXX:8:2203:2858:40238 1:N:0:CCAT|o:47|m/o:0.127660|MR:n=0;r1=6;r2=0|Q30:p=25;f=5|CO:0|mismatches:6
+cgtagtacgccatcggttgagggttaagctggcagtaatcctggccgcgacCgtgcAgcGccagccagttatGcACttcttcatcagtttgccagacggagctaaaccaggtggtttccgtggtcatcccgtcaccgctgttacggaaatc
+>hiseq_partial_overlap_pair_502|D4ZHLFP1:36:C10H4ACXX:8:2203:4069:40098 1:N:0:CCAT|o:25|m/o:0.080000|MR:n=0;r1=2;r2=0|Q30:p=36;f=22|CO:0|mismatches:2
+aattctaccatactttacttaaaactacaaaacctataattatgcacttaatgggacttgaggaaaatgtaatgcgTaacagcaCagaagaacttaaaatcctaaatgagtggatagttagaatgggtaaagtaagagggagtataggataaaatatgtttttgataagttag
+>hiseq_partial_overlap_pair_514|D4ZHLFP1:36:C10H4ACXX:8:2203:4539:40195 1:N:0:CCAT|o:35|m/o:0.114286|MR:n=0;r1=4;r2=0|Q30:p=29;f=11|CO:0|mismatches:4
+aaacagatcctcagactcatatcctctgtttgtaaatcgtctcacaacactccagatcaatcCaaCattattaagaataAtctgctCtcgtgctgcttcgtttccttctttggtaagccgtaacagttccctcgtcttatccattcagcttgtcttgatctcc
+>hiseq_partial_overlap_pair_515|D4ZHLFP1:36:C10H4ACXX:8:2203:4654:40215 1:N:0:CCAT|o:27|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=35;f=15|CO:0|mismatches:0
+agatatgacattaacaagagctaaattcaatgaattaactcatgacttagttgaaagaacaatcaacataatgaaagaagccttaaaatcaggtaatgtttcattaaatgatatagataaagtaatcttagttggtggatcaaaaagaataccagcagttcaagaagctgg
+>hiseq_partial_overlap_pair_516|D4ZHLFP1:36:C10H4ACXX:8:2203:4925:40060 1:N:0:CCAT|o:21|m/o:0.047619|MR:n=0;r1=1;r2=0|Q30:p=31;f=11|CO:0|mismatches:1
+atagacttccgtcgaacttatcgacttgtgtcccatgagactctgcagcaccttcagcggtataccggcatacaacatatgcatggcGtaactgtgcctgaacgtgtgcggtgtcaccggtactgagaatgtcacaccgtcggcggccgcggcttcgaccgcctcagcaagccaggt
+>hiseq_partial_overlap_pair_518|D4ZHLFP1:36:C10H4ACXX:8:2203:4873:40065 1:N:0:CCAT|o:19|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=21|CO:0|mismatches:0
+taattcatctagtaatgatgatagtttaaatactaaagttatagttggagaagaaacaggaggattagataatggatatagtaaatgggaacctgtttttctacaatatgattttaaaaaaattcgtccagtaaaagaaatcaaaatttatagaaatacttatgataatgcaatatcaa
+>hiseq_partial_overlap_pair_519|D4ZHLFP1:36:C10H4ACXX:8:2203:4833:40134 1:N:0:CCAT|o:30|m/o:0.200000|MR:n=0;r1=6;r2=0|Q30:p=33;f=0|CO:0|mismatches:6
+tgatttagctattccatatctttattcagcaatagcttacaatgacatggggcaatatgataaagcttatgTtGaTataaaTgaatAtttaGctaaggggggaaaaagaaaagaaatagtttgaggtttaaaaaatgagataaaaagctcaacttattttgaagaagg
+>hiseq_partial_overlap_pair_524|D4ZHLFP1:36:C10H4ACXX:8:2203:4951:40223 1:N:0:CCAT|o:33|m/o:0.090909|MR:n=0;r1=3;r2=0|Q30:p=32;f=3|CO:0|mismatches:3
+tgagcgcagatgaagtggaagaactttttgcaaatgttacggatgaaatgagaatccaggagacaggaCagtcattaaaTgagacaatcgatgCaggaaactaaaagatttattgtccggaaacaggagggggaatcaaaggaaactgggatcattttaaaaaaa
+>hiseq_partial_overlap_pair_532|D4ZHLFP1:36:C10H4ACXX:8:2203:5289:40036 1:N:0:CCAT|o:34|m/o:0.235294|MR:n=0;r1=8;r2=0|Q30:p=31;f=6|CO:0|mismatches:8
+caccaaatttaatttcatctaagaaatgtttatgatgtcttcttaaatgagcttcaatgcgggCaaTtaaaacTgCaGAttgaaaaggttttGttaGaaaaatcacccccccctccttcaaatcttttaaaaatttctttttgttcactaggagccgttaaaag
+>hiseq_partial_overlap_pair_552|D4ZHLFP1:36:C10H4ACXX:8:2203:6144:40002 1:N:0:CCAT|o:22|m/o:0.227273|MR:n=0;r1=5;r2=0|Q30:p=33;f=0|CO:0|mismatches:5
+taaattaataggaattgatttacctgatatggcaacagggataattgcattatcattaaattcatcagcatatgtatCagaaaTaaTaagAgCaggtcttaatgaagtgaaaaagggtcaaatgaaagctgcaggaattcttggtataaaaaaaaagcaggctatgtttgaagaag
+>hiseq_partial_overlap_pair_555|D4ZHLFP1:36:C10H4ACXX:8:2203:6152:40095 1:N:0:CCAT|o:33|m/o:0.121212|MR:n=0;r1=4;r2=0|Q30:p=32;f=9|CO:0|mismatches:4
+aaataatattagcttccgcttcagagagaagacaggaattattaggcagattagttgatgatttTaaaattGaagtcagCaaatttgacGaagacactgtcccatttgaaggagacatagacaaatatgttaaagctgttgctttaggtaaagccctagaggtag
+>hiseq_partial_overlap_pair_557|D4ZHLFP1:36:C10H4ACXX:8:2203:6035:40147 1:N:0:CCAT|o:41|m/o:0.073171|MR:n=0;r1=3;r2=0|Q30:p=25;f=0|CO:0|mismatches:3
+ggtgcagttattatagcattcttcgttccattcttatggttcttcggaatccatggtggtgtaactgttggtGgtatggtaGgaagtttattaacTcctaaaacagctgataattcccttttacagggagcaagaactcctgatcgtgctcataggt
+>hiseq_partial_overlap_pair_572|D4ZHLFP1:36:C10H4ACXX:8:2203:6780:40093 1:N:0:CCAT|o:91|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=3;f=2|CO:0|mismatches:0
+gtatcctacgcgaagaaccttagcagcccttgacatgggcgtcgcggctcctggagacaggagctttcagttcggctggacgccacacaggtgctgcatggttgtcg
+>hiseq_partial_overlap_pair_602|D4ZHLFP1:36:C10H4ACXX:8:2203:8308:40197 1:N:0:CCAT|o:28|m/o:0.142857|MR:n=0;r1=4;r2=0|Q30:p=33;f=15|CO:0|mismatches:4
+ctctccaatgctcacctgggggtgtaggtgctgtttcaggccgtcagatgctcgcctgtgggtgtcggtgctgatccaggctgTcAcgtGttcAcctgggggtgtgggtgctgctccaggctgtcgaatgctcgcctggggttgtgggtgctgctccacgctctccaatt
+>hiseq_partial_overlap_pair_610|D4ZHLFP1:36:C10H4ACXX:8:2203:8979:40132 1:N:0:CCAT|o:32|m/o:0.093750|MR:n=0;r1=3;r2=0|Q30:p=32;f=12|CO:0|mismatches:3
+gaagatgaatttatttgttttgtcaatcatttaatgtcaaaagaacttgcaaatttaagaaaagaaGaaAtgcttcGtttatttagacaaaagaaactttctgatctttctaaaaatattgaattagaaataggcttctttgaaacaagtcaggaaattccttatg
+>hiseq_partial_overlap_pair_622|D4ZHLFP1:36:C10H4ACXX:8:2203:9461:40191 1:N:0:CCAT|o:30|m/o:0.100000|MR:n=0;r1=3;r2=0|Q30:p=33;f=11|CO:0|mismatches:3
+ctttattcattaatttttactccttagataaacgataatttttatggatcgtaaatattaagatatattAccataccaaTaaCattctgattataccatttttttttaatagtatctatcagggaaatattttcaaattccaattttaaaatttaaataaaaaaaaaa
+>hiseq_partial_overlap_pair_626|D4ZHLFP1:36:C10H4ACXX:8:2203:9716:40138 1:N:0:CCAT|o:28|m/o:0.035714|MR:n=0;r1=1;r2=0|Q30:p=34;f=14|CO:0|mismatches:1
+taagccaaggtccttttccttcctattttcataagttgtcctccttaaagtatcaccaaaatttctattttaacttaaatagTggggctgtatctttatattttgatacagcccctactaaagattttaattattttacaagttcattttttattgactctaataaaagg
+>hiseq_partial_overlap_pair_636|D4ZHLFP1:36:C10H4ACXX:8:2203:10208:40198 1:N:0:CCAT|o:32|m/o:0.187500|MR:n=0;r1=6;r2=0|Q30:p=32;f=5|CO:0|mismatches:6
+attatcagacatactaatattatagttgttaccatacctattaaaataggattgtatcccatcaaaaacaatGgtATtaaTaatttccaCaTagcaaatattttaaaaaaaaaagacaaaatagcttttaaaccaactaaacctgaaaatcctacaagaaataacc
+>hiseq_partial_overlap_pair_639|D4ZHLFP1:36:C10H4ACXX:8:2203:10353:40216 1:N:0:CCAT|o:36|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=13|CO:0|mismatches:0
+ttgatgatatagtagctgcatatgatggtcctatatagttaacagaaagtaaatatccagtcatacccataggcccaccaaatatagatgctaaaataacatatttttttcttggggtttttaatggcttaaaaagttttccaacttgtcttggaaaaattc
+>hiseq_partial_overlap_pair_642|D4ZHLFP1:36:C10H4ACXX:8:2203:10608:40084 1:N:0:CCAT|o:26|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=35;f=20|CO:0|mismatches:0
+cattattctttatatacaaactatctacaactcttggaaaatcttcacattgctgaatttcatccaaaaatatatagttcatttgatctggcagtaatcgttctttgatatatgcataaagttttttaggatctctcaaatcgtaaaaatcataatcctcaagatttattgc
+>hiseq_partial_overlap_pair_647|D4ZHLFP1:36:C10H4ACXX:8:2203:10710:40248 1:N:0:CCAT|o:25|m/o:0.080000|MR:n=0;r1=2;r2=0|Q30:p=34;f=9|CO:0|mismatches:2
+gtgacaacaggagaaacgatcggagggtcggggaaggattcttatacagatattttttccaaagtgcttgcaGatatcggaaagaaggaCaagaaggttgtagctattactgcagggatggccgacggaaccgggctttccagattcgcaaagctatttccggaaagattctt
+>hiseq_partial_overlap_pair_656|D4ZHLFP1:36:C10H4ACXX:8:2203:11174:40232 1:N:0:CCAT|o:26|m/o:0.038462|MR:n=0;r1=1;r2=0|Q30:p=35;f=17|CO:0|mismatches:1
+gttaataaaaaaataatttgtaaagtttaaacttattagtgtgactgagttgtgacagactaatgacagagTtgaaaccagagcttttttagtcatatcaatgggtgtgctagaattgacggacttttttttctctttatatatagggaattaaaaaaatagtataaaaaaa
+>hiseq_partial_overlap_pair_680|D4ZHLFP1:36:C10H4ACXX:8:2203:12273:40032 1:N:0:CCAT|o:31|m/o:0.161290|MR:n=0;r1=5;r2=0|Q30:p=33;f=8|CO:0|mismatches:5
+gtaaatttgagagctaatatgaacaacagccgggccctgctaaccatcctctactgggccaaggacTcccTgacAgTggggtgctggagGccgctgcccctggcataggctgttaccatgtgcacatctctgcccaacttctcgtccagttctgtcatatcgggagc
+>hiseq_partial_overlap_pair_684|D4ZHLFP1:36:C10H4ACXX:8:2203:12323:40246 1:N:0:CCAT|o:35|m/o:0.028571|MR:n=0;r1=1;r2=0|Q30:f=20;f=13|CO:0|mismatches:1
+agtattgcggttctgccgcatctgcagacaaattgccgacaacaggacaacgtgttggcgatGtttataacatcgaaactgctagtacatacggcggtgctggtatgaatgtagcatggaatggcagtgcattggatccattaggcgaaatttttagtatgga
+>hiseq_partial_overlap_pair_685|D4ZHLFP1:36:C10H4ACXX:8:2203:12504:40027 1:N:0:CCAT|o:28|m/o:0.285714|MR:n=0;r1=8;r2=0|Q30:p=34;f=9|CO:0|mismatches:8
+gataaacctaaaaatgacaaagaggttggtgaaatagtaaataatattacaaataactataatattgagttgAcTcCaacaCaagagCaaGaAttaGttgtttttttagcaaataaaatttctttaggattagattattcaaaattaaaaggaaaccttgatagcctttc
+>hiseq_partial_overlap_pair_706|D4ZHLFP1:36:C10H4ACXX:8:2203:13667:40169 1:N:0:CCAT|o:26|m/o:0.230769|MR:n=0;r1=6;r2=0|Q30:p=35;f=9|CO:0|mismatches:6
+tgccattcccccggctccacatgtttcctgtccaatgcatccatgttttaatgaaatctgttcatcttttacTcGcattttcAgTccAccgActcgcctttgtgccataataaagtctgcatctgtaaattccttttcttcatccgttctaattttcaattccaaagaaggg
+>hiseq_partial_overlap_pair_723|D4ZHLFP1:36:C10H4ACXX:8:2203:14666:40117 1:N:0:CCAT|o:20|m/o:0.100000|MR:n=0;r1=2;r2=0|Q30:f=23;f=14|CO:0|mismatches:2
+tttttaccaccaccgctatagcctgttatggatgtgatagtgaaaggataatctgttggtacaagaccagcttttacaagaggtgCaatacaAgcaatcttcccactcgaatgacaaccagggttagcaatatgtttttcagtagcgatggcggttttataatccgcaccgagttctg
+>hiseq_partial_overlap_pair_730|D4ZHLFP1:36:C10H4ACXX:8:2203:14889:40247 1:N:0:CCAT|o:35|m/o:0.171429|MR:n=0;r1=6;r2=0|Q30:p=31;f=5|CO:0|mismatches:6
+ctcttccattaccggagacgaagcgccttgtaacaacaggaggacattttgcatatctgaagatcgCagaaggAtgTGaCaaacattgtacgtActgcatcattccgaaaatccgtggaaactttagaagtgttccgatggaacgccttctgaaaggagcacc
+>hiseq_partial_overlap_pair_742|D4ZHLFP1:36:C10H4ACXX:8:2203:15611:40140 1:N:0:CCAT|o:29|m/o:0.275862|MR:n=0;r1=8;r2=0|Q30:p=34;f=5|CO:0|mismatches:8
+ctatagtagtatatttcttatcaaagattatatttaaagttcatgatttttctactattgcctttaaaaaccttcAccttAgCGTaagAggtGCcttttgtttttgttttggtatttgttgctgttgcggaaaaagtagcctctgagataattctaggctcattcttag
+>hiseq_partial_overlap_pair_756|D4ZHLFP1:36:C10H4ACXX:8:2203:16340:40073 1:N:0:CCAT|o:23|m/o:0.173913|MR:n=0;r1=4;r2=0|Q30:p=36;f=0|CO:0|mismatches:4
+actattgttaaaatggcaagagcggagtatttatttgttaatacaaaattaaagacttatgaagttgcacataaaTtagggttccgaGaTaTaaactatttttcaaaaataattaaaaaggaataatgcaaaaaaccaacccaagtataaaggttttttatttaaaaaatataag
+>hiseq_partial_overlap_pair_760|D4ZHLFP1:36:C10H4ACXX:8:2203:16711:40056 1:N:0:CCAT|o:18|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=39;f=2|CO:0|mismatches:0
+tgccgtcgccttcgctataggcaatgcaaaagtccgtgaaaaactagttttaaaatgtctgccaaatccaaacttatggtatcctaatctgatcgatccatccgtgatcacatcacaaagagtgcatctaggacaaggaaatatcatttgtacatccgttattatgacaacgaatatagg
+>hiseq_partial_overlap_pair_765|D4ZHLFP1:36:C10H4ACXX:8:2203:16707:40153 1:N:0:CCAT|o:25|m/o:0.080000|MR:n=0;r1=2;r2=0|Q30:p=34;f=6|CO:0|mismatches:2
+caactacaatgtgcatcggtaatctgcgcagtggaacagagaacctgcaccactatttccattcaaaagaacGacAttttctagatacaagtcttctgtattacggaatcattgcctgtttttttgccggcgcagtgatcggtaatgcagcggcccagctgtcccagacaaag
+>hiseq_partial_overlap_pair_770|D4ZHLFP1:36:C10H4ACXX:8:2203:16978:40037 1:N:0:CCAT|o:35|m/o:0.142857|MR:n=0;r1=5;r2=0|Q30:p=31;f=0|CO:0|mismatches:5
+caccgaatgcagctatctgctccaaaagattcaaaatggaattgatattctagaagcatcttCttctcttccttccGaagacCttgCaatctCtattaaacattttcctaagataggtttaatgtaggaccgttctgagatgaaaggatatgattactctggg
+>hiseq_partial_overlap_pair_775|D4ZHLFP1:36:C10H4ACXX:8:2203:16813:40159 1:N:0:CCAT|o:30|m/o:0.166667|MR:n=0;r1=5;r2=0|Q30:p=33;f=4|CO:0|mismatches:5
+tttttcttttttaaaactttagaatttttctctatatattttaaggtttcatcattaagtcccgaaaaGaaacttatAtCttttaatttatcActActtaattctttcataatccccccttccccaaaaaaaacttattattcaaacccaaaaaaaactaatttaacc
+>hiseq_partial_overlap_pair_785|D4ZHLFP1:36:C10H4ACXX:8:2203:17233:40188 1:N:0:CCAT|o:25|m/o:0.280000|MR:n=0;r1=7;r2=0|Q30:p=36;f=4|CO:0|mismatches:7
+cttgtgttttttctaagtttgtggttattaatactaaaaaaaattaaataaccaaattattgtggttatttaCaaattcAcAtagttCTaaTaaTcttattgaaataaaatagcccaaactatatttaatttttttcagccccaaccgttccaaaaaaaaaaaaaaccgggaa
+>hiseq_partial_overlap_pair_790|D4ZHLFP1:36:C10H4ACXX:8:2203:17440:40240 1:N:0:CCAT|o:21|m/o:0.190476|MR:n=0;r1=4;r2=0|Q30:p=38;f=14|CO:0|mismatches:4
+cagttgtttctagtttggtaacacctattcccgattcgggactggaaggaatctggtatgccttgttgtaagcacctaatACgAggcgataGttaatcgttggcttttcatctgctgtccgctcgcagtataaaggccagatgcctttctgggacataatgttttttattttatacg
+>hiseq_partial_overlap_pair_795|D4ZHLFP1:36:C10H4ACXX:8:2203:17529:40167 1:N:0:CCAT|o:34|m/o:0.058824|MR:n=0;r1=2;r2=0|Q30:p=31;f=18|CO:0|mismatches:2
+agttctttttattccagtacatcccttagcaattcttgttatttcagccttagttatagtttgaCttttttcttcataatattttttcacataTccaaatgctgttttttctgcaattgttccaattgtaccagccttaaatgttgttccctttccaaatataa
+>hiseq_partial_overlap_pair_802|D4ZHLFP1:36:C10H4ACXX:8:2203:18142:40060 1:N:0:CCAT|o:19|m/o:0.052632|MR:n=0;r1=1;r2=0|Q30:p=39;f=24|CO:0|mismatches:1
+atatgtcatgtctattaaaaaagcaaacaactgtttttcaaactagcaagagccaaatctctttcatttttcatttattCaataatcactggatgctcactataaaagtaaaatttttaaaaatgaatggaaaacccagtccctgttgagaagacacggactatacccaggaaataata
+>hiseq_partial_overlap_pair_819|D4ZHLFP1:36:C10H4ACXX:8:2203:18697:40149 1:N:0:CCAT|o:22|m/o:0.181818|MR:n=0;r1=4;r2=0|Q30:p=37;f=0|CO:0|mismatches:4
+agtgaaggatctccaccttttttatctaattctttctttaaaatttctctcgcttttttaacttcttcttcatttaaGattGtaacttCttGttgagtaacaaccccgtcctttaaaaaatcccctccccccattccaattttaaatcttatttcctttggtggctcaaaaaaagg
+>hiseq_partial_overlap_pair_837|D4ZHLFP1:36:C10H4ACXX:8:2203:19483:40179 1:N:0:CCAT|o:31|m/o:0.225806|MR:n=0;r1=7;r2=0|Q30:p=33;f=5|CO:0|mismatches:7
+cctgaataataatattgcggtaatgcggaagtactgttccaagatctgtcatgataaaaacagatccTtgTccGccatCattGtAtttaaagtcctGctttttttaaaaattgtttcccgggtctccgaacaaaaaacccccggtctgcatccctgcctttatcccc
+>hiseq_partial_overlap_pair_843|D4ZHLFP1:36:C10H4ACXX:8:2203:19712:40235 1:N:0:CCAT|o:36|m/o:0.111111|MR:n=0;r1=4;r2=0|Q30:p=30;f=16|CO:0|mismatches:4
+agatggatggaaatgggtccatttattcctatattcagaaatcactccaatatgtacactaGaagaCaagaaccaTgggcttttggaccaagagctGaaaaaatagcaaagaaatctattgaattaagatatgagttacttccatatatttatgatttatac
+>hiseq_partial_overlap_pair_848|D4ZHLFP1:36:C10H4ACXX:8:2203:20148:40195 1:N:0:CCAT|o:21|m/o:0.047619|MR:n=0;r1=1;r2=0|Q30:p=36;f=12|CO:0|mismatches:1
+attcctttgcttaattttatataattaagacttgattgactgttactttttatttcttcttctgttagttttcttaTaacttttgcaggattcccaagaattaaatccccatcttaaaattccttattttgagttactagcgcaccagctcccactatactattctttcctattttc
+>hiseq_partial_overlap_pair_882|D4ZHLFP1:36:C10H4ACXX:8:2203:2195:40455 1:N:0:CCAT|o:32|m/o:0.218750|MR:n=0;r1=7;r2=0|Q30:p=29;f=0|CO:0|mismatches:7
+tgaagcccatcttgttgctaaattattgtcattaagatttttaatagataattcatcattttcatAtccagAGcaaGttAtAttttttcctaaTgctaaatttttttttttctcttggaattcccccatatcccccatctccttaaaaggctgaacctaagcctct
+>hiseq_partial_overlap_pair_893|D4ZHLFP1:36:C10H4ACXX:8:2203:2619:40469 1:N:0:CCAT|o:27|m/o:0.037037|MR:n=0;r1=1;r2=0|Q30:p=33;f=17|CO:0|mismatches:1
+aaattaacactagattttagggggaaaagggaaatgagaaaaagaggcattatgagtaaacgtttgctagcaattttgtgcatggcatcagtaaCaacatcattaattagttttagaggattagaagttaaggcttcaccaaatgtgccatatgatcaaaaagaatcatta
+>hiseq_partial_overlap_pair_899|D4ZHLFP1:36:C10H4ACXX:8:2203:2913:40476 1:N:0:CCAT|o:96|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=0;p=2|CO:0|mismatches:0
+gtatcctaaccgaagaacctcacctgcttttgacatccttggaacccttcagagatgaaggggtgcttttagaaccaagtgacaggtgatgcatggttgtcg
+>hiseq_partial_overlap_pair_912|D4ZHLFP1:36:C10H4ACXX:8:2203:3532:40339 1:N:0:CCAT|o:32|m/o:0.031250|MR:n=0;r1=1;r2=0|Q30:p=32;f=16|CO:0|mismatches:1
+ctttccctgaagtataatttctttcatttctacaggtttattttcttctatataaggtaataattttttcaataccttatActttgaaaatccatctataagcttatagcaattatcatttatctctgttatttcattatttttatttaaggcgataataccttcg
+>hiseq_partial_overlap_pair_918|D4ZHLFP1:36:C10H4ACXX:8:2203:3946:40305 1:N:0:CCAT|o:38|m/o:0.263158|MR:n=0;r1=10;r2=0|Q30:p=29;f=10|CO:0|mismatches:10
+tctaattgtatatgtcaagaacacagtaaagaaaatgataagaaaacccataacaagaaGAttttTggcaCAttTacactGaaaaatGtTaataAgtaaatttttttaaaatcccaatatgtaaataaaaaaaagataaaaaaaaaaaaagaaccaaggg
+>hiseq_partial_overlap_pair_924|D4ZHLFP1:36:C10H4ACXX:8:2203:4453:40311 1:N:0:CCAT|o:15|m/o:0.200000|MR:n=0;r1=3;r2=0|Q30:p=41;f=0|CO:0|mismatches:3
+aacaaagtcatctattgacattgtaaatgctattaagaatcctgcagctataccaggtattatttgaggaattactacctttCttaaagCgtaagAtggttttggccccaaatctaaggccgcatcaattagatttggaggtaaatgtcttaagttaagtaaaaccaaaaataaaacaaaagg
+>hiseq_partial_overlap_pair_929|D4ZHLFP1:36:C10H4ACXX:8:2203:4744:40486 1:N:0:CCAT|o:33|m/o:0.030303|MR:n=0;r1=1;r2=0|Q30:p=32;f=21|CO:0|mismatches:1
+cagccttcatccctcccaaactaatgtgtcttttttctcatgagaagttttctatgtttacaaatgaagaagtttctaagtgaggattaagtCataattatttttgctaatcaaaattgaacattcttttcaggcaaatgtttttgttgttgttttctttttttg
+>hiseq_partial_overlap_pair_930|D4ZHLFP1:36:C10H4ACXX:8:2203:4759:40291 1:N:0:CCAT|o:15|m/o:0.133333|MR:n=0;r1=2;r2=0|Q30:p=41;f=8|CO:0|mismatches:2
+agaaacagcaaatctgtattctggtctgagtctttccaacaaattcttctgatatgattacttaaccacatggagcctcaactaccCaatTatagtccaaactccctcacagaactgctaactaaaaaaaaacaaaacaaagataaaagaaagagacagacacagagacataaataacagtgg
+>hiseq_partial_overlap_pair_948|D4ZHLFP1:36:C10H4ACXX:8:2203:5666:40361 1:N:0:CCAT|o:26|m/o:0.115385|MR:n=0;r1=3;r2=0|Q30:p=35;f=2|CO:0|mismatches:3
+ttgcttagcttctacatagtcataagctttatttatacataaagcaacgtttgaaggtaaagtccaaggagTtgttGtccaagctaagaagtActtaattttttcttctttaactttaaactttggtacaggaattaaatccctaaactcctttttaccctttgaaacctcc
+>hiseq_partial_overlap_pair_952|D4ZHLFP1:36:C10H4ACXX:8:2203:5507:40462 1:N:0:CCAT|o:29|m/o:0.068966|MR:n=0;r1=2;r2=0|Q30:p=34;f=12|CO:0|mismatches:2
+atataatggttcatgcagaaggtggtaccggcttactttattcttttataataaaaagggatggcagaCttatTgaagaatccaagtacagtacatcaacctggtttgtttttcctcccgatagggttggtgaatatgaagttgaaataaaagttaaggataaatattc
+>hiseq_partial_overlap_pair_965|D4ZHLFP1:36:C10H4ACXX:8:2203:6586:40398 1:N:0:CCAT|o:19|m/o:0.052632|MR:n=0;r1=1;r2=0|Q30:p=32;f=14|CO:0|mismatches:1
+ctgagaaaaaaaggaattgtcgtcacagcagtctgcccgggtccggttgatacagagtttttcaagttttccgggaaacCgcagaatatcttgaagaaactgaaaatggcgaaggcagacagagtggttcatcaggcgttgaaggactgcagatccgggaagtcagtctccgtttatgg
+>hiseq_partial_overlap_pair_967|D4ZHLFP1:36:C10H4ACXX:8:2203:6750:40260 1:N:0:CCAT|o:44|m/o:0.068182|MR:n=0;r1=3;r2=0|Q30:p=26;f=0|CO:0|mismatches:3
+tgttggaaatctggatatggagcggctattacacctcttctggattcagaaggaaaagtcaTagttaCaaaGtaaaatcggaatttataggaggtgaaacggcatgaaaagtccattatggggggatgaaaatattagaggattcctaatgagg
+>hiseq_partial_overlap_pair_970|D4ZHLFP1:36:C10H4ACXX:8:2203:6844:40355 1:N:0:CCAT|o:23|m/o:0.217391|MR:n=0;r1=5;r2=0|Q30:p=37;f=13|CO:0|mismatches:5
+aacatgttcaacaaaatcatcttcttttgttgtcatagcttgaataccctttccacctcttctttgagccgaataaGtAtCtgctgaaattCtCtttatatacccagagttagttaacgttattacaacatcttcttcctggataaggtcctaaatatcaatttcattaacaacc
+>hiseq_partial_overlap_pair_981|D4ZHLFP1:36:C10H4ACXX:8:2203:7297:40456 1:N:0:CCAT|o:24|m/o:0.083333|MR:n=0;r1=2;r2=0|Q30:p=36;f=23|CO:0|mismatches:2
+acatccagagtgctgaaatccgggtaagcccccacaatttcctgaatgataaaataaatagccagctccatgaggcgTggcaggcCtttttttgacttgccgtcttggctttcttttttcgccattgatatccccttctctttcataataaatggtggttagcaatcactaacc
+>hiseq_partial_overlap_pair_988|D4ZHLFP1:36:C10H4ACXX:8:2203:7935:40317 1:N:0:CCAT|o:23|m/o:0.086957|MR:n=0;r1=2;r2=0|Q30:p=37;f=15|CO:0|mismatches:2
+tatttataatctattttttaacaataaattctattaattgttaaattattaattaaaacatagattttcttctaggtAtttccagtaatCttttgaataatttttttctgtaaagtttggtagagctttgttgttcgcattgttcttgatattttttctataatttgaataataa
+>hiseq_partial_overlap_pair_995|D4ZHLFP1:36:C10H4ACXX:8:2203:8176:40342 1:N:0:CCAT|o:23|m/o:0.086957|MR:n=0;r1=2;r2=0|Q30:p=37;f=24|CO:0|mismatches:2
+tcctttggttcaggagataaaatttgttaccatggagtttctgatatgttcagaaatcctaagtatgcagcttattcaTatgCtagccaaaagaaagtagaagatggtgtggttttagagccttttactttaggagctaagggagaaagggatggaggagcaatacttccaatgg
+>hiseq_partial_overlap_pair_1012|D4ZHLFP1:36:C10H4ACXX:8:2203:8658:40452 1:N:0:CCAT|o:32|m/o:0.093750|MR:n=0;r1=3;r2=0|Q30:p=32;f=14|CO:0|mismatches:3
+aaattaaacactatggttttaaaaatagaagattcaaatgaaatactttgtacaagcagtgaatgTggtgTagagaaaaTaaaaggtaaaaacataataattgctaatggtggaaaagaaaaaagtagaaatgcagttcaaattccaggagatcgtacagcaggag
+>hiseq_partial_overlap_pair_1015|D4ZHLFP1:36:C10H4ACXX:8:2203:8665:40487 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=14;f=14|CO:0|mismatches:0
+aaaagggaaaaggaagccatagaaaagggagataaaataaccatatatggagactatgattgcgacggtgtatcaagtacttcaattctttataaagggctaaaaagatgcaatgctaactttaattatcatatcccagatagggaagatgaagggtatggtatgaactctaagaga
+>hiseq_partial_overlap_pair_1025|D4ZHLFP1:36:C10H4ACXX:8:2203:9220:40345 1:N:0:CCAT|o:29|m/o:0.137931|MR:n=0;r1=4;r2=0|Q30:p=34;f=1|CO:0|mismatches:4
+tgtgttttgcaatggtagcagcgttaattgcatttgcacctgcaagctttggacctagttcaataacatAtgtAttCtcttActggattatgattggactttttgtaagttgtattcaagtttatagaaacagcgataatgaaatcagaaaaacttcagaaatgaaagg
+>hiseq_partial_overlap_pair_1038|D4ZHLFP1:36:C10H4ACXX:8:2203:9568:40270 1:N:0:CCAT|o:34|m/o:0.029412|MR:n=0;r1=1;r2=0|Q30:p=31;f=11|CO:0|mismatches:1
+atagggttttaaaaacatataatatacattaataaattataagattttagtagagttaaaaaaaatctatgatatgtCaaaaaaatctataatttattttttgaaaacctatacaaaaaatgatataattagttcataatagaaatataagaaaaataataaga
+>hiseq_partial_overlap_pair_1040|D4ZHLFP1:36:C10H4ACXX:8:2203:9612:40293 1:N:0:CCAT|o:22|m/o:0.045455|MR:n=0;r1=1;r2=0|Q30:p=33;f=18|CO:0|mismatches:1
+atcaagtaaatcagcaggcaacactctttccagccgcatatttaaatgaaaggcataagcatgtaaataaagaggaagagtgtcgacAcgttgtagaatttttcttgcgttatttattgtcaccataaaacacctacagattaatgatgaggtctacggcctcaaatcgccaatat
+>hiseq_partial_overlap_pair_1047|D4ZHLFP1:36:C10H4ACXX:8:2203:9846:40321 1:N:0:CCAT|o:26|m/o:0.153846|MR:n=0;r1=4;r2=0|Q30:p=35;f=2|CO:0|mismatches:4
+taaaggaaaagaaaatgtattaaaagatataaatatagatataaaattaggtgacaagattgctgtaattggaGaaagtGgaactggaaagagtACtttttgaaaatttctttagaaattctgggattttacaaaagggtaaaataagcctggaaaaaaaaaagtaaaagaa
+>hiseq_partial_overlap_pair_1048|D4ZHLFP1:36:C10H4ACXX:8:2203:9936:40336 1:N:0:CCAT|o:96|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=0;p=2|CO:0|mismatches:0
+gctacatacgcgaggaaccttacctgcttttgacatccttggaacccttcagagatgaaggggtgcttttagaaccaagtgacaggtgatgcatggctgtcg
+>hiseq_partial_overlap_pair_1063|D4ZHLFP1:36:C10H4ACXX:8:2203:10331:40443 1:N:0:CCAT|o:44|m/o:0.181818|MR:n=0;r1=8;r2=0|Q30:p=26;f=9|CO:0|mismatches:8
+attctataccatattgactattaataactttatatcagtagctgattaaaggttcAtAcctgactTgAccCttttattAggcCataagctCtttatagacatgatgatttttcagctagctctcagaatggatggagttctgattttcatattc
+>hiseq_partial_overlap_pair_1076|D4ZHLFP1:36:C10H4ACXX:8:2203:10902:40318 1:N:0:CCAT|o:21|m/o:0.095238|MR:n=0;r1=2;r2=0|Q30:p=38;f=19|CO:0|mismatches:2
+taatatatattcttataaatggatttatgagaaatatagaatttgtatggaagcagtatcactatgttttaacagaCaatagatacctatGgataattccaattgttttagttatccattttatagtaaagtttataagaaaatatgatggattagatactgtaataaaaggaataa
+>hiseq_partial_overlap_pair_1083|D4ZHLFP1:36:C10H4ACXX:8:2203:11061:40452 1:N:0:CCAT|o:32|m/o:0.156250|MR:n=0;r1=5;r2=0|Q30:p=32;f=4|CO:0|mismatches:5
+gcaaaagttttttgattcagacaaagtataatcattttttgttcatattttttgtgtcctaagaaatAtttGcctAcccaaGgttaaaaaGattttcccccccgttttcccttaaaaattgttatggtttttttctttaaaaaaaaacctgtaatcatttaaaatc
+>hiseq_partial_overlap_pair_1092|D4ZHLFP1:36:C10H4ACXX:8:2203:12160:40324 1:N:0:CCAT|o:33|m/o:0.030303|MR:n=0;r1=1;r2=0|Q30:p=32;f=16|CO:0|mismatches:1
+catttattataaaaatctttctgtattttttgcgacgttcataatttattttgtcgtatgtcttggacttgtaCtttcttttgaaggagaaatccggcaatttggggcagcttttttggaaatccccgttttctttctatggttttcttactttacttgctatgg
+>hiseq_partial_overlap_pair_1096|D4ZHLFP1:36:C10H4ACXX:8:2203:12178:40488 1:N:0:CCAT|o:27|m/o:0.259259|MR:n=0;r1=7;r2=0|Q30:p=35;f=16|CO:0|mismatches:7
+gaaaaggtgagggatgaaatgattaagatgagtcgagatgagagtgaaagatatttatatctgagagaacaaaTgGCaatCaggGaTaagGaaagccagtggcgaagcgcgaaaaatcgtgggagacgagaaggaagagaagaaggaagaaaagaaggaagaaaacaggga
+>hiseq_partial_overlap_pair_1098|D4ZHLFP1:36:C10H4ACXX:8:2203:12477:40375 1:N:0:CCAT|o:39|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=29;f=17|CO:0|mismatches:0
+atataaaaaatataagtgataagttaaataacatactaggtagaattccaagtaaggaaagtaaaagccttaaagaaaaggaaaaaccaaaaagaaaagatactcctacattaaatctttatggtataaatttaatagaaaaggcagataaaaataaaa
+>hiseq_partial_overlap_pair_1118|D4ZHLFP1:36:C10H4ACXX:8:2203:13361:40323 1:N:0:CCAT|o:36|m/o:0.083333|MR:n=0;r1=3;r2=0|Q30:p=30;f=16|CO:0|mismatches:3
+gttcttagatatgacaattcatgattttgatatggctgcattcttaagtggaagtagaatttCagaagtatatgtaCaAggtgcatgtatggtaaatcctgaaataggagaagctggagatgttgatacagcaattatatctttaaaatttgaaaacggatg
+>hiseq_partial_overlap_pair_1119|D4ZHLFP1:36:C10H4ACXX:8:2203:13409:40335 1:N:0:CCAT|o:37|m/o:0.189189|MR:n=0;r1=7;r2=0|Q30:p=25;f=8|CO:0|mismatches:7
+taaatacagcatcaaacttttcctctttcattaattcatcaatagttattgttcttccgataACtacAtttGtttcaatcttaActcCaagCtttttaatattttaattttcagcttaaactacattttcttttggtaatctaaattcaggaatcccataa
+>hiseq_partial_overlap_pair_1124|D4ZHLFP1:36:C10H4ACXX:8:2203:13592:40398 1:N:0:CCAT|o:20|m/o:0.100000|MR:n=0;r1=2;r2=0|Q30:p=38;f=11|CO:0|mismatches:2
+ttctaaagatatgataagcaaaatggaagatagggggatatcagaggagacaatcttaactatcaaacattgtggaaTagatgTggaaaaatggcttcattgatttggatgtgtagaggaatctgtaaaagaaagtgtaacatcattaaaaaatcatccattaatgcctagtgatgtt
+>hiseq_partial_overlap_pair_1137|D4ZHLFP1:36:C10H4ACXX:8:2203:14490:40305 1:N:0:CCAT|o:16|m/o:0.250000|MR:n=0;r1=4;r2=0|Q30:p=40;f=9|CO:0|mismatches:4
+gaagaattgaaattagagaaaataaagtgtacagatgaaaatgattgctgttttaaaactaaagaaaattatatatgtgaattAgtTgggGCtttaactgaagatgataaattttattaataaaaagatttaagaagtgattataatagatttaaagatgaaatgctatatccttttggaaa
+>hiseq_partial_overlap_pair_1139|D4ZHLFP1:36:C10H4ACXX:8:2203:14339:40354 1:N:0:CCAT|o:22|m/o:0.227273|MR:n=0;r1=5;r2=0|Q30:p=37;f=6|CO:0|mismatches:5
+ctcaaaatattatcaatattgaacccattttagaaaaactttgtaacataagctataaaatgtaagtaaatatattGtCtttaccaTgAccaGattcaaattcaaaaataggaattttaaaacccctaacgaataaaaaaaatcccggcaaaaaaaaaaaaggaacaaaaggaagg
+>hiseq_partial_overlap_pair_1144|D4ZHLFP1:36:C10H4ACXX:8:2203:14525:40336 1:N:0:CCAT|o:92|m/o:0.076087|MR:n=0;r1=7;r2=0|Q30:p=2;f=0|CO:0|mismatches:7
+tagcaaatTggagTcaacgccgggcatcTcacCAggggcgacagcatgatgaaggtcAggttgacgAccttacctgaagcgctgagaggtggtgcatggccgtcgt
+>hiseq_partial_overlap_pair_1148|D4ZHLFP1:36:C10H4ACXX:8:2203:14645:40434 1:N:0:CCAT|o:17|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=40;f=26|CO:0|mismatches:0
+aactttagctgttaggtttaatccagtttgagtggatttttgcatgtggtaaaagacaaaaagttgagattcattttctatacatttatctggttgtccttgtgccatctgttaaaaagactttcttttcccccattgaattgctttgacagctttgttgaaaatcagttcactgtatatg
+>hiseq_partial_overlap_pair_1151|D4ZHLFP1:36:C10H4ACXX:8:2203:14924:40275 1:N:0:CCAT|o:24|m/o:0.250000|MR:n=0;r1=6;r2=0|Q30:p=32;f=0|CO:0|mismatches:6
+cgagtcgtgggggcggtggtccaatgctcagttgggcagcgacgtgaagattgaatataaagagccgctgccggaGaaAtttgatCTggtgaTcAccgcaaaagcttgtgcccaaaacgcaaaaaagccaatccgggtgcgatttggaaaaagtgagcaagtgctcactagggg
+>hiseq_partial_overlap_pair_1153|D4ZHLFP1:36:C10H4ACXX:8:2203:14897:40385 1:N:0:CCAT|o:16|m/o:0.250000|MR:n=0;r1=4;r2=0|Q30:p=40;f=7|CO:0|mismatches:4
+aacgactccaccattatcaatggcagaggatacctttaatgtataaactgttgaactcagcttatgatatttcggtgcaacaagCtCtttCaGataattggttgccccattcggacaataacggattggacccctgactgctcccccgccagtacctgtcggtcctacttttgtcagaagcc
+>hiseq_partial_overlap_pair_1155|D4ZHLFP1:36:C10H4ACXX:8:2203:14940:40477 1:N:0:CCAT|o:19|m/o:0.052632|MR:n=0;r1=1;r2=0|Q30:p=37;f=26|CO:0|mismatches:1
+aggtggaaagaaagctttaatagttacagataaattcttaagaggattaaaaggtggagcagttgaattaactgaaaaataccTaaaagaagcaggaatcgaagttgcttattatgatggagttgaacgaaacccaaaagatacaaacgttaaagatggtttaaaaatattccaagacg
+>hiseq_partial_overlap_pair_1158|D4ZHLFP1:36:C10H4ACXX:8:2203:15056:40367 1:N:0:CCAT|o:15|m/o:0.133333|MR:n=0;r1=2;r2=0|Q30:p=41;f=18|CO:0|mismatches:2
+tatagcaccttcaagtgtaactgatcttattgcaattataatcattattactataagcattggtaataatatcttattagctttttcaatTccAccttttacccccttaaaacaaaaaacccagtttacaatccaaactaaacttatcccaataagaataggccaccccattccaccaaaatc
+>hiseq_partial_overlap_pair_1159|D4ZHLFP1:36:C10H4ACXX:8:2203:15174:40406 1:N:0:CCAT|o:36|m/o:0.083333|MR:n=0;r1=3;r2=0|Q30:p=30;f=14|CO:0|mismatches:3
+tcaggtaacaaattatgtattacacaagagaatatctcaatagagcgcatcgagaaattgatActAttttccgagtGctgttcccggaacatggaatggcagtaagggaagaacagattatgttatgccacaaaatgctggataacctgctgggaagaaacc
+>hiseq_partial_overlap_pair_1189|D4ZHLFP1:36:C10H4ACXX:8:2203:16197:40483 1:N:0:CCAT|o:17|m/o:0.176471|MR:n=0;r1=3;r2=0|Q30:p=40;f=0|CO:0|mismatches:3
+ccaccactgtatgcagttttctgactgactgcaaatgttgcactgtcaattttggaatctttcggaatctgactaaaatttgaatttActttgaTaTaaggcccggcgttccgggtgtccagtccaaaaccctcaaggttcccaagcctaaatcccacaacaaaacccgcaatccggaaaa
+>hiseq_partial_overlap_pair_1190|D4ZHLFP1:36:C10H4ACXX:8:2203:16407:40265 1:N:0:CCAT|o:26|m/o:0.192308|MR:n=0;r1=5;r2=0|Q30:p=35;f=12|CO:0|mismatches:5
+ttcacagtaaaagctaatggagaagaaaaagatcttccattcgattatggattcgtatgcttaggaatgagaGcaaAcGctcCtgttcttgatGaaacccttgaagcattcgctgatactaacgttgaaatcatcaatatcggtgacagcgtacgtgctagaagaatcattg
+>hiseq_partial_overlap_pair_1198|D4ZHLFP1:36:C10H4ACXX:8:2203:16527:40418 1:N:0:CCAT|o:26|m/o:0.230769|MR:n=0;r1=6;r2=0|Q30:p=32;f=0|CO:0|mismatches:6
+acaattatttcgtcaactaaaccatattctttagcgtcttcagcactcataaagttatctctttcagtatctCttTggataactTCtaaAgGttttccttttttttcgcttaaggtttttttaaaacctttttaaccttttaaaatccaataagggggtttttaaaaatcgg
+>hiseq_partial_overlap_pair_1211|D4ZHLFP1:36:C10H4ACXX:8:2203:17420:40412 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=23|CO:0|mismatches:0
+gaagatgatagtgggcagaatcaatatttactttattggtcgtgttgtaaaagctatatggattaacggtacattggatatgatatttgtatttccgattttgtgcagatatggatatgacgaaggaagggtatctgcagcgatgatcgtatgttttcttggaatgctttacccatat
+>hiseq_partial_overlap_pair_1214|D4ZHLFP1:36:C10H4ACXX:8:2203:17661:40262 1:N:0:CCAT|o:36|m/o:0.027778|MR:n=0;r1=1;r2=0|Q30:p=30;f=15|CO:0|mismatches:1
+tattcaagccgcatgtggacaattaaaagtagcccacggtcggaaagaggagattcatgaataatatcgtaggtttaagtaaaattggattagtCagaaaacagaatgaagatcgcttttttattagtgataatatttgtgctgttactgacggcatgggag
+>hiseq_partial_overlap_pair_1228|D4ZHLFP1:36:C10H4ACXX:8:2203:18057:40482 1:N:0:CCAT|o:25|m/o:0.120000|MR:n=0;r1=3;r2=0|Q30:p=36;f=13|CO:0|mismatches:3
+cttattacaatacctattaataatgttaaagcaaatcctttaactggtcctgatccaaagaagtataatactaaaccagCaataaggGttGttatattagaatccattattgatcttaaagcattgctaaaccctattttcatagctgaagttatacttctaccatttccaag
+>hiseq_partial_overlap_pair_1229|D4ZHLFP1:36:C10H4ACXX:8:2203:18328:40263 1:N:0:CCAT|o:33|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=32;f=20|CO:0|mismatches:0
+gtgcattaaagacattagaagatgctggatatttttgtgttgataatcttccagtggctttacttgataaatttgcagacatgttgttagatgaaactgccaagattgaaaatgttgctcttgggattgatatccgtaatggaagaggaattggcgagttagcac
+>hiseq_partial_overlap_pair_1234|D4ZHLFP1:36:C10H4ACXX:8:2203:18280:40428 1:N:0:CCAT|o:37|m/o:0.243243|MR:n=0;r1=9;r2=0|Q30:p=29;f=2|CO:0|mismatches:9
+tattcatttgaaaaaattctgtcaatatgtgaatgaaatttaaatatattctaatataaaGctAccatttCAtttCTatgaTAaacccaagctggCtttattttgaaatttattaattgtaaatttaatttaaagttccgattggttataattgattttgg
+>hiseq_partial_overlap_pair_1249|D4ZHLFP1:36:C10H4ACXX:8:2203:19681:40298 1:N:0:CCAT|o:33|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=32;f=20|CO:0|mismatches:0
+gaagtacataatgaccctgctaatgccttatgtgatggtcaacagtcaattaaaccagaagagtacggcaagcttttagaagatttaagagctatcgcaaaggctgttggtagagagttatagaatattatttaatttagtgggagtgtttaaactcccattaaa
+>hiseq_partial_overlap_pair_1263|D4ZHLFP1:36:C10H4ACXX:8:2203:20093:40405 1:N:0:CCAT|o:34|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=31;f=18|CO:0|mismatches:0
+aaatattagaaactttgcaggacttcgtgctatagctgataagcctgacttcataatcggagaagctaaagatgtaaaaggattctttgatgtagcaggaataaaatcaccaggtttaagttcagcaccagctattgcggtggatgtagttaaaatgcttggtt
+>hiseq_partial_overlap_pair_1275|D4ZHLFP1:36:C10H4ACXX:8:2203:20606:40313 1:N:0:CCAT|o:27|m/o:0.111111|MR:n=0;r1=3;r2=0|Q30:p=35;f=11|CO:0|mismatches:3
+ctttacatcggtttcatctttctctgcatccggcacaaaattctctgatgactcttcctctgtgtcctctgTaatcacagGcAtcgcgattgtctcccccaaagcttcggcctcttctgagctatctctgttttcggtcactgcctctgtttcagtcgccgtatttatttc
+>hiseq_partial_overlap_pair_1284|D4ZHLFP1:36:C10H4ACXX:8:2203:20762:40448 1:N:0:CCAT|o:41|m/o:0.146341|MR:n=0;r1=6;r2=0|Q30:p=28;f=7|CO:0|mismatches:6
+ttggcattaaagcaggcacaaaagagatgcaataataaatatacacatatacttatagacGaaagccaggatctcaCaaGaaTccagatcgaGtTcctaaaagctttataaaacaaaaaaaaatattcaagcaaaactttttttgcagattttgcaa
+>hiseq_partial_overlap_pair_1288|D4ZHLFP1:36:C10H4ACXX:8:2203:21181:40371 1:N:0:CCAT|o:43|m/o:0.069767|MR:n=0;r1=3;r2=0|Q30:p=27;f=10|CO:0|mismatches:3
+cacaacaagcactaattgaaatgaagaattcaggtaaagaattcatgaaaacacttActacaattAtttcaggggtAtcagtttttgtagccataatttttggtggacttattctctatgctaataatttcttaaaaaaaaagaagaataaagaa
+>hiseq_partial_overlap_pair_1289|D4ZHLFP1:36:C10H4ACXX:8:2203:21244:40435 1:N:0:CCAT|o:17|m/o:0.176471|MR:n=0;r1=3;r2=0|Q30:p=40;f=5|CO:0|mismatches:3
+aaagaaggggatgttattgaaaatacacctgtaacacgtgctaatgggcataaagcatgggttaatattatgtatggatgtaaTaaAttCtgtacatatgttattttccttaataaaggagaaaaggagcgtcttgttttattggttaatattattaagaaagttaagggctaaaaaaagg
+>hiseq_partial_overlap_pair_1295|D4ZHLFP1:36:C10H4ACXX:8:2203:1639:40615 1:N:0:CCAT|o:26|m/o:0.076923|MR:n=0;r1=2;r2=0|Q30:p=24;f=11|CO:0|mismatches:2
+ataccaaaacctataaataaaacagcaaaagccttatacactaattcttttgaaattctctttttaaatacttcagtatCttctcttcctCttattatagagatcagagtaagtactactataccaaaggtggcatttttaattccccctgctgttgcccctggtgacccag
+>hiseq_partial_overlap_pair_1298|D4ZHLFP1:36:C10H4ACXX:8:2203:1948:40680 1:N:0:CCAT|o:19|m/o:0.210526|MR:n=0;r1=4;r2=0|Q30:p=39;f=10|CO:0|mismatches:4
+aaaaatatgaaaagcttgaggggaatataggtcttcagatggtcaatgaagttatacatgattgggcgagataacatatgCaaatGaGataaCatatgtaaaaataacgttaattaaaaaattttttattttgtgtttattaattgattaaaaataaatccatacctttataaatatgg
+>hiseq_partial_overlap_pair_1301|D4ZHLFP1:36:C10H4ACXX:8:2203:1757:40735 1:N:0:CCAT|o:46|m/o:0.108696|MR:n=0;r1=5;r2=0|Q30:p=25;f=6|CO:0|mismatches:5
+atgttgcagtttctttattagcaggttcagtaaagatattttcctctcttatgtCtttaaGttcatCtcttAttttgtcttcatattcctgGtttgtcactacataaatattatctttatggattataggtctaattctatccacagtatta
+>hiseq_partial_overlap_pair_1303|D4ZHLFP1:36:C10H4ACXX:8:2203:2227:40571 1:N:0:CCAT|o:18|m/o:0.055556|MR:n=0;r1=1;r2=0|Q30:p=39;f=3|CO:0|mismatches:1
+tgacacgactattgaattatagtcgtactacgactataattgataaaaacacgaagaaatgtgcaagaagtgagacagcaTaagaactaaggggaatgggagaaagtgatgaataaagaaaacatagatgatatggattattatgaaaaatatcttttgaatgcgacgaaagaaggaagg
+>hiseq_partial_overlap_pair_1310|D4ZHLFP1:36:C10H4ACXX:8:2203:2267:40509 1:N:0:CCAT|o:22|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=24|CO:0|mismatches:0
+aaccgatattcttctgttcacgtccaccgacgatcgctacaacctttccagtatcattatcaatacatgttccagatgcctgtgtcttataaatgccattcttatctttctctgtatatccagacaatgcattgtctacactgctctgcagttgtttctggacatctggatcaatg
+>hiseq_partial_overlap_pair_1320|D4ZHLFP1:36:C10H4ACXX:8:2203:2946:40627 1:N:0:CCAT|o:29|m/o:0.034483|MR:n=0;r1=1;r2=0|Q30:p=34;f=16|CO:0|mismatches:1
+atggtttctattacaataattgattgaaataaattaacagctaactcaatcactctccacatacactttgttAcctctctaagaaatcaaaaaatttatcttttaccttttttttattcccccggcttatcgttaatatttgtttatttttcagtgtgattaggttttc
+>hiseq_partial_overlap_pair_1328|D4ZHLFP1:36:C10H4ACXX:8:2203:3525:40593 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=38;f=26|CO:0|mismatches:1
+ggtaacacccgaagccggtggcctaaccgcaaggaaggagctgtctaaggtgggactgatgattggggtgaagtcgtaacaaggtAtccctacgggaacgtggggatggatcccctcctttctagggagagaaagttgtgctttctttttttgttttgaatgtcctggacattatggg
+>hiseq_partial_overlap_pair_1329|D4ZHLFP1:36:C10H4ACXX:8:2203:3656:40647 1:N:0:CCAT|o:44|m/o:0.022727|MR:n=0;r1=1;r2=0|Q30:p=26;f=6|CO:0|mismatches:1
+ttatttgctataagttcactcataagattcttcttttgttctgttaatgaattActtactgaatcaaatgcagaattagatgtttttccatcttcaattttagcagtatttaaccaatctttattaacagcatcatagaaatcatcctgctctt
+>hiseq_partial_overlap_pair_1337|D4ZHLFP1:36:C10H4ACXX:8:2203:4012:40533 1:N:0:CCAT|o:32|m/o:0.187500|MR:n=0;r1=6;r2=0|Q30:p=32;f=9|CO:0|mismatches:6
+tggggaaccactaggtggagagaacataagagcaatgaaagaaaacttaggatggaagctagaaccagCAttttatgtacCagatgaaGtttaTGaaaatatgaacgagtatataaatgagggtaaaaaaaaaaaaaatagtgggaataaattattaaaaaactaa
+>hiseq_partial_overlap_pair_1340|D4ZHLFP1:36:C10H4ACXX:8:2203:4055:40579 1:N:0:CCAT|o:17|m/o:0.235294|MR:n=0;r1=4;r2=0|Q30:p=40;f=17|CO:0|mismatches:4
+atgaaaaatatgatggagaattttttgttcctaatgaaaaatatttttttctaggagataatcgtgcacattcagatgatgCaagattgTgGagTaatcaatataaagaaaaagaagatatggaagaaaaagcttttttaaaattttatccttttaaaaattttgggtaattaaagtaaag
+>hiseq_partial_overlap_pair_1342|D4ZHLFP1:36:C10H4ACXX:8:2203:4179:40614 1:N:0:CCAT|o:32|m/o:0.031250|MR:n=0;r1=1;r2=0|Q30:f=19;f=21|CO:0|mismatches:1
+gctaataattcaacatacacattttgctaaattacatgttattatacatatggcacatttttcattatcttgaagtgaaaacattgctcatgcCtttcctaatatactcataggatttcacgtaatcttatcattatcatcataatttctgctcttgtgaaaaata
+>hiseq_partial_overlap_pair_1347|D4ZHLFP1:36:C10H4ACXX:8:2203:4254:40624 1:N:0:CCAT|o:15|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=41;f=8|CO:0|mismatches:0
+gaccgaagatttggtggagccgatgtactggcaacaagttatacgatcgcacagggaatcaagaagatgggagattttgacctgatctatgtggaaaaccgacaactgatggtgacacagcccaggttggttccgaagtatctgaatggttaaatatcccaagcgtatcaaatgtaaagaagg
+>hiseq_partial_overlap_pair_1348|D4ZHLFP1:36:C10H4ACXX:8:2203:4387:40641 1:N:0:CCAT|o:29|m/o:0.206897|MR:n=0;r1=6;r2=0|Q30:p=32;f=8|CO:0|mismatches:6
+tgagataaatgaagatttaaagatttcagttaatcaaaatatattaaaaaatatgataaaaggtacatcttttGcaatAgctCaagatGaGactagAccaaatcttcaggggatttttattgaaagttaaaaccaaaaattaaaatttatttgcattaaatggtttagg
+>hiseq_partial_overlap_pair_1372|D4ZHLFP1:36:C10H4ACXX:8:2203:5350:40722 1:N:0:CCAT|o:22|m/o:0.136364|MR:n=0;r1=3;r2=0|Q30:p=36;f=7|CO:0|mismatches:3
+tcttcctccgttgtgttcttcagacatacactcacttctattatttttgtatcataattcactttactcgtatctatcccACtattctcaTaaattgctgcctgttcttccgggggcagccatttttcttcattcgctgaaattttaaccccatccagaaattcaagagattctcc
+>hiseq_partial_overlap_pair_1382|D4ZHLFP1:36:C10H4ACXX:8:2203:5941:40729 1:N:0:CCAT|o:26|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=34;f=16|CO:0|mismatches:0
+gcttgctgttcacgaaaaattgattgacagtatttcaagtgataaaaagagaaatattgatgggcagataagtctatttggagcaacagaggaattaaaaaatccagaagtaagttatcctaatattaaagaattcgacaaacgaaatcttcttgcaatggaaaaagaaatt
+>hiseq_partial_overlap_pair_1383|D4ZHLFP1:36:C10H4ACXX:8:2203:5834:40731 1:N:0:CCAT|o:27|m/o:0.185185|MR:n=0;r1=5;r2=0|Q30:p=35;f=4|CO:0|mismatches:5
+taaagctataatagcacatgttaagaataatttagtatatcctgtattcatagtttgttggaatgcagtttctattGcAtctttaGcTccatCtaaactttgcatttttggtttttcaatcatatcaatatttatattaggatttttttccaattttgccccctaagctgg
+>hiseq_partial_overlap_pair_1392|D4ZHLFP1:36:C10H4ACXX:8:2203:6716:40533 1:N:0:CCAT|o:29|m/o:0.172414|MR:n=0;r1=5;r2=0|Q30:p=34;f=22|CO:0|mismatches:5
+ggtcttctcatagtcaactggagaaccctaaagaatcaggacatagaggaacaagcaaaaacagatttttaaTTaaaaaaaaTattattaTggGaattaaaaaaattattttgggggggccaatgcctgaaaaaaatggaccaaaataaaagcagaagtatgaacgtga
+>hiseq_partial_overlap_pair_1399|D4ZHLFP1:36:C10H4ACXX:8:2203:6808:40618 1:N:0:CCAT|o:43|m/o:0.139535|MR:n=0;r1=6;r2=0|Q30:p=27;f=6|CO:0|mismatches:6
+cgaccaggttcacagcaatacgcgggtacgatttccaatggtgcgcaaaggctttcTcgcgtcAccggaaaAcccgcaaggcAttCgTgggcaggatgattttgttcgcgtgggttgggatggggcgctggattttattccccaacaacaaaaaa
+>hiseq_partial_overlap_pair_1408|D4ZHLFP1:36:C10H4ACXX:8:2203:7012:40656 1:N:0:CCAT|o:30|m/o:0.100000|MR:n=0;r1=3;r2=0|Q30:p=33;f=15|CO:0|mismatches:3
+atttagcttttattattacaattgtcacatcataaattataatatatataagtataataataatgataCtaAtttttaggatgtGaatcatggaaactacggatactttagatcgtggaaacataagaggtcgtagagaaagatcaggaaactctaatggacaggaag
+>hiseq_partial_overlap_pair_1416|D4ZHLFP1:36:C10H4ACXX:8:2203:7561:40511 1:N:0:CCAT|o:29|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=15;f=7|CO:0|mismatches:0
+ttggaatatgggcacctataacatcatttttattaatggtacttcaatctgtaatagcaccaataccagcttttttaataaccttaagtaatgcagctatatttggatgggttaagggtgctatattatcatggagtagtgccatggctggggcagcactatgttttta
+>hiseq_partial_overlap_pair_1426|D4ZHLFP1:36:C10H4ACXX:8:2203:7793:40642 1:N:0:CCAT|o:23|m/o:0.217391|MR:n=0;r1=5;r2=0|Q30:p=37;f=14|CO:0|mismatches:5
+atgaaagataaaccttcatcatttacagtcatcataaattcagcgatgtttaaaggttgaatcacagcactcaatttAcctgAcccAccAcctcTaacaaaaaacatccgtttcccagcttgtttagtaaaaatcttaaccagcttatcattctcacgataattacgattgaagg
+>hiseq_partial_overlap_pair_1431|D4ZHLFP1:36:C10H4ACXX:8:2203:8132:40525 1:N:0:CCAT|o:29|m/o:0.241379|MR:n=0;r1=7;r2=0|Q30:p=34;f=0|CO:0|mismatches:7
+taaaagtaaaggtttaaatcatttagctcataaaggacttgttaaaagagttatagggggacattttaatcttGcAccaaaGCttGcagaaatGatGaaaaaaaatattattgaaggttattaacttccacagggaggttagttttaaatatttaaaagcaaaacttgg
+>hiseq_partial_overlap_pair_1444|D4ZHLFP1:36:C10H4ACXX:8:2203:8282:40714 1:N:0:CCAT|o:17|m/o:0.058824|MR:n=0;r1=1;r2=0|Q30:p=40;f=17|CO:0|mismatches:1
+attacaggatctagtattgattttgaaattgattctgaaaaaaatgaaataaggataatagctacttcaaaggtagttcaTaaaacaggagttgaaagggaggctcttacaggagtatctattgcagcccttactatttatgatatgtgcaaagctgtagataaaagaatggttataggag
+>hiseq_partial_overlap_pair_1445|D4ZHLFP1:36:C10H4ACXX:8:2203:8366:40740 1:N:0:CCAT|o:36|m/o:0.027778|MR:n=0;r1=1;r2=0|Q30:p=30;f=16|CO:0|mismatches:1
+tttactgtaaaattattttaaaaaatacaatatgcaccattagctcagttggtagagcacctgActcttaatcagggagtccagggttcgaatccctgatggtgcaccaagcatcgttttataagcgatgctttttttattttacataaaagtatgggtacc
+>hiseq_partial_overlap_pair_1447|D4ZHLFP1:36:C10H4ACXX:8:2203:8565:40555 1:N:0:CCAT|o:36|m/o:0.083333|MR:n=0;r1=3;r2=0|Q30:p=30;f=20|CO:0|mismatches:3
+tattatgcaacaattacaaagaatttttacctgtatttactggtaaaaattttcaaggcctatTaagcGaaaaagCaagtggaacaacagattcggtgtgataccattcatgtaaataacaacagcaaacaaaaggggccacactactacacttttatatgg
+>hiseq_partial_overlap_pair_1450|D4ZHLFP1:36:C10H4ACXX:8:2203:8996:40504 1:N:0:CCAT|o:30|m/o:0.033333|MR:n=0;r1=1;r2=0|Q30:p=33;f=16|CO:0|mismatches:1
+ttttccatatttcatcaaattctggttcattttctaccattccaggtcgtataccgtgtatccctatatttataggcataaatctcatttctttagGttttattagataatgtatcttttcaacaacttcactatttttgacaactacaatacctatagaacaagggc
+>hiseq_partial_overlap_pair_1458|D4ZHLFP1:36:C10H4ACXX:8:2203:9230:40527 1:N:0:CCAT|o:27|m/o:0.222222|MR:n=0;r1=6;r2=0|Q30:p=35;f=10|CO:0|mismatches:6
+aaatttattataaacttgcgttattatagttccaatacgcttatctaatatttgatttttcatgtcaaaggcAtCaAttAtttttAcAccctctattggatttctttgcaaagcttcaatcatagcatctccaaagctaactgctggtaaaacttcatatttaatattatt
+>hiseq_partial_overlap_pair_1467|D4ZHLFP1:36:C10H4ACXX:8:2203:9743:40522 1:N:0:CCAT|o:21|m/o:0.047619|MR:n=0;r1=1;r2=0|Q30:p=38;f=24|CO:0|mismatches:1
+ttccgatctccatcgaaaacatttctccttctttgatcagttgttcttttaacgttttcatgttataaatctcgccatttaagatgAttgcgtaggtatttccttctttctttttacacattggctgatgtcccctgtaaaggtcaaggattgacaatcgtacatgccctaatgcac
+>hiseq_partial_overlap_pair_1469|D4ZHLFP1:36:C10H4ACXX:8:2203:9693:40625 1:N:0:CCAT|o:17|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=23|CO:0|mismatches:0
+taaaatcctctctgctgcatttgctttagcgacacgagagttaattgcattttgcgtaaatttacctgcttgttccagaaattctctaaattgattatccaacatatgctaccctcctctttatttgaaaacacaattatatcaaataaagttgcagccggcgtatgattttgcaaaatca
+>hiseq_partial_overlap_pair_1471|D4ZHLFP1:36:C10H4ACXX:8:2203:9502:40664 1:N:0:CCAT|o:24|m/o:0.250000|MR:n=0;r1=6;r2=0|Q30:p=36;f=3|CO:0|mismatches:6
+catcttagtataacctctcttttttccgtcttcaggttttgtaataacttcactcttagtataattttgaactatAttAtttgtGaAtttttCAttataaaatttatcattaaaataatttataacttgtgataaaaataaatcatattttggtagatcatcatataaaattgg
+>hiseq_partial_overlap_pair_1472|D4ZHLFP1:36:C10H4ACXX:8:2203:9746:40664 1:N:0:CCAT|o:26|m/o:0.038462|MR:n=0;r1=1;r2=0|Q30:p=35;f=12|CO:0|mismatches:1
+cccagcagtttgctgtcgctgatgtattctacaacagcccaggcaattgacagaccgtcaaatgtacttgttccgcgtccgatttCatcaagaatgagaagactttttgaggttgctttttttaaaattttggcaacttcggtcatctcaaccatgaatgtactctgtccgg
+>hiseq_partial_overlap_pair_1477|D4ZHLFP1:36:C10H4ACXX:8:2203:9852:40640 1:N:0:CCAT|o:17|m/o:0.176471|MR:n=0;r1=3;r2=0|Q30:p=40;f=0|CO:0|mismatches:3
+ctttttcaggaaagaaggatcacatgtatgattggtcaggatccccctgtctttggcagggatatacaaaaaatagatgatTcagagcAgtgtGttgtttttatggtgttttttttcaaaggtgcttggccccctctacaacccctgtcctggcaagcctcctaccccccctattagagag
+>hiseq_partial_overlap_pair_1483|D4ZHLFP1:36:C10H4ACXX:8:2203:10158:40658 1:N:0:CCAT|o:21|m/o:0.095238|MR:n=0;r1=2;r2=0|Q30:p=38;f=25|CO:0|mismatches:2
+taaaatatgtgttaacaattcgcgatagcaaagacatagagtcaacctaaatgcccatcaatgacagattggttaaagaaaatgtggtaCatacacAccatggaataccatgcagccatagaaaagtacgagctcatagtcttttgtgggaacatgaatggagctaaacagaaaacc
+>hiseq_partial_overlap_pair_1484|D4ZHLFP1:36:C10H4ACXX:8:2203:10089:40666 1:N:0:CCAT|o:26|m/o:0.038462|MR:n=0;r1=1;r2=0|Q30:p=35;f=16|CO:0|mismatches:1
+tggcgctttagttagtggtgatgaaactcttaatgctcctcaaaaggaaatggctaaaataacaaataaagaatTaaaaaaaggaaccttagaagaggtaattaaaggacgagatgtgtttataggcttatcagaaggaaatcttgtaactaaggaaatggtagaaagtatg
+>hiseq_partial_overlap_pair_1489|D4ZHLFP1:36:C10H4ACXX:8:2203:10362:40575 1:N:0:CCAT|o:23|m/o:0.217391|MR:n=0;r1=5;r2=0|Q30:p=37;f=7|CO:0|mismatches:5
+gaaacaactacaaatcaaacaggtactgctaattaaaagcaaataattatagctgaaaaaatatcaaaattacaCaattttcccTatggaaGaCaCaaaaggggggaaaaaaaaaaaaaaaaaaagagaaaaaaaaaaaaaaaaaaaaagggggttttggtaaaaaagggccccc
+>hiseq_partial_overlap_pair_1493|D4ZHLFP1:36:C10H4ACXX:8:2203:10272:40747 1:N:0:CCAT|o:34|m/o:0.235294|MR:n=0;r1=8;r2=0|Q30:p=31;f=11|CO:0|mismatches:8
+gatatcccccctcaataaaatatgttgcttataaaataatataaatagttcattcatttttattaTaataGTaaaaGaAtTaatttattCatgGtttataaaaattatgtataaaaataatttaagatttattaaaaatttattttaaattaatagatattatc
+>hiseq_partial_overlap_pair_1499|D4ZHLFP1:36:C10H4ACXX:8:2203:10930:40554 1:N:0:CCAT|o:25|m/o:0.200000|MR:n=0;r1=5;r2=0|Q30:p=36;f=12|CO:0|mismatches:5
+acgtgtttctttactgtatgataactgatcaccagcttatcagcaattgctcgataagtcagtccctgatacaTgaGAttcgcaActtttTgttccatgggtgtcaagtttactccctggtttttaaattccaaggtttttttctcttctttcttggaaatcgtaatccagtg
+>hiseq_partial_overlap_pair_1508|D4ZHLFP1:36:C10H4ACXX:8:2203:11001:40740 1:N:0:CCAT|o:37|m/o:0.216216|MR:n=0;r1=8;r2=0|Q30:p=30;f=0|CO:0|mismatches:8
+aaggaaaagatacaatgttgaataaactcttgaaataatggatttagttacacaaatacagggaatAggctAttCatttgtCtAcgggattGTCttttcctttattttttctctttttttaaataaaccccgtaaaaattaattcaaatatcttcctttcc
+>hiseq_partial_overlap_pair_1515|D4ZHLFP1:36:C10H4ACXX:8:2203:11817:40542 1:N:0:CCAT|o:23|m/o:0.086957|MR:n=0;r1=2;r2=0|Q30:p=37;f=3|CO:0|mismatches:2
+tacattctgaaatagttttggaatgttatagttgctaaagtcttagattctctttgaactttaacaccttccttAgcttcaatagcttggtGaagaccatctgaatttcttcttccctccaaaagttctcctttaaattcatccacttaaactttttccaccaccttaaccatgg
+>hiseq_partial_overlap_pair_1516|D4ZHLFP1:36:C10H4ACXX:8:2203:11876:40549 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=12|CO:0|mismatches:0
+aggaaaatgagaaataatcacatgtagagcctcaaacactgaactttcattttattttataaaagaaagaaaacactatcctgctttaaatatctatcaatagcaacatgaaatagactaagaaaaaaaataaatccctgttgaaaaggttaagatacttataaaacataatggaagg
+>hiseq_partial_overlap_pair_1523|D4ZHLFP1:36:C10H4ACXX:8:2203:12125:40665 1:N:0:CCAT|o:20|m/o:0.100000|MR:n=0;r1=2;r2=0|Q30:p=38;f=14|CO:0|mismatches:2
+gtaaaacaagacttaaggttaaagaaatccttagggcaaaattaagttttattgtaccaaaatgtagagaatctctaaattTaaAttggtttttatctgtattttcccaaaaatcatagcttttataccctcccccctcttaaagagtagtcatatcagctaaatacaaataaagatt
+>hiseq_partial_overlap_pair_1526|D4ZHLFP1:36:C10H4ACXX:8:2203:12333:40590 1:N:0:CCAT|o:40|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=26;f=19|CO:0|mismatches:0
+tttttcaatttacctatgatagtatatttgttaatttttagaaaatatgatattgtaggattaactatagcaaatgttataggaaatttcttaagggtagttgttaaaataccatccttattaagtcatggatataagttcaaattttttataaatat
+>hiseq_partial_overlap_pair_1529|D4ZHLFP1:36:C10H4ACXX:8:2203:12471:40647 1:N:0:CCAT|o:21|m/o:0.142857|MR:n=0;r1=3;r2=0|Q30:p=38;f=21|CO:0|mismatches:3
+tttgaactctacttcctcctaataatgaaattataaatccagctatgattgcagttattaatcctttctcaggagacAcccctgaagaaatAcCtaatgcaatagataggggaagtgctataatagcaactattatcccagcgattaaatccttaagaaattgttcttttgaaaatc
+>hiseq_partial_overlap_pair_1541|D4ZHLFP1:36:C10H4ACXX:8:2203:12785:40605 1:N:0:CCAT|o:33|m/o:0.090909|MR:n=0;r1=3;r2=0|Q30:p=23;f=5|CO:0|mismatches:3
+gcctgataagctgttaaagcacagattaattttagactttattaagtcaggcttacattctacaaTctcTaggataGcaccctcccccaataattaaacaaatagtaatggggaaaataaaatgataaaggtactctaataatctaataaaagatcaagaaatga
+>hiseq_partial_overlap_pair_1545|D4ZHLFP1:36:C10H4ACXX:8:2203:12875:40744 1:N:0:CCAT|o:64|m/o:0.062500|MR:n=0;r1=4;r2=0|Q30:p=16;f=8|CO:0|mismatches:4
+tcgcagatcaatacttatatgctcatattcatgaaAttgCaaataaGaaaaatataaaaGataaggctttagatagatatcttactaatcttatagatttaaataatgtaaaaacattattaagggctaataag
+>hiseq_partial_overlap_pair_1552|D4ZHLFP1:36:C10H4ACXX:8:2203:13401:40512 1:N:0:CCAT|o:31|m/o:0.096774|MR:n=0;r1=3;r2=0|Q30:p=33;f=12|CO:0|mismatches:3
+cgaaagactgtcatgcgttttctgccagcctcttgttttccggacaatcaaaatgtagcatttaagggcGtTcccgctcatctgcgacagGtattcatcgatacccgattttgcaatctgaaaattgtttgggataaattcattcatagttcaattcctgacctgtc
+>hiseq_partial_overlap_pair_1560|D4ZHLFP1:36:C10H4ACXX:8:2203:13574:40555 1:N:0:CCAT|o:27|m/o:0.296296|MR:n=0;r1=8;r2=0|Q30:p=35;f=3|CO:0|mismatches:8
+ctttcataataggatatatattttctcttaaataatccttatcctcagtaaattggtaatgctcccaaagAttttgGCttgTcCaagCattagaTgTgggccccccccccaaaaaaactccccccccaatagctaaaaaaaaaaaagtttttttcatatttttttctgtcc
+>hiseq_partial_overlap_pair_1565|D4ZHLFP1:36:C10H4ACXX:8:2203:13874:40571 1:N:0:CCAT|o:37|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=10|CO:0|mismatches:0
+agagactaatacggttccataacactgattgggaaaattatctttgctaagaaatgggtgaagaaacagattaccatttgaaagtgctggatttatgttttgtgttattaacacaactattattataatatttacacgaaataatttttattagaacaagg
+>hiseq_partial_overlap_pair_1567|D4ZHLFP1:36:C10H4ACXX:8:2203:13832:40623 1:N:0:CCAT|o:31|m/o:0.032258|MR:n=0;r1=1;r2=0|Q30:p=33;f=16|CO:0|mismatches:1
+agagtttgttgaacttgcttttaaagaagtaggaatagacattaaatggattggatcaggtatagagGaaaaaggtgtagatgaaaaaactaataaaattttagttgatgtagatccaagatatttcagcccttctgaagttgaactgttatggggaaattgtgaaa
+>hiseq_partial_overlap_pair_1569|D4ZHLFP1:36:C10H4ACXX:8:2203:13935:40630 1:N:0:CCAT|o:20|m/o:0.200000|MR:n=0;r1=4;r2=0|Q30:p=38;f=0|CO:0|mismatches:4
+acaatgcctgtacttttcatgtgtaaacctccttaatgtcttacaatcattttatatcttaaaccatagcataccaaaatCtggttGtCaattCattttttttatttaaaaactagagagtaaaaaattataattaacagtttccagccccggcgggcatatctttatctgggtttcc
+>hiseq_partial_overlap_pair_1574|D4ZHLFP1:36:C10H4ACXX:8:2203:14483:40532 1:N:0:CCAT|o:31|m/o:0.225806|MR:n=0;r1=7;r2=0|Q30:p=33;f=0|CO:0|mismatches:7
+gaatttaatttcaaatgcaattaagttctctaaagaaaatagttgtgtatttataaatacatggaaGgaaGaGaaataTaTaactAtttCtgtaaaagaagaaagaaaaagaaaaccaaaaaaagaaaaaaaaactatttttaaaaaattcatttaaacaaccaagg
+>hiseq_partial_overlap_pair_1579|D4ZHLFP1:36:C10H4ACXX:8:2203:14295:40725 1:N:0:CCAT|o:21|m/o:0.190476|MR:n=0;r1=4;r2=0|Q30:p=38;f=21|CO:0|mismatches:4
+atccaatgggttaatattactctttttagtagtctttttttcttcatttaaaaacctcctattttaggaattttctaaagtGaaGCaaaagCaatgaagcaaaatactacttttattatagaaaatacagaaactatctttgtctccctccaacctagttgctcaaaatggtgatgg
+>hiseq_partial_overlap_pair_1587|D4ZHLFP1:36:C10H4ACXX:8:2203:15182:40656 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=23|CO:0|mismatches:0
+gaccacgcccgcagatattacttaaatcagagccatagaggccacgcaggcgaggcatcaatctttacgatctgtataaagacggattgttgatgatgtgttaaaattgatgtaaacaaattgtgaagtgaatgtgcttccggggaaaataagtgacttcattacaactctcaatcg
+>hiseq_partial_overlap_pair_1589|D4ZHLFP1:36:C10H4ACXX:8:2203:15446:40514 1:N:0:CCAT|o:31|m/o:0.193548|MR:n=0;r1=6;r2=0|Q30:p=33;f=9|CO:0|mismatches:6
+ccccagttcaacggcggtcgacaaacgctggtatacctcaggcgtcatgctgttgataatgtcatcaagAttcAtaAttttTcCgctcCtgtggaataatttgctgattctttttttcaacctttgattttttcgcggttttcgccatcggtaaagcgtaaagaggc
+>hiseq_partial_overlap_pair_1590|D4ZHLFP1:36:C10H4ACXX:8:2203:15494:40571 1:N:0:CCAT|o:34|m/o:0.205882|MR:n=0;r1=7;r2=0|Q30:p=31;f=16|CO:0|mismatches:7
+aaagaagaacgctggtcgtaacaatcagggtaaaattactgtaagacaccgcggaggtggatcTaGaaGaaaatacagaCttatTgacttTaagaGaaatgataaagatggtattccagcaacagttgctgcaatcgaatacgatccaaatagaacagctaaca
+>hiseq_partial_overlap_pair_1596|D4ZHLFP1:36:C10H4ACXX:8:2203:15710:40534 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=0;r2=1|Q30:p=31;f=23|CO:0|mismatches:1
+gttcctaaaaacgatgaaatgataatattatccgttgatgtataaaccacactactaattttaaacaatgctaatgaatatatatttttaaatataCtatctttttcctctttatccagttcttcttttcccttttcattaataaccggaaacattttccctgcttttatagaaatca
+>hiseq_partial_overlap_pair_1603|D4ZHLFP1:36:C10H4ACXX:8:2203:15860:40730 1:N:0:CCAT|o:34|m/o:0.058824|MR:n=0;r1=2;r2=0|Q30:p=31;f=19|CO:0|mismatches:2
+tcctttatataagtggtaggaattaatcctatgtaaactgcatatgaagttactaagaatgctaagataGcccctccaccTaaataatctttccaaataggtattgaatcccctattttacctaaaacaataccacaagtaaatattaaaaatatacttccaac
+>hiseq_partial_overlap_pair_1616|D4ZHLFP1:36:C10H4ACXX:8:2203:16418:40747 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=38;f=11|CO:0|mismatches:1
+gttagaaaagatgcacttacaggaattaaaaataaagaaactttaaaaacagaaattacaaattatcttgcaaaggataaatctcaacaTgccggggctttatttatgattgatgttgataactttaaaatggtcaatgatcttaatggtcatgttataggtgatgaagtattaaaag
+>hiseq_partial_overlap_pair_1617|D4ZHLFP1:36:C10H4ACXX:8:2203:16581:40516 1:N:0:CCAT|o:28|m/o:0.250000|MR:n=0;r1=7;r2=0|Q30:p=30;f=1|CO:0|mismatches:7
+gaagaccaacgatcatcaagatgagtaagtatgagatagacaagaagtttaagagaatcgtatagtgaaAcCagaCaAggaggGaagActatGacagaccaggattaattagatcttgaagaaaaggcaaaaaaaaaagcatacgccccatattccggatttcaagtagg
+>hiseq_partial_overlap_pair_1618|D4ZHLFP1:36:C10H4ACXX:8:2203:16714:40572 1:N:0:CCAT|o:28|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=34;f=18|CO:0|mismatches:0
+ccttaagatcaaggactctttctctatatggtggtatcaagcttaaatcgctagttatctccaccctatttgaaaactccttaattttactattataccctcttgtagtaatttgattaaagccagcttcaatccacagatttttaatctttctatcattatctgtaggg
+>hiseq_partial_overlap_pair_1620|D4ZHLFP1:36:C10H4ACXX:8:2203:16685:40662 1:N:0:CCAT|o:38|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=23;f=16|CO:0|mismatches:0
+tgaaactaagttgaagtttttgaaaggtaaatttggagttgttattattataccagttctagcatctagtggtcctggtgatccaatacctattgcttctccttcatcaatagttacttttccttcacatattacagtttcaacacagcctataattcta
+>hiseq_partial_overlap_pair_1623|D4ZHLFP1:36:C10H4ACXX:8:2203:16835:40547 1:N:0:CCAT|o:96|m/o:0.031250|MR:n=0;r1=3;r2=0|Q30:f=0;p=2|CO:0|mismatches:3
+tagCaaatTggaaTcaacgccgggaagcttaccgggggagacagctcgatgaaggtcgggctgaagaccctaccagagtagctgagtggtacatggctgccg
+>hiseq_partial_overlap_pair_1632|D4ZHLFP1:36:C10H4ACXX:8:2203:17286:40555 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=24|CO:0|mismatches:0
+ctgatggtcagcgaacatgcatggaatcagtatacagctcttatggaagacatgaaacagcgcaaggcagaggagcaggctgctcagaaaaagatgcgggaagagtatgacagactttcaccggaagtacagaagatcgtacaggcaggagatgaatatgtgagaaggatcaagg
+>hiseq_partial_overlap_pair_1633|D4ZHLFP1:36:C10H4ACXX:8:2203:17296:40602 1:N:0:CCAT|o:48|m/o:0.208333|MR:n=0;r1=10;r2=0|Q30:p=24;f=3|CO:0|mismatches:10
+agaggacttccatattcttttactaaatcactagccttagcccctccaattgttaAttgGttAtCtTCaAccttcatcGtacCaaataAtttcatttttgttcccccaaaacctttattaaattaacagctatcagttataatcttaaac
+>hiseq_partial_overlap_pair_1637|D4ZHLFP1:36:C10H4ACXX:8:2203:17543:40511 1:N:0:CCAT|o:93|m/o:0.010753|MR:n=0;r1=1;r2=0|Q30:p=2;f=2|CO:0|mismatches:1
+tcacaaatTggattcaacgccgggaagctcaccgggggagacagctcgatgaaggtcaggctgaagaccttaccagagtagctgagaggtggtgcatggccgccg
+>hiseq_partial_overlap_pair_1639|D4ZHLFP1:36:C10H4ACXX:8:2203:17643:40556 1:N:0:CCAT|o:29|m/o:0.275862|MR:n=0;r1=8;r2=0|Q30:p=33;f=0|CO:0|mismatches:8
+cttagaggagcttttttaaaggaggaattagtttgttagattttgatgtagatatacaatcatttactaatatTaAggtaaTTggATgtggAggCggggggggaaccgctgttaaaagaattattaaagaaggataaagagatgttgatttttttgttaaaaatagagg
+>hiseq_partial_overlap_pair_1646|D4ZHLFP1:36:C10H4ACXX:8:2203:17766:40600 1:N:0:CCAT|o:35|m/o:0.028571|MR:n=0;r1=1;r2=0|Q30:p=31;f=17|CO:0|mismatches:1
+tcttattttatgtttaatataaaggataaacttaatttaaaataaatgttgttatattaatatatGttagtaagcgggagtgtggaaagattcatataaacgaatcttttcacactatctaataatttttaattaaattgaggaagatattctttatgagctt
+>hiseq_partial_overlap_pair_1647|D4ZHLFP1:36:C10H4ACXX:8:2203:17989:40646 1:N:0:CCAT|o:22|m/o:0.045455|MR:n=0;r1=1;r2=0|Q30:p=37;f=11|CO:0|mismatches:1
+tgctgctcttccgatcgtttatttattttttatcatatacctaaagtctaaagtgtggacaattacaagattgaaaaatttaAgtgggtgtgtatggaggacagcattggttgtaaaatggggacctttaagacagaaagtaatgttattatgcttcataaacatcccaacaaatc
+>hiseq_partial_overlap_pair_1655|D4ZHLFP1:36:C10H4ACXX:8:2203:18083:40687 1:N:0:CCAT|o:30|m/o:0.100000|MR:n=0;r1=3;r2=0|Q30:f=19;f=13|CO:0|mismatches:3
+ttgctaaattagctggagcaacaaaagtagccttattagaaccagttgaaaataaaagaaaagttgctatgaAcCtaggtgcagatttctgtatcGatcaaattaaaaaaaatgtaaaagttaaattaaaagaaaatggaatggtttgggtaaatacatttatcgaat
+>hiseq_partial_overlap_pair_1660|D4ZHLFP1:36:C10H4ACXX:8:2203:18260:40672 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=38;f=15|CO:0|mismatches:1
+taaaattactatgctaattaatataaataataactttttcatatctttctcctttcgatttattacattaatactctatcattaTgaagtattaaagtcaaatgagaaatgaaataattttatttaaatattgacaaaacgttgcattttagagtttatataatataataaattagag
+>hiseq_partial_overlap_pair_1693|D4ZHLFP1:36:C10H4ACXX:8:2203:19825:40716 1:N:0:CCAT|o:15|m/o:0.266667|MR:n=0;r1=4;r2=0|Q30:p=41;f=14|CO:0|mismatches:4
+tgtgaacccaggaggcggaggttgcagtgagttgagattgggccactccattccagcctgagaggcagaacaagactctgtcTCaaTaaaCaaacaaaaaaactgcccaggtgtggtggcacagccctgtagtcggagctaaaaaagaagctgaggggggaggatcgcttgagcccaggatgg
+>hiseq_partial_overlap_pair_1694|D4ZHLFP1:36:C10H4ACXX:8:2203:20190:40503 1:N:0:CCAT|o:21|m/o:0.095238|MR:n=0;r1=2;r2=0|Q30:p=38;f=6|CO:0|mismatches:2
+acagagaatgataatgataataaaattagccgttaatgagagcgtttcgtaaaaacccagctctgcatatttgcggAcaaaaatccctaaggTgatccctggcaatgccccccaggcgaaaaaccacatcaagctggacaacaagtcccaaggcagaaaaaaaagaaaaacctttcc
+>hiseq_partial_overlap_pair_1696|D4ZHLFP1:36:C10H4ACXX:8:2203:20115:40590 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=13|CO:0|mismatches:0
+ctatggaaattatttttcaagaatatgtgaaaattgctgagatatatagcttgccatttattgcgacaacaccaactcgaagagcaaataaagagagagttttacagtctaatttaagtggaaaaattattgaagataatgtgcgttttttacaagaaattaagaaaaatacaagcc
+>hiseq_partial_overlap_pair_1702|D4ZHLFP1:36:C10H4ACXX:8:2203:20340:40616 1:N:0:CCAT|o:34|m/o:0.088235|MR:n=0;r1=3;r2=0|Q30:p=31;f=4|CO:0|mismatches:3
+tgtaagcaaaagtaaaagctgcagactttgttatggttggacctgtgtgtggaaattctgtgaattGtgttctgtcagcAtcctgcTcacggaataggctatgtaaacaacgggcgctgggggggtctgtgaatgagcagccttccttccccctcacagacttt
+>hiseq_partial_overlap_pair_1715|D4ZHLFP1:36:C10H4ACXX:8:2203:20858:40567 1:N:0:CCAT|o:17|m/o:0.117647|MR:n=0;r1=2;r2=0|Q30:p=40;f=19|CO:0|mismatches:2
+tgaattggaagcataaacattgttaaaatgtccatactacccagagcaatctacagatttaatgaaatgcctatcaaaatacCaatGatattcttcacaaaaataaaaaaaaaactatgctaaaatgtatatgaaacaacaaaagatccagaataaccaaagttatcctaagcaaaaggac
+>hiseq_partial_overlap_pair_1716|D4ZHLFP1:36:C10H4ACXX:8:2203:20903:40628 1:N:0:CCAT|o:33|m/o:0.151515|MR:n=0;r1=5;r2=0|Q30:p=32;f=14|CO:0|mismatches:5
+caactataatcaagattcctatcaataaaactattatgcctgttccaatataatctgtaggcatAttaTAcctgcctaaCaaatcaaTaaaattatcaaccataaaggaagaagaattatttaatatatgaagtattatagttaattttaccgaatactcttctt
+>hiseq_partial_overlap_pair_1717|D4ZHLFP1:36:C10H4ACXX:8:2203:20816:40699 1:N:0:CCAT|o:31|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=32;f=13|CO:0|mismatches:0
+gaagaaaataatatgaatggctatttagtaaattcaaaagaagaacttataagtaagatagaagaattaactaatagtggagatatagtagcttggggaggctctatttccttatttgaagctggagttatagatcatcttagaagtggaagatatgaatttttagg
+>hiseq_partial_overlap_pair_1739|D4ZHLFP1:36:C10H4ACXX:8:2203:1730:40934 1:N:0:CCAT|o:26|m/o:0.230769|MR:n=0;r1=6;r2=0|Q30:p=35;f=4|CO:0|mismatches:6
+acctatcatcataaatattgtatttcctattgatttccaaaagtttgtatcagaaaacatttctttataattActtAttccGaTaaaaTcaggAgttccaaaaaatttcccaattgttaaaccctcatataaaaaatcttgctatggtataaaatcgaataaaaaaaaatgg
+>hiseq_partial_overlap_pair_1743|D4ZHLFP1:36:C10H4ACXX:8:2203:1919:40995 1:N:0:CCAT|o:26|m/o:0.038462|MR:n=0;r1=1;r2=0|Q30:p=24;f=19|CO:0|mismatches:1
+aattggaatcttaaattgaataactcagctttaaggtctcctaatttctttattaaatcttgaggattgcttgttcttagttctttTaactctctagctttcattattcttcaccacccatttcctcaaaatctcttcttgtaacgaacttagtctttacaggaagtttgtg
+>hiseq_partial_overlap_pair_1752|D4ZHLFP1:36:C10H4ACXX:8:2203:2459:40895 1:N:0:CCAT|o:26|m/o:0.038462|MR:n=0;r1=1;r2=0|Q30:p=35;f=13|CO:0|mismatches:1
+taatcgtttaaaacatcattaaatgttttgcctataagtttttgagcataattttctatacttataggattggtttCatcatataattttattgacataataatctccttgttaatatgttaaaaagatataataatcttttggtaattcatatttaaatagtaattctaac
+>hiseq_partial_overlap_pair_1764|D4ZHLFP1:36:C10H4ACXX:8:2203:3195:40857 1:N:0:CCAT|o:62|m/o:0.016129|MR:n=0;r1=1;r2=0|Q30:p=17;f=4|CO:0|mismatches:1
+ggaacagatcatagaagatgcacatgatcttggaaTtaaatatttaacagtttatgctttttcaacagagaactggaaacgcccacaggacgaagtaaatgcattgatgaaactgcttcgttattatttaaagacc
+>hiseq_partial_overlap_pair_1788|D4ZHLFP1:36:C10H4ACXX:8:2203:4292:40876 1:N:0:CCAT|o:15|m/o:0.066667|MR:n=0;r1=1;r2=0|Q30:p=41;f=7|CO:0|mismatches:1
+gagacaatagtttttcttatcagttcaaagaaggatacggatttaaaacagaacttaaaaagggaatattcaaatttttatctgaaactCttaaggatgaattttcttggggaaaattaggtggaataagaccaaggaaaatagcctttactctaaaaagaaaaagaaaaatttgagaagagg
+>hiseq_partial_overlap_pair_1790|D4ZHLFP1:36:C10H4ACXX:8:2203:4290:40960 1:N:0:CCAT|o:32|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=31;f=22|CO:0|mismatches:0
+taataatgttggagtaggatcaccttctgctacatccacatatacagttattttatctccagctcttgcagatagtcctgttatttgccagtcttggaaattccatacctttctctttttagcttcacttatagaatctcctctcatttctaattcaagtacatgg
+>hiseq_partial_overlap_pair_1802|D4ZHLFP1:36:C10H4ACXX:8:2203:4796:40906 1:N:0:CCAT|o:19|m/o:0.105263|MR:n=0;r1=2;r2=0|Q30:p=39;f=0|CO:0|mismatches:2
+ttatttttaataagtagtataattatcttagggaaaatatataatctatgaacatataaaaagggggaactttatgtgtaaaacttgaaaTaGaaaaatatattaaaaaaattgggaaaaaaaaagagatggaagaaaaagttaaaaaattgttaaaaaggatgagaaaaagtaaaact
+>hiseq_partial_overlap_pair_1839|D4ZHLFP1:36:C10H4ACXX:8:2203:6535:40813 1:N:0:CCAT|o:31|m/o:0.193548|MR:n=0;r1=6;r2=0|Q30:p=33;f=6|CO:0|mismatches:6
+aaaagctgagcaataatcgaattaggaagtacatccttcaaaacatccagacaagaaaaatcagtcctgctattTggCAggGcttttttCgtaatAcgaaacccaaccttctgaaaaataaaaacagccttataggccaaagaatgcgtatgaagaaaaataaaacc
+>hiseq_partial_overlap_pair_1849|D4ZHLFP1:36:C10H4ACXX:8:2203:7240:40847 1:N:0:CCAT|o:19|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=39;f=17|CO:0|mismatches:0
+ttctaaggattataaagctaaaacagaggttaatattccagtagatttcttatcaaaagaaaatcaggaggaatcttttagtattaataactctttagaaaataatgattttaaagaagtttcaactaaaagagagatttcttatgatcctatacttaaaaaaaatgaacttaaagggg
+>hiseq_partial_overlap_pair_1851|D4ZHLFP1:36:C10H4ACXX:8:2203:7125:40989 1:N:0:CCAT|o:32|m/o:0.156250|MR:n=0;r1=5;r2=0|Q30:p=30;f=12|CO:0|mismatches:5
+aaaggtaacgaaaagaacaaaatgcttacaagaatctatggaactgcattcttaaagaaagctgacCttgatGaAttctTagaagcttTagaagaagcaaagagaagagatcataacaagttaggaagagaattaaaattattccctcctgacgaaaaggtaggtc
+>hiseq_partial_overlap_pair_1860|D4ZHLFP1:36:C10H4ACXX:8:2203:7648:40943 1:N:0:CCAT|o:36|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=16|CO:0|mismatches:0
+gaaatgtgttatttttaaatttatttatatatattaaaattttaggccaatggattaaaccattgtcagccgccctaaaatagttttgattaattaaacgactatataatcatatttgacttttgctgaaatgtcaatatcatttattacaaaataatactg
+>hiseq_partial_overlap_pair_1886|D4ZHLFP1:36:C10H4ACXX:8:2203:8969:40768 1:N:0:CCAT|o:31|m/o:0.161290|MR:n=0;r1=5;r2=0|Q30:p=33;f=14|CO:0|mismatches:5
+gaagcagcatcgcaaccaggagatccggctaatcgtccttcatattcatcagacgataatatttctAtgGtAttttttacAttttcaCaattaaagttatagattttgaattgaaaaaaacctgaggtagaaatataaattaatattaaaagtaaaataaaataata
+>hiseq_partial_overlap_pair_1887|D4ZHLFP1:36:C10H4ACXX:8:2203:8822:40773 1:N:0:CCAT|o:30|m/o:0.033333|MR:n=0;r1=1;r2=0|Q30:p=33;f=22|CO:0|mismatches:1
+aataactccttttctatgatcttgatatcaatccgcttgatatctcttgtaatctctactcttctacgaTagaaattttacttccaatcgcaagttttggcattggctttgcctcaacacaaatacttccaggaagacctgcttctttcgctccactgaagacaacgg
+>hiseq_partial_overlap_pair_1888|D4ZHLFP1:36:C10H4ACXX:8:2203:8875:40813 1:N:0:CCAT|o:31|m/o:0.032258|MR:n=0;r1=1;r2=0|Q30:p=33;f=12|CO:0|mismatches:1
+gctactaaggataagtttgatgtattagttaatgtacatggtggtggattcacaggtcaagctggagctataAgacatggaatcactagagctttaataaaggctgatgaagcattaaagccagaattaaagaaagcaggatttgttactagagatccaagaatgaa
+>hiseq_partial_overlap_pair_1892|D4ZHLFP1:36:C10H4ACXX:8:2203:8945:40964 1:N:0:CCAT|o:24|m/o:0.041667|MR:n=0;r1=1;r2=0|Q30:p=36;f=18|CO:0|mismatches:1
+ttgtattgatttacttggaccaggtaagtttatatttataagaactaatgataatccgttttttgatgtacctatatctattttagaatctgatgCagataaaaatataataaaattatttattgaagttaggggaataaaacctaagaggcccttaaatactgaggtcaaagg
+>hiseq_partial_overlap_pair_1894|D4ZHLFP1:36:C10H4ACXX:8:2203:9103:40868 1:N:0:CCAT|o:19|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=39;f=21|CO:0|mismatches:0
+aagaggtttttgttatgaattctaagtcaacagtaacattaaagaaacttgtcatggctgcactgttcgcagcgcttgcctgtgttgctacgatgtcaatcaagattcctactcccggaacaagcggatatattcccccgggtgatgcgattgttatccttgctggtgttgttctcggg
+>hiseq_partial_overlap_pair_1901|D4ZHLFP1:36:C10H4ACXX:8:2203:9347:40901 1:N:0:CCAT|o:27|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=23;p=27|CO:0|mismatches:0
+gagctgtctcgcgagctgatgactatttctaagaaagcgcgtgacggtaagctgactgcgggcgaaatgcagggcggttgcttcaccatctccagcatcggcggcctgggtactccccacttcgcgccgattgtgaacgcgccggaagtggctatcctcggcgtttcatgg
+>hiseq_partial_overlap_pair_1919|D4ZHLFP1:36:C10H4ACXX:8:2203:10728:40842 1:N:0:CCAT|o:35|m/o:0.200000|MR:n=0;r1=7;r2=0|Q30:p=31;f=8|CO:0|mismatches:7
+attttacagaaaaaattccatatggatataattttgctgatgaaaatgaaaatattatagatacaCaTccaaaaGtagaTAtgcatggaatGcatGtagcaggaatagttgccgccaatggaaggtaagaagaggtttccaaaaatgaggcaaaaaaaagagg
+>hiseq_partial_overlap_pair_1922|D4ZHLFP1:36:C10H4ACXX:8:2203:10838:40831 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=20|CO:0|mismatches:0
+tggatttaatgtaggtaatgaatatgtaaataaaggaaaacagtttgatttctggcgagacactcatttaagaataaaaggtgatgcagttcttgaacttcaaaagcgttttcctcttgactgggagtatgctgcaaaagaatcaattgatgaaaaacaatatgttcttacaaaatgg
+>hiseq_partial_overlap_pair_1923|D4ZHLFP1:36:C10H4ACXX:8:2203:10790:40992 1:N:0:CCAT|o:25|m/o:0.280000|MR:n=0;r1=7;r2=0|Q30:p=36;f=9|CO:0|mismatches:7
+catcggcagttggtgcattgctgactgcataaaaatcatcataagaatactttgggaaatcttctgtatggtAggTcGaTaaatgcAgttCTgtattggaccgggtctgtgcacccagttcttttctttctattcctcccggcaatccccctcctgtttcaaaatgatccccc
+>hiseq_partial_overlap_pair_1925|D4ZHLFP1:36:C10H4ACXX:8:2203:11206:40801 1:N:0:CCAT|o:33|m/o:0.030303|MR:n=0;r1=1;r2=0|Q30:p=32;f=11|CO:0|mismatches:1
+gctttttgctatccatcgtgcgttctactacatccttgccattttgataacttccatcttgattcActttcaaagatccgctttttaatctgctaaaatcttcttccagctgttttgtgatctcttttccttgtacaacaagcatcgtttctgtgtctacatagg
+>hiseq_partial_overlap_pair_1927|D4ZHLFP1:36:C10H4ACXX:8:2203:11006:40827 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=25|CO:0|mismatches:0
+gaggttagacgtctgaaatatgcctcatggggataaaatcatggtgttggtagggctgtactacattaggaggctcttgtctttcttagcttctagtggccaacttcattccctgagttgtgatccctctatcttcaaactcagcaatagcatctctccaaactttgcgtcagcc
+>hiseq_partial_overlap_pair_1939|D4ZHLFP1:36:C10H4ACXX:8:2203:11645:40981 1:N:0:CCAT|o:27|m/o:0.222222|MR:n=0;r1=6;r2=0|Q30:p=29;f=0|CO:0|mismatches:6
+gtgaaatttagacgaaagctaaaattagtagatcagtttttcctcacattttcaattttgataattataccccttaTaaTActttttggaTatACtttaaataaaattttctaaaagaaaaaaaaaaaatatttttgtttttcctaatgaagcatttaaccatcaagtttc
+>hiseq_partial_overlap_pair_1945|D4ZHLFP1:36:C10H4ACXX:8:2203:11995:40917 1:N:0:CCAT|o:19|m/o:0.052632|MR:n=0;r1=1;r2=0|Q30:p=39;f=21|CO:0|mismatches:1
+aagttaagagttttccatcccccctttgaaggatcatgttcataagctaaataatcttcaaaatctatatcatatccagcatcaattaattgCtttattgaattatcgtttttctcttgaagcaatctatcatttttttctattaagctcattaactctttattatttttatcaaaatt
+>hiseq_partial_overlap_pair_1950|D4ZHLFP1:36:C10H4ACXX:8:2203:12459:40766 1:N:0:CCAT|o:37|m/o:0.135135|MR:n=0;r1=5;r2=0|Q30:p=30;f=17|CO:0|mismatches:5
+cctaaaagaattactaatttcctatatttttcccagaacataaaatatagagaaagtttcataaaCtAttttatctgtcaagcataAccaTcctgcTaaaaaaaaaaaacaagaaaatggaacaaatccctctcttttatgaaaatgggtttttaaattta
+>hiseq_partial_overlap_pair_1955|D4ZHLFP1:36:C10H4ACXX:8:2203:12442:40971 1:N:0:CCAT|o:24|m/o:0.041667|MR:n=0;r1=1;r2=0|Q30:p=36;f=19|CO:0|mismatches:1
+tttaagaaataaaattttaactatggtagatgaaataacaaaagagggggtagaaagggatgaaaaataataatgctaaaaaatggattActcttttagttttatgtgctggtggaggaattacttatagattaccttatttaagagaggttttttatataccaatgcaacaaa
+>hiseq_partial_overlap_pair_1962|D4ZHLFP1:36:C10H4ACXX:8:2203:12661:40942 1:N:0:CCAT|o:25|m/o:0.200000|MR:n=0;r1=5;r2=0|Q30:p=36;f=0|CO:0|mismatches:5
+gaatggaattaattgagtatataaagtcattaggtaatgtaggtgtggctctatctggtggtgtagattcatcctAtttagCaTAtgTggccaaacaatttggcattccaagcaaaagattatcttttaaggcccaggtttgtccccaattttgaataggcgaaggcaaggaa
+>hiseq_partial_overlap_pair_1970|D4ZHLFP1:36:C10H4ACXX:8:2203:12954:40996 1:N:0:CCAT|o:27|m/o:0.111111|MR:n=0;r1=3;r2=0|Q30:p=35;f=8|CO:0|mismatches:3
+aaaatcatcgccttctgcttctttaataagagtccatactgcccataaagtatcctgacaaatttgatgaattaacaatcttCttCtagaattttCattttgtttttccccattaaaatataatctgaacattaatttaatttcatcttctgaaaacccattttccaatgg
+>hiseq_partial_overlap_pair_1971|D4ZHLFP1:36:C10H4ACXX:8:2203:13203:40750 1:N:0:CCAT|o:31|m/o:0.161290|MR:n=0;r1=5;r2=0|Q30:p=33;f=13|CO:0|mismatches:5
+gctacaactggattttatactcttaataccttagaatatttaagacgtggtggaagaataggtaaggttgCaggaAcaGttggagAtttaCttcacctaaaaccaataatatcagttgatgaacatggtgcttatacaacaattgctaaggcaagaggaagaaaaca
+>hiseq_partial_overlap_pair_1973|D4ZHLFP1:36:C10H4ACXX:8:2203:13199:40823 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=38;f=12|CO:0|mismatches:1
+acgtgggagtccgaacgcaagtgggttgcagacacaggatctctttttataatattccaccaataatttacgtcattcaaatcaCaattgtcttgataaaaatacataaataaatcttgcattttaaaaccccttttgttactataaacgtgacgaaggagtcaaagcataaagaaaa
+>hiseq_partial_overlap_pair_1976|D4ZHLFP1:36:C10H4ACXX:8:2203:13404:40807 1:N:0:CCAT|o:42|m/o:0.047619|MR:n=0;r1=2;r2=0|Q30:p=27;f=19|CO:0|mismatches:2
+ataatgctgtatgccgcaccacttgccttggctccattgatactgttactgaatagaaagttCtttCttcctatgacaaagactttacaacatctttccgctgagttgttagaaatttcaacacgtccatcttctatgtaatatcttaaatatttt
+>hiseq_partial_overlap_pair_1990|D4ZHLFP1:36:C10H4ACXX:8:2203:13506:40983 1:N:0:CCAT|o:15|m/o:0.266667|MR:n=0;r1=4;r2=0|Q30:p=41;f=10|CO:0|mismatches:4
+ccattcgtttccattccattattagattctattccatttgaagatgattccattcgattccattcattggtgattccactcaattccAttCaAtgAttcctttccttttttttaaaaattgattccattagtttctattcgaggatccactggattccatttgacgatgattccattcgtgtc
+>hiseq_partial_overlap_pair_1995|D4ZHLFP1:36:C10H4ACXX:8:2203:14157:40988 1:N:0:CCAT|o:27|m/o:0.037037|MR:n=0;r1=1;r2=0|Q30:p=35;f=21|CO:0|mismatches:1
+taataagtataaataagatattttttattattaaagaaattaatataatatttatgtaaagttttttgcaaattttaaggatgaatgcaaaatGtaaatttaaatatatggatgatttttaagtatataccttattcttaaattgtttagaagaataactaagacttggtt
+>hiseq_partial_overlap_pair_2005|D4ZHLFP1:36:C10H4ACXX:8:2203:14568:40878 1:N:0:CCAT|o:31|m/o:0.032258|MR:n=0;r1=1;r2=0|Q30:p=33;f=19|CO:0|mismatches:1
+atccgtgaagcaggggctttgatcggtatagaacttctcgatcacatcattattggagataattgttatttcagtttaagggagaaaggAttcttttctaaagaatctgcaaatagataaggggatggagtgtatttatggccaggaatgtatatgggttagatctt
+>hiseq_partial_overlap_pair_2014|D4ZHLFP1:36:C10H4ACXX:8:2203:15044:40758 1:N:0:CCAT|o:32|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=32;f=16|CO:0|mismatches:0
+ctatagaatcttcacttctactagttacaattcttccttgatggaatgttattgcacagaatgaacagtttcctgagcatccccttgaacttactaaactaaacttaacctcttcaatagcagctatacccccatctttctcataaataggatggtaagttttttt
+>hiseq_partial_overlap_pair_2018|D4ZHLFP1:36:C10H4ACXX:8:2203:15049:40882 1:N:0:CCAT|o:20|m/o:0.250000|MR:n=0;r1=5;r2=0|Q30:p=38;f=14|CO:0|mismatches:5
+tttaattgatctacagtcattgaatttaacttataatcttcatttgctttttccagttctgaaactctattttttaaaGtttcCttttcCttttCgAgttaggcatttttatcgtaggagacagttttccctgccccatgtgatacaacattacccaaatcatcagtaatgtcaaatc
+>hiseq_partial_overlap_pair_2030|D4ZHLFP1:36:C10H4ACXX:8:2203:15531:40908 1:N:0:CCAT|o:37|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=19|CO:0|mismatches:0
+tcaaattttataactactgttaatgagacagcattttcttcattaaatgatttaggatatgatgtagataaaaataaagataatattattaagttaaaaaattctataatagctatagataaaaatatgagtgctattaaaaatatgcttaacaatataaa
+>hiseq_partial_overlap_pair_2036|D4ZHLFP1:36:C10H4ACXX:8:2203:16046:40957 1:N:0:CCAT|o:40|m/o:0.150000|MR:n=0;r1=6;r2=0|Q30:f=16;f=14|CO:0|mismatches:6
+tggttctgtaccatgccaaagaggatattcagttatatttaatttaataagcagtgtacTaaaTaaaACaaaaggaaCtataaatgatactaatActactaaaatatttttaagcttaaaagtaatgttttttttgaaaaaaagaaaaaaatacatta
+>hiseq_partial_overlap_pair_2041|D4ZHLFP1:36:C10H4ACXX:8:2203:16495:40839 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=17|CO:0|mismatches:0
+atttcctctatacttatatacatacgactaataacatcaatatttgtaaagtcattttctctttctttgctagcataatgagcaccttcataatgaagtggacgtgtaggatctaaggccctagcatattctaaccctctttcaaagttacacccaaatcctgactcatttccaaga
+>hiseq_partial_overlap_pair_2042|D4ZHLFP1:36:C10H4ACXX:8:2203:16415:40843 1:N:0:CCAT|o:36|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=30;f=18|CO:0|mismatches:0
+aaagctaaaaaaagtcctcaaaacagctttataagccatcttaagaactttcaactataaaattattattctttttatttagaaagaagtatgtatcttacttcatcattaaaaaaatcctttgttaattgtttaattatcaacttagaatctaaggatatg
+>hiseq_partial_overlap_pair_2059|D4ZHLFP1:36:C10H4ACXX:8:2203:17166:40808 1:N:0:CCAT|o:40|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=28;f=9|CO:0|mismatches:0
+ctctgtgttttcttccaattcataaagaagacccagaaatctgtgagctctgggatccatctctcgcacattaatgtaagtacatatgtatctgttttttaaaagtaatacaaaactaaattaaacttagaactgtacttttaaatgctaaccgaagg
+>hiseq_partial_overlap_pair_2063|D4ZHLFP1:36:C10H4ACXX:8:2203:17420:40934 1:N:0:CCAT|o:43|m/o:0.046512|MR:n=0;r1=2;r2=0|Q30:p=18;f=5|CO:0|mismatches:2
+agaaatctccaaactgctttcgacagtgactgaactaatttacattcctaccaacagtgtataagagttccCttttcTccacagctttgctaacatctggagttttttgactttttaataataaccattctgactggtgtgagatggtatcttac
+>hiseq_partial_overlap_pair_2066|D4ZHLFP1:36:C10H4ACXX:8:2203:17736:40827 1:N:0:CCAT|o:30|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=23;f=22|CO:0|mismatches:0
+tttttccaatctgatttcttgatatctgtattctcagaaagcaagttattctctgggtttcttggatctggactgagaaaagtaaagtctaccaaaaatgatcctcaatactcaatcatactcttatcctttaatcaggctcttaataactttatgtataaagtgttt
+>hiseq_partial_overlap_pair_2068|D4ZHLFP1:36:C10H4ACXX:8:2203:17618:40899 1:N:0:CCAT|o:36|m/o:0.138889|MR:n=0;r1=5;r2=0|Q30:p=30;f=6|CO:0|mismatches:5
+aggttcatttttaccatccttaccgactatatcttttgatatttcgtctaatcttcctctcaTaataatgtCttTaaAtttatatCtatttaaagttcttggtggaaataagtattaatattcccaatttcttaaatgtgctaagtgagataataatccaac
+>hiseq_partial_overlap_pair_2074|D4ZHLFP1:36:C10H4ACXX:8:2203:17946:40831 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=22|CO:0|mismatches:0
+gaaatgatgataaaagttccttaggagattggtttgttaatgaggggaaattaaagggtggacttagtaaacttgctaaggatataaataatatgggattagagtttggattatggtttgagcctgagatgatttcacctattagtaagctttatgaaaaacatccaaattggtg
+>hiseq_partial_overlap_pair_2076|D4ZHLFP1:36:C10H4ACXX:8:2203:17779:40865 1:N:0:CCAT|o:40|m/o:0.025000|MR:n=0;r1=1;r2=0|Q30:p=28;f=20|CO:0|mismatches:1
+atgctctttctgtaactggtgaacatggacttttaagcataaattcacaagagggttCtttaaatactcttataaaagaagttcaaagagatcctgtaactagaagggtattacatatagatttagaaaaggttgaaggtaatgaagaaatagaaacc
+>hiseq_partial_overlap_pair_2090|D4ZHLFP1:36:C10H4ACXX:8:2203:18294:40969 1:N:0:CCAT|o:33|m/o:0.090909|MR:n=0;r1=3;r2=0|Q30:p=32;f=20|CO:0|mismatches:3
+caagataataaaggacactatagatacacaatcatagaagaagaaaaaaatgaaatggttgataGatTaagCaatatattagccaatactgtaacttcagtagaaaatgttgataagatggttgttgttaaaacaatatcaggttcagcatctgcagcagcagag
+>hiseq_partial_overlap_pair_2103|D4ZHLFP1:36:C10H4ACXX:8:2203:18983:40908 1:N:0:CCAT|o:25|m/o:0.160000|MR:n=0;r1=4;r2=0|Q30:p=36;f=1|CO:0|mismatches:4
+aggagttggaacagataaaaataacatatatgaatatgtaatagaagtaaatataatacatgaaaggtagtgaaTaaatatgaCagCatttacAggatttttccaagtataaaatttaaaattaaagaagggaaaaaaaggaaaggaaagtcaatctaaagatatgcaccctg
+>hiseq_partial_overlap_pair_2104|D4ZHLFP1:36:C10H4ACXX:8:2203:18875:40934 1:N:0:CCAT|o:32|m/o:0.125000|MR:n=0;r1=4;r2=0|Q30:p=32;f=6|CO:0|mismatches:4
+attcctgttatcataattttcattatgcatataaaacatatagtcattatgatatctaaacaatatttaatAtGctgtttAttCatttttttatctcctaaattaattaaattctcctaacaatgaatttctgatttattccctagtcttttctccaaacataaaa
+>hiseq_partial_overlap_pair_2112|D4ZHLFP1:36:C10H4ACXX:8:2203:19150:40974 1:N:0:CCAT|o:15|m/o:0.266667|MR:n=0;r1=4;r2=0|Q30:p=41;f=0|CO:0|mismatches:4
+gcctttttatgataaaagtaacatagtagaaattattatagattactttgaaaaaaattatatgaataatatttctcttaatGatattTCaaaaaaTattttttttatttttttttttaaaaaaaaaacaaaaaaaaaaaaaaaaagagaaaaccctattatttattttataatttttttccg
+>hiseq_partial_overlap_pair_2118|D4ZHLFP1:36:C10H4ACXX:8:2203:19356:40941 1:N:0:CCAT|o:19|m/o:0.263158|MR:n=0;r1=5;r2=0|Q30:p=39;f=5|CO:0|mismatches:5
+tttattacacttaaaggtgcaactaatgaatctacaaatgaagccatattactttgagctataagtgtatgatcagattgAGAtgctaaaggAGaaattaaggtttttttaattaaaacttttttaagcttttttgttttaacaaatttttaaggcattttttttttttattgcatacc
+>hiseq_partial_overlap_pair_2119|D4ZHLFP1:36:C10H4ACXX:8:2203:19478:40952 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=25|CO:0|mismatches:0
+gccttttaattcgttctcaagggcagaggtctggttttgcagattgtctatcgtgtctgtagcatagacaggaagtgcagaaaatacaattgcaagggaacaaatgagcgcggtgcccgtatgtaacttgctttttttgtaaaatgccataatctcaatatcctttctttaaatg
+>hiseq_partial_overlap_pair_2132|D4ZHLFP1:36:C10H4ACXX:8:2203:20552:40841 1:N:0:CCAT|o:20|m/o:0.050000|MR:n=0;r1=1;r2=0|Q30:p=28;f=18|CO:0|mismatches:1
+tttccactttttattattgattgaagttcatttcctaattgtccgtttgaacctgttattaatattttcatagacttcctcctattaaccttcataTataaaaggaatatctaattcttttaaagttttttgtttcttatctttttctgataagattatttcttctattccttctaaa
+>hiseq_partial_overlap_pair_2134|D4ZHLFP1:36:C10H4ACXX:8:2203:20508:40915 1:N:0:CCAT|o:40|m/o:0.225000|MR:n=0;r1=9;r2=0|Q30:p=28;f=4|CO:0|mismatches:9
+atataaatgaagatatagttaaaaagttagaggaaatgcgcagaggtaagtagaactggtTgacGaaAgcgAtttttCtagaGtaTaattGttTaaaggttatagcagttaaattttagaagagggttgagagattatatttggaaggttttttagaa
+>hiseq_partial_overlap_pair_2135|D4ZHLFP1:36:C10H4ACXX:8:2203:20538:40964 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=10|CO:0|mismatches:0
+cgggaggcggagcttgcagtgagctgagattgcgccactgcagtccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaggtaggatattgcctgtcaggggggaataaaaataagcaggtgttaaaatgtttatttaactcattca
+>hiseq_partial_overlap_pair_2137|D4ZHLFP1:36:C10H4ACXX:8:2203:20774:40894 1:N:0:CCAT|o:22|m/o:0.090909|MR:n=0;r1=2;r2=0|Q30:p=37;f=13|CO:0|mismatches:2
+taaaaaaacttggaaaacaacttattcgagaacagaaaaatctttctcgaaagtatgaaaatttaaagaaaggagaatctactCaaaaagCaaatataaaaaaacagaggcttaaagtacagaaacttcatcataaaattgataacattcgtacggatcacatcaataaaacaatc
+>hiseq_partial_overlap_pair_2192|D4ZHLFP1:36:C10H4ACXX:8:2203:3806:41183 1:N:0:CCAT|o:38|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=29;f=10|CO:0|mismatches:0
+tgatgaaatacgtaagaaattctgtggaaatacttttaatctttgcacaattattaatggaaagagtggaagatgtagtgagaattgtaaatactgtgcgcagtcaattcatttcaatactaatgtaaatgaatatgatcttcttgatacaaaaataata
+>hiseq_partial_overlap_pair_2203|D4ZHLFP1:36:C10H4ACXX:8:2203:4612:41111 1:N:0:CCAT|o:25|m/o:0.040000|MR:n=0;r1=1;r2=0|Q30:p=36;f=24|CO:0|mismatches:1
+gtcattctctgcatactgttcaaattcttcttcaataatctcagaacaaatgtcaatacattcatcacaaatataaacattcttAccctttggtcccgcgatcagtttgcggacttggtcctgtgtcttattgcaaaaagaacatcttaatacttttttttcgtcattataac
+>hiseq_partial_overlap_pair_2206|D4ZHLFP1:36:C10H4ACXX:8:2203:4871:41016 1:N:0:CCAT|o:36|m/o:0.027778|MR:n=0;r1=1;r2=0|Q30:p=30;f=17|CO:0|mismatches:1
+gtttccgttccacaacagatattctgcattggaactatcgctcagagagtaaaatgcagtgagcaaatgCaaaaaaacagctataagactccatttttgaaatcttatagctttgctatacatgatattaagttgttattcaatatttggatttccaacgga
+>hiseq_partial_overlap_pair_2212|D4ZHLFP1:36:C10H4ACXX:8:2203:5016:41178 1:N:0:CCAT|o:43|m/o:0.023256|MR:n=0;r1=1;r2=0|Q30:p=27;f=15|CO:0|mismatches:1
+cttttcttctccctcaatctcaataagcttaactatatcctctttagtaacttcGtttaactttcctccacttattctaggatcaacaaaggtatttaatcctacatgagttatagttccaactctcttgccagctatatctctaaataattgag
+>hiseq_partial_overlap_pair_2215|D4ZHLFP1:36:C10H4ACXX:8:2203:5103:41207 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=26;f=25|CO:0|mismatches:0
+cctgtaaattacatactatatattggaggtttagaaattatgatgggttttcgagaatttgcgaaaagccaatatgatacgatcaaactaagagaccctgcgttaagggaagagaaagaagtttttttgtatccttatgtaaaagcactgtattggcatcgtgttgcgcacgaat
+>hiseq_partial_overlap_pair_2222|D4ZHLFP1:36:C10H4ACXX:8:2203:5671:41151 1:N:0:CCAT|o:18|m/o:0.111111|MR:n=0;r1=2;r2=0|Q30:p=39;f=8|CO:0|mismatches:2
+tttgctattccaattcctatagctttattgtatttaaagtataatcttaaaacctctatttgttctatgttattagtggAattttgaTtggatttttcaaggggttttttaaaggaatttaaattggccttaccaattgaaataatggttttgtttttaggacccttttttaaaaaaaaa
+>hiseq_partial_overlap_pair_2239|D4ZHLFP1:36:C10H4ACXX:8:2203:6674:41085 1:N:0:CCAT|o:34|m/o:0.264706|MR:n=0;r1=9;r2=0|Q30:p=31;f=7|CO:0|mismatches:9
+atgatttaaaaatgaatcaacctttaaaactgtttctgataatgcatttccttcttctaatatttttCttcGtaaGCttTcCAtttaACtttctctcttttcccttttttatacatataaaaatagtttttttttttatttttttttttaacaaatatttctgg
+>hiseq_partial_overlap_pair_2253|D4ZHLFP1:36:C10H4ACXX:8:2203:7227:41195 1:N:0:CCAT|o:22|m/o:0.136364|MR:n=0;r1=3;r2=0|Q30:p=37;f=13|CO:0|mismatches:3
+catctattagcgtaatagaagctgaaaagaaaaatttaagcaaacaaattgaagataatattacaaaaatttataatttgCaatttTaggtgagaGaatgaaataaaaaaaagatagtacagaacagaaataaagaggtgtttattataccccactaaaattggcagaaaaaatgg
+>hiseq_partial_overlap_pair_2266|D4ZHLFP1:36:C10H4ACXX:8:2203:7519:41239 1:N:0:CCAT|o:27|m/o:0.222222|MR:n=0;r1=6;r2=0|Q30:p=35;f=0|CO:0|mismatches:6
+ttatagatctctgccagttgtgtaatacttagatttctcttgaaaataaaaatataaatatcttcaattaaatcttCatagTcacgCtgGAtAttttaaaaatgtaaatatttgtatataagaaaaagttttttaaattcataattattaaattttatattaattatttca
+>hiseq_partial_overlap_pair_2277|D4ZHLFP1:36:C10H4ACXX:8:2203:7966:41226 1:N:0:CCAT|o:47|m/o:0.170213|MR:n=0;r1=8;r2=0|Q30:p=25;f=6|CO:0|mismatches:8
+tagaagctatgagcagtgttcaaaaattggaacaactctctgttaagccaaaaGaaaTcagActatCagttttacagagtGaattgCagGaaAcagcccggtttttagccctaccaaaaaaagtttctgttttagtcccatcagatgaaac
+>hiseq_partial_overlap_pair_2281|D4ZHLFP1:36:C10H4ACXX:8:2203:8048:41104 1:N:0:CCAT|o:27|m/o:0.148148|MR:n=0;r1=4;r2=0|Q30:p=35;f=8|CO:0|mismatches:4
+gccagaatgaaaagtgagatcgggattttatatttaaatgaattcaatgcatcggtccttgagaagatcatGaaagCaaatgatctCaaAttcacagaattatttgttgaaagcccgcatttttttatctgcgataagaccccgctggcacagaaagatcaagttacgatg
+>hiseq_partial_overlap_pair_2284|D4ZHLFP1:36:C10H4ACXX:8:2203:8442:41017 1:N:0:CCAT|o:28|m/o:0.035714|MR:n=0;r1=0;r2=1|Q30:f=22;f=23|CO:0|mismatches:1
+cttttccttcattacaatcaattccatgcttaatagcattttcaactataggttgtagaataaaatttaacatattattttgtaatCccttttcatctattctatattccacatcaaaactatatgaatgtgctattttctgaatttcaatataggattttatattatca
+>hiseq_partial_overlap_pair_2286|D4ZHLFP1:36:C10H4ACXX:8:2203:8474:41089 1:N:0:CCAT|o:19|m/o:0.105263|MR:n=0;r1=2;r2=0|Q30:p=39;f=8|CO:0|mismatches:2
+tgatggattaaaacgtatgggtgatgtgatgaacagacagtcattaaaagagacaaccaacggacagattccaaaagacagttccgtAtctCttcggggtgtaacatttgcaatcgaaggggcaaagaaaaaagcaggtgattatatttccaatgggattaaagggggaaaacatggcc
+>hiseq_partial_overlap_pair_2289|D4ZHLFP1:36:C10H4ACXX:8:2203:8706:41175 1:N:0:CCAT|o:29|m/o:0.206897|MR:n=0;r1=6;r2=0|Q30:p=34;f=3|CO:0|mismatches:6
+aaaaaagtttggaatgagaaaagaggtaaaaatgacaaataaggaactaaagaaaaatttagaggattgtgttaattgTggActttGCtaCaaGgttttgccaaatgtgaattcttttggaagaaagtccaaaaaaaaaataaaagaaaaaaaaaaaaaaaaaaaaaag
+>hiseq_partial_overlap_pair_2291|D4ZHLFP1:36:C10H4ACXX:8:2203:8876:41026 1:N:0:CCAT|o:45|m/o:0.155556|MR:n=0;r1=7;r2=0|Q30:p=26;f=15|CO:0|mismatches:7
+gctccccacagatttctctatgataataacacagaaatgcgtttaaaaaaagActGAttttccaatcagtCtttttctataacAtGttAttttaaattttttgtaatatgaacttggaagcttttttgtttttactgtttttccgtttttaaa
+>hiseq_partial_overlap_pair_2298|D4ZHLFP1:36:C10H4ACXX:8:2203:9154:41077 1:N:0:CCAT|o:51|m/o:0.019608|MR:n=0;r1=1;r2=0|Q30:p=22;f=10|CO:0|mismatches:1
+tatataggataaatatagttaaggaggaagtatgaaagttagggctaTaaaaagttttttagcaactacaatggcaatgacttttttagttagtatgggacaaggatctatattaactaaggcaaatactataaataatatgaaatt
+>hiseq_partial_overlap_pair_2306|D4ZHLFP1:36:C10H4ACXX:8:2203:9275:41213 1:N:0:CCAT|o:43|m/o:0.046512|MR:n=0;r1=2;r2=0|Q30:p=27;f=11|CO:0|mismatches:2
+taactctccaagttttaaccagaaagattatttagtccctgaacagaccagtaaTgaattaCaaaattcaaccactaataaaaagcctgccaaccagaaaattctaggaccaagtggattcacagccaaattctaccagatccataaagaagagg
+>hiseq_partial_overlap_pair_2314|D4ZHLFP1:36:C10H4ACXX:8:2203:9552:41180 1:N:0:CCAT|o:27|m/o:0.296296|MR:n=0;r1=8;r2=0|Q30:p=35;f=16|CO:0|mismatches:8
+atctaatagaggtttatctgaaagtgaatctgaaaacatatatgagtttttataatctacctctatattatGttCttGtAaGtAttccttAaGcctttttacccttttttccccctttccatttcccccctcccattttcctttcaacctttccttcattaaatgagaccc
+>hiseq_partial_overlap_pair_2315|D4ZHLFP1:36:C10H4ACXX:8:2203:9747:41205 1:N:0:CCAT|o:18|m/o:0.055556|MR:n=0;r1=1;r2=0|Q30:p=39;f=25|CO:0|mismatches:1
+ctgatgggcggccaggcgttggatgagctgaaaaaatatgaagcagtgagaaaagaacaaaagaaaaagaattaaaaaaataaGttcagtcgaattgtttgactgaacttattttaatggtgtttttatttttctttctttgagaaaaatctttttttcttctttttctctggaatatca
+>hiseq_partial_overlap_pair_2325|D4ZHLFP1:36:C10H4ACXX:8:2203:10488:41065 1:N:0:CCAT|o:17|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=40;f=19|CO:0|mismatches:0
+tcttaataatcagtatggagtctactctgctataaattctcatgtgacattccattttgcaattagtataactcttaaaggtactgaaaagtgcagtattacaataagttgtcaaaggcatcccatttctatgaagtccatgaagtttaaaaattttaaatttatctcttattttcaaacc
+>hiseq_partial_overlap_pair_2339|D4ZHLFP1:36:C10H4ACXX:8:2203:10858:41218 1:N:0:CCAT|o:31|m/o:0.225806|MR:n=0;r1=7;r2=0|Q30:p=33;f=9|CO:0|mismatches:7
+ttggaattgattttatttctaattctctaagggtaatagctaaatctattctatctaaaaatgtttcTccaagGcCaAttatTccTcctgaGcatacttctaacccagcttccttagctttttttatagtctttcctctttcctcataagaatgagttttgcatatt
+>hiseq_partial_overlap_pair_2340|D4ZHLFP1:36:C10H4ACXX:8:2203:11153:41025 1:N:0:CCAT|o:27|m/o:0.185185|MR:n=0;r1=5;r2=0|Q30:p=35;f=1|CO:0|mismatches:5
+cccaaatgaaaagagagccggcctgttgtgtttttatcaaataggaggtgccagtgcagataaactttgcccACtttgtaTcCTagaaggtacagatttgtgtcatggaggggcccctcccccaaccattttggtgcatttagagaagtgtcatctttggagaggaatgcc
+>hiseq_partial_overlap_pair_2341|D4ZHLFP1:36:C10H4ACXX:8:2203:11048:41043 1:N:0:CCAT|o:38|m/o:0.236842|MR:n=0;r1=9;r2=0|Q30:p=29;f=9|CO:0|mismatches:9
+tgaagaatacctgccgctgattacccagcagcaggaagaagagctggacaaagagcaggTcggctTccTcgcCGaagAgGcAcccgacaacgtCaaacccatgccccgacccaaaggctccttcaacagcaatgtcaatattcaagaccacggcgagagc
+>hiseq_partial_overlap_pair_2343|D4ZHLFP1:36:C10H4ACXX:8:2203:11179:41094 1:N:0:CCAT|o:30|m/o:0.033333|MR:n=0;r1=1;r2=0|Q30:p=33;f=19|CO:0|mismatches:1
+aataataatccttcttctggtataacaatctttttagttggatttggggtcttcatatccaatacattattttcaTaaactaacagttcattaaataatgataaattatagctatttggattaatcctgttttcatcaaaaggttcgattaatatatcttttccgatg
+>hiseq_partial_overlap_pair_2347|D4ZHLFP1:36:C10H4ACXX:8:2203:11215:41212 1:N:0:CCAT|o:29|m/o:0.034483|MR:n=0;r1=1;r2=0|Q30:p=34;f=18|CO:0|mismatches:1
+atataaaattcaatatcatttaaatttctttcatttatagagtttttaagattttcctttacattctctatttcaagtgtgtataaatcattaGttttatccttattaaccctaataatccttgattcaaaatcataaatattttcctttatattatttaatcccttta
+>hiseq_partial_overlap_pair_2355|D4ZHLFP1:36:C10H4ACXX:8:2203:11465:41164 1:N:0:CCAT|o:18|m/o:0.166667|MR:n=0;r1=3;r2=0|Q30:p=39;f=11|CO:0|mismatches:3
+caaagagcttcgcgaggaagagcatgcaacgacagctattcttctggatacaaagggaccagagatccgtacaggtgttcTGaaaGacggaaagaagattaagcttgaaacagggaagacctttacacttactacagaagatattgttggtgatgaaaataaagtatctatcacatataa
+>hiseq_partial_overlap_pair_2363|D4ZHLFP1:36:C10H4ACXX:8:2203:11950:41045 1:N:0:CCAT|o:41|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=28;f=12|CO:0|mismatches:0
+ttgtaaaattgttgaattaaattgtcaataaatcactaatttttaatatattacatctacaataagtaccaacctgtgattgtagaacttcatatggaggaatatctatttgaaaaagactatgtatttgtaaattatgatcagagaagtgcaaacc
+>hiseq_partial_overlap_pair_2373|D4ZHLFP1:36:C10H4ACXX:8:2203:12158:41217 1:N:0:CCAT|o:18|m/o:0.055556|MR:n=0;r1=1;r2=0|Q30:p=39;f=11|CO:0|mismatches:1
+actgctttattatctttatatttctaggaatcatatatgatggtataagctttccaagttctttttttatagaaattccatttttTaaattacttaatccattatcctcttttagttcaacaaatgcagttaaatatgctattttatcatctttgtttacaggtacaacagctgcatttc
+>hiseq_partial_overlap_pair_2377|D4ZHLFP1:36:C10H4ACXX:8:2203:12283:41130 1:N:0:CCAT|o:15|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=41;f=24|CO:0|mismatches:0
+ataatggcattcattgtaccaaagaatttcaaaagtcaaattttttaaggatcatatggaatattttccaaaaatgctgggccataaagaaggcctcaatcaatgaatttatgaaaatagaataaaacagatcatgtgcttgatcataataaggttaaaaaccaataacaaaaagaaaagtaa
+>hiseq_partial_overlap_pair_2390|D4ZHLFP1:36:C10H4ACXX:8:2203:13223:41170 1:N:0:CCAT|o:35|m/o:0.085714|MR:n=0;r1=3;r2=0|Q30:p=24;f=16|CO:0|mismatches:3
+taacagcagataatataaatacagtaaacgctgatgtaataaccaataataagggagctaaaaCtAcatGtacaggtcttactgacatcttggctaaaggtcaaaagggttatgataaaaggccactaattattcgtatgataggtcaaatcaattcatctga
+>hiseq_partial_overlap_pair_2426|D4ZHLFP1:36:C10H4ACXX:8:2203:14880:41151 1:N:0:CCAT|o:37|m/o:0.027027|MR:n=0;r1=1;r2=0|Q30:p=30;f=21|CO:0|mismatches:1
+ctaacctttatagtttcttcttctgtaactggtcttaatccaccgtcaacttttaagtctCtttgaggtatgttgtagtcatcaaagtcttctgcatcaaagtttgatccagcaaacatgttatcgtagtttggaactgcactatatcctgagaatatgaa
+>hiseq_partial_overlap_pair_2429|D4ZHLFP1:36:C10H4ACXX:8:2203:15204:41062 1:N:0:CCAT|o:20|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=21|CO:0|mismatches:0
+tcttaggtaaagaagacaaatatgtaattgtaagacttgcatcaggtgaagttagaaaattattatctgtatgtagagctacagttggtgttgtcggaaatgaagatcatggtttagtaaactatggtaaagctggacgtatgagatggaaaggtgttagacctacagttcgtggttt
+>hiseq_partial_overlap_pair_2439|D4ZHLFP1:36:C10H4ACXX:8:2203:15404:41138 1:N:0:CCAT|o:21|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=38;f=26|CO:0|mismatches:0
+attttaaccatttaaaattatcatagacttcactcattaatttagtaaaatcttttttgaggctttcccatgataaaccttggtttctttctggatctaatatatcatcaggatgtataaaatgagaaaatacaccgtttatagttaaaccattatatatcatccatctatcaaatc
+>hiseq_partial_overlap_pair_2462|D4ZHLFP1:36:C10H4ACXX:8:2203:16649:41159 1:N:0:CCAT|o:24|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=36;f=23|CO:0|mismatches:0
+cctttgtcttcaaaagtatacatttccttttgaaccacgtcagtagtttctccaactcctcttttgaaaagttcagttgcctcaaacataggagttctgatctctctaattccatattcagctgatatttttcttaacttttcttctatataatgccatttataagcgtcattt
+>hiseq_partial_overlap_pair_2484|D4ZHLFP1:36:C10H4ACXX:8:2203:17845:41061 1:N:0:CCAT|o:40|m/o:0.075000|MR:n=0;r1=3;r2=0|Q30:p=28;f=11|CO:0|mismatches:3
+aattatgatccaggcaataagctacatccagacgcagtccgtctatgccgaactcttCaatccacatCttgacacagtCaagcagatagtcgacaactgcaggattctgcagatttaatttaacaagttcaaaatgaccttcccatccttcatcccag
+>hiseq_partial_overlap_pair_2490|D4ZHLFP1:36:C10H4ACXX:8:2203:18004:41035 1:N:0:CCAT|o:23|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:p=37;f=15|CO:0|mismatches:0
+catcctcaattcctcttataatttctccatcaaaatttgttgacacatctggtataattattccaattgttctagtaatgttagtagaaagccatcttgcaatagcttttcctctgtatcccaattcttctacagcttttaacacattatttttcgtcttatcagaatatcctcc
+>hiseq_partial_overlap_pair_2494|D4ZHLFP1:36:C10H4ACXX:8:2203:18029:41192 1:N:0:CCAT|o:96|m/o:0.000000|MR:n=0;r1=0;r2=0|Q30:f=0;p=2|CO:0|mismatches:0
+ggcgcgttccatcatgattgaaatccgtgaaggtcgcggctgtgatggtccgtgggggccacatgcgaaactgaaactcgaccacctgggtaaagaagttct
+>hiseq_partial_overlap_pair_2498|D4ZHLFP1:36:C10H4ACXX:8:2203:18254:41236 1:N:0:CCAT|o:18|m/o:0.166667|MR:n=0;r1=3;r2=0|Q30:p=39;f=15|CO:0|mismatches:3
+ggtctctcttgaattcgtgagcgtctgttccacaaacaccacatccttcaactttaacaagaatatctccgtcaccaactTccggcatcggatActCtttgatctcaaaatgctcaagtgctgtaagcatagctacatgagctgtctttggaatttcatttcctgctgctttctgtgccc
