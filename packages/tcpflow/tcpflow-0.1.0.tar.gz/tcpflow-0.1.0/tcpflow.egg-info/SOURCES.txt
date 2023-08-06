@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+tcpflow/__init__.py
+tcpflow/tcpflow.py
+tcpflow.egg-info/PKG-INFO
+tcpflow.egg-info/SOURCES.txt
+tcpflow.egg-info/dependency_links.txt
+tcpflow.egg-info/requires.txt
+tcpflow.egg-info/top_level.txt
