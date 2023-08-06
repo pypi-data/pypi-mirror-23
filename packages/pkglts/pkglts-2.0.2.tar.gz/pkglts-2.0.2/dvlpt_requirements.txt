@@ -1,0 +1,13 @@
+# {# pkglts, pysetup
+coverage
+coveralls
+flake8
+mock
+nbconvert
+pytest
+pytest-cov
+sphinx
+tox
+twine
+
+# #}
