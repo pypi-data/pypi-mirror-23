@@ -1,0 +1,16 @@
+reddit_persona/__init__.py,sha256=XNxUOhTQ8mHPboYSHfYu6yptkaGEtsy5xBs4uWdl7jA,533
+reddit_persona/__main__.py,sha256=qXZSMwjIEYaUdQq3XR32j3byYNSuFTziRTHmypJ99-Q,59
+reddit_persona/go.py,sha256=owHUsx0IvKHQfifa-E6ZdTEIFbvspLvdwpqRj55wT38,1021
+reddit_persona/indicoKey.txt,sha256=-B8CYLaA0hVwqsh8olVzsZCLyOzyGpPNhSoCDsKlzqg,32
+reddit_persona/insights.py,sha256=BLgiPu2xduLozaeMPmE-Fl4JArhB-kP5XCBuW1zct8M,5186
+reddit_persona/io_helper.py,sha256=m8ErzTantAjpH6FmbJ2XkilyM9ZFQWlp3-7GAMpCu6s,927
+reddit_persona/keycheck.py,sha256=_p_GU_YZCA9kUzQdjoNV-AC6I6aR-_gChA1V6Hw5-Kw,1212
+reddit_persona/reddit_creds.json,sha256=tcjnhFyHtiuDZg8z8UU-2sLRv-FCfbAVNQUOBGSiIT8,194
+reddit_persona/reddit_get.py,sha256=VjrMFyeam3TmvWqAAJrSiZk_iqo0ci3UWY2KKDS7lZM,2117
+reddit_persona/requirements.txt,sha256=k7nfUxbO5lLQXEkJu4GE-xp5Ogca4fKoBRopyokDfGo,28
+reddit_persona/setup.py,sha256=_08MC0KeomL4rwWSQU-CAEdorpaJE47vjb9qAm9PUIA,124
+reddit_persona/test.py,sha256=I6IBJo9KNZwODpQr02WoYbyiAxIyz337jQ1z0JOztEU,85
+reddit_persona/cache/user/.placeholder,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reddit_persona-1.2.2.dist-info/WHEEL,sha256=jxKvNaDKHDacpaLi69-vnLKkBSynwBzmMS82pipt1T0,100
+reddit_persona-1.2.2.dist-info/METADATA,sha256=IrNoqyWahhoUFqqlQ8IwowhRa_HlIGw9IN685K6x-2o,288
+reddit_persona-1.2.2.dist-info/RECORD,,
