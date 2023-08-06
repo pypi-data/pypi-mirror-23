@@ -1,0 +1,13 @@
+setup.py
+wei_dev/__init__.py
+wei_dev/__main__.py
+wei_dev/constants.py
+wei_dev/gui.py
+wei_dev/sample_msg.py
+wei_dev/sender.py
+wei_dev/templates.py
+wei_dev.egg-info/PKG-INFO
+wei_dev.egg-info/SOURCES.txt
+wei_dev.egg-info/dependency_links.txt
+wei_dev.egg-info/requires.txt
+wei_dev.egg-info/top_level.txt
