@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: hexprint
+Version: 0.0.2
+Summary: A utility for printing raw bytes to the console or converting a string like `1b 20 f9` or `1B20F9` into the bytes b'\x1b\x20\xf9'.
+Home-page: https://github.com/9999years/hexprint
+Author: Rebecca Turner
+Author-email: 637275@gmail.com
+License: MIT
+Keywords: io lowlevel hex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+
+https://github.com/9999years/hexprint
+
+
