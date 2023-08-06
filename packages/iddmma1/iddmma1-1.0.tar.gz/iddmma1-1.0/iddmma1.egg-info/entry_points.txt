@@ -1,0 +1,3 @@
+[console_scripts]
+iddmma1 = iddmma1:main
+
