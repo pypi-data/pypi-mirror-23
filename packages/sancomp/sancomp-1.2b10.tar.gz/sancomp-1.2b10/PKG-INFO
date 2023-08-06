@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: sancomp
+Version: 1.2b10
+Summary: Sandwich Structures Analysis Software
+Home-page: https://github.com/douglaskorvo/sancomp
+Author: Douglas Rodrigues
+Author-email: douglas.souza85@gmail.com
+License: GPL 3.0
+Description: UNKNOWN
+Keywords: sandwich structures analysis software
+Platform: UNKNOWN
+Requires-Python: ==2.7
