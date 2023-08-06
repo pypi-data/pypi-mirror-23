@@ -1,0 +1,5 @@
+click
+lxml
+prettytable
+jinja2
+configobj
