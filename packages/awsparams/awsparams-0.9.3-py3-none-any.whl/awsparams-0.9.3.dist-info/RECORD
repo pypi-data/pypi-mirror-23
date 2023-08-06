@@ -1,0 +1,13 @@
+awsparams/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsparams/awsparams.py,sha256=zL0iXPRJmmjAOMM39jkU79o37xmO2l9o6j0gwOmIqoU,8067
+awsparams-0.9.3.dist-info/DESCRIPTION.rst,sha256=gY77i897QwfplN7BAcB7FSKxFHEz13c2Hb6q1Sbbjnk,2489
+awsparams-0.9.3.dist-info/METADATA,sha256=0RB1TO3yOZXCNzM1S-oUiDVeSqvT0_6Ta76o1Aq5VNs,3383
+awsparams-0.9.3.dist-info/RECORD,,
+awsparams-0.9.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+awsparams-0.9.3.dist-info/entry_points.txt,sha256=cxUu9-COPNmKuifBGp6h2wyupPFAwPc3DP0jJODltAI,56
+awsparams-0.9.3.dist-info/metadata.json,sha256=S_d5bsGEpD2vNJYE_LtlS1SVYsb96cS7yFMENdt7ZqI,1175
+awsparams-0.9.3.dist-info/top_level.txt,sha256=56ma9OYVR4mFMH3V8f4qTETbx4ZZoAEn79CSERoAZa8,15
+awsparams-0.9.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/awsparams/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/awsparams/test_awsparams.py,sha256=Ge0s-1ESd4HK4S_cc3CnAxx67SiY7ybyadCYE1CXYt8,2325
