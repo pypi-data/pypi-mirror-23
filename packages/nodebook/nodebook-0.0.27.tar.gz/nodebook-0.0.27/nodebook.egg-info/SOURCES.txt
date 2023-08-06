@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+ipython/extensions/nodebookext.py
+ipython/nbextensions/nodebookext.js
+nodebook/__init__.py
+nodebook/nodebookcore.py
+nodebook/pickledict.py
+nodebook/utils.py
+nodebook.egg-info/PKG-INFO
+nodebook.egg-info/SOURCES.txt
+nodebook.egg-info/dependency_links.txt
+nodebook.egg-info/requires.txt
+nodebook.egg-info/top_level.txt

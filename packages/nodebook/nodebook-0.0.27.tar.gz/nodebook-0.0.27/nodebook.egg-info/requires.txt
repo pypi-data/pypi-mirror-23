@@ -1,0 +1,7 @@
+ipython<=5.3
+jupyter
+click
+dill
+msgpack-python
+pandas
+pytest-runner
