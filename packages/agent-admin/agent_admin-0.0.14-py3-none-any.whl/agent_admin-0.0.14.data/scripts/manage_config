@@ -1,0 +1,5 @@
+#!python
+from admin.agent_config_manager import AgentConfigUpdater
+
+if __name__ == "__main__":
+    AgentConfigUpdater().start()
