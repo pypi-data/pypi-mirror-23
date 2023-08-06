@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+regenmaschine.egg-info/PKG-INFO
+regenmaschine.egg-info/SOURCES.txt
+regenmaschine.egg-info/dependency_links.txt
+regenmaschine.egg-info/requires.txt
+regenmaschine.egg-info/top_level.txt
