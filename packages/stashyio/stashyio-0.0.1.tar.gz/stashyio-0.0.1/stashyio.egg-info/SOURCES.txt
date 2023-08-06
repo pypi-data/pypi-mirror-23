@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+stashyio/__init__.py
+stashyio/stashy.py
+stashyio.egg-info/PKG-INFO
+stashyio.egg-info/SOURCES.txt
+stashyio.egg-info/dependency_links.txt
+stashyio.egg-info/top_level.txt
