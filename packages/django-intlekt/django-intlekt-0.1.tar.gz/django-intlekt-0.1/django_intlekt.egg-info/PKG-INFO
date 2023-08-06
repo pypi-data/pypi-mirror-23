@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: django-intlekt
+Version: 0.1
+Summary: Django app for Intlekt, a content curation application using the IEML language.
+Home-page: https://github.com/IEMLdev/django-intlekt
+Author: Vincent Lefoulon
+Author-email: vincent.lefoulon@free.fr
+License: GPLv3
+Description: # Django Intlekt
+        
+        A Django app for Intlekt, the content curation application using the IEML language.
+        
+        ## Install
+        
+        Requirements:
+        
+        * MongoDB **3.2** (can be installed with Docker)
+        
+        ```
+        git clone https://github.com/IEMLdev/django-intlekt
+        cd django-intlekt
+        python setup.py install
+        ```
+        
+        ```python
+        # django_project/settings.py
+        
+        INSTALLED_APPS = [
+            # ...
+            'rest_framework',
+            'rest_framework_mongoengine',
+            # 'rest_framework.authtoken',
+            # 'corsheaders',
+            'django_intlekt',
+        ]
+        
+        from mongoengine import connect
+        connect(...)
+        ```
+        
+Keywords: ieml intlekt semantic syntax language indexing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Text Processing :: Indexing

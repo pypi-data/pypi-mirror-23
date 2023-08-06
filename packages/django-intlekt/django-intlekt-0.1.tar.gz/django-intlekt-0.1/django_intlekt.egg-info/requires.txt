@@ -1,0 +1,7 @@
+mongoengine
+blinker
+django
+djangorestframework
+django-rest-framework-mongoengine
+drf-nested-routers
+pycountry
