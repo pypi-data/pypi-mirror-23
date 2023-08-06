@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: undoable-transaction
+Version: 0.1.0
+Summary: Undoable transaction
+Home-page: https://github.com/nbigot/python-undoable-transaction
+Author: Nicolas Bigot
+Author-email: nicbigot@gmail.com
+License: MIT
+Download-URL: https://github.com/nbigot/python-undoable-transaction/archive/0.1.0.tar.gz
+Keywords: undo,undoable,transaction
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+Undoable transaction
+
+
