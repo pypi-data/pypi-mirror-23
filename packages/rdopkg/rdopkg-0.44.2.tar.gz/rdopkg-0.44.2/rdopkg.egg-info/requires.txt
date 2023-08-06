@@ -1,0 +1,9 @@
+blessings
+bunch
+future
+paramiko
+pbr>=0.5.6
+PyYAML
+pymod2pkg
+requests
+six
