@@ -1,0 +1,16 @@
+README.rst
+setup.py
+splutter/__init__.py
+splutter/art.py
+splutter/colors.py
+splutter/core.py
+splutter/exceptions.py
+splutter/keys.py
+splutter/table.py
+splutter/text.py
+splutter/widgets.py
+splutter/window.py
+splutter.egg-info/PKG-INFO
+splutter.egg-info/SOURCES.txt
+splutter.egg-info/dependency_links.txt
+splutter.egg-info/top_level.txt
