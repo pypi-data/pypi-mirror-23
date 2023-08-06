@@ -1,0 +1,8 @@
+README.rst
+setup.py
+mir.ytplay.egg-info/PKG-INFO
+mir.ytplay.egg-info/SOURCES.txt
+mir.ytplay.egg-info/dependency_links.txt
+mir.ytplay.egg-info/top_level.txt
+mir/ytplay/__init__.py
+mir/ytplay/__main__.py
