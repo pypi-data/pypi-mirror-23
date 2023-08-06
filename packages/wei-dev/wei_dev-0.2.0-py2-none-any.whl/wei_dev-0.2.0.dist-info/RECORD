@@ -1,0 +1,13 @@
+wei_dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wei_dev/__main__.py,sha256=ECMmBwHu53p2G5nWlmPXteP4iuZno8YDq6b-Xbm79Hw,843
+wei_dev/constants.py,sha256=oBSWov3tSp0XOmbgRaqPoC385QuEfqEvdSe3riToA9A,145
+wei_dev/gui.py,sha256=vaG09zDssgoxSok5TXpntd012D0622wF6CvOFmxYsWM,5020
+wei_dev/sample_msg.py,sha256=LgDTnzz7YJXtOMEKl7p5sC5nnZ1LKTwi3TxYjaMFJRo,4567
+wei_dev/sender.py,sha256=cdNt_CK7zcA67JCQb_jM0dTAQ5qLOQRBv046I4T9ET4,1633
+wei_dev/templates.py,sha256=ecg32v2FbC2BDEpwY2FU7O9vH2XsO1Z75NV4d0GucXk,631
+wei_dev-0.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+wei_dev-0.2.0.dist-info/METADATA,sha256=zRh7O20MS4NzbTdcaOLWtXW9B5rCcYpZFrHSgIsB4KU,307
+wei_dev-0.2.0.dist-info/RECORD,,
+wei_dev-0.2.0.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+wei_dev-0.2.0.dist-info/metadata.json,sha256=2iZzm3vKUlX7Qeh1eNq8mELwJP-wvMoZFgBLWb-kC7A,378
+wei_dev-0.2.0.dist-info/top_level.txt,sha256=Uonlcp6gX4oU1o5DDAIWJYspZ04px3gaf8yeirr6T-4,8

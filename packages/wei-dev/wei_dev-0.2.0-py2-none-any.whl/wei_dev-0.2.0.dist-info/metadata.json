@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.30.0.a0)", "metadata_version": "2.0", "name": "wei-dev", "run_requires": [{"requires": ["cmdtree", "requests"]}], "summary": "DevTool for weichat development and testing, GUI and CLI tool and testing util-library included.", "version": "0.2.0"}
