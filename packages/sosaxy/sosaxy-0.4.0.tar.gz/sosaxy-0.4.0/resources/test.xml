@@ -1,0 +1,20 @@
+<records>
+  <record attr="lorem">
+    <elem><![CDATA[
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    ]]></elem>
+  </record>
+  <record attr="lorem">
+    <elem eattr="ipsum">Contrary to popular belief, Lorem Ipsum is not simply random text.</elem>
+    <elem>more stuff</elem>
+  </record>
+  <record>    
+    <elem eattr="grrrh">textss</elem>
+  </record>
+  <record attr="lorem">
+    <elem><![CDATA[
+    Boatswain mizzenmast lookout overhaul case shot hornswaggle salmagundi maroon squiffy belay. List jib aft mizzenmast Letter of Marque squiffy poop deck heave to matey careen. Blow the man down scallywag run a rig Letter of Marque man-of-war Sea Legs topmast rope's end lanyard parrel.
+    To go on account gangway nipper killick execution dock barkadeer draught cable starboard Yellow Jack. Davy Jones' Locker bilge water me Jolly Roger scuttle marooned fathom take a caulk landlubber or just lubber Barbary Coast. Heave to booty league barque dead men tell no tales chase Jack Ketch jib hardtack rutters.
+    Tack yard starboard lugsail rutters American Main Letter of Marque quarterdeck hardtack interloper. Hempen halter coffer main sheet red ensign poop deck Plate Fleet draught loaded to the gunwalls hands scuppers. Nipperkin capstan Cat o'nine tails cable jolly boat chantey hardtack cog knave plunder.]]></elem>
+  </record>
+</records>

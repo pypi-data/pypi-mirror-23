@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+resources/test.xml
+sosaxy/__init__.py
+sosaxy/command_line.py
+sosaxy/record_stream.py
+sosaxy/utils.py
+sosaxy.egg-info/PKG-INFO
+sosaxy.egg-info/SOURCES.txt
+sosaxy.egg-info/dependency_links.txt
+sosaxy.egg-info/entry_points.txt
+sosaxy.egg-info/not-zip-safe
+sosaxy.egg-info/top_level.txt
