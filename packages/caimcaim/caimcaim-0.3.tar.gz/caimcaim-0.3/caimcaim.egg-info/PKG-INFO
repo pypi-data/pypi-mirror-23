@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: caimcaim
+Version: 0.3
+Summary: CAIM
+Home-page: https://github.com/airysen/caimcaim
+Author: Arseniy Kustov
+Author-email: me@airysen.co
+License: MIT
+Description: CAIM Discretization Algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
