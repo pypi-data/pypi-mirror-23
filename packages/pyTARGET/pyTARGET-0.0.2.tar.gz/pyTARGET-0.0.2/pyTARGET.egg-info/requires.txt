@@ -1,0 +1,9 @@
+numpy
+scipy
+statsmodels
+
+[test]
+coverage
+
+[dev]
+check-manifest
