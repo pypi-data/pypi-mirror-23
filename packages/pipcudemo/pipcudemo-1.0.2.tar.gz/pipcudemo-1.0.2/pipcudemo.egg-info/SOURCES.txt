@@ -1,0 +1,12 @@
+MANIFEST.in
+myCuda.cu
+myCuda.cuh
+mylib.h
+setup.py
+testDriver.cpp
+pipcudemo/__init__.py
+pipcudemo/core.cpp
+pipcudemo.egg-info/PKG-INFO
+pipcudemo.egg-info/SOURCES.txt
+pipcudemo.egg-info/dependency_links.txt
+pipcudemo.egg-info/top_level.txt
