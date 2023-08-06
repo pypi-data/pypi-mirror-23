@@ -1,0 +1,6 @@
+sendgrid>=3,<4
+tctc_envelopes==0.5
+
+[test]
+pytest
+mock
