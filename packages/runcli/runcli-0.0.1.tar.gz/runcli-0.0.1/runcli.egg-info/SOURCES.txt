@@ -1,0 +1,12 @@
+setup.py
+/work/bin/run
+runcli/__init__.py
+runcli/runcli.py
+runcli/test_runcli.py
+runcli/utils.py
+runcli.egg-info/PKG-INFO
+runcli.egg-info/SOURCES.txt
+runcli.egg-info/dependency_links.txt
+runcli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_endtoend.py
