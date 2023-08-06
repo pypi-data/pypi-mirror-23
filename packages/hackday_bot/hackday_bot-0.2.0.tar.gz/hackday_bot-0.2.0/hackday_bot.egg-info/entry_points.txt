@@ -1,0 +1,3 @@
+[console_scripts]
+hackday_bot = hackday_bot.cli:main
+

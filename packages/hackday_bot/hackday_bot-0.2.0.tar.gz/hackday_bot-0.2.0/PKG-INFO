@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: hackday_bot
+Version: 0.2.0
+Summary: A Reddit bot that helps facilitate the creation and selection of ideas for a hack day.
+Home-page: https://github.com/bboe/hackday_bot
+Author: Bryce Boe
+Author-email: bbzbryce@gmail.com
+License: Simplified BSD License
+Description: Hackday Bot
+        ===========
+        
+        .. image:: https://img.shields.io/pypi/v/hackday_bot.svg
+           :alt: Latest hackday_bot version
+           :target: https://pypi.python.org/pypi/hackday_bot
+        
+        A Reddit bot that helps facilitate the creation and selection of ideas for a
+        hack day.
+        
+        
+        Installation
+        ------------
+        
+        Install hackday_bot via:
+        
+        .. code-block:: bash
+        
+           pip install hackday_bot
+        
+        
+        Copyright and License
+        ---------------------
+        
+        Source released under the Simplified BSD License.
+        
+        * Copyright (c), 2017, Bryce Boe
+        
+Keywords: reddit bot hackday
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
