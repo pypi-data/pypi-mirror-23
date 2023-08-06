@@ -1,0 +1,9 @@
+appdirs
+colorthief
+coverage
+olefile
+packaging
+Pillow
+pyparsing
+six
+webcolors
