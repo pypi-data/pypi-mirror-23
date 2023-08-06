@@ -1,0 +1,7 @@
+README.rst
+canni.py
+setup.py
+canni.egg-info/PKG-INFO
+canni.egg-info/SOURCES.txt
+canni.egg-info/dependency_links.txt
+canni.egg-info/top_level.txt
