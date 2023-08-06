@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: persian-wordcloud
+Version: 1.0.1
+Summary: Persian Word Cloud Generator
+Home-page: https://github.com/Mehotkhan/persian-word-cloud
+Author: Ali Zemani
+Author-email: mehot1@gmail.coom
+License: MIT
+Description: Persian Word Cloud Generator
+Keywords: persian,wordcloud
+Platform: UNKNOWN
