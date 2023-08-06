@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: jenkins_badges
+Version: 1.0
+Summary: provides badge images based on jenkins data
+Home-page: https://github.com/jeremyarr/jenkins_badges
+Author: Jeremy Arr
+Author-email: jeremyarr@gmail.com
+License: MIT
+Description: A flask server that provides badge images based on data from jenkins
+Keywords: jenkins,coverage,cobertura,badges,shields,github
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
