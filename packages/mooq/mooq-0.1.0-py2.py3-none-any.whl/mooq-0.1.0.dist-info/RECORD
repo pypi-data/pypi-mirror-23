@@ -1,0 +1,12 @@
+mooq/__init__.py,sha256=IAjh5GwiMu-lz3IA_ba3woKwBjK5QxtywoqVGfBbnXQ,439
+mooq/__version__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+mooq/base.py,sha256=3BUy_K2NMCIfvHTk8wE6OQD7bhMHRhqiQuCyU4hLSo0,9444
+mooq/connect.py,sha256=vmsJ1C9AHhRJ5OazaQMjmFKtEDfbzzFtTCxoP_DUyws,1026
+mooq/in_memory.py,sha256=6AKk7Z_a_f0iMT00DJ_oVgCqoppHpMysH1SkImU0NJg,13935
+mooq/rabbit.py,sha256=lM-Z3uYaGnYOTXTJnQRayb_tdgD41bR9z-0YmHdl6As,9371
+mooq-0.1.0.dist-info/DESCRIPTION.rst,sha256=n6p-NyzDtomvembjWE_jFhRQn6XGJL-KBbfLiiKVHjc,76
+mooq-0.1.0.dist-info/METADATA,sha256=N4VCXP-P-cOOZb9eXPf9IZwj8mEYBefDPlspd5f1N8A,615
+mooq-0.1.0.dist-info/RECORD,,
+mooq-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+mooq-0.1.0.dist-info/metadata.json,sha256=221bIdfWoqaBy05Ga4bPpqh0yWGJgYiTdOI2jVnPc0E,746
+mooq-0.1.0.dist-info/top_level.txt,sha256=0bdaA3vIX0PtQvIBOd_fvR75fMsbozwR2kWtK-iNyCY,5
