@@ -1,0 +1,16 @@
+.semver
+LICENSE.rst
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+detective/.semver
+detective/Driver.py
+detective/__init__.py
+detective.egg-info/PKG-INFO
+detective.egg-info/SOURCES.txt
+detective.egg-info/dependency_links.txt
+detective.egg-info/requires.txt
+detective.egg-info/top_level.txt
+detective_scripts/__init__.py
+detective_scripts/detective_cli.py
