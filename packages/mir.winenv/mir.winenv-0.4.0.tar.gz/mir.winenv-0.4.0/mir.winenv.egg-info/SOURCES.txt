@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+setup.py
+mir.winenv.egg-info/PKG-INFO
+mir.winenv.egg-info/SOURCES.txt
+mir.winenv.egg-info/dependency_links.txt
+mir.winenv.egg-info/top_level.txt
+mir/winenv/__init__.py
+mir/winenv/__main__.py
+mir/winenv/configlib.py
+mir/winenv/commands/__init__.py
+mir/winenv/commands/add.py
+mir/winenv/commands/list.py
