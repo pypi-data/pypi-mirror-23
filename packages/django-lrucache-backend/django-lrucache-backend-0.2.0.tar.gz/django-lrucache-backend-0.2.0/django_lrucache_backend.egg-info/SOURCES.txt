@@ -1,0 +1,15 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+test_settings.py
+django_lrucache_backend.egg-info/PKG-INFO
+django_lrucache_backend.egg-info/SOURCES.txt
+django_lrucache_backend.egg-info/dependency_links.txt
+django_lrucache_backend.egg-info/requires.txt
+django_lrucache_backend.egg-info/top_level.txt
+lrucache_backend/__init__.py
+lrucache_backend/backend.py
+lrucache_backend/tests.py
