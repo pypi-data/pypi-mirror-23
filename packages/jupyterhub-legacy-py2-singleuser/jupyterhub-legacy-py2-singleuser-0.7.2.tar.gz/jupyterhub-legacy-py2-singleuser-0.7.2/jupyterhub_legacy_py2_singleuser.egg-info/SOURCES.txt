@@ -1,0 +1,12 @@
+setup.py
+jupyterhub/__init__.py
+jupyterhub/singleuser.py
+jupyterhub/utils.py
+jupyterhub/services/__init__.py
+jupyterhub/services/auth.py
+jupyterhub_legacy_py2_singleuser.egg-info/PKG-INFO
+jupyterhub_legacy_py2_singleuser.egg-info/SOURCES.txt
+jupyterhub_legacy_py2_singleuser.egg-info/dependency_links.txt
+jupyterhub_legacy_py2_singleuser.egg-info/requires.txt
+jupyterhub_legacy_py2_singleuser.egg-info/top_level.txt
+scripts/jupyterhub-singleuser
