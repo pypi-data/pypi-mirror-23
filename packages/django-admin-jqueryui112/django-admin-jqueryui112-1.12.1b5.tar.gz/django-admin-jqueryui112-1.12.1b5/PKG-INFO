@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: django-admin-jqueryui112
+Version: 1.12.1b5
+Summary: A fork of the django-admin-jqueryui. Simply adds a jquery ui to the admin panel
+Home-page: https://github.com/Kemaweyan/django-admin-jqueryui112
+Author: Piotr Kilczuk -- Hint, Taras Gaidukov -- Kemaweyan
+Author-email: piotr@hint.pl, kemaweyan@gmail.com
+License: BSD License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides: admin_jqueryui
