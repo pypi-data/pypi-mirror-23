@@ -1,0 +1,14 @@
+foto/__init__.py,sha256=OJhZkFvQ56rbVpD0xmWgInGKB56vpBZDKChFeS-TzYo,243
+foto/cli.py,sha256=qpJH5AVv285URnRy0hffqfqoTHw9sAlvkJz6tuAOVZc,3876
+foto/logger.py,sha256=IDg3t0iu5qpzcVtB2Oic095v3v1EELuJe6fd7VVbe6U,753
+foto/utils/__init__.py,sha256=7j4BfsslBD0iWxhAhhvzKkSmA0mZb_uZNEwRr2fOs-M,1736
+foto/utils/creation_datetime.py,sha256=w3Sk4QZuQosdKv9Cn6qzpvgxQ48Ul5ACq4JjyvSNZLg,928
+foto/utils/geo.py,sha256=8pyBABkTFO-OoRR8uGjn-ptW8enI3fCuaY6r1GiVPrc,1892
+foto/utils/metadata.py,sha256=m3mIVuwWeXwhs3JRO-bnqPcut7kl-mGBb3NYOtdWHCw,7514
+foto-1.0.0.dist-info/DESCRIPTION.rst,sha256=e5FViWjXo8kSJfNFBbeaLzQ5SS53cbjG8fkHSkjzyHY,2083
+foto-1.0.0.dist-info/METADATA,sha256=-mfVxVAcBgRrQ87k5oHa0v3WmUIwlTlxyVCEA2qrX3Q,2890
+foto-1.0.0.dist-info/RECORD,,
+foto-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+foto-1.0.0.dist-info/entry_points.txt,sha256=petuI0ZtfYCARxj8rZfMw4p7AN_OBNf4z2wymGOdydc,39
+foto-1.0.0.dist-info/metadata.json,sha256=Wg23bHEULkbbM1uzUZ_sciAiAyeNZNMbohoh7wOchfE,1026
+foto-1.0.0.dist-info/top_level.txt,sha256=BvprX4e2IBhob6bBFS5PcUDH7Vs8T1Jpc7OAH6IAGIw,5
