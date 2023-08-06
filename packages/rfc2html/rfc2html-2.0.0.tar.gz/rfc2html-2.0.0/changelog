@@ -1,0 +1,7 @@
+rfc2html (2.0.0) ietf; urgency=medium
+
+  This is the first stand-alone release of the htmlization function used in
+  https://tools.ietf.org/tools/rfcmarkup, corresponding to rfcmarkup 1.121,
+  with some cleanup.
+
+ -- Henrik Levkowetz 11 Jul 2017 14:12:40 +0200
