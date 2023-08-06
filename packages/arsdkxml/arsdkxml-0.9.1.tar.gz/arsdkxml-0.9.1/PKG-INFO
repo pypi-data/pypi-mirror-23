@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: arsdkxml
+Version: 0.9.1
+Summary: Unofficial python parser for Parrot drones xml
+Home-page: https://github.com/amjltc295/arsdkxml
+Author: Ya-Liang Chang
+Author-email: allen314x@yahoo.com.tw
+License: BSD
+Description: UNKNOWN
+Keywords: bebop python control xml
+Platform: Linux
