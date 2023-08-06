@@ -1,0 +1,7 @@
+README.txt
+code.py
+setup.py
+ploopy.egg-info/PKG-INFO
+ploopy.egg-info/SOURCES.txt
+ploopy.egg-info/dependency_links.txt
+ploopy.egg-info/top_level.txt
