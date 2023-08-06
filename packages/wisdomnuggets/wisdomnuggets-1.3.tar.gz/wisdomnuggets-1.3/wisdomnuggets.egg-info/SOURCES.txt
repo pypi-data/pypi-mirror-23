@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+wisdomnuggets/__init__.py
+wisdomnuggets/commandline.py
+wisdomnuggets/text.py
+wisdomnuggets.egg-info/PKG-INFO
+wisdomnuggets.egg-info/SOURCES.txt
+wisdomnuggets.egg-info/dependency_links.txt
+wisdomnuggets.egg-info/entry_points.txt
+wisdomnuggets.egg-info/not-zip-safe
+wisdomnuggets.egg-info/requires.txt
+wisdomnuggets.egg-info/top_level.txt
