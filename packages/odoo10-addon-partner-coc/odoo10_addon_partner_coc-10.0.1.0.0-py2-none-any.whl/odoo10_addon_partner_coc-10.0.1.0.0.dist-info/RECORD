@@ -1,0 +1,15 @@
+odoo10_addon_partner_coc-10.0.1.0.0-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/partner_coc/README.rst,sha256=1ZERIcQ9k2fZhdAv3w_4rmJYN9dCrGKBzNbmFuAGgdU,1348
+odoo/addons/partner_coc/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/partner_coc/__manifest__.py,sha256=lqkwNebKvJKAUfquvtySatQD1nj52wxw2N7wRbEAW7U,526
+odoo/addons/partner_coc/data/res_partner_id_category_data.xml,sha256=YFEMGNzVdt8xPxohdSdZL6q3-ElkvYiXMvMXloqe1nY,248
+odoo/addons/partner_coc/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/partner_coc/models/res_partner.py,sha256=_g2EWpJ_l8EHSnwzZsaE1WBr3xjxlfVsAU_qFqCbqHk,522
+odoo/addons/partner_coc/views/res_partner_view.xml,sha256=gh2VFlH90R8XdfJbi9UuqxLmXNJ7xqhwb0QFY1lBkKo,631
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/DESCRIPTION.rst,sha256=ykk3sIgW0WFctIg4RgVIt6pkZz7Ql1tt4WpGAXmu_nQ,1350
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/METADATA,sha256=fBWMmvqNPo5cczNKBboV8HV7ZmTXDCFxJKJoLd6tBII,1903
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/RECORD,,
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/metadata.json,sha256=MsRJuq3YLPsR0J1TfIE32oIgMvKgWYIfxMNFLUyb20s,753
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_partner_coc-10.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
