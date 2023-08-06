@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: primelib
+Version: 1.0.0
+Summary: A library for implementing and using prime numbers.
+Home-page: https://github.com/kabyab/primelib
+Author: kabyaban
+Author-email: bandokabs@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/kabyab/primelib/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: prime,numbers
+Platform: UNKNOWN
