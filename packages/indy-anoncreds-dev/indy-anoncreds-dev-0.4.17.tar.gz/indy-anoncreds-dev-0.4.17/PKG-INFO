@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: indy-anoncreds-dev
+Version: 0.4.17
+Summary: Anonymous credentials
+Home-page: https://github.com/hyperledger/indy-anoncreds
+Author: Evernym, Inc.
+Author-email: repo@sovrin.org
+License: Apache 2.0
+Description: Anonymous credentials
+Keywords: Anonymous credentials
+Platform: UNKNOWN
