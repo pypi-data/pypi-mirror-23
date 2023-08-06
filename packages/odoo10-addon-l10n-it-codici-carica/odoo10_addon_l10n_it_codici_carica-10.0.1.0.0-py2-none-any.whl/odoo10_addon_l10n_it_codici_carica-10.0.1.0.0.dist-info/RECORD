@@ -1,0 +1,17 @@
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/l10n_it_codici_carica/README.rst,sha256=xB--16P3rc-AZ7vHqKIaGLoVBI7--Z3bkbWIqkwg89Y,1702
+odoo/addons/l10n_it_codici_carica/__init__.py,sha256=PtFUsiBO2g_wC2cYCb85Cnntkg0u3Ogg4WD_uhQTrJ4,47
+odoo/addons/l10n_it_codici_carica/__manifest__.py,sha256=XNbm7ciFFpmC8WuvWzz07ud4r-SZvieaBYDD_W2UWfw,715
+odoo/addons/l10n_it_codici_carica/data/codici_carica_data.xml,sha256=xk5z45NwmfaqOnwMyOU4T02RrHL44a2Etuw5H7AAAvA,3637
+odoo/addons/l10n_it_codici_carica/i18n/it.po,sha256=19rnsO0UDJtXZDAUKsXGFDg4Ur8NhAznw8gRpy7kL6s,2863
+odoo/addons/l10n_it_codici_carica/models/__init__.py,sha256=Kck23LOrMAhSJ0zSjpKIYbl80sw9Vn-Fx8JHQJDPn0E,54
+odoo/addons/l10n_it_codici_carica/models/codice_carica.py,sha256=XgKkL08nwdq0FI3TkLW8b46UkGNKVcRhIgm2VVfgccs,673
+odoo/addons/l10n_it_codici_carica/security/ir.model.access.csv,sha256=Mw-TTSYrazBQbKolPrjl76YwBrDcuY2w1wzH6f6kqwA,276
+odoo/addons/l10n_it_codici_carica/views/codice_carica_view.xml,sha256=9npjLIsWm45F9JrIxmtpouk7VnTNhyaUc1DovcDUPDM,1314
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/DESCRIPTION.rst,sha256=7nHZS6aLyLDp9z_nS5YPtNumTDTgmOe4sxngARMezWE,1704
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/METADATA,sha256=RRizWP3U7tOgErSS5u4No2N5W3p7NVeLM5SFNmq0K-A,2263
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/RECORD,,
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/metadata.json,sha256=mlCbyxj0Zm5BXeWbodETMIYuNqKGE_kZ2mHVMDTIuik,771
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_l10n_it_codici_carica-10.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
