@@ -1,0 +1,16 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_eraserhead.egg-info/PKG-INFO
+django_eraserhead.egg-info/SOURCES.txt
+django_eraserhead.egg-info/dependency_links.txt
+django_eraserhead.egg-info/not-zip-safe
+django_eraserhead.egg-info/top_level.txt
+eraserhead/__init__.py
+eraserhead/apps.py
+eraserhead/object_wrapper.py
+eraserhead/patch.py
+eraserhead/request_storage.py
