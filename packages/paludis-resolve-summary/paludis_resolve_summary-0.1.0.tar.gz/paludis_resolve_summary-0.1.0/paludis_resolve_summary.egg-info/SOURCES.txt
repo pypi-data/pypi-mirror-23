@@ -1,0 +1,9 @@
+setup.py
+paludis_resolve_summary/__init__.py
+paludis_resolve_summary/config.py
+paludis_resolve_summary.egg-info/PKG-INFO
+paludis_resolve_summary.egg-info/SOURCES.txt
+paludis_resolve_summary.egg-info/dependency_links.txt
+paludis_resolve_summary.egg-info/entry_points.txt
+paludis_resolve_summary.egg-info/requires.txt
+paludis_resolve_summary.egg-info/top_level.txt
