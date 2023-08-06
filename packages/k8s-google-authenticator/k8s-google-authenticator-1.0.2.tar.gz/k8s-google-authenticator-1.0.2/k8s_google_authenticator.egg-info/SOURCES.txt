@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+k8s_google_authenticator/__init__.py
+k8s_google_authenticator/main.py
+k8s_google_authenticator.egg-info/PKG-INFO
+k8s_google_authenticator.egg-info/SOURCES.txt
+k8s_google_authenticator.egg-info/dependency_links.txt
+k8s_google_authenticator.egg-info/entry_points.txt
+k8s_google_authenticator.egg-info/requires.txt
+k8s_google_authenticator.egg-info/top_level.txt
