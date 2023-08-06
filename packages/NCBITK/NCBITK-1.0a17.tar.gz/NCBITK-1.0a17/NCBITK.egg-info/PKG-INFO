@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: NCBITK
+Version: 1.0a17
+Summary: A tool kit for accessing NCBI's GenBank
+Home-page: https://github.com/andrewsanchez/NCBITK
+Author: Andrew Sanchez
+Author-email: inbox.asanchez@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: NCBI bioinformatics
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
