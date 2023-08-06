@@ -1,0 +1,7 @@
+cf.DomainAncillary.calendar
+===========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.calendar

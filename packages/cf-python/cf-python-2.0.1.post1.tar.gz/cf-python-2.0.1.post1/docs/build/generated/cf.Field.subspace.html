@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>cf.Field.subspace &#8212; Documentation</title>
+    
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.0.1.post1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="cf.Field.cos" href="cf.Field.cos.html" />
+    <link rel="prev" title="cf.Field.indices" href="cf.Field.indices.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="cf.Field.cos.html" title="cf.Field.cos"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="cf.Field.indices.html" title="cf.Field.indices"
+             accesskey="P">previous</a> |</li>
+  <li><a target="_blank" href="../../archive.html">Archive</a> &laquo;</li>
+  <li><a target="_blank" href="http://cfpython.bitbucket.io">cf-python 2.0.1.post1</a> &raquo;</li>
+<!--
+  <li><a target="_blank" href="http://cfpython.bitbucket.io">cf-python</a> &raquo;</li>
+  <li><select onchange="location = this.options[this.selectedIndex].value;">
+
+      <option value="../../1.0/index.html">1.0
+
+      <option value="../../0.9.9/index.html">0.9.9
+
+      <option value="../../0.9.8.3/index.html">0.9.8.3
+
+      <option value="../../archive.html">Archive
+
+      </select>
+  </li>
+-->
+  
+        <li class="nav-item nav-item-0"><a href="../index.html">Documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../reference.html" >Reference manual</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class.html" >Classes of the <code class="docutils literal"><span class="pre">cf</span></code> module</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../classes/cf.Field.html" accesskey="U">cf.Field</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="cf-field-subspace">
+<h1>cf.Field.subspace<a class="headerlink" href="#cf-field-subspace" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="cf.Field.subspace">
+<code class="descclassname">Field.</code><code class="descname">subspace</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cf.Field.subspace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subspace of the field defined by metadata values</p>
+<p>A subspace may be defined via data array values of its metadata items
+(dimension coordinate, auxiliary coordinate, cell measure, field
+ancillary objects, etc.).</p>
+<p>Subspacing by values of 1-d coordinates allows a subspaced field to be
+defined via coordinate values of its domain. The benefits of
+subspacing in this fashion are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The axes to be subspaced may identified by name.</li>
+<li>The position in the data array of each axis need not be known and
+the axes to be subspaced may be given in any order.</li>
+<li>Axes for which no subspacing is required need not be specified.</li>
+<li>Size 1 axes in the subspaced field are always retained, but may be
+subsequently removed with the <a class="reference internal" href="cf.Field.squeeze.html#cf.Field.squeeze" title="cf.Field.squeeze"><code class="xref py py-obj docutils literal"><span class="pre">squeeze</span></code></a> method.</li>
+<li>Size 1 axes of the domain which are not spanned by the data array may be specified.</li>
+</ul>
+</div></blockquote>
+<p>Metadata values are provided as keyword arguments. Metadata items are
+identified by their identity or their axis&#8217;s identifier in the field.</p>
+<p><code class="docutils literal"><span class="pre">f.subspace(*args,</span> <span class="pre">**kwargs)</span></code> is equivalent to <code class="docutils literal"><span class="pre">f[f.indices(*args,</span>
+<span class="pre">**kwargs)]</span></code>. See <a class="reference internal" href="cf.Field.indices.html#cf.Field.indices" title="cf.Field.indices"><code class="xref py py-obj docutils literal"><span class="pre">cf.Field.indices</span></code></a> for details.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="cf.Field.__getitem__.html#cf.Field.__getitem__" title="cf.Field.__getitem__"><code class="xref py py-obj docutils literal"><span class="pre">__getitem__</span></code></a>, <a class="reference internal" href="cf.Field.indices.html#cf.Field.indices" title="cf.Field.indices"><code class="xref py py-obj docutils literal"><span class="pre">indices</span></code></a>, <a class="reference internal" href="cf.Field.where.html#cf.Field.where" title="cf.Field.where"><code class="xref py py-obj docutils literal"><span class="pre">where</span></code></a></p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Examples:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="p">,</span><span class="n">shape</span>
+<span class="go">(12, 73, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">()</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(12, 73, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">latitude</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(12, 1, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">latitude</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">wi</span><span class="p">(</span><span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">30</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(12, 25, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="nb">long</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">ge</span><span class="p">(</span><span class="mi">270</span><span class="p">,</span> <span class="s1">&#39;degrees_east&#39;</span><span class="p">),</span> <span class="n">lat</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mi">10</span><span class="p">]))</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(12, 3, 24)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">latitude</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">lt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;degrees_north&#39;</span><span class="p">))</span>
+<span class="go">(12, 36, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">latitude</span><span class="o">=</span><span class="p">[</span><span class="n">cf</span><span class="o">.</span><span class="n">lt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;degrees_north&#39;</span><span class="p">),</span> <span class="mi">90</span><span class="p">])</span>
+<span class="go">(12, 37, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">math</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="s1">&#39;exact&#39;</span><span class="p">,</span> <span class="n">longitude</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">lt</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="s1">&#39;radian&#39;</span><span class="p">),</span> <span class="n">height</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">(12, 73, 48)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">gt</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="go">IndexError: No indices found for &#39;height&#39; values gt 3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">dim2</span><span class="o">=</span><span class="mf">3.75</span><span class="p">)</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(12, 1, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">time</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">le</span><span class="p">(</span><span class="n">cf</span><span class="o">.</span><span class="n">dt</span><span class="p">(</span><span class="s1">&#39;1860-06-16 12:00:00&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(6, 73, 96)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="o">.</span><span class="n">subspace</span><span class="p">(</span><span class="n">time</span><span class="o">=</span><span class="n">cf</span><span class="o">.</span><span class="n">gt</span><span class="p">(</span><span class="n">cf</span><span class="o">.</span><span class="n">dt</span><span class="p">(</span><span class="mi">1860</span><span class="p">,</span> <span class="mi">7</span><span class="p">)),</span><span class="n">shape</span>
+<span class="go">(5, 73, 96)</span>
+</pre></div>
+</div>
+<p>Note that if a comparison function (such as cf.wi) does not specify
+any units, then the units of the named item are assumed.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="cf.Field.indices.html"
+                        title="previous chapter">cf.Field.indices</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="cf.Field.cos.html"
+                        title="next chapter">cf.Field.cos</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/generated/cf.Field.subspace.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="cf.Field.cos.html" title="cf.Field.cos"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="cf.Field.indices.html" title="cf.Field.indices"
+             >previous</a> |</li>
+  <li><a target="_blank" href="../../archive.html">Archive</a> &laquo;</li>
+  <li><a target="_blank" href="http://cfpython.bitbucket.io">cf-python 2.0.1.post1</a> &raquo;</li>
+<!--
+  <li><a target="_blank" href="http://cfpython.bitbucket.io">cf-python</a> &raquo;</li>
+  <li><select onchange="location = this.options[this.selectedIndex].value;">
+
+      <option value="../../1.0/index.html">1.0
+
+      <option value="../../0.9.9/index.html">0.9.9
+
+      <option value="../../0.9.8.3/index.html">0.9.8.3
+
+      <option value="../../archive.html">Archive
+
+      </select>
+  </li>
+-->
+  
+        <li class="nav-item nav-item-0"><a href="../index.html">Documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../reference.html" >Reference manual</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class.html" >Classes of the <code class="docutils literal"><span class="pre">cf</span></code> module</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../classes/cf.Field.html" >cf.Field</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, David Hassell.
+      Last updated on Jul 12, 2017.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.1.
+    </div>
+  </body>
+</html>

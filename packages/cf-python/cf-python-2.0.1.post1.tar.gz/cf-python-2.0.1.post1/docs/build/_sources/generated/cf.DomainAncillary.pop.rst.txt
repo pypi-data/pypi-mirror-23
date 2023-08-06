@@ -1,0 +1,7 @@
+cf.DomainAncillary.pop
+======================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.pop

@@ -1,0 +1,7 @@
+cf.DomainAncillary.year
+=======================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.year
