@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: Braindecode
+Version: 0.1.4.1
+Summary: A deep learning toolbox to decode raw time-domain EEG.
+Home-page: https://github.com/robintibor/braindecode
+Author: Robin Tibor Schirrmeister
+Author-email: robintibor@gmail.com
+License: BSD 3-Clause
+Description: Note: The old braindecode repository has been moved to
+        https://github.com/robintibor/braindevel.
+        
+        Braindecode
+        ===========
+        
+        A deep learning for raw time-domain EEG decoding toolbox.
+        
+        Installation
+        ============
+        
+        First, install pytorch from http://pytorch.org/.
+        
+        Second install newest version of python-mne:
+        
+        .. code-block:: bash
+        
+          git clone git://github.com/mne-tools/mne-python.git
+          cd mne-python
+          python setup.py install
+        
+        
+        Then, install braindecode via pip:
+        
+        .. code-block:: bash
+        
+          pip install braindecode
+        
+        
+        Documentation
+        =============
+        
+        Documentation is online under http://braindecode.readthedocs.io/
+        
+Keywords: eeg deep-learning brain-state-decoding
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
