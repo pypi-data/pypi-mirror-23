@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: unittest_sandbox
+Version: 1.0.0
+Summary: unittest_sandbox provides a @sandbox decorator which ensures unit test methods do not make any web requests during test execution.
+Home-page: https://github.com/mikeengland/unittest_sandbox
+Author: Michael England
+Author-email: UNKNOWN
+License: Apache License Version 2.0
+Description: unittest_sandbox provides a decorator which can be used to prevent unit test methods from contacting the internet. Decorating a unittest with @sandbox monkey patches the socket module to ensure that no web requests reach the outside world.
+Keywords: unittest unittests testcase sandbox internet block decorator socket requests urllib
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
