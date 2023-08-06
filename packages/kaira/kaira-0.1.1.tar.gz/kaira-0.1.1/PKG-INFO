@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: kaira
+Version: 0.1.1
+Summary: Web Microframework - Python
+Home-page: https://github.com/mulonemartin/kaira/
+Author: martin
+Author-email: mulone.martin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
