@@ -1,0 +1,5 @@
+sqlite:
+  file: ':memory:'
+
+github:
+  endpoint: '/github'
