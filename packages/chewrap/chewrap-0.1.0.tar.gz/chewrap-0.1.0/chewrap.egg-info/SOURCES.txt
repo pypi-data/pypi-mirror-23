@@ -1,0 +1,14 @@
+README.rst
+setup.py
+chewrap/__init__.py
+chewrap/__main__.py
+chewrap/arguments.py
+chewrap/core.py
+chewrap/docker.py
+chewrap/parser.py
+chewrap/usage.py
+chewrap.egg-info/PKG-INFO
+chewrap.egg-info/SOURCES.txt
+chewrap.egg-info/dependency_links.txt
+chewrap.egg-info/entry_points.txt
+chewrap.egg-info/top_level.txt
