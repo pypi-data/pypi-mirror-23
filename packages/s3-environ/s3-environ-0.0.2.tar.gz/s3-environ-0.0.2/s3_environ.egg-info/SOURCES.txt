@@ -1,0 +1,7 @@
+setup.py
+s3-environ/s3_environ.py
+s3-environ/tests.py
+s3_environ.egg-info/PKG-INFO
+s3_environ.egg-info/SOURCES.txt
+s3_environ.egg-info/dependency_links.txt
+s3_environ.egg-info/top_level.txt
