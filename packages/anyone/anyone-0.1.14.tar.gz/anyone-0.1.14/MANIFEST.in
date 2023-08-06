@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.md
+include anyone/data.json
+include *.json
+
+recursive-include tests *
