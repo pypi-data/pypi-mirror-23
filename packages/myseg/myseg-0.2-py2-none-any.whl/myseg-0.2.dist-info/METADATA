@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: myseg
+Version: 0.2
+Summary: Command-line utility for searching and filtering videos based on objects that appear in them using convolutional neural networks
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: docopt (>=0.6.2)
+Requires-Dist: moviepy (>=0.2.2.11)
+Requires-Dist: numpy (>=1.9.2)
+Requires-Dist: pattern (>=2.6)
+Requires-Dist: progressbar (>=2.3)
+Requires-Dist: pyPEG2 (>=2.15.1)
+Requires-Dist: requests (>=2.7.0)
+Requires-Dist: termcolor (>=1.1.0)
+
+UNKNOWN
+
+
