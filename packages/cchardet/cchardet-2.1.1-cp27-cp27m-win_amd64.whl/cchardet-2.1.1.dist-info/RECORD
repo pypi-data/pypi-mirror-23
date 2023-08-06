@@ -1,0 +1,10 @@
+cchardet/__init__.py,sha256=7zTOSHu6Ryv4fvaCC5R_GwT-EfgfSgcekEevUqq5_dM,1160
+cchardet/_cchardet.pyd,sha256=5STJUpPnD3udi_exqxeUUEfO14oVQglqZOMVs7J9auc,188928
+cchardet/version.py,sha256=Aht2295j8FswZ-nPYofCYr3fBZ6Uyf0thTfl5Oc2mWA,22
+cchardet-2.1.1.data/scripts/cchardetect,sha256=obZTPeY83MmBMx3gcMR1sl8BKgJE5PpDg8Ta_viShMw,1325
+cchardet-2.1.1.dist-info/DESCRIPTION.rst,sha256=_jx18A6FYRYG2tTCsQx9ah5Y6V0Ea7YWdTQVfvZ4O9c,5810
+cchardet-2.1.1.dist-info/METADATA,sha256=lfNTDcDQAwkn22grHBb1Z8Us9QQN_T2wuhux4_eNO7k,7176
+cchardet-2.1.1.dist-info/RECORD,,
+cchardet-2.1.1.dist-info/WHEEL,sha256=Jmq6HlU3-gun8Kdi3LY3f3pFZ0JqJ7Bn8GbGn_XfX0M,106
+cchardet-2.1.1.dist-info/metadata.json,sha256=fGUZGduyZnWRTyHPqWa16L01lbUoZSsfetXF7XGnH18,1096
+cchardet-2.1.1.dist-info/top_level.txt,sha256=Khgls4j_ipUgHqU5JjsYDtlYEsM7uP3jV8o1ZlZPSfA,9
