@@ -1,0 +1,2 @@
+python-dateutil
+grimoire-elk==0.30.4
