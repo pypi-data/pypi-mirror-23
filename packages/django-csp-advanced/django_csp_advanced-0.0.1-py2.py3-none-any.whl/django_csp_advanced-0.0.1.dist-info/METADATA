@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: django-csp-advanced
+Version: 0.0.1
+Summary: Provides a powerful interface to CSP headers for Django applications.
+Home-page: https://github.com/quantum5/django-csp-advanced
+Author: Quantum
+Author-email: quantum@dmoj.ca
+License: GNU AGPLv3
+Keywords: django csp security
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
