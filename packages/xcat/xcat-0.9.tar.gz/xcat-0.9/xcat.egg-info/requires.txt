@@ -1,0 +1,7 @@
+xpath-expressions~=0.2
+aiohttp~=2.1
+docopt
+colorama
+ipgetter
+tqdm
+prompt_toolkit
