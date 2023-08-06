@@ -1,0 +1,3 @@
+bin
+focus_tools
+resources
