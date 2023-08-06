@@ -1,0 +1,4 @@
+twisted
+construct<=2.5.0
+jinja2
+Click>=6.0
