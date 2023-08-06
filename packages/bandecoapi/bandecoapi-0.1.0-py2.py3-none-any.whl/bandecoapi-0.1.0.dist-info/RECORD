@@ -1,0 +1,11 @@
+bandecoapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bandecoapi/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bandecoapi/api/api.py,sha256=YGIO2mToMHIm8ofFlHnVS2OQG2Pyji3tU9NJlkBG1L8,1912
+bandecoapi/cardapio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bandecoapi/cardapio/cardapio.py,sha256=J6H5cBafqdjcEYHCobHciTldalbopMiTngkgmXZTOV8,3563
+bandecoapi-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+bandecoapi-0.1.0.dist-info/METADATA,sha256=AxyStwjMDeAG-Gvo-Evj7fZgLfFQe1oVhaMC5uzKepE,684
+bandecoapi-0.1.0.dist-info/RECORD,,
+bandecoapi-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+bandecoapi-0.1.0.dist-info/metadata.json,sha256=0reFkNlDX7sXnw55-NC5d4dNTCGCqpkrGwD7kWWFhnk,818
+bandecoapi-0.1.0.dist-info/top_level.txt,sha256=FxGdn4ZhzTBlsdi2NqWOjYBfTSdCtlhAWDuJJVtdEJc,11
