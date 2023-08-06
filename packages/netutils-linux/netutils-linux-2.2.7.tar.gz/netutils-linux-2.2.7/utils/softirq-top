@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+from netutils_linux_monitoring.softirqs import Softirqs
+
+if __name__ == '__main__':
+    top = Softirqs()
+    top.options = top.make_parser().parse_args()
+    top.post_optparse()
+    top.run()
