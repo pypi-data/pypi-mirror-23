@@ -1,0 +1,15 @@
+cmakew/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmakew/_cd.py,sha256=51ZRNS66yYmEo6ygg8Zs0ecxNNvWID7RfDUHPlll7Jg,629
+cmakew/_common.py,sha256=Oay5j5nX8ONhlYssA09eXNpZCEaTOn3Ww_kmAV0vq1k,551
+cmakew/_compiler.py,sha256=CPwhi9L-kW9iM8NG3c-N2PsUpEsdtPIsX46XDuCPfsg,3024
+cmakew/_logger.py,sha256=AmJ9eXl6oHxDUSa1Vm5qrwt5sxVKhD6nxkaUFxL2TRE,1029
+cmakew/_option.py,sha256=jDJQj094sXOy2dzaV5H8OJxGwtUcmwKKbEj4dMLMfXg,2779
+cmakew/_visual_studio.py,sha256=6jMC9mOF2KzWDehA-1f1rOANiAm3_6NxZSaX98wmd9w,3597
+cmakew/cmakew.py,sha256=jEH7Cu6YErWRMbiB3mWq-7RqmGNeP_RaEogkgr7rBdI,4461
+cmakew-0.0.4.dist-info/DESCRIPTION.rst,sha256=K51w7nh205pXGAafjkrD8Yx7hkgQFyNzgPoAUq8GcJM,6043
+cmakew-0.0.4.dist-info/METADATA,sha256=CiXpowjifaMRIBwBpVp3MmbYjKK5x-JInRoTesPKMis,7218
+cmakew-0.0.4.dist-info/RECORD,,
+cmakew-0.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+cmakew-0.0.4.dist-info/entry_points.txt,sha256=qHNyOu8aCvPvm7UHYdUyEgkZxGN4IC1RztxS0AU85ug,47
+cmakew-0.0.4.dist-info/metadata.json,sha256=bgd3dxOhGWb6M7lBnVcsJ1i1PV4_p8I6ZtqNIlsyBSg,1431
+cmakew-0.0.4.dist-info/top_level.txt,sha256=i73Raxr9Yj9Rr-5L72f0Acxecbuo8GUrVM2C8DPXhMM,7
