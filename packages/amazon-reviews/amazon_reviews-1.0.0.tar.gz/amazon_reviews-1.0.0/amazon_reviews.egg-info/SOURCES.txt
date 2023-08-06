@@ -1,0 +1,6 @@
+README.rst
+setup.py
+amazon_reviews.egg-info/PKG-INFO
+amazon_reviews.egg-info/SOURCES.txt
+amazon_reviews.egg-info/dependency_links.txt
+amazon_reviews.egg-info/top_level.txt
