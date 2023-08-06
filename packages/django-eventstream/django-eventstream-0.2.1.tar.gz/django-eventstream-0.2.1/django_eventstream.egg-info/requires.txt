@@ -1,0 +1,2 @@
+Werkzeug>=0.12,<1
+django_grip>=1.7,<3
