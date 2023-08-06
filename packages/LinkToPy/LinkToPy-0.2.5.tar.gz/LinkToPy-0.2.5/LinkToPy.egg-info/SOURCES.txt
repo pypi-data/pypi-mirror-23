@@ -1,0 +1,12 @@
+CHANGES.txt
+LICENCE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+LinkToPy/LinkToPy.py
+LinkToPy/__init__.py
+LinkToPy.egg-info/PKG-INFO
+LinkToPy.egg-info/SOURCES.txt
+LinkToPy.egg-info/dependency_links.txt
+LinkToPy.egg-info/requires.txt
+LinkToPy.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+edn_format >= 0.5.12
+monotonic >= 0.3
