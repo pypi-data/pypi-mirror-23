@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: stickbugml
+Version: 1.0.2
+Summary: A framework to organize the process of designing supervised machine learning systems
+Home-page: https://github.com/aaronduino/stick-bug-ml
+Author: Aaron Janse
+Author-email: gitduino@gmail.com
+License: Apache 2.0
+Keywords: stick bug,ml,machine learning,ai,artificial intelligence,framework,organization,organize
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+
+UNKNOWN
+
+
