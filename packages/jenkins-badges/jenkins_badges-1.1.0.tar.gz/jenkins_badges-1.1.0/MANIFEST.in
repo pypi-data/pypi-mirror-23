@@ -1,0 +1,1 @@
+recursive-include jenkins_badges/coverage_badge/static *
