@@ -1,0 +1,38 @@
+
+
+============================
+list2excel changelog
+============================
+
+Version 0.5.5, 23 Jun 2017:
+--------------------------------
+
+* django >=1.8 compatibility (parent_model removed)
+
+Version 0.5.4, 26 Feb 2017:
+--------------------------------
+
+* export CSV tab delimited (usato per Mailchimp)
+
+Version 0.5.3, 29 Oct 2016:
+--------------------------------
+
+* django >=1.7 compatibility (get_query_set deprecated and removed)
+
+Version 0.5.2, 9 May 2016:
+--------------------------------
+
+* setuptools install
+
+Version 0.5.1, 29 December 2015:
+--------------------------------
+
+* Fixed handling of related fields in explicit export lists
+
+Version 0.5.0, 17 September 2013:
+--------------------------------
+
+* Initial release
+
+
+
