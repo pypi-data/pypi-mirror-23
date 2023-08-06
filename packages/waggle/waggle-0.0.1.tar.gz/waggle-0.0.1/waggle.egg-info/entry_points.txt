@@ -1,0 +1,4 @@
+[console_scripts]
+register-task = waggle.register:main
+waggle = waggle.waggle:main
+
