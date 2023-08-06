@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include abstractfactory *
+recursive-exclude abstractfactory .*
+recursive-exclude abstractfactory/.vscode *
+recursive-exclude abstractfactory/.git *
+recursive-exclude abstractfactory *.pyc

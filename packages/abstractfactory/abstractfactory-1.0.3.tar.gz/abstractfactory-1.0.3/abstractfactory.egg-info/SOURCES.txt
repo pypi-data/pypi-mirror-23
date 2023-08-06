@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+abstractfactory/LICENSE
+abstractfactory/README.md
+abstractfactory/__init__.py
+abstractfactory/abstract_factory.py
+abstractfactory/mock.py
+abstractfactory/provider.py
+abstractfactory/test_provider.py
+abstractfactory.egg-info/PKG-INFO
+abstractfactory.egg-info/SOURCES.txt
+abstractfactory.egg-info/dependency_links.txt
+abstractfactory.egg-info/top_level.txt
