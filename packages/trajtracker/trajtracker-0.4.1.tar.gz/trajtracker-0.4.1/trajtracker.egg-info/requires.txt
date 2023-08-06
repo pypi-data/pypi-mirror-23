@@ -1,0 +1,3 @@
+expyriment
+numpy
+enum34
