@@ -1,0 +1,17 @@
+README.rst,sha256=8_P2Gv0oaOiRxmabfh1GVhxVzU2HeDNxxP68W1TgYVs,5120
+pyemd/__about__.py,sha256=VzyJ4vvcq6eJtSW-jPaWLqkzWjO8qiEd-EnrPGKFQjw,678
+pyemd/__init__.py,sha256=nAWwzW5JQ_e9me0cQPIAndAnHc1HTDOBvyCxmtGou4U,2069
+pyemd/emd.cpython-36m-darwin.so,sha256=NWmcRkJZ9kgXrDy2xwsINrrYGKFn7QHTdNARVY2xn78,128396
+pyemd/emd.pyx,sha256=Z5mlEiFS4x2d-PRNgqe9ct6ufodx_4pZlbhRDMaVANg,4722
+pyemd/lib/EMD_DEFS.hpp,sha256=Ez3R8lKSXm_u0teJyxavi8grUzWSD-Bze6TUiY7EjOY,1952
+pyemd/lib/emd_hat.hpp,sha256=vVObKBAEo9gAeqOr26ai-R73Haf2be3h4faNe2SbJj8,6174
+pyemd/lib/emd_hat_impl.hpp,sha256=L7CZflUuprEGaClolVkfjtsKqyw-cYVsXF20Kp8qnF4,19167
+pyemd/lib/emd_hat_signatures_interface.hpp,sha256=l_Lr7o7MQJxyAwPhby56jcQVoHo-RPP9-_YRFaBt82E,5648
+pyemd/lib/flow_utils.hpp,sha256=D6SA3Rv5enVPxKwFzmWOWwTK_dyZJIGOAICQuQ8deVo,4294
+pyemd/lib/min_cost_flow.hpp,sha256=I1pJZjQpwA5Os-J4DZvdcmQ5755rsoc_pNppjRXx4Wc,17471
+pyemd-0.4.4.dist-info/DESCRIPTION.rst,sha256=4168GpdqkD872UicyprSp4Z4rJiVLtusJHRIXbRypI4,4938
+pyemd-0.4.4.dist-info/METADATA,sha256=tugipCiHXaDxPQFHbSRAGzFe7ZiKhffH-GQ2qHp4HMk,5677
+pyemd-0.4.4.dist-info/RECORD,,
+pyemd-0.4.4.dist-info/WHEEL,sha256=QEvztwsMQ1oQRmYScPHtkrFIJvQwksPEh_MrMJMgwgA,111
+pyemd-0.4.4.dist-info/metadata.json,sha256=-KOrFyqck01htrOTL7r3Yb9quyN4AUPqMgZIcwi_WHQ,897
+pyemd-0.4.4.dist-info/top_level.txt,sha256=VprEFNVg7Xlmfr74Pa9AW-VucfOQ7-KmTYv34zIxbP4,6
