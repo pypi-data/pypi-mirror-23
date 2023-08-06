@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: envipyengine
+Version: 1.0.2
+Summary: ENVI Python Engine
+Home-page: UNKNOWN
+Author: Exelis Visual Information Solutions, Inc.
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        
+        **************************
+        ENVI Py for ArcGIS Library
+        **************************
+        
+        Installation
+        ============
+        
+        Install envipyengine using pip::
+        
+            pip install envipyengine
+        
+Keywords: envi idl
+Platform: UNKNOWN
