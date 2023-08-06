@@ -1,0 +1,14 @@
+alert.py,sha256=gD5vFcT9WE0nIDqQYMJeSLfXA1Vij4bLpyDMumThY0M,762
+namespace.py,sha256=bcq5TeXf8WJYsi6gaw56VFg-cj1uyaHIYBn6ED7fPjQ,862
+octacli.py,sha256=Q2O4wWYeZtKlQaixL2fJbBB3aPdHjoJQpfuVvj605MI,2627
+policy.py,sha256=K7kAyJoY8uIcCQ9OHjUJ0_Yu7JeMamgRsxlCpfU0VRg,1406
+service.py,sha256=7_DcOenT5OgiureEl9PBzKa_g_cR6G43DIKx43xq34o,2719
+tokens.py,sha256=fBj8BhHL-lg0x-Y5Xgi8WtOiDjoK_pFuk8xhZ3XCvbU,1571
+user.py,sha256=6d2bj-_6EVwT-TUYD2vVH3FIVP88MbiRPwNKVFOVsZE,783
+octacli-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+octacli-0.1.1.dist-info/METADATA,sha256=vJB7RvQhLoVCDLmplVeiJNU11oHytbLDQMg1-Zl4W0I,240
+octacli-0.1.1.dist-info/RECORD,,
+octacli-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+octacli-0.1.1.dist-info/entry_points.txt,sha256=opm4q1IX-hkwH6IfvBb9ljfg1-A7OeYj5AugM_HiHvo,63
+octacli-0.1.1.dist-info/metadata.json,sha256=8FZ-fLvVY9CvQqvjmhoA-k9kIHu6CnIhILhHyCbO4D4,436
+octacli-0.1.1.dist-info/top_level.txt,sha256=eUgwaqyi50GGyzii5ga782hl4kAUiAE4EymsfU_gHiI,51
