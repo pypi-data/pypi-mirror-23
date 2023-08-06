@@ -1,0 +1,12 @@
+LICENSE,sha256=0wI_6tIRNYyzGSCD8KOEld-ca5rbMXLMbx2rI3R3K-w,1078
+README.md,sha256=fh-zp1BxzP9w1woqR0Y2505MxxXwMPccnvA5vlhBQK0,5654
+tfs/__init__.py,sha256=13zN-mwMKFeD1E3UCmhXYzAYuZbDYMj7ULEq4yzKWmw,55
+tfs/connection.py,sha256=yJ0le9pXBgBNG0GXcdOOI1F1yX0puNY5vJgng2tpaDs,8207
+tfs/resources.py,sha256=KRLOxadOOcge3QVCbo_JrdpxhQf2QjZX7FOQlcmJhsY,4996
+dohq_tfs-1.0.14.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dohq_tfs-1.0.14.dist-info/top_level.txt,sha256=GA7L4S1_r2iaiiuM-mQmE1Gov3fq8e3DaEw8r2PfHqM,4
+dohq_tfs-1.0.14.dist-info/METADATA,sha256=NjWRSiX2pyYOlo7zGUWGiX6pqM0VTcuK1iw4CY7NbYA,848
+dohq_tfs-1.0.14.dist-info/DESCRIPTION.rst,sha256=ZbVlU0QMwpCyjYGyDYBEREzymXHKSNuzK1Hc0WxtMOc,73
+dohq_tfs-1.0.14.dist-info/metadata.json,sha256=WBdAe3j6UwClAobfuuqcBprf-OKONEs3fuT2nl2q0sI,1075
+dohq_tfs-1.0.14.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
+dohq_tfs-1.0.14.dist-info/RECORD,,
