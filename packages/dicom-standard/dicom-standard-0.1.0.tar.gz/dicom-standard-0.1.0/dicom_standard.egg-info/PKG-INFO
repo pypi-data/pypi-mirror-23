@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: dicom-standard
+Version: 0.1.0
+Summary: Parse the DICOM Standard into a human-friendly JSON format.
+Home-page: https://github.com/innolitics/dicom-standard
+Author: Innolitics, LLC
+Author-email: info@innolitics.com
+License: MIT
+Description: DICOM Standard Parser
+        =====================
+        
+        The DICOM Standard in JSON format, parsed from the web version of the standard
+        using a collection of extensible python scripts.
+        
+        - View the `JSON here
+          <https://www.github.com/innolitics/dicom-standard/standard>`_.
+        
+        - View the `documentation here
+          <https://www.github.com/innolitics/dicom-standard/docs/index.md>`_.
+        
+Keywords: dicom standard json
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

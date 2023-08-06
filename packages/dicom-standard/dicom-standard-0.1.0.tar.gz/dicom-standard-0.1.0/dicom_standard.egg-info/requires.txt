@@ -1,0 +1,8 @@
+beautifulsoup4
+py
+
+[dev]
+check-manifest
+
+[test]
+pytest
