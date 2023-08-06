@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kubeutils
+Version: 0.1.1
+Summary: Kubernetes utilities
+Home-page: https://github.com/pminkov/kubeutils
+Author: Petko Minkov
+Author-email: pminkov@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: kubernetes
+Platform: UNKNOWN
