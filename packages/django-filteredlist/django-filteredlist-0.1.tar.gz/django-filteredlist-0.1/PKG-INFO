@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: django-filteredlist
+Version: 0.1
+Summary: A simple Django app to provide a generic view to filter a ListView
+Home-page: https://github.com/Phil147/django-filteredlist
+Author: Philipp Fahrenschon
+Author-email: ph.fahrenschon@gmail.com
+License: MIT License
+Download-URL: https://github.com/Phil147/django-filteredlist/archive/0.1.tar.gz
+Description: =======================
+        Django FilteredListView
+        =======================
+        
+        FilteredListView provides a basic class based view for django to easily filter a ListView.
+        The provided template currently is in german and for bootstrap3.
+        
+        Quick start
+        -----------
+        
+        1. Add "django_filteredlist" to your INSTALLED_APPS::
+        
+            INSTALLED_APPS = [
+                ...
+                'django_filteredlist',
+            ]
+        
+        2. Create a FilteredListView::
+        
+            class MyView(FilteredListView, ListView):
+                allowed_filters = ('employee_name', 'project')
+                lookup_expressions = { 'project': 'projects__name__icontains' }
+                verbose_names = (('employee_name', 'Name'), ('project', 'Working on'),)
+        
+        3. Add search form to your list template::
+        
+            {% extends 'base.html' %}
+        
+            {% block content %}
+        
+                {{ search }}
+        
+                <!-- YOUR LIST HERE -->
+        
+            {% endblock %}
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,0 +1,74 @@
+{% load crispy_forms_tags %}
+
+<form id="filterlist-search" method="GET">
+        <div class="form-inline form-group">
+            <label for="filter-by">Filtern nach:</label>
+            <select class="form-control input-sm" name="filter-by" id="filter-by">
+                {% if options %}
+                    {% for val, label in options %}
+                        <option value= "{{ val }}">{{ label }}</option>
+                    {% endfor %}
+                {% endif %}
+            </select>
+
+            <label for="dynKeyword">Keyword:</label>
+            <input id="dynKeyword" class="form-control input-sm" type="text" name="{{ options.0.0 }}"/>
+            <input class="btn btn-primary btn-sm" type="submit" value="Filtern">
+            <button id="filterlist-search-reset" type="button" class="btn btn-default btn-sm">Reset</button>
+
+        </div>
+
+        <div class="form-inline form-group">
+            {% if active_filters %}
+                <span>Aktive Filter:</span>
+                {% for field, label, val in active_filters %}
+                    <div class="input-group">
+                        <div class="act-filter-tag">
+                            <input type="hidden" name="{{ field }}" class="form-control input-group" value="{{ val }}">
+                            <span class="act-filter-field">{{ label }}:</span>
+                            <span class="act-filter-val">{{ val }}</span>
+                            <span class="act-filter-remove"><button type="button">X</button></span>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+ </form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        /**
+         * Dynamic filtering:
+         * changing the #sort-by select will change the name of the keyword input to match the required GET parameter names.
+         * filtering will be done by a django form which expects these values
+         */
+        var dynKeywordElem = $('#dynKeyword');
+        var filterByElem = $('#filter-by');
+        filterByElem.change(function () {
+            dynKeywordElem.attr('name', filterByElem.val());
+        });
+    });
+
+    $('.act-filter-remove button').click(function () {
+        var el = $(this);
+        var form = el.closest('form');
+        el.closest('.act-filter-tag').remove();
+        form.submit();
+    });
+
+    $('#filterlist-search').submit(function () {
+        $('#filter-by').prop('disabled', true);
+        var keyword = $('#dynKeyword');
+        if (keyword.val() == "") {
+            keyword.prop('disabled', true);
+        }
+    });
+
+    $('#filterlist-search-reset').click(function() {
+        var el = $(this);
+        var form = el.closest('form');
+        $('.act-filter-tag').remove();
+        form.submit();
+    });
+</script>
+

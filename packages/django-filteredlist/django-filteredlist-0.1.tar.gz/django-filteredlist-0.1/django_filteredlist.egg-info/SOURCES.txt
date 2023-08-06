@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_filteredlist/__init__.py
+django_filteredlist/views.py
+django_filteredlist.egg-info/PKG-INFO
+django_filteredlist.egg-info/SOURCES.txt
+django_filteredlist.egg-info/dependency_links.txt
+django_filteredlist.egg-info/top_level.txt
+django_filteredlist/static/css/filteredlist.css
+django_filteredlist/templates/django_filteredlist/search_form.html
