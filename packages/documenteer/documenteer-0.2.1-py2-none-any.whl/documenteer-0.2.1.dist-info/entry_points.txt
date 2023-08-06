@@ -1,0 +1,3 @@
+[console_scripts]
+build-stack-docs = documenteer.stackdocs.build:run_build_cli
+
