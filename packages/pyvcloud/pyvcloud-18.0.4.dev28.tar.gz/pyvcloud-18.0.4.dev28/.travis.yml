@@ -1,0 +1,18 @@
+sudo: required
+
+services:
+  - docker
+
+python:
+  - '2.7'
+
+env:
+  matrix:
+  - TOX_ENV=flake8
+
+install:
+  - pip install .
+  - pip install -r test-requirements.txt
+
+script:
+  - pip list --format=columns
