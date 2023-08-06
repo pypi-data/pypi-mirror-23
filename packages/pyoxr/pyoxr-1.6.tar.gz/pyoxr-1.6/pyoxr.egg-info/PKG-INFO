@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyoxr
+Version: 1.6
+Summary: Python client for openexchangerates.org
+Home-page: https://github.com/retargetapp/pyoxr
+Author: RetargetApp
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: openexchangerate,client,api
+Platform: UNKNOWN
