@@ -1,0 +1,76 @@
+Metadata-Version: 2.0
+Name: geocode-lite
+Version: 0.5.6
+Summary: Basic python tool to get lat/long of address using Google Map API
+Home-page: https://github.com/clgx/api-key-manager-python
+Author: Camille Daum-Lobko
+Author-email: camille@daum-lobko.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: cryptography (>=1.9)
+Requires-Dist: googlemaps (>=2.5.1)
+
+# geocode-lite
+
+Basic python tool to get lat/long of address using Google Map API.
+
+## Authors
+
+- Camille Daum-Lobko <camille@daum-lobko.com>
+
+## Copyright
+
+Copyright (c) CoreLogic _2017_. All rights reserved.
+
+## General Information
+
+Create distribution file:
+
+```
+python setup.py bdist_wheel
+```
+
+Upload distributions
+
+```
+twine upload dist/*
+```
+
+## Dependencies
+
+- [Twine](https://github.com/pypa/twine) is a utility for interacting with PyPI, that offers a secure replacement for `setup.py upload`.
+
+    ```
+    pip install twine
+    ```
+
+## Usage Instructions
+
+_Installation and build instructions for developpers._
+
+_A step by step series of examples that tell you how to get a development environment running._
+
+_Add an example of getting some data out of the system or using it for a little demo._
+
+## Documentation
+
+_Add a link to user and technical documentations._
+
+## Change log
+
+_Write change log each time a new version is published._
+
+## License
+
+See [LICENSE](LICENSE) file.
+

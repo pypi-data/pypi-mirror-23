@@ -1,0 +1,11 @@
+geocode_lite/__about__.py,sha256=JaVThUBzyEN4juV9UH5qjllvoYnp-rMjx1sOCTPH9eQ,1346
+geocode_lite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geocode_lite/__main__.py,sha256=hHkTd4tI4PvDGXhOctmcZt3KA4W2EeJJqw6p7BmDuss,4466
+geocode_lite/api_key_manager.py,sha256=s3wFeVGpPEZViaPI4aeepBZrS1jFlByNJp0eswkHVeg,2339
+geocode_lite/geocoder.py,sha256=o3ZanriI6tJFU4JtXz46GdhxJ6qnqKDz88FLS5Bmwis,610
+geocode_lite-0.5.6.dist-info/DESCRIPTION.rst,sha256=UUcc-0XghPDyEfP02zCD-xD-fdhKauyKTgEX3GI-Dy4,993
+geocode_lite-0.5.6.dist-info/METADATA,sha256=yJvFjT7kGmLkMxTb68Hi5Ha-4Of5kROzMLjtYLITF2E,1843
+geocode_lite-0.5.6.dist-info/RECORD,,
+geocode_lite-0.5.6.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+geocode_lite-0.5.6.dist-info/metadata.json,sha256=Jj_BCScvENr99JiV3KhxRyEgQx5phmqNzIIR76DIVgY,1001
+geocode_lite-0.5.6.dist-info/top_level.txt,sha256=tqzWXsyDfgdBoYJfWqYm3sNnxdb6cVM9lavzPInNKCM,13
