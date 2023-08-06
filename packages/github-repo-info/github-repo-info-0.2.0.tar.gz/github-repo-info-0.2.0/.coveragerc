@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/github_repo_info
+   */site-packages/info
+
+[run]
+branch = true
+source =
+    github_repo_info
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
