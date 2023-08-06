@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+hinomaru/__init__.py
+hinomaru/tree.py
+hinomaru.egg-info/PKG-INFO
+hinomaru.egg-info/SOURCES.txt
+hinomaru.egg-info/dependency_links.txt
+hinomaru.egg-info/entry_points.txt
+hinomaru.egg-info/not-zip-safe
+hinomaru.egg-info/top_level.txt
