@@ -1,0 +1,10 @@
+vlde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlde/__version__.py,sha256=xvZVFenFyF9VgPA2NuLiid4d2G4_5hkoPwWe20Td4BY,20
+vlde/error.py,sha256=X5CfX92O8bA9HfYkPsM55Iyc93WQJNNwx7LIgsZDjJc,1225
+vlde/validate.py,sha256=BUEU3QzHucR25TXzcdClT_AbfWNIxJIySddz1yvfBms,15824
+vlde-0.0.1.dist-info/DESCRIPTION.rst,sha256=M4TA9ILVmVijKEenVsNMsnUVhGLE3BNmcpJhOqvqt6U,5275
+vlde-0.0.1.dist-info/METADATA,sha256=bm3ObcYP4iCQkCm5AnFmVBnKVo9FCHhuo0BA4ADVEkA,5512
+vlde-0.0.1.dist-info/RECORD,,
+vlde-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+vlde-0.0.1.dist-info/metadata.json,sha256=bm9r-MrnY39B9oe1n0ro-GrPwZMeD5cK-ZgtafU6-y8,496
+vlde-0.0.1.dist-info/top_level.txt,sha256=NQewVzndEM__sa3AfqieZqEGVBMsqUskH_B4u5a3yZ0,5
