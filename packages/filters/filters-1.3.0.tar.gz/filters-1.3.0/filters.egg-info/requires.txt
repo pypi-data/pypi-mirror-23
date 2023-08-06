@@ -1,0 +1,11 @@
+class-registry
+python-dateutil
+pytz
+regex
+six
+
+[django]
+filters-django
+
+[iso]
+filters-iso
