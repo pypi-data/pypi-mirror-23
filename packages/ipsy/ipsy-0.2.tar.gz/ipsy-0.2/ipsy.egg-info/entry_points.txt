@@ -1,0 +1,3 @@
+[console_scripts]
+ipsy = ipsy.__main__:main
+
