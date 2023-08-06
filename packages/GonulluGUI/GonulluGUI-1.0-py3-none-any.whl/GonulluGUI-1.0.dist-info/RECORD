@@ -1,0 +1,16 @@
+GonulluGUI-1.0.data/scripts/gonullu-gui,sha256=9TQF0tOctG1rdaWXJCIBJYVMSRrGe-7mS5n4qETciNs,1273
+GonulluGUI-1.0.data/scripts/gonullu-gui-main,sha256=chVJqTUN1FUk2iU_d9k-I3C8DV9mbomCN7xAAG67hhI,2234
+GonulluGUI-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+GonulluGUI-1.0.dist-info/METADATA,sha256=kE0CAan47Z7UgKVipZdH02qQcHBwt26gTO3-pMyYr74,272
+GonulluGUI-1.0.dist-info/RECORD,,
+GonulluGUI-1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+GonulluGUI-1.0.dist-info/metadata.json,sha256=4ld3BCbMU3vPFc5ZiKAJJUDGi1leWH804oI81eY0hho,458
+GonulluGUI-1.0.dist-info/top_level.txt,sha256=sxPrhKsJwQzSOUMWOzACdTVhePmMmIuz4Y8z1ycDgoQ,11
+gonullugui/__init__.py,sha256=mhkUPDgXl8qD_gMlLFhvDAU9uNn1bMyH1Jm6Le_-0ZU,835
+gonullugui/coreui.py,sha256=BzdBotfwjITm5SLvnhBWUg6Y00uhX8Tfa2xD8E3BcK8,18126
+gonullugui/version.py,sha256=6JC2NDQ37ToUc8ICVZWtsFiPwudjsIqdkHmJqtdpdFU,853
+usr/local/share/gonullu-gui/langs/en_US.qm,sha256=e4dqmfGmmiepkQcsAXfZcedY6PFltDvBax_SGNRDY20,7048
+usr/local/share/gonullu-gui/langs/tr_TR.qm,sha256=_4ZikCAu6_5If__9dEdwzVCJ4ZYtXqaFLCA3WyfsrL4,7247
+usr/share/applications/gonullu-gui.desktop,sha256=9z1mbSVpBJwZcR6lkBHfRo02prdVQ1yAbQqqzxj0y1U,448
+usr/share/polkit-1/actions/org.freedesktop.policykit.gonullu-gui-local.policy,sha256=skpoGN_a8tiT93T_OPp9OjwMQNSKfu4TMnFCrlVHuqo,1325
+usr/share/polkit-1/actions/org.freedesktop.policykit.gonullu-gui.policy,sha256=0oy8RuEhqStYUxnNGTUWadNb2uaFrQdUPEoxhtomxN4,1313
