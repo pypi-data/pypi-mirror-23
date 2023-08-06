@@ -1,0 +1,12 @@
+pyvscp-0.0.9.data/data/my_data/data_file,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+pyvscp-0.0.9.dist-info/DESCRIPTION.rst,sha256=UMl_8hhZqhb6Fcza-mvueFrlcX4MTYgAkBsE-W9Lorg,149
+pyvscp-0.0.9.dist-info/METADATA,sha256=cet4QlyFD6kJ9b1dsCwIjUbdN6FHlZKuIlllOPdlrbQ,1086
+pyvscp-0.0.9.dist-info/RECORD,,
+pyvscp-0.0.9.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pyvscp-0.0.9.dist-info/entry_points.txt,sha256=lexK7RzT1xMyCvalZCkEXUV_pXjWKxyNU2NGRfSYmuo,40
+pyvscp-0.0.9.dist-info/metadata.json,sha256=V2E62zqhrUlD-QrlyWAXfdksYFv5BLPmmaDazIohlsI,1203
+pyvscp-0.0.9.dist-info/top_level.txt,sha256=FkZFhj9UfM8rcD_mVl3lLH6PpyepuHoDh2Tk_-NFgvU,12
+sample/__init__.py,sha256=awvrxda4UmMqBv2yIsWjcvBwBMM7YROwWnuZ6w-7gjI,112
+sample/package_data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+vscp/__init__.py,sha256=hmiVTcDZA1aHVrJ0gWJ214MvaPo3nw9MA2_66bDwA2E,129
+vscp/vscp.py,sha256=0FGMCOg_YldPxD_sMt1K-5mVpAyWbwCCuIvw-7kUNbk,6287
