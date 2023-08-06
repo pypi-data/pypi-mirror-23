@@ -1,0 +1,13 @@
+.DS_Store,sha256=MoR7ZqnxtT5ofeDIRZFSE37kMNWh8wk3X5JGD-h9620,6148
+test_pkg1/__init__.py,sha256=63bBGzGUpgE0fSREn7etgnxlX15tUIZWkKe8eMxbEkk,254
+test_pkg1/_version.py,sha256=EiJbmB2VkSXGP596J5Sg3o_df91I-L0qpQ7sF4nTm0s,499
+test_pkg1/_version_old.py,sha256=eUAwg1GYRqg4AHR4sgBeu6Zse-67PYYrpVvlyjYlDdI,513
+test_pkg1/cli.py,sha256=Nr8_hX6R0eF-CzKof6lxC-CoEXhvtgVKnB5mjiv2QVI,685
+test_pkg1/test_pkg1.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+test_pkg1-0.1.0.8.dist-info/DESCRIPTION.rst,sha256=oqwS7_U2Byk4zxzscBbun89uWlHgI5zKGJNHl_2d2g4,606
+test_pkg1-0.1.0.8.dist-info/METADATA,sha256=xp32-Lx_mB-yCfCo5ZBas3oFoVipCDcv5WBBrP6umKg,1414
+test_pkg1-0.1.0.8.dist-info/RECORD,,
+test_pkg1-0.1.0.8.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+test_pkg1-0.1.0.8.dist-info/entry_points.txt,sha256=Di9yUTrwTNu97vq8e5nBq0vTvD9M95YFvsGNVtL_oQA,50
+test_pkg1-0.1.0.8.dist-info/metadata.json,sha256=UIoztUW5e2dw5I5759OvjcD8aKSXij7Dhutm-yWEy7A,1120
+test_pkg1-0.1.0.8.dist-info/top_level.txt,sha256=Ipno_mRrdSf-n4xcOZo9QJc6HZA5sGFfGba5280aGxQ,10
