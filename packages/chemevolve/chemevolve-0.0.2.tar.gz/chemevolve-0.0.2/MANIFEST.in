@@ -1,0 +1,2 @@
+recursive-include chemevolve/clibs/ *.so
+recursive-include docs *.html
