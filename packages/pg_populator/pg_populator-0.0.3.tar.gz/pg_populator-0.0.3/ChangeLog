@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+0.0.3
+-----
+
+* Added pbr support. .gitignore update
+* Moved some strings to pg\_populator\_lib::config.py
+* Moved lib/\* to another module called pg\_populator\_lib which is already uploaded to pypi, and added to requirements.txt
+* Added README.rst
+* Source code import from previous repository
+* Added .gitignore
