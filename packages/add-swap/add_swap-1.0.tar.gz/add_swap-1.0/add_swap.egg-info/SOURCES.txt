@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+add_swap/__init__.py
+add_swap.egg-info/PKG-INFO
+add_swap.egg-info/SOURCES.txt
+add_swap.egg-info/dependency_links.txt
+add_swap.egg-info/not-zip-safe
+add_swap.egg-info/top_level.txt
