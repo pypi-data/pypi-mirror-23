@@ -1,0 +1,11 @@
+python_xonotic_db-0.2.1.dist-info/DESCRIPTION.rst,sha256=j8uiEgHI9Vv4XHdzMqEOPqUBPwfy3YyvtGq4EyNxg7s,46
+python_xonotic_db-0.2.1.dist-info/METADATA,sha256=--whNX9SJMbcUOZ12SlsOIwgBW4z3qzBxCOGC0V-Glg,1091
+python_xonotic_db-0.2.1.dist-info/RECORD,,
+python_xonotic_db-0.2.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+python_xonotic_db-0.2.1.dist-info/entry_points.txt,sha256=7dLM3VVK7XGUFWyR1TGrp4OuGuDXlXX1TTbbhDVjAFk,43
+python_xonotic_db-0.2.1.dist-info/metadata.json,sha256=c5w4L85JJJtVbid_44FCU3hpeOopIzWpQYWuDHvU_zg,1289
+python_xonotic_db-0.2.1.dist-info/top_level.txt,sha256=ibrRzDugKA3q-cByVxyiJZ5MMGNVE1FOUxemNu8s7aQ,7
+xon_db/__init__.py,sha256=Q7cLNCVfu-L-7mEQh-hxWCws94CFgbyuzwV5Uj-G1gg,4645
+xon_db/cli.py,sha256=tI5HRSObvheMGBzc9LXwnGZbaI4bfX5gUHbH1yU8Z-4,2229
+xon_db/crc.py,sha256=U_rzE2-qp8rIFFUDcItYY5zoauRPvnLtzhwmoiVsfRM,2405
+xon_db/natural_sort.py,sha256=8EbY8OiKrH8cFYuc1vN6IAAhcl2XT_bmM8waZuQujGg,169
