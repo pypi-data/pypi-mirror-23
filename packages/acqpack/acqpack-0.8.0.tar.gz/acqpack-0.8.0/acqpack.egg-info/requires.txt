@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+ipywidgets
+opencv-python
+opencv-contrib-python
+pymodbus
+pyserial
+PyYAML
