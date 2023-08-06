@@ -1,0 +1,13 @@
+ppu/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+ppu/__version__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+ppu/find_executable.py,sha256=OqvqEJGuy1y1GlCCtynzaJJVetrRakxXmtRVwGYEEvg,1482
+ppu-0.5.0.data/scripts/cmp.py,sha256=49ozvJX-Ul0gT8R297z04WHp_wxq21uv-ThTgICDrvw,1715
+ppu-0.5.0.data/scripts/remove-old-files.py,sha256=qCX0h-dINt79nkkQDt3CRv_FH_H4_XVbH9odqxBF5ro,1558
+ppu-0.5.0.data/scripts/rm.py,sha256=hbSVWSddLF0TbZpA5b6CXGJh61GRpPAJqOdNVNp3uVQ,649
+ppu-0.5.0.data/scripts/which.py,sha256=IbQM7NWXF5FnGSCWdZ4GzkL6-lr5Qq5iMdQK0M6KVaE,225
+ppu-0.5.0.dist-info/DESCRIPTION.rst,sha256=YMYbQwHSFsbZRLEgg6-OTme7zi57A1dZyI1grAXgaCk,636
+ppu-0.5.0.dist-info/METADATA,sha256=6YjP8Ughms5kP8qolkiCKD7VNe1yaSLXEd_qIUe2JNY,1493
+ppu-0.5.0.dist-info/RECORD,,
+ppu-0.5.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ppu-0.5.0.dist-info/metadata.json,sha256=-k_PnQ8SqZOAajvUwTJ-QzXbPOjtNBRWmGPADfSmcRc,966
+ppu-0.5.0.dist-info/top_level.txt,sha256=UjbGYuW3cRVo2zjtLLh0MyXueT3fXfbBpUdyXkb1mKk,4
