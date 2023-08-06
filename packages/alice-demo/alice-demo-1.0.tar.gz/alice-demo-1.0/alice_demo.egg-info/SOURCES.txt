@@ -1,0 +1,6 @@
+setup.py
+alice_demo.egg-info/PKG-INFO
+alice_demo.egg-info/SOURCES.txt
+alice_demo.egg-info/dependency_links.txt
+alice_demo.egg-info/requires.txt
+alice_demo.egg-info/top_level.txt
