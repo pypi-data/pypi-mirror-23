@@ -1,0 +1,8 @@
+README.rst
+setup.py
+csa/__init__.py
+csa/algorithm.py
+pycsa.egg-info/PKG-INFO
+pycsa.egg-info/SOURCES.txt
+pycsa.egg-info/dependency_links.txt
+pycsa.egg-info/top_level.txt
