@@ -1,0 +1,16 @@
+requests[security]
+jsonschema
+jsonref
+pyyaml
+functools32
+click
+glob2
+jsonpointer
+psutil
+yadage-schemas
+mock
+checksumdir
+jq
+
+[celery]
+celery
