@@ -1,0 +1,4 @@
+include README.md requirements.txt
+include git_ext/static/CONFIG_TEMPLATE.yml
+include git_ext/PR_SUBMIT_TEMPLATE
+recursive-include tests *.py
