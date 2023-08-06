@@ -1,0 +1,8 @@
+Metadata-Version: 1.2
+Name: reddit_persona
+Version: 1.2.22
+Summary: This module uses APIs from Reddit and Indico.io to provide insights into a Redditor's personality attributes.
+Home-page: https://www.github.com/n2itn/reddit_persona
+License: UNKNOWN
+Author: Zach
+Author-email: z@aracel.io
