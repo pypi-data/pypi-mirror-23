@@ -1,0 +1,13 @@
+CHANGES.txt
+LICENSE.md
+MANIFEST.in
+README.rst
+setup.py
+paramset_pyspecdata/__init__.py
+paramset_pyspecdata.egg-info/PKG-INFO
+paramset_pyspecdata.egg-info/SOURCES.txt
+paramset_pyspecdata.egg-info/dependency_links.txt
+paramset_pyspecdata.egg-info/top_level.txt
+pyspecdata/anothertest.f90
+pyspecdata/propagator.f90
+pyspecdata/test_f90.f90
