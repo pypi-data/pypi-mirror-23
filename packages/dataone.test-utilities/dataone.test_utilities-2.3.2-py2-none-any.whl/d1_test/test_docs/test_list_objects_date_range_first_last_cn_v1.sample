@@ -1,0 +1,23 @@
+PyXB object:
+  <?xml version="1.0" encoding="utf-8"?>
+  <ns1:objectList count="1" start="0" total="6" xmlns:ns1="http://ns.dataone.org/service/types/v1">
+    <objectInfo>
+      <identifier>PID_GMNFXT_ucgzsnijaief</identifier>
+      <formatId>CF-1.1</formatId>
+      <checksum algorithm="SHA-1">ac6a244c54eee9a83f12a9ca18aecdf7f249d3a7</checksum>
+      <dateSysMetadataModified>1980-11-03T07:17:10</dateSysMetadataModified>
+      <size>234</size>
+    </objectInfo>
+  </ns1:objectList>
+
+PyXB object:
+  <?xml version="1.0" encoding="utf-8"?>
+  <ns1:objectList count="1" start="5" total="6" xmlns:ns1="http://ns.dataone.org/service/types/v1">
+    <objectInfo>
+      <identifier>PID_GMNFXT_dwsnuwqctkjj</identifier>
+      <formatId>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatId>
+      <checksum algorithm="SHA-1">220b5404cb20f99b5bf960295cb75480f73c1526</checksum>
+      <dateSysMetadataModified>1980-01-09T23:08:28</dateSysMetadataModified>
+      <size>234</size>
+    </objectInfo>
+  </ns1:objectList>
