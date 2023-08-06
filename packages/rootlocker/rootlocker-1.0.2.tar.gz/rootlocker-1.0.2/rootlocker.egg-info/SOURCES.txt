@@ -1,0 +1,16 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README
+setup.py
+rootlocker/__init__.py
+rootlocker.egg-info/PKG-INFO
+rootlocker.egg-info/SOURCES.txt
+rootlocker.egg-info/dependency_links.txt
+rootlocker.egg-info/top_level.txt
+rootlocker/Solver/Constants.py
+rootlocker/Solver/CustomEqProvider.py
+rootlocker/Solver/EqProvider.py
+rootlocker/Solver/Maths.py
+rootlocker/Solver/__init__.py
+rootlocker/Solver/mesh.py

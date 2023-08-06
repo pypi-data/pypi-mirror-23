@@ -1,0 +1,7 @@
+#documentation
+recursive-include docs/_build/html *
+
+
+#Misc
+include CHANGES.txt
+include LICENSE.txt

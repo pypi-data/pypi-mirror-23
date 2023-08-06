@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: rootlocker
+Version: 1.0.2
+Summary: global analytic equation solver
+Home-page: UNKNOWN
+Author: maxence Miguel-Brebion
+Author-email: bmsofts.contact@gmail.com
+License: MIT
+Description: # RootLocker Project
+        
+        This module permit to simply solve analytic equations in the complex plan. It ensures that all the solutions, along with their order of multiplicity, are recovered. The algorithm used rely on the argument principle and therefore require at least C1 functions.
+        
+        ## Getting Started
+        
+        These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+        
+        ### Prerequisites
+        
+        
+        ```
+        This module requires the ad module which provides automatic differentiation easily.
+        ```
+        
+        ### Installing
+        
+        ```
+        The easiest way to install this library is to use pip.
+        ```
+        
+        ### Use
+        
+        There are two ways to use this module. 
+        
+        A. In this mode, you can define a function which uses the admath library (loaded by default when importing rootlocker module)
+        
+         ::
+        
+        	import rootlocker as rl                    \# Import rootlocker module along with admath module
+        	bounds= [complex(-2,-1),complex(8,3)]      \# Define the domain of research
+        	def f(x):                                  \# Define the function for wich roots are searched
+        		return rl.cos(x)+4.0\*rl.sin(2*x)
+        	sols,ms=solve(bounds,func=f,myerr=1e-3)    \# Solve the equation f(x)=0 with the accuracy specified by myerr
+        
+        	ms.plotRoots()    			   \# Plot the solutions (uses matplotlib)
+        	ms.printStats()                            \# Prints statctics about the computation
+        	  
+        	
+        B. In order to avoid the use of the ad module, one ca provide an equationprovider by overriding the class **EqProvider**. 
+        For instance, one can directly use custom C or C++ code for the function and its derivative and this permits to significantly reduce the computational time required by the algorithm.
+        
+        ## Authors
+        
+        * **Maxence Miguel-Brebion** - (*IMFT*) 
+        
+        ## License
+        
+        This project is licensed under the MIT License - see the LICENSE.txt file for details
+        
+        ## Acknowledgments
+        
+        Laurent Selle, Thierry Poinsot and Emilien Courtine from The Institut de Mecanique des Fluides de Toulouse have greatly contributed to the algorithm behind the rootlocker module.
+        
+        
+Keywords: root finding algorithm analytic argument principle
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
