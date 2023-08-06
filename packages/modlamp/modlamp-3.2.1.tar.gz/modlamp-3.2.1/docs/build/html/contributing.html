@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Contribution Guide &#8212; modlAMP v2.6.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     'v2.6.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/modlamp.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="modlAMP v2.6.0 documentation" href="index.html" />
+    <link rel="next" title="5. License" href="license.html" />
+    <link rel="prev" title="3. Example scripts" href="examplescript.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="license.html" title="5. License"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="examplescript.html" title="3. Example scripts"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">modlAMP v2.6.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="contribution-guide">
+<h1>4. Contribution Guide<a class="headerlink" href="#contribution-guide" title="Permalink to this headline">¶</a></h1>
+<p><strong>Everyone is welcome to contribute!</strong></p>
+<p>If you plan to contribute to this project, please comply with the following guidelines:</p>
+<div class="section" id="contribution-guidelines">
+<h2>4.1. Contribution Guidelines<a class="headerlink" href="#contribution-guidelines" title="Permalink to this headline">¶</a></h2>
+<p>Before starting, get a sense of which functionality and modules are already included in <strong>modlAMP</strong> and read the
+documentation. If you then still think, your idea is missing, go for it!</p>
+<ul class="simple">
+<li>Comply with the used docstring format (rst, check the existing code and comment in the same way) &#8211;&gt; documentation is automatically generated</li>
+<li>If you extend an existing module/class/function, use the same variable names.</li>
+<li>For all of your new modules/classes/functions, make Unittest test cases, otherwise nobody knows, whether your feature actually works!</li>
+<li>Include code examples of how to use your amazing new feature / add a section to the <code class="docutils literal"><span class="pre">README</span></code> file</li>
+</ul>
+<div class="section" id="reporting-bugs">
+<h3>4.1.1. Reporting Bugs<a class="headerlink" href="#reporting-bugs" title="Permalink to this headline">¶</a></h3>
+<p>Before reporting a bug: are you sure, that the bug is persistent? Does it only occur on your machine? If the bug persists,
+do the following:</p>
+<ul class="simple">
+<li>Create a <strong>new issue</strong> (left menu GitLab server)</li>
+<li>Use a clear and descriptive title</li>
+<li>Describe the exact steps that produced the problem</li>
+<li>Provide examples</li>
+<li>Explain which behaviour you actually expected to see</li>
+</ul>
+</div>
+<div class="section" id="git-workflow-to-contribute">
+<h3>4.1.2. Git Workflow To Contribute<a class="headerlink" href="#git-workflow-to-contribute" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">clone a version of the current Git repository to your local machine</p>
+</li>
+<li><p class="first">create a new git branch for your project: <code class="docutils literal"><span class="pre">git</span> <span class="pre">branch</span> <span class="pre">&lt;branch-name&gt;</span></code></p>
+</li>
+<li><p class="first">change to your new branch: <code class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">&lt;branch-name&gt;</span></code></p>
+</li>
+<li><p class="first">start implementing your amazing new feature!</p>
+</li>
+<li><p class="first">regularly <code class="docutils literal"><span class="pre">git</span> <span class="pre">add</span></code> and <code class="docutils literal"><span class="pre">git</span> <span class="pre">commit</span></code></p>
+</li>
+<li><dl class="first docutils">
+<dt>if you feel like your amazing new feature is ready to be used by others, push your branch back to the origin:</dt>
+<dd><p class="first last"><code class="docutils literal"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">&lt;branch-name&gt;</span></code></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>if your finished implementing the feature, create a <strong>merge request</strong> on the GitLab server to include your branch</dt>
+<dd><p class="first last">into the master branch.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/modlab.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. Contribution Guide</a><ul>
+<li><a class="reference internal" href="#contribution-guidelines">4.1. Contribution Guidelines</a><ul>
+<li><a class="reference internal" href="#reporting-bugs">4.1.1. Reporting Bugs</a></li>
+<li><a class="reference internal" href="#git-workflow-to-contribute">4.1.2. Git Workflow To Contribute</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="examplescript.html"
+                        title="previous chapter">3. Example scripts</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="license.html"
+                        title="next chapter">5. License</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/contributing.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="license.html" title="5. License"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="examplescript.html" title="3. Example scripts"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">modlAMP v2.6.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, modlab ETH Zurich, Alex Mueller.
+      Last updated on Nov 24, 2016.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>
