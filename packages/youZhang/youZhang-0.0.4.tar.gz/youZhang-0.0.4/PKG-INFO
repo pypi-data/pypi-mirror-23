@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: youZhang
+Version: 0.0.4
+Summary: youtube-download-tools @ZHANG Xu-long
+Home-page: http://zhangxulong.site
+Author: ZHANG Xu-long
+Author-email: fudan0027zxl@gmail.com
+License: BSD
+Description: * ver: 0.0.1  just youtube download
+        
+        # A python module for youtueb download
+        
+        # youZhang
+        [![baseZhang](https://img.shields.io/pypi/v/youZhang.svg)](https://pypi.python.org/pypi/youZhang)
+        [![baseZhang](https://img.shields.io/pypi/dm/youZhang.svg "PyPi Downloads")](https://pypi.python.org/pypi/youZhang)
+        
+         
+Keywords: audio music sound
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
