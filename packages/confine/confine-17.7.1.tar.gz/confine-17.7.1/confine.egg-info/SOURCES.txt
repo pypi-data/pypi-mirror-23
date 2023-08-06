@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+confine/__init__.py
+confine/func.py
+confine.egg-info/PKG-INFO
+confine.egg-info/SOURCES.txt
+confine.egg-info/dependency_links.txt
+confine.egg-info/not-zip-safe
+confine.egg-info/top_level.txt
+confine/NET/.DS_Store
+confine/NET/LCC_Zscore_10k.p
+confine/NET/PPI_2015_raw.p
+confine/NET/id_to_sym_human.p
+confine/TEST/.DS_Store
+confine/TEST/test.csv
