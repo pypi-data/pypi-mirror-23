@@ -1,0 +1,15 @@
+ampersand/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampersand/ampersand.py,sha256=pCQZpOTOcq_ZXIscZKOat8cDPeW-mginC0ZMNuz_niw,3848
+ampersand/build.py,sha256=uLFtamcKqwaRAFxquwN0yvc93fYGOAvsQfzFb9FT5Es,6910
+ampersand/command_line.py,sha256=513U0EcPKDOj1yxq30LvGJF-COvEkLoo-_SxST9Ob5I,411
+ampersand/handler.py,sha256=lkm7DBNcBpPVCZbeSnU3DChPyHBVPK3a-5jr4tC0SLU,1809
+ampersand/templates/_ampersand.json,sha256=WwF2M7HEOrUxwzmklT546SHygfDbcn5UyWwoxCPWghI,203
+ampersand/templates/_plugin.json,sha256=1CNLSorkEB_MkFrX1bS2POGvaq2HaAJnsHNbVSacS50,59
+ampersand/templates/page.json,sha256=ecipjMoRWLbXbb6XZ-uNv1nPKEcfuO6jbcQIJoD_PpM,85
+ampersand-0.5.1.dist-info/DESCRIPTION.rst,sha256=ndU4pCRllQNavDH27m_XjDNW9rq0wfxa_c2By-nYjDU,3130
+ampersand-0.5.1.dist-info/METADATA,sha256=yrrvk2c4_PQBNmsDvGl3HB1XYunGbGWS6xMc-2g_Tjo,3699
+ampersand-0.5.1.dist-info/RECORD,,
+ampersand-0.5.1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+ampersand-0.5.1.dist-info/entry_points.txt,sha256=WoJXZkGwzpM2N5oXfGHgp1Cnuy3fweAp3ZXHd8zNj4w,93
+ampersand-0.5.1.dist-info/metadata.json,sha256=yrsBPXFH8kxk9tt6wvmlD7pJsUTrA_hbe36uLajCwaU,1035
+ampersand-0.5.1.dist-info/top_level.txt,sha256=2hnLg4ke3oW0VIr695Ew5S6wQAbdxmODi_e-egZAj6k,10
