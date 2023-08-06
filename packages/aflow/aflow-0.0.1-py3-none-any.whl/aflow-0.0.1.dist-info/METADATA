@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: aflow
+Version: 0.0.1
+Summary: Python API for searching AFLOW database.
+Home-page: https://github.com/rosenbrockc/aflow
+Author: Conrad W Rosenbrock
+Author-email: rosenbrockc@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: argparse
+Requires-Dist: numpy
+Requires-Dist: termcolor
+
+``AFLOW`` Python API
+====================
+
+Python API wrapping the AFLUX API language for AFLOW library.
+
+
