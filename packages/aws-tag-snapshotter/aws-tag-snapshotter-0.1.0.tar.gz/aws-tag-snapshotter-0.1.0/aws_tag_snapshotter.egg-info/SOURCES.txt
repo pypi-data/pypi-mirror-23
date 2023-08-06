@@ -1,0 +1,6 @@
+setup.py
+aws_tag_snapshotter.egg-info/PKG-INFO
+aws_tag_snapshotter.egg-info/SOURCES.txt
+aws_tag_snapshotter.egg-info/dependency_links.txt
+aws_tag_snapshotter.egg-info/requires.txt
+aws_tag_snapshotter.egg-info/top_level.txt
