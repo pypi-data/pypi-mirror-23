@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: retwist
+Version: 0.1
+Summary: Write JSON REST APIs in the Twisted framework
+Home-page: https://github.com/trustyou/retwist
+Author: TrustYou
+Author-email: development@trustyou.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
