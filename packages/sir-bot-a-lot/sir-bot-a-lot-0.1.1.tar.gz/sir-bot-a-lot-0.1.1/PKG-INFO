@@ -1,0 +1,52 @@
+Metadata-Version: 1.2
+Name: sir-bot-a-lot
+Version: 0.1.1
+Summary: The good Sir Bot-a-lot. An asynchronous python bot framework.
+Home-page: https://github.com/pyslackers/sir-bot-a-lot
+Author: pythondev slack community
+Author-email: pythondev.slack@gmail.com
+License: MIT
+Description: ======
+        |icon|
+        ======
+        
+        |build| |doc|
+        
+        An asynchronous python bot framework.
+        
+        The uses of bots are nearly endless and come in all shapes and sizes.
+        They can handle Slack shenanigans, monitor the status of a crypto-currency,
+        or become your personal assistant. Sir-bot-a-lot can help you get started
+        writing your own.
+        
+        Sir-bot-a-lot is a project maintained by the `pyslackers`_ community.
+        Want to join? `Get an invite`_ !
+        
+        .. _pyslackers: http://pyslackers.com
+        .. _Get an invite: http://pyslackers.com
+        .. |build| image:: https://travis-ci.org/pyslackers/sir-bot-a-lot.svg?branch=master
+            :alt: Build status
+            :target: https://travis-ci.org/pyslackers/sir-bot-a-lot
+        .. |doc| image:: https://readthedocs.org/projects/sir-bot-a-lot/badge/?version=latest
+            :alt: Documentation status
+            :target: http://sir-bot-a-lot.readthedocs.io/en/latest
+        .. |icon| image:: icon/icon-500.png
+            :width: 10%
+            :alt: Sir-bot-a-lot icon
+            :target: http://sir-bot-a-lot.readthedocs.io/en/latest
+        
+        Documentation available `here`_.
+        
+        .. _here: http://sir-bot-a-lot.readthedocs.io/en/latest/
+Keywords: sirbot,chatbot,bot,slack
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Requires-Python: ~=3.5

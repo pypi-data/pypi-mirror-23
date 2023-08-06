@@ -1,0 +1,15 @@
+logging:
+  version: 1
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: simple
+      stream: ext://sys.stdout
+  loggers:
+    sirbot:
+      level: DEBUG
+      handlers: [console]
+sirbot:
+  plugins:
+    - tests.test_plugin.sirbot
