@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: eaas-tools
+Version: 0.0.5
+Summary: Client Tools for EAAS
+Home-page: https://github.com/inorton/eaas
+Author: Ian Norton
+Author-email: inorton@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: Find and use EAAS instances
+Platform: any

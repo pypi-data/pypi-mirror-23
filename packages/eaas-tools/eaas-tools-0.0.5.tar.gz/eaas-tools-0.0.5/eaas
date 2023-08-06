@@ -1,0 +1,46 @@
+#!/usr/bin/python
+
+import sys
+import argparse
+from eaaslib import search
+
+
+FIND = "find"
+CMDS = [FIND]
+
+PARSER = argparse.ArgumentParser()
+PARSER.add_argument("cmd", metavar="CMD", type=str, nargs="+",
+                    help="Tell eaas to do some thing. Any of {}".format(
+                        ", ".join(CMDS)))
+
+
+def do_find(capfilter=None):
+    """
+    Find eaas nodes
+    :return:
+    """
+    nodes = search.get_nodes(filtercaps=capfilter)
+    for node in nodes:
+        caps = nodes[node]["caps"]
+
+        running = len(nodes[node]["containers"])
+
+        print "{} caps=[{}] running={}".format(
+            node, ",".join(caps), running)
+
+
+def run(parser):
+    """
+    Run the tool
+    :param parser:
+    :return:
+    """
+    args = parser.parse_args()
+    if args.cmd[0] not in CMDS:
+        parser.print_help(sys.stdout)
+
+    if args.cmd[0] == "find":
+        do_find(args.cmd[1:])
+
+if __name__ == "__main__":
+    run(PARSER)
