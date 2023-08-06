@@ -1,0 +1,6 @@
+APScheduler>=2.1.2,<3.0.0
+Flask
+SQLAlchemy
+requests
+flask-admin
+flask-login
