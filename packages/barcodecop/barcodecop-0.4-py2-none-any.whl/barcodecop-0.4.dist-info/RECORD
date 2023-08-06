@@ -1,0 +1,12 @@
+barcodecop/__init__.py,sha256=FicdFCsdY9idtEWOD_nbCvt-ESO1ZoAyA3cXPCiyzuk,216
+barcodecop/barcodecop.py,sha256=tgMW-TP3AAZGRI_NHacDV0mna4YmYdmJEhW_cxfgbgM,8698
+barcodecop/data/ver,sha256=w2_bz1ftM0jlnaN77rxcNpaz5FG3_-FvLrtsm17lkWs,4
+barcodecop-0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+barcodecop-0.4.dist-info/METADATA,sha256=4yW3bXAmcICkupfuGbWkiVlXeEmjBrTuX6zHsqu2aI0,483
+barcodecop-0.4.dist-info/RECORD,,
+barcodecop-0.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+barcodecop-0.4.dist-info/entry_points.txt,sha256=h8nd1qDTt5O7hbSLwGchVNKwOHQB9cAClA6O2Wgixv8,59
+barcodecop-0.4.dist-info/metadata.json,sha256=EvhAL_JLIZvXNF2iCkxEAwXItIFYm-9do-K0a-fLLXo,822
+barcodecop-0.4.dist-info/top_level.txt,sha256=KOBbEAPJKN3J8SJC6oF67Un0nsYap65EJZll0CGNHp8,17
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=UlIheWMxk9Nq-hZ_6gXRlqMPKKOW5qjfRTK0F3952eY,5546
