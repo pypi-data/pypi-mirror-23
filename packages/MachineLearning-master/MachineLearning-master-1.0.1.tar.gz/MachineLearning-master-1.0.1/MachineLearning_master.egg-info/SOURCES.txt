@@ -1,0 +1,8 @@
+README.txt
+setup.py
+MachineLearning-master/__init__.py
+MachineLearning_master.egg-info/PKG-INFO
+MachineLearning_master.egg-info/SOURCES.txt
+MachineLearning_master.egg-info/dependency_links.txt
+MachineLearning_master.egg-info/top_level.txt
+MachineLearning_master.egg-info/zip-safe
