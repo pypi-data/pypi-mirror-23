@@ -1,0 +1,7 @@
+include *.txt *.cfg *.rst *.md
+include LICENSE
+
+recursive-include docs *
+recursive-include src *
+
+global-exclude *pyc .DS_Store .installed.cfg
