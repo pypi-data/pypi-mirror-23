@@ -1,0 +1,12 @@
+reprounzip_vagrant-1.0.10-py2.7-nspkg.pth,sha256=QRbYD5sXILyuMHbew6_CZVoRgnIQsj-J-UBwQ2qF5tk,1786
+reprounzip/unpackers/vagrant/__init__.py,sha256=k7MGIdt9dm7TykCq1036Cd5HtUiBu4-VNlNCMbjeBag,37009
+reprounzip/unpackers/vagrant/interaction.py,sha256=cSo-a0-qzHFAtkq2rQVKgsuiaL_vKQjZri3UmQv8ISk,3928
+reprounzip/unpackers/vagrant/run_command.py,sha256=kgjvQUlz3U_gY7Gzj2L1leebrs4YqX_42wwxptxAt8s,6341
+reprounzip_vagrant-1.0.10.dist-info/DESCRIPTION.rst,sha256=nzbDu_Jr23aQ1M-5MW_7Ya_Sa1PcmK51NkFdIsVm9vg,1559
+reprounzip_vagrant-1.0.10.dist-info/METADATA,sha256=ezOjVgG1sl8rpGWD9yCfnCt7i_7NQ1dOI8YhMmO6U4s,2484
+reprounzip_vagrant-1.0.10.dist-info/RECORD,,
+reprounzip_vagrant-1.0.10.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+reprounzip_vagrant-1.0.10.dist-info/entry_points.txt,sha256=cwHJk75uZxP6DjB7zXaRJcByhhjwRFchyZzR1ApXJCg,69
+reprounzip_vagrant-1.0.10.dist-info/metadata.json,sha256=H0YNS0qFjuDfGXKh9vNHbZYg6wcP0kMpvH30OxzHF0E,1170
+reprounzip_vagrant-1.0.10.dist-info/namespace_packages.txt,sha256=mNVvgHWEykSs-QdvMt5jOFeTreWTtIA87CmKzHnqUcg,32
+reprounzip_vagrant-1.0.10.dist-info/top_level.txt,sha256=Pdc7lSeA773b7POw9JoPZwKxMw8omJvPfHD_TObG9wE,11
