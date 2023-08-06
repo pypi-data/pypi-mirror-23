@@ -1,0 +1,9 @@
+plaster
+plaster_pastedeploy
+hupper
+
+[testing]
+pytest
+pytest-cov
+flake8
+waitress
