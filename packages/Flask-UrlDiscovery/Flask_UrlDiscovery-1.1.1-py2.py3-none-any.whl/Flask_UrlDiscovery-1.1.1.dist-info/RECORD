@@ -1,0 +1,12 @@
+Flask_UrlDiscovery-1.1.1.dist-info/DESCRIPTION.rst,sha256=rawgVp0ViU4JO8k9tmI1BlhgznifdgaxOhhQR66wzDA,5780
+Flask_UrlDiscovery-1.1.1.dist-info/METADATA,sha256=mpdl7XHyYFZ-trEh_Ffb2ygfUyIRD8BIQ62yWzLRhEM,6860
+Flask_UrlDiscovery-1.1.1.dist-info/RECORD,,
+Flask_UrlDiscovery-1.1.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+Flask_UrlDiscovery-1.1.1.dist-info/metadata.json,sha256=sYKPjpACH_OI_ZEPfSgBt403WsRMv_wLwF1p4W4k-Q8,1201
+Flask_UrlDiscovery-1.1.1.dist-info/top_level.txt,sha256=P0p56iGR5Vmx2FPvipvLLW9Dsq4xR2SVLH-bhb6ZbB0,20
+flask_url_discovery/__init__.py,sha256=KHzJZrN1fBbEf_EmVE0YbhhR9AoCI-lAXgiVRLKSYOE,362
+flask_url_discovery/app_registry.py,sha256=jCjg7Gl3ymN3h3ixR3MSIKaNbE3TspFDX8VUTGx-7Pg,2951
+flask_url_discovery/env.py,sha256=6BQfJsw915PjZ_FYv50luvYMkT8EtZHQiciXKJeOiPE,267
+flask_url_discovery/urls_privation.py,sha256=Jem00MnHx_1anQXmdU9S6R3Z9v7xHNuKzVcxoJFX8YU,1562
+flask_url_discovery/utils.py,sha256=0C9KSZJEwqB0UkEfrzE7nOyWK7n8AU1VEMDFxD3PC3w,822
+flask_url_discovery/version.py,sha256=E-6wAZjiLRVInABFxrWoqdYlO_t-zVhK8XNfNnaDyzI,22
