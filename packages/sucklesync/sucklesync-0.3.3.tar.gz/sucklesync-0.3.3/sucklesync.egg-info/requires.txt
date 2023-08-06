@@ -1,0 +1,3 @@
+daemonize>=2.4.7
+pyzmail
+easyprocess
