@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: terminal-colours
+Version: 0.3
+Summary: A simple package to allow the use of colours when outputting to the terminal
+Home-page: https://github.com/g-farrow/terminal-colours
+Author: Greg Farrow
+Author-email: greg.farrow1@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: terminal output colours colors color colour print format formatting
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Python: >=3
