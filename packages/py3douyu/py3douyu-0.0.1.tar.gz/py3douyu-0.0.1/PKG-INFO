@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: py3douyu
+Version: 0.0.1
+Summary: Python3 Wrapper for DouyuTV APIs, including support for accessing ChatRoom, e.g. DanMu
+Home-page: https://github.com/lovephy/py3douyu
+Author: Lovephy
+Author-email: hypu1215@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/lovephy/py3douyu
+Description: UNKNOWN
+Keywords: douyu,douyutv,danmu,chat
+Platform: UNKNOWN
