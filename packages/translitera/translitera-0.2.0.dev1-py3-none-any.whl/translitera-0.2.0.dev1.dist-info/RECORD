@@ -1,0 +1,13 @@
+translitera/LICENSE.txt,sha256=mXbUGMnjiPItVs_tSEIxDIDOV42oj4syK6kYA7Uqmc0,10790
+translitera/README.reSTful,sha256=aTaHAN2BhdJ1v7OMCMC8-_LhauRvB-7jnNYDcCooTIU,949
+translitera/__init__.py,sha256=aE1XUnZyNQZNPrUiEuKWUSRbXjQLLaOgBw3-cDemZlQ,22
+translitera/kn2en.json,sha256=dCuSuFIh9hkZtXOJAqHW6ZLiL_wIC4iON6uxG8iy9ok,9432
+translitera/kn2la.json,sha256=IGC2vbZoKbATYnNz4dwJY8eg5EIsDmM3nePswa6vREM,10543
+translitera/translitera.py,sha256=1e-VOzOSOnrJ-UTcSWNLWVKtoGSEyeQGWnRHYkEf9pg,6459
+translitera-0.2.0.dev1.dist-info/DESCRIPTION.rst,sha256=Bau_xmxis39NJG-ggsZ67DZPYzMKJG8P3wSyHZJ_m7U,949
+translitera-0.2.0.dev1.dist-info/METADATA,sha256=fYMimkqKiCh5Vk8sslU3d4UXDKjZv1F9rBrrv8qhIoY,1496
+translitera-0.2.0.dev1.dist-info/RECORD,,
+translitera-0.2.0.dev1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+translitera-0.2.0.dev1.dist-info/entry_points.txt,sha256=0ENVD4Gx6BSlX0PD7XBPCvLppTLZtpJceyaIvyY50J8,62
+translitera-0.2.0.dev1.dist-info/metadata.json,sha256=eEt59JByie7DZsIHqfobTO5lrYKloMPjKsU2LcgiSWk,912
+translitera-0.2.0.dev1.dist-info/top_level.txt,sha256=I_xcdr_kLDRgUSlvRxA_Z-yGEyZua5SXA3imWfJnM5I,12
