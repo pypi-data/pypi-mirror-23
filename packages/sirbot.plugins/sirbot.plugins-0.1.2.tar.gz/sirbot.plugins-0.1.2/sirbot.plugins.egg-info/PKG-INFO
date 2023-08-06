@@ -1,0 +1,46 @@
+Metadata-Version: 1.2
+Name: sirbot.plugins
+Version: 0.1.2
+Summary: Plugins for the good Sir Bot-a-lot
+Home-page: https://github.com/pyslackers/sirbot-plugins
+Author: pythondev slack community
+Author-email: pythondev.slack@gmail.com
+License: MIT
+Description: =========================
+        Plugins for Sir Bot-a-lot
+        =========================
+        
+        |build|
+        
+        Collection of various plugins for `Sir Bot-a-lot`_.
+        
+        The uses of bots are nearly endless and come in all shapes and sizes.
+        They can handle Slack shenanigans, monitor the status of a crypto-currency,
+        or become your personal assistant. Sir Bot-a-lot can help you get started
+        writing your own.
+        
+        Sir Bot-a-lot and sirbot-plugins are projects maintained by the `pyslackers`_
+        community. Want to join? `Get an invite`_ !
+        
+        .. _pyslackers: http://pyslackers.com
+        .. _Get an invite: http://pyslackers.com
+        
+        .. |build| image:: https://travis-ci.org/pyslackers/sirbot-plugins.svg?branch=master
+            :alt: Build status
+            :target: https://travis-ci.org/pyslackers/sirbot-plugins
+        
+        .. _Sir Bot-a-lot: https://github.com/pyslackers/sir-bot-a-lot
+        
+        
+Keywords: sirbot,chatbot,bot
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Requires-Python: ~=3.5
