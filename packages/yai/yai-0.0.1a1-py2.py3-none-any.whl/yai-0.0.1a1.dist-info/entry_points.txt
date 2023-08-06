@@ -1,0 +1,3 @@
+[console_scripts]
+yai = yai.script:cli
+

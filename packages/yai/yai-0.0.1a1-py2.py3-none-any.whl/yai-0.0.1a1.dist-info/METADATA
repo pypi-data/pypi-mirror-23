@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: yai
+Version: 0.0.1a1
+Summary: yet another index for python packages
+Home-page: https://github.com/kilerd/yai
+Author: Kilerd Chan
+Author-email: blove694@gmail.com
+License: MIT
+Keywords: yai index package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+yai
+=======================
+
+yet another index for python packages
+
