@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: cloudshell-cp-docker
+Version: 0.1.54
+Summary: A repository for projects providing out of the box capabilities within CloudShell to define Docker container instances in CloudShell and leverage Docker's capabilities to deploy and connect apps in CloudShell sandboxes.
+Home-page: UNKNOWN
+Author: Aaron Rueth
+Author-email: aaron.r@qualisystems.com
+License: UNKNOWN
+Keywords: sandbox cloud containerization docker cloudshell
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Requires: jsonpickle
+Requires-Dist: cloudshell-automation-api (<8.1.0.0,>=8.0.0.0)
+Requires-Dist: cloudshell-shell-core (<3.2.0,>=3.1.0)
+Requires-Dist: docker (<3.0.0,>=2.3.0)
+Requires-Dist: jsonpickle (==0.9.3)
+
+UNKNOWN
+
+
