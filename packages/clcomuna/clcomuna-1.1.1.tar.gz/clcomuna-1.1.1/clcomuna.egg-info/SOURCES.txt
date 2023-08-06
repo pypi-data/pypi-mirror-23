@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+clcomuna/__init__.py
+clcomuna/comunas.csv
+clcomuna/convert.py
+clcomuna.egg-info/PKG-INFO
+clcomuna.egg-info/SOURCES.txt
+clcomuna.egg-info/dependency_links.txt
+clcomuna.egg-info/not-zip-safe
+clcomuna.egg-info/requires.txt
+clcomuna.egg-info/top_level.txt
+data/comunas.csv
