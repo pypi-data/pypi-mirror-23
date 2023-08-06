@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: colorshell
+Version: 0.1.1
+Summary: A simple package to abstract printing to IDLE in color
+Home-page: http://github.com/jacsmith21/colorshell
+Author: Jacob Smith
+Author-email: jacob.smith@unb.ca
+License: UNKNOWN
+Download-URL: https://github.com/jacsmith21/colorshell/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: print,shell,IDLE,color,colour
+Platform: UNKNOWN
