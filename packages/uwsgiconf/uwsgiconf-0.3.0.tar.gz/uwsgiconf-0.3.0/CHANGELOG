@@ -1,0 +1,24 @@
+uwsgiconf changelog
+===================
+
+
+v0.3.0
+------
++ Statics options group partially described.
++ A bunch of new actions for hooks described.
+
+
+v0.2.0
+------
++ Internal routing options group partially described.
++ Cheapening options group described.
+
+
+v0.1.1
+------
+* First public release.
+
+
+v0.1.0
+------
++ Basic functionality.
