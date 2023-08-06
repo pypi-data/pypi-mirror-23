@@ -1,0 +1,15 @@
+nameko_proxy/__init__.py,sha256=V0viLiU71Y_eFVHhdCk73qPLZn7k_F16QIXOzy_HlhM,102
+nameko_proxy/proxy.py,sha256=jfEGXopeozc-Sdlu4Ckd1EleAto_qy4E0RVXDdGj7hs,2430
+nameko_proxy/queue_consumer.py,sha256=-juINZOE06Zv7_2pkMfTZY7DeHYuHePomKqdKTI1MTE,3516
+nameko_proxy/reply_listener.py,sha256=A2uqiehJ5ecXtElZ4i6AT36IPwS3ScSODbKL0Bq7txo,368
+nameko_proxy/test.py,sha256=o9lS5eRFq51-6jSYs1hh2fLKFIbVMaN2hBsDH7swqSw,800
+nameko_proxy/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nameko_proxy/wrappers/flask.py,sha256=hZLQXjwGy968h6GX6nsj59jZDCLa8LUeE66l8fD2I0o,1881
+nameko_proxy-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+nameko_proxy-0.0.3.dist-info/METADATA,sha256=MbH1I4EjOqaLNPAO_9i5AhDJJpFKBe8qxEZrR8HH41Y,828
+nameko_proxy-0.0.3.dist-info/RECORD,,
+nameko_proxy-0.0.3.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+nameko_proxy-0.0.3.dist-info/metadata.json,sha256=ZxtYydZtn_ElihPS6HRNiyPrjYJCb0q5UG-VBxA6YoM,946
+nameko_proxy-0.0.3.dist-info/top_level.txt,sha256=6jVH5P3ap2waiwh2OabeNgI1Yc7nXIJmbLoSSg-Ta5A,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_proxy.py,sha256=Dx8ec4I5PffDI8oMf27APd7UgPaGae-RJBpHojJqQi8,1643
