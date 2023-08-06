@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: lssh
+Version: 0.2
+Summary: Limited Secure SHell
+Home-page: https://github.com/dpalominop/lssh
+Author: Daniel Palomino
+Author-email: dapalominop@gmail.com
+License: GPL
+Keywords: limited,shell,ssh,security,python
+Platform: UNIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Security
+Classifier: Topic :: Terminals
+Requires-Dist: paramiko
+Requires-Dist: psycopg2
+
+Limited Secure SHell (lssh) is lets you restrict the environment of any user. It provides an easily configurable shell: just choose a list of allowed commands for every limited account.
+
+
