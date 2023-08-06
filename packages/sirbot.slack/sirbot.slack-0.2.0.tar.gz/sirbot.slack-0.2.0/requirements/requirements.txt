@@ -1,0 +1,2 @@
+sir-bot-a-lot==0.2.0
+sirbot.plugins==0.2.0
