@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: fsight-cli
+Version: 0.74
+Summary: Foresight engine CLI
+Home-page: https://qio.io
+Author: Fouad Omri
+Author-email: fouad.omri@qio.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cloudpickle (==0.3.1)
+Requires-Dist: dill (==0.2.5)
+Requires-Dist: fire (==0.1.0)
+Requires-Dist: futures (==3.1.1)
+Requires-Dist: kubernetes (==2.0.0)
+Requires-Dist: pyyaml (==3.12)
+Requires-Dist: requests (==2.13.0)
+Requires-Dist: tabulate (==0.7.7)
+
+Foresight engine CLI
+
+
