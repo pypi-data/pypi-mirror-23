@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bybop
+Version: 0.1.2
+Summary: Bebop Drone control for python
+Home-page: https://github.com/amjltc295/bybop
+Author: Ya-Liang Chang
+Author-email: allen314x@yahoo.com.tw
+License: BSD
+Description: UNKNOWN
+Keywords: bebop python control
+Platform: Linux
