@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: vsmlib
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: http://vsm.blackbird.pw/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: NLP,linguistics,language
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: brewer2mpl
+Requires-Dist: scipy
+Requires-Dist: tables
+
+UNKNOWN
+
+
