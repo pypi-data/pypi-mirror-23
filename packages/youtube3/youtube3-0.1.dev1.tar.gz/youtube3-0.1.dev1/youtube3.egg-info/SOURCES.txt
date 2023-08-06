@@ -1,0 +1,9 @@
+setup.py
+youtube3/__init__.py
+youtube3/main.py
+youtube3/settings.py
+youtube3.egg-info/PKG-INFO
+youtube3.egg-info/SOURCES.txt
+youtube3.egg-info/dependency_links.txt
+youtube3.egg-info/requires.txt
+youtube3.egg-info/top_level.txt
