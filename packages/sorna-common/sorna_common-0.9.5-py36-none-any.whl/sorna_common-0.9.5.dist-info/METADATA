@@ -1,0 +1,87 @@
+Metadata-Version: 2.0
+Name: sorna-common
+Version: 0.9.5
+Summary: Sorna common libraries
+Home-page: https://github.com/lablup/sorna-common
+Author: Lablup Inc.
+Author-email: joongi@lablup.com
+License: LGPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Requires-Dist: aiodns
+Requires-Dist: aiohttp (~=2.2.0)
+Requires-Dist: aiozmq
+Requires-Dist: async-timeout
+Requires-Dist: pyzmq
+Requires-Dist: simplejson
+Provides-Extra: build
+Requires-Dist: pypandoc; extra == 'build'
+Requires-Dist: twine; extra == 'build'
+Requires-Dist: wheel; extra == 'build'
+Provides-Extra: ci
+Provides-Extra: dev
+Requires-Dist: asynctest; extra == 'dev'
+Requires-Dist: codecov; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: pypandoc; extra == 'dev'
+Requires-Dist: pytest (>=3.1); extra == 'dev'
+Requires-Dist: pytest-asyncio; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-mock; extra == 'dev'
+Requires-Dist: pytest-sugar; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Provides-Extra: monitor
+Requires-Dist: datadog (>=5.2); extra == 'monitor'
+Requires-Dist: raven (>=6.1); extra == 'monitor'
+Provides-Extra: test
+Requires-Dist: asynctest; extra == 'test'
+Requires-Dist: codecov; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: pytest (>=3.1); extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+
+sorna-common
+============
+
+|PyPI version| |Python Versions| |Build Status| |Code Coverage|
+
+Common libraries and utilities for Sorna
+
+Installation
+------------
+
+.. code:: sh
+
+    pip install sorna-common
+
+For development
+~~~~~~~~~~~~~~~
+
+.. code:: sh
+
+    pip install -r requirements-dev.txt
+
+.. |PyPI version| image:: https://badge.fury.io/py/sorna-common.svg
+   :target: https://badge.fury.io/py/sorna-common
+.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/sorna-common.svg
+   :target: https://pypi.org/project/sorna-common/
+.. |Build Status| image:: https://travis-ci.org/lablup/sorna-common.svg?branch=master
+   :target: https://travis-ci.org/lablup/sorna-common
+.. |Code Coverage| image:: https://codecov.io/gh/lablup/sorna-common/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/lablup/sorna-common
+
+
