@@ -1,0 +1,8 @@
+README.rst
+setup.py
+naposapi/__init__.py
+naposapi.egg-info/PKG-INFO
+naposapi.egg-info/SOURCES.txt
+naposapi.egg-info/dependency_links.txt
+naposapi.egg-info/requires.txt
+naposapi.egg-info/top_level.txt
