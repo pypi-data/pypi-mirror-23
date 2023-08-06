@@ -1,0 +1,9 @@
+setup.py
+fairflow/__init__.py
+fairflow/core.py
+fairflow/foperators.py
+fairflow/utils.py
+fairflow.egg-info/PKG-INFO
+fairflow.egg-info/SOURCES.txt
+fairflow.egg-info/dependency_links.txt
+fairflow.egg-info/top_level.txt
