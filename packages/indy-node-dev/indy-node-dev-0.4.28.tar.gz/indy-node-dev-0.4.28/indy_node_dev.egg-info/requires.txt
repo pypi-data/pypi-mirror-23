@@ -1,0 +1,4 @@
+indy-plenum-dev==0.4.44
+indy-anoncreds-dev==0.4.12
+python-dateutil
+timeout-decorator
