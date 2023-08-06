@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+santander_cobranca_xml.egg-info/PKG-INFO
+santander_cobranca_xml.egg-info/SOURCES.txt
+santander_cobranca_xml.egg-info/dependency_links.txt
+santander_cobranca_xml.egg-info/not-zip-safe
+santander_cobranca_xml.egg-info/top_level.txt
+templates/consulta_titulo.xml
+templates/inclusao_titulo.xml
+templates/solicitacao_ticket.xml
