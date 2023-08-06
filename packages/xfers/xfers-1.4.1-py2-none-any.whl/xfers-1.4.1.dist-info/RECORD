@@ -1,0 +1,16 @@
+xfers/__init__.py,sha256=hv36_OlMJN_nfxMQrK4trdBR6LRTupkXS87ONQHXR4c,640
+xfers/api_resource.py,sha256=xkWEJihyA2IzdQdYmXnab8ThErD2WbIEwuVX-LzM8NU,1760
+xfers/error.py,sha256=eRYfisXMcYOcTzu8sx0dXwxQMzI-EwYpM5IWurYQA80,435
+xfers/xfbankaccount.py,sha256=RuPGkk5FUC_o5joOmOLCr_8EFjGehWoj7BHJfzYHe6Q,1388
+xfers/xfcard.py,sha256=PqZZ5mqEwgJ07g39YaV-IY5YjR1kuolKGp6Th7bHvmE,1575
+xfers/xfcharge.py,sha256=7SaURsqVNNmo3cDsJXl4AYwQnWyDdION4YeOSPdlcGE,1700
+xfers/xfconnect.py,sha256=vmp7_KcFkIFVZYvIE6zmyg2ryRjkm9uBVRH-fsDSpnw,527
+xfers/xfintent.py,sha256=hn5SuChM3TJPKxpGEFDZxlBLm7-gLBV57cB7eJmd1HY,607
+xfers/xfpayout.py,sha256=1NVlqdeu6NSrrorYydSNBa1cFY4UUHxd1bSBU9NI9vc,616
+xfers/xfuser.py,sha256=75haChSXkFHtpRpjkhJknZxZlpypYb7BBYRkHc0Y3VI,635
+xfers-1.4.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+xfers-1.4.1.dist-info/METADATA,sha256=VBu0zgDBj-Xsw7IK34ZSY0mccY8SQsDkD83wg01DXHQ,787
+xfers-1.4.1.dist-info/RECORD,,
+xfers-1.4.1.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+xfers-1.4.1.dist-info/metadata.json,sha256=c8FAw2LnQvaTHSud79ooVdHIWV2JR1Xvu1wxMjpLUWQ,936
+xfers-1.4.1.dist-info/top_level.txt,sha256=lXuqgr4P6JAID4BkvflMxsW9BwSbhUPRQYKwXbpQx7w,6
