@@ -1,0 +1,12 @@
+class_registry/__init__.py,sha256=M1mabQWuEqcIhR7GnGnirn69BtFPcRkGCl2pv4GE9oU,230
+class_registry/auto_register.py,sha256=n0svS6s5lDDhJ9m6F9IimZtJXkCYM3mWY131SQpoWTw,1817
+class_registry/cache.py,sha256=Uhc8TjmK4zgixMnlIoha4qkEfDnJGiAZP4bf_i42iMc,3826
+class_registry/entry_points.py,sha256=5oJ3FFZVsCL88yOLVK8B39hlbDSn0kmSNw6efpO0Afw,2033
+class_registry/patcher.py,sha256=2Bu-mgFS-l5V76jej0neT19Yufaz6wt3GdeuUiasvuo,3026
+class_registry/registry.py,sha256=sB1JEUJ21pnsMG6Uc4rzIn0TWU3tnD1LzX9_buj58lo,13649
+class_registry-2.0.1.dist-info/top_level.txt,sha256=wvawJyl3xiJV-uwhJWQI48txkwAP4QdEpkyDw0akrY8,15
+class_registry-2.0.1.dist-info/METADATA,sha256=-9TECOv6d_YUeXDHNBY405Z4dP-xKxj98tOVZFRXc_k,3052
+class_registry-2.0.1.dist-info/DESCRIPTION.rst,sha256=tYbsNEnt632_cQXtmMbAyRdOGHsBQGDcrngQN1mAtPA,2256
+class_registry-2.0.1.dist-info/metadata.json,sha256=_1RR67Ssq0uPjkx0bO8Q1t4l6MrF-sMOAAITVZZv1Oo,995
+class_registry-2.0.1.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+class_registry-2.0.1.dist-info/RECORD,,
