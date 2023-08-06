@@ -1,0 +1,4 @@
+[console_scripts]
+spotify-mymusic = onthego.scripts.cli:download_my_music
+spotify-playlist = onthego.scripts.cli:download_playlist
+
