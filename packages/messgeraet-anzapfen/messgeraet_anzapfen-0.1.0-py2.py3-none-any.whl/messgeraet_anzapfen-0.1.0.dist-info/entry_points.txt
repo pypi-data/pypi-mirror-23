@@ -1,0 +1,7 @@
+[console_scripts]
+anzapfen = messgeraet_anzapfen.main:run
+
+[messgeraet_sensoren]
+constant = messgeraet_anzapfen.sensors.constant:Constant.factory
+econsens3 = messgeraet_anzapfen.sensors.econsens3:EconSens3.factory
+
