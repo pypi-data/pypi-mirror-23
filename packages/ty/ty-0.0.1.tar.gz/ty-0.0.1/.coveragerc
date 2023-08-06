@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/ty
+   */site-packages/ty
+
+[run]
+branch = true
+source =
+    ty
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
