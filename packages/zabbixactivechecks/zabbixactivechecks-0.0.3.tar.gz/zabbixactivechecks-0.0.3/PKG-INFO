@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: zabbixactivechecks
+Version: 0.0.3
+Summary: Implementation of Zabbix Agent Active checks protocol
+Home-page: https://github.com/akomic/zabbix-activechecks
+Author: Alen Komic
+Author-email: akomic@gmail.com
+License: GPL
+Download-URL: https://github.com/akomic/zabbix-activechecks
+Description: This module implements Zabbix Active Checks Protocol.
+        It allows fetching of active checks for given host from Zabbix server
+        Based on the work by:
+        Matt Parr @ https://github.com/MattParr
+        
+Keywords: monitoring,zabbix,trappers
+Platform: UNKNOWN
