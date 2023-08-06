@@ -1,0 +1,5 @@
+IPy
+openbaton-cli
+PyYAML
+requests
+softfire-sdk
