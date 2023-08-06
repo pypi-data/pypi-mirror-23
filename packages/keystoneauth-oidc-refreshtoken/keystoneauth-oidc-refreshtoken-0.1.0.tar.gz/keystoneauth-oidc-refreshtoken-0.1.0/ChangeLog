@@ -1,0 +1,70 @@
+CHANGES
+=======
+
+0.1.0
+-----
+
+* fixed some setup lines
+* removed tildes, done README
+* test end to end workflow
+* errors fixed
+* pepe space removed
+* t -> r
+* second test, keystone token with accesstoken
+*  fixed dot error
+* added de REFRESH TOKEN attrubute
+* god shoot me
+* changed fixture origin
+* first test to get access token with payload
+* some pep8 errors
+* from keystoneauth1 exceptions
+* exception added
+* nothing, just triggering travis
+* added some code to get\_unscoped\_auth\_ref
+* discovery url provided
+* tired 2
+* tired
+*  just trying 2
+*  just trying
+* added some params plugin
+*  return to refresh token grand type
+* testing with password grant type
+* fixed rute
+*  added fixtures
+* authorization endpoint added
+* refresh token error
+*  error every where
+* remove test
+* encoding added
+* changed import
+* params changed
+* access token type removed
+* refresh\_token is bac
+* without refresh\_token attribute
+*  test\_oidc setUp created
+* - to \_ , at test loading
+*  return plugin name changed at loading
+* some error with plugin name
+* AttributeError oidc\_OidcBase -> \_OidcBase
+* coding..
+* some changes
+* renamed test -> tests
+* loading unit test created
+* exceptions not needed?
+* pep8 shouts
+* modified some files; added descriptions, fixed some pep8 shouts
+*  changed testr ext, README with build status
+* => to >=
+* pbr version changed
+* test-requirements.txt modified
+* modified tox ini
+* added testr.cfg
+* merged from test->master
+* added coverage and travis files
+* added tox.ini file
+* starting tox file, test-requirements.txt added
+* Passing to pbr, added \*.cfg, changed README to markdown
+* restructured folder
+* initial code package, yet to do, comment code, unit tests, to test code, to upload
+* añadidos otros dirs, licencia y version
+* empezando el paquete
