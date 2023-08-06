@@ -1,0 +1,9 @@
+README.rst
+digimarks.py
+setup.py
+digimarks.egg-info/PKG-INFO
+digimarks.egg-info/SOURCES.txt
+digimarks.egg-info/dependency_links.txt
+digimarks.egg-info/requires.txt
+digimarks.egg-info/top_level.txt
+digimarks.egg-info/zip-safe
