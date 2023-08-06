@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: github_publish
+Version: 1.0.0
+Summary: GitHub publisher
+Home-page: http://github.com/umihai1/github_publish
+Author: umihai1
+Author-email: umihai1@yahoo.com
+License: Many thanks to ravi....
+Description: UNKNOWN
+Keywords: handles releases on a GitHub.com server
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
