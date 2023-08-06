@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: djrad
+Version: 0.1.3
+Summary: Decorators for JSONRPC and REST API on django
+Home-page: https://github.com/amirmd76/djrad.git
+Author: Divar submit team
+Author-email: rteam@divar.ir
+License: MIT
+Description: Django-JSONRPC-REST-API-Decorators (DJRAD)
+Platform: UNKNOWN
