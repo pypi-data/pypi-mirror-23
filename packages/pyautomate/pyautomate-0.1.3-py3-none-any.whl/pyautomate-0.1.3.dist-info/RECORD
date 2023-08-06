@@ -1,0 +1,14 @@
+pyautomate/__init__.py,sha256=S9tuPSw11JSEivAhRlohn7-5tJpwtGOLrWJdJe3V6WA,987
+pyautomate/fs.py,sha256=B0p0V_lBMNYNLfgDjIpLojy2OY8Y4aUtxPouBr8Rers,1788
+pyautomate/pdf.py,sha256=ZVzKOH4at4-GKDV9YfgCrblH5XztbDIliQzfixLUNP4,1249
+pyautomate/office/__init__.py,sha256=f-H6O8SRY4hi6q019o3oJk8GaLQDSYnsz15zMYR6Bus,3871
+pyautomate/web/__init__.py,sha256=IcwTpH8xBxiIh3ZQQmceueGH_4fXvCoRPMhsvESu7Pw,3567
+pyautomate/web/__main__.py,sha256=LZUGe6CxVs6M2iurV01DwXnJ5KpIyeyta6WBPPUt3qE,269
+pyautomate/web/crawler.py,sha256=q-3HQwt0BS3tiqkTGY9hgP_PsB36rqGc1F_r9Qdw98U,564
+pyautomate/web/html.py,sha256=SiN4HkviQB53owq-296pymhiutTOGUjna7EtHOwoGpE,566
+pyautomate-0.1.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pyautomate-0.1.3.dist-info/METADATA,sha256=8bNZ4kXjrFAFGMikJuMrzL34aJWWWJi9KjqljsXCCPI,412
+pyautomate-0.1.3.dist-info/RECORD,,
+pyautomate-0.1.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyautomate-0.1.3.dist-info/metadata.json,sha256=pEKXYqwgAnW8gUfovVTa1-5HH-V0YdqwXs66__0j_NM,503
+pyautomate-0.1.3.dist-info/top_level.txt,sha256=sL-ZGg3r_xQcuDaqpfhUtxlfUlD4Fx3mHO61AvlZ7Qg,11

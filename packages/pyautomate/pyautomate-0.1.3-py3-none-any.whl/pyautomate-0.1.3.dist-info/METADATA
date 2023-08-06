@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: pyautomate
+Version: 0.1.3
+Summary: Automate things
+Home-page: UNKNOWN
+Author: Lee Seongjoo
+Author-email: seongjoo@codebasic.io
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: pdfminer.six
+Requires-Dist: python-docx
+Requires-Dist: python-pptx
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: send2trash
+
+UNKNOWN
+
+
