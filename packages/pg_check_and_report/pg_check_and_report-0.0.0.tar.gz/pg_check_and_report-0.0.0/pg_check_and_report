@@ -1,0 +1,183 @@
+#!/usr/bin/env python3
+
+# Author: Jose Antonio Quevedo <joseantonio.quevedo@gmail.com>
+# 2017-07-09
+
+from argparse import ArgumentParser
+import psycopg2
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+from collections import OrderedDict
+from os import statvfs
+
+# My own libraries
+from pg_populator_lib.mypglib import *
+from pg_populator_lib.aux import *
+from pg_populator_lib.config import *
+
+
+# Get the arguments from the command line
+def getargs():
+
+    parser = ArgumentParser()
+    parser.add_argument("-v", "--verbosity",
+                        action="store_true", help="Increase output verbosity")
+
+    parser.add_argument("-m", "--max_db", type=int, default=0, required=True,
+                        help="The maximum amount of databases that should be stored in the postgreSQL service.")
+    parser.add_argument("-p", "--max_disk_usage_percentage", type=float, default=0, required=True,
+                        help="The maximum disk percentage usage that should be using the postgreSQL service.")
+    parser.add_argument("-c", "--max_connections_percentage", type=float, default=0, required=True,
+                        help="The maximum amount of connections that should be stablished to the portgreSQL service.")
+
+    return parser.parse_args()
+
+
+def get_values_from_args(args):
+    if args:
+        if args.verbosity:
+            print("Running '{}'".format(__file__))
+            print("max_db: " + str(max_db))
+            print("max_disk_usage_percentage: " + str(args.max_disk_usage_percentage))
+            print("max_connections_percentage: " + str(args.max_connections_percentage))
+
+    return args.max_db, args.max_disk_usage_percentage, args.max_connections_percentage
+
+
+# Report functions
+def prepare_report(max_db, max_disk_usage_percentage, max_connections_percentage, max_db_conn, disk_size, max_db_amount, current_db_amount, current_db_disk_usage, current_connections):
+
+    # DB amount check
+    db_amount_flag = max_db > current_db_amount
+
+    # Disk size check
+    current_disk_usage_percentage = current_db_disk_usage * (100 / int(disk_size))
+    disk_usage_flag = max_disk_usage_percentage > current_disk_usage_percentage
+
+    # Connections check
+    current_connections_percentage = current_connections * (100 / int(max_db_conn))
+    connections_flag = max_connections_percentage > current_connections_percentage
+
+    report = {}
+
+    # Only include the information if the test failed
+    if not db_amount_flag:
+        report['a_max_db_allowed:'] = max_db
+        report['current_db_amount'] = current_db_amount
+        report['d_max_db_amount_flag'] = db_amount_flag
+
+    if not disk_usage_flag:
+        report['a_max_disk_usage_percentage_allowed'] = max_disk_usage_percentage
+        report['b_disk_size'] = disk_size
+        report['b_current_db_disk_usage'] = current_db_disk_usage
+        report['current_disk_usage_percentage'] = current_disk_usage_percentage
+        report['d_disk_usage_flag'] = disk_usage_flag
+
+    if not connections_flag:
+        report['a_max_connections_percentage_allowed'] = max_connections_percentage
+        report['b_max_db_conn'] = max_db_conn
+        report['current_connections_percentage'] = current_connections_percentage
+        report['d_connections_flag'] = connections_flag
+
+    report = OrderedDict(sorted(report.items()))
+    return report
+
+
+# postgresql functions
+def get_max_connections(cursor):
+    query = "show max_connections;"
+    execute_query(cursor, query)
+
+    max_db_conn = cursor.fetchall()
+    if max_db_conn:
+        max_db_conn = max_db_conn[0][0]
+
+    return max_db_conn
+
+
+def get_current_connections(cursor):
+    query = "SELECT * FROM pg_stat_activity;"
+    execute_query(cursor, query)
+
+    current_db_conn = cursor.fetchall()
+    if current_db_conn:
+        current_db_conn = len(current_db_conn)
+
+    return current_db_conn
+
+
+# Return the size of the full database in KBytes
+def get_current_db_size(cursor):
+    query = 'SELECT pg_size_pretty(pg_database_size(datname)) FROM pg_database;'
+    execute_query(cursor, query)
+    db_size = cursor.fetchall()
+
+    if db_size:
+        db_size = [int(x[0].split(" ")[0]) for x in db_size]
+        db_size = sum(db_size)
+
+    return db_size
+
+
+# System functions
+def get_disk_size(cursor, directory=POSTGRESQL_LIB_DIR):
+    # Get the size of the hard disk containing a directory.
+    # The default value for this function is the
+    # variable described in lib.config.
+    # Which contains the default directory for data for
+    # PostgreSQL 9.6 in a Debian GNU/Linux system.
+    disk_size = statvfs(directory)
+
+    # Block size in Kbytes
+    block_size = disk_size.f_bsize / 1024
+    # Disk partition size in Kbytes
+    full_size = block_size * disk_size.f_blocks
+    # Note: to check the accuracy of this result you can run df in your system and check the resulting value. It's very very similar
+    # In my case the result was exactly what df was showing.
+
+    return full_size
+
+
+# main()
+if __name__ == "__main__":
+
+    num_db = 0
+    disk_usage = 0
+    connections = 0
+    disk_size = 0
+
+    args = getargs()
+    max_db_amount, max_disk_usage_percentage, max_connections_percentage = get_values_from_args(
+        args)
+
+    with get_conn(DB_USER) as conn:
+        with conn.cursor() as cursor:
+
+            # Get the amount of databases
+            db_names = get_databases_names(cursor)
+            num_db = len(db_names)
+
+            # Get the percentage of disk used by postgresql
+            # - Get the size used by postgreSQL
+            db_size = get_current_db_size(cursor)
+            # - Get the amount of disk space
+            disk_size = get_disk_size(cursor)
+
+            # for db_name in db_names:
+            #     query = 'SELECT pg_size_pretty(pg_database_size(datname)) FROM pg_database;'
+            #     cursor.execute(query)
+
+            # Get the percentage of connections to the postgreSQL service
+            # - get the maximum connections value.
+            max_db_conn = get_max_connections(cursor)
+            # - get the current connections
+            current_db_conn = get_current_connections(cursor)
+
+    report = prepare_report(
+        max_db_amount, max_disk_usage_percentage, max_connections_percentage,
+        max_db_conn, disk_size, num_db,
+        num_db, db_size, current_db_conn)
+
+    if report:
+        show_dict(report)
+    else:
+        print("All tests PASSED.")

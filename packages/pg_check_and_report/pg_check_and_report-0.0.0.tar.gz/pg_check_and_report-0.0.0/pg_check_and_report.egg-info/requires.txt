@@ -1,0 +1,7 @@
+psycopg2
+pg_populator_lib
+ipython
+ipdb
+
+[postgresql]
+psycopg2
