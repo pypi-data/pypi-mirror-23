@@ -1,0 +1,94 @@
+#!python
+
+#   Copyright (c) 2017, Pan Labs (panorbit.in).  
+#   This file is licensed under the MIT License.
+#   See the LICENSE file.
+
+import sys
+
+
+from text_spider.spider import Spider
+
+#this function prints help commands to run crawler
+def get_help():
+	print("""
+Usage: text-spider [commands] [URL] [allowed_domain] [option]
+
+commands:
+  echo - this command run and displays output in terminal
+  txt  - this command prints output to txt file
+  json - this command prints output to json file
+
+URL: the desired url to start crawling
+
+allowed_domain: this limits crawler to preform within allowed_domain
+
+option:
+  ProjectName - this command is optional,output file is named after ProjectName """)
+
+
+
+
+#this function gets argument from command line and performs crawling
+def command_spider():
+	try:
+
+		if len(sys.argv)>3: 
+			#if command is echo it prints in terminal
+			if sys.argv[1]=='echo':
+				url=sys.argv[2]
+				allowed_domain=sys.argv[3]
+				ProjectName='output'
+				if sys.argv[4]:
+					ProjectName=sys.argv[4]
+				spider=Spider(url,allowed_domain)
+				spider.ProjectName=ProjectName
+				spider.json_output=False
+				spider.txt_output=False
+				spider.is_recursive=True
+				output_data,links=spider.spider()
+				print(output_data)
+				print(links)
+
+			#if command is txt it prints in text file
+			elif sys.argv[1]=='txt':
+				url=sys.argv[2]
+				allowed_domain=sys.argv[3]
+				if sys.argv[4]:
+					ProjectName=sys.argv[4]
+				else:
+					ProjectName='output'
+				spider=Spider(url,allowed_domain)
+				spider.ProjectName=ProjectName
+				spider.json_output=False
+				spider.txt_output=True
+				spider.is_recursive=True
+				output_data,links=spider.spider()
+			#if command is json it prints in json file
+ 			elif sys.argv[1]=='json':
+				url=sys.argv[2]
+				allowed_domain=sys.argv[3]
+				ProjectName='output'
+				if sys.argv[4]:
+					ProjectName=sys.argv[4]	
+				spider=Spider(url,allowed_domain)
+				spider.ProjectName=ProjectName
+				spider.json_output=True
+				spider.txt_output=False
+				spider.is_recursive=True
+				output_data,links=spider.spider()
+		elif sys.argv[1]: 
+			print("command not found")
+			get_help()
+	except:
+		print("command not found")
+		get_help()
+
+
+
+command_spider()
+
+
+
+
+
