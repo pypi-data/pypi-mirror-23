@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+usbusiness/__init__.py
+usbusiness.egg-info/PKG-INFO
+usbusiness.egg-info/SOURCES.txt
+usbusiness.egg-info/dependency_links.txt
+usbusiness.egg-info/requires.txt
+usbusiness.egg-info/top_level.txt
+usbusiness/data/.DS_Store
+usbusiness/data/google_100k.txt
+usbusiness/data/naics_codes_2012.csv
+usbusiness/data/site_clf.sk
+usbusiness/data/stop_words.txt
