@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+eduvpn/__init__.py
+eduvpn_client.egg-info/PKG-INFO
+eduvpn_client.egg-info/SOURCES.txt
+eduvpn_client.egg-info/dependency_links.txt
+eduvpn_client.egg-info/requires.txt
+eduvpn_client.egg-info/top_level.txt
+scripts/eduvpn-client

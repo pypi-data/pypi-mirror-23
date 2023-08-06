@@ -1,0 +1,4 @@
+requests
+notebook
+pynacl
+requests_oauthlib
