@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: akwesipackage
+Version: 0.1
+Summary: Placeholder dummy package
+Home-page: http://github.com/akwesinketia/akwesipackage
+Author: Tom
+Author-email: nketiaakwesi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pyhsmm
+
+UNKNOWN
+
+
