@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: list2excel
+Version: 0.5.6
+Summary: Django XLS export made easy
+Home-page: http://bitbucket.org/brente/list2excel/
+Author: Stefano Brentegani
+Author-email: sbrentegani@gmail.com
+License: MIT License
+Download-URL: http://bitbucket.org/brente/list2excel/downloads/list2excel-0.5.6.tar.gz
+Description: 
+        
+        
+        ============================
+        list2excel changelog
+        ============================
+        
+        Version 0.5.5, 23 Jun 2017:
+        --------------------------------
+        
+        * django >=1.8 compatibility (parent_model removed)
+        
+        Version 0.5.4, 26 Feb 2017:
+        --------------------------------
+        
+        * export CSV tab delimited (usato per Mailchimp)
+        
+        Version 0.5.3, 29 Oct 2016:
+        --------------------------------
+        
+        * django >=1.7 compatibility (get_query_set deprecated and removed)
+        
+        Version 0.5.2, 9 May 2016:
+        --------------------------------
+        
+        * setuptools install
+        
+        Version 0.5.1, 29 December 2015:
+        --------------------------------
+        
+        * Fixed handling of related fields in explicit export lists
+        
+        Version 0.5.0, 17 September 2013:
+        --------------------------------
+        
+        * Initial release
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
