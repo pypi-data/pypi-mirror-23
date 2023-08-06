@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: swafe
+Version: 1.0.0
+Summary: A python library for orchestrating AWS SWF workflows
+Home-page: https://github.com/Radioafricagroup/swafe
+Author: Ishuah Kariuki
+Author-email: kariuki@ishuah.com
+License: GNU GPLv3
+Keywords: aws-swf SWF
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: future
+
+UNKNOWN
+
+
