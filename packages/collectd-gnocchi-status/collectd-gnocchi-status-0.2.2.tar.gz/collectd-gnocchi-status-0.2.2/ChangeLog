@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+0.2.2
+-----
+
+* Switch to PBR
+* Catch exceptions and pep8
+* Add project to pypi
+* Update README.md
+* Update README
+* Add Ocata Support
+* Add sample-storage-aggregation.conf
+* Reuse Keystone Session
+* Add README.md
+* Add plugin and samples
+* Initial commit
