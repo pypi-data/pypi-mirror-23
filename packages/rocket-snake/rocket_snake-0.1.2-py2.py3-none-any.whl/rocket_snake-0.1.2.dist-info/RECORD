@@ -1,0 +1,12 @@
+rocket_snake/__init__.py,sha256=lMvcsz36qN3JQn7ahGhurbz_fW6QSFSzc9y_yokOxWg,186
+rocket_snake/basic_requests.py,sha256=411SUD9n3RTOuOHTksy0odewHIB5kbCx79ilGmyjTjQ,11110
+rocket_snake/client.py,sha256=OUsxwHmOaEgV3qhHvAsZQY-3qrPy7Dqpd-9AAKYbeQc,13800
+rocket_snake/constants.py,sha256=7nY1sdBCb_ouGft0-NbjzoiQARabDiBuo91d1rKOAEI,1445
+rocket_snake/custom_exceptions.py,sha256=FV2vBHsvmU3mLlQ23zy8uLlsb1XhFWSaxInFgmg9pi0,953
+rocket_snake/data_classes.py,sha256=JSnbiCOWphcYfMdZh3c1vcZ58X4NwI6L1RmU7C1RKwI,6702
+rocket_snake-0.1.2.dist-info/DESCRIPTION.rst,sha256=6Cm14TdgWkfD8_lP30ANETAjmD19jB_WQtfN_fsVZUc,1120
+rocket_snake-0.1.2.dist-info/METADATA,sha256=u7clFhifnD_GhvkHbxlt7GebUOM9ESZNXaLX8ETGJ0w,2091
+rocket_snake-0.1.2.dist-info/RECORD,,
+rocket_snake-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+rocket_snake-0.1.2.dist-info/metadata.json,sha256=Wdez_Pmat03HAs60e9CP1hwTpy6m0qZQuLKBBbpGv7Y,1058
+rocket_snake-0.1.2.dist-info/top_level.txt,sha256=4MgD_EqP6fIpQKZ_T3nOp61fXGGfhO_D_FVpIKz-enE,13
