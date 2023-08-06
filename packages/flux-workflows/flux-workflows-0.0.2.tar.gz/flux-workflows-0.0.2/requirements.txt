@@ -1,0 +1,4 @@
+requests
+https://github.com/pallets/click/archive/master.zip
+jsonschema==2.4.0
+jinja2>=2.9.4
