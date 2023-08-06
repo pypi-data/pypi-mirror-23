@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: jupyterhub-hashauthenticator
+Version: 0.1.3
+Summary: Hashed Password Authenticator for JupyterHub
+Home-page: https://github.com/pminkov/jupyterhub-hashauthenticator
+Author: Petko Minkov
+Author-email: pminkov@gmail.com
+License: BSD3
+Description: UNKNOWN
+Platform: UNKNOWN
