@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: gerapy
+Version: 0.6.6
+Summary: distributed crawler
+Home-page: http://pypi.python.org/pypi/gerapy/
+Author: germey
+Author-email: cqc@cuiqingcai.com
+License: MIT
+Keywords: gerapy,scrapy,distributed
+Platform: UNKNOWN
+Requires-Dist: django-cors-headers
+Requires-Dist: docopt
+Requires-Dist: requests
+
+UNKNOWN
+
+
