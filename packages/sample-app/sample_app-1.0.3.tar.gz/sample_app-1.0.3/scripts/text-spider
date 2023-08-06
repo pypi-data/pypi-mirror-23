@@ -1,0 +1,15 @@
+#!/usr/bin/python
+import sys
+
+from sample_app.mod1 import mod1
+
+if len(sys.argv) > 1:
+  a=mod1(int(sys.argv[1])).square()
+  print(a)
+
+#for arg in sys.argv:
+#    return arg
+
+#for arg in sys.argv:
+#  if arg !='' and type(arg)!=str:
+
