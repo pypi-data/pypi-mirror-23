@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+is_taken.egg-info/PKG-INFO
+is_taken.egg-info/SOURCES.txt
+is_taken.egg-info/dependency_links.txt
+is_taken.egg-info/entry_points.txt
+is_taken.egg-info/top_level.txt
+istaken/__init__.py
+istaken/main.py

@@ -1,0 +1,3 @@
+[console_scripts]
+is-taken = istaken.main:main
+
