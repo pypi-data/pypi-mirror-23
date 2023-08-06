@@ -1,0 +1,16 @@
+fstab_reconfigure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fstab_reconfigure/__main__.py,sha256=n7D4gWli9cJ7J45P0mtqKf-KYkQP5GG1FKqFqk6kqjY,911
+fstab_reconfigure/programa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fstab_reconfigure/programa/fstab.py,sha256=doLwNn3-B3ahG-phje2TFV8Yp_0HHUU-T-hQLxzIZnw,8522
+fstab_reconfigure/programa/menu.py,sha256=SqciOwejvze5seVNqYCmtBfK47OUFX4KfvEk1nuMi5M,4704
+fstab_reconfigure/programa/particiones.py,sha256=RWhks4qTPnmAuOsfhTAJoRW847VcFA4rGfgGA6mYU0A,4926
+fstab_reconfigure/utiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fstab_reconfigure/utiles/utiles.py,sha256=-16x6jAU8-87XAv5h9bCjn0Qw-sI8jErEIpbIe-9sZI,1103
+fstab_reconfigure-1.0.0.dist-info/DESCRIPTION.rst,sha256=GgbO98-XLORW1PSJJnZ2yIP7fuRXuRYGgsgCRE_MzmY,216
+fstab_reconfigure-1.0.0.dist-info/METADATA,sha256=zMmfYGkj0LUKWIerKc7ZpQa2_24cxprd0X6iS7Q5s-A,997
+fstab_reconfigure-1.0.0.dist-info/RECORD,,
+fstab_reconfigure-1.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+fstab_reconfigure-1.0.0.dist-info/entry_points.txt,sha256=86wJWRbwBZzbtrxC6FBYoHbYj109kyiw4nRR3cuWLpw,71
+fstab_reconfigure-1.0.0.dist-info/metadata.json,sha256=IZQ1h3PO_QOfF9m2OMoolPLvLX-UwTVH-55RCBCzV-g,1146
+fstab_reconfigure-1.0.0.dist-info/top_level.txt,sha256=y2bkuXz3FFusK-KoVdkZ1ekZLGhhEISe8jkE3anBsdw,18
+fstab_reconfigure-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
