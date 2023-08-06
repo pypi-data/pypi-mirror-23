@@ -1,0 +1,9 @@
+flake8
+pytest
+pytest-cov
+coverage
+requests-mock
+Sphinx<1.6
+sphinxcontrib-versioning
+sphinx_rtd_theme
+-e .
