@@ -1,0 +1,3 @@
+[console_scripts]
+terrachecker = terrachecker.terrachecker:main
+
