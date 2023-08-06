@@ -1,0 +1,8 @@
+setup.py
+akwesipackage/__init__.py
+akwesipackage.egg-info/PKG-INFO
+akwesipackage.egg-info/SOURCES.txt
+akwesipackage.egg-info/dependency_links.txt
+akwesipackage.egg-info/not-zip-safe
+akwesipackage.egg-info/requires.txt
+akwesipackage.egg-info/top_level.txt
