@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: regcore
+Version: 3.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: public domain
+Platform: UNKNOWN
+Requires-Dist: django (<1.12,>=1.8)
+Requires-Dist: django-mptt
+Requires-Dist: jsonschema
+Requires-Dist: six
+Provides-Extra: all-backends
+Requires-Dist: django-haystack; extra == 'all-backends'
+Requires-Dist: pyelasticsearch; extra == 'all-backends'
+Provides-Extra: backend-django
+Requires-Dist: django-haystack; extra == 'backend-django'
+Provides-Extra: backend-elastic
+Requires-Dist: pyelasticsearch; extra == 'backend-elastic'
+
+UNKNOWN
+
+
