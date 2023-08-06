@@ -1,0 +1,11 @@
+qpass/__init__.py,sha256=-_6sUuvrapSlv5LnPWuRsiYrjdwpQOD1cgFuKVbXLP4,14154
+qpass/cli.py,sha256=dHCx00kwlkp8d0QHPEQgzJrpoy_GS9FcsbNBwM7B6i8,4922
+qpass/exceptions.py,sha256=kWlK3WEYOcNoYh39Mu3mY3qBp2c4YKGexQS_tUGLuQI,870
+qpass/tests.py,sha256=LiqvkfyjsXSVk5pEvj2kQdyGqIs-X6goDzyH-lLYLdI,11254
+qpass-1.0.3.dist-info/DESCRIPTION.rst,sha256=DBOMkTCn7YJuWqG3HXPRcc_gVOwSNLQF8VvEdsdtNPk,10229
+qpass-1.0.3.dist-info/METADATA,sha256=SERrk_qorp7d1Kahj6Mf1XcY856O6Jc-g_odt8b6omo,12094
+qpass-1.0.3.dist-info/RECORD,,
+qpass-1.0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+qpass-1.0.3.dist-info/entry_points.txt,sha256=t5xTqVJqixnTQZP-J25s1KIlL_V22Wb_uYPPIxS0wRo,42
+qpass-1.0.3.dist-info/metadata.json,sha256=9APuX6WPeWhCVO8hcG_x_5vhBlM2IKXYxCDnlBiMaGg,1883
+qpass-1.0.3.dist-info/top_level.txt,sha256=-RO-awFQJJVPOUPy-dHn0RS8W-Qsb2mmRWn7bikjFR8,6
