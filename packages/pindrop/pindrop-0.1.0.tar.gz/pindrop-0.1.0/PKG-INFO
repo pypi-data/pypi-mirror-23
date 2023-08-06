@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: pindrop
+Version: 0.1.0
+Summary: A python package that creates the models, the urls, the filters, the pagination, the database and returns GeoJSON for the pindrops and returns JSON for the other models. 
+Home-page: https://github.com/MisaelMvM/pindrop
+Author: Misael Virissimo de Moura
+Author-email: mvmmisael@gmail.com
+License: MIT license
+Description: ===========
+        Pindrop API
+        ===========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/pindrop.svg
+                :target: https://pypi.python.org/pypi/pindrop
+        
+        .. image:: https://img.shields.io/travis/MisaelMvM/pindrop.svg
+                :target: https://travis-ci.org/MisaelMvM/pindrop
+        
+        .. image:: https://readthedocs.org/projects/pindrop/badge/?version=latest
+                :target: https://pindrop.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://pyup.io/repos/github/MisaelMvM/pindrop/shield.svg
+             :target: https://pyup.io/repos/github/MisaelMvM/pindrop/
+             :alt: Updates
+        
+        
+        A python package that creates the models, the urls, the filters, the pagination, the database and returns GeoJSON for the pindrops and returns JSON for the other models. 
+        
+        
+        * Free software: MIT license
+        * Documentation: https://pindrop.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2017-07-17)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pindrop
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
