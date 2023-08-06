@@ -1,0 +1,4 @@
+snakemake
+pyyaml
+rpy2
+multiqc
