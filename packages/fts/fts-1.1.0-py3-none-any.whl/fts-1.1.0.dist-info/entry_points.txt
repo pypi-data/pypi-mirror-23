@@ -1,0 +1,3 @@
+[console_scripts]
+fts = fts.__main__:main
+
