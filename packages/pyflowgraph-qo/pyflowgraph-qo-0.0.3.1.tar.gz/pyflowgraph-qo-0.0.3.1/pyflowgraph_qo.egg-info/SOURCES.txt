@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+pyflowgraph/__init__.py
+pyflowgraph/connection.py
+pyflowgraph/graph_view.py
+pyflowgraph/graph_view_widget.py
+pyflowgraph/mouse_grabber.py
+pyflowgraph/node.py
+pyflowgraph/port.py
+pyflowgraph/selection_rect.py
+pyflowgraph_qo.egg-info/PKG-INFO
+pyflowgraph_qo.egg-info/SOURCES.txt
+pyflowgraph_qo.egg-info/dependency_links.txt
+pyflowgraph_qo.egg-info/not-zip-safe
+pyflowgraph_qo.egg-info/requires.txt
+pyflowgraph_qo.egg-info/top_level.txt
