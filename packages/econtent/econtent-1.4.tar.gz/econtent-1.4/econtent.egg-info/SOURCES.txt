@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README
+setup.cfg
+setup.py
+econtent.egg-info/PKG-INFO
+econtent.egg-info/SOURCES.txt
+econtent.egg-info/dependency_links.txt
+econtent.egg-info/top_level.txt
+project/LICENSE
+project/README.md
+project/__init__.py
+project/econtent.py
+project/requirements.txt
+project/test_read.py
+project/sample/item01.txt
