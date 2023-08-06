@@ -1,0 +1,8 @@
+msgpack-numpy
+msgpack-python
+numpy>=1.9
+pyzmq
+u-msgpack-python
+
+[examples]
+python-banyan-examples
