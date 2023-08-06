@@ -1,0 +1,4 @@
+OnePy_trader.egg-info/PKG-INFO
+OnePy_trader.egg-info/SOURCES.txt
+OnePy_trader.egg-info/dependency_links.txt
+OnePy_trader.egg-info/top_level.txt
