@@ -1,0 +1,17 @@
+setup.py
+opt_einsum/__init__.py
+opt_einsum/blas.py
+opt_einsum/contract.py
+opt_einsum/helpers.py
+opt_einsum/parser.py
+opt_einsum/paths.py
+opt_einsum.egg-info/PKG-INFO
+opt_einsum.egg-info/SOURCES.txt
+opt_einsum.egg-info/dependency_links.txt
+opt_einsum.egg-info/requires.txt
+opt_einsum.egg-info/top_level.txt
+opt_einsum.egg-info/zip-safe
+test/test_blas.py
+test/test_contract.py
+test/test_input.py
+test/test_paths.py
