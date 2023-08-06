@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: shapeshift-cli
+Version: 1.0.1
+Summary: Unofficial CLI for https://shapeshift.io
+Home-page: https://github.com/sereneblue/shapeshift-cli
+Author: sereneblue
+Author-email: UNKNOWN
+License: Apache
+Keywords: bitcoin,litecoin,cryptocurrency,shapeshift cli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: docopt
+Requires-Dist: requests
+
+UNKNOWN
+
+
