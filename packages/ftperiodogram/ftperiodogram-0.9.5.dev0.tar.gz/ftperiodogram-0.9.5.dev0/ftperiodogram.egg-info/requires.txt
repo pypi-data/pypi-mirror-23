@@ -1,0 +1,4 @@
+nfft
+pytest
+scipy
+numpy
