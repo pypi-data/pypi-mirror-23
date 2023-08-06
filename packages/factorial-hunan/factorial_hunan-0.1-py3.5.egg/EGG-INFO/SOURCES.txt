@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+factorial_hunan.egg-info/PKG-INFO
+factorial_hunan.egg-info/SOURCES.txt
+factorial_hunan.egg-info/dependency_links.txt
+factorial_hunan.egg-info/top_level.txt
+myfact/__init__.py
+myfact/fact.py
