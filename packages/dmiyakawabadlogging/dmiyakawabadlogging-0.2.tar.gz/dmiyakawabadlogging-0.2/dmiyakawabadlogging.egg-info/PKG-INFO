@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: dmiyakawabadlogging
+Version: 0.2
+Summary: Demonstrates bad logging strategy
+Home-page: https://github.com/dmiyakawa/python_bad_logging
+Author: Daisuke Miyakawa
+Author-email: d.miyakawa+badlogging@gmail.com
+License: Apache License 2.0
+Description: Demonstrates bad logging strategy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
