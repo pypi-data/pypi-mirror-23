@@ -1,0 +1,5 @@
+numpy
+bidict
+ply
+scipy
+boto3
