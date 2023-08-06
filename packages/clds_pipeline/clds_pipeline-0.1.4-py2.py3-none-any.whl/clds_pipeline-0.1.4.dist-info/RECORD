@@ -1,0 +1,16 @@
+clds_pipeline/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+clds_pipeline/clds_pipeline.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+clds_pipeline/cli.py,sha256=ETju2L3tOIg6tKD95YaDHbWOpLJnxi1UwvaRE0QZ5PE,336
+clds_pipeline/coordinator.py,sha256=tWJx6Vfj3UdjMPxa06X0GC8BQyNldWZe-zXdm72ePmI,7140
+clds_pipeline/extractors.py,sha256=1_z5NAqZ2l6TplHVmW5Y_MZ8eNAL-N_XbchAND3b4io,5958
+clds_pipeline/supported_lang.py,sha256=WOTPcEGs1MLWuu1DA85uGgZkHtp-IxB6o7fTMCjn_wA,209
+clds_pipeline/wordnet.py,sha256=xDYzOCILWe-LSXScYJ5BWusUImgFpAoUDMqsA_RX4oI,981
+clds_pipeline/nltk_data/corpora/wordnet.zip,sha256=y9pepu7382qXpD1KdfheB_zLtPI2V9J7TMvJPiZGq1k,10775600
+clds_pipeline/nltk_data/corpora/wordnet_ic.zip,sha256=qTGzS7kBOsPBKR9kyBL9A5gCmVorEka491JegggBEOM,12056682
+clds_pipeline-0.1.4.dist-info/DESCRIPTION.rst,sha256=ShGAb2IN3RjyX299TSyas8zmMuG-As5k-jeHGEfnhnM,1386
+clds_pipeline-0.1.4.dist-info/METADATA,sha256=dQi6tU8V_HflZ4tVcTwt0-v3zv59A5PRNMN6oQomTeo,2334
+clds_pipeline-0.1.4.dist-info/RECORD,,
+clds_pipeline-0.1.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+clds_pipeline-0.1.4.dist-info/entry_points.txt,sha256=HztEfBWgZb_WmAS_h89vGIUAOmgNdLxtfIn5EMODuFA,58
+clds_pipeline-0.1.4.dist-info/metadata.json,sha256=PLnjHDlW7n1E50QD-IgeE8a8JY_48JP_j0aaz4qPac4,1274
+clds_pipeline-0.1.4.dist-info/top_level.txt,sha256=hse5E2fNH7EPriv44hP8gA9JgUFob_en4C2SR6OLTfg,14
