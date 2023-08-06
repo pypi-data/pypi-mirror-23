@@ -1,0 +1,8 @@
+
+[imgur]
+imgurpython
+requests
+
+[imgur_ssl]
+imgurpython
+requests[security]
