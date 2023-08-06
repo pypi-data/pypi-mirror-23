@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>colour.recovery.meng2015 &#8212; Colour 0.3.9 documentation</title>
+    
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for colour.recovery.meng2015</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Meng et al. (2015) - Reflectance Recovery</span>
+<span class="sd">=========================================</span>
+
+<span class="sd">Defines objects for reflectance recovery using *Meng, Simon and Hanika (2015)*</span>
+<span class="sd">method:</span>
+
+<span class="sd">-   :func:`XYZ_to_spectral_Meng2015`</span>
+
+<span class="sd">See Also</span>
+<span class="sd">--------</span>
+<span class="sd">`Meng et al. (2015) - Reflectance Recovery Jupyter Notebook</span>
+<span class="sd">&lt;http://nbviewer.jupyter.org/github/colour-science/colour-notebooks/\</span>
+<span class="sd">blob/master/notebooks/recovery/meng2015.ipynb&gt;`_</span>
+
+<span class="sd">References</span>
+<span class="sd">----------</span>
+<span class="sd">.. [1]  Meng, J., Simon, F., &amp; Hanika, J. (2015). Physically Meaningful</span>
+<span class="sd">        Rendering using Tristimulus Colours, 34(4). Retrieved from</span>
+<span class="sd">        http://jo.dreggn.org/home/2015_spectrum.pdf</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">unicode_literals</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="k">import</span> <span class="n">minimize</span>
+
+<span class="kn">from</span> <span class="nn">colour</span> <span class="k">import</span> <span class="p">(</span><span class="n">STANDARD_OBSERVERS_CMFS</span><span class="p">,</span> <span class="n">SpectralPowerDistribution</span><span class="p">,</span>
+                    <span class="n">SpectralShape</span><span class="p">,</span> <span class="n">ones_spd</span><span class="p">,</span> <span class="n">spectral_to_XYZ_integration</span><span class="p">)</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s1">&#39;Colour Developers&#39;</span>
+<span class="n">__copyright__</span> <span class="o">=</span> <span class="s1">&#39;Copyright (C) 2013-2017 - Colour Developers&#39;</span>
+<span class="n">__license__</span> <span class="o">=</span> <span class="s1">&#39;New BSD License - http://opensource.org/licenses/BSD-3-Clause&#39;</span>
+<span class="n">__maintainer__</span> <span class="o">=</span> <span class="s1">&#39;Colour Developers&#39;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s1">&#39;colour-science@googlegroups.com&#39;</span>
+<span class="n">__status__</span> <span class="o">=</span> <span class="s1">&#39;Production&#39;</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;XYZ_to_spectral_Meng2015&#39;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="XYZ_to_spectral_Meng2015"><a class="viewcode-back" href="../../../colour.recovery.meng2015.html#colour.XYZ_to_spectral_Meng2015">[docs]</a><span class="k">def</span> <span class="nf">XYZ_to_spectral_Meng2015</span><span class="p">(</span>
+        <span class="n">XYZ</span><span class="p">,</span>
+        <span class="n">cmfs</span><span class="o">=</span><span class="n">STANDARD_OBSERVERS_CMFS</span><span class="p">[</span><span class="s1">&#39;CIE 1931 2 Degree Standard Observer&#39;</span><span class="p">],</span>
+        <span class="n">interval</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+        <span class="n">tolerance</span><span class="o">=</span><span class="mf">1e-10</span><span class="p">,</span>
+        <span class="n">maximum_iterations</span><span class="o">=</span><span class="mi">2000</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Recovers the spectral power distribution of given *CIE XYZ* tristimulus</span>
+<span class="sd">    values using *Meng et al. (2015)* method.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    XYZ : array_like, (3,)</span>
+<span class="sd">        *CIE XYZ* tristimulus values.</span>
+<span class="sd">    cmfs : XYZ_ColourMatchingFunctions</span>
+<span class="sd">        Standard observer colour matching functions.</span>
+<span class="sd">    interval : numeric, optional</span>
+<span class="sd">        Wavelength :math:`\lambda_{i}` range interval in nm. The smaller</span>
+<span class="sd">        `interval` is, the longer the computations will be.</span>
+<span class="sd">    tolerance : numeric, optional</span>
+<span class="sd">        Tolerance for termination. The lower `tolerance` is, the smoother</span>
+<span class="sd">        the recovered spectral power distribution will be.</span>
+<span class="sd">    maximum_iterations : int, optional</span>
+<span class="sd">        Maximum number of iterations to perform.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    SpectralPowerDistribution</span>
+<span class="sd">        Recovered spectral power distribution.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    -   The definition used to convert spectrum to *CIE XYZ* tristimulus</span>
+<span class="sd">        values is :func:`colour.spectral_to_XYZ_integration` definition</span>
+<span class="sd">        because it processes any measurement interval opposed to</span>
+<span class="sd">        :func:`colour.spectral_to_XYZ_ASTME30815` definition that handles only</span>
+<span class="sd">        measurement interval of 1, 5, 10 or 20nm.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; XYZ = np.array([0.07049534, 0.10080000, 0.09558313])</span>
+<span class="sd">    &gt;&gt;&gt; spd = XYZ_to_spectral_Meng2015(XYZ)</span>
+<span class="sd">    &gt;&gt;&gt; print(spd)</span>
+<span class="sd">    SpectralPowerDistribution(&#39;Meng (2015) - \</span>
+<span class="sd">[ 0.07049534  0.1008      0.09558313]&#39;, (360.0, 830.0, 5.0))</span>
+<span class="sd">    &gt;&gt;&gt; spectral_to_XYZ_integration(spd)  # doctest: +ELLIPSIS</span>
+<span class="sd">    array([ 0.0704952...,  0.1007999...,  0.0955824...])</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">XYZ</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>
+    <span class="n">shape</span> <span class="o">=</span> <span class="n">SpectralShape</span><span class="p">(</span><span class="n">cmfs</span><span class="o">.</span><span class="n">shape</span><span class="o">.</span><span class="n">start</span><span class="p">,</span> <span class="n">cmfs</span><span class="o">.</span><span class="n">shape</span><span class="o">.</span><span class="n">end</span><span class="p">,</span> <span class="n">interval</span><span class="p">)</span>
+    <span class="n">cmfs</span> <span class="o">=</span> <span class="n">cmfs</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span><span class="o">.</span><span class="n">align</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">illuminant</span> <span class="o">=</span> <span class="n">ones_spd</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">spd</span> <span class="o">=</span> <span class="n">ones_spd</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">function_objective</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Objective function.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">function_constraint</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Function defining the constraint.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">spd</span><span class="p">[:]</span> <span class="o">=</span> <span class="n">a</span>
+        <span class="k">return</span> <span class="n">spectral_to_XYZ_integration</span><span class="p">(</span>
+            <span class="n">spd</span><span class="p">,</span> <span class="n">cmfs</span><span class="o">=</span><span class="n">cmfs</span><span class="p">,</span> <span class="n">illuminant</span><span class="o">=</span><span class="n">illuminant</span><span class="p">)</span> <span class="o">-</span> <span class="n">XYZ</span>
+
+    <span class="n">wavelengths</span> <span class="o">=</span> <span class="n">spd</span><span class="o">.</span><span class="n">wavelengths</span>
+    <span class="n">bins</span> <span class="o">=</span> <span class="n">wavelengths</span><span class="o">.</span><span class="n">size</span>
+
+    <span class="n">constraints</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;eq&#39;</span><span class="p">,</span> <span class="s1">&#39;fun&#39;</span><span class="p">:</span> <span class="n">function_constraint</span><span class="p">}</span>
+
+    <span class="n">bounds</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]),</span> <span class="p">(</span><span class="n">bins</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+
+    <span class="n">result</span> <span class="o">=</span> <span class="n">minimize</span><span class="p">(</span>
+        <span class="n">function_objective</span><span class="p">,</span>
+        <span class="n">spd</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">method</span><span class="o">=</span><span class="s1">&#39;SLSQP&#39;</span><span class="p">,</span>
+        <span class="n">constraints</span><span class="o">=</span><span class="n">constraints</span><span class="p">,</span>
+        <span class="n">bounds</span><span class="o">=</span><span class="n">bounds</span><span class="p">,</span>
+        <span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;ftol&#39;</span><span class="p">:</span> <span class="n">tolerance</span><span class="p">,</span>
+                 <span class="s1">&#39;maxiter&#39;</span><span class="p">:</span> <span class="n">maximum_iterations</span><span class="p">})</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">result</span><span class="o">.</span><span class="n">success</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+            <span class="s1">&#39;Optimization failed for </span><span class="si">{0}</span><span class="s1"> after </span><span class="si">{1}</span><span class="s1"> iterations: &quot;</span><span class="si">{2}</span><span class="s1">&quot;.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="n">XYZ</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">nit</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">message</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">SpectralPowerDistribution</span><span class="p">(</span><span class="s1">&#39;Meng (2015) - </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">XYZ</span><span class="p">),</span>
+                                     <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">wavelengths</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">)))</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../index.html">
+              <img class="logo" src="../../../_static/Colour_Logo_Small_001.png" alt="Logo"/>
+            </a></p><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2013-2017, Colour Developers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

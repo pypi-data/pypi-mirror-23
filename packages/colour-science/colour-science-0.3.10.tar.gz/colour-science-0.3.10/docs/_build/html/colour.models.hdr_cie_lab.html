@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>colour.models.hdr_cie_lab Module &#8212; Colour 0.3.9 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-colour.models.hdr_cie_lab">
+<span id="colour-models-hdr-cie-lab-module"></span><h1>colour.models.hdr_cie_lab Module<a class="headerlink" href="#module-colour.models.hdr_cie_lab" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="hdr-cielab-colourspace">
+<h2>hdr-CIELAB Colourspace<a class="headerlink" href="#hdr-cielab-colourspace" title="Permalink to this headline">¶</a></h2>
+<p>Defines the <em>hdr-CIELAB</em> colourspace transformations:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#colour.models.hdr_cie_lab.XYZ_to_hdr_CIELab" title="colour.models.hdr_cie_lab.XYZ_to_hdr_CIELab"><code class="xref py py-func docutils literal"><span class="pre">XYZ_to_hdr_CIELab()</span></code></a></li>
+<li><a class="reference internal" href="#colour.models.hdr_cie_lab.hdr_CIELab_to_XYZ" title="colour.models.hdr_cie_lab.hdr_CIELab_to_XYZ"><code class="xref py py-func docutils literal"><span class="pre">hdr_CIELab_to_XYZ()</span></code></a></li>
+</ul>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="http://nbviewer.jupyter.org/github/colour-science/colour-notebooks/blob/master/notebooks/models/hdr_cie_lab.ipynb">hdr-CIELAB Colourspace Jupyter Notebook</a></p>
+</div>
+<p class="rubric">References</p>
+<table class="docutils footnote" frame="void" id="id1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Fairchild, M. D., &amp; Wyble, D. R. (2010). hdr-CIELAB and hdr-IPT:
+Simple Models for Describing the Color of High-Dynamic-Range and
+Wide-Color-Gamut Images. In Proc. of Color and Imaging Conference
+(pp. 322–326). ISBN:9781629932156</td></tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="colour.models.hdr_cie_lab.XYZ_to_hdr_CIELab">
+<code class="descclassname">colour.models.hdr_cie_lab.</code><code class="descname">XYZ_to_hdr_CIELab</code><span class="sig-paren">(</span><em>XYZ</em>, <em>illuminant=array([ 0.3457</em>, <em>0.3585])</em>, <em>Y_s=0.2</em>, <em>Y_abs=100</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/models/hdr_cie_lab.html#XYZ_to_hdr_CIELab"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.models.hdr_cie_lab.XYZ_to_hdr_CIELab" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts from <em>CIE XYZ</em> tristimulus values to <em>hdr-CIELAB</em> colourspace.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>XYZ</strong> (<em>array_like</em>) &#8211; <em>CIE XYZ</em> tristimulus values.</li>
+<li><strong>illuminant</strong> (<em>array_like</em><em>, </em><em>optional</em>) &#8211; Reference <em>illuminant</em> <em>xy</em> chromaticity coordinates or <em>CIE xyY</em>
+colourspace array.</li>
+<li><strong>Y_s</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Relative luminance <span class="math">\(Y_s\)</span> of the surround in domain [0, 1].</li>
+<li><strong>Y_abs</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Absolute luminance <span class="math">\(Y_{abs}\)</span> of the scene diffuse white in
+<span class="math">\(cd/m^2\)</span>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><em>hdr-CIELAB</em> colourspace array.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ndarray</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li>Conversion to polar coordinates to compute the <em>chroma</em> <span class="math">\(C_{hdr}\)</span>
+and <em>hue</em> <span class="math">\(h_{hdr}\)</span> correlates can be safely performed with
+<a class="reference internal" href="colour.html#colour.Lab_to_LCHab" title="colour.Lab_to_LCHab"><code class="xref py py-func docutils literal"><span class="pre">colour.Lab_to_LCHab()</span></code></a> definition.</li>
+<li>Conversion to cartesian coordinates from the <em>Lightness</em>
+<span class="math">\(L_{hdr}\)</span>, <em>chroma</em> <span class="math">\(C_{hdr}\)</span> and <em>hue</em> <span class="math">\(h_{hdr}\)</span>
+correlates can be safely performed with <a class="reference internal" href="colour.html#colour.LCHab_to_Lab" title="colour.LCHab_to_Lab"><code class="xref py py-func docutils literal"><span class="pre">colour.LCHab_to_Lab()</span></code></a>
+definition.</li>
+<li>Input <em>CIE XYZ</em> tristimulus values are in domain [0, math:<cite>infty</cite>].</li>
+<li>Input <em>illuminant</em> <em>xy</em> chromaticity coordinates or <em>CIE xyY</em>
+colourspace array are in domain [0, <span class="math">\(\infty\)</span>].</li>
+</ul>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">XYZ</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.07049534</span><span class="p">,</span> <span class="mf">0.10080000</span><span class="p">,</span> <span class="mf">0.09558313</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">XYZ_to_hdr_CIELab</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>  
+<span class="go">array([ 24.9020664..., -46.8312760..., -10.14274843])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="colour.models.hdr_cie_lab.hdr_CIELab_to_XYZ">
+<code class="descclassname">colour.models.hdr_cie_lab.</code><code class="descname">hdr_CIELab_to_XYZ</code><span class="sig-paren">(</span><em>Lab_hdr</em>, <em>illuminant=array([ 0.3457</em>, <em>0.3585])</em>, <em>Y_s=0.2</em>, <em>Y_abs=100</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/models/hdr_cie_lab.html#hdr_CIELab_to_XYZ"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.models.hdr_cie_lab.hdr_CIELab_to_XYZ" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts from <em>hdr-CIELAB</em> colourspace to <em>CIE XYZ</em> tristimulus values.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>Lab_hdr</strong> (<em>array_like</em>) &#8211; <em>hdr-CIELAB</em> colourspace array.</li>
+<li><strong>illuminant</strong> (<em>array_like</em><em>, </em><em>optional</em>) &#8211; Reference <em>illuminant</em> <em>xy</em> chromaticity coordinates or <em>CIE xyY</em>
+colourspace array.</li>
+<li><strong>Y_s</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Relative luminance <span class="math">\(Y_s\)</span> of the surround in domain [0, 1].</li>
+<li><strong>Y_abs</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Absolute luminance <span class="math">\(Y_{abs}\)</span> of the scene diffuse white in
+<span class="math">\(cd/m^2\)</span>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><em>CIE XYZ</em> tristimulus values.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ndarray</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li>Input <em>illuminant</em> <em>xy</em> chromaticity coordinates or <em>CIE xyY</em>
+colourspace array are in domain [0, <span class="math">\(\infty\)</span>].</li>
+<li>Output <em>CIE XYZ</em> tristimulus values are in range [0, math:<cite>infty</cite>].</li>
+</ul>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">Lab_hdr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">24.90206646</span><span class="p">,</span> <span class="o">-</span><span class="mf">46.83127607</span><span class="p">,</span> <span class="o">-</span><span class="mf">10.14274843</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">hdr_CIELab_to_XYZ</span><span class="p">(</span><span class="n">Lab_hdr</span><span class="p">)</span>  
+<span class="go">array([ 0.0704953...,  0.1008    ,  0.0955831...])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="colour.models.hdr_cie_lab.exponent_hdr_CIELab">
+<code class="descclassname">colour.models.hdr_cie_lab.</code><code class="descname">exponent_hdr_CIELab</code><span class="sig-paren">(</span><em>Y_s</em>, <em>Y_abs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/models/hdr_cie_lab.html#exponent_hdr_CIELab"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.models.hdr_cie_lab.exponent_hdr_CIELab" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes <em>hdr-CIELAB</em> colourspace <em>Lightness</em> <span class="math">\(\epsilon\)</span> exponent.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>Y_s</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Relative luminance <span class="math">\(Y_s\)</span> of the surround in range [0, 1].</li>
+<li><strong>Y_abs</strong> (<em>numeric</em><em> or </em><em>array_like</em>) &#8211; Absolute luminance <span class="math">\(Y_{abs}\)</span> of the scene diffuse white in
+<span class="math">\(cd/m^2\)</span>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><em>hdr-CIELAB</em> colourspace <em>Lightness</em> <span class="math">\(\epsilon\)</span> exponent.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array_like</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">exponent_hdr_CIELab</span><span class="p">(</span><span class="mf">0.2</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>  
+<span class="go">1.8360198...</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Colour_Logo_Small_001.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">colour.models.hdr_cie_lab Module</a><ul>
+<li><a class="reference internal" href="#hdr-cielab-colourspace">hdr-CIELAB Colourspace</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/colour.models.hdr_cie_lab.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2013-2017, Colour Developers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/colour.models.hdr_cie_lab.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

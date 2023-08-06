@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>colour.colorimetry.yellowness &#8212; Colour 0.3.9 documentation</title>
+    
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for colour.colorimetry.yellowness</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Yellowness Index :math:`Y`</span>
+<span class="sd">==========================</span>
+
+<span class="sd">Defines *yellowness* index :math:`Y` computation objects:</span>
+
+<span class="sd">-   :func:`yellowness_ASTMD1925`</span>
+<span class="sd">-   :func:`yellowness_ASTME313`</span>
+
+<span class="sd">See Also</span>
+<span class="sd">--------</span>
+<span class="sd">`Yellowness Jupyter Notebook</span>
+<span class="sd">&lt;http://nbviewer.jupyter.org/github/colour-science/colour-notebooks/\</span>
+<span class="sd">blob/master/notebooks/colorimetry/yellowness.ipynb&gt;`_</span>
+
+<span class="sd">References</span>
+<span class="sd">----------</span>
+<span class="sd">.. [1]  X-Rite, &amp; Pantone. (2012). Color iQC and Color iMatch Color</span>
+<span class="sd">        Calculations Guide. Retrieved from</span>
+<span class="sd">        http://www.xrite.com/documents/literature/en/\</span>
+<span class="sd">09_Color_Calculations_en.pdf</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">unicode_literals</span>
+
+<span class="kn">from</span> <span class="nn">colour.utilities</span> <span class="k">import</span> <span class="n">CaseInsensitiveMapping</span><span class="p">,</span> <span class="n">tsplit</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s1">&#39;Colour Developers&#39;</span>
+<span class="n">__copyright__</span> <span class="o">=</span> <span class="s1">&#39;Copyright (C) 2013-2017 - Colour Developers&#39;</span>
+<span class="n">__license__</span> <span class="o">=</span> <span class="s1">&#39;New BSD License - http://opensource.org/licenses/BSD-3-Clause&#39;</span>
+<span class="n">__maintainer__</span> <span class="o">=</span> <span class="s1">&#39;Colour Developers&#39;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s1">&#39;colour-science@googlegroups.com&#39;</span>
+<span class="n">__status__</span> <span class="o">=</span> <span class="s1">&#39;Production&#39;</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;yellowness_ASTMD1925&#39;</span><span class="p">,</span> <span class="s1">&#39;yellowness_ASTME313&#39;</span><span class="p">,</span> <span class="s1">&#39;YELLOWNESS_METHODS&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;yellowness&#39;</span>
+<span class="p">]</span>
+
+
+<div class="viewcode-block" id="yellowness_ASTMD1925"><a class="viewcode-back" href="../../../colour.colorimetry.yellowness.html#colour.yellowness_ASTMD1925">[docs]</a><span class="k">def</span> <span class="nf">yellowness_ASTMD1925</span><span class="p">(</span><span class="n">XYZ</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the *yellowness* index :math:`YI` of given sample *CIE XYZ*</span>
+<span class="sd">    tristimulus values using *ASTM D1925* method. [1]_</span>
+
+<span class="sd">    ASTM D1925 has been specifically developed for the definition of the</span>
+<span class="sd">    Yellowness of homogeneous, non-fluorescent, almost neutral-transparent,</span>
+<span class="sd">    white-scattering or opaque plastics as they will be reviewed under daylight</span>
+<span class="sd">    condition. It can be other materials as well, as long as they fit into this</span>
+<span class="sd">    description.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    XYZ : array_like</span>
+<span class="sd">        *CIE XYZ* tristimulus values of sample.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    numeric or ndarray</span>
+<span class="sd">        *Whiteness* :math:`YI`.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    -   Input *CIE XYZ* tristimulus values are in domain [0, 100].</span>
+
+<span class="sd">    Warning</span>
+<span class="sd">    -------</span>
+<span class="sd">    The input domain of that definition is non standard!</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; import numpy as np</span>
+<span class="sd">    &gt;&gt;&gt; XYZ = np.array([95.00000000, 100.00000000, 105.00000000])</span>
+<span class="sd">    &gt;&gt;&gt; yellowness_ASTMD1925(XYZ)  # doctest: +ELLIPSIS</span>
+<span class="sd">    10.2999999...</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">Z</span> <span class="o">=</span> <span class="n">tsplit</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>
+
+    <span class="n">YI</span> <span class="o">=</span> <span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="p">(</span><span class="mf">1.28</span> <span class="o">*</span> <span class="n">X</span> <span class="o">-</span> <span class="mf">1.06</span> <span class="o">*</span> <span class="n">Z</span><span class="p">))</span> <span class="o">/</span> <span class="n">Y</span>
+
+    <span class="k">return</span> <span class="n">YI</span></div>
+
+
+<div class="viewcode-block" id="yellowness_ASTME313"><a class="viewcode-back" href="../../../colour.colorimetry.yellowness.html#colour.yellowness_ASTME313">[docs]</a><span class="k">def</span> <span class="nf">yellowness_ASTME313</span><span class="p">(</span><span class="n">XYZ</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the *yellowness* index :math:`YI` of given sample *CIE XYZ*</span>
+<span class="sd">    tristimulus values using *ASTM E313* method. [1]_</span>
+
+<span class="sd">    ASTM E313 has successfully been used for a variety of white or near white</span>
+<span class="sd">    materials. This includes coatings, Plastics, Textiles.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    XYZ : array_like</span>
+<span class="sd">        *CIE XYZ* tristimulus values of sample.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    numeric or ndarray</span>
+<span class="sd">        *Whiteness* :math:`YI`.</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    -   Input *CIE XYZ* tristimulus values are in domain [0, 100].</span>
+
+<span class="sd">    Warning</span>
+<span class="sd">    -------</span>
+<span class="sd">    The input domain of that definition is non standard!</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; import numpy as np</span>
+<span class="sd">    &gt;&gt;&gt; XYZ = np.array([95.00000000, 100.00000000, 105.00000000])</span>
+<span class="sd">    &gt;&gt;&gt; yellowness_ASTME313(XYZ)  # doctest: +ELLIPSIS</span>
+<span class="sd">    11.0650000...</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">_X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">Z</span> <span class="o">=</span> <span class="n">tsplit</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>
+
+    <span class="n">WI</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="mf">0.847</span> <span class="o">*</span> <span class="n">Z</span><span class="p">)</span> <span class="o">/</span> <span class="n">Y</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">WI</span></div>
+
+
+<span class="n">YELLOWNESS_METHODS</span> <span class="o">=</span> <span class="n">CaseInsensitiveMapping</span><span class="p">({</span>
+    <span class="s1">&#39;ASTM D1925&#39;</span><span class="p">:</span> <span class="n">yellowness_ASTMD1925</span><span class="p">,</span>
+    <span class="s1">&#39;ASTM E313&#39;</span><span class="p">:</span> <span class="n">yellowness_ASTME313</span>
+<span class="p">})</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Supported *yellowness* computations methods.</span>
+
+<span class="sd">YELLOWNESS_METHODS : CaseInsensitiveMapping</span>
+<span class="sd">    **{&#39;ASTM E313&#39;, &#39;ASTM D1925&#39;}**</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+
+<div class="viewcode-block" id="yellowness"><a class="viewcode-back" href="../../../colour.colorimetry.yellowness.html#colour.yellowness">[docs]</a><span class="k">def</span> <span class="nf">yellowness</span><span class="p">(</span><span class="n">XYZ</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;ASTM E313&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the *yellowness* :math:`W` using given method.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    XYZ : array_like</span>
+<span class="sd">        *CIE XYZ* tristimulus values of sample.</span>
+<span class="sd">    method : unicode, optional</span>
+<span class="sd">        **{&#39;ASTM E313&#39;, &#39;ASTM D1925&#39;}**,</span>
+<span class="sd">        Computation method.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    numeric or ndarray</span>
+<span class="sd">        *yellowness* :math:`Y`.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; import numpy as np</span>
+<span class="sd">    &gt;&gt;&gt; XYZ = np.array([95.00000000, 100.00000000, 105.00000000])</span>
+<span class="sd">    &gt;&gt;&gt; yellowness(XYZ)  # doctest: +ELLIPSIS</span>
+<span class="sd">    11.0650000...</span>
+<span class="sd">    &gt;&gt;&gt; method = &#39;ASTM D1925&#39;</span>
+<span class="sd">    &gt;&gt;&gt; yellowness(XYZ, method=method)  # doctest: +ELLIPSIS</span>
+<span class="sd">    10.2999999...</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">return</span> <span class="n">YELLOWNESS_METHODS</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">method</span><span class="p">)(</span><span class="n">XYZ</span><span class="p">)</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../index.html">
+              <img class="logo" src="../../../_static/Colour_Logo_Small_001.png" alt="Logo"/>
+            </a></p><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2013-2017, Colour Developers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

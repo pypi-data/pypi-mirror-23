@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>colour.colorimetry.yellowness Module &#8212; Colour 0.3.9 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-colour.colorimetry.yellowness">
+<span id="colour-colorimetry-yellowness-module"></span><h1>colour.colorimetry.yellowness Module<a class="headerlink" href="#module-colour.colorimetry.yellowness" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="yellowness-index">
+<h2>Yellowness Index <span class="math">\(Y\)</span><a class="headerlink" href="#yellowness-index" title="Permalink to this headline">¶</a></h2>
+<p>Defines <em>yellowness</em> index <span class="math">\(Y\)</span> computation objects:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#colour.colorimetry.yellowness.yellowness_ASTMD1925" title="colour.colorimetry.yellowness.yellowness_ASTMD1925"><code class="xref py py-func docutils literal"><span class="pre">yellowness_ASTMD1925()</span></code></a></li>
+<li><a class="reference internal" href="#colour.colorimetry.yellowness.yellowness_ASTME313" title="colour.colorimetry.yellowness.yellowness_ASTME313"><code class="xref py py-func docutils literal"><span class="pre">yellowness_ASTME313()</span></code></a></li>
+</ul>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="http://nbviewer.jupyter.org/github/colour-science/colour-notebooks/blob/master/notebooks/colorimetry/yellowness.ipynb">Yellowness Jupyter Notebook</a></p>
+</div>
+<p class="rubric">References</p>
+<table class="docutils footnote" frame="void" id="id1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id2">1</a>, <a class="fn-backref" href="#id3">2</a>)</em> X-Rite, &amp; Pantone. (2012). Color iQC and Color iMatch Color
+Calculations Guide. Retrieved from
+<a class="reference external" href="http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf">http://www.xrite.com/documents/literature/en/09_Color_Calculations_en.pdf</a></td></tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="colour.colorimetry.yellowness.yellowness_ASTMD1925">
+<code class="descclassname">colour.colorimetry.yellowness.</code><code class="descname">yellowness_ASTMD1925</code><span class="sig-paren">(</span><em>XYZ</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/colorimetry/yellowness.html#yellowness_ASTMD1925"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.colorimetry.yellowness.yellowness_ASTMD1925" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <em>yellowness</em> index <span class="math">\(YI\)</span> of given sample <em>CIE XYZ</em>
+tristimulus values using <em>ASTM D1925</em> method. <a class="footnote-reference" href="#id1" id="id2">[1]</a></p>
+<p>ASTM D1925 has been specifically developed for the definition of the
+Yellowness of homogeneous, non-fluorescent, almost neutral-transparent,
+white-scattering or opaque plastics as they will be reviewed under daylight
+condition. It can be other materials as well, as long as they fit into this
+description.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>XYZ</strong> (<em>array_like</em>) &#8211; <em>CIE XYZ</em> tristimulus values of sample.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><em>Whiteness</em> <span class="math">\(YI\)</span>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">numeric or ndarray</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li>Input <em>CIE XYZ</em> tristimulus values are in domain [0, 100].</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The input domain of that definition is non standard!</p>
+</div>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">XYZ</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">95.00000000</span><span class="p">,</span> <span class="mf">100.00000000</span><span class="p">,</span> <span class="mf">105.00000000</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">yellowness_ASTMD1925</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>  
+<span class="go">10.2999999...</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="colour.colorimetry.yellowness.yellowness_ASTME313">
+<code class="descclassname">colour.colorimetry.yellowness.</code><code class="descname">yellowness_ASTME313</code><span class="sig-paren">(</span><em>XYZ</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/colorimetry/yellowness.html#yellowness_ASTME313"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.colorimetry.yellowness.yellowness_ASTME313" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <em>yellowness</em> index <span class="math">\(YI\)</span> of given sample <em>CIE XYZ</em>
+tristimulus values using <em>ASTM E313</em> method. <a class="footnote-reference" href="#id1" id="id3">[1]</a></p>
+<p>ASTM E313 has successfully been used for a variety of white or near white
+materials. This includes coatings, Plastics, Textiles.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>XYZ</strong> (<em>array_like</em>) &#8211; <em>CIE XYZ</em> tristimulus values of sample.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><em>Whiteness</em> <span class="math">\(YI\)</span>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">numeric or ndarray</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li>Input <em>CIE XYZ</em> tristimulus values are in domain [0, 100].</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The input domain of that definition is non standard!</p>
+</div>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">XYZ</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">95.00000000</span><span class="p">,</span> <span class="mf">100.00000000</span><span class="p">,</span> <span class="mf">105.00000000</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">yellowness_ASTME313</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>  
+<span class="go">11.0650000...</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="colour.colorimetry.yellowness.YELLOWNESS_METHODS">
+<code class="descclassname">colour.colorimetry.yellowness.</code><code class="descname">YELLOWNESS_METHODS</code><em class="property"> = CaseInsensitiveMapping({'ASTM D1925': &lt;function yellowness_ASTMD1925&gt;, 'ASTM E313': &lt;function yellowness_ASTME313&gt;})</em><a class="headerlink" href="#colour.colorimetry.yellowness.YELLOWNESS_METHODS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Supported <em>yellowness</em> computations methods.</p>
+<dl class="docutils">
+<dt>YELLOWNESS_METHODS <span class="classifier-delimiter">:</span> <span class="classifier">CaseInsensitiveMapping</span></dt>
+<dd><strong>{&#8216;ASTM E313&#8217;, &#8216;ASTM D1925&#8217;}</strong></dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="colour.colorimetry.yellowness.yellowness">
+<code class="descclassname">colour.colorimetry.yellowness.</code><code class="descname">yellowness</code><span class="sig-paren">(</span><em>XYZ</em>, <em>method='ASTM E313'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/colorimetry/yellowness.html#yellowness"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.colorimetry.yellowness.yellowness" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <em>yellowness</em> <span class="math">\(W\)</span> using given method.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>XYZ</strong> (<em>array_like</em>) &#8211; <em>CIE XYZ</em> tristimulus values of sample.</li>
+<li><strong>method</strong> (<em>unicode</em><em>, </em><em>optional</em>) &#8211; <strong>{&#8216;ASTM E313&#8217;, &#8216;ASTM D1925&#8217;}</strong>,
+Computation method.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><em>yellowness</em> <span class="math">\(Y\)</span>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">numeric or ndarray</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">XYZ</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">95.00000000</span><span class="p">,</span> <span class="mf">100.00000000</span><span class="p">,</span> <span class="mf">105.00000000</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">yellowness</span><span class="p">(</span><span class="n">XYZ</span><span class="p">)</span>  
+<span class="go">11.0650000...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">method</span> <span class="o">=</span> <span class="s1">&#39;ASTM D1925&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">yellowness</span><span class="p">(</span><span class="n">XYZ</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>  
+<span class="go">10.2999999...</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Colour_Logo_Small_001.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">colour.colorimetry.yellowness Module</a><ul>
+<li><a class="reference internal" href="#yellowness-index">Yellowness Index <span class="math">\(Y\)</span></a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/colour.colorimetry.yellowness.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2013-2017, Colour Developers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/colour.colorimetry.yellowness.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

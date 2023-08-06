@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>colour.models.rgb.prismatic Module &#8212; Colour 0.3.9 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-colour.models.rgb.prismatic">
+<span id="colour-models-rgb-prismatic-module"></span><h1>colour.models.rgb.prismatic Module<a class="headerlink" href="#module-colour.models.rgb.prismatic" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="prismatic-colourspace">
+<h2>Prismatic Colourspace<a class="headerlink" href="#prismatic-colourspace" title="Permalink to this headline">¶</a></h2>
+<p>Defines the <em>Prismatic</em> colourspace transformations:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#colour.models.rgb.prismatic.RGB_to_Prismatic" title="colour.models.rgb.prismatic.RGB_to_Prismatic"><code class="xref py py-func docutils literal"><span class="pre">RGB_to_Prismatic()</span></code></a></li>
+<li><a class="reference internal" href="#colour.models.rgb.prismatic.Prismatic_to_RGB" title="colour.models.rgb.prismatic.Prismatic_to_RGB"><code class="xref py py-func docutils literal"><span class="pre">Prismatic_to_RGB()</span></code></a></li>
+</ul>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="http://nbviewer.jupyter.org/github/colour-science/colour-notebooks/blob/master/notebooks/models/prismatic.ipynb">Prismatic Colourspace Jupyter Notebook</a></p>
+</div>
+<p class="rubric">References</p>
+<table class="docutils footnote" frame="void" id="id1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Shirley, P., &amp; Hart, D. (2015). The prismatic color space for rgb
+computations, 2–7.</td></tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="colour.models.rgb.prismatic.RGB_to_Prismatic">
+<code class="descclassname">colour.models.rgb.prismatic.</code><code class="descname">RGB_to_Prismatic</code><span class="sig-paren">(</span><em>RGB</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/models/rgb/prismatic.html#RGB_to_Prismatic"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.models.rgb.prismatic.RGB_to_Prismatic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts from <em>RGB</em> colourspace to <em>Prismatic</em> <span class="math">\(L\rho\gamma\beta\)</span>
+colourspace array.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>RGB</strong> (<em>array_like</em>) &#8211; <em>RGB</em> colourspace array.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><em>Prismatic</em> <span class="math">\(L\rho\gamma\beta\)</span> colourspace array.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ndarray</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">RGB</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.25</span><span class="p">,</span> <span class="mf">0.50</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">RGB_to_Prismatic</span><span class="p">(</span><span class="n">RGB</span><span class="p">)</span>  
+<span class="go">array([ 0.75...   ,  0.1666666...,  0.3333333...,  0.5...   ])</span>
+</pre></div>
+</div>
+<p>Adjusting saturation of given <em>RGB</em> colourspace array:
+&gt;&gt;&gt; saturation = 0.5
+&gt;&gt;&gt; Lrgb = RGB_to_Prismatic(RGB)
+&gt;&gt;&gt; Lrgb[..., 1:] = 1 / 3 + saturation * (Lrgb[..., 1:] - 1 / 3)
+&gt;&gt;&gt; Prismatic_to_RGB(Lrgb)  # doctest: +ELLIPSIS
+array([ 0.45...,  0.6...,  0.75...])</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="colour.models.rgb.prismatic.Prismatic_to_RGB">
+<code class="descclassname">colour.models.rgb.prismatic.</code><code class="descname">Prismatic_to_RGB</code><span class="sig-paren">(</span><em>Lrgb</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/colour/models/rgb/prismatic.html#Prismatic_to_RGB"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#colour.models.rgb.prismatic.Prismatic_to_RGB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts from <em>Prismatic</em> <span class="math">\(L\rho\gamma\beta\)</span> colourspace array to
+<em>RGB</em> colourspace.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>Lrgb</strong> (<em>array_like</em>) &#8211; <em>Prismatic</em> <span class="math">\(L\rho\gamma\beta\)</span> colourspace array.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><em>RGB</em> colourspace array.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ndarray</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">Lrgb</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.75000000</span><span class="p">,</span> <span class="mf">0.16666667</span><span class="p">,</span> <span class="mf">0.33333333</span><span class="p">,</span> <span class="mf">0.50000000</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Prismatic_to_RGB</span><span class="p">(</span><span class="n">Lrgb</span><span class="p">)</span>  
+<span class="go">array([ 0.25...   ,  0.4999999...,  0.75...  ])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Colour_Logo_Small_001.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">colour.models.rgb.prismatic Module</a><ul>
+<li><a class="reference internal" href="#prismatic-colourspace">Prismatic Colourspace</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/colour.models.rgb.prismatic.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2013-2017, Colour Developers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/colour.models.rgb.prismatic.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
