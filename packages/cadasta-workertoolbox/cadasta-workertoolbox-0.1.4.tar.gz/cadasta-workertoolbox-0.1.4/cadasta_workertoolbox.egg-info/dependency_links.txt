@@ -1,0 +1,1 @@
+git+https://github.com/celery/kombu.git@master#egg=kombu-4.0.2
