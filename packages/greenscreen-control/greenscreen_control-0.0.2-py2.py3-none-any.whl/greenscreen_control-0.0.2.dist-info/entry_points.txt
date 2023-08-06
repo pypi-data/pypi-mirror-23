@@ -1,0 +1,4 @@
+[console_scripts]
+greenscreen_control = greenscreen_control.greenscreen_control_cli:main
+greenscreen_control_server = greenscreen_control.greenscreen_control_server:main
+
