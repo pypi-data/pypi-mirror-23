@@ -1,0 +1,19 @@
+{% extends CMS_TEMPLATE %}
+{% load i18n l10n sekizai_tags cms_tags pcart_core thumbnail staticfiles %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock %}
+
+{% block base_content %}
+<h1>{% page_attribute "page_title" %}</h1>
+<div class="row">
+<div class="col-md-12">
+{% for person in people %}
+<article>
+    <h2>{{person.full_name}}</h2>
+    <p>{{person.role}}</p>
+    <div>{{person.description|safe}}</div>
+</article>
+{% endfor %}
+</div>
+</div>
+{% endblock %}
