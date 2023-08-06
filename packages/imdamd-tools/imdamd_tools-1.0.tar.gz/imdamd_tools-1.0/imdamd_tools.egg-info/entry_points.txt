@@ -1,0 +1,3 @@
+[console_scripts]
+imdamd_tools = imdamd_tools:main
+

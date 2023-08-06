@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+imdamd_tools/__init__.py
+imdamd_tools/package_data.dat
+imdamd_tools.egg-info/PKG-INFO
+imdamd_tools.egg-info/SOURCES.txt
+imdamd_tools.egg-info/dependency_links.txt
+imdamd_tools.egg-info/entry_points.txt
+imdamd_tools.egg-info/requires.txt
+imdamd_tools.egg-info/top_level.txt
