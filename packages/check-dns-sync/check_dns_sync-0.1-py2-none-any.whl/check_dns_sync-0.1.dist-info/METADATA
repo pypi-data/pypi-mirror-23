@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: check-dns-sync
+Version: 0.1
+Summary: A nagios-like plugin to check if zone is synced accross dns servers
+Home-page: https://github.com/paulla/check_dns_sync
+Author: Elio Maisonneuve
+Author-email: elio.maisonneuve@eisti.eu
+License: BSD
+Keywords: ''
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: nagiosplugin
+
+# check_dns_sync
+A nagios-like plugin to check that zones are synced accros dns servers
+
+
+Changelog
+=========
+
+0.1 (2017-06-26)
+----------------
+
+- Elio Maisonneuve <elio.maisonneuve@eisti.eu>
+
+
+Contributors
+==============
+
+Elio Maisonneuve, Author
+
+

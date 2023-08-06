@@ -1,0 +1,16 @@
+check_dns_sync/__init__.py,sha256=-X3J-ouMppjk9aaWFgVX2FvpYlokgEEvNT3szBz1HHs,274
+check_dns_sync/check_dns_sync.py,sha256=3sxWGCTSBzaK2g3wsO-Ex1bkMK9O-5QeLJIIUZJNYXg,5155
+check_dns_sync/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+check_dns_sync/tests/test_check_dns_sync.py,sha256=oO3GNPq7FGuEUYUnM1KX8zxsI3hyMzvItXaqrCFusDA,9656
+check_dns_sync-0.1.dist-info/DESCRIPTION.rst,sha256=Nv2BbNPKIfTCMyyDQ_aMJbRsA3J-rD75yLm-spGdTqU,251
+check_dns_sync-0.1.dist-info/METADATA,sha256=8SEqkgdfpZRh86yGj_j1-zz2wx51u4QqcefpbpOK0f4,664
+check_dns_sync-0.1.dist-info/RECORD,,
+check_dns_sync-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+check_dns_sync-0.1.dist-info/entry_points.txt,sha256=kzVIHrqbPVSc8oJYNjtJ1yt77boNVAd9n7B0AXjuNDM,104
+check_dns_sync-0.1.dist-info/metadata.json,sha256=oUVFMFkLLQILnTTm7FqMALQY6eM3Uq2G-yRoXmY9Bc4,828
+check_dns_sync-0.1.dist-info/top_level.txt,sha256=pH2R6yXSNEHAlfl88UIMUquywWOw12UKX7HTHo4Tf48,15
+paulla/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+paulla/check_dns_sync/__init__.py,sha256=-X3J-ouMppjk9aaWFgVX2FvpYlokgEEvNT3szBz1HHs,274
+paulla/check_dns_sync/check_dns_sync.py,sha256=zo16qKA7OztuPlu8XbTCIu2XS4y2WF6yABor2Rck3X8,4870
+paulla/check_dns_sync/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paulla/check_dns_sync/tests/test_check_dns_sync.py,sha256=KBMiVSheXZmyKMJWLpQtOUlVKsyfGznsj7SkBMn4iQo,9784
