@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: mimerpy
+Version: 1.0.5
+Summary: A sample Python project
+Home-page: UNKNOWN
+Author: Erik Gunne & Magdalena Bostrom
+Author-email: oklart@mimer.com
+License: MIT
+Description: A sample Python project
+Keywords: MimerSQL DB
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3
