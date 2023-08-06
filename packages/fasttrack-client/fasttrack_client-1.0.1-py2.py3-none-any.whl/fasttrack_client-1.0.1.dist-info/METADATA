@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: fasttrack-client
+Version: 1.0.1
+Summary: This Fasttrack library enables you to request the Fasttrack API in a convenient way. For more information about the Fasttrack API please see https://api.fasttrack-intl.com
+Home-page: https://github.com/fasttrack/fasttrack-python
+Author: Fast Track
+Author-email: info@fasttrack-intl.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Database
+
+UNKNOWN
+
+
