@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+bot_ai.egg-info/PKG-INFO
+bot_ai.egg-info/SOURCES.txt
+bot_ai.egg-info/dependency_links.txt
+bot_ai.egg-info/top_level.txt
