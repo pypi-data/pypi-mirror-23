@@ -1,0 +1,6 @@
+BobModule.py
+setup.py
+BobModule.egg-info/PKG-INFO
+BobModule.egg-info/SOURCES.txt
+BobModule.egg-info/dependency_links.txt
+BobModule.egg-info/top_level.txt
