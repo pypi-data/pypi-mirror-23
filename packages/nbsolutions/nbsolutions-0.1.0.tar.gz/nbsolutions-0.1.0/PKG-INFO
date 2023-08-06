@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: nbsolutions
+Version: 0.1.0
+Summary: Simple Jupyter extension that allows the user to mark solution cells
+Home-page: https://github.com/jackylu97/nbsolutions
+Author: Jacky Lu
+Author-email: jackylu97@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jackylu97/nbsolutions/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

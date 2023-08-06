@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nbsolutions/__init__.py
+nbsolutions.egg-info/PKG-INFO
+nbsolutions.egg-info/SOURCES.txt
+nbsolutions.egg-info/dependency_links.txt
+nbsolutions.egg-info/requires.txt
+nbsolutions.egg-info/top_level.txt
+nbsolutions/static/main.js
