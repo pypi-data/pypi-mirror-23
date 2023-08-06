@@ -1,0 +1,15 @@
+.DS_Store,sha256=Q7F4Ju0R92o_gr48BQtQpvhEdw6NgeFEGe6sn3VIloM,6148
+geepal/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+geepal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geepal/cals.py,sha256=tIOAkVq2kDHDS_KFqEYgaEYOgTgk8BPfI-nSerXDUqk,480
+geepal/dfsort.py,sha256=HyQ6nJargJteI5VrRIHFvX0VRLIcRwPJQT1nsZxF7Vw,5495
+geepal/get_events.py,sha256=uWBUDu-QOhuaXXA5hIZmVjoLOJiN3uoeasKURhLIlHw,8477
+geepal/relrange_class.py,sha256=bssTOwjsfNX99MCxqlfDnRVraDI_GgR92k-bTBmGCHQ,1056
+geepal/tmp.py,sha256=X6TFCAsgoUWUBFAE1U-Oor37k5C98xzzfeFO-UeG-HQ,891
+geepal-0.2.0.data/scripts/invoice.py,sha256=_B2t53ddhwggw_0Pak6LMjwVmVCYEHwpbL-x9FazZ38,3324
+geepal-0.2.0.dist-info/DESCRIPTION.rst,sha256=8DT0d0nNYTU2XSLIV8e-2j8O_ZnrNj5AY-oht1UULSE,4356
+geepal-0.2.0.dist-info/METADATA,sha256=2Iu0PJRpyiv1obFvNzwxF-m3YgRPV_CfjBCKj6PCdlE,5204
+geepal-0.2.0.dist-info/RECORD,,
+geepal-0.2.0.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+geepal-0.2.0.dist-info/metadata.json,sha256=RA5mpmJA94Yf587_tLGcRU8oNmW23qcbQLOSS5JVe4M,938
+geepal-0.2.0.dist-info/top_level.txt,sha256=pbEIkJuTtDmCL3hFRwCeiWbhSiuQP4J1T0QXqApFPqA,7
