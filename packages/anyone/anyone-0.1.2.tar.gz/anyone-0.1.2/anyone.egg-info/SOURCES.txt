@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.srt
+setup.cfg
+setup.py
+anyone/__init__.py
+anyone/data.json
+anyone.egg-info/PKG-INFO
+anyone.egg-info/SOURCES.txt
+anyone.egg-info/dependency_links.txt
+anyone.egg-info/entry_points.txt
+anyone.egg-info/not-zip-safe
+anyone.egg-info/top_level.txt
