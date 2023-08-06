@@ -1,0 +1,2 @@
+pydem/cyfuncs/cyutils.pyd
+pydem/reader/inpaint.pyd
