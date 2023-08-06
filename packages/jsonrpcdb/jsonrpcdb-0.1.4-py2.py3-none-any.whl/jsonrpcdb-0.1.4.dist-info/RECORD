@@ -1,0 +1,16 @@
+jsonrpcdb/__init__.py,sha256=DwaSjauPp9Uob-bFXgFiC4Ol7WxCvkgfwPwEgLa0Sbo,921
+jsonrpcdb/auth.py,sha256=Lw_WaR79521DA7O_XEdB9Zam45gx8H30Ovijc8Fbhck,3361
+jsonrpcdb/connection.py,sha256=5fflOVJgl78PNyJnCrJN5a2RXyTXOGnU2OZu_EgU8CM,3693
+jsonrpcdb/cursor.py,sha256=Uw0cjaaT32U4fDNVlBFWib8Tldid4INMdACUCLcncwY,6103
+jsonrpcdb/error.py,sha256=WBVZHp5XkYciDcpwVMcPXM5QX2lTtXa-HWeFIASjthY,2793
+jsonrpcdb/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonrpcdb/tests/server.py,sha256=eMbi5DNn1oFdErEit-4MwOrE9ei7jQEq2DAbskAR_WM,1347
+jsonrpcdb/tests/test_auth.py,sha256=c9JsMluI5mb7Bj_nrpy9FU5ZQZVbbbSENtw8b7TKjrA,587
+jsonrpcdb/tests/test_connection.py,sha256=Up6-GWue5Ld3_yHDlCqJg0Jr57YJSHey7zb9vpc9z4U,2525
+jsonrpcdb/tests/test_cursor.py,sha256=_My0FzwUI_eyls-gFNi9O0GUfswXHLMz3raPNmvouLc,2761
+jsonrpcdb-0.1.4.dist-info/DESCRIPTION.rst,sha256=OgZuPuAcX7LajuTt8FZuQ9mhtc1u7kSQe8th9DjjOOU,1875
+jsonrpcdb-0.1.4.dist-info/METADATA,sha256=2pXVCYPyHUvI-sgQxfApOvvvvcETiubGFSUxuun0ct0,2719
+jsonrpcdb-0.1.4.dist-info/RECORD,,
+jsonrpcdb-0.1.4.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+jsonrpcdb-0.1.4.dist-info/metadata.json,sha256=G8rMFwRl4UvstMgWWLdx9FeTUg-b7SXS8VyLWLuj0yk,943
+jsonrpcdb-0.1.4.dist-info/top_level.txt,sha256=N-kMT0Vi9v-sMaCiNoU-bsrWF96lEG5aRMkEJ_0IOg8,10
