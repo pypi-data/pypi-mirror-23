@@ -1,0 +1,9 @@
+{
+	"valid_identifier_types" : [
+		["file", "ExecutionObject"],
+		["tag", "Tag"],
+		["symbol", "Symbol"],
+		["program", "Program"]
+	],
+	"valid_event_request_types" : ["request_execution"]
+}
