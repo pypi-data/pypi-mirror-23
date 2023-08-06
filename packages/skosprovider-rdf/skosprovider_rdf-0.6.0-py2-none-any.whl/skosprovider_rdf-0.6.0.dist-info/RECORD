@@ -1,0 +1,13 @@
+skosprovider_rdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skosprovider_rdf/providers.py,sha256=7o818miWCiRhEWCbouC_U80aq0ZdgAb6TR6ks5mnTqs,9146
+skosprovider_rdf/utils.py,sha256=xR23RPIsq6oRrC73jdAdLYhOUwlqVAKRVver7jW8SlQ,11123
+skosprovider_rdf-0.6.0.dist-info/RECORD,,
+skosprovider_rdf-0.6.0.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+skosprovider_rdf-0.6.0.dist-info/METADATA,sha256=0irP9bbnmGW66-5AnBOFyf-CQFJr0wZfWyUMIUrtg8U,4108
+skosprovider_rdf-0.6.0.dist-info/metadata.json,sha256=Jh11ce4yp_n7x_NtSuVca1950Vu1ZU1X2ljK7N-7EIw,1054
+skosprovider_rdf-0.6.0.dist-info/pbr.json,sha256=D2Ea94vvCxU6lwR7SfcbiD3wkXHXgYqEhfV3XBX6R-M,47
+skosprovider_rdf-0.6.0.dist-info/top_level.txt,sha256=BenP3Hpf1j9BF6TS-vaQOAESv2i9e82-at9IdcVZ8-o,23
+skosprovider_rdf-0.6.0.dist-info/DESCRIPTION.rst,sha256=ZnmWVnTaNYNIqe6OXV_DWzpAn9-oXVQwOS6uEIU_IQQ,3290
+tests/test_providers.py,sha256=ZC-unBJ-Gw91kqUUIcPvQrymrj4t80Ycskr9zwiRYKY,10335
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_utils.py,sha256=6TIlf8xP6cSh8jIXPTdCqCW63kjQMItqDQ0dlEO8dyY,13045
