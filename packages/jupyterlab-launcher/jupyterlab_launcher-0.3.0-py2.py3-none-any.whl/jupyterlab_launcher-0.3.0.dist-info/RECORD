@@ -1,0 +1,12 @@
+jupyterlab_launcher/__init__.py,sha256=LMN2YlSwJ64TZhn2RAG7AAAphaTaT6pZLDLNXbKvRSo,226
+jupyterlab_launcher/_version.py,sha256=1diiLz2k8iBMS2MjTQABbP2nnb5aN1oyNqJjgEG5MNs,72
+jupyterlab_launcher/app.py,sha256=83DG-NmX0VBrvPjNV5LMx2rX5WTibMy2RK4ItVDeZ_8,561
+jupyterlab_launcher/error.html,sha256=mLCu1iHBP8_aAe1fk48CrV4hrZ27Z0yFLO1TbVcugPY,1108
+jupyterlab_launcher/handlers.py,sha256=M92xer2F4YZrUjp7EKrQNTv04Ta8_xgIPBDjXiy-SXk,5369
+jupyterlab_launcher/index.html,sha256=O_5YwItxQFdCQ1dRDFgc7th-5yG3mGkGOzLRRntOcQs,2021
+jupyterlab_launcher-0.3.0.dist-info/DESCRIPTION.rst,sha256=3vJLXTi8yWbp0uv-LK-BpRWmBCg8zG-lWj_r1b1VOjg,72
+jupyterlab_launcher-0.3.0.dist-info/METADATA,sha256=5DcZVDGvHufySq1YBh75LwhCVGSYpUvNHHcciCQi200,834
+jupyterlab_launcher-0.3.0.dist-info/RECORD,,
+jupyterlab_launcher-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+jupyterlab_launcher-0.3.0.dist-info/metadata.json,sha256=Rk74DoO7Ki_7Z3sWaBsWciBXg0zHL60N7RmpTksx4f0,916
+jupyterlab_launcher-0.3.0.dist-info/top_level.txt,sha256=3ascBJFEIqdakKqtjopAGJvhNb-nSXBu6BBEY6cIJHw,20
