@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "blurhash-python", "run_requires": [{"requires": ["Pillow (>=4.1.1)", "cffi (>=1.9.1)"]}], "summary": "UNKNOWN", "version": "0.1.1"}
