@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ein/__init__.py
+ein.egg-info/PKG-INFO
+ein.egg-info/SOURCES.txt
+ein.egg-info/dependency_links.txt
+ein.egg-info/requires.txt
+ein.egg-info/top_level.txt
