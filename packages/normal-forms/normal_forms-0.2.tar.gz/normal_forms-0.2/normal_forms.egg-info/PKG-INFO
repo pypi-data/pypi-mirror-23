@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: normal-forms
+Version: 0.2
+Summary: Normal forms of dynamical systems
+Home-page: https://github.com/joepatmckenna/normal_forms
+Author: Joseph P. McKenna
+Author-email: joepatmckenna@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: normal form differential equation dynamical system bifurcation
+Platform: UNKNOWN
