@@ -1,0 +1,10 @@
+setup.py
+UW_RestClients_UPass.egg-info/PKG-INFO
+UW_RestClients_UPass.egg-info/SOURCES.txt
+UW_RestClients_UPass.egg-info/dependency_links.txt
+UW_RestClients_UPass.egg-info/requires.txt
+UW_RestClients_UPass.egg-info/top_level.txt
+uw_upass/__init__.py
+uw_upass/dao.py
+uw_upass/models.py
+uw_upass/test.py
