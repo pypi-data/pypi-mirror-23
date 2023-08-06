@@ -1,0 +1,2 @@
+cryptography>=1.9
+six>=1.5.2
