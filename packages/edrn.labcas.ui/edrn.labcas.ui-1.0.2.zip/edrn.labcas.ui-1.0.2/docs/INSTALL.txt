@@ -1,0 +1,11 @@
+Installation
+============
+
+1. Download the src
+2. Add [versions] in etc/versions/eggs.cfg
+3. Run buildout
+4. Fix cronjob
+5. Run initial cron
+6. Fix symlink
+
+Maybe when tagging a release we do both setup.py and [versions]?
