@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+version.txt
+coho/__init__.c
+coho/smi.c
+coho.egg-info/PKG-INFO
+coho.egg-info/SOURCES.txt
+coho.egg-info/dependency_links.txt
+coho.egg-info/top_level.txt
+src/compat.c
+src/compat.h
+src/smi.c
+src/smi.h
+src/vec.c
+src/vec.h
