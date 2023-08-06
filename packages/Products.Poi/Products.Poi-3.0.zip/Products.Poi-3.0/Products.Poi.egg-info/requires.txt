@@ -1,0 +1,15 @@
+setuptools
+Products.CMFPlone>=4.0b1
+Products.AddRemoveWidget>=1.4.2
+Products.DataGridField>=1.9.2
+collective.watcherlist>=0.2
+plone.app.blob
+plone.namedfile
+plone.app.contenttypes<1.2.0,>=1.1.2
+plone.app.widgets>=1.8.0
+collective.z3cform.datagridfield
+plone.schema
+plone.api
+
+[test]
+Products.PloneTestCase
