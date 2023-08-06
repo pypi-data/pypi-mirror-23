@@ -1,0 +1,11 @@
+taigapy/S3UploadedFileMetadata.py,sha256=kIbA6XuPAlUT6s1fYVGzxWU97i8613rF-I3x37S0YHw,331
+taigapy/UploadFile.py,sha256=Bswz_l4gOsXKP0vuNdSFkIJHR9G4-_aT89InwM4Qih4,1066
+taigapy/__init__.py,sha256=mRFW1uEn_BxTJscn6wtNPx1drbUH3HOcgYehkIiRbKc,21207
+taigapy/test_taiga1_get.py,sha256=MP9GhfOaC-1yzN9ELugs0XjtW2Hj1ArnNNQzjlWp-B0,806
+taigapy/test_taiga2_get.py,sha256=I5-fHBNWWDpQQPcZcNGuGvqPd9_1hRUSIxaO-ocgkYo,2586
+taigapy-2.0.0.dist-info/DESCRIPTION.rst,sha256=ueQT67ibIjZjWuiqW-f9IWzrcfjjr2uh3YEYdTgGRk8,3260
+taigapy-2.0.0.dist-info/METADATA,sha256=yEC2zUFMBvZQaygIwKPEejRThc4hWbDXRYn7G11cUio,3573
+taigapy-2.0.0.dist-info/RECORD,,
+taigapy-2.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+taigapy-2.0.0.dist-info/metadata.json,sha256=WEUe77yuDp9S8yypdxxX8hIwzpnfyzScsNOyc3y4C4w,474
+taigapy-2.0.0.dist-info/top_level.txt,sha256=zFScc_q5kdtKCrQudkLQr9dVrC9hSZ9BVZvGFpCWw5c,8
