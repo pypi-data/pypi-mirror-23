@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: dodo-commands
+Version: 0.9.4
+Summary: Project-aware development environments, inspired by django-manage
+Home-page: https://github.com/mnieber/dodo_commands
+Author: Maarten Nieber
+Author-email: hallomaarten@yahoo.com
+License: MIT
+Download-URL: https://github.com/mnieber/dodo_commands/tarball/0.9.4
+Platform: UNKNOWN
+Requires-Dist: argcomplete
+Requires-Dist: plumbum
+Requires-Dist: ruamel.yaml
+Requires-Dist: six
+
+UNKNOWN
+
+
