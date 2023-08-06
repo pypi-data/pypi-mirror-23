@@ -1,0 +1,7 @@
+README.rst
+clipper_python.py
+setup.py
+clipper_python.egg-info/PKG-INFO
+clipper_python.egg-info/SOURCES.txt
+clipper_python.egg-info/dependency_links.txt
+clipper_python.egg-info/top_level.txt
