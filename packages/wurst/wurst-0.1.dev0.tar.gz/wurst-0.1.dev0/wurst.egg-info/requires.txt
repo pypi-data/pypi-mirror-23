@@ -1,0 +1,6 @@
+appdirs
+docopt
+numpy
+pandas
+python-json-logger
+tqdm
