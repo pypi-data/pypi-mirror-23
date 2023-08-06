@@ -1,0 +1,7 @@
+setup.py
+octacli.egg-info/PKG-INFO
+octacli.egg-info/SOURCES.txt
+octacli.egg-info/dependency_links.txt
+octacli.egg-info/entry_points.txt
+octacli.egg-info/requires.txt
+octacli.egg-info/top_level.txt
