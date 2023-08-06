@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: meet
+Version: 1.2.2
+Summary: A simple cli utility to create a meeting notes document in     either a google doc on google drive or in markdown in your directory of     choice
+Home-page: http://www.github.com/daubejb/meet
+Author: Jeffrey B. Daube
+Author-email: daubejb@gmail.com
+License: MIT license
+Description: UNKNOWN
+Keywords: meeting notes generator google docs markdown daube design
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications
+Classifier: Topic :: Terminals
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Utilities
