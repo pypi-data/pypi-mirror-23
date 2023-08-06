@@ -1,0 +1,9 @@
+setup.py
+showprogress/__init__.py
+showprogress/memory.py
+showprogress/progress.py
+showprogress.egg-info/PKG-INFO
+showprogress.egg-info/SOURCES.txt
+showprogress.egg-info/dependency_links.txt
+showprogress.egg-info/requires.txt
+showprogress.egg-info/top_level.txt
