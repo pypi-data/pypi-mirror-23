@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: sucklesync
+Version: 0.1.0
+Summary: A wrapper around rsync to simplify continuous sychnronization of remote directories
+Home-page: https://github.com/jeremyandrews/sucklesync
+Author: Jeremy Andrews
+Author-email: jeremy@tag1consulting.com
+License: 2-clause BSD
+Download-URL: https://github.com/jeremyandrews/sucklesync/archive/v0.1.0-alpha.tar.gz
+Description: ==========
+        SuckleSync
+        ==========
+        Sucklesync allows you to subscribe to remote directories, using rsync to
+        synchronize the directories locally. It only synchronizes files that
+        aren't actively changing.
+        
+        Sucklesync (currently) requires Python 2.
+        
+        ============
+        Installation
+        ============
+        Run:
+          pip install sucklesync
+        
+        Or:
+          sudo ./setup.py install
+        
+        To configure sucklesync, save the configuration template to any of
+        the following paths, as preferred for your local configuration:
+         * /etc/sucklesync.cfg
+         * /usr/local/etc/sucklesync.cfg
+         * ~/.sucklesync.cfg
+         * ./sucklesync.cfg
+        
+Platform: UNKNOWN
