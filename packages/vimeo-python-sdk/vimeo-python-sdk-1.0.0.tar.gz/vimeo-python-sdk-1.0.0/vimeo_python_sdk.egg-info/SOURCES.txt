@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+vimeo/__init__.py
+vimeo/api.py
+vimeo/exceptions.py
+vimeo_python_sdk.egg-info/PKG-INFO
+vimeo_python_sdk.egg-info/SOURCES.txt
+vimeo_python_sdk.egg-info/dependency_links.txt
+vimeo_python_sdk.egg-info/requires.txt
+vimeo_python_sdk.egg-info/top_level.txt
