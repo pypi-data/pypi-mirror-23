@@ -1,0 +1,12 @@
+rst2sile-0.1.data/scripts/rst2sile,sha256=qVsDmghAzQJAC79DjJ8cr8bzptWbG79L0dfhmgddSGc,127
+rst2sile-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+rst2sile-0.1.dist-info/METADATA,sha256=yVaJeezFF9ah0tDmex8FIAZXyG6Y8L1ejzAiUZn_Xyw,238
+rst2sile-0.1.dist-info/RECORD,,
+rst2sile-0.1.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+rst2sile-0.1.dist-info/metadata.json,sha256=He8lGb99jCU68UmQWGDO_8NWB_NwBelvDXSXxTO1KCQ,297
+rst2sile-0.1.dist-info/top_level.txt,sha256=khOrEZUeHZkrkWM4bJ_Sk7RF7j8_QVNG6RfQomVM8UA,5
+sile/__init__.py,sha256=eaIqbNsJ5hJTlfVj0RXtujkAV9sbB1uho3oqByhcmgc,17969
+sile/styles.css,sha256=GYP3eIkHTdQiWz1hT2NzDoVGcTkNx4sB2OzUARfA_hc,3469
+sile/packages/footnotes.lua,sha256=IhbO_lmuLJtVlfw2oXuc2CF3ayD1j2bFeeyCgK9Ebe0,3220
+sile/packages/pdf.lua,sha256=_2mRg_vZDM8ERaJh99Lc1H-orU_gYh3ULJbcBXJXpds,3837
+sile/packages/url.lua,sha256=SFb0Kjr2QipJALUbGn9ujaD-a_3EAXMm3oF6ZTOnMqI,1521
