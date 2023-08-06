@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+wechatpy_tornado/__init__.py
+wechatpy_tornado/client.py
+wechatpy_tornado.egg-info/PKG-INFO
+wechatpy_tornado.egg-info/SOURCES.txt
+wechatpy_tornado.egg-info/dependency_links.txt
+wechatpy_tornado.egg-info/requires.txt
+wechatpy_tornado.egg-info/top_level.txt
