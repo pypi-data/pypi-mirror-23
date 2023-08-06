@@ -1,0 +1,5 @@
+# Include the license file
+include LICENSE
+
+# This is the syntax for including a directory
+#recursive-include <dir_name> *

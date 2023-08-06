@@ -1,0 +1,2 @@
+# statedump
+`statedump` is a Python package helping to dump and restore posix state (user/group/permissions) of files.

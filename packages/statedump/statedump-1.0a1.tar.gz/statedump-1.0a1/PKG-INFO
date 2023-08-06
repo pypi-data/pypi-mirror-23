@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: statedump
+Version: 1.0a1
+Summary: A Python package helping to dump and restore posix state (user/group/permissions) of files.
+Home-page: https://github.com/WenbinHou/statedump
+Author: Wenbin Hou
+Author-email: catchyrime@fastmail.com
+License: GPLv3
+Description: # statedump
+        `statedump` is a Python package helping to dump and restore posix state (user/group/permissions) of files.
+        
+Keywords: posix file state permission
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Recovery Tools
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README
+setup.cfg
+setup.py
+statedump/StateDump.py
+statedump/__init__.py
+statedump.egg-info/PKG-INFO
+statedump.egg-info/SOURCES.txt
+statedump.egg-info/dependency_links.txt
+statedump.egg-info/entry_points.txt
+statedump.egg-info/requires.txt
+statedump.egg-info/top_level.txt
