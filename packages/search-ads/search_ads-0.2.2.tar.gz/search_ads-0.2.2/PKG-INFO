@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: search_ads
+Version: 0.2.2
+Summary: Python wrapper for Apple Search Ads APIs
+Home-page: https://github.com/BendingSpoons/searchads-api
+Author: Luca Giacomel
+Author-email: lg@bendingspoons.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
