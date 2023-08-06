@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+sentence_sem_sim/__init__.py
+sentence_sem_sim/sen_sem_sim.py
+sentence_sem_sim.egg-info/PKG-INFO
+sentence_sem_sim.egg-info/SOURCES.txt
+sentence_sem_sim.egg-info/dependency_links.txt
+sentence_sem_sim.egg-info/requires.txt
+sentence_sem_sim.egg-info/top_level.txt
