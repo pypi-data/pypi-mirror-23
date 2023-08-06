@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: gfmtoc
+Version: 1.1.1
+Summary: Generates Github-Flavored Markdown Tables of Contents from `readme.md`s
+Home-page: https://github.com/9999years/gfm-toc
+Author: Rebecca Turner
+Author-email: 637275@gmail.com
+License: MIT
+Keywords: markdown toc table contents
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Markup
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: urllib3
+
+https://github.com/9999years/gfm-toc
+
+
