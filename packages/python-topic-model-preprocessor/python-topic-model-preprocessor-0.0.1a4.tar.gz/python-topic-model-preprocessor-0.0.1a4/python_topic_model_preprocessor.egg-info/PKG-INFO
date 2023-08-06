@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: python-topic-model-preprocessor
+Version: 0.0.1a4
+Summary: A helper class for facilitating preprocessing of text corpus before any topic modeling algorithms
+Home-page: https://github.com/zhiyzuo/python-topic-model-preprocessor
+Author: Zhiya Zuo
+Author-email: zhiyazuo@gmail.com
+License: MIT
+Description: Topic-Model-Preprocessor
+        =======================
+        
+        This project is designed for facilitating preprocessing of text corpus for any topic modeling algorithms.
+        
+        Written by Zhiya Zuo, 2017 July.
+        
+Keywords: text mining text processing topic modeling data analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
