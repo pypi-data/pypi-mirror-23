@@ -1,0 +1,14 @@
+def check():
+  print('spider script working')
+
+import sys
+
+from sample_app.mod1 import mod1
+#for arg in sys.argv:
+#  if arg !='' and type(arg)!=str:
+
+a=mod1(int(sys.argv[1])).square()
+print(a)
+
+#for arg in sys.argv:
+#    return arg
