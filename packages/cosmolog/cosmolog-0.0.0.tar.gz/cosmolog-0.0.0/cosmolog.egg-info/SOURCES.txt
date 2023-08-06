@@ -1,0 +1,5 @@
+setup.py
+cosmolog.egg-info/PKG-INFO
+cosmolog.egg-info/SOURCES.txt
+cosmolog.egg-info/dependency_links.txt
+cosmolog.egg-info/top_level.txt
