@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+soundcloud/__init__.py
+soundcloud/api.py
+soundcloud/exceptions.py
+soundcloud_python_sdk.egg-info/PKG-INFO
+soundcloud_python_sdk.egg-info/SOURCES.txt
+soundcloud_python_sdk.egg-info/dependency_links.txt
+soundcloud_python_sdk.egg-info/requires.txt
+soundcloud_python_sdk.egg-info/top_level.txt
