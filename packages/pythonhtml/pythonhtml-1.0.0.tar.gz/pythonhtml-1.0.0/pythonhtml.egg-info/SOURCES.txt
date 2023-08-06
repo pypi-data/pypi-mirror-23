@@ -1,0 +1,6 @@
+pythonhtml.py
+setup.py
+pythonhtml.egg-info/PKG-INFO
+pythonhtml.egg-info/SOURCES.txt
+pythonhtml.egg-info/dependency_links.txt
+pythonhtml.egg-info/top_level.txt
