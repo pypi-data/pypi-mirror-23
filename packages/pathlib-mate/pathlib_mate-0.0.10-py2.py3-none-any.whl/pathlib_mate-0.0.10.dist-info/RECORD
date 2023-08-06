@@ -1,0 +1,13 @@
+pathlib_mate/__init__.py,sha256=9uPO5l0qosxyCDFQuCEdzkI0VLkY8xheiP_FIW4iOZc,294
+pathlib_mate/pathlib.py,sha256=8tsOBbgKGJxtsbP7yv7IDzaqMOTJgL9f2HrIp5sMtZM,86987
+pathlib_mate/six.py,sha256=4_0LVkJ203TpeyNSUmbyvxwKRDNPC1OR9gKhGB6uIWQ,31169
+pathlib_mate/zzz_manual_install.py,sha256=1NFMGumqM2n7PaHogHkKv3_iMxswswr72vByBoc5SEc,6399
+pathlib_mate/__pycache__/__init__.cpython-34.pyc,sha256=tjpEZXWtpW0V6n_h6T3ON7JPDG2j8INCittWo55eB0g,442
+pathlib_mate/__pycache__/pathlib.cpython-34.pyc,sha256=va8bFi_FPOckvaGpxfw7fchkSKXNFvTkqq-lYPrzJq8,80553
+pathlib_mate/__pycache__/six.cpython-34.pyc,sha256=aXOOx2OccODpreNdRarJeXBoOnAvT6Qi-ec-IHwyjcc,26498
+pathlib_mate-0.0.10.dist-info/DESCRIPTION.rst,sha256=PrkynyIeRej_N3BzaIX0SG2-VSIik2NOErfVZMetg5o,84
+pathlib_mate-0.0.10.dist-info/METADATA,sha256=VXVRC9CIm32DlB0uVSxyV3lM3lJ2Kvh5h0-WUPgThUk,396
+pathlib_mate-0.0.10.dist-info/RECORD,,
+pathlib_mate-0.0.10.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+pathlib_mate-0.0.10.dist-info/metadata.json,sha256=sCr0UHDcFf0j71tgsX8OrrUyZi0Ebe7QG5wS47L2VEc,521
+pathlib_mate-0.0.10.dist-info/top_level.txt,sha256=oJ9eodqZhxR29jco26Oyzx20U_8A9pRR9G-loTID0dQ,13

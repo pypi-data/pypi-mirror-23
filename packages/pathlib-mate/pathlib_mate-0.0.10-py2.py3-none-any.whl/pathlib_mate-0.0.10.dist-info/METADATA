@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: pathlib-mate
+Version: 0.0.10
+Summary: An extended and more powerful pathlib.
+Home-page: https://github.com/MacHu-GWU/pathlib_mate-project
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+License: MIT
+Download-URL: https://github.com/MacHu-GWU/pathlib_mate-project/tarball/2017-07-20
+
+.. image:: https://travis-ci.org/MacHu-GWU/pathlib_mate-project.svg?branch=master
+
+
