@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: tv_grab_py_API
+Version: 1.0.7
+Summary: xlmtv API based on JSON datafiles
+Home-page: https://github.com/tvgrabbers/tvgrabpyAPI
+Author: Hika van den Hoven
+Author-email: UNKNOWN
+License: GPL
+Description: 
+        This Package contains an API for tv_grabbers Alle data is defined in JSON files
+        Including where and how to get the tv data. Multiple sources can be defined
+        and the resulting data is integrated into one XMLTV output file.
+        The detailed behaviour is highly configurable. See our site for more details.
+        
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Public Domain
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Development Status :: 5 - Production/Stable
+Requires: pytz
+Requires: requests
+Requires: DataTreeGrab (>=1.04)
+Provides: tv_grab_py_API
