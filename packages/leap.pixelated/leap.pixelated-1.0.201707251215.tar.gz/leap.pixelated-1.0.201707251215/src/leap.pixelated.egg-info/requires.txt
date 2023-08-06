@@ -1,0 +1,4 @@
+requests
+pyasn1
+whoosh
+twisted
