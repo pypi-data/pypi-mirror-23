@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: logReader
+Version: 0.3
+Summary: PyQt5 programm for parse and reading any log file.
+Home-page: https://github.com/MyrikLD/logReader
+Author: MyrikLD
+Author-email: myrik260138@tut.by
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
