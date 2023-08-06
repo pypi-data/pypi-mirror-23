@@ -1,0 +1,4 @@
+[console_scripts]
+miplug = mirobo.plug_cli:cli
+mirobo = mirobo.vacuum_cli:cli
+
