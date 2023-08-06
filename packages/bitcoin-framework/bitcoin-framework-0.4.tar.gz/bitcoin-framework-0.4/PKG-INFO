@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: bitcoin-framework
+Version: 0.4
+Summary: Python Bitcoin framework to create transactions with smart contracts based on puzzle-friendliness and OOP principles
+Home-page: https://github.com/uab-projects/bitcoin-framework
+Author: UAB Projects Team: davidlj95 & ccebrecos
+Author-email: mail@uab.codes
+License: Apache License v2.0
+Download-URL: https://github.com/uab-projects/bitcoin-framework/archive/0.4.tar.gz
+Description: UNKNOWN
+Keywords: bitcoin,bitcoin framework,bitcoin-framework,bitcoin api,bitcoin-api
+Platform: UNKNOWN
