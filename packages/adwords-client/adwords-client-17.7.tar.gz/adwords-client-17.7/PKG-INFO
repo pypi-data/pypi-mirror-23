@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: adwords-client
+Version: 17.7
+Summary: AdWords Client with read/write support
+Home-page: https://github.com/getninjas/adwords-client
+Author: Samuel Martins Barbosa Neto et al.
+Author-email: sam@getninjas.com.br
+License: APACHE
+Description: AdWords Client
+        ==============
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.5
