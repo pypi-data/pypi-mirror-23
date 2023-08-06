@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: gitdeploy
+Version: 0.1.0
+Summary: A service that updates local directories based on changes to a remote git repository
+Home-page: https://github.com/zdzielinski/gitdeploy
+Author: Zachariah Dzielinski
+Author-email: zachdzielinski@gmail.com
+License: GNU General Public License v3
+Description: ==========
+        Git Deploy
+        ==========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/gitdeploy.svg
+                :target: https://pypi.python.org/pypi/gitdeploy
+        
+        .. image:: https://img.shields.io/travis/zdzielinski/gitdeploy.svg
+                :target: https://travis-ci.org/zdzielinski/gitdeploy
+        
+        .. image:: https://readthedocs.org/projects/gitdeploy/badge/?version=latest
+                :target: https://gitdeploy.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://pyup.io/repos/github/zdzielinski/gitdeploy/shield.svg
+             :target: https://pyup.io/repos/github/zdzielinski/gitdeploy/
+             :alt: Updates
+        
+        
+        A service that updates local directories based on changes to a remote git repository
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://gitdeploy.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2017-07-22)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: gitdeploy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

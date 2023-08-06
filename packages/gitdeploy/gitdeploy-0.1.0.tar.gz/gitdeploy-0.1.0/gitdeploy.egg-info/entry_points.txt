@@ -1,0 +1,3 @@
+[console_scripts]
+gitdeploy = gitdeploy.cli:main
+
