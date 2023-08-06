@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: scribbl
+Version: 1.0.1
+Summary: Download image-based documents from scribd.com.
+Home-page: https://github.com/kurd/scribbl
+Author: kurd
+Author-email: kxrd@riseup.net
+License: MIT
+Description: UNKNOWN
+Keywords: scribd
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython

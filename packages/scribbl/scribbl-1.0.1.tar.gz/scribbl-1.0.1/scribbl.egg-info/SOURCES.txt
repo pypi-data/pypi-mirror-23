@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+scribbl/__init__.py
+scribbl/scribbl
+scribbl.egg-info/PKG-INFO
+scribbl.egg-info/SOURCES.txt
+scribbl.egg-info/dependency_links.txt
+scribbl.egg-info/requires.txt
+scribbl.egg-info/top_level.txt
