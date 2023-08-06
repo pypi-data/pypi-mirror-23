@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: electron-inject-dark-slack
+Version: 0.3
+Summary: A fork of electron-inject to inject a dark css theme into the slack desktop app
+Home-page: https://github.com/KemonoServal/electron-inject-dark-slack
+Author: KemonoServal
+Author-email: wrdqex@gmail.com
+License: GPLv3
+Download-URL: https://github.com/KemonoServal/electron-inject-dark-slack/tarball/v0.3
+Description: # electron-inject-slack-css
+        
+        This is a fork of electron-inject it adds a dark theme to slack for people that want a dark theme.
+        
+        Dark CSS for Slack created by https://github.com/Bigsy/dark-slack-theme (Modified to work with Desktop Slack).
+        
+        *electron-inject-slack-css* uses electron-inject's javascript injection to load a custom css file into slack.
+        
+        
+        # install
+        
+            $ python setup.py install
+            
+        # usage
+        
+            $ python -m electron-inject-slack-css --help
+            Usage:
+                usage:
+                       electron-inject-slack-css [options] - <electron application>
+        
+                example:
+                       electron-inject-slack-css --enable-dev-tool-hotkey - /path/to/electron/powered/application [--app-params app-args]
+        
+        
+            Options:
+              -h, --help            show this help message and exit
+              -d, --enable-devtools-hotkeys
+                                    Enable Hotkeys F12 (Toggle Developer Tools) and F5
+                                    (Refresh) [default: False]
+        	  -s  --enable-dark-slack-theme
+        							Enable Dark Theme for Slack. CSS file from 
+        							github.com/Bigsy/dark-slack-theme
+              -t TIMEOUT, --timeout=TIMEOUT
+                                    Try hard to inject for the time specified [default:
+                                    none]
+        
+Keywords: electron,inject,slack,dark theme
+Platform: UNKNOWN

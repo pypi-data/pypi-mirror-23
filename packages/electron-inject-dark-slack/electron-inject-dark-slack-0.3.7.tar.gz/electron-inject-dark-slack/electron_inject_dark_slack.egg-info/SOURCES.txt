@@ -1,0 +1,9 @@
+setup.py
+electron_inject_dark_slack/__init__.py
+electron_inject_dark_slack/__main__.py
+electron_inject_dark_slack/dark.css.py
+electron_inject_dark_slack.egg-info/PKG-INFO
+electron_inject_dark_slack.egg-info/SOURCES.txt
+electron_inject_dark_slack.egg-info/dependency_links.txt
+electron_inject_dark_slack.egg-info/requires.txt
+electron_inject_dark_slack.egg-info/top_level.txt
