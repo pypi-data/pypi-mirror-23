@@ -1,0 +1,11 @@
+utils.cpython-36m-darwin.so,sha256=u9qrihZoAw5Junb6fgBayY8gnS-fEAOb-dQ4yjeGXYQ,18780
+umis/__init__.py,sha256=Cp0NPpvofS7URwfxj4KpHsIzUQl2SskO1i_9v-8FORE,19
+umis/barcodes.py,sha256=MpnzS2PAhvQltWQ7hxPw1m3NI2OTE69qs8GW5gw0opc,6516
+umis/umis.py,sha256=nq5dQoFTszR44DuPdUvFhFKW-QAHYByeWSGvS1Cr7Vw,34837
+umis-0.7.0.dist-info/DESCRIPTION.rst,sha256=BU5veHb613HY9rDe1tlq_b2KT3VvIUpeH65GzU-GbCc,3650
+umis-0.7.0.dist-info/METADATA,sha256=0angAkPr4OqLG0QhMfNY3xCYCsrNbnq51ZQqhyjhTDQ,4045
+umis-0.7.0.dist-info/RECORD,,
+umis-0.7.0.dist-info/WHEEL,sha256=74RyQNQ88rBYFsd2n9fSga6HOET28X3dMSV592JcRcw,110
+umis-0.7.0.dist-info/entry_points.txt,sha256=e4VlchYvnw5i_kv3DvxcoKtuQagbJBuLZNw7I_U33Ws,41
+umis-0.7.0.dist-info/metadata.json,sha256=Pp9uP6Va041m5N2ccK5YrVKyUXd47WFn-zYoQHsOl60,667
+umis-0.7.0.dist-info/top_level.txt,sha256=bn-ZySIxeGTfQ-sLr1YUrn6qRqx8nC1s0bIaOCMXVAA,11
