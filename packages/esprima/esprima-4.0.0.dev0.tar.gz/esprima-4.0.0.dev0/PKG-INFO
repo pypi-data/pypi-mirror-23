@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: esprima
+Version: 4.0.0.dev0
+Summary: ECMAScript parsing infrastructure for multipurpose analysis in Python
+Home-page: http://github.com/Kronuz/exprima-python
+Author: German M. Bravo (Kronuz)
+Author-email: german.mb@gmail.com
+License: BSD
+Description: # esprima-python
+Keywords: esprima ecmascript javascript parser
+Platform: UNKNOWN
