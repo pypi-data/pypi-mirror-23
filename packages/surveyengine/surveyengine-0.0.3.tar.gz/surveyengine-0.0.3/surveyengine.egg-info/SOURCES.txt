@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+surveyengine.egg-info/PKG-INFO
+surveyengine.egg-info/SOURCES.txt
+surveyengine.egg-info/dependency_links.txt
+surveyengine.egg-info/entry_points.txt
+surveyengine.egg-info/requires.txt
+surveyengine.egg-info/top_level.txt
