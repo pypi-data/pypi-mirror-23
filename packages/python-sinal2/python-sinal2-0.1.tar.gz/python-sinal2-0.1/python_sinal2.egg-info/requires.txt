@@ -1,0 +1,4 @@
+tqdm
+requests
+websocket-client
+gevent

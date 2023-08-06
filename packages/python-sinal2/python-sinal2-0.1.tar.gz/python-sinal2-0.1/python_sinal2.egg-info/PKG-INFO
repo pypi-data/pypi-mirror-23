@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: python-sinal2
+Version: 0.1
+Summary: Sina Level2 Data Fetcher
+Home-page: http://github.com/observerss/sinal2
+Author: Jingchao Hu
+Author-email: jingchaohu@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
