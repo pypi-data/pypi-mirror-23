@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: systemlookup
+Version: 0.0.4
+Summary: Command line tool to get info about filenames, clsid etc, from SystemLookup.com
+Home-page: http://github.com/katjahahn/SystemLookup
+Author: Karsten Hahn
+Author-email: struppigel@googlemail.com
+License: Apache License 2.0
+Download-URL: https://github.com/katjahahn/systemlookup/tarball/0.0.4
+Description: UNKNOWN
+Keywords: systemlookup,malware research,malware,file info
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: Topic :: System
+Classifier: Programming Language :: Python
