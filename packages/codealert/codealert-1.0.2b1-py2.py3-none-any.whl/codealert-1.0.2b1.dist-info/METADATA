@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: codealert
+Version: 1.0.2b1
+Summary: Slack/Email/Sound alert when your code block finishes running
+Home-page: https://github.com/leonardloo/CodeAlert
+Author: Leonard Loo
+Author-email: leonard.loo.ks@gmail.com
+License: MIT
+Keywords: slack ml email development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
