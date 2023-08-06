@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: murpy
+Version: 0.1.0
+Summary: A Brainfuck code generator from an own language
+Home-page: https://github.com/eisterman/MurPy
+Author: eisterman
+Author-email: federico.pasqua.96@gmail.com
+License: GPLv3.0
+Description: UNKNOWN
+Keywords: brainfuck-transpiler brainfuck transpiler code-generator language programming-language
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
