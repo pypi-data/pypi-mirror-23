@@ -1,0 +1,102 @@
+Metadata-Version: 2.0
+Name: pystamps
+Version: 0.1.0
+Summary: View and select PDS images to open in pdsview or pdsspect
+Home-page: https://github.com/planetarypy/pystamps
+Author: PlanetaryPy Developers
+Author-email: contact@planetarypy.com
+License: BSD
+Keywords: pystamps
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: planetaryimage (>=0.5.0)
+Requires-Dist: matplotlib (>=1.5.1)
+Requires-Dist: QtPy (>=1.2.1)
+
+===============================
+pystamps
+===============================
+
+.. image:: https://travis-ci.org/planetarypy/pystamps.svg
+        :target: https://travis-ci.org/planetarypy/pystamps
+
+.. image:: https://img.shields.io/pypi/v/pystamps.svg
+        :target: https://pypi.python.org/pypi/pystamps
+
+
+pystamps is a PDS image thumbnail browser.  It is alpha quality software and
+not affiliated with NASA.
+
+* Free software: BSD license
+
+Features
+--------
+
+This is a still a work in progress and is alpha quality software.
+
+* Currently available features:
+
+    * Display Images
+    * Select Images
+    * Print Image paths
+    * Resize window and wrap images
+    * Command Line arguments
+
+        * pystamps
+
+            * Displays all PDS compatible images in current directory
+
+        * pystamps [filename or glob]
+
+            * Displays single image or all images matching glob that are PDS
+              compatible
+
+    * open in pdsview
+
+        * Needs install first:
+
+            * pip install pdsview
+
+
+Install
+--------
+
+```
+git clone git@github.com:planetarypy/pystamps.git
+pip install -r requirements.txt
+```
+
+You must also install PySide, PyQt4, or PyQt5 (PyQt5 recommended)
+
+Screen Shots
+------------
+
+Default view:
+
+.. image:: docs/screenshots/pystamps_sc_1.png
+
+Wrap Images and select images:
+
+.. image:: docs/screenshots/pystamps_sc_2.png
+
+
+
+
+History
+-------
+
+0.1.0 ("2017-08-21")
+---------------------
+
+* First release on PyPI.
+
+
