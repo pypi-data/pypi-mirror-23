@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: atmos-ld
+Version: 0.1.0
+Summary: A Linked Data ecosystem built from Atmosphere APIs for geo-elements, stars and photometers
+Home-page: https://github.com/oeg-upm/atmos-ld
+Author: Fernando Serena
+Author-email: fserena@fi.upm.es
+License: Apache 2
+Download-URL: https://github.com/oeg-upm/atmos-ld/tarball/0.1.0
+Description: UNKNOWN
+Keywords: light pollution,stars,osm
+Platform: UNKNOWN

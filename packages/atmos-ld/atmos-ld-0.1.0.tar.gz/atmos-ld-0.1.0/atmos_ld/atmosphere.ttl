@@ -1,0 +1,231 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix atmos: <http://example.org/atmosphere#> .
+@prefix wot: <http://iot.linkeddata.es/def/wot#> .
+@prefix core: <http://iot.linkeddata.es/def/core#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://example.org/atmosphere#> a owl:Ontology .
+
+wot:Thing a rdfs:Class ;
+    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty core:monitorsFeatureProperty ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+core:VirtualThing a owl:Class ;
+    rdfs:subClassOf wot:Thing .
+
+wot:thingName a owl:DatatypeProperty ;
+    rdfs:domain wot:Thing ;
+    rdfs:range xsd:string .
+
+core:PhysicalThing a rdfs:Class ;
+    rdfs:subClassOf wot:Thing, geo:SpatialThing .
+
+wot:providesInteractionPattern a owl:ObjectProperty ;
+    rdfs:domain wot:Thing ;
+    rdfs:range wot:InteractionPattern .
+
+wot:InteractionPattern a rdfs:Class .
+
+wot:interactionName a owl:DatatypeProperty ;
+    rdfs:domain wot:InteractionPattern ;
+    rdfs:range xsd:string .
+
+wot:Property a rdfs:Class ;
+    rdfs:subClassOf wot:InteractionPattern ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty core:monitorsFeatureProperty ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+core:Device a rdfs:Class ;
+    rdfs:subClassOf core:PhysicalThing .
+
+core:Sensor a rdfs:Class ;
+    rdfs:subClassOf core:Device .
+
+core:Photometer a owl:Class ;
+    rdfs:subClassOf core:Sensor .
+
+core:pollutersAround a owl:DatatypeProperty ;
+    rdfs:domain core:Photometer ;
+    rdfs:range xsd:integer .
+
+core:monitors a owl:ObjectProperty ;
+    rdfs:range ssn:Property .
+
+core:monitorsFeatureProperty a owl:ObjectProperty ;
+    rdfs:range core:FeatureProperty .
+
+core:FeatureProperty a owl:Class .
+
+core:aboutFeatureOfInterest a owl:ObjectProperty ;
+    rdfs:domain core:FeatureProperty ;
+    rdfs:range ssn:FeatureOfInterest .
+
+core:aboutProperty a owl:ObjectProperty ;
+    rdfs:domain core:FeatureProperty ;
+    rdfs:range ssn:Property .
+
+core:hasValue a owl:ObjectProperty ;
+    rdfs:domain wot:InteractionPattern ;
+    rdfs:range core:Value .
+
+core:Value a rdfs:Class .
+
+core:timeStamp a owl:DatatypeProperty ;
+    rdfs:domain core:Value ;
+    rdfs:range xsd:dateTime .
+
+core:literalValue a owl:DatatypeProperty ;
+    rdfs:domain core:Value ;
+    rdfs:range rdfs:Literal .
+
+core:contains a owl:ObjectProperty ;
+    rdfs:domain wot:Thing ;
+    rdfs:range wot:Thing .
+
+geo:SpatialThing a rdfs:Class .
+
+geo:lat a owl:DatatypeProperty ;
+    rdfs:domain geo:SpatialThing ;
+    rdfs:range xsd:float .
+
+geo:long a owl:DatatypeProperty ;
+    rdfs:domain geo:SpatialThing ;
+    rdfs:range xsd:float .
+
+schema:Thing a owl:Class ;
+    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty rdfs:label ;
+                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+schema:Place a owl:Class ;
+    rdfs:subClassOf schema:Thing , geo:SpatialThing .
+
+schema:distance a owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+schema:Building a owl:Class ;
+    rdfs:subClassOf schema:Place .
+
+schema:Way a owl:Class ;
+    rdfs:subClassOf schema:Place ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty foaf:name ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+schema:Shop a owl:Class ;
+    rdfs:subClassOf schema:Place ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty foaf:name ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+schema:StreetLight a owl:Class ;
+    rdfs:subClassOf geo:SpatialThing .
+
+schema:StreetLamp a owl:Class ;
+    rdfs:subClassOf schema:StreetLight ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty schema:height ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                    ] .
+
+schema:lightType a owl:DatatypeProperty ;
+    rdfs:domain schema:StreetLamp ;
+    rdfs:range xsd:string .
+
+schema:lamps a owl:DatatypeProperty ;
+    rdfs:domain schema:StreetLamp ;
+    rdfs:range xsd:integer .
+
+schema:height a owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+foaf:name a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+core:Service a owl:Class ;
+    rdfs:subClassOf core:VirtualThing .
+
+core:GeoService a owl:Class ;
+    rdfs:subClassOf core:Service .
+
+core:exposesBuilding a owl:ObjectProperty ;
+    rdfs:domain core:GeoService ;
+    rdfs:range schema:Building .
+
+core:exposesStreetLight a owl:ObjectProperty ;
+    rdfs:domain core:GeoService ;
+    rdfs:range schema:StreetLight .
+
+core:exposesShop a owl:ObjectProperty ;
+    rdfs:domain core:GeoService ;
+    rdfs:range schema:Shop .
+
+core:exposesWay a owl:ObjectProperty ;
+    rdfs:domain core:GeoService ;
+    rdfs:range schema:Way .
+
+atmos:SkyObject a rdfs:Class ;
+    rdfs:subClassOf wot:Thing .
+
+atmos:AltAz a rdfs:Class .
+
+atmos:onAltAz a owl:ObjectProperty ;
+    rdfs:domain atmos:SkyObject ;
+    rdfs:range atmos:AltAz .
+
+atmos:altitude a owl:DatatypeProperty ;
+    rdfs:domain atmos:AltAz ;
+    rdfs:range xsd:float .
+
+atmos:azimuth a owl:DatatypeProperty ;
+    rdfs:domain atmos:AltAz ;
+    rdfs:range xsd:float .
+
+atmos:fromStar a owl:ObjectProperty ;
+    rdfs:domain atmos:SkyObject ;
+    rdfs:range atmos:Star .
+
+atmos:Star a owl:Class ;
+    rdfs:subClassOf schema:Thing .
+
+atmos:apparentMagnitude a owl:DatatypeProperty ;
+    rdfs:domain atmos:SkyObject ;
+    rdfs:range xsd:float .
+
+dc:identifier a owl:DatatypeProperty ;
+    rdfs:domain schema:Thing ;
+    rdfs:range xsd:string .
+
+schema:description a owl:DatatypeProperty ;
+    rdfs:domain schema:Thing ;
+    rdfs:range xsd:string .
+
+schema:about a owl:DatatypeProperty ;
+    rdfs:domain schema:Thing ;
+    rdfs:range xsd:anyURL .
+
+atmos:Constellation a rdfs:Class ;
+    rdfs:subClassOf schema:Thing .
+
+atmos:constellation a owl:ObjectProperty ;
+    rdfs:domain atmos:Star ;
+    rdfs:range atmos:Constellation .
+

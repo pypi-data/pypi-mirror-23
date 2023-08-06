@@ -1,0 +1,562 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix atmos: <http://example.org/atmosphere#> .
+@prefix wot: <http://iot.linkeddata.es/def/wot#> .
+@prefix core: <http://iot.linkeddata.es/def/core#> .
+@prefix map: <http://iot.linkeddata.es/def/wot-mappings#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+
+_:ted1 a core:ThingEcosystemDescription ;
+    core:describes _:eco .
+
+_:eco a core:Ecosystem ;
+    core:hasComponent _:osm, _:service, _:skymap , _:light .
+
+_:osm a core:GeoService .
+
+_:td_osm a wot:ThingDescription ;
+    wot:identifier "osm" ;
+    wot:describes _:osm ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/geo/elements?lat=$lat&lng=$lon&radius=$rad"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:jsonPath "$.ways[*]" ;
+            map:rootMode true ;
+            map:key "id" ;
+            map:predicate core:exposesWay ;
+            map:valuesTransformedBy _:td_way
+        ] ,
+        [
+            a map:Mapping ;
+            map:jsonPath "$.shops[*]" ;
+            map:rootMode true ;
+            map:key "id" ;
+            map:predicate core:exposesShop ;
+            map:valuesTransformedBy _:td_shop
+        ] ,
+        [
+            a map:Mapping ;
+            map:jsonPath "$.buildings[*]" ;
+            map:rootMode true ;
+            map:key "id" ;
+            map:predicate core:exposesBuilding ;
+            map:valuesTransformedBy _:td_building
+        ] ,
+        [
+            a map:Mapping ;
+            map:jsonPath "$.lamps[*]" ;
+            map:rootMode true ;
+            map:key "id" ;
+            map:predicate core:exposesStreetLight ;
+            map:valuesTransformedBy _:td_sl
+        ]
+    ] .
+
+
+_:td_way a wot:ThingDescription ;
+    wot:identifier "way" ;
+    wot:describes _:way ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/geo/$item?lat=$lat&lng=$lon&radius=$rad&tags"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "highway" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate rdfs:label
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "name" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate foaf:name
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "footway" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate rdfs:label
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "id" ;
+            map:predicate dc:identifier ;
+        ]
+    ] .
+
+_:way a schema:Way .
+
+_:td_building a wot:ThingDescription ;
+    wot:identifier "building" ;
+    wot:describes [ a schema:Building ] ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/geo/$item?lat=$lat&lng=$lon&radius=$rad&tags"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "lat" ;
+            map:jsonPath "center" ;
+            map:rootMode true ;
+            map:predicate geo:lat
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lon" ;
+            map:jsonPath "center" ;
+            map:rootMode true ;
+            map:predicate geo:long
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "id" ;
+            map:predicate dc:identifier ;
+        ]
+    ] .
+
+_:td_shop a wot:ThingDescription ;
+    wot:identifier "shop" ;
+    wot:describes [ a schema:Shop ] ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/geo/$item?tags"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "shop" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate rdfs:label
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lat" ;
+            map:predicate geo:lat
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lon" ;
+            map:predicate geo:long
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "name" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate foaf:name
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "id" ;
+            map:predicate dc:identifier ;
+        ]
+    ] .
+
+_:td_sl a wot:ThingDescription ;
+    wot:identifier "sl" ;
+    wot:describes [ a schema:StreetLamp ] ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/geo/$item?tags"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "lat" ;
+            map:predicate geo:lat
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lon" ;
+            map:predicate geo:long
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lamp:height" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate schema:height
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lamp:count" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate schema:lamps
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "lamp:light" ;
+            map:jsonPath "tag" ;
+            map:rootMode true ;
+            map:predicate schema:lightType
+        ] ,
+        [
+            a map:Mapping ;
+            map:key "id" ;
+            map:predicate dc:identifier ;
+        ]
+    ] .
+
+
+_:service a core:VirtualThing .
+
+_:td_service a wot:ThingDescription ;
+    wot:identifier "service" ;
+    wot:describes _:service ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/tess"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "$container" ;
+            map:predicate core:contains;
+            map:valuesTransformedBy _:td_tess
+        ]
+    ] .
+
+_:td_tess a wot:ThingDescription ;
+    wot:identifier "tess" ;
+    wot:describes _:tess ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/tess/$item"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping _:id_map, _:lat_map, _:lon_map, _:pol_b_map, _:pol_s_map
+    ] .
+
+_:tess a core:Photometer ;
+    wot:providesInteractionPattern [
+        a wot:Property ;
+        wot:interactionName "tamb" ;
+       core:hasValue _:tamb_v
+    ] ,
+    [
+        a wot:Property ;
+        wot:interactionName "tsky" ;
+       core:hasValue _:tsky_v
+    ] ,
+    [
+        a wot:Property ;
+        wot:interactionName "freq" ;
+       core:hasValue _:freq_v
+    ] ,
+    [
+        a wot:Property ;
+        wot:interactionName "mag" ;
+       core:hasValue _:mag_v
+    ] .
+
+
+_:td_tamb_v a wot:ThingDescription ;
+    wot:identifier "vamb" ;
+    wot:describes _:tamb_v ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+           a wot:Endpoint ;
+           wot:href "http://agora.linkeddata.es/atmos/tess/$item/tamb" ;
+           wot:mediaType "application/json"
+       ] ;
+       map:hasMapping _:ts_map, _:value_map
+    ] .
+
+_:td_tsky_v a wot:ThingDescription ;
+    wot:identifier "vsky" ;
+    wot:describes _:tsky_v ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+           a wot:Endpoint ;
+           wot:href "http://agora.linkeddata.es/atmos/tess/$item/tsky" ;
+           wot:mediaType "application/json"
+       ] ;
+       map:hasMapping _:ts_map, _:value_map
+    ] .
+
+_:td_freq_v a wot:ThingDescription ;
+    wot:identifier "vfreq" ;
+    wot:describes _:freq_v ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+           a wot:Endpoint ;
+           wot:href "http://agora.linkeddata.es/atmos/tess/$item/freq" ;
+           wot:mediaType "application/json"
+       ] ;
+       map:hasMapping _:ts_map, _:value_map
+    ] .
+
+_:td_mag_v a wot:ThingDescription ;
+    wot:identifier "vmag" ;
+    wot:describes _:mag_v ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+           a wot:Endpoint ;
+           wot:href "http://agora.linkeddata.es/atmos/tess/$item/mag" ;
+           wot:mediaType "application/json"
+       ] ;
+       map:hasMapping _:ts_map, _:value_map
+    ] .
+
+_:tamb_v a core:Value .
+_:tsky_v a core:Value .
+_:freq_v a core:Value .
+_:mag_v a core:Value .
+
+_:id_map a map:Mapping ;
+    map:key "id" ;
+    map:predicate wot:thingName .
+
+_:pol_b_map a map:Mapping ;
+    map:key "buildings" ;
+    map:jsonPath "environment" ;
+    map:rootMode true ;
+    map:predicate core:pollutersAround .
+
+_:pol_s_map a map:Mapping ;
+    map:key "street_lights" ;
+    map:jsonPath "environment" ;
+    map:rootMode true ;
+    map:predicate core:pollutersAround .
+
+_:lat_map a map:Mapping ;
+    map:key "latitude" ;
+    map:jsonPath "position" ;
+    map:rootMode true ;
+    map:predicate geo:lat .
+
+_:lon_map a map:Mapping ;
+    map:key "longitude" ;
+    map:jsonPath "position" ;
+    map:rootMode true ;
+    map:predicate geo:long .
+
+_:ts_map a map:Mapping ;
+    map:key "ts" ;
+    map:predicate core:timeStamp .
+
+_:value_map a map:Mapping ;
+    map:key "value" ;
+    map:predicate core:literalValue .
+
+_:td_light a wot:ThingDescription ;
+    wot:identifier "light" ;
+    wot:describes _:light .
+
+_:light a core:VirtualThing ;
+    wot:providesInteractionPattern _:l_mag , [
+        a wot:Property ;
+        wot:interactionName "pfactor" ;
+        core:monitorsFeatureProperty [
+            a core:FeatureProperty ;
+            core:aboutProperty atmos:PollutionFactor ;
+            core:aboutFeatureOfInterest [
+                a geo:SpatialThing ;
+                geo:lat "$lat"^^xsd:float ;
+                geo:long "$lon"^^xsd:float
+            ]
+        ] ;
+        core:hasValue _:pol_v
+    ] .
+
+_:pol_v a core:Value .
+
+_:l_mag a wot:Property ;
+    wot:interactionName "mag" ;
+    core:monitorsFeatureProperty [
+        a core:FeatureProperty ;
+        core:aboutProperty atmos:SkyBrightness ;
+        core:aboutFeatureOfInterest [
+            a geo:SpatialThing ;
+            geo:lat "$lat"^^xsd:float ;
+            geo:long "$lon"^^xsd:float
+        ]
+    ] .
+
+_:td_l_mag a wot:ThingDescription ;
+    wot:identifier "mag" ;
+    wot:describes _:l_mag ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/sky/brightness?lat=$lat&lng=$lon"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+       map:hasMapping [
+            a wot:Mapping ;
+            map:key "measurement" ;
+            map:predicate core:hasValue ;
+       ], _:ts_map, _:value_map
+    ] .
+
+_:td_pol_v a wot:ThingDescription ;
+    wot:identifier "pol" ;
+    wot:describes _:pol_v ;
+    map:hasAccessMapping [
+       a map:AccessMapping ;
+       map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/sky/brightness?lat=$lat&lng=$lon"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+       map:hasMapping [
+            a wot:Mapping ;
+            map:key "pollution_factor" ;
+            map:predicate core:literalValue ;
+       ] ,
+       [
+            a wot:Mapping ;
+            map:jsonPath "measurement" ;
+            map:key "ts" ;
+            map:rootMode true;
+            map:predicate core:timeStamp ;
+       ]
+    ] .
+
+_:skymap a core:VirtualThing ;
+    core:monitorsFeatureProperty [
+        a core:FeatureProperty ;
+        core:aboutProperty atmos:VisibleStars ;
+        core:aboutFeatureOfInterest [
+            a geo:SpatialThing ;
+            geo:lat "$lat"^^xsd:float ;
+            geo:long "$lon"^^xsd:float
+        ]
+    ] .
+
+_:td_skymap a wot:ThingDescription ;
+    wot:identifier "skymap" ;
+    wot:describes _:skymap ;
+    map:hasAccessMapping [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/stars?lat=$lat&lon=$lon&angle=60"^^xsd:anyURI ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "$container" ;
+            map:predicate core:contains;
+        ],
+        [
+            a map:Mapping ;
+            map:key "wd_entity" ;
+            map:predicate atmos:fromStar;
+            map:valuesTransformedBy _:td_star
+        ],
+        [
+            a map:Mapping ;
+            map:key "common_names" ;
+            map:predicate wot:thingName;
+        ],
+        [
+            a map:Mapping ;
+            map:key "coordinates" ;
+            map:predicate atmos:onAltAz;
+        ],
+        [
+            a map:Mapping ;
+            map:key "alt" ;
+            map:predicate atmos:altitude;
+        ],
+        [
+            a map:Mapping ;
+            map:key "az" ;
+            map:predicate atmos:azimuth;
+        ],
+        [
+            a map:Mapping ;
+            map:key "magnitude" ;
+            map:predicate atmos:apparentMagnitude;
+        ]
+    ] .
+
+_:wd_am a map:AccessMapping ;
+    map:mapsResourcesFrom [
+        a wot:Endpoint ;
+        wot:href "http://agora.linkeddata.es/atmos/wiki/entities/$item" ;
+        wot:mediaType "application/json"
+    ] ;
+    map:hasMapping [
+        a map:Mapping ;
+        map:key "labels" ;
+        map:predicate rdfs:label
+    ],
+    [
+        a map:Mapping ;
+        map:key "entity" ;
+        map:predicate dc:identifier
+    ],
+    [
+        a map:Mapping ;
+        map:key "description" ;
+        map:predicate schema:description
+    ] .
+
+_:td_star a wot:ThingDescription ;
+    wot:identifier "star" ;
+    wot:describes [ a atmos:Star ] ;
+    map:hasAccessMapping _:wd_am , [
+        a map:AccessMapping ;
+        map:mapsResourcesFrom [
+            a wot:Endpoint ;
+            wot:href "http://agora.linkeddata.es/atmos/wiki/entities/$item" ;
+            wot:mediaType "application/json"
+        ] ;
+        map:hasMapping [
+            a map:Mapping ;
+            map:key "P373" ;
+            map:predicate schema:about
+        ],
+        [
+            a map:Mapping ;
+            map:key "P59" ;
+            map:predicate atmos:constellation ;
+            map:valuesTransformedBy _:td_const
+        ]
+    ] .
+
+_:td_const a wot:ThingDescription ;
+    wot:identifier "const" ;
+    wot:describes [ a atmos:Constellation ] ;
+    map:hasAccessMapping _:wd_am .

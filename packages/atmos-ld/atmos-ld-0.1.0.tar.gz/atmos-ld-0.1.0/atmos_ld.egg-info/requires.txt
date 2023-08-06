@@ -1,0 +1,6 @@
+flask
+Flask-Cache
+gevent
+agora-wot
+requests
+agora-py
