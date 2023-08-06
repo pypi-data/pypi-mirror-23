@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+configs/__init__.py
+core/__init__.py
+logs/__init__.py
+qacode.egg-info/PKG-INFO
+qacode.egg-info/SOURCES.txt
+qacode.egg-info/dependency_links.txt
+qacode.egg-info/top_level.txt
+tests/__init__.py
