@@ -1,0 +1,17 @@
+drf_nested_resources/__init__.py,sha256=-VCXjhMifpRRYdhbCvlyLQJAAP0eacpqP9cBQT2qeZE,815
+drf_nested_resources/_forged_request.py,sha256=WiDXzpmaiIXUNbwnmxUS0D7DET_r3VhNip0haN7sUFw,1578
+drf_nested_resources/fields.py,sha256=ETq6yY8KfqqbCuOLcSomkNxcrXqnu-l_tKSPs3dO1VE,3906
+drf_nested_resources/lookup_helpers.py,sha256=zQiXanmJGAXlXtJjuWLai_CNEAw42FeTopZ1lPeLYMM,3164
+drf_nested_resources/routers.py,sha256=olXA_Rsqg5RA0unZq-96TWJCU0Rk78T7eTi2ZuTeFrk,19197
+drf_nested_resources-1.2b2.dist-info/DESCRIPTION.rst,sha256=wSUd3lpjjkyWGqTyhlCqEghtoC7R2rezbNqTX7e2ysg,3483
+drf_nested_resources-1.2b2.dist-info/METADATA,sha256=Ogq9omOKqjvoZKVujDK-jpYmdes2gMkJmx5SC4atKRo,4248
+drf_nested_resources-1.2b2.dist-info/RECORD,,
+drf_nested_resources-1.2b2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+drf_nested_resources-1.2b2.dist-info/metadata.json,sha256=G8gUM2AudKaYpYdwYjW6Ow1iPu1Hu8yZ41yJIZ4T8YQ,929
+drf_nested_resources-1.2b2.dist-info/top_level.txt,sha256=jk3gk4b0gyW6mynz08UWtEI4eI9o7qKShfEIrqn34T4,27
+tests/django_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/django_project/settings.py,sha256=xnQ-Sh1Mu8y06rgyevXiYCbPFx5j66J8THkjDu9yL9Y,2646
+tests/django_project/urls.py,sha256=Kv2bALlfPVdcjdAANdJwHhD3NfFCX2BvvHmGig6p0J4,17
+tests/django_project/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/django_project/app/models.py,sha256=fUWRTHIcdm-VtjHgvui9XWdReyIEPy8hotXkcWK6n8A,1304
+tests/django_project/app/views.py,sha256=xhyldirthvU8od0TDy6VEeFL6-S335Mn8D2Gcf4KbBI,3701
