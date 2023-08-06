@@ -1,0 +1,9 @@
+setup.py
+singularity_pipeline/__init__.py
+singularity_pipeline/pipeline.py
+singularity_pipeline.egg-info/PKG-INFO
+singularity_pipeline.egg-info/SOURCES.txt
+singularity_pipeline.egg-info/dependency_links.txt
+singularity_pipeline.egg-info/entry_points.txt
+singularity_pipeline.egg-info/requires.txt
+singularity_pipeline.egg-info/top_level.txt

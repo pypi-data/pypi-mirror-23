@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: singularity-pipeline
+Version: 0.1
+Summary: A runner script for pipelines using Singularity containers
+Home-page: https://c4science.ch/diffusion/2915/browse/master/UniBe/
+Author: Alexander Kashev
+Author-email: alexander.kashev@math.unibe.ch
+License: MIT
+Description: UNKNOWN
+Keywords: singularity container runner
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
