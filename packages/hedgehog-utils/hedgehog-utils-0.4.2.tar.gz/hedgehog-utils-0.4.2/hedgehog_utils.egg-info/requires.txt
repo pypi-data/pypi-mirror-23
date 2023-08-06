@@ -1,0 +1,14 @@
+
+[dev]
+invoke
+
+[discovery]
+pyre
+pyzmq
+protobuf
+
+[protobuf]
+protobuf
+
+[zmq]
+pyzmq
