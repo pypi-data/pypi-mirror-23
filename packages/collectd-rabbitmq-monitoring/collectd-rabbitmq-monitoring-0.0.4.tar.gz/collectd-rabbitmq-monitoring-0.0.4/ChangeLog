@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+0.0.4
+-----
+
+* Switch to PBR
+* Several fixes
+* Update README.rst
+* Add pyrabbit install requirement
+* Initial Commit for collectd plugin for Rabbitmq
+* Initial commit
