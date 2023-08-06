@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.txt
+MANIFEST.in
+README.rst
+prune_ebs_snapshots.py
+setup.cfg
+setup.py
+prune_ebs_snapshots.egg-info/PKG-INFO
+prune_ebs_snapshots.egg-info/SOURCES.txt
+prune_ebs_snapshots.egg-info/dependency_links.txt
+prune_ebs_snapshots.egg-info/entry_points.txt
+prune_ebs_snapshots.egg-info/requires.txt
+prune_ebs_snapshots.egg-info/top_level.txt
