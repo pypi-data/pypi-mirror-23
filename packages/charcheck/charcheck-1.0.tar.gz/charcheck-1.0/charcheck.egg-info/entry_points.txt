@@ -1,0 +1,3 @@
+[console_scripts]
+charcheck = charcheck.charcheck:main
+
