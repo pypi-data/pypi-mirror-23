@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: envars
+Version: 0.2.1
+Summary: Read environmental variables
+Home-page: https://bitbucket.org/loisosubbelohde/envvars
+Author: Santosh Philip
+Author-email: santosh_philip@yahoo.com
+License: MIT
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+Envvars
+=======
+
+Reeads the environmental variables from:
+
+- os.environ()
+- or
+- a file such as ".env"
+
