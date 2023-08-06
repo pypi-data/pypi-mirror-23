@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: pynts
+Version: 0.0.1a1
+Summary: pynts: Python Naive Time Series: simple utility tools for handling time series data
+Home-page: https://github.com/gilbertozp/pynts
+Author: Gilberto Pastorello
+Author-email: gzpastorello@lbl.gov
+License: BSD
+Description: # pynts
+        
+        **pynts (Python Naive Time Series)** is a set of simple utility tools for handling time series data
+        
+        ## Contributors ##
+        * Gilberto Pastorello, gzpastorello &lt;at&gt; lbl DOT gov, 20170522
+        
+Keywords: simple time series tools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
