@@ -1,0 +1,14 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/cifar10/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/cifar10/train.py,sha256=tSGT6ngwfmsuoiZOm_s_4EUxHSl7Jk9irmcHzTkBAGk,5440
+nolearn_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nolearn_utils/hooks.py,sha256=t-WDroH12hMawpJY7IXfAunfH6j33lpa2lhBa-I6h6I,3172
+nolearn_utils/image_utils.py,sha256=M5QuyFsTLS1Kn9FSMscFXhh6ejpwhG1KZl5LRFPaEQI,2309
+nolearn_utils/iterators.py,sha256=PBJJlpkNNvlf1pb1QiamIK48sIQmZXkpqCN77X-gdok,19621
+nolearn_utils-0.3.0.dist-info/DESCRIPTION.rst,sha256=fxh3d7Jk5rrnT3lz404PzraZ9xIqslsZlu5pl30B-6w,3304
+nolearn_utils-0.3.0.dist-info/METADATA,sha256=0tXskNUblyc49GhBPhyIQtaBHcbwlMeVOYL8psQrXq0,4118
+nolearn_utils-0.3.0.dist-info/RECORD,,
+nolearn_utils-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+nolearn_utils-0.3.0.dist-info/metadata.json,sha256=XtNNShjFNYb9FeR26hUqq2Ko5Hvrkn4uIsTWiq6N6WA,829
+nolearn_utils-0.3.0.dist-info/pbr.json,sha256=4sctVQ2N1FzfhuF4-YsHtzdxfntuaqT01D13UWZ7nVc,47
+nolearn_utils-0.3.0.dist-info/top_level.txt,sha256=IKmtmmTPHNeo7qJiw4ANldy7R8jH-HdWZogWY7fS23I,23
