@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: prufer
+Version: 0.1
+Summary: Conversion tool for Prüfer sequences
+Home-page: https://github.com/stevenschmatz/prufer
+Author: Steven Schmatz
+Author-email: stevenschmatz@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/stevenschmatz/prufer/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: sequences,trees,prufer
+Platform: UNKNOWN
