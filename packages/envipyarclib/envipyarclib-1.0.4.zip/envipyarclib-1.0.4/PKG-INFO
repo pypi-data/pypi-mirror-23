@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: envipyarclib
+Version: 1.0.4
+Summary: ENVI Py Client Utilities for ArcGIS
+Home-page: https://github.com/envi-idl/envipyarclib
+Author: Exelis Visual Information Solutions, Inc.
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        
+        **************************
+        ENVI Py for ArcGIS Library
+        **************************
+        
+        Installation
+        ============
+        
+        Install ENVI Py for ArcGIS Library using pip::
+        
+            pip install envipyarclib
+        
+        Documentation
+        =============
+        
+        For the full API documentation visit: http://envi-py-for-arcgis-library.readthedocs.io
+Platform: UNKNOWN
