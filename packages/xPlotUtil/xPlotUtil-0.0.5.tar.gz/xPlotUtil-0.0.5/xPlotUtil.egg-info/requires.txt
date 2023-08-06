@@ -1,0 +1,7 @@
+spec2nexus
+matplotlib
+numpy
+future
+pyside==1.2.0
+scipy
+peakutils
