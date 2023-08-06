@@ -1,0 +1,6 @@
+README.txt
+py_lex_java.egg-info/PKG-INFO
+py_lex_java.egg-info/SOURCES.txt
+py_lex_java.egg-info/dependency_links.txt
+py_lex_java.egg-info/not-zip-safe
+py_lex_java.egg-info/top_level.txt
