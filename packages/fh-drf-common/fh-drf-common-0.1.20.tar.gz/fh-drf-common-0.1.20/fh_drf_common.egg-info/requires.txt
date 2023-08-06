@@ -1,0 +1,4 @@
+base32-crockford
+six
+django-enumfield==1.3b2
+python-dateutil
