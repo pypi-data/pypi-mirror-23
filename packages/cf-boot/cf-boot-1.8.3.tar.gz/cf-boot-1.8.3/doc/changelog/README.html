@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Recent changes to cf-boot</title>
+<!-- 2017-06-24 Sat 14:22 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Ernesto Alfonso" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Recent changes to cf-boot</h1>
+<p>
+Some of you may not be aware of important new features and bugfixes in cf-boot
+since the first "stable" release (v1 in December 2016). Below is a summary of important recent
+changes. All of the changes are backwards-compatible, so if you are a cf-boot user running
+into any of the below bugs, or if you could make use of some of the new features,
+I would recommend upgrading.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">New features</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>fast cf-push-app for dummy-app <b>(pre-versioning)</b>
+<ul class="org-ul">
+<li>for dummy apps used for only for binding and extracting service credentials,
+only a cf-api POST is needed, saving several minutes on <code>cf push</code>,
+<code>cf start</code>,  <code>git clone</code>
+</li>
+</ul>
+</li>
+<li>versioning support <b><b>(1.2.1)</b></b>
+<ul class="org-ul">
+<li>single-source versioning support and cli flag to output current version:
+<code>cf-boot --version</code> 
+</li>
+</ul>
+</li>
+<li>cf-push "domain" option <b>(1.3.0)</b>
+<ul class="org-ul">
+<li>expose <code>cf push</code>'s domain option,
+allowing app's route to be mapped to a specific domain.
+</li>
+<li>requested by UOM in AWS which has multiple domains for deploying kibana UI
+</li>
+</ul>
+</li>
+<li>support for async provisioning <b>(1.4.0)</b>
+<ul class="org-ul">
+<li><code>create-service</code> will now block until provisioning has completed.
+This prevents jobs which depend on the provisioned service to
+fail to bind and crash.
+</li>
+<li>requested by UOM, which needs to provision dedicated <code>postgres</code> instances
+</li>
+</ul>
+</li>
+<li>pip integration <b>(1.5.0)</b>
+<ul class="org-ul">
+<li>it is now possible to install cf-boot via pip
+<ul class="org-ul">
+<li>pip allows for easy distribution, version control and enforces version stability
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>new <code>service</code> wrapper subscript <b>(1.6.0)</b>
+<ul class="org-ul">
+<li>This is a wrapper script around "create-service", "cf-push-app", and
+"extract-service-credentials",
+which replaces the low-level trio with a more declarative way to create a
+service and extract binding credentials
+</li>
+<li><code>create-service</code> still supported but discouraged in new specs
+</li>
+</ul>
+</li>
+<li><code>if_exists</code> option in <code>service</code> and <code>create-service</code> <b>(1.7.0)</b>
+<ul class="org-ul">
+<li>feature to explicitly specify what to do when a service instance already exists ("ignore", "delete", or "update")
+</li>
+<li>allows changing a service instance plan via "update", or updating provisioning payload for brokers
+that support it
+</li>
+</ul>
+</li>
+<li><code>create-uaa-clients</code> can now crate users, groups, add users to groups <b>(1.8.0)</b>
+<ul class="org-ul">
+<li>useful for automating the setup of test users/tenants as part of bootstrapt
+</li>
+</ul>
+</li>
+<li>human-friendly cf-home directory names <b>(1.8.1)</b>
+<ul class="org-ul">
+<li>instead of<br  />
+       <code>/tmp/cf-homes/f81c012cede168f92048ed58f12f46cc</code>, user will see<br  />
+       <code>/tmp/cf-homes/HUBS-dev-f81c012cede168f92048ed58f12f46cc</code><br  />
+       which allows for reuse cf-boot's <code>CF_HOME</code> logins in the cli to issue one-off commands
+against certain environments. eg:
+
+<div class="org-src-container">
+
+<pre class="src src-sh">CF_HOME=/tmp/cf-homes/HUBS-dev-f81c012cede168f92048ed58f12f46cc cf env cfboot-refapp | less
+</pre>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Bug fixes</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>fix infinite loop in async provisioning support <b>(1.4.2)</b>
+</li>
+<li>fix relying on inconsistent cf cli output in  cf-push-app <b>(1.4.5)</b>
+<ul class="org-ul">
+<li>at some point in the cf cli, <code>cf target</code> changed to sentence-cased property names,
+eg. <code>Org</code> instead of <code>org</code>, causing cf-push-app to fail.
+</li>
+<li>we now directly parse <code>${CF_HOME}/.cf/config.json</code>,
+which is more stable
+</li>
+</ul>
+</li>
+<li>fix sorting only stdout and not <code>results.json</code> output file <b>(1.7.2)</b>
+</li>
+<li>fix <code>cf-push-app</code> not providing valid "memory" property in dummy app POST <b>(1.7.4)</b>
+<ul class="org-ul">
+<li>some versions of the cf api give "insufficient memory" error
+when memory property is missing. 
+</li>
+<li>we now give dummy apps 1Mb memory
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Upgrading</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>To upgrade, use <code>sudo -E pip install --upgrade cf-boot</code>
+</li>
+<li>To upgrade or revert to a specific version, use <code>sudo -E pip install --upgrade cf-boot==1.7.4</code>
+</li>
+</ul>
+
+<p>
+As always, if something doesn't work as expected or for any new feature ideas, please let me know via this DL.
+</p>
+
+<p>
+Thanks,
+</p>
+
+<p>
+Ernesto
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
