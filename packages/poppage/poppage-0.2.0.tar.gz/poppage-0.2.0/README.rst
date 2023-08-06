@@ -1,0 +1,58 @@
+Introduction
+============
+
+PopPage is a simple command-line utility originally intended as a static
+website generator but has since grown into a
+`cookiecutter <https://github.com/audreyr/cookiecutter>`__ clone. The
+main features of PopPage are:
+
+-  Uses `Jinja2 templates <http://jinja.pocoo.org/>`__ to generate
+   output.
+
+-  Output can be single files or directories.
+
+-  The content applied to the templates can be strings or read from
+   files directly on the command line.
+
+Status
+======
+
+Currently, this project is in the **development release** stage. While
+this project is suitable for use, please note that there may be
+incompatibilities in new releases.
+
+Requirements
+============
+
+PopPage should run on any Python 2.7/3.x interpreter without additional
+dependencies.
+
+Usage
+=====
+
+The following is a quick example of using PopPage:
+
+-  Template file (``template.jinja2``):
+
+   ::
+
+       Hello {{foo}}!
+
+-  PopPage command:
+
+   ::
+
+       poppage make template.jinja2 --string foo world
+
+-  Output to ``stdout``:
+
+   ::
+
+       Hello world!
+
+Similar
+=======
+
+The following projects are similar and may be worth checking out:
+
+-  `cookiecutter <https://github.com/audreyr/cookiecutter>`__
