@@ -1,0 +1,11 @@
+bitmex_client/__init__.py,sha256=LZEB3gpOEdgfV9257e1mVym8zJ-PTfLiFms6wWeKe3g,4109
+bitmex_client/api_client.py,sha256=Sv5IyWYu7wK68QKZaktLPDekZZ4G5_7qq45-Kh08_TQ,25432
+bitmex_client/configuration.py,sha256=qvtiENb0oneB3umD2SDprSTT5svBj5YJE1IGkX5SS10,8074
+bitmex_client/rest.py,sha256=DtzJUv_w4HWjnGbxIoPIgUXGQpm5F6dfxIYi6J-wTAA,14174
+bitmex_client-1.0.3.dist-info/DESCRIPTION.rst,sha256=zFN6eBW9MIMeJEM-FkbzEHFDgIUboeH1vOGaU-2ZYJM,1474
+bitmex_client-1.0.3.dist-info/METADATA,sha256=LAt0p4vmBA33x1Xud_iN_B08bFddVAuAMbFNs_IAoq0,2442
+bitmex_client-1.0.3.dist-info/RECORD,,
+bitmex_client-1.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+bitmex_client-1.0.3.dist-info/metadata.json,sha256=nTLt2-d8IM0nXCvBtY20CR_vTzKcv9HY-hQMy8OkyZ8,1208
+bitmex_client-1.0.3.dist-info/top_level.txt,sha256=BYdyRKeiMjUsho_EkzgeJGEzxDAkI2DUJzW961ANQ2Q,14
+bitmex_client-1.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
