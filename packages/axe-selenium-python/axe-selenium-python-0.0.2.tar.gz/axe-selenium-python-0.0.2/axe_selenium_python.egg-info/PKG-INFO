@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: axe-selenium-python
+Version: 0.0.2
+Summary: Python library to integrate axe and selenium for web                 accessibility testing.
+Home-page: http://github.com/kimberlythegeek/axe_selenium_python
+Author: Kimberly Pennington
+Author-email: kpennington@mozilla.com
+License: Mozilla Public License 2.0 (MPL 2.0)
+Description: =======================================
+        aXe Selenium Python Integration Library
+        =======================================
+        
+        Python library to integrate aXe and selenium for automated web accessibility testing.
+        
+        Python version of dequelab's Java `aXe Selenium integration library <https://github.com/dequelabs/axe-selenium-java>`_
+        
+Keywords: axe-core selenium pytest-selenium accessibility automation mozilla
+Platform: UNKNOWN
