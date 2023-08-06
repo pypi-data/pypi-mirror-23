@@ -1,0 +1,46 @@
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Description: ## Introduction
+        `pipx` extends `pip` with ability to automatically register packages upon installation.
+        
+        ## Installation
+        
+        `pip install pipx`
+        
+        ## Usage
+        ### Install a package
+        `pipx install django`
+        
+        The above command will install `django` and register it at `dependencies` in `project.json` file.
+        
+        For installing development dependencies pass `-d` or `--dev` flag.
+        
+        `pipx install -d pytest`
+        
+        The above command will install `pytest` and register it at `dev-dependencies` in `project.json` file.
+        
+        ### Uninstall a package
+        `pipx uninstall django`
+        
+        ### Update a package
+        `pipx update django`
+        
+        For updating development package pass `-d` or `--dev` flag.
+        
+        `pipx update -d pytest`
+        
+        ### Setup a project
+        Issue `setup` without any flags during deployment. The command will install all the packages in `dependencies` section.
+        
+        `pipx setup`
+        
+        If the setup is for development, pass `-d` or `--dev` flag. This will install packages in both `dependencies` and `dev-dependencies` sections.
+        
+        `pipx -d setup`
+        
+Keywords: pip
+Platform: UNKNOWN
