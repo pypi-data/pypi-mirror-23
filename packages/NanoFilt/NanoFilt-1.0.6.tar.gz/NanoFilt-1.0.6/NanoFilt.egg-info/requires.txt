@@ -1,0 +1,2 @@
+biopython
+nanomath>=0.12.0
