@@ -1,0 +1,46 @@
+Metadata-Version: 2.0
+Name: blackfynn
+Version: 1.7.4
+Summary: Python client for the Blackfynn Platform
+Home-page: http://app.blackfynn.io
+Author: Blackfynn, Inc.
+Author-email: mark@blackfynn.com
+License: UNKNOWN
+Keywords: blackfynn client rest api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Requires-Python: <3
+Requires-Dist: Sphinx (==1.6.2)
+Requires-Dist: boto3 (==1.4.4)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: numpy (==1.11.3)
+Requires-Dist: pandas (==0.19.2)
+Requires-Dist: protobuf (==3.2.0)
+Requires-Dist: requests (==2.13.0)
+Requires-Dist: requests-futures (==0.9.7)
+Requires-Dist: sphinx-rtd-theme (==0.2.4)
+
+blackfynn-py
+============
+
+Python client and command line tool for Blackfynn.
+
+Installation
+------------
+
+To install, simply
+
+.. code:: bash
+
+    pip install blackfynn
+
+Documentation
+-------------
+
+Client and command line documentation can be found on `Blackfynn’s
+documentation website`_.
+
+.. _Blackfynn’s documentation website: http://python.docs.blackfynn.io
+
+
