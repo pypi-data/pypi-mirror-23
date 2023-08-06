@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+laughs/__init__.py
+laughs/laughs.py
+laughs.egg-info/PKG-INFO
+laughs.egg-info/SOURCES.txt
+laughs.egg-info/dependency_links.txt
+laughs.egg-info/not-zip-safe
+laughs.egg-info/requires.txt
+laughs.egg-info/top_level.txt
+laughs/services/__init__.py
+laughs/services/catfacts.py
+laughs/services/chucknorris.py
+laughs/services/dadjokes.py
+laughs/services/ronswanson.py
