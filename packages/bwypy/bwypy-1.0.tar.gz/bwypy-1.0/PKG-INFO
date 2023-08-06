@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bwypy
+Version: 1.0
+Summary: Bwypy: Python Tools for Bookworm
+Home-page: http://bookworm.htrc.illinois.edu
+Author: Peter Organisciak
+Author-email: organisciak@gmail.com
+License: NCSA
+Description: UNKNOWN
+Keywords: hathitrust text-mining text-analysis bookworm
+Platform: UNKNOWN
