@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.cfg
+setup.py
+arbit/__init__.py
+arbit/arbit.c
+arbit/arbit.py
+arbit/arbit_build.py
+arbit.egg-info/PKG-INFO
+arbit.egg-info/SOURCES.txt
+arbit.egg-info/dependency_links.txt
+arbit.egg-info/requires.txt
+arbit.egg-info/top_level.txt
