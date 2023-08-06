@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: censusbatchgeocoder
+Version: 0.0.5
+Summary: A simple Python wrapper for U.S. Census Geocoding Services API batch service
+Home-page: http://www.github.com/datadesk/python-censusbatchgeocoder/
+Author: Los Angeles Times Data Desk
+Author-email: datadesk@latimes.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: requests
+Requires-Dist: six
+
+UNKNOWN
+
+
