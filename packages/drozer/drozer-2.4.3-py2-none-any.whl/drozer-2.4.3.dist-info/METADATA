@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: drozer
+Version: 2.4.3
+Summary: The Leading Android Security Testing Framework
+Home-page: http://mwr.to/drozer
+Author: MWR InfoSecurity
+Author-email: drozer@mwrinfosecurity.com
+License: BSD (3 clause)
+Keywords: drozer android security framework
+Platform: UNKNOWN
+Requires-Dist: protobuf (>=2.6.1)
+Requires-Dist: pyopenssl (>=16.2)
+Requires-Dist: pyyaml (>=3.11)
+
+drozer (formerly Mercury) is the leading security testing framework for Android.
+
+drozer allows you to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.
+
+drozer provides tools to help you use, share and understand public Android exploits. It helps you to deploy a drozer Agent to a device through exploitation or social engineering. Using weasel (MWR's advanced exploitation payload) drozer is able to maximise the permissions available to it by installing a full agent, injecting a limited agent into a running process, or connecting a reverse shell to act as a Remote Access Tool (RAT).
+
+drozer is open source software, maintained by MWR InfoSecurity, and can be downloaded from: http://mwr.to/drozer
+
+
