@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kkpof
+Version: 0.0.1
+Summary: A simple utility that provides a proof of funds for the bitcoins secured by a KeepKey. It finds all /bitcoin addresses on a KeepKey that have an unspent balance and signs a message with the key /associated with each of those addresses.
+Home-page: UNKNOWN
+Author: Kenneth Heutmaker (bgok)
+Author-email: ken@keepkey.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
