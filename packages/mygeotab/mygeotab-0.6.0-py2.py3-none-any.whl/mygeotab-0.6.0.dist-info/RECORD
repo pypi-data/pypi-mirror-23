@@ -1,0 +1,17 @@
+mygeotab/__init__.py,sha256=d7ciGraFEYk7acolDsrmSErW-I6dK0fQUl6TmleoV8Y,417
+mygeotab/api.py,sha256=b7TDP5e2VY-PuoiRf8db9SzawSgHRbmTVZhigYPg-kw,15360
+mygeotab/cli.py,sha256=kFYTftbipo1C3yR5pIANHILa9Wzovrb10iCZrGusCuw,8866
+mygeotab/dates.py,sha256=J46-42LUGcWJ0zg3otwB6qtomRF7cnEn5uF_REcDJKQ,1112
+mygeotab/exceptions.py,sha256=lqFXV85VACkS8Q5Fx3QZt05jE7oNkr7A-MzhOfTSWzc,2462
+mygeotab/serializers.py,sha256=pvLmgBMR6tuWMUVLUs2QERAC6sG-8BzTUCtN--4-q68,910
+mygeotab/async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mygeotab/async/api.py,sha256=7f5HMxUfGXFYZyw_DtITWLM5hGTY3D_-pKt06ktaiac,10462
+mygeotab/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mygeotab/ext/feed.py,sha256=tnYHVd0UVr7y4QTCXuAboYaIDRWW2cl03DlCpmsWjes,2808
+mygeotab-0.6.0.dist-info/DESCRIPTION.rst,sha256=_ADX9t7ytB-avDws-DO8zLdt52XpAVK-hmwc2W8wr9c,5074
+mygeotab-0.6.0.dist-info/METADATA,sha256=tgBOvdEYQw4rXOS0C_IMwBw2vAPnCOJ_DulZNrETK9I,6150
+mygeotab-0.6.0.dist-info/RECORD,,
+mygeotab-0.6.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+mygeotab-0.6.0.dist-info/entry_points.txt,sha256=QcG8Jr3vE3axy06kn3bDYd9x2fJJ8pJQch2gOZOCxlg,61
+mygeotab-0.6.0.dist-info/metadata.json,sha256=ahoFztU46tvvpyvM9J-6YLmv9YdPFGR_TJrB5ltb8Rs,1285
+mygeotab-0.6.0.dist-info/top_level.txt,sha256=wEz2bI9NmpqTmP9MzP0MvTBHjCVAVjkP0VItYYl6PWw,37
