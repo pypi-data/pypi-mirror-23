@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: daco_client
+Version: 1.0.3
+Summary: Simple DACO Client Wrapper
+Home-page: https://github.com/icgc-dcc/Daco-Py
+Author: andricDu
+Author-email: dusan.andric@oicr.on.ca
+License: GPLv3
+Description: UNKNOWN
+Keywords: DACO ICGC
+Platform: UNKNOWN
