@@ -1,0 +1,12 @@
+sphinx_swagger-0.0.4.dist-info/DESCRIPTION.rst,sha256=Vyck95HJfa89Fg3jUCNBANnx2VmULN0uifaQ8KFel1g,2002
+sphinx_swagger-0.0.4.dist-info/METADATA,sha256=hYbqWgaUIjWj7Fc3r7JOfbaxNhIryWCxckWORlCTQI8,2782
+sphinx_swagger-0.0.4.dist-info/RECORD,,
+sphinx_swagger-0.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sphinx_swagger-0.0.4.dist-info/entry_points.txt,sha256=09IT32oPpM5wFrgVhpBfUJ_eTgjU_Mn_gvy3LZkgXZY,67
+sphinx_swagger-0.0.4.dist-info/metadata.json,sha256=-R45DVl2XrOdEdGqzZ1DnxtlQI94O9cTeK-hiKvo874,997
+sphinx_swagger-0.0.4.dist-info/top_level.txt,sha256=FdZl9x0-A--VPFmfvr_ngB6H53WjLUPn1PHgrXZOQOg,14
+sphinxswagger/__init__.py,sha256=pQIsmdQcD-OxyWc6sy3yRdPFoNNwYfQx6A4Sax1Z6_E,727
+sphinxswagger/builder.py,sha256=twBUQpSgN9uEH7NWwLL_cUuUGASymcYSbQQ9QG3ook4,1000
+sphinxswagger/command.py,sha256=_9a1nCihoSxdmc5OFRwHvNBjWJRrudkHNLfHwJie9pA,2410
+sphinxswagger/document.py,sha256=-6PCkghSL_zHq9hpK6FM18H8cT0F7oTzbDp2mlOJ4xA,4758
+sphinxswagger/writer.py,sha256=4qCYyrDVWITyCh89fV9jXFftTNzIHJIfvUbqoZuspDY,17346
