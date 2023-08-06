@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: get_nba_data
+Version: 1.0.2
+Summary: easy tool to load nba data with
+Home-page: http://github.com/jkim65537/get_nba_data
+Author: Jun Kim
+Author-email: jkim65537@gmail.com
+License: MIT
+Download-URL: https://github.com/jkim65537/get_nba_data/dist/get_nba_data-1.0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
