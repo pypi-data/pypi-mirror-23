@@ -1,0 +1,4 @@
+[console_scripts]
+attribute_selector = biometalib.utils.attribute_selector:main
+initialize_biometa = biometalib.utils.initialize_biometa:main
+
