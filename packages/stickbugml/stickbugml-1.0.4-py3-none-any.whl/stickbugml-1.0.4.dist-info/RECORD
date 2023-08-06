@@ -1,0 +1,11 @@
+stickbugml/__init__.py,sha256=Be9E2RJMW_4B3Y8jwV1gPlNc2fiN_7bQBb94B-bKwlo,93
+stickbugml/_util.py,sha256=FyaOkR10Ii_RIEd4AopQ4IQl_qiM7u1AkGQuDrwh8Pg,1163
+stickbugml/base.py,sha256=JBCk9OIsyFkDvIIrTIUySYaBes0R8M9Z6mS-bdtkVeo,2482
+stickbugml/decorators.py,sha256=2U7VbBoOGqTf6Nz3FHhKhps1K-PDeWsKJMFVVvKN340,2349
+stickbugml/singleton.py,sha256=CKadgEidJ9lkcppyG2gfRRE4yg1Jol8BNFKrYrku8qI,327
+stickbugml-1.0.4.dist-info/DESCRIPTION.rst,sha256=lSarpMJEnAXrumnnhuZvqraZmTbUAzNwxrx7MFnFc0c,4676
+stickbugml-1.0.4.dist-info/METADATA,sha256=ZJh9g439Ti_LgT4aOCmf7pup0rGrRzRaL5DKov4-rZc,5578
+stickbugml-1.0.4.dist-info/RECORD,,
+stickbugml-1.0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+stickbugml-1.0.4.dist-info/metadata.json,sha256=JOG8oFkIbG-roZxfqu0RPaOtzz10MkpivbIMiOrX2RM,1087
+stickbugml-1.0.4.dist-info/top_level.txt,sha256=ghBw0cA4DB5XtgPPNxnnXRAuFTWMVM1mjqW3mb6mFG4,11
