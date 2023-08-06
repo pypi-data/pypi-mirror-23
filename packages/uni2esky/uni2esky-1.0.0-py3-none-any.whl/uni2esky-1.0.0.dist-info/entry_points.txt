@@ -1,0 +1,5 @@
+[console_scripts]
+codepages = codepages:main
+hexprint = hexprint:main
+uni2esky = uni2esky:main
+
