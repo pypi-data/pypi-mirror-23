@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: bfield
+Version: 0.9
+Summary: Convenient bit fields for int subclasses
+Home-page: https://new.zygoon.pl/software/bfield/
+Author: Zygmunt Krynicki
+Author-email: me@zygoon.pl
+License: MIT
+Description: # bfield.BitField
+        
+        The missing bitfield type for Python 2 and 3.
+        
+        ## Example:
+        
+        ```
+        from bfield import BitField
+        
+        class AX(int):
+            AL = BitField(0, 8, "The lower octet")
+            AH = BitField(8, 16, "The higher octet")
+        
+        
+        assert AX(0x1234).AH == 0x12
+        assert AX(0x1234).AL == 0x34
+        ```
+        
+        ## Caveat
+        
+        Note that due to specifics of immutable ints, read-only is the best thing
+        available. This is sufficient for decoding binary protocols and file formats.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
