@@ -1,0 +1,44 @@
+Metadata-Version: 2.0
+Name: aratrum
+Version: 0.1.0
+Summary: A simple json configuration handler.
+Home-page: https://github.com/Vesuvium/aratrum
+Author: Jacopo Cascioli
+Author-email: jacopocascioli@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+
+Aratrum
+#######
+
+A simple configuration handler that reads a JSON config file and provides
+methods to interact with it.
+
+Was it really necessary to make a package for such a simple thing?
+Maybe not, but I like the DRYness of it, since almost every app will
+need a configuration reader.
+
+Usage
+#####
+
+Load a configuration file::
+
+    >>> from Aratrum import Aratrum
+    >>> config = Aratrum('config.json')
+    >>> options = config.get()
+    >>> print(type(options))
+    dict
+
+
+Set a value in the config and save it::
+
+    >>> config = Atratrum('config.json')
+    >>> config.get()
+    >>> config.config['server'] = 'somewhere'
+    >>> config.save()
+
+
