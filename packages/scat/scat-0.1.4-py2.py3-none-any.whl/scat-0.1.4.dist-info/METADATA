@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: scat
+Version: 0.1.4
+Summary: Schrödinger's cat
+Home-page: https://github.com/ivanov/scat
+Author: Paul Ivanov
+Author-email: pi@berkeley.edu
+License: BSD
+Platform: UNKNOWN
+
+Schrödinger's cat
+=================
+
+A ``cat`` clone which, for every line in the files passed to it, has
+50/50 chance of printing that line.
+
+Features
+--------
+
+-  Supports ``-b`` and ``-n`` flags. Numbers correspond to lines in the
+   original file.
+-  Behaves just like ``cat`` when provided multiple files (line numbers
+   reset)
+-  Behaves just like ``cat`` when run without arguments (uses stdin)
+
+Use cases
+---------
+
+-  Find some
+
+
+
