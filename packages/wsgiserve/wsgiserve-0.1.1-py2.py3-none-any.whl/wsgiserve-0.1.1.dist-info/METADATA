@@ -1,0 +1,48 @@
+Metadata-Version: 2.0
+Name: wsgiserve
+Version: 0.1.1
+Summary: a command to run wsgi application defined paste deploy configuration.
+Home-page: https://github.com/aodag/wsgiserve
+Author: Atsushi Odagiri
+Author-email: aodagx@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: hupper
+Requires-Dist: plaster
+Requires-Dist: plaster-pastedeploy
+Provides-Extra: testing
+Requires-Dist: flake8; extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+Requires-Dist: waitress; extra == 'testing'
+
+====================
+wsgiserve
+====================
+
+.. image:: https://travis-ci.org/aodag/wsgiserve.svg?branch=master
+    :target: https://travis-ci.org/aodag/wsgiserve
+
+``wsgiserve`` is a command to run wsgi application defined paste deploy configuration.
+
+::
+
+    usage: wsgiserve [-h] [--reload] config [config_vars [config_vars ...]]
+
+    positional arguments:
+    config       A path to the configuration file
+    config_vars  Variables required by the config file.
+
+    optional arguments:
+    -h, --help   show this help message and exit
+    --reload     Use auto-restart file monitor
+
+Changes
+========================
+
+0.1 (2017/07/21)
+------------------------
+
+- first release
+
+
