@@ -1,0 +1,7 @@
+Frcompress.lo: Frcompress.c /usr/include/stdc-predef.h Frzlib.h Frzconf.h
+
+/usr/include/stdc-predef.h:
+
+Frzlib.h:
+
+Frzconf.h:

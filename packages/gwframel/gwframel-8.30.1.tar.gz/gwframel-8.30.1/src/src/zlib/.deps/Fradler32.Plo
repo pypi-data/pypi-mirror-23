@@ -1,0 +1,7 @@
+Fradler32.lo: Fradler32.c /usr/include/stdc-predef.h Frzlib.h Frzconf.h
+
+/usr/include/stdc-predef.h:
+
+Frzlib.h:
+
+Frzconf.h:

@@ -1,0 +1,10 @@
+prefix=//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libframe
+Description: LIGO/VIRGO frame library
+Version: 8.30
+Libs: -L${exec_prefix}/lib -lm -lFrame
+Cflags:  -I${prefix}/include
