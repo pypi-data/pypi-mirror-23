@@ -1,0 +1,3 @@
+[console_scripts]
+shapeshift-cli = shapeshift_cli.__main__:main
+
