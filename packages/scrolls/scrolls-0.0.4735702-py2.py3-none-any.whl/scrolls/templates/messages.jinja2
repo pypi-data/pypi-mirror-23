@@ -1,0 +1,44 @@
+{% extends "master.jinja2" %}
+{% block body %}
+
+
+<div id="container">
+
+<div id="messages">
+    <ul>
+    {% for message in messages %}
+        <li>
+            {% for attribute in ('datetime', 'hostname', 'app') %}
+                <span class="{{ attribute }}">{{ message.toDict()[attribute] }}</span>
+            {% endfor %}
+            <a href="{{ request.resource_url(message) }}">
+                <span class="content">{{ message.toDict()['content'] }}</span>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+
+<nav id="sidebar">
+
+    <form action="{{ request.resource_url(request.root, 'logout') }}" method="POST">
+        <input type="submit" value="logout">
+    </form>
+
+    <h4>apps</h4>
+    <ol class="expandable">
+    {% for ((_, app), count) in apps|sortedStats %}
+        <li><a href="{{ request.resource_url(request.root['filter']['app'][app]) }}">{{app[:14]}} ( {{count}} )</a></li>
+    {% endfor %}
+    </ol>
+    <h4>hosts</h4>
+    <ol class="expandable">
+    {% for ((_, host), count) in hostnames|sortedStats %}
+        <li><a href="{{ request.resource_url(request.root['filter']['hostname'][host]) }}">{{host[:14]}} ( {{count}} )</a></li>
+    {% endfor %}
+    </ol>
+</nav>
+
+</div>
+
+{% endblock %}
