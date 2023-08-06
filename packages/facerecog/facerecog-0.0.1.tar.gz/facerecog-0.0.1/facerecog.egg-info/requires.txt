@@ -1,0 +1,8 @@
+PyQt5
+numpy
+
+[cv]
+opencv-python
+
+[dev]
+twine

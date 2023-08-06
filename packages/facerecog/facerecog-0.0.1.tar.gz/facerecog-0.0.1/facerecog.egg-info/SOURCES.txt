@@ -1,0 +1,10 @@
+setup.py
+facerecog/__init__.py
+facerecog/face-detection-in-pyqt.py
+facerecog/haarcascade_frontalface_default.xml
+facerecog.egg-info/PKG-INFO
+facerecog.egg-info/SOURCES.txt
+facerecog.egg-info/dependency_links.txt
+facerecog.egg-info/requires.txt
+facerecog.egg-info/top_level.txt
+facerecog/../../../data/haarcascade_frontalface_default.xml
