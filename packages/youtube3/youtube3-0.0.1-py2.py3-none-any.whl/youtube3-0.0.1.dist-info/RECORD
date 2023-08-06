@@ -1,0 +1,12 @@
+youtube3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube3/authenticate.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube3/common.py,sha256=MtDxYshRuPeTiXJGz2g7Yvf39Gsa9SzG__tTLKv_LAg,916
+youtube3/main.py,sha256=bGnj8evRwEZOhtgNgBqUk-bS6YmUYgNC76CRaFXGI_o,3951
+youtube3/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youtube3/youtube.py,sha256=OzJCxagoAccEI3Y5ynSnEZLuv9322vleV7MXKllxM_M,2701
+youtube3-0.0.1.dist-info/DESCRIPTION.rst,sha256=pLJN9EZqQbNrAyYEY3dgg4hQsxVMwb09U-HWvXH085c,143
+youtube3-0.0.1.dist-info/METADATA,sha256=hQrJJDe9IfbiA1d3jPw8M59HJl8UhfFf2RTc0rFKXOA,930
+youtube3-0.0.1.dist-info/RECORD,,
+youtube3-0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+youtube3-0.0.1.dist-info/metadata.json,sha256=PC5TlpgeoS4GmmmJROwAShvlCsab_6c6TSFi0gbuynM,949
+youtube3-0.0.1.dist-info/top_level.txt,sha256=Ipn0Ii98R3VwztDhSG5IFxBEzJTqrTBmYzAUvHbDC0g,9
