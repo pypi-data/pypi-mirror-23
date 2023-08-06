@@ -1,0 +1,6 @@
+numpy
+cython
+brotli
+pandas
+bsc
+paq
