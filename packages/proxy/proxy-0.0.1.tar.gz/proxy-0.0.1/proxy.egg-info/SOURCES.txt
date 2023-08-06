@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+proxy.egg-info/PKG-INFO
+proxy.egg-info/SOURCES.txt
+proxy.egg-info/dependency_links.txt
+proxy.egg-info/top_level.txt
