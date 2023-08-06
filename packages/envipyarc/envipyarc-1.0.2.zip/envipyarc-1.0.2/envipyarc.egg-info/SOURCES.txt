@@ -1,0 +1,25 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+doc/source/api.rst
+doc/source/conf.py
+doc/source/index.rst
+envipyarc/__init__.py
+envipyarc/gptoolbox.py
+envipyarc.egg-info/PKG-INFO
+envipyarc.egg-info/SOURCES.txt
+envipyarc.egg-info/dependency_links.txt
+envipyarc.egg-info/requires.txt
+envipyarc.egg-info/top_level.txt
+envipyarc/esri/toolboxes/ENVI Management Tools.ConfigureENVIEnvironment.pyt.xml
+envipyarc/esri/toolboxes/ENVI Management Tools.CreateENVIToolbox.pyt.xml
+envipyarc/esri/toolboxes/ENVI Management Tools.pyt
+envipyarc/esri/toolboxes/ENVI Management Tools.pyt.xml
+envipyarc/templates/__init__.py
+envipyarc/templates/enviagcrops.py
+envipyarc/templates/enviraster.py
+envipyarc/templates/envivector.py
+scripts/createenvitoolbox.py
