@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+python_spectacles.egg-info/PKG-INFO
+python_spectacles.egg-info/SOURCES.txt
+python_spectacles.egg-info/dependency_links.txt
+python_spectacles.egg-info/not-zip-safe
+python_spectacles.egg-info/requires.txt
+python_spectacles.egg-info/top_level.txt
+spectacles/__init__.py
+spectacles/expectations.py
+spectacles/printer.py
+spectacles/runner.py
+spectacles/test_yamldriver.py
+spectacles/yamldriver.py
