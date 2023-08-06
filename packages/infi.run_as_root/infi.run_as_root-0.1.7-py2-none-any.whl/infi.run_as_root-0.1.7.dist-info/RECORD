@@ -1,0 +1,13 @@
+infi.run_as_root-0.1.7-py2.7-nspkg.pth,sha256=KMT2qrs0HQsU_gANjSsM7xpuGMv98nqscxb5Ca-FRmY,545
+infi/run_as_root/__init__.py,sha256=uRLNUo4xtBrGCz0N7vfvpuYfZD-IEPpwcZYIdEDJ36E,1106
+infi/run_as_root/__version__.py,sha256=UOWGqf1kS4-Da2PNix1yNQWlkgxdZc1ExzNANBb7D7g,464
+infi/run_as_root/tests.py,sha256=322Q94-oKQnQDIMNpdIS6t1rF-PktsoiUpBKL6iGC5E,1207
+infi/run_as_root/windows.py,sha256=7dki5wg-_AHSCYCW7GvG78MxsJF5utN_Ug7wEQRji0g,3254
+infi.run_as_root-0.1.7.dist-info/DESCRIPTION.rst,sha256=b0-dg2CKgWcq0vF1R4N_S512GS3TszmfuaIzuZabNVI,105
+infi.run_as_root-0.1.7.dist-info/METADATA,sha256=hhvKmaqwwXgv8JBE2syL1EAbwHxyQgfE8NxGdTVdvV4,735
+infi.run_as_root-0.1.7.dist-info/RECORD,,
+infi.run_as_root-0.1.7.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.run_as_root-0.1.7.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.run_as_root-0.1.7.dist-info/metadata.json,sha256=9vPX2jsbQOWlhWV4lT8oVBNGu025WkDzQDToEeBM754,922
+infi.run_as_root-0.1.7.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.run_as_root-0.1.7.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
