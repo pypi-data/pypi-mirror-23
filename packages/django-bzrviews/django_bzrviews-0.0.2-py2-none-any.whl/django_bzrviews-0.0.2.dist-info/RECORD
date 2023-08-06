@@ -1,0 +1,12 @@
+bzrviews/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bzrviews/helpers.py,sha256=tSkQHT7px_aroOvcpkGpZA3XbPVKDgBk2bJ_YOpYtsc,1080
+bzrviews/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bzrviews/settings.py,sha256=5PmddrMRl-7j4cb00NnfpiYMPxqaJJbVcmankmjDR5I,33
+bzrviews/urls.py,sha256=XiiXyCvVt0c1CspaI3UZ3MW3nKHrIXgMgNgq3S-8MQU,844
+bzrviews/views.py,sha256=NiTdnZN3p5Ff2W2UxJ_42w6_hfQzk_6J2vPrRGz0VFU,963
+django_bzrviews-0.0.2.dist-info/DESCRIPTION.rst,sha256=bHmDWDj2kZ1FmyXXrtXyOQX9wSHhEUbdxV3AeHa6TpU,185
+django_bzrviews-0.0.2.dist-info/METADATA,sha256=Caa6VADKLvFEpJhsaRf8AFTjCBXua55W5qX27wP2jNk,1001
+django_bzrviews-0.0.2.dist-info/RECORD,,
+django_bzrviews-0.0.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+django_bzrviews-0.0.2.dist-info/metadata.json,sha256=90mmLTpFXV0ZtSTlMSqAssTRkWjzQY9h-gkHZmWUPBU,1018
+django_bzrviews-0.0.2.dist-info/top_level.txt,sha256=EcRDfDGwzZR18my30q9ZoWgAajPTmy-NO8DIWo_bPDA,9
