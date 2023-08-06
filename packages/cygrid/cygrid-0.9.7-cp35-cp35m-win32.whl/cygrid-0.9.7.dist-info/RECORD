@@ -1,0 +1,12 @@
+cygrid/__init__.py,sha256=DBJEHMGY6ZaDPunU2UJLstbAR54F-1sGbx7mKqCISIU,94
+cygrid/cygrid.cp35-win32.pyd,sha256=z0CFIiLrAt670GOmfDh6DhtWdhgYB9CjojURuAGemfI,234496
+cygrid/healpix.cp35-win32.pyd,sha256=r6u55XTcdPQ6G7CcpVS6j_qdmhBTWMX0CTeup5TTEsQ,145920
+cygrid/helpers.cp35-win32.pyd,sha256=4K1h0iaVysLWN_kaCIKERJE-AElt-ocqtmmM7Oc4C-k,37888
+cygrid/hphashtab.cp35-win32.pyd,sha256=_gNA2uupd88Qd0BUYTR6htTn4o2VPOSo_Ect307cAxo,157696
+cygrid/kernels.cp35-win32.pyd,sha256=X8-AnaHo9ttqY2LcptsjlGNKuTZtkMH1AEEXTGxVp9s,83968
+cygrid-0.9.7.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cygrid-0.9.7.dist-info/METADATA,sha256=j_0_ofA1t9TfU5_DFU0pwZ3V28balEb28s6-FgiWnPU,851
+cygrid-0.9.7.dist-info/RECORD,,
+cygrid-0.9.7.dist-info/WHEEL,sha256=5EyYwp11c_jCV_end1zYJviefeCAGZlqF3kojmsWN7E,102
+cygrid-0.9.7.dist-info/metadata.json,sha256=bQtc76e1i_sdv9RFz7887gVlzyAO1RWrNDGfqwN2Juw,993
+cygrid-0.9.7.dist-info/top_level.txt,sha256=TPFuBqe-zh3deoJqBoBhfqvuoU0WyoMg5svobUs-4uY,7
