@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.py
+search/__init__.py
+search/clients.py
+search/exceptions.py
+smartsearch.egg-info/PKG-INFO
+smartsearch.egg-info/SOURCES.txt
+smartsearch.egg-info/dependency_links.txt
+smartsearch.egg-info/not-zip-safe
+smartsearch.egg-info/requires.txt
+smartsearch.egg-info/top_level.txt
