@@ -1,0 +1,13 @@
+infi.winapi.file_version_information-0.0.9-py2.7-nspkg.pth,sha256=8he076Ji0SSZVpi1owcIahDq0KljxVpvtswFn1DDXXM,1720
+infi/winapi/file_version_information/__init__.py,sha256=99WmKPsgOEMSB08SVtlqS4FjRVhRdrTLJnMiLFUMSBI,1503
+infi/winapi/file_version_information/__version__.py,sha256=5EcgRyV0NTX63_IPQUpa_aVomKMgT_xvs8FINF68PjU,419
+infi/winapi/file_version_information/api/__init__.py,sha256=2SSkkYhuaILaq3zsgtGg8XPZ057EUaO5miGWJ0-qRMc,2763
+infi/winapi/file_version_information/tests/__init__.py,sha256=7kYcrppaiVlpFlhEXkYyHjwgMTQufQof2f8DE8HviQU,9739
+infi.winapi.file_version_information-0.0.9.dist-info/DESCRIPTION.rst,sha256=kzl_1o-lKUKxdsmvFL4BkTO1SuwooGHuIk63ONP0w1k,48
+infi.winapi.file_version_information-0.0.9.dist-info/METADATA,sha256=u1To-LH9114DQ_BpfetJZe-2M73RtK3crDqmDbLg32U,741
+infi.winapi.file_version_information-0.0.9.dist-info/RECORD,,
+infi.winapi.file_version_information-0.0.9.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.winapi.file_version_information-0.0.9.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.winapi.file_version_information-0.0.9.dist-info/metadata.json,sha256=HvsZHzNqcR1U9bxH2FvxqSzjq1eLGrOmdXSQhHHbl24,973
+infi.winapi.file_version_information-0.0.9.dist-info/namespace_packages.txt,sha256=bXO-75_N09UEGrvD8fLByMOR7y8qyKlXbyzLl4AcDbE,17
+infi.winapi.file_version_information-0.0.9.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
