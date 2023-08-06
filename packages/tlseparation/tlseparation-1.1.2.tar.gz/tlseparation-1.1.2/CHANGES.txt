@@ -1,0 +1,1 @@
+Bugfix on the knn parameter for wlseparate_abs in the automated separation.
