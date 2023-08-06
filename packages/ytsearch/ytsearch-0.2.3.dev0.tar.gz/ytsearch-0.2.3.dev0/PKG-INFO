@@ -1,0 +1,206 @@
+Metadata-Version: 1.0
+Name: ytsearch
+Version: 0.2.3.dev0
+Summary: A program to search and diplay youtube videos.
+Home-page: UNKNOWN
+Author: Steven J. Core
+Author-email: UNKNOWN
+License: GPL3.0
+Description: # ytsearch
+        
+        A program to search and watch youtube videos from the command line.
+        
+        
+        # Index
+        
+        - [Installing](#installing)
+        - [How to use](#how-to-use)
+        - [Keybindings](#keybindings)
+            - [Default Keybindings](#default-keybindings)
+            - [List Of Events](#list-of-events)
+        - [Program Hooks](#program-hooks)
+        - [Todo list / Roadmap](#todo-list-roadmap)
+        
+        # Installing
+        
+        Run `pip3 install ytsearch --user --upgrade` to install the program and all of its dependencies.
+        
+        # How to use
+        
+        Run `ytsearch` to load up the cache page by default. From there you can switch to any page by pressing 1-4
+        
+        Here is what the default cache page looks like without items.
+        
+        ![Default Page](screenshots/blank_cache.png)
+        
+        
+        If you switch to the search page by pressing '1' you will be greeted by this
+        
+        ![Search Page](screenshots/search_page.png)
+        
+        From here you can press the keybinding to bring up a search, press enter to search for some videos!
+        
+        ![Search Results](screenshots/search_results.png)
+        
+        
+        If you have a video cached, (you've downloaded it) it will show up as blue everywhere the video appears in the UI.
+        
+        Here is what a search looks like if some of them are cached.
+        
+        ![Search Results Cached](screenshots/search_results_cached.png)
+        
+        
+        You can press 'a' to stream the video as audio only, or v to stream both audio and video.
+        
+        There will be a widget that pops up in the bottom with, by default, mpv running. Press '0' to switch to this and control the process.
+        
+        You can also press 'qa' to queue it as audio, or qv to queue it as video.
+        
+        If the video is cached it will use the local resource rather than loading it again.
+        
+        There will be an indicator next to each video when its playing or queued or doing any other action.
+        
+        ![Search Results Playing](screenshots/search_results_playing.png)
+        
+        Videos you play, or add to the queue will also show up on the queue page, you can access this by pressing '3'
+        
+        ![Queued](screenshots/queue.png)
+        
+        These 2 items I have are blue, so that means i've cached them.
+        
+        
+        The text you see in the bottom right of these screenshots indicate what modes are active.
+        
+        From left to right it is, Consume Mode, Repeat Mode, Random mode.
+        
+        Consume mode will remove a video from the queue after playing.
+        
+        Repeat mode will repeat the queue when it reaches the end.
+        
+        Random mode will play a random video from the queue each time.
+        
+        
+        You activate these by pressing 'c' for consume, 'r' for repeat and 'R' for Random.
+        
+        
+        You can also run the program like `ytsearch search Search Term` to load up the search UI page first.
+        
+        
+        # Keybindings
+        
+        The keybindings are user definable, you specify which key you want to correlate with a certain event in this program.
+        
+        ## Default keybindings
+        
+        - 1: Switch to the 'search' page.
+        - 1 (While the player widget is active): Move focus back to the video list section.
+        - 2: Switch to the 'cache' page.
+        - 3: Switch to the 'queue' page.
+        - 4: Switch to the 'playlist' page.
+        - 0: Focus the player section.
+        - j: Move the cursor down.
+        - k: Move the cursor up.
+        - /: Bring up the search widget.
+        - a: Play the selection as audio.
+        - v: Play the selection as video.
+        - ZZ: Quit the program.
+        - qa: Add the selection to the queue, as audio.
+        - qv: Add the selction to the queue, as video.
+        - +: Create a new playlist.
+        - p: Add a video to the playlist.
+        - c: Toggle consume mode on / off.
+        - r: Toggle repeat mode on / off.
+        - f: Let the user input a video name to find in the list.
+        - d: Download video.
+        - n: Play the next item in the queue.
+        - R: Randomly shuffle the queue list.
+        - ctrl+d: Move 10 items down.
+        - ctrl+u: Move 10 items up.
+        - G: Move to the bottom of the list.
+        - gg: Move to the top of the list.
+        - M: Move to the current playing item.
+        
+        
+        ## List of events
+        
+        - PAGE - Switches the UI to another page.
+        - SEND_KEY - Sends a key to the terminal widget.
+        - FOCUS_PLAYER - Focuses the UI to the terminal widget.
+        - FOCUS_NORMAL - Focuses the UI to the page section.
+        - SEARCH - Brings up the search input widget.
+        - QUIT - Stops the program.
+        - CREATE_PLAYLIST - Brings up the input widget to create a new playlist.
+        - TOGGLE_CONSUME - Toggles consume mode on / off.
+        - TOGGLE_REPEAT - Toggles repeat mode on / off.
+        - SHUFFLE_QUEUE - Randomly shuffles the queue.
+        - FIND_VIDEO - Starts the video search, inputting a name will move the cursor to a video.
+        - MOVE - Moves the cursor in a specified direction.
+        - PLAY_AUDIO - Plays the current video as audio.
+        - PLAY_VIDEO - Plays the current video as video.
+        - QUEUE_AUDIO - Adds the current video to the queue as audio.
+        - QUEUE_VIDEO - Adds the current video to the queue.
+        - PLAYLIST_ADD - Adds the current video to the playlist you're adding to.
+        - DOWNLOAD_VIDEO - Downloads the video via youtube-dl
+        - NEXT_VIDEO - Skips to the next video.
+        - TOGGLE_PLAYLIST_ADD - Toggles the playlist adding mode on / off.
+        - REMOVE_PLAYLIST_ITEM - Removes a video from the playlist.
+        
+        
+        # Program hooks
+        
+        These hooks are shell commands that get run when the program does certain actions.
+        
+        You will need to add them to your settings.yaml file to make them run things.
+        
+        Params will start at 1, or be called on by name. There is information about each hook below.
+        
+        All hooks have access to the 'output' param. This is the result of the corresponding function.
+        If this is not documented it is assumed to be None.
+        
+        Eg:
+        
+        ```yaml
+        hooks:
+            PLAY: 'notify-send "Playing" "{1}"'
+        ```
+        
+        this will run 'notify-send' when a song gets played.
+        
+        Below is a list of hooks and info about them.
+        
+        
+        ## PLAY
+        
+        Called when the user plays a video.
+        
+        Args: `play(video, audio)`
+        
+        
+        ## DOWNLOAD_FINISHED
+        
+        Called when the download finishes.
+        
+        Args: `download_finishes(video)`
+        
+        
+        # Todo list / Roadmap
+        
+        - [x] Terminal UI with urwid.
+        - [x] Search and display youtube videos.
+        - [x] Streaming as audio or video.
+        - [x] Download videos via youtube-dl.
+        - [x] Downloaded videos won't need to be streamed from the internet. They use the local version.
+        - [x] Customizable keybindings.
+        - [x] Customizable audio and video commands.
+        - [x] Pseudo terminal to display running stream.
+        - [x] Queue videos.
+        - [X] Loading settings from files.
+        - [X] Playlists.
+        - [ ] YouTube playlists.
+        - [ ] Marker to display active section. Search results or Player widget.
+        - [X] Repeat keybinding
+        - [X] Consume mode keybinding
+        - [ ] Previous stream keybindings.
+        - [ ] Add a 'user' command that loads all of the videos from a specified YouTube user.
+        
+Platform: UNKNOWN
