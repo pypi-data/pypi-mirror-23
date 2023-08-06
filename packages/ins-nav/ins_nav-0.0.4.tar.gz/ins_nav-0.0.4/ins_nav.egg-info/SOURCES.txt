@@ -1,0 +1,8 @@
+setup.py
+ins_nav/__init__.py
+ins_nav/version.py
+ins_nav.egg-info/PKG-INFO
+ins_nav.egg-info/SOURCES.txt
+ins_nav.egg-info/dependency_links.txt
+ins_nav.egg-info/requires.txt
+ins_nav.egg-info/top_level.txt
