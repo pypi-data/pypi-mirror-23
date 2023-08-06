@@ -1,0 +1,17 @@
+pycreate2/OI.py,sha256=SwR7V7w7kgFGOEw3ZRRKfviREXI4VaYIkeUW2aVoEBs,3411
+pycreate2/__init__.py,sha256=PHE-wL-CvZ94k6lrJ5OEGCIzYFzChwpxiWt0yFwHTRw,232
+pycreate2/create2api.py,sha256=paXMmTW9tt8xnW0KsizkG8E3bAcPmE5VGzoPMnGPT00,14259
+pycreate2/createSerial.py,sha256=HJuaOkLqsAz_HsBnz_vgAeFS_hnPuvcF4KVb8WCyTwY,2634
+pycreate2/opcodes.py,sha256=TshW5UbcLOKZ2cCZpDQhcgPAc4YoqFHTjr9hNIf4VKg,456
+pycreate2/packet.py,sha256=dNyYDzjH4a54J2UBCBQMQ0hG449l9KzUsvS8P91SOfY,42281
+pycreate2/sensorPacketLengths.py,sha256=qZbbthZpZ1u2hzqeVUoqzf6zUnTrFrrJFglJ7Yz1TRU,661
+pycreate2/version.py,sha256=09hol5ovL6ArILJIJZ-MiscnOjKa6RjaETmtdgJpW2c,22
+pycreate2-0.7.0.data/scripts/create_monitor.py,sha256=w_KSLIpmf6WZOE7tB_KToeeVQVsqkwCOgY7_yiDU_OI,6542
+pycreate2-0.7.0.data/scripts/create_reset.py,sha256=8K4DAzgAKlN3K6EnkpG1qsGLXYV-dFZpSjWllUDYUWw,867
+pycreate2-0.7.0.data/scripts/create_shutdown.py,sha256=YrfM5pKJKziZCKkHmsn27oAUppCYRva6zlQi334olEo,1207
+pycreate2-0.7.0.dist-info/DESCRIPTION.rst,sha256=ESiDzFtSTjS0qaWau2mGnvYz_TErMbkoYZsArV00Baw,5828
+pycreate2-0.7.0.dist-info/METADATA,sha256=I73rMAbvELLcWh4BxmK2e3Ox01zi1QcZw3GO4YqfQjU,6727
+pycreate2-0.7.0.dist-info/RECORD,,
+pycreate2-0.7.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pycreate2-0.7.0.dist-info/metadata.json,sha256=ngwYEmGBA1XzCWkgfoH6mINN_5wGIec5OnCT-i8C27w,1064
+pycreate2-0.7.0.dist-info/top_level.txt,sha256=QxG_nRxj87QCYhyBegaLwqftEb1ANPhHmAPRO_w5BZo,10
