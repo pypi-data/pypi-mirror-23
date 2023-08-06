@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: raises
+Version: 0.1
+Summary: When Python raises, we Stack Overflow
+Home-page: https://github.com/mlouielu/raises-stackoverflow
+License: UNKNOWN
+Author: Louie Lu
+Author-email: git@louie.lu
+Maintainer: Louie Lu
+Maintainer-email: git@louie.lu
+Requires-Python: >=2.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+
+Raises Stack Overflow
+---------------------
+
+*When Python raises, We Stack Overflow*
+
