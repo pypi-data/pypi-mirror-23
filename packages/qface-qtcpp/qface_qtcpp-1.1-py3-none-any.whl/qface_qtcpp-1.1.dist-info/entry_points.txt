@@ -1,0 +1,3 @@
+[console_scripts]
+qface-qtcpp = qtcpp.qtcpp:app
+
