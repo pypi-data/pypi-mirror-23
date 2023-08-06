@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/mock_server.py,sha256=TPdUrKq3O5S5JIi3EVU4JywQuI6if7C97Vf3S-ktilU,196
+tests/test_features.py,sha256=98LrxGeUv4ExC978ZGkrioRbRhtF76ER6Lf-jxsy5vU,60
+tests/test_speed.py,sha256=0fRsUDLdiS8Iv9KsCj0opS9hGAJ9b05zYZ0DaZfkRF4,503
+torequests/__init__.py,sha256=b2DyO7uHpOuHattAv3ipwgHqCojiCjDFQ037EW3EHKs,133
+torequests/dummy.py,sha256=FGeC6sF1AH4-yjLp4tctXVG5fokVrqwpxRKa_nm1-mk,6097
+torequests/log.py,sha256=usTx7bcR9AxE6WBpp1D559l4vTAx7T7-9Rm6Bh2YEvI,2166
+torequests/main.py,sha256=kHigq6wWJkS4MKM3wGW8An_6-iIkzpfaO5qxN5p3M08,5424
+torequests/utils.py,sha256=f2UKWvPhlX_rMdYk5rUi6pfGqeXfPzdY7wp16JlnxTw,322
+torequests-4.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+torequests-4.1.0.dist-info/METADATA,sha256=tFh-sAqll1aLbfesOz-x7z2Kha4sxqvt92X5GxNg2Uk,598
+torequests-4.1.0.dist-info/RECORD,,
+torequests-4.1.0.dist-info/WHEEL,sha256=3BTqKpHqwt_rzaCQaFEIeFXHTrSWBSQKkqmeYbLAVWs,97
+torequests-4.1.0.dist-info/metadata.json,sha256=veD8vmb_oDL2YJKvuIjID_aLyRX9Ll94CtfTAe7v-RE,836
+torequests-4.1.0.dist-info/top_level.txt,sha256=fxnhAzgZl9fqmxwaoDhnY9v79Meoi8avQ92x6uzc3rQ,17
