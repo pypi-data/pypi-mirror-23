@@ -1,0 +1,17 @@
+kube_shell-0.0.21.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+kube_shell-0.0.21.dist-info/METADATA,sha256=8B3Dl7Xt8pLVD3sNMwcWxBCgCJ4VUU31aakoHDif9a8,1130
+kube_shell-0.0.21.dist-info/RECORD,,
+kube_shell-0.0.21.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+kube_shell-0.0.21.dist-info/entry_points.txt,sha256=pcX7LFAmNjwTNYwG2HuxuCun0P3ccUDnAO2rZbJtzwQ,51
+kube_shell-0.0.21.dist-info/metadata.json,sha256=0RQ7Wvs39vJig67CUQf0AV35fETAE3FnxUf-oI8DnMY,1348
+kube_shell-0.0.21.dist-info/top_level.txt,sha256=Qri4kLdCJOzeWp25sHczoUhhzmXZxQK8wkU_sOvX-7s,10
+kubeshell/__init__.py,sha256=RMxyXtEVJSFO7crPgL1PosFztZyJHIFpRaxcnhr5LwE,44
+kubeshell/client.py,sha256=ocjPItFYQTWgPvGEnPLq84ySK3Yjalse_ITUDGz53LY,5669
+kubeshell/completer.py,sha256=MS1kD160uaDa3ITphJod2GID4HEsHl4DoiJO4N69vWk,13219
+kubeshell/kubeshell.py,sha256=vA5vvBELNjpebuHYsyXthRYLSPuMdqWN01FmW-bTJ5k,7119
+kubeshell/lexer.py,sha256=8zyFzfEvK64IuiJP5NMuQome-UjJWGAPBXAuz9hDrms,1276
+kubeshell/logger.py,sha256=ZrBqCsXO2jzuoOM7PGz_FhN6ojCtsZMyqZSqNq1Q1hI,1372
+kubeshell/main.py,sha256=cLzQCR2N00gkgBaiDu07_P5ZUut0FxZNm_0ZnA_55oM,353
+kubeshell/style.py,sha256=ks9N17D279GBfBjsGhRuTHhQlbg891u_bt2Z7PAH-54,2565
+kubeshell/toolbar.py,sha256=sRCud4-upQvzPEyTcOe4hTBrIB3YQWv_Llc3DHNDWHQ,1388
+kubeshell/data/cli.json,sha256=Gx5OLAD90--gCj18xVAXqxARg7ZhHQVWNxCmefmo12k,250952
