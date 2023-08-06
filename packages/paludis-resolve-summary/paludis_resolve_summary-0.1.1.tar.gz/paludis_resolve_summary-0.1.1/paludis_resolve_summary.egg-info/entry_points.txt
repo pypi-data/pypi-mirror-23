@@ -1,0 +1,3 @@
+[console_scripts]
+paludis_resolve_summary = paludis_resolve_summary:summary
+
