@@ -1,0 +1,11 @@
+foundrybot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foundrybot/error.py,sha256=EztyfUXD-DPJ02QuPBu3KvNEImzhmHJyRR4jSa3KA94,222
+foundrybot/foundrybot_client.py,sha256=MblH3MHX3mI4NfnMF7sSmGI_e_wisCkswr4wkpViX1c,1693
+foundrybot/resource.py,sha256=AgaOEZvZivJT55wg2nOo7u04uMIL_jex_Uiz1M23sYo,1354
+foundrybot/version.py,sha256=NI9UtL6WF1aovZXjHKEtOwtsW8fX_QkfCQYc3RN0Pyg,17
+foundrybot-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+foundrybot-1.0.dist-info/METADATA,sha256=N4EIkbLgDJQa0mL4fnWo-tfQFPwFQwFKbozB6VlFo1Q,410
+foundrybot-1.0.dist-info/RECORD,,
+foundrybot-1.0.dist-info/WHEEL,sha256=JTb7YztR8fkPg6aSjc571Q4eiVHCwmUDlX8PhuuqIIE,92
+foundrybot-1.0.dist-info/metadata.json,sha256=Te0mavUAPwqpnX5onYzJesnCQPLLiMiov_6RmXAz_M8,606
+foundrybot-1.0.dist-info/top_level.txt,sha256=TQpdru1vr3WHHWm1KQUQE7CuPNeRWC7wHM_i0fL1MBU,11
