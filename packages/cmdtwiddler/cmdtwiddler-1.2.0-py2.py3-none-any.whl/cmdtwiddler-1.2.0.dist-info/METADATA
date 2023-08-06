@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: cmdtwiddler
+Version: 1.2.0
+Summary: Small wrapper for twiddler to add and remove supervisor processes on the fly from the command line
+Home-page: https://github.com/TabsterApp/CMDTwiddler
+Author: Bouke Nederstigt
+Author-email: bouke@tapp.cafe
+License: UNKNOWN
+Download-URL: https://github.com/TabsterApp/CMDTwiddler/archive/1.0.1.tar.gz
+Keywords: supervisor,twiddler,command line
+Platform: UNKNOWN
+Requires-Dist: scriptine (==0.2.1)
+Requires-Dist: supervisor-twiddler (==1.0.0)
+Requires-Dist: hypothesis (==3.12.0)
+
+UNKNOWN
+
+
