@@ -1,0 +1,7 @@
+include README.rst LICENSE CHANGELOG.rst
+
+graft mackerel/site
+recursive-include tests *.py
+global-exclude *.py[co]
+
+prune docs/_build
