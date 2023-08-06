@@ -1,0 +1,3 @@
+[console_scripts]
+ncbitk = NCBITK.__main__:main
+
