@@ -1,0 +1,3 @@
+Data-Loader-Project
+
+Introduction: After every web app that we build (either projects or apps) we need to make sure that we’ve met all the business requirements in terms of functionality. We can load the test data manually for small projects but if the project has become large in terms of functionality then it’ll be very strenuous for the developers to do the same. While we need to check for functionality wouldn’t it be nice to have some preloaded data into DB tables just by running few commands ? This module aims at solving this problem.

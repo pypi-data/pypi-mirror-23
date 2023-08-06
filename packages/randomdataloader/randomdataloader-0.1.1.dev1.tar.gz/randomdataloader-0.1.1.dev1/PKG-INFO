@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: randomdataloader
+Version: 0.1.1.dev1
+Summary: A random data loader which loads random data to a user input MySQL or sqlite3 database
+Home-page: https://github.com/gladipero/Data-Loader
+Author: gladipero
+Author-email: amar.shishodia@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Software Development :: Testing
