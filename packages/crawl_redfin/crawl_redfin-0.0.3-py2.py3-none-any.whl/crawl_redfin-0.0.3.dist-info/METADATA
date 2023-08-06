@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: crawl-redfin
+Version: 0.0.3
+Summary: Redfin Crawler Tool Set
+Home-page: https://github.com/MacHu-GWU/crawl_redfin-project
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+License: MIT
+Download-URL: https://github.com/MacHu-GWU/crawl_redfin-project/tarball/2017-07-21
+Requires-Dist: beautifulsoup4 (>=4.5.3)
+Requires-Dist: chardet
+Requires-Dist: requests
+
+.. image:: https://travis-ci.org/MacHu-GWU/crawl_redfin-project.svg?branch=master
+
+
