@@ -1,0 +1,3 @@
+[console_scripts]
+str_tools = str_tools.cli:main
+
