@@ -1,0 +1,8 @@
+setup.py
+glusterlog/__init__.py
+glusterlog/parser.py
+glusterlog.egg-info/PKG-INFO
+glusterlog.egg-info/SOURCES.txt
+glusterlog.egg-info/dependency_links.txt
+glusterlog.egg-info/not-zip-safe
+glusterlog.egg-info/top_level.txt
