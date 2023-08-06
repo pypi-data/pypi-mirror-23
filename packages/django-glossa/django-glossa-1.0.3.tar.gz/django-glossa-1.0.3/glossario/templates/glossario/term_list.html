@@ -1,0 +1,16 @@
+{% extends "glossario/base.html" %}
+{% load i18n %}
+
+{% block robots_content %}noindex,follow{% endblock robots_content %}
+
+{% block page_description %}{% endblock page_description %}
+
+{% block glossary-detail %}
+    <h1>{% trans "Glossario" %}: {{ current }}</h1>
+{% for t in term_list %}
+    <h2 id="{{ t.pk }}">{{ t.name|safe }}</h2>
+    {{ t.definition|safe }}
+{% endfor %}
+{% endblock glossary-detail %}
+
+{% block glossary-terms %}{% include "glossario/terms_index.html" with local_index=True %}{% endblock glossary-terms %}

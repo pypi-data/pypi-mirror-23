@@ -1,0 +1,11 @@
+{% extends "glossario/base.html" %}
+
+{% block robots_content %}all{% endblock robots_content %}
+
+{% block keywords %}Indicod,ECR,termini,terminologia,glossario,{{ term.name }},GS1,EAN{% endblock keywords %}
+{% block page_description %}{% endblock page_description %}
+
+{% block glossary-detail %}
+        <h1>{{ term.name|safe }}</h1>
+        {{ term.definition|safe }}
+{% endblock glossary-detail %}
