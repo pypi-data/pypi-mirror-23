@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pyice/__init__.py
+pyice/application.py
+pyice/pyice_cffi.py
+pyice.egg-info/PKG-INFO
+pyice.egg-info/SOURCES.txt
+pyice.egg-info/dependency_links.txt
+pyice.egg-info/requires.txt
+pyice.egg-info/top_level.txt
