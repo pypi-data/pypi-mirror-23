@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+
+# Author: Jose Antonio Quevedo <joseantonio.quevedo@gmail.com>
+# 2017-07-09
+
+from argparse import ArgumentParser
+import psycopg2
+from collections import OrderedDict
+
+from pg_populator_lib.mypglib import *
+from pg_populator_lib.aux import *
+from pg_populator_lib.config import *
+
+
+# Get the arguments from the command line
+def getargs():
+
+    parser = ArgumentParser()
+    parser.add_argument("-v", "--verbosity",
+                        action="store_true", help="Increase output verbosity")
+
+    parser.add_argument("-n", "--num_db", type=int, default=0, required=True,
+                        help="The mimimum amount of databases you want to have in your postgreSQL service.")
+    parser.add_argument("-t", "--num_tables", type=int, default=0, required=True,
+                        help="The minimum amount of tables you want to have within each database.")
+    parser.add_argument("-r", "--num_rows", type=int, default=0, required=True,
+                        help="How many rows will be created on each new database.")
+
+    return parser.parse_args()
+
+
+def get_values_from_args(args):
+
+    if args:
+        if args.verbosity:
+            print("Running '{}'".format(__file__))
+            print("Num_db: " + str(args.num_db))
+            print("Num_tables: " + str(args.num_tables))
+            print("Num_rows: " + str(args.num_rows))
+
+    return args.num_db, args.num_tables, args.num_rows
+
+
+# postgreSQL functions
+def create_db(cursor, db_name):
+
+    query = 'CREATE DATABASE ' + db_name
+    # if pgcode == '42P04' then the database already exists
+    return execute_query(cursor, query, error_code_expected='42P04')
+
+
+def create_table(cursor, table_name):
+
+    query = """CREATE TABLE """ + table_name + """ (column_name char(40));"""
+    # if pgcode == '42P04' then the table already exists
+    return execute_query(cursor, query, error_code_expected='42P07')
+
+
+def insert_rows(cursor, table_name, num_rows):
+
+    if num_rows == 0:
+        return True
+
+    # Note: we join all the values in a query, because it seems to be faster than
+    # inserting a lot of queries with cursor.executemany()
+    values = '),('.join(str(x) for x in range(num_rows))
+    query = """INSERT INTO """ + table_name + """ VALUES (""" + values + """);"""
+    return execute_query(cursor, query, error_code_expected=None)
+
+
+def create_databases(cursor, num_db, db_prefix=DB_PREFIX):
+
+    dbs_created = 0
+
+    for db_i in range(num_db):
+        db_name = db_prefix + str(db_i)
+        if create_db(cursor, db_name):
+            dbs_created += 1
+
+    return dbs_created
+
+
+def create_tables_with_data(cursor, num_tables, num_rows, table_prefix=TABLE_PREFIX):
+    tables_created = 0
+    rows_inserted = 0
+
+    for table_i in range(num_tables):
+        table_name = table_prefix + str(table_i)
+
+        # Create_table
+        if create_table(cursor, table_name):
+            tables_created += 1
+
+        # insert rows
+        if insert_rows(cursor, table_name, num_rows):
+            # TODO: get the real amount of inserted rows from insert_rows().
+            # We don't really need it for this exercise as the tables don't have any key.
+            rows_inserted += num_rows
+
+    return tables_created, rows_inserted
+
+
+# Report functions
+def prepare_report(num_db, num_tables, num_rows, dbs_created, tables_created, rows_created):
+    report = {
+        'initial_db_creation_requested': num_db,
+        'initial_tables_per_db_requested': num_tables,
+        'initial_z_rows_per_table_requested': num_rows,
+        'num_databases_created': dbs_created,
+        'num_tables_created': tables_created,
+        'num_z_rows_created': rows_created
+    }
+    report = OrderedDict(sorted(report.items()))
+    return report
+
+
+def main():
+
+    num_tables_created = 0
+    num_dbs_created = 0
+    num_rows_created = 0
+
+    args = getargs()
+    num_db, num_tables, num_rows = get_values_from_args(args)
+
+    # 2017-07-09: AFAIK, the only way to switch from another database is stablishing a new connection.
+    # Due to this, I'm going to create all the databases, and then, create the
+    # proper tables with data.
+
+    # Create databases
+    with get_conn(DB_USER) as conn:
+        with conn.cursor() as cursor:
+            num_dbs_created += create_databases(cursor, num_db)
+
+    # Create tables with data
+    for db_i in range(num_db):
+        db_name = "db_carto_test_" + str(db_i)
+        with get_conn(DB_USER, db_name=db_name) as conn:
+            with conn.cursor() as cursor:
+                num_tables_created_tmp, num_rows_created_tmp = create_tables_with_data(
+                    cursor, num_tables, num_rows)
+                num_tables_created += num_tables_created_tmp
+                num_rows_created += num_rows_created_tmp
+
+    # Show report
+    report = prepare_report(
+        num_db, num_tables, num_rows, num_dbs_created, num_tables_created, num_rows_created)
+    show_dict(report)
+
+
+# main()
+if __name__ == "__main__":
+    main()
