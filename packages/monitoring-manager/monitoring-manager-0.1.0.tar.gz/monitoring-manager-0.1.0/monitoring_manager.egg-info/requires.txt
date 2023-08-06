@@ -1,0 +1,3 @@
+softfire-sdk
+pyyaml
+python-novaclient
