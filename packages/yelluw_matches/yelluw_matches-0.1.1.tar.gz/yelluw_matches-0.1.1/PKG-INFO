@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: yelluw_matches
+Version: 0.1.1
+Summary: matches is a simple and tiny pattern matching library
+Home-page: https://github.com/yelluw/matches
+Author: Pablo Rivera
+Author-email: pr@yelluw.com
+License: UNKNOWN
+Download-URL: https://github.com/yelluw/matches/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: pattern matching,Python 3,Yelluw
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
