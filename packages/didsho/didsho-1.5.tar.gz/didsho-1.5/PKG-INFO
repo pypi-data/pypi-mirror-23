@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: didsho
+Version: 1.5
+Summary: Didsho SDK for python telegram bot @didshobot
+Home-page: https://github.com/mdisepehr/didshoPython
+Author: Sadeq Hajizadeh
+Author-email: sadegh.h.2007@hotmail.com
+License: FREE TO USE
+Description: Didsho
+        ------
+        require python 2.7 and later
+        
+        Didsho is best advertisement bot in telegram with earn money for iranian users. you can found bot in @didshobot
+        
+        To use (with caution), simply do::
+        
+        for python 3.5 and later
+        
+            >>> from didsho import ads_libs_requests
+            >>> ads = ads_libs_requests.Didsho(your_bot_id, your_bot_token)
+            >>> ads.send_ads(chat_id)
+        
+        for python 2.7
+        
+            >>> from didsho import ads_libs
+            >>> ads = ads_libs.Didsho(your_bot_id, your_bot_token)
+            >>> ads.send_ads(chat_id)
+Keywords: didsho sdk didshoPython didshosdk
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Freely Distributable
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries

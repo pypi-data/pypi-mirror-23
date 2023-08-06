@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+didsho/__init__.py
+didsho/ads_libs.py
+didsho/ads_libs_requests.py
+didsho.egg-info/PKG-INFO
+didsho.egg-info/SOURCES.txt
+didsho.egg-info/dependency_links.txt
+didsho.egg-info/not-zip-safe
+didsho.egg-info/requires.txt
+didsho.egg-info/top_level.txt
