@@ -1,0 +1,11 @@
+README.rst
+setup.py
+debian_interfaces_parser/__init__.py
+debian_interfaces_parser/iface.py
+debian_interfaces_parser/interfaces.py
+debian_interfaces_parser.egg-info/PKG-INFO
+debian_interfaces_parser.egg-info/SOURCES.txt
+debian_interfaces_parser.egg-info/dependency_links.txt
+debian_interfaces_parser.egg-info/not-zip-safe
+debian_interfaces_parser.egg-info/top_level.txt
+test/test_interfaces.py
