@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+scripts/text-spider
+text_spider/PrintIt.py
+text_spider/__init__.py
+text_spider/parse.py
+text_spider/spider.py
+text_spider.egg-info/PKG-INFO
+text_spider.egg-info/SOURCES.txt
+text_spider.egg-info/dependency_links.txt
+text_spider.egg-info/requires.txt
+text_spider.egg-info/top_level.txt
