@@ -1,0 +1,10 @@
+
+rule copy_ref:
+    input:
+        flin = __copy_ref__input
+    output:
+        flout = __copy_ref__output
+    shell:
+        """
+        cp {input.flin} {output.flout}
+        """

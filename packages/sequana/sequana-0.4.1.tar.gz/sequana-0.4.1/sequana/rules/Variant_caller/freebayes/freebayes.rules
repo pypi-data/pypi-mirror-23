@@ -1,0 +1,31 @@
+rule freebayes:
+    """ Freebayes is a variant caller designed to find SNPs and short INDELs.
+    It is capable of calling multiple variants segregate on the same read.
+
+    Required input:
+        __freebayes__input: sorted bam file
+        __freebayes__reference: reference fasta file
+
+    Required output:
+        __freebayes__bai: bam index files
+        __freebayes__output: vcf file
+
+    Required parameter:
+        config["freebayes"]["ploidy"]: set the ploidy of the sample
+        config["freebayes"]["options"]: others freebayes options
+    """
+    input:
+        bam = __freebayes__input,
+        ref = __freebayes__reference
+    output:
+        vcf = __freebayes__output,
+    log:
+        __freebayes__log
+    params:
+        ploidy = config["freebayes"]["ploidy"],
+        options = config["freebayes"]["options"]
+    shell:
+        """
+        freebayes {params.options} --ploidy {params.ploidy} -f {input.ref} \
+        -v {output.vcf} {input.bam} > {log} 2>&1
+        """

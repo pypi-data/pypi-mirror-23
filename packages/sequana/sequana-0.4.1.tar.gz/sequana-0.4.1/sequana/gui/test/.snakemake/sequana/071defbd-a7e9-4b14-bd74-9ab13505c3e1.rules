@@ -1,0 +1,47 @@
+
+rule bwa_index_phix:
+    """BWA INDEX
+
+    Index the reference with BWA INDEX and SAMTOOLS FAIDX.
+    """
+    input:
+        reference = __bwa_mem_phix__reference
+    output:
+        fai = __bwa_mem_phix__fai
+    params:
+        index = config["bwa_mem_phix"]["index_algorithm"]
+    log:
+        __bwa_index_phix__log
+    shell:
+        """
+        bwa index -a {params.index} {input.reference} 2> {log}
+        samtools faidx {input.reference}
+        """
+
+rule bwa_mem_phix:
+    """BWA MEM
+
+    By default uses *bwa* as the executable. If *pbwa* is available, 
+    (like on Institut Pasteur Cluster), then it is used in place of *bwa*.
+    It has the same behaviour but is a parallel version of *bwa*.
+
+    """
+    input:
+        fai = __bwa_mem_phix__fai,
+        fastq = __bwa_mem_phix__input,
+        reference = __bwa_mem_phix__reference
+    output:
+        sort = __bwa_mem_phix__output
+    log:
+        __bwa_mem_phix__log
+    params:
+        mem = config["bwa_mem_phix"]["options"],
+        bwa_exe = "bwa",
+        tmp = config["bwa_mem_phix"]["tmp_directory"]
+    threads:
+        int(config["bwa_mem_phix"]["threads"])
+    shell:
+        """
+        ({params.bwa_exe} mem -t {threads} {params.mem}         {input.reference} {input.fastq} |         samtools view -Sbu - |         sambamba sort /dev/stdin -o {output.sort} -t {threads}         --tmpdir={params.tmp}) 2> {log}
+        """
+    
