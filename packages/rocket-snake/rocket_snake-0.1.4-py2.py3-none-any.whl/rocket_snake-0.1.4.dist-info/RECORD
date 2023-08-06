@@ -1,0 +1,12 @@
+rocket_snake/__init__.py,sha256=bDF_EjND4eJ6Qt17DB_a5--wHPOnmo5Ok3He7zRECJQ,244
+rocket_snake/basic_requests.py,sha256=9wZj3tvDNRJpXT7sWualPXB0CjMtmDHGfhKxSIpSjD4,11339
+rocket_snake/client.py,sha256=eMj5edx5G051h5PFzHfnFoMkS0kYN4k-ji8lFab5heA,16650
+rocket_snake/constants.py,sha256=fnKs6GQ4MBki-03btDRiCZmIRJNPkzKWxEnKJACribU,2569
+rocket_snake/custom_exceptions.py,sha256=MdGdHXaDvixeqR9eCLgxpvgRmOIhGx1XPfalEXem8kw,954
+rocket_snake/data_classes.py,sha256=JSnbiCOWphcYfMdZh3c1vcZ58X4NwI6L1RmU7C1RKwI,6702
+rocket_snake-0.1.4.dist-info/DESCRIPTION.rst,sha256=aiz7HPpSdFV8VzNmEYJDbMcYkeS5MJcJU53KrB5AXew,1561
+rocket_snake-0.1.4.dist-info/METADATA,sha256=7QvYkSpYoj8FZU0KiHfI0C1zpvZpMYq4HwgSZP5VLaE,2532
+rocket_snake-0.1.4.dist-info/RECORD,,
+rocket_snake-0.1.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+rocket_snake-0.1.4.dist-info/metadata.json,sha256=ZVlVz9Z5zdstlN9rELbU1raSQFGwsAisKwzML_dfx6Q,1058
+rocket_snake-0.1.4.dist-info/top_level.txt,sha256=4MgD_EqP6fIpQKZ_T3nOp61fXGGfhO_D_FVpIKz-enE,13
