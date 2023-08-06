@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: bum
+Version: 0.0.1
+Summary: Download and display album art for mopidy-spotify tracks.
+Home-page: https://github.com/dylanaraps/bum
+Author: Dylan Araps
+Author-email: dylan.araps@gmail.com
+License: MIT
+Download-URL: https://github.com/dylanaraps/bum/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
