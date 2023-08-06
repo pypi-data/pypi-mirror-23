@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pySkroutz
+Version: 0.0.1.1
+Summary: Unofficial Python SDK for Skroutz.gr API. This client library is designed to support the Skroutz API. You can read more about the Skroutz API by accessing its official documentation.
+Home-page: https://github.com/sp1thas/pySkroutz
+Author: Panagiotis Simakis
+Author-email: simakis@autistici.org
+License: UNKNOWN
+Download-URL: https://github.com/sp1thas/pySkroutz/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: skroutz,python-sdk,sdk,api
+Platform: UNKNOWN
