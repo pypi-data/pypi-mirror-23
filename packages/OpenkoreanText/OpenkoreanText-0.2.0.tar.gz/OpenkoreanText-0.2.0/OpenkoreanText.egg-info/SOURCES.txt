@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+example.py
+setup.cfg
+setup.py
+OpenkoreanText.egg-info/PKG-INFO
+OpenkoreanText.egg-info/SOURCES.txt
+OpenkoreanText.egg-info/dependency_links.txt
+OpenkoreanText.egg-info/requires.txt
+OpenkoreanText.egg-info/top_level.txt
+openkoreantext/__init__.py
+openkoreantext/escape.py
+openkoreantext/data/lib/empty
+openkoreantext/data/lib/open-korean-text-2.0.4.jar
+openkoreantext/data/lib/scala-library-2.12.2.jar
+openkoreantext/data/lib/twitter-text-1.14.7.jar
