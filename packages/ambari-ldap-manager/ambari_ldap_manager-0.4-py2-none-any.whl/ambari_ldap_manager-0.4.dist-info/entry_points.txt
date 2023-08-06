@@ -1,0 +1,3 @@
+[console_scripts]
+ambari-ldap-manager = ldap_management_server:main
+
