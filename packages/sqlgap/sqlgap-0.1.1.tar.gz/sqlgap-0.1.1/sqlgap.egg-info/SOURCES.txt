@@ -1,0 +1,7 @@
+setup.py
+sqlgap/__init__.py
+sqlgap/dbapi.py
+sqlgap.egg-info/PKG-INFO
+sqlgap.egg-info/SOURCES.txt
+sqlgap.egg-info/dependency_links.txt
+sqlgap.egg-info/top_level.txt
