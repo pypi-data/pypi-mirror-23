@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: ItChatSh
+Version: 1.0.5
+Summary: Shell on WeChat based on ItChat
+Home-page: https://github.com/lizeyan/itchatsh
+Author: LI ZEYAN
+Author-email: zy-li14@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: itchat
