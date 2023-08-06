@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+py_sony_bravia_remote.egg-info/PKG-INFO
+py_sony_bravia_remote.egg-info/SOURCES.txt
+py_sony_bravia_remote.egg-info/dependency_links.txt
+py_sony_bravia_remote.egg-info/requires.txt
+py_sony_bravia_remote.egg-info/top_level.txt
+sonybraviaremote/__init__.py
+sonybraviaremote/tv.py
+sonybraviaremote/tvconfig.py
