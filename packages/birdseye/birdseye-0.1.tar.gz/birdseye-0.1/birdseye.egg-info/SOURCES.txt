@@ -1,0 +1,15 @@
+setup.py
+birdseye/__init__.py
+birdseye/__main__.py
+birdseye/app.py
+birdseye/cheap_repr.py
+birdseye/server.py
+birdseye/tracer.py
+birdseye/utils.py
+birdseye.egg-info/PKG-INFO
+birdseye.egg-info/SOURCES.txt
+birdseye.egg-info/dependency_links.txt
+birdseye.egg-info/entry_points.txt
+birdseye.egg-info/not-zip-safe
+birdseye.egg-info/requires.txt
+birdseye.egg-info/top_level.txt
