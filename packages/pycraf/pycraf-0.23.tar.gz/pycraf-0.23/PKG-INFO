@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pycraf
+Version: 0.23
+Summary: pycraf
+Home-page: https://github.com/bwinkel/pycraf
+Author: Benjamin Winkel
+Author-email: bwinkel@mpifr.de
+License: UNKNOWN
+Download-URL: https://github.com/bwinkel/pycraf/archive/0.23.tar.gz
+Description: pycraf ... the CRAF library.
+                Contains useful functions for the daily life of a spectrum manager
+                in RAS.
+                
+Keywords: pycraf,radio,compatibility study
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Scientific/Engineering
