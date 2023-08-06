@@ -1,0 +1,4 @@
+include src/cythonarrays/converters/tests/*.mtx
+global-include *.pyx
+global-include *.pxd
+global-include *.pyxbld
