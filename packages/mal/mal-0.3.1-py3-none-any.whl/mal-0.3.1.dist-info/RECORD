@@ -1,0 +1,16 @@
+mal/__init__.py,sha256=4TEFp7yiEC9EGE-RnFqxaPlPhRdbg-jCYIJAgMZs5i4,231
+mal/api.py,sha256=Kpwvq8_3B_0YwSnI7wnXTWooWwOdr6jbRpgSgk-5a-Q,5880
+mal/cli.py,sha256=hmUMCzBKu1eb8bWfbdmQAtHskZzb9ONyb-P9Ey5ldrk,7067
+mal/color.py,sha256=tsE91iQ3vUZKk2skWiDGQbH8t_yVvAZwGZ_zSvEEb-c,942
+mal/commands.py,sha256=tGK3Z_mREzgGxfXpy2dOYYj5BRiN4oQ-O4rxSQ8hwis,2028
+mal/core.py,sha256=d1eaCWBMxjqVxIQBUk0_ZYVdrxLOnRilg0daiHWspAM,11403
+mal/login.py,sha256=SWIXdLRpi7X9LRsnia2up5CrWJ7_YUGDp6lyeKljxuw,1375
+mal/setup.py,sha256=Pq6R8rhcTTI4g8oG1lsGcs830kQqbUtQ11zrHyVadbA,1518
+mal/utils.py,sha256=Xw2Q9qBvqxQhDm2lhJWUHL7VG7Tq-kcfR_VyvKJskuI,2578
+mal-0.3.1.dist-info/DESCRIPTION.rst,sha256=drmrrTeQ9iyuvJUg5tSKtcitrYN3aIuWr5isEXFp0f8,6129
+mal-0.3.1.dist-info/METADATA,sha256=8HKcu5qMU8pMF-ChNG6F2buotn3LyVZAGBceJS_bj2g,7263
+mal-0.3.1.dist-info/RECORD,,
+mal-0.3.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+mal-0.3.1.dist-info/entry_points.txt,sha256=xytRKusflG-F7Kr4ZruhXNVfIypzIuug4XzuBLTmYR8,38
+mal-0.3.1.dist-info/metadata.json,sha256=ADOG3QDkjf9kgWe6KKPHtm-hjj5WMH9PGWzp_wxUSfk,1394
+mal-0.3.1.dist-info/top_level.txt,sha256=NclaoJTIpnhStihrHpNSv4ShQDVDFF_jjR0y-Bn_G8s,4
