@@ -1,0 +1,67 @@
+{% extends CMS_TEMPLATE %}
+{% load i18n l10n sekizai_tags cms_tags pcart_core thumbnail staticfiles %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock %}
+
+{% block base_content %}
+<h1>{% page_attribute "page_title" %}</h1>
+<div class="row">
+<div class="col-md-12">
+{% for article in articles %}
+<article>
+    <h2><a href="{{article.get_absolute_url}}">{{article.title}}</a></h2>
+    <p>{{article.author}}</p>
+    <div>{{article.lead_in|safe}}</div>
+</article>
+{% endfor %}
+<div class="row">
+<div class="col-md-12">
+
+{% if articles.has_other_pages %}
+  {% with p_url=request.get_full_path %}
+  <ul class="pagination">
+    {% if articles.has_previous %}
+      <li><a href="{% set_query_parameter p_url 'page' articles.previous_page_number %}">&laquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&laquo;</span></li>
+    {% endif %}
+    {% for i in articles.paginator.page_range %}
+        {# if we're beyond the first five pages, just show "..." until three pages before the current page #}
+        {# e.g. on page 12 show: "... 9 10 11 12" #}
+        {% if articles.number > 5 and i < articles.number|subtract:4 %}
+                {% if i|subtract:3 <= 0 %}<li><a href="{% set_query_parameter p_url 'page' i %}">{{ i }}</a></li>{% endif %}
+        {% elif articles.number > 5 and i == articles.number|subtract:4 %}
+                {# show '...' #}
+                <li class="disabled">
+                    <a href="#">...</a>
+                </li>
+
+        {# if we're before the last five pages, just show "..." for pages more than three after the current page #}
+        {# e.g. on page 1 of 10 show: "1 2 3 4 ..." #}
+        {% elif articles.number < articles.paginator.num_pages|subtract:5 and i > articles.number|add:4 %}
+            {% if i|add:3 > articles.paginator.num_pages %}<li><a href="{% set_query_parameter p_url 'page' i %}">{{ i }}</a></li>{% endif %}
+        {% elif articles.number < articles.paginator.num_pages|subtract:5 and i == articles.number|add:4 %}
+            {# show '...' #}
+                <li class="disabled">
+                    <a href="#">...</a>
+                </li>
+        {% elif articles.number == i %}
+            <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+        {% else %}
+            <li><a href="{% set_query_parameter p_url 'page' i %}">{{ i }}</a></li>
+        {% endif %}
+
+    {% endfor %}
+    {% if articles.has_next %}
+      <li><a href="{% set_query_parameter p_url 'page' articles.next_page_number %}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><span>&raquo;</span></li>
+    {% endif %}
+  </ul>
+  {% endwith %}
+{% endif %}
+</div></div>
+
+</div>
+</div>
+{% endblock %}

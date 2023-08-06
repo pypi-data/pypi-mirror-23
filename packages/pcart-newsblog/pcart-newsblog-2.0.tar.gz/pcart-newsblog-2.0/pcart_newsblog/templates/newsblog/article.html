@@ -1,0 +1,21 @@
+{% extends CMS_TEMPLATE %}
+{% load i18n l10n sekizai_tags cms_tags pcart_core thumbnail staticfiles %}
+
+{% block title %}{{article.page_title|default:article.title}}{% endblock %}
+
+{% block breadcrumb %}
+<li><a href="/">{% trans "Home" %}</a></li>
+<li><a href="{% optional_url 'pcart_newsblog:articles' %}">{% page_attribute "page_title" %}</a></li>
+<li>{{article.title}}</li>
+{% endblock %}
+
+{% block base_content %}
+<h1>{% render_model article "title" %}</h1>
+<p>{% trans "Author" %}: {% render_model article "author" %} {% trans "Published" %}: {{article.pub_date|date:"d M Y"}}</p>
+<div class="row">
+<div class="col-md-12">
+<div>{% render_model article "lead_in" %}</div>
+<div>{% render_placeholder article.content %}</div>
+</div>
+</div>
+{% endblock %}
