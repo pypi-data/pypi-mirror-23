@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: Flask-Init
+Version: 0.0.0
+Summary: Easy way to create Flask Web application
+Home-page: https://github.com/rajasimon/flask-init
+Author: Raja Simon
+Author-email: rajasimon@icloud.com
+License: See License
+Platform: UNKNOWN
+Requires-Dist: Flask
+
+UNKNOWN
+
+
