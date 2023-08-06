@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: payline
+Version: 1.0.14
+Summary: Payline API Python client
+Home-page: https://paylinedata.com/
+Author: Payline Data
+Author-email: support@paylinedata.com
+License: MIT License
+Description: # payline-python
+        
+        [![CircleCI](https://circleci.com/gh/phuonghuynh/payline-python.svg?style=svg)](https://circleci.com/gh/phuonghuynh/payline-python)
+        
+        ## Getting Started
+        `pip install payline`
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
