@@ -1,0 +1,9 @@
+README.rst
+setup.py
+libqrencode/__init__.py
+libqrencode/_qrencode.py
+libqrencode/qrencode.py
+libqrencode_ctypes.egg-info/PKG-INFO
+libqrencode_ctypes.egg-info/SOURCES.txt
+libqrencode_ctypes.egg-info/dependency_links.txt
+libqrencode_ctypes.egg-info/top_level.txt
