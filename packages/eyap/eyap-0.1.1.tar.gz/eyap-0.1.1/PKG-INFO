@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: eyap
+Version: 0.1.1
+Summary: Tools for extending yapping and comment management
+Home-page: http://github.com/emin63/eyap
+Author: Emin Martinian
+Author-email: emin.martinian@gmail.com
+License: custom
+Description: # eyap
+        Extended yapping and comment management in python
+        
+Keywords: comment management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
