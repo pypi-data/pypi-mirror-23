@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: meinconf
+Version: 0.0.1
+Summary: 12 factor configuration for all
+Home-page: https://github.com/akatrevorjay/meinconf
+Author: Trevor Joynson
+Author-email: github@skywww.net
+License: GPL
+Keywords: 12factor
+Requires-Dist: attrs
+Requires-Dist: six
+Requires-Dist: uninhibited
+
+Purpose
+=======
+
+Generic configuration library for any app.
+
+Pretty much a Flask config-like object with added functionality based on flask-appconfig.
+
+This is currently a quick hack. Don't judge me.
+
+TODO
+----
+
+- Move to explicit usage that accept either files or strings, *not* both.
+- Documentation
+- Import work using chainmaps
+
+
+
