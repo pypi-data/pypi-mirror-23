@@ -1,0 +1,30 @@
+Metadata-Version: 1.0
+Name: eyeon
+Version: 0.1.3
+Summary: Simple CLI tool to watch html and css files and reload the browser on change.
+Home-page: https://github.com/jgmorrison/eyeOn-py
+Author: John Morrison
+Author-email: john@johmorrison.io
+License: UNKNOWN
+Description: eyeOn
+        =========
+        
+        A simple CLI program to watch an html file and css for changes and reload the browser when a change is saved to either file.
+        
+        **Installation**
+        
+        Install from PyPI::
+        
+            pip install eyeon
+        
+        eyeOn is also available on Anaconda.org::
+        
+            conda install -c jmorrison eyeon
+        
+        **Usage**
+        
+        Just pass the html file you want to reload and watch as the first argument and the css file you want to watch as the second argument. If either file changes the html file passed in the first argument will be automatically reloaded in the browser or a browser will launch if not already opened.::
+        
+            eyeon index.html style.css
+        
+Platform: UNKNOWN
