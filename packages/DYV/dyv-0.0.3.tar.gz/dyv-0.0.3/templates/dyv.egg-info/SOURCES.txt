@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+templates/__init__.py
+templates/__manifest__.py
+templates/addon_readme.rst
+templates/project_readme.md
+templates/dyv.egg-info/PKG-INFO
+templates/dyv.egg-info/SOURCES.txt
+templates/dyv.egg-info/dependency_links.txt
+templates/dyv.egg-info/entry_points.txt
+templates/dyv.egg-info/requires.txt
+templates/dyv.egg-info/top_level.txt
+templates/dyv.egg-info/zip-safe

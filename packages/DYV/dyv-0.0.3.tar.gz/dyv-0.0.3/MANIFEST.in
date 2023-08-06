@@ -1,0 +1,5 @@
+include templates/*
+include templates/*.txts
+include templates/*.py
+include templates/*.rst
+include templates/*.md
