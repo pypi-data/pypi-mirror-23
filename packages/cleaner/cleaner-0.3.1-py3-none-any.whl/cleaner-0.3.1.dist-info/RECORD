@@ -1,0 +1,9 @@
+cleaner/__init__.py,sha256=mjesUlIwq6ppqEhgsApoYRA1lnpTwwGPm5b6sOb1VII,83
+cleaner/cli.py,sha256=0UBQfbgjmq_vPhfQhNS6unfiCnMrrR6itVYHIMM59uI,197
+cleaner/filesystem.py,sha256=cSyuXqYvyG_jch_-6jyYCE-Sn7RRDOvcVqVVytwUvZw,804
+cleaner/shell.py,sha256=3jVPgQt33QzGwiRaQ0utZ0SIoIVeGH8x4OsQugCxRKE,3956
+cleaner-0.3.1.dist-info/entry_points.txt,sha256=cgvYDcAeOF4D_AXjblCQLspqD_tjXHvWdjRKIUXSa6M,53
+cleaner-0.3.1.dist-info/LICENSE,sha256=niu088lpe5AS3iG_3VR8dloFcaVEacF1BqPRguH9Ebg,1086
+cleaner-0.3.1.dist-info/WHEEL,sha256=ZHNfI2weNuB0ftjlSd6FN0i71FnGMh4oUCobNq2loDE,82
+cleaner-0.3.1.dist-info/METADATA,sha256=yUniVCC3LgB_ul7OTeP8Pn2WYDknRIjsjV0xwy7Je24,2423
+cleaner-0.3.1.dist-info/RECORD,,
