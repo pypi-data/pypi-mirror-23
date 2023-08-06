@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+logReader/__init__.py
+logReader/__main__.py
+logReader/about.ui
+logReader/default.yaml
+logReader/ui.ui
+logReader.egg-info/PKG-INFO
+logReader.egg-info/SOURCES.txt
+logReader.egg-info/dependency_links.txt
+logReader.egg-info/entry_points.txt
+logReader.egg-info/not-zip-safe
+logReader.egg-info/requires.txt
+logReader.egg-info/top_level.txt
