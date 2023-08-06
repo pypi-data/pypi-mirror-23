@@ -1,0 +1,4 @@
+[zc.buildout]
+default = collective.recipe.zopeinstancemultiplier:Recipe
+printer = collective.recipe.zopeinstancemultiplier:PrinterRecipe
+
