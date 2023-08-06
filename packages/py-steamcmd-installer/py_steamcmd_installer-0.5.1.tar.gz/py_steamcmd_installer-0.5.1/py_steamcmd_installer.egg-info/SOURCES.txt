@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+py_steamcmd_installer.egg-info/PKG-INFO
+py_steamcmd_installer.egg-info/SOURCES.txt
+py_steamcmd_installer.egg-info/dependency_links.txt
+py_steamcmd_installer.egg-info/top_level.txt
