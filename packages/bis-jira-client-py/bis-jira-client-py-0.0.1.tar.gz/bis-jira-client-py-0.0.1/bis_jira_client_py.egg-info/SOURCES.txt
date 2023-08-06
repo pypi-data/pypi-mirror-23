@@ -1,0 +1,17 @@
+setup.py
+bis_jira_client_py.egg-info/PKG-INFO
+bis_jira_client_py.egg-info/SOURCES.txt
+bis_jira_client_py.egg-info/dependency_links.txt
+bis_jira_client_py.egg-info/requires.txt
+bis_jira_client_py.egg-info/top_level.txt
+swagger_client/__init__.py
+swagger_client/api_client.py
+swagger_client/configuration.py
+swagger_client/rest.py
+swagger_client/apis/__init__.py
+swagger_client/apis/issues_api.py
+swagger_client/models/__init__.py
+swagger_client/models/data.py
+test/__init__.py
+test/test_data.py
+test/test_issues_api.py
