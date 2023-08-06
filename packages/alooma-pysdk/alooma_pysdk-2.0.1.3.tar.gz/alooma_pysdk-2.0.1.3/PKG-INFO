@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: alooma_pysdk
+Version: 2.0.1.3
+Summary: An easy-to-integrate SDK for your Python apps to report events to Alooma
+Home-page: https://github.com/Aloomaio/python-sdk
+Author: Yuval Barth
+Author-email: yuval@alooma.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,sdk,alooma,pysdk
+Platform: UNKNOWN
