@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+thenmap/thenmap.py
+thenmap.egg-info/PKG-INFO
+thenmap.egg-info/SOURCES.txt
+thenmap.egg-info/dependency_links.txt
+thenmap.egg-info/pbr.json
+thenmap.egg-info/requires.txt
+thenmap.egg-info/top_level.txt
