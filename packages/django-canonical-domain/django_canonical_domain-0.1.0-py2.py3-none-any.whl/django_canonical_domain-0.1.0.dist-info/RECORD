@@ -1,0 +1,8 @@
+canonical_domain/__init__.py,sha256=KWguYORmSCfoxyQlC64D9LmN21g2KajPIXPH8OTgQ0Q,62
+canonical_domain/middleware.py,sha256=PEl6jTaRv76OYnAEXlBYh3AU6Jr918sRwWnKM7J_fEY,2140
+django_canonical_domain-0.1.0.dist-info/DESCRIPTION.rst,sha256=hayDVgHCKFRtp3hF43XXCo-WwFM-pYK3J9qLxCEb2qI,856
+django_canonical_domain-0.1.0.dist-info/METADATA,sha256=uDw79CHg192Uiy37NQ3MWNIMXL8mTeWya4CwUSP5xDA,1680
+django_canonical_domain-0.1.0.dist-info/RECORD,,
+django_canonical_domain-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_canonical_domain-0.1.0.dist-info/metadata.json,sha256=VCNDvnoRa8WjwDPswTJRszbm8sXTjkUFEy4AotxGMB4,951
+django_canonical_domain-0.1.0.dist-info/top_level.txt,sha256=qo9ovFDdzPBTgUw44p7oPuJeV1opSvnzIVZAn5aBYwA,17
