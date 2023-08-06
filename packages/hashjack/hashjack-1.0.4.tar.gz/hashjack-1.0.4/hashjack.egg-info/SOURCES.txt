@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+hashjack.egg-info/PKG-INFO
+hashjack.egg-info/SOURCES.txt
+hashjack.egg-info/dependency_links.txt
+hashjack.egg-info/top_level.txt
+hashjack_tools/__init__.py
+hashjack_tools/colors.py
+hashjack_tools/error_messages.py
+scripts/hashjack
