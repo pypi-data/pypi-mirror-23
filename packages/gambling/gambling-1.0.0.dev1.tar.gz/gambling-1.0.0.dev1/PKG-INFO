@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gambling
+Version: 1.0.0.dev1
+Summary: A package to create the necessary components for gambling including cards and dice.
+Home-page: https://github.com/SubZeb/gambling
+Author: CJ Stein
+Author-email: cjstein9@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: cards card dice gambling poker blackjack
+Platform: UNKNOWN

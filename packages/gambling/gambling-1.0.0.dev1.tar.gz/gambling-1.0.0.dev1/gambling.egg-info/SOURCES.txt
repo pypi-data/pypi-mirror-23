@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+cards/__init__.py
+dice/__init__.py
+gambling.egg-info/PKG-INFO
+gambling.egg-info/SOURCES.txt
+gambling.egg-info/dependency_links.txt
+gambling.egg-info/top_level.txt
+player/__init__.py
