@@ -1,0 +1,57 @@
+Metadata-Version: 2.0
+Name: django-joining
+Version: 0.3
+Summary: Arbitrary django model joining
+Home-page: https://github.com/aachurin/django_joining/
+Author: Andrey Churin
+Author-email: aachurin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+
+Usage:
+
+```python
+from django.db import models
+from django_joining import JoiningKey
+
+
+class ModelA(models.Model):
+
+    foo = models.IntegerField()
+    bar = models.IntegerField()
+    baz = models.TextField()
+
+    model_b = JoiningKey('ModelB',
+        from_fields=['foo', 'bar'],
+        to_fields=['qux', 'quux'],
+        related_name='model_a_set'
+        )
+
+
+class ModelB(models.Model):
+
+    qux = models.IntegerField()
+    quux = models.IntegerField()
+    quuux = models.TextField()
+
+
+
+ModelA.objects.filter(model_b__quuux='test').select_related('model_b')
+
+...
+
+ModelB.objects.prefetch_related('model_a_set')
+
+...
+
+```
+
+
