@@ -1,0 +1,3 @@
+[console_scripts]
+brush = hfut_brush.bru:start_brush
+
