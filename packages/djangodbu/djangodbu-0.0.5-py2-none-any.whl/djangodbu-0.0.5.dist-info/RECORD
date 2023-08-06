@@ -1,0 +1,12 @@
+djangodbu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangodbu/ago.py,sha256=d_wKWcfNqtLzHugDDOUz_FWkqOaOZQ9lFmBEV5mTX0c,578
+djangodbu/shell.py,sha256=P4e1zJ032z_XTqc1tsi2s3u4mAwC2f3eFQfKy2dicqo,11456
+djangodbu/sql.py,sha256=cL4gx22A__FVM7_eyapMuGjOg4GqrsvaklG7VYbLlA0,7173
+djangodbu/terminalsize.py,sha256=QXerPQlgei80JZPTzxoDaSRQsz7kryh3UdtNk2KQ4uo,2787
+djangodbu/utils.py,sha256=5f7ait5c2S0zJMO_PtTEPn3ThMSomTloefSaGi_dVWw,185
+djangodbu-0.0.5.dist-info/DESCRIPTION.rst,sha256=lnajB72EeRiZyZj3Us4cAk-cotYVa3IHy0glUtACfdc,2370
+djangodbu-0.0.5.dist-info/METADATA,sha256=SyLJDVLoaPhQ5B09j_Axh5ehtNJ4B9_z8QyJvj6Yfuc,2927
+djangodbu-0.0.5.dist-info/RECORD,,
+djangodbu-0.0.5.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+djangodbu-0.0.5.dist-info/metadata.json,sha256=7nqHU493kcDgosj2mxDRWT62TFwe23Yx7hj-2tVtfLQ,722
+djangodbu-0.0.5.dist-info/top_level.txt,sha256=JEAr9aaDK4qtXtTxK63X-3gJNylTyJfVDzasl0anWEU,10
