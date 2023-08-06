@@ -1,0 +1,9 @@
+obspy >= 1.0
+flake8
+pytest
+nose
+
+[docs]
+sphinx
+ipython
+runipy
