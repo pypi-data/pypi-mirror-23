@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+demo/__init__.py
+demo/dbConf.xhtml
+demo/test.py
+easyPyMySQL/Table.py
+easyPyMySQL/TableField.py
+easyPyMySQL/TableLine.py
+easyPyMySQL/__init__.py
+easyPyMySQL/easyPyMySQL.py
+easyPyMySQL.egg-info/PKG-INFO
+easyPyMySQL.egg-info/SOURCES.txt
+easyPyMySQL.egg-info/dependency_links.txt
+easyPyMySQL.egg-info/top_level.txt
