@@ -1,0 +1,5 @@
+[console_scripts]
+alexa = avs.main:main
+alexa-auth = avs.auth:main
+alexa-tap = avs.alexa:main
+
