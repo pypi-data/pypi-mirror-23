@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+hackday_bot/__init__.py
+hackday_bot/bot.py
+hackday_bot/cli.py
+hackday_bot/const.py
+hackday_bot/members.py
+hackday_bot/util.py
+hackday_bot.egg-info/PKG-INFO
+hackday_bot.egg-info/SOURCES.txt
+hackday_bot.egg-info/dependency_links.txt
+hackday_bot.egg-info/entry_points.txt
+hackday_bot.egg-info/requires.txt
+hackday_bot.egg-info/top_level.txt
