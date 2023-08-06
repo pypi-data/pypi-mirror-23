@@ -1,0 +1,8 @@
+networkx
+numpy
+matplotlib
+pygraphviz
+
+[extensions]
+jupyter
+ipython
