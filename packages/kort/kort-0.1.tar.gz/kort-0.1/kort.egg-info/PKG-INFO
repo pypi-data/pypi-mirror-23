@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kort
+Version: 0.1
+Summary: Kort is a simple python URL-Shortener API
+Home-page: https://github.com/sayoun/kort
+Author: sayoun
+Author-email: sayoun@protonmail.com
+License: Proprietary
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
