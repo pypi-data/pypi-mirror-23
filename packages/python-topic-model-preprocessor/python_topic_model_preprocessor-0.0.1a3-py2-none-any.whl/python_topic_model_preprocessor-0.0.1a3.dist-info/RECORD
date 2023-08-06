@@ -1,0 +1,9 @@
+python_topic_model_preprocessor-0.0.1a3.dist-info/DESCRIPTION.rst,sha256=Nf9Uppu79P3lT-a955Wf_hb4Wx7IfgPzhsbvEF9W_bM,192
+python_topic_model_preprocessor-0.0.1a3.dist-info/METADATA,sha256=aeOhlGa8dmAxRPidAK-5iz5bX9eyfozH1byWEIQVdLI,1104
+python_topic_model_preprocessor-0.0.1a3.dist-info/RECORD,,
+python_topic_model_preprocessor-0.0.1a3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+python_topic_model_preprocessor-0.0.1a3.dist-info/metadata.json,sha256=l2sOtgR4Hcl10d9Yy19cdKU0Hfq3ejWPEE-f6962S4k,1062
+python_topic_model_preprocessor-0.0.1a3.dist-info/top_level.txt,sha256=WzrAIWe5itfKJdrtaY7JQXDTjvVsEGPN6HcGmVPMGdA,16
+tm_preprocessor/__init__.py,sha256=1NmOUwhEP8QRUUHt2y0m8_VwIHS79tPff5U5LimZ2F4,182
+tm_preprocessor/preprocessor.py,sha256=9TC-D3Q11WIGTfW4FV-vwLJsKRg5bGIMCahklmRnOkE,6940
+tm_preprocessor/data/stopwords.csv,sha256=s_dyoABGXLduI62wO0cHPFkcFW-tj3rwnIuOgNa9jqw,622
