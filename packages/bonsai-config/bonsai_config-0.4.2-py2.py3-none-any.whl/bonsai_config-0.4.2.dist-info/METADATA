@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: bonsai-config
+Version: 0.4.2
+Summary: A python library reading and writing bonsai configuration files
+Home-page: http://github.com/BonsaiAI/bonsai-config
+Author: Bonsai Engineering
+Author-email: opensource@bons.ai
+License: BSD
+Requires-Dist: six (>=1.10)
+
+Bonsai Config
+
+
