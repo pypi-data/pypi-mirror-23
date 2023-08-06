@@ -1,0 +1,3 @@
+[console_scripts]
+yehua = yehua.main:main
+

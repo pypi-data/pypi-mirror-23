@@ -1,0 +1,79 @@
+Metadata-Version: 2.0
+Name: yehua
+Version: 0.0.1
+Summary: A command line tool to provide a default scaffolding for a python package.
+Home-page: UNKNOWN
+Author: C.W.
+Author-email: wa
+License: New BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: jinja2
+Requires-Dist: PyYAML
+
+================================================================================
+yehua - Let you focus on code, instead of setup scaffolding
+================================================================================
+
+.. image:: https://api.travis-ci.org/chfw/yehua.svg?branch=master
+   :target: http://travis-ci.org/chfw/yehua
+
+.. image:: https://codecov.io/github/chfw/yehua/coverage.png
+    :target: https://codecov.io/github/chfw/yehua
+
+.. image:: https://readthedocs.org/projects/yehua/badge/?version=latest
+   :target: http://yehua.readthedocs.org/en/latest/
+
+.. image:: https://badges.gitter.im/chfw_yehua/Lobby.svg
+   :alt: Join the chat at https://gitter.im/chfw_yehua/Lobby
+   :target: https://gitter.im/chfw_yehua/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
+
+Installation
+================================================================================
+
+You can install it via pip:
+
+.. code-block:: bash
+
+    $ pip install yehua
+
+
+or clone it and install it:
+
+.. code-block:: bash
+
+    $ git clone http://github.com/chfw/yehua.git
+    $ cd yehua
+    $ python setup.py install
+
+Usage
+================================================================================
+
+.. image:: https://github.com/chfw/yehua/raw/master/yehua-usage.gif
+   :width: 600px
+
+Simply type in ::
+
+    $ yehua
+
+And then go into the generate project folder::
+
+    $ moban
+
+Change log
+===========
+
+0.0.1 - 02/07/2017
+--------------------------------------------------------------------------------
+
+Initial release.
+
+
+
