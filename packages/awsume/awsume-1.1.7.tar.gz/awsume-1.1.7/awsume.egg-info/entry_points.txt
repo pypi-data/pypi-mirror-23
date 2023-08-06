@@ -1,0 +1,4 @@
+[console_scripts]
+autoAwsume = awsumepy.autoAwsume:main
+awsumepy = awsumepy.awsumepy:main
+
