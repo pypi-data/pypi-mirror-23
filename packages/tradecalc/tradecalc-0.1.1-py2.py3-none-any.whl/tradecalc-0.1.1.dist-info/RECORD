@@ -1,0 +1,10 @@
+tradecalc/__init__.py,sha256=bkcLszZ0m6nz1ctCF2_sSAJk5b85ujs1TuJwAsGqFdQ,131
+tradecalc/cli.py,sha256=yuVthyoaZNlMTW31LI2x_nt2xCCLI46lT6Ud-A-MpUU,1835
+tradecalc/tradecalc.py,sha256=ZZ35pEZiv8IZebiCMiYT66LHnQWVHJ2N29FpZJVSpY8,2057
+tradecalc-0.1.1.dist-info/DESCRIPTION.rst,sha256=LqbXizxWHYEmdham-QHe2p5agwnt0UZbWoot_NvoOak,1489
+tradecalc-0.1.1.dist-info/METADATA,sha256=ekq3DSAW2a7PvPcE8ZL6E5VGO-BQbDlra8o6FqnBrFk,2143
+tradecalc-0.1.1.dist-info/RECORD,,
+tradecalc-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+tradecalc-0.1.1.dist-info/entry_points.txt,sha256=KG0KWZDOPwhNWpY2GprNaOa-B_WU4v0c9DTOTnknI1s,50
+tradecalc-0.1.1.dist-info/metadata.json,sha256=mvicktx9rF6E_3YPxsBHbkpOEitHnMY_JsZH7aDhhOI,1028
+tradecalc-0.1.1.dist-info/top_level.txt,sha256=2lCSGq6YfHGwTjNXd6CW-Fh5RhGe_qVDANAFBKPgfO0,10

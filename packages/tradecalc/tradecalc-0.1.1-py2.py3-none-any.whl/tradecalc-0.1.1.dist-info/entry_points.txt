@@ -1,0 +1,3 @@
+[console_scripts]
+tradecalc = tradecalc.cli:main
+
