@@ -1,0 +1,4 @@
+[console_scripts]
+env_generator = api_tools.scripts:env_generator
+project_init = api_tools.scripts:project_init
+
