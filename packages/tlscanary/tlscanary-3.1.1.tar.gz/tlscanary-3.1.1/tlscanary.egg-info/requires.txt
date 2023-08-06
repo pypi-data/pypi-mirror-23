@@ -1,0 +1,10 @@
+coloredlogs
+cryptography
+hashfs
+python-dateutil
+worq
+
+[dev]
+nose
+mock
+pep8
