@@ -1,0 +1,17 @@
+pgeom = [('Cu', 29, 0, 63.546, 0.0, 0.0, 0.0), ('Cu', 29, 1, 63.546, 0.0, -1.8016, 1.8016)]
+
+phash = hex(hash(tuple(pgeom)))[2:]
+print(phash)
+
+if len(phash) %2 != 0:
+    phash = "%s " % phash
+#endif
+
+o = []
+while len(phash) > 0:
+    c0 = ord(phash[0])
+    c1 = ord(phash[1])
+    phash = phash[2:]
+    o.append(chr(c0*16 + c1))
+    print(c0, c1, o)
+#endwhile
