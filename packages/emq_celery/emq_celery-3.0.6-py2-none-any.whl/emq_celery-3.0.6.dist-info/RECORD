@@ -1,0 +1,9 @@
+emq_celery/__init__.py,sha256=5JIQ1epENYBjpLKaEkY9jHvZD1OGr-qokp9fu2sTLY0,516
+emq_celery/producer.py,sha256=U_35zNvIyzWG8DC9w8r9mzTkFTV2_HpCI65ABmB284w,8001
+emq_celery/transport.py,sha256=UrbL2biXII3QQdNRq6ShGGu23oACLRxOy3akzHr8Dt0,6759
+emq_celery-3.0.6.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+emq_celery-3.0.6.dist-info/METADATA,sha256=E3WIxR9w-E6O3xsgxW5mlGKhHFJxfw60nX4XDcQ9Adw,313
+emq_celery-3.0.6.dist-info/RECORD,,
+emq_celery-3.0.6.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+emq_celery-3.0.6.dist-info/metadata.json,sha256=6Pb0FfP1iZ0-mhv1MBlqX-qBJO6gz2bCjP32GZCc2Z4,582
+emq_celery-3.0.6.dist-info/top_level.txt,sha256=PZc6p76dQ1WOXzrK9qAd8gO0AtNS9mjXA2TTo9vDDl0,11
