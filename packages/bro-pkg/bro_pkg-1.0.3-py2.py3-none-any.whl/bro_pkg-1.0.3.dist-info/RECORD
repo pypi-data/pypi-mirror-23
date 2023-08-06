@@ -1,0 +1,12 @@
+bro_pkg-1.0.3.data/scripts/bro-pkg,sha256=5-8UsV4St81CNDYP1-GPjOdy9kljh_AIMNarQfm45AM,58608
+bro_pkg-1.0.3.dist-info/DESCRIPTION.rst,sha256=5k-gPzoWGqG0T8lOU2AAeW61Mb3w4SWOsQeKRI6ly-o,1123
+bro_pkg-1.0.3.dist-info/METADATA,sha256=p6yu7ahtO7RagaXD9LDaP2L-Nm3cOLFmRHaVZC9sJKY,2022
+bro_pkg-1.0.3.dist-info/RECORD,,
+bro_pkg-1.0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+bro_pkg-1.0.3.dist-info/metadata.json,sha256=B-MhBR6AebeeoZMLBfS4K9jIEGS0tnkcBo_Y0Ai_Kss,1049
+bro_pkg-1.0.3.dist-info/top_level.txt,sha256=5eoipRigE4FfGFDAvH7vfvhBiUWYIPiYjdAuH9zJco8,7
+bropkg/__init__.py,sha256=00bNNx4veUuoykAGcAJ30MG9N0NzVzRLJxd9REpCm2E,585
+bropkg/_util.py,sha256=juV0H3Rr1m2QtEE9yDaadz8fm8bY4UCdp_skTlpl3kY,2972
+bropkg/manager.py,sha256=W6VGz36W5WvXosJln35x-anKfP5hxYF3uGz1403C0aU,81371
+bropkg/package.py,sha256=4YbhpSt9qqjTjkVlhxhvft_47Rvne_ng2RAi6Q1Kg3M,10756
+bropkg/source.py,sha256=EeTmSky_rgw4J-IhyiUvb_xIwlX6lW_HMVGfia4vw5o,4787
