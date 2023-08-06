@@ -1,0 +1,9 @@
+sightengine/__init__.py,sha256=VvDq5py76uDFeq6tv3EFMgTHX4rtDyt6nw0tPm3Wrkk,21
+sightengine/check.py,sha256=ECbGFQI9n9zVykm__p2uWe2fWONQKHgUh4AtKfkVeMM,3044
+sightengine/client.py,sha256=M3riC3XDMSN8Bd3jnUEpnUMtmC3BVa8n30CckgZ24zE,2472
+sightengine-1.2.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sightengine-1.2.1.dist-info/METADATA,sha256=sA2U-I8kwidOx5KKwOC-ak5QCyUI1oS7PJTQ0QQT4vU,250
+sightengine-1.2.1.dist-info/RECORD,,
+sightengine-1.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sightengine-1.2.1.dist-info/metadata.json,sha256=98qdNPTk-ComOI-M97hrZjnTvuyjSDrrdkNaz6dqMIk,404
+sightengine-1.2.1.dist-info/top_level.txt,sha256=30knkFeWf7gr_loHrQ1Bzuw6FNGAhCOcnvCuGoB5POI,12
