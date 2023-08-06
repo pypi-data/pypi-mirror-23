@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: sc2replaysearch
+Version: 0.0.1
+Summary: Utility for finding the most recently created SC2 replay
+Home-page: https://github.com/frugs/sc2replaysearch
+Author: Hugo Wainwright
+Author-email: wainwrighthugo@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/frugs/sc2replaysearch/tarball/0.0.1
+Description: UNKNOWN
+Keywords: sc2,replay
+Platform: UNKNOWN
