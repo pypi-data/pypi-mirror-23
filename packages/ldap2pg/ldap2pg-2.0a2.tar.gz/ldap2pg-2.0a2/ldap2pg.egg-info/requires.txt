@@ -1,0 +1,4 @@
+psycopg2
+pyldap
+pyyaml
+six
