@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+BccardEmailParser/BccardParser.py
+BccardEmailParser/__init__.py
+bccard_parser.egg-info/PKG-INFO
+bccard_parser.egg-info/SOURCES.txt
+bccard_parser.egg-info/dependency_links.txt
+bccard_parser.egg-info/top_level.txt

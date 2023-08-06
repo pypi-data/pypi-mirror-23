@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bccard-parser
+Version: 0.1.1
+Summary: Parse authorization mail from BC Card
+Home-page: https://github.com/0kim/bccard_email_parser
+Author: youngkim
+Author-email: me@younghun.kim
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
