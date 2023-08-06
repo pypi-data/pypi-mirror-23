@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="ad.size" content="width={{width}},height={{height}}">
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js"></script>
+    <script>var clickTag = "http://golfnow.com/";</script>
+
+    <!-- Greensock: Robust -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>-->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.0_643d6911392a3398cb1607993edabfa7_min.js"></script>
+
+    <!-- REMINDER: NO JQUERY ALLOWED IN BANNER ADS -->
+
+    <style type="text/css">
+        #adkit_container{display:none;z-index:20}
+        /* REMINDER: Add your styles to ad.css, not here! */
+    </style>
+</head>
+
+<body>
+    <div id="adkit_container">
+        <div id="adkit_content">
+            <!-- ad content markup here -->
+            <div id="logo"></div>
+            {{divs}}
+            <div id="cta">
+                <div id="shine"></div>
+            </div>
+            <div id="bg"></div>
+        </div>
+        <button id="adkit_background_exit"></button>
+    </div>
+</body>
+
+</html>
