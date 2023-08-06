@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+0.0.5
+-----
+
+* Check if key exists before attempting to use the key
+* Add version badge
+
+0.0.4
+-----
+
+* Switch to PBR
+* Several fixes
+* Update README.rst
+* Add pyrabbit install requirement
+* Initial Commit for collectd plugin for Rabbitmq
+* Initial commit
