@@ -1,0 +1,9 @@
+serplint.py
+setup.cfg
+setup.py
+serplint.egg-info/PKG-INFO
+serplint.egg-info/SOURCES.txt
+serplint.egg-info/dependency_links.txt
+serplint.egg-info/entry_points.txt
+serplint.egg-info/requires.txt
+serplint.egg-info/top_level.txt
