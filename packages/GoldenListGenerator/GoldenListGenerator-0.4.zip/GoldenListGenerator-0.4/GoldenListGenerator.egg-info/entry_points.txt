@@ -1,0 +1,3 @@
+[console_script]
+GoldenListGenerator = GoldenListGenerator.__main__:main
+

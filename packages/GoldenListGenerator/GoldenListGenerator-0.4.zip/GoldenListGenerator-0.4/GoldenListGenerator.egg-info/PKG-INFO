@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: GoldenListGenerator
+Version: 0.4
+Summary: Generates a golden list(CSV file) using user specified fields. Program takes in two data sets from the database and finds common fields between them to generate a golden list
+Home-page: UNKNOWN
+Author: Imran Ali
+Author-email: imran.ali@kapsch.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7

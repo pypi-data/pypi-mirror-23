@@ -1,0 +1,4 @@
+PyYAML
+cx_Oracle
+pandas
+numpy

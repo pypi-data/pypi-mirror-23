@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+GoldenListGenerator/GoldenVehicleList.csv
+GoldenListGenerator/__init__.py
+GoldenListGenerator/__init__.pyc
+GoldenListGenerator/__main__.py
+GoldenListGenerator/config.yaml
+GoldenListGenerator/hostdatadump.py
+GoldenListGenerator/hostdatadump.pyc
+GoldenListGenerator/miscfuncs.py
+GoldenListGenerator/miscfuncs.pyc
+GoldenListGenerator.egg-info/PKG-INFO
+GoldenListGenerator.egg-info/SOURCES.txt
+GoldenListGenerator.egg-info/dependency_links.txt
+GoldenListGenerator.egg-info/entry_points.txt
+GoldenListGenerator.egg-info/requires.txt
+GoldenListGenerator.egg-info/top_level.txt
