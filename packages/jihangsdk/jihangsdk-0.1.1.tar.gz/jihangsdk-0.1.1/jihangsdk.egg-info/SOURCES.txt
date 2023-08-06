@@ -1,0 +1,7 @@
+setup.py
+jihangsdk/__init__.py
+jihangsdk/help.py
+jihangsdk.egg-info/PKG-INFO
+jihangsdk.egg-info/SOURCES.txt
+jihangsdk.egg-info/dependency_links.txt
+jihangsdk.egg-info/top_level.txt
