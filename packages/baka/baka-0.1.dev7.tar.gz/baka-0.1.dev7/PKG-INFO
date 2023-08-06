@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: baka
+Version: 0.1.dev7
+Summary: Baka framework built top pyramid
+Home-page: https://github.com/baka-framework/baka.git
+Author: Nanang Suryadi
+Author-email: nanang.ask@gmail.com
+License: GNU GPL License
+Description: BAKA README
+        
+Keywords: baka,framework,pyramid
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Pyramid
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
