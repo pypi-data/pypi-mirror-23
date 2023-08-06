@@ -1,0 +1,33 @@
+.wt.row {
+  background-color: #f5f5f5;
+}
+
+.wt .col-md-12 {
+  overflow: hidden;
+}
+
+#terminal-pane {
+  margin-top: 20px;
+  height: 80vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.terminal {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1em;
+  -moz-box-shadow: 0 0 10px #666;
+  -webkit-box-shadow: 0 0 10px #666;
+  box-shadow: 0 0 10px #666;
+}
+
+.terminal-cursor {
+  color: #93c54b;
+  background-color: #93c54b;
+}
