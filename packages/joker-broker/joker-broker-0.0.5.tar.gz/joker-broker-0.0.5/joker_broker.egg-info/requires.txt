@@ -1,0 +1,6 @@
+cryptography
+fakeredis
+pyyaml
+six
+sqlalchemy
+joker-cast==0.0.3
