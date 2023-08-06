@@ -1,0 +1,8 @@
+python_topic_model_preprocessor-0.0.1a1.dist-info/DESCRIPTION.rst,sha256=Nf9Uppu79P3lT-a955Wf_hb4Wx7IfgPzhsbvEF9W_bM,192
+python_topic_model_preprocessor-0.0.1a1.dist-info/METADATA,sha256=18HL0in9kNe3ubpEXlLv9E-gHXc9DhvVF20VqPOtOcY,1104
+python_topic_model_preprocessor-0.0.1a1.dist-info/RECORD,,
+python_topic_model_preprocessor-0.0.1a1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+python_topic_model_preprocessor-0.0.1a1.dist-info/metadata.json,sha256=uVSCo9d6TUZlE6XVQm7neXeHoMXbP5Q1p5J6rxHNePs,1062
+python_topic_model_preprocessor-0.0.1a1.dist-info/top_level.txt,sha256=WzrAIWe5itfKJdrtaY7JQXDTjvVsEGPN6HcGmVPMGdA,16
+tm_preprocessor/__init__.py,sha256=Xp6mCZxl40k7C8LF1CKwllv-u45Yfc5N7OOaA1lfZ4o,182
+tm_preprocessor/preprocessor.py,sha256=9TC-D3Q11WIGTfW4FV-vwLJsKRg5bGIMCahklmRnOkE,6940
