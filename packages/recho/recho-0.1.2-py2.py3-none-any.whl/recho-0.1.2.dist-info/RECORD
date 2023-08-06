@@ -1,0 +1,12 @@
+recho/__init__.py,sha256=_YRaGJovMgOhb6akaPTJSqNGymuvVzMXZn8IhiSEYCo,108
+recho/cli.py,sha256=FMS7jt9YwLHJYMseNz7tY8olY326xwFdA8dFDPqLLV8,2731
+recho/recho.py,sha256=mF1-jAEWDj2lJu0Eud853KO3MpBMX-Gm7CSWMNdjVCY,2567
+recho/reddit.py,sha256=OFIRGKOyOiUsdqySDwUT4ejB-gQdZFT3N8hxBOgQx4Q,1601
+recho-0.1.2.dist-info/DESCRIPTION.rst,sha256=2ldLIAhgqw7G9n1ofLJix7qJBxEtHvxz8im23LdGiu8,2117
+recho-0.1.2.dist-info/METADATA,sha256=H1fHyAmoLFsFxqC94uxYAN-x45hrdDZUpdhv5hB35Es,3312
+recho-0.1.2.dist-info/RECORD,,
+recho-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+recho-0.1.2.dist-info/entry_points.txt,sha256=QApeoSRcjernKIjmHg96RPT_YtecdiKVwivRtQOnKxI,42
+recho-0.1.2.dist-info/metadata.json,sha256=rqsiMsgqpE1LfvDQ8zJriOoy3dSTzmO1D6_KV4PLyS0,1407
+recho-0.1.2.dist-info/pbr.json,sha256=DZxdpELfRPshjA1dqx0zVw9eVKCLYA4qtqFhXUBmQL4,47
+recho-0.1.2.dist-info/top_level.txt,sha256=SlD88vfXSO0CYvlWcpVH3zgD45K7OfTQkBO4fyocwqA,6
