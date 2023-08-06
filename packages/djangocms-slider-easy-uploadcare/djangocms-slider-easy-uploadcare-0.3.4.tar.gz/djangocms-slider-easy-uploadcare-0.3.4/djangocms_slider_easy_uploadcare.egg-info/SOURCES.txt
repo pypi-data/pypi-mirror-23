@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+djangocms_slider_easy_uploadcare.egg-info/PKG-INFO
+djangocms_slider_easy_uploadcare.egg-info/SOURCES.txt
+djangocms_slider_easy_uploadcare.egg-info/dependency_links.txt
+djangocms_slider_easy_uploadcare.egg-info/not-zip-safe
+djangocms_slider_easy_uploadcare.egg-info/requires.txt
+djangocms_slider_easy_uploadcare.egg-info/top_level.txt
+djangocms_slider_uploadcare/__init__.py
+djangocms_slider_uploadcare/cms_plugins.py
+djangocms_slider_uploadcare/models.py
+djangocms_slider_uploadcare/migrations/0001_initial.py
+djangocms_slider_uploadcare/migrations/__init__.py
