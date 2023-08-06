@@ -1,0 +1,13 @@
+future
+numpy>=1.7
+scipy>=0.13
+matplotlib
+pandas
+ipywidgets
+properties[math]
+SimPEG>=0.4.1
+jupyter
+jupyter_dashboards
+Pillow
+discretize
+em_examples
