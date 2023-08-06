@@ -1,0 +1,45 @@
+Metadata-Version: 1.0
+Name: extract_emails
+Version: 1.0.2
+Summary: Extract email addresses from given URL.
+Home-page: https://github.com/dmitriiweb/extract-emails
+Author: Dmitrii K
+Author-email: winston.smith.spb@gmail.com
+License: MIT
+Description: Extract Emails
+        ==============
+        
+        Extract emails from a given website
+        
+        Requirements
+        ------------
+        
+        -  Python3
+        -  requests
+        -  beautifulsoup4
+        
+        Installation
+        ------------
+        
+        ::
+        
+            pip install extract_emails
+        
+        Usage
+        -----
+        
+        ::
+        
+            from extract_emails import ExtractEmails
+        
+            em = ExtractEmails(url, depth, print_log)
+            emails = em.emails
+        
+        -  *url*: str, ex: http://example.com
+        -  *depth*: int, depth of scan
+        -  *print\_log*: boolean, print log or not
+        
+        **Return** list of emails.
+        
+        
+Platform: UNKNOWN
