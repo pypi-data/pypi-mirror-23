@@ -1,0 +1,3 @@
+morfdict>=0.4.1
+jinja2
+pyyaml
