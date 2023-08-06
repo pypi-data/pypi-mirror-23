@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+mayatest.egg-info/PKG-INFO
+mayatest.egg-info/SOURCES.txt
+mayatest.egg-info/dependency_links.txt
+mayatest.egg-info/entry_points.txt
+mayatest.egg-info/not-zip-safe
+mayatest.egg-info/requires.txt
+mayatest.egg-info/top_level.txt
+test/test_mayaloc.py
