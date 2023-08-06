@@ -1,0 +1,3 @@
+[console_scripts]
+spotify_to_google_script = spotify_to_google.command_line:main
+
