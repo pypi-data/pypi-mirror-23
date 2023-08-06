@@ -1,0 +1,5 @@
+[zc.buildout]
+default = collective.recipe.supervisorprograms:Recipe
+printer = collective.recipe.supervisorprograms:PrinterRecipe
+multiplier = collective.recipe.supervisorprograms:MultiplierRecipe
+
