@@ -1,0 +1,9 @@
+setup.py
+pychrome/__init__.py
+pychrome/cli.py
+pychrome.egg-info/PKG-INFO
+pychrome.egg-info/SOURCES.txt
+pychrome.egg-info/dependency_links.txt
+pychrome.egg-info/not-zip-safe
+pychrome.egg-info/requires.txt
+pychrome.egg-info/top_level.txt
