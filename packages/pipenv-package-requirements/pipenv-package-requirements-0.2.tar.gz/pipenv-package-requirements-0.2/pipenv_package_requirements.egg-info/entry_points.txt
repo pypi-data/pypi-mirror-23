@@ -1,0 +1,4 @@
+[console_scripts]
+install_requirements = pipenv_tools.command_line:install
+rebuild_requirements = pipenv_tools.command_line:rebuild
+
