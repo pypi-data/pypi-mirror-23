@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+censusbatchgeocoder/__init__.py
+censusbatchgeocoder.egg-info/PKG-INFO
+censusbatchgeocoder.egg-info/SOURCES.txt
+censusbatchgeocoder.egg-info/dependency_links.txt
+censusbatchgeocoder.egg-info/requires.txt
+censusbatchgeocoder.egg-info/top_level.txt
