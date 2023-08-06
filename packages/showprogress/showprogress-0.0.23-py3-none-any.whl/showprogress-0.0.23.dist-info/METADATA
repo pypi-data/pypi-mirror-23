@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: showprogress
+Version: 0.0.23
+Summary: Simple utils
+Home-page: https://github.com/lovit/showprogress
+Author: Lovit
+Author-email: soy.lovit@gmail.com
+License: UNKNOWN
+Keywords: progress
+Platform: UNKNOWN
+Requires-Dist: psutil (>=5.0.1)
+
+Simple utils
+
+
