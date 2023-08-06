@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Prism CLI
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Stumblinbear/prism-cli
+Author: Stumblinbear
+Author-email: stumblinbear@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: prism cli nginx apache gunicorn service
+Platform: UNKNOWN
+Requires-Python: >=3.4
