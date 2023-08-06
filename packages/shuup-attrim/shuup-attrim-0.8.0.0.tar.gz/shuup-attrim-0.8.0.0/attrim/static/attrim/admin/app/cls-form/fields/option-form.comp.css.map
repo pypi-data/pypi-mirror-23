@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;EACd,OAAO,EAAE,GAAG;;AAEhB,YAAY;EACR,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM",
+"sources": ["option-form.comp.sass"],
+"names": [],
+"file": "option-form.comp.css"
+}
