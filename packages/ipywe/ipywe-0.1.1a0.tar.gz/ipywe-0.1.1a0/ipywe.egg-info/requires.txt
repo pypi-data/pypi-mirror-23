@@ -1,0 +1,5 @@
+ipywidgets>=6.0.0
+numpy
+traitlets
+scipy
+pillow
