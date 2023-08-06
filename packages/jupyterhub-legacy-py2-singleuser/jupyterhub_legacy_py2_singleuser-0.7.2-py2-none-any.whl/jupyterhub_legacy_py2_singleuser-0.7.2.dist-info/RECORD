@@ -1,0 +1,12 @@
+jupyterhub/__init__.py,sha256=0eAFjnFVSWI6_301EfFzaXJIiwNScF9GpeINoCLd-XM,22
+jupyterhub/singleuser.py,sha256=SHrougj-ttNxgRZO3TY233LFty4HnlHfY6QnbkaFjJo,10400
+jupyterhub/utils.py,sha256=Nbv5h3QlWdF_za2y56AfCje99ppwgHvfj4fHMOJYIpk,700
+jupyterhub/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterhub/services/auth.py,sha256=x1VYS1yHiH_azo2mpGUb6gdqv8R-5hbt1XVV9znXujU,11123
+jupyterhub_legacy_py2_singleuser-0.7.2.data/scripts/jupyterhub-singleuser,sha256=rbrr88pPJOn_uQcmygZbXyIOgjichNCjd49cMGrwlV0,88
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/METADATA,sha256=BbfClMuZrPKitIbfIbpyJmZnfo_88yCFteu9jtcqfws,503
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/RECORD,,
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/metadata.json,sha256=oOT2xlAyzglpNEK8yusp88MhwHLeB8pkjtw7ESXIX_U,655
+jupyterhub_legacy_py2_singleuser-0.7.2.dist-info/top_level.txt,sha256=KixMrM8L8gypKE-7-fZg8ou8FpJ2PZ_Js581WFAtrbU,11
