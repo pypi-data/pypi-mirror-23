@@ -1,0 +1,6 @@
+PyYAML
+aiohttp
+aiosmtplib
+crontab
+raven
+raven-aiohttp
