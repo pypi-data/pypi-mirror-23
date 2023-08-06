@@ -1,0 +1,11 @@
+myproject/__init__.py,sha256=YAP543RYg6fF2EaZELtC83LOFFajvU7uz-zzKTTtoZs,974
+myproject/models.py,sha256=r8b7SyRC5GZL0rB1GW-2-DyhESlP7_fecoy7LLCjsJM,1423
+myproject/tests.py,sha256=HFXWKU-c7SnHHBFseCkzxIuQ26qRswCpcr1GskTqulE,386
+myproject/views.py,sha256=0PbFA1eJEF48_5f57VQHzI4JsUoZq4lWExrjplOAkCY,2146
+pyramid_excel/__init__.py,sha256=gRhBpm7n5QsYpUw6KLszXQoHczmK7zmlhtc2lhA-v4s,2434
+pyramid_excel-0.0.5.dist-info/DESCRIPTION.rst,sha256=FMkR7q5m42KNGkR2p_n6Bp4d9T117hunNop3p0ZGeFI,13393
+pyramid_excel-0.0.5.dist-info/METADATA,sha256=xQKV_K_0s7y3JtbaYtfLtJv1PVHhXQ0T2C2EnOWCTms,15234
+pyramid_excel-0.0.5.dist-info/RECORD,,
+pyramid_excel-0.0.5.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+pyramid_excel-0.0.5.dist-info/metadata.json,sha256=QTbFHg9OM-n9ceo5AgzY1iDmGtMO4bX3w6IjKdL5xKY,1902
+pyramid_excel-0.0.5.dist-info/top_level.txt,sha256=pFdrNdw_3xXthDFuqLivfmPJBCaRyKy92k6RNuLEFZw,24
