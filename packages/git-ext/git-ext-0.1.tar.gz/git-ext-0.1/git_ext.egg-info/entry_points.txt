@@ -1,0 +1,6 @@
+[console_scripts]
+git-pullrequest = git_ext.bin.pullrequests
+
+[gui_scripts]
+
+
