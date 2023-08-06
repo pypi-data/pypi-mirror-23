@@ -1,0 +1,10 @@
+ec2stash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ec2stash/cli.py,sha256=Bdz8At3tmSXEJtv3YqdkIEYbYr2k8Au3L1ydYLJCZP4,7290
+ec2stash/core.py,sha256=gHzxRJAPuw17CNkJelRtkmurQnoaMTyK0lNJbj_n38w,8704
+ec2stash-0.1.1.dist-info/DESCRIPTION.rst,sha256=yQwzr9WYjvFPl732ExzAq1RXV7DzNzXvqU1YAw7e5PQ,732
+ec2stash-0.1.1.dist-info/METADATA,sha256=Q94CPONwJ6gG4-282UBEQOIgKHh46Ql1adDRtYlwMsc,1394
+ec2stash-0.1.1.dist-info/RECORD,,
+ec2stash-0.1.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ec2stash-0.1.1.dist-info/entry_points.txt,sha256=B7zreBf0ZQTLFSdvw6LKrtJJe3L71UcnLGu226A8A24,65
+ec2stash-0.1.1.dist-info/metadata.json,sha256=P5-JbXzuQRDrNxCHH21eiY_Hq4L64gEGaFhoM8ZSvss,965
+ec2stash-0.1.1.dist-info/top_level.txt,sha256=i-Y1oK9vopYzWPfIYeDtwzRIeS1kEWXgJVYQ-KwWgNk,9
