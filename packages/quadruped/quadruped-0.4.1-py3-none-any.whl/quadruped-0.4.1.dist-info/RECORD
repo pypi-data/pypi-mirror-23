@@ -1,0 +1,17 @@
+quadruped/Correction.py,sha256=Q88aGzo2tC5ttS9yc1L6X3N4--sF9esMOrQ2S2JWwKs,5422
+quadruped/Engine.py,sha256=K0Nrw4fXBkEJDIUx-a8ijqEL6C5begwokaA5xvYSqiI,2622
+quadruped/Gait.py,sha256=onDC68ulwoJPjJgR3q4C1IBJvROtXC7IKJcDA0aXXpY,5830
+quadruped/Leg.py,sha256=UF-ZXePxZmzOt-9lRx66-J33YwL0NpWmym414zA8jyQ,5238
+quadruped/Servo.py,sha256=E6W4s0mFuZGEPz7pxtkRiFJa3ih0AFUyKQiAFu9hIjQ,6456
+quadruped/__init__.py,sha256=01FSoQT0ZwqLf6C3OJzF8yWrF6QVe0C8gsKdbmHBx9E,308
+quadruped/jsonFile.py,sha256=3H3ZhR1ipztu52vxUZqLo6S_t2iMo9rdoMvgeyKGgW0,1480
+quadruped/packetDecoder.py,sha256=9KsLuyxQZakY_-Z3wRBsSDX6B_2SsboryNXYAfj7lR8,2321
+quadruped/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+quadruped-0.4.1.data/scripts/get_leg_angles.py,sha256=Fsl9GUYE8aylq5XuTmz3Hif1nRhx3RB6nz5rIzwJ1i4,2592
+quadruped-0.4.1.data/scripts/get_leg_info.py,sha256=p1KW38XnZZZlhOssceAArJblOeL7vUcAjAs_iid5uBM,5010
+quadruped-0.4.1.dist-info/DESCRIPTION.rst,sha256=j57yrjByyKeFqppZQonYWSat20O19LaWvm419WwejN8,3575
+quadruped-0.4.1.dist-info/METADATA,sha256=Iw3Nx9jm1H2kPlrq88CtjgmX25bQ-KqvAjc2PqdEGC8,4622
+quadruped-0.4.1.dist-info/RECORD,,
+quadruped-0.4.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+quadruped-0.4.1.dist-info/metadata.json,sha256=kYY20FDjA9nYKffjO9oCzdCBta8xDNyjTt1L3yaUMYc,1137
+quadruped-0.4.1.dist-info/top_level.txt,sha256=UQiBXqXBdNnEOg_1Fhq0w5BnwwDTIelhOZmE9vxNmVo,10
