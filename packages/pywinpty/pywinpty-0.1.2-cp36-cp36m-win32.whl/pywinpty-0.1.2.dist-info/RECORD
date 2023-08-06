@@ -1,0 +1,17 @@
+pywinpty-0.1.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pywinpty-0.1.2.dist-info/METADATA,sha256=FKRN0z4q8sRzEB6wswmFKC1BgX-rBJIx-0dW8zLlIGk,618
+pywinpty-0.1.2.dist-info/RECORD,,
+pywinpty-0.1.2.dist-info/WHEEL,sha256=xiHTm3JxoVljPSD6nSGhq3B4VY9iUqMNXwYQ259n1PI,102
+pywinpty-0.1.2.dist-info/metadata.json,sha256=6irZdmzt4a879PGuRAkZ9ZZIGAUm-FhifZjEiWKSYCU,813
+pywinpty-0.1.2.dist-info/top_level.txt,sha256=jr7w_bJvGRdTci3VzVFoOtmy12he9cJ_QXqelHdL3rs,7
+winpty/__init__.py,sha256=hE3TXD_2Q0fi_EHIwRbrHMemt-Rn_-sCG0Pj9EAVuQI,294
+winpty/cywinpty.c,sha256=1x_sFUeEfuXkEQ4EzvvtFO_oVkSvd9x_X0035vlyw4I,158282
+winpty/cywinpty.cp36-win32.pyd,sha256=sQygVlz885a_gdfRZ_Q25xJ1enLr45XFYclBpAne7co,34816
+winpty/cywinpty.pyx,sha256=kTfHufykZdkVSYSUrSEyOXRYx7XQtq_QLc0crL8H-hY,4688
+winpty/winpty_wrapper.py,sha256=mi24AiyWZ-k3zgTQTqw_x1mP3mwdzgrBMhrutrcJ6_M,1996
+winpty/_winpty/__init__.py,sha256=ikBA9Qig7Nf9qlYU72B6cpcUQRPd_m1X8GSuDICsiEc,48
+winpty/_winpty/winpty.pxd,sha256=K1k3q0xIJ8Jg4nMTuhlrafK6Nxkfpt5OQ-7LQut7uSM,2891
+winpty/_winpty/winpty_constants.pxd,sha256=wPqgX31GU3N3PnFd15Clv_H53iFflYVTkR2kYtS5Ab8,1747
+winpty/tests/__init__.py,sha256=fzb9cDnPt2R3b_rWh6sqDgIbiQOZtBlfsV1aq-ULT2Q,53
+winpty/tests/test_cywinpty.py,sha256=JVfzTbg3o3J9etaF_0ndaLR5HmUo6ImGkN3dCk1V_1g,705
+winpty/tests/test_winpty_wrapper.py,sha256=crxbi0kOYi8J8EYWyCXhbq7Ifxzn3OZxzb6DaNf_zF4,1219
