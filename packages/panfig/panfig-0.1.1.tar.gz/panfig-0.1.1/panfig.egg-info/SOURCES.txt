@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+panfig/__init__.py
+panfig/__main__.py
+panfig/_types.py
+panfig/aliases.py
+panfig/errors.py
+panfig/panfigblock.py
+panfig.egg-info/PKG-INFO
+panfig.egg-info/SOURCES.txt
+panfig.egg-info/dependency_links.txt
+panfig.egg-info/entry_points.txt
+panfig.egg-info/requires.txt
+panfig.egg-info/top_level.txt
