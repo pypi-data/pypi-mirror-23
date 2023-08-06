@@ -1,0 +1,13 @@
+cmdtwiddler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmdtwiddler/__main__.py,sha256=4x8TNORxEmyzqaCXvq-0yzlluLi593NQQlVQNHDTF6Y,65
+cmdtwiddler/cmdtwiddler.py,sha256=XzHM0riAecGeQqQKBUJua6jnRrTOcAa8WaV5gdbnAZE,5227
+cmdtwiddler/RPCHelper.py,sha256=YmPt2Ay_rEab__EfxRljPhysy_WrLyo-7JN-ZnJFx7s,3442
+cmdtwiddler/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmdtwiddler/test/test_cmdtwiddler.py,sha256=HnVborc9GqeMHMLuly7nNmKVoUXlgTovsztBvELzPro,2604
+cmdtwiddler-1.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cmdtwiddler-1.1.0.dist-info/entry_points.txt,sha256=p_TM_8TyuDqPB5eDmNqGB7am8X9WaktPfl9R5CHuFpQ,62
+cmdtwiddler-1.1.0.dist-info/METADATA,sha256=gfy1ULjZh1t7JhQ1hH6aujbqVTaWf4slQ618AYkVsaE,554
+cmdtwiddler-1.1.0.dist-info/metadata.json,sha256=naQEwfEvMXmPyKHKbrg5aS_iWCmWYfHW3m5l1bobIDA,915
+cmdtwiddler-1.1.0.dist-info/RECORD,,
+cmdtwiddler-1.1.0.dist-info/top_level.txt,sha256=IiYNNZkZ_UGruNs41C7O2eN6n2OkiEz1FWomot82fkw,12
+cmdtwiddler-1.1.0.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
