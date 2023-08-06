@@ -1,0 +1,11 @@
+kahipwrapper-0.1.7.dist-info/WHEEL,sha256=K393SHwcz7KWfaAX1vI5Mn-fHxOX6ngCsqegCXacWE8,110
+kahipwrapper-0.1.7.dist-info/RECORD,,
+kahipwrapper-0.1.7.dist-info/metadata.json,sha256=t047lDw3am0oL7s8E8FhS_PNISZVsr4pLNLtREs4cB8,449
+kahipwrapper-0.1.7.dist-info/DESCRIPTION.rst,sha256=LDWpueaHUjIEJyHdQAiC1p1CDY1O-luK58JudU_gCKQ,1003
+kahipwrapper-0.1.7.dist-info/top_level.txt,sha256=QGu83rL7kMUwGdrDpuJ0LoNxzha8ELvMV8Np0CgIHYk,13
+kahipwrapper-0.1.7.dist-info/METADATA,sha256=7wlmmb2-tUV4eZ4mzPwxk5e6NKd9hHDSmxA8i4ftaY4,1266
+kahipwrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kahipwrapper/kaHIP.py,sha256=IpsuccEYS0njOeTfEj9tlJ9Xye6qy58zA49BgpREkkQ,3829
+kahipwrapper/_kaHIP.so,sha256=l3fmTdIqLGLV90LCnk0Ne1kZg1hk2GkEsRic0pINIDQ,1342512
+kahipwrapper/test.py,sha256=SATYrEmSZpolZ2rASyqVFj1HzrPtAji-RDZ1uB7qHY0,182860
+kahipwrapper/.libs/libgomp-3300acd3.so.1.0.0,sha256=EnFXr4fqW6urRgYk7TwUCvF6S1oXVZfVyUZW3IZWJYo,63024
