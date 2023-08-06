@@ -1,0 +1,13 @@
+Flask_SlimREST-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+Flask_SlimREST-0.1.0.dist-info/METADATA,sha256=SOhXQvczO8cCat6lMDt4peF8Wjf0IdSa-M4YTu6LqXI,700
+Flask_SlimREST-0.1.0.dist-info/RECORD,,
+Flask_SlimREST-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Flask_SlimREST-0.1.0.dist-info/metadata.json,sha256=sDfr-OwYpXr27UWKTiyfo9Y17M-mfZA3kE-yY5NOf1Q,923
+Flask_SlimREST-0.1.0.dist-info/top_level.txt,sha256=d2sWsp376qnIpQtCee1CNNJdV6v0IlWNUmFySBTw9x0,15
+flask_slimrest/__init__.py,sha256=H5XKDpDsvLyctjfMa6hpdgou09ApBGta6kNUb5qyl6M,31
+flask_slimrest/__version__.py,sha256=LvnWQcNVRkZZ8DnBMRTAoXD1rw_FNPYXX5dw4OV7KXo,44
+flask_slimrest/decorators.py,sha256=wEi0bYfaq1vd3uIsSLyHcT5g9mm5kTXuCxXRRAWpI5k,10565
+flask_slimrest/exceptions.py,sha256=lbxvu3O-dg08Jyva0QokkSeF4YciHAW6VCqqjyhfbu8,49
+flask_slimrest/pagination.py,sha256=rIcjmyi_txprGi6xphTn35YdlrioxAECelnZtsJIqGQ,391
+flask_slimrest/slim_rest.py,sha256=WdJOBY5WAbLt_RPgG2O7CXxOZNRp_pKqAy5hV8f9ZGI,1738
+flask_slimrest/utils.py,sha256=zaCj52SY7skPMk6GwAtzjRws-j3mVl9C3lc8nsadvEU,360
