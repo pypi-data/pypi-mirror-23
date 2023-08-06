@@ -1,0 +1,8 @@
+setup.py
+syncpy/__init__.py
+syncpy/tensorflow.py
+syncpy.egg-info/PKG-INFO
+syncpy.egg-info/SOURCES.txt
+syncpy.egg-info/dependency_links.txt
+syncpy.egg-info/not-zip-safe
+syncpy.egg-info/top_level.txt
