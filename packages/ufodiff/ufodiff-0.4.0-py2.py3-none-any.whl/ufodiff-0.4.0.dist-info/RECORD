@@ -1,0 +1,16 @@
+.DS_Store,sha256=keUquvGPYPrMwA_WzY1ZBmnBd1_YyTkd0RHbFCmKmvQ,6148
+ufodiff/__init__.py,sha256=StAfza8ohuJZl4suxWknWBySer4uppaPeMYJ04YLHjU,47
+ufodiff/app.py,sha256=LlhBPqFPKfWPj1zA29DqEE3cDPyIj_iesvSjnyxnAbU,9842
+ufodiff/settings.py,sha256=ylXdgeXy15k7faCanVfcd6FyYvDSodhPmoWWkUmYhZg,2553
+ufodiff/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufodiff/subcommands/delta.py,sha256=2qe4-Q0Mle15D7FbXuYCSY0DHEDCofi8r3lWajCYm2U,13425
+ufodiff/subcommands/diff.py,sha256=Ss7OG9ttnAo-ySp4jHPS3y910mdC7KKHUEDN0SxuMtI,3262
+ufodiff/utilities/__init__.py,sha256=3xTkJQqcuNgN0ANlSgGcLrbSlfsYA4o-MkWjVLuQGzc,703
+ufodiff/utilities/ufo.py,sha256=HdwOWKJqZg-X7WI2JVyqZgKgVrBgOSmK6SkN1UNF6JQ,1673
+ufodiff-0.4.0.dist-info/DESCRIPTION.rst,sha256=5Uv5uZnWOUwopJhPl8pwzYtfos3wbtkKJow9UJcKC1s,466
+ufodiff-0.4.0.dist-info/METADATA,sha256=pEX5m7owP596I1TzJWCETckiAFswDrmWiPerzp39DBA,1438
+ufodiff-0.4.0.dist-info/RECORD,,
+ufodiff-0.4.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ufodiff-0.4.0.dist-info/entry_points.txt,sha256=1NNYRzEQgO4cNOtOnIKfTrYX_jrFVNw5T-20LDMXopo,46
+ufodiff-0.4.0.dist-info/metadata.json,sha256=eqXkdmwK7kvdYwunoP68TZuGw3r8LJiRP6Tb2a4sMLs,1269
+ufodiff-0.4.0.dist-info/top_level.txt,sha256=lDOSvVNAahhYIBav1vPXInQp0MRZ_6VTqRY7B2ldy1E,8
