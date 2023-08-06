@@ -1,0 +1,4 @@
+[console_scripts]
+shash = hashstore.shash:main
+shashd = hashstore.shashd:main
+
