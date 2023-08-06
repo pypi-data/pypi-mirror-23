@@ -1,0 +1,13 @@
+README.rst
+setup.py
+graphi/__about__.py
+graphi/__init__.py
+graphi/edge.py
+graphi/graph.py
+graphi.egg-info/PKG-INFO
+graphi.egg-info/SOURCES.txt
+graphi.egg-info/dependency_links.txt
+graphi.egg-info/top_level.txt
+graphi/compatibility/__init__.py
+graphi/compatibility/python2.py
+graphi/compatibility/python3.py

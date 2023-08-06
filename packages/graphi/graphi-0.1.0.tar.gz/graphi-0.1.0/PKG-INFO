@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: graphi
+Version: 0.1.0
+Summary: Graph Interface and Types
+Home-page: https://github.com/MaineKuehn/graphi
+Author: Eileen Kuehn, Max Fischer
+Author-email: maxfischer2781@gmail.com
+License: MIT
+Description: +++++++++++++++++++++++++++++++++++++++++
+        GraphI - Python Graph Interface and Types
+        +++++++++++++++++++++++++++++++++++++++++
+Keywords: graph tree data-structure container interface type
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Monitoring
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
