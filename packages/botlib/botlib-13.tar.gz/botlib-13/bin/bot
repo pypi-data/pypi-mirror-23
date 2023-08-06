@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+#
+# Copyright (C) 2017 Bart Thate
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES 
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF 
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE 
+# FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY 
+# DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER
+# IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+# OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+#
+# bot - main bot program.
+#
+# 17-7-2017 - Submitted into the Public Domain
+
+""" botlib's main bot program !! """
+
+import sys
+import os
+
+sys.path.insert(0, os.getcwd())
+
+from botlib.utils import parse_cli, reset, startup, enable_history
+from botlib.space import kernel, exceptions
+from botlib import __version__
+
+import os
+
+try:
+    startup()
+except:
+    pass
+
+def main():
+    cfg = parse_cli()
+    cfg.name = "BOTLIB"
+    cfg.version = __version__
+    enable_history()
+    kernel.boot(cfg)
+    kernel.wait()
+    kernel.shutdown()
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("")
+    if exceptions:
+        for ex in exceptions:
+            print(ex)
+    reset()
+    os._exit(0)

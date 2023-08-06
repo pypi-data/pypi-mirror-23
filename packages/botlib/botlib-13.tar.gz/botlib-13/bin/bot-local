@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+#
+# Copyright (C) 2017 by Bart Thate <bthate@dds.nl>
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES 
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF 
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE 
+# FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY 
+# DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER
+# IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+# OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+#
+# bot-local - install the bot locally
+#
+# 12-7-2017 Added to the Public Domain
+
+""" install botlib locally. """
+
+import os, sys
+import importlib
+import warnings
+
+warnings.simplefilter("ignore", UserWarning)
+
+importlib.invalidate_caches()
+
+sys.path.insert(0, os.getcwd() + os.sep + "eggs")
+
+try:
+    import setuptools
+    from setuptools.command.easy_install import main
+    import pkg_resources
+except ImportError as ex:
+    print("setuptools is needed to use bot-local: %s" % str(ex))
+    os._exit(1)
+
+for line in os.popen("python3 setup.py sdist").readlines():
+    print(line.strip())
+
+fns = os.listdir("dist")
+name = ""
+highest = 0
+for fn in fns:
+    f = fn.split(".")[0]
+    nr = int(f.split("-")[-1])
+    if nr > highest:
+        highest = nr
+        name = fn
+
+runstring = '--user -U -l dist/%s' % name
+main(runstring.split())
