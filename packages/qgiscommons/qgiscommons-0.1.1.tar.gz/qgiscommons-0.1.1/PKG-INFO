@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: qgiscommons
+Version: 0.1.1
+Summary: Common functions and classes to be used in QGIS plugins
+Home-page: https://github.com/boundlessgeo/lib-qgis-commons
+Author: Victor Olaya
+Author-email: volaya@boundlessgeo.com
+License: GPL
+Download-URL: https://github.com/boundlessgeo/lib-qgis-commons/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: qgis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
