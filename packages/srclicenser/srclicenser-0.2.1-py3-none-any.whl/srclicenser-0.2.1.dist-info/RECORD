@@ -1,0 +1,11 @@
+srclicenser/__init__.py,sha256=EmRSHcFMbpc1-PXgxA8F-t1mAHkAjPC0i8q1pMsrNbk,121
+srclicenser/__main__.py,sha256=o33a5HSsna0rsj0u2iD9MCHNNsRhyPdtnshg9yYHZOo,2724
+srclicenser/licensers.py,sha256=2LbySdIAcNIQ5pPXIA0iir_dD3phfhSw1LRGM3JaPIs,6883
+srclicenser/srclicenser.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+srclicenser-0.2.1.dist-info/DESCRIPTION.rst,sha256=Pz0RiVcpWRk5SmyL9QtNlYgsvSk9XbRq97HrPL9TwRU,1187
+srclicenser-0.2.1.dist-info/METADATA,sha256=MkEb2QtZRuVfs4E7zEIW6BOdAc61eIIfa3ncw6hC6IU,1890
+srclicenser-0.2.1.dist-info/RECORD,,
+srclicenser-0.2.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+srclicenser-0.2.1.dist-info/entry_points.txt,sha256=CeTLipuFrp9lNiNSjlTyvbFtcSvwc-OG7LGNs4-VR2s,59
+srclicenser-0.2.1.dist-info/metadata.json,sha256=O62xhhkC8HgN39-vC4jLlsnIsgY6NOCsunI2tHqj0Io,1079
+srclicenser-0.2.1.dist-info/top_level.txt,sha256=H8vULTGLNQtYOYoeXOnDfjmxH1k9uASNmUbWWUXJLmg,12
