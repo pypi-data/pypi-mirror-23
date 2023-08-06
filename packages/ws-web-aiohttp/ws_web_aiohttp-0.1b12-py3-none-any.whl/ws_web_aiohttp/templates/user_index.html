@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<a href="/book_new/untitled/">new</a><br>
+
+{% for book in books %}
+<a href="/{{ book.bookid }}/">{{ book.bookid }}</a><br>
+{% endfor %}
+
+{% endblock %}
+
