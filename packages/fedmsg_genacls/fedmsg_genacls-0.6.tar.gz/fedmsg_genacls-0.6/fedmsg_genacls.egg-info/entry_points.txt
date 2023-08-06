@@ -1,0 +1,5 @@
+
+    [moksha.consumer]
+    fedmsg_genacls = fedmsg_genacls:GenACLsConsumer
+    fedmsg_gitoliteprefix = fedmsg_genacls:GitolitePrefixConsumer
+    
