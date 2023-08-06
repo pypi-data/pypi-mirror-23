@@ -1,0 +1,10 @@
+setup.py
+GonulluGUI.egg-info/PKG-INFO
+GonulluGUI.egg-info/SOURCES.txt
+GonulluGUI.egg-info/dependency_links.txt
+GonulluGUI.egg-info/top_level.txt
+bin/gonullu-gui
+bin/gonullu-gui-main
+gonullugui/__init__.py
+gonullugui/coreui.py
+gonullugui/version.py
