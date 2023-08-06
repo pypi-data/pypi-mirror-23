@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+niceplot.egg-info/PKG-INFO
+niceplot.egg-info/SOURCES.txt
+niceplot.egg-info/dependency_links.txt
+niceplot.egg-info/top_level.txt
