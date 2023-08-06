@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-dump-http
+Version: 0.0.1
+Summary: Dump all Django HTTP requests and responses into files
+Home-page: https://github.com/vporton/django-dump-http
+Author: Victor Porton
+Author-email: porton@narod.ru
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
