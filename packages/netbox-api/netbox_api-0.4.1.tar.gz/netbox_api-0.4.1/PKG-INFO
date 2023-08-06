@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: netbox_api
+Version: 0.4.1
+Summary: Netbox API bindings and tools for Python
+    Website: https://github.com/zinic/netbox_api
+    
+Home-page: UNKNOWN
+Author: John Hopper
+Author-email: john.hopper@jpserver.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
