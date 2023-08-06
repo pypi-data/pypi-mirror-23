@@ -1,0 +1,10 @@
+vlcp_event_cython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlcp_event_cython/event.cpython-33m.so,sha256=ESEzR5XGpGfc4sAOAOXPyCNfA_vP7ODUmY_bxXUw8BM,646280
+vlcp_event_cython/matchtree.cpython-33m.so,sha256=G5hZauqGsShB47KO8oGxum04MirFOvl3Z8bRHYHwMYs,411200
+vlcp_event_cython/pqueue.cpython-33m.so,sha256=DO9wpbbT5GaHfJ5WK1M3CPjCBAAcgOQE1DyjyXkNoPg,1782848
+vlcp_event_cython-0.1.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+vlcp_event_cython-0.1.5.dist-info/metadata.json,sha256=7_6J9B9TQaspusBQVfHT0ig6pJdT07uC-xvAD00NHCQ,489
+vlcp_event_cython-0.1.5.dist-info/top_level.txt,sha256=JEVReFjQ2KTPyGBV6ZeR4Gxi-xBOFlOJnT2-VitC8Z4,18
+vlcp_event_cython-0.1.5.dist-info/WHEEL,sha256=sVZaHJbCE2GVkPNAEm4DtBurxqmjzT41kKbX7m5e26Y,109
+vlcp_event_cython-0.1.5.dist-info/METADATA,sha256=Y1gNuSOAB0A8NO8uOUhMOzqCjo5DK25aB9v-f_H2HVk,300
+vlcp_event_cython-0.1.5.dist-info/RECORD,,
