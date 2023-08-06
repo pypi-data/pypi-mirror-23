@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyrds
+Version: 1.0.1
+Summary: python implementation of a finitie volume discretization to solve the reaction diffusion equation
+Home-page: https://github.com/zimmermm/pyrds
+Author: Matthias Zimmermann
+Author-email: matthias.zimmermann@eawag.ch
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

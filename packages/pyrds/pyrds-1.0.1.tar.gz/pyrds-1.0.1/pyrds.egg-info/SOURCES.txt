@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pyrds/__init__.py
+pyrds.egg-info/PKG-INFO
+pyrds.egg-info/SOURCES.txt
+pyrds.egg-info/dependency_links.txt
+pyrds.egg-info/not-zip-safe
+pyrds.egg-info/requires.txt
+pyrds.egg-info/top_level.txt
