@@ -1,0 +1,3 @@
+[console_scripts]
+asciimon = Monster_ASCII_Game.game:start
+
