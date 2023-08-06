@@ -1,0 +1,16 @@
+djangoshop_wspay-0.1.0.dist-info/DESCRIPTION.rst,sha256=uD6uYB-rHqte0P1mkDfD1d47jF6MqwMji0B1RbdyfkU,1859
+djangoshop_wspay-0.1.0.dist-info/LICENSE.txt,sha256=dIXTPDUP3vNUIBS_LQpzDO8ZfTJCRVvnJ2nXcPVyMZk,1516
+djangoshop_wspay-0.1.0.dist-info/METADATA,sha256=sXMf_cVk_Ve84UTOOMRtcr3jjs1VAz-BGwFZ4NJrcAA,2531
+djangoshop_wspay-0.1.0.dist-info/RECORD,,
+djangoshop_wspay-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+djangoshop_wspay-0.1.0.dist-info/metadata.json,sha256=t0A2bjiVw-9lHiaAFGRQO_n2dlPnTDMNqaxNrSlf1iw,888
+djangoshop_wspay-0.1.0.dist-info/top_level.txt,sha256=oabWv1Z5MrtRfvjYGW8RVJiGVvpyieLlTmCmrmGJ-_Q,11
+shop_wspay/__init__.py,sha256=6bOWanBRYnfru_mkP2EaBGCw6Pxx3zWahROjgmq-1ro,456
+shop_wspay/forms.py,sha256=3x3dWgFBW66E4xRTL_e95xbhfUX1lpU-QunPgxUaMYY,2349
+shop_wspay/modifiers.py,sha256=t8o7MbX6uiYkF1JLDww5qyfdBLDPRYEXFsVr6IwePko,1218
+shop_wspay/payment.py,sha256=arsrN7p2tm_V0FmO0kErPYrRAyKP1ESeDfbd88WqdAs,9673
+shop_wspay/settings.py,sha256=QmVa51IjV7fVsrZbPjxvlhPgST5PupY4DkQRUjSXI7M,1566
+shop_wspay/templates/shop_wspay/cancel.html,sha256=eMnIt890FWZwJOIUpCjxWp37mkAQUnagk0-VBRUU_KU,66
+shop_wspay/templates/shop_wspay/error.html,sha256=jyt6IAOc3ogIhANJksHYjzs-QEu3dWZNI78FTlZtFQ8,69
+shop_wspay/templates/shop_wspay/failed.html,sha256=z38gp8gsKhPm1bdxuWVTQCDpaOl6hQV_GSBl4RZ5Op0,65
+shop_wspay/templates/shop_wspay/payment.html,sha256=IH0XNDm59wcf2YOhXTcjOrHK9Ln2Xq_hwynQESTL-oY,204
