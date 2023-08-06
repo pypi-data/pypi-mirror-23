@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+libt3/__about__.py
+libt3/__init__.py
+libt3.egg-info/PKG-INFO
+libt3.egg-info/SOURCES.txt
+libt3.egg-info/dependency_links.txt
+libt3.egg-info/entry_points.txt
+libt3.egg-info/requires.txt
+libt3.egg-info/top_level.txt
