@@ -1,0 +1,7 @@
+README.rst
+setup.py
+listdiff/__init__.py
+listdiff.egg-info/PKG-INFO
+listdiff.egg-info/SOURCES.txt
+listdiff.egg-info/dependency_links.txt
+listdiff.egg-info/top_level.txt
