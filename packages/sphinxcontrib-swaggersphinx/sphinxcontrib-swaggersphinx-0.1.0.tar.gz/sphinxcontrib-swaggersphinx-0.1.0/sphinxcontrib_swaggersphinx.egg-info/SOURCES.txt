@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib/swaggersphinx/__init__.py
+sphinxcontrib/swaggersphinx/directive.py
+sphinxcontrib_swaggersphinx.egg-info/PKG-INFO
+sphinxcontrib_swaggersphinx.egg-info/SOURCES.txt
+sphinxcontrib_swaggersphinx.egg-info/dependency_links.txt
+sphinxcontrib_swaggersphinx.egg-info/top_level.txt
