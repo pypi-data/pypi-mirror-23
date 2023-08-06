@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>coverage &mdash; Counter RNAseq Window  documentation</title>
+    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Counter RNAseq Window  documentation" href="index.html" />
+    <link rel="next" title="heatmap" href="heatmap.html" />
+    <link rel="prev" title="wig" href="wig.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="heatmap.html" title="heatmap"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="wig.html" title="wig"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="coverage">
+<span id="id1"></span><h1>coverage<a class="headerlink" href="#coverage" title="Permalink to this headline">¶</a></h1>
+<p><em>coverage</em> module have 3 functions</p>
+<ul class="simple">
+<li>one which is an interface to pysam.</li>
+<li>an other with the same api to call the wig.chromosomes</li>
+<li>the third is a function selector accordingly the data input, wig or bam.</li>
+</ul>
+<div class="section" id="get-bam-coverage">
+<h2>get_bam_coverage<a class="headerlink" href="#get-bam-coverage" title="Permalink to this headline">¶</a></h2>
+<p>Get coverage from <cite>pysam</cite> for reference (<em>chromosome</em>) for an interval of positions, a quality on both strand.
+and convert the coverage return by <cite>pysam</cite>. A score on each position for each base (ACGT)) in a global coverage for this
+position.
+It also aligned all coverages return by <cite>pysam</cite> on the reference position by padding left and right by <code class="docutils literal"><span class="pre">None</span></code>.</p>
+<p>This function is called for each entry of the annotation file.</p>
+</div>
+<div class="section" id="get-wig-coverage">
+<h2>get_wig_coverage<a class="headerlink" href="#get-wig-coverage" title="Permalink to this headline">¶</a></h2>
+<p>Get coverage from <a class="reference internal" href="wig.html#craw.wig.Genome" title="craw.wig.Genome"><code class="xref py py-class docutils literal"><span class="pre">craw.wig.Genome</span></code></a> instance for reference (<em>chromosome</em>) for an interval of positions, on both strand.
+The quality parameter is here just to have the same signature as get_bam_coverage but will be ignores .
+It also aligned all coverages return by the Chromosome on the reference position by padding left and right by <code class="docutils literal"><span class="pre">None</span></code>.</p>
+<p>This function is called for each entry of the annotation file.</p>
+</div>
+<div class="section" id="coverage-api-reference">
+<h2>coverage API reference<a class="headerlink" href="#coverage-api-reference" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><span class="target" id="module-craw.coverage"></span><dl class="function">
+<dt id="craw.coverage.get_bam_coverage">
+<code class="descclassname">craw.coverage.</code><code class="descname">get_bam_coverage</code><span class="sig-paren">(</span><em>sam_file</em>, <em>annot_entry</em>, <em>start=None</em>, <em>stop=None</em>, <em>qual_thr=15</em>, <em>max_left=0</em>, <em>max_right=0</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/craw/coverage.html#get_bam_coverage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#craw.coverage.get_bam_coverage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the coverage for a region position by position on each strand</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>sam_file</strong> (<code class="xref py py-class docutils literal"><span class="pre">pysam.AlignmentFile</span></code> object.) &#8211; the samfile openend with pysam</li>
+<li><strong>annot_entry</strong> (<code class="xref py py-class docutils literal"><span class="pre">annotation.Entry</span></code> object) &#8211; an entry of the annotation file</li>
+<li><strong>start</strong> (<em>int</em>) &#8211; The position to start to compute the coverage(coordinates are 0-based, start position is included).</li>
+<li><strong>stop</strong> (<em>int</em>) &#8211; The position to start to compute the coverage (coordinates are 0-based, stop position is excluded).</li>
+<li><strong>qual_thr</strong> (<em>int</em>) &#8211; The quality threshold</li>
+<li><strong>max_left</strong> (<em>int</em>) &#8211; The highest number of base before the reference position to take in account.</li>
+<li><strong>max_right</strong> (<em>int</em>) &#8211; The highest number of base after  the reference position to take in account.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the coverage (all bases)</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">tuple of 2 list containing int</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="craw.coverage.get_coverage_function">
+<code class="descclassname">craw.coverage.</code><code class="descname">get_coverage_function</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/craw/coverage.html#get_coverage_function"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#craw.coverage.get_coverage_function" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>input</strong> (<code class="xref py py-class docutils literal"><span class="pre">wig.Genome</span></code> or <code class="xref py py-class docutils literal"><span class="pre">pysam.calignmentfile.AlignmentFile</span></code> object) &#8211; the input either a samfile (see pysam library) or a genome build from a wig file (see wig module)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">get_wig_coverage or get_bam_coverage according the type of input</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">function</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Raises RuntimeError:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">when input is not instance of <code class="xref py py-class docutils literal"><span class="pre">pysam.calignmentfile.AlignmentFile</span></code> or <code class="xref py py-class docutils literal"><span class="pre">wig.Genome</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="craw.coverage.get_wig_coverage">
+<code class="descclassname">craw.coverage.</code><code class="descname">get_wig_coverage</code><span class="sig-paren">(</span><em>genome</em>, <em>annot_entry</em>, <em>start=None</em>, <em>stop=None</em>, <em>max_left=0</em>, <em>max_right=0</em>, <em>qual_thr=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/craw/coverage.html#get_wig_coverage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#craw.coverage.get_wig_coverage" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>annot_entry</strong> (<code class="xref py py-class docutils literal"><span class="pre">annotation.Entry</span></code> object) &#8211; an entry of the annotation file</li>
+<li><strong>start</strong> (<em>int</em>) &#8211; The position to start to compute the coverage(coordinates are 0-based, start position is included).</li>
+<li><strong>stop</strong> (<em>int</em>) &#8211; The position to start to compute the coverage (coordinates are 0-based, stop position is excluded).</li>
+<li><strong>max_left</strong> (<em>int</em>) &#8211; The highest number of base before the reference position to take in account.</li>
+<li><strong>max_right</strong> (<em>int</em>) &#8211; The highest number of base after  the reference position to take in account.</li>
+<li><strong>qual_thr</strong> (<em>None</em>) &#8211; this parameter is not used, It&#8217;s here to have the same api as get_bam_coverage.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the coverage (all bases)</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">tuple of 2 list containing int</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">coverage</a><ul>
+<li><a class="reference internal" href="#get-bam-coverage">get_bam_coverage</a></li>
+<li><a class="reference internal" href="#get-wig-coverage">get_wig_coverage</a></li>
+<li><a class="reference internal" href="#coverage-api-reference">coverage API reference</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="wig.html"
+                        title="previous chapter">wig</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="heatmap.html"
+                        title="next chapter">heatmap</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/coverage.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="heatmap.html" title="heatmap"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="wig.html" title="wig"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2017, Bertrand Néron.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

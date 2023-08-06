@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Inputs / Outputs &mdash; Counter RNAseq Window 0.1a documentation</title>
+    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1a',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Counter RNAseq Window 0.1a documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window 0.1a documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="inputs-outputs">
+<span id="id1"></span><h1>Inputs / Outputs<a class="headerlink" href="#inputs-outputs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="craw-coverage">
+<h2>craw_coverage<a class="headerlink" href="#craw-coverage" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="inputs">
+<h3>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="bam-file">
+<h4>bam file<a class="headerlink" href="#bam-file" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="annotation-file">
+<h4>annotation file<a class="headerlink" href="#annotation-file" title="Permalink to this headline">¶</a></h4>
+<p>The annotation file is a tsv file. It&#8217;s mean that it is a tex file with value separated by tabulation (not spaces).
+The first line of the file must be the name of the columns
+the other lines the values. Each line represent a row.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>name    gene    chromosome      strand  Position
+YEL072W RMD6    chrV    +       14415
+YEL071W DLD3    chrV    +       17845
+YEL070W DSF1    chrV    +       21097
+YEL066W HPA3    chrV    +       27206
+YEL065W SIT1    chrV    +       29543
+YEL062W NPR2    chrV    +       36254
+YEL058W PCM1    chrV    +       44925
+YEL056W HAT2    chrV    +       48373
+</pre></div>
+</div>
+<p>All lines starting with &#8216;#&#8217; character will be ignored.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span># This is the annotation file for Wild type
+# bla bla ...
+name    gene    chromosome      strand  Position
+YEL072W RMD6    chrV    +       14415
+YEL071W DLD3    chrV    +       17845
+YEL070W DSF1    chrV    +       21097
+YEL066W HPA3    chrV    +       27206
+YEL065W SIT1    chrV    +       29543
+YEL062W NPR2    chrV    +       36254
+YEL058W PCM1    chrV    +       44925
+YEL056W HAT2    chrV    +       48373
+</pre></div>
+</div>
+<div class="section" id="mandatory-columns">
+<h5>mandatory columns<a class="headerlink" href="#mandatory-columns" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="columns-with-fixed-name">
+<h6>columns with fixed name<a class="headerlink" href="#columns-with-fixed-name" title="Permalink to this headline">¶</a></h6>
+</div>
+<div class="section" id="columns-with-variable-name">
+<h6>columns with variable name<a class="headerlink" href="#columns-with-variable-name" title="Permalink to this headline">¶</a></h6>
+<div class="highlight-python"><div class="highlight"><pre><span></span>name    gene    type    chromosome      strand  annotation_start        annotation_end  has_transcript  transcription_end       transcription_start
+YEL072W RMD6    gene    chrV    1       13720   14415   1       14745   13569
+YEL071W DLD3    gene    chrV    1       16355   17845   1       17881   16177
+YEL070W DSF1    gene    chrV    1       19589   21097   1       21197   19539
+YEL066W HPA3    gene    chrV    1       26721   27206   1       27625   26137
+YEL065W SIT1    gene    chrV    1       27657   29543   1       29601   27625
+YEL062W NPR2    gene    chrV    1       34407   36254   1       36401   34321
+YEL058W PCM1    gene    chrV    1       43252   44925   1       44993   43217
+YEL056W HAT2    gene    chrV    1       47168   48373   1       48457   47105
+YEL052W AFG1    gene    chrV    1       56571   58100   1       58105   56537
+</pre></div>
+</div>
+<p>All other columns are not necessary but will report as is in coverage file.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="outputs">
+<span id="cov-out"></span><h3>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="coverage-file">
+<h4>coverage_file<a class="headerlink" href="#coverage-file" title="Permalink to this headline">¶</a></h4>
+<p>It&#8217;s a <cite>tsv</cite> file with all columns found in annotation file plus the result of coverage position by position centered
+on the reference position define for each line. for instance</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_coverage -bam=../data/craw_data_test/WTE1.bam --annot=../data/craw_data_test/annotations.txt
+--ref-col=annotation_start --before=0  --after=2000
+</pre></div>
+</div>
+<p>In the command line above, the column &#8216;0&#8217; correspond to the annotation_start position the column &#8216;1&#8217; to annotation_start + 1
+on so on until &#8216;2000&#8217; (here we display only the first 3 columns of the coverage).</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span># Running Counter RnAseq Window
+# Version: craw NOT packaged, it should be a development version | Python 3.4
+# With the following arguments:
+# --after=2000
+# --annot=../data/craw_data_test/annotations.txt
+# --bam=../data/craw_data_test/WTE1.bam
+# --before=0
+# --output=WTE1_0+2000.new.cov
+# --qual-thr=15
+# --ref-col=annotation_start
+# --suffix=cov
+sense   name    gene    type    chromosome      strand  annotation_start        annotation_end  has_transcript  transcription_end       transcription_start     0       1       2
+S       YEL072W RMD6    gene    chrV    +       13720   14415   1       14745   13569   7       7       7
+AS      YEL072W RMD6    gene    chrV    +       13720   14415   1       14745   13569   0       0       0
+S       YEL071W DLD3    gene    chrV    +       16355   17845   1       17881   16177   31      33      33
+</pre></div>
+</div>
+<p>The line starting with &#8216;#&#8217; are comments and will be ignored for further processing.
+But in traceability/reproducibility concern, in the comments <cite>craw_coverage</cite> indicate
+the version of the program and the arguments used for this experiment.</p>
+</div>
+</div>
+</div>
+<div class="section" id="craw-htmp">
+<h2>craw_htmp<a class="headerlink" href="#craw-htmp" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>Inputs<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>see <a class="reference internal" href="#cov-out">cov_out</a></p>
+</div>
+<div class="section" id="id3">
+<h3>Outputs<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Inputs / Outputs</a><ul>
+<li><a class="reference internal" href="#craw-coverage">craw_coverage</a><ul>
+<li><a class="reference internal" href="#inputs">Inputs</a><ul>
+<li><a class="reference internal" href="#bam-file">bam file</a></li>
+<li><a class="reference internal" href="#annotation-file">annotation file</a><ul>
+<li><a class="reference internal" href="#mandatory-columns">mandatory columns</a><ul>
+<li><a class="reference internal" href="#columns-with-fixed-name">columns with fixed name</a></li>
+<li><a class="reference internal" href="#columns-with-variable-name">columns with variable name</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#outputs">Outputs</a><ul>
+<li><a class="reference internal" href="#coverage-file">coverage_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#craw-htmp">craw_htmp</a><ul>
+<li><a class="reference internal" href="#id2">Inputs</a></li>
+<li><a class="reference internal" href="#id3">Outputs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/inputs.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window 0.1a documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Bertrand Néron.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
