@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: pyice
+Version: 0.1.1
+Summary: Python 3 bindings for the Ice Web Framework
+Home-page: https://github.com/losfair/pyice
+Author: Heyang Zhou
+Author-email: i@ifxor.com
+License: UNKNOWN
+Download-URL: https://github.com/losfair/pyice/archive/master.zip
+Description: UNKNOWN
+Keywords: web,http,framework,ice
+Platform: UNKNOWN
+Requires-Python: >=3.5
