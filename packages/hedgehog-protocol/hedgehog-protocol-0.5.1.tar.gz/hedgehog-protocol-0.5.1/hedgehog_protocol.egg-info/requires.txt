@@ -1,0 +1,4 @@
+hedgehog-utils[protobuf,zmq]
+
+[dev]
+invoke
