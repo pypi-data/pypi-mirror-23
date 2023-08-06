@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pdb4amber
+Version: 1.4.1
+Summary: PDB analyzer to prepare PDB files for Amber simulations.
+Home-page: http://ambermd.org/
+Author: Romain M. Wolf and AMBER developers
+Author-email: amber@ambermd.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
