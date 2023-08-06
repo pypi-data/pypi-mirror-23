@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: wekapy
+Version: 1.3.2
+Summary: Simple Python wrapper for the WEKA toolkit.
+Home-page: https://github.com/faizsiddiqui/WekaPy
+Author: Faiz Siddiqui
+Author-email: faize.sid@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/faizsiddiqui/WekaPy/archive/1.3.2.tar.gz
+Description: UNKNOWN
+Keywords: WEKA,Machine Learning,Data Mining,Python
+Platform: UNKNOWN
