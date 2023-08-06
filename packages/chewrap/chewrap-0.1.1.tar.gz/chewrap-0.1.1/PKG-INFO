@@ -1,0 +1,355 @@
+Metadata-Version: 1.1
+Name: chewrap
+Version: 0.1.1
+Summary: CheWrap is a basic wrapper around Docker to interact with Eclipse Che's CLI.
+
+Home-page: https://github.com/tomstoneham/chewrap
+Author: Tom Stoneham
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/tomstoneham/chewrap
+Description: .. Don't edit the README.rst file directly.
+        .. Edit the build-readme.py script.
+        
+        =======
+        CheWrap
+        =======
+        ------------------------------------------------------------------------
+        A basic wrapper to make interacting with Eclipse Che a bit less painful.
+        ------------------------------------------------------------------------
+        
+        Interacting with Eclipse Che via the command line isn't very fun. You need to
+        type all this just to start Che's server::
+        
+          $ docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v /che/:/data/ -e CHE_PORT=80 eclipse/che start
+        
+        CheWrap aims to simplify that::
+        
+          $ che start -p 80
+        
+        CheWrap functions as a wrapper around the Docker commands needed to run Che -
+        you type a command into CheWrap, then it hands over control to the Che CLI. We
+        emphasise sane defaults - ``docker.sock`` is automatically bound into the
+        container, Che's data directory is automatically mapped to ``/che/`` on the
+        host machine. Everything is fully customizable though, and CheWrap is nearly as
+        flexible as using the raw ``docker run`` command.
+        
+        **Please note**, no sanitisation is performed on input, and CheWrap
+        **should not** be used with arbitrary user data.
+        
+        .. contents:: :depth: 2
+        
+        Installation
+        ============
+        
+        CheWrap can be installed via pip::
+        
+          $ pip install chewrap
+        
+        Or from source::
+        
+          $ git clone https://github.com/tomstoneham/chewrap
+          $ ln -s /full/path/to/CheWrap/chewrap/__main__.py /somewhere/on/your/path/che
+        
+        Please note that CheWrap has only been tested on Linux (Ubuntu 16.04), and will
+        likely not work on Windows/macOS.
+        
+        You'll need Docker installed before you use CheWrap and the ``che`` image
+        present. If you don't have the ``che`` image, pull it using docker::
+        
+          $ docker pull eclipse/che
+        
+        You will also need sufficient rights to run Docker when running CheWrap. So, if
+        you'd normally use "sudo" to run Docker, you will need to run CheWrap with
+        sudo.
+        
+        Usage
+        =====
+        
+        The syntax for using CheWrap is as follows::
+        
+          $ che "<CHE-COMMANDS>" [OPTIONS]
+        
+        ``<CHE-COMMANDS>`` should be whatever commands you want to send to the Che CLI.
+        So, if you would normally enter::
+        
+          $ docker run . . . eclipse/che start --pull
+        
+        The syntax with CheWrap would instead be::
+        
+          $ che "start --pull" . . .
+        
+        This applies to anything that comes after the image name since that is
+        interpreted by the Che CLI, not Docker. To control things like bind mounts and
+        environment variables, which are set by Docker, options must be used.
+        
+        **Remember**, CheWrap needs permission to access the Docker CLI. If you have to
+        use "sudo" to use Docker, you will also have to run CheWrap with "sudo".
+        
+        Options
+        -------
+        
+        CheWrap makes available most of the common Docker options when working with
+        Che. For example, to bind mount a directory from the host to the Che
+        container's ``/data`` directory, you just use the ``-d`` or ``--data`` option.
+        
+        ::
+        
+          $ che start -d /tmp/che
+        
+        Is equivilant to::
+        
+          $ docker run -it --rm -v /tmp/che:/data . . .
+        
+        By default, if the ``--data`` option isn't passed, CheWrap uses ``/che/``.
+        There are a few other defaults:
+        
+         * CheWrap assumes that the ``docker`` command is the Docker CLI
+         * ``eclipse/che`` is the image used for the Che CLI
+         * The CLI container is automatically removed when it exits
+         * The ``/var/run/docker.sock`` socket is automatically bound into the
+           container
+        
+        All of these can be customised using the options below.
+        
+        --archetype <DIR>
+        ~~~~~~~~~~~~~~~~~
+        
+        Local path where your custom assembly will be generated.
+        
+        Used with the ``che archetype`` command.
+        
+        Binds ``<DIR>`` to ``/archetype``.
+        
+        -a, --assembly <DIR>
+        ~~~~~~~~~~~~~~~~~~~~
+        
+        Use a custom che assembly - Che uses local binaries.
+        
+        Binds ``<DIR>`` to ``/assembly``.
+        
+        -b, --backup-data <DIR>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Where backup files will be saved.
+        
+        Used with the ``che backup`` command.
+        
+        Binds ``<DIR>`` to ``/data/backup``.
+        
+        --che-image <IMAGE>
+        ~~~~~~~~~~~~~~~~~~~
+        
+        Docker image to use as the Che CLI.
+        
+        **Default:** ``eclipse/che``
+        
+        --chedir <DIR>
+        ~~~~~~~~~~~~~~
+        
+        Soure repository to convert into workspace with Chedir utility.
+        
+        Used with the ``che dir`` command.
+        
+        Binds ``<DIR>`` to ``/chedir``.
+        
+        -d, --data <DIR>
+        ~~~~~~~~~~~~~~~~
+        
+        Where user, instance, and log data are saved.
+        
+        Binds ``<DIR>`` to ``/data``.
+        
+        **Default:** ``/che/``
+        
+        --docker-bin <BIN>
+        ~~~~~~~~~~~~~~~~~~
+        
+        Name of the Docker binary/executable.
+        
+        **Default:** ``docker``
+        
+        --docker-opts "<OPTIONS>"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Extra arguments to pass to the Docker run command.
+        
+        **Example:** Running::
+        
+          $ che "start" --docker-opts "-m 1G"
+        
+        Is the same as::
+        
+          $ docker run -it --rm -m 1G . . .
+        
+        --docker-sock </PATH/TO/DOCKER.SOCK>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Location of Docker's Unix socket on your system.
+        
+        Binds ``</PATH/TO/DOCKER.SOCK>`` to ``/var/run/docker.sock``.
+        
+        **Default:** ``/var/run/docker.sock``
+        
+        --host <HOST>
+        ~~~~~~~~~~~~~
+        
+        IP address or hostname where che will serve its users.
+        
+        Sets environment variable ``CHE_HOST`` to ``<HOST>``.
+        
+        -i, --instance-data <DIR>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Where instance, user, log data will be saved.
+        
+        Binds ``<DIR>`` to ``/data/instance``.
+        
+        --m2 <DIR>
+        ~~~~~~~~~~
+        
+        Local path to your host's Maven M2 repository.
+        
+        Used with the ``che archetype`` command.
+        
+        Binds ``<DIR>`` to ``/m2``.
+        
+        -n, --name <NAME>
+        ~~~~~~~~~~~~~~~~~
+        
+        Name for the che container.
+        
+        Sets environment variable ``CHE_CONTAINER`` to ``<NAME>``.
+        
+        --omit-socket
+        ~~~~~~~~~~~~~
+        
+        Don't bind the docker.sock Unix socket to the container.
+        
+        -p, --port <PORT>
+        ~~~~~~~~~~~~~~~~~
+        
+        Port which che will bind itself to.
+        
+        Sets environment variable ``CHE_PORT`` to ``<PORT>``.
+        
+        --preserve-container
+        ~~~~~~~~~~~~~~~~~~~~
+        
+        Preserve the container for the CLI once it has exited.
+        
+        -q, --quiet
+        ~~~~~~~~~~~
+        
+        Don't display the command to be run in Docker before executing it.
+        
+        -r, --repo <DIR>
+        ~~~~~~~~~~~~~~~~
+        
+        Che git repo - uses local binaries and manifests.
+        
+        Binds ``<DIR>`` to ``/repo``.
+        
+        -s, --sync <DIR>
+        ~~~~~~~~~~~~~~~~
+        
+        Where remote ws files will be copied with sync command.
+        
+        Used with the ``che sync`` command.
+        
+        Binds ``<DIR>`` to ``/sync``.
+        
+        --unison <DIR>
+        ~~~~~~~~~~~~~~
+        
+        Where unison profile for optimizing sync command resides.
+        
+        Used with the ``che sync`` command.
+        
+        Binds ``<DIR>`` to ``/unison``.
+        
+        -u, --user <NAME|UID>[:<GROUP|GID>]
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Runs che with specific user and group identity.
+        
+        -v, --version
+        ~~~~~~~~~~~~~
+        
+        Display the version and exit.
+        
+        Examples
+        ========
+        
+        ::
+        
+          # Start Che
+          $ che start
+        
+          # Start Che if you are not in the Docker user group
+          $ sudo che start
+        
+          # Stop Che
+          $ che stop
+        
+          # Start che with the server's external IP & a port set
+          $ che start --host 203.0.113.76 -p 1337
+        
+          # Passing the Che CLI multiple arguments & setting different data & backup
+          # directories
+          $ che "backup --no-skip-data" -d /tmp/che -b /backups
+        
+          # Setting a custom Docker option & passing the Che CLI multiple arguments
+          $ che "start --pull" --docker-opts "-e CHE_HTTPS_PROXY=203.0.113.77"
+        
+          # SSH-ing into a workspace & preserving the CLI container
+          $ che "ssh my-awesome-workspace dev --user test" --preserve-container
+        
+        Contributing
+        ============
+        
+        Thanks for your interest in contributing to CheWrap! :smile:
+        
+        Bug Reports
+        -----------
+        
+        Bug reports should include the version of CheWrap you're using (``che -v``),
+        your OS & version of Python, the full command you entered to run CheWrap, and
+        the full output. If the bug isn't obvious, please explain what you expected to
+        happen, and what actually happened.
+        
+        Contributing Code/Docs
+        ----------------------
+        
+        Thank you for contributing to CheWrap :) If you plan to make a big change, you
+        might want to open an issue to discuss it beforehand, to avoid wasting your
+        time on code that won't be merged. Please try to follow PEP8 and contribute as
+        you would anywhere else.
+        
+        Please see
+        `tests/README.rst <https://github.com/tomstoneham/chewrap/blob/master/tests/README.rst>`_
+        for technical details of how to contribute.
+        
+        License
+        =======
+        
+        CheWrap is released under the MIT license - see
+        `LICENSE <https://github.com/tomstoneham/chewrap/blob/master/LICENSE>`_.
+        
+Keywords: eclipse che docker
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Systems Administration
