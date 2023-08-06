@@ -1,0 +1,3 @@
+[console_scripts]
+maranet = maranet.cli:cli
+
