@@ -1,0 +1,16 @@
+numpy_stl-2.3.0.dist-info/DESCRIPTION.rst,sha256=cogpnJotVtoydyrdryMtS-hmcgG9ysqZJomrAHBYEn8,13316
+numpy_stl-2.3.0.dist-info/METADATA,sha256=8gV4gUsl72atDmLNHo9tThMSMu6PtDskcMxxU4AzBtE,13723
+numpy_stl-2.3.0.dist-info/RECORD,,
+numpy_stl-2.3.0.dist-info/WHEEL,sha256=ik3fqPMJj7D-0Wemai2knvDSFoYiYBivUGU3xLcAFwY,111
+numpy_stl-2.3.0.dist-info/entry_points.txt,sha256=-f-InFXabZxH99eKiKC0_mj38V7UaSH48g3sbgBXPsY,98
+numpy_stl-2.3.0.dist-info/metadata.json,sha256=y8K1Z19hQy7t5qTzaG577T7NeyAqohGvhwmzoGvScpI,920
+numpy_stl-2.3.0.dist-info/pbr.json,sha256=5q5EjChoZqfBT7kCWuOureMqngMp_VitoiHq_W0AivY,47
+numpy_stl-2.3.0.dist-info/top_level.txt,sha256=uhNU6NfJF-H1ykSlU9oT3dAfUibkYXjmXGGxjMCe2ls,4
+stl/__about__.py,sha256=M_6oP6D0Kd5JEVJxvns9nPw1EK9N2ntLBIgGhklXRsM,320
+stl/__init__.py,sha256=KzsMo_q3v1S5ocj1reh3zBCWYz1b1otKvU1bP040fT0,375
+stl/_speedups.so,sha256=zhakzgyKDNqOGFNWlgEkBRgWyRxGAk3MBKAqqT6POcw,73984
+stl/base.py,sha256=H1zLUhZ7Ob9nRA0D_32PsZ3yvPpUC00v6eG1gcn2Tlc,17578
+stl/main.py,sha256=XeTQ3ZJfUe_YWoUX3p6dsuathh5codU2GwpQYzmEboY,3277
+stl/mesh.py,sha256=oJPmEnjQiQV1LKdo5LGVhowbNvMLIbmjvSkCKEd1rZM,55
+stl/stl.py,sha256=3hLw09iF0d8DKyT31HZ3vX1bubqbOmEf0bCf_tTQREM,12864
+stl/utils.py,sha256=1RRO0T5hjqJ-KIyF7-wcq-DAQ_8xniphNQKcuA9m4iY,541
