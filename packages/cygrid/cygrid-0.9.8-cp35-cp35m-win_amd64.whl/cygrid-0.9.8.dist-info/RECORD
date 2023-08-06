@@ -1,0 +1,12 @@
+cygrid/__init__.py,sha256=DBJEHMGY6ZaDPunU2UJLstbAR54F-1sGbx7mKqCISIU,94
+cygrid/cygrid.cp35-win_amd64.pyd,sha256=zk2zAuC8CWGFf9OOI_OQqLnzkKjvoy-F5d2PpZozEDs,280576
+cygrid/healpix.cp35-win_amd64.pyd,sha256=1oSN3BNgbLeULeWVHtXAkJhdpNaP5BdEQ0EIc5LIzrQ,175616
+cygrid/helpers.cp35-win_amd64.pyd,sha256=txgXMOx-sU5K36l1uRodK78J0cWtez-hiUuzgpD9B1I,45568
+cygrid/hphashtab.cp35-win_amd64.pyd,sha256=0xYY1FZttvanW58rTWu7Cn7NxhxXIgxyw3CKcsAgTK8,194048
+cygrid/kernels.cp35-win_amd64.pyd,sha256=1L6dNuhDUzLuyDWS1wXyUyA1zQCMQVLwWqQk-IR2IEw,104448
+cygrid-0.9.8.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cygrid-0.9.8.dist-info/METADATA,sha256=FOC_gyJdUHaHUX4_x7LA0KDptFQkF8sBulPBB-RVdAc,851
+cygrid-0.9.8.dist-info/RECORD,,
+cygrid-0.9.8.dist-info/WHEEL,sha256=SUgfiiDWQYcL1n6t2OS_7aUz1Z2lCAWOT6Rx0MQyQko,106
+cygrid-0.9.8.dist-info/metadata.json,sha256=FodzG5YkXhBhsmV7-TXTaOIHjW6O5kQ6gNbOcQgCcz0,993
+cygrid-0.9.8.dist-info/top_level.txt,sha256=TPFuBqe-zh3deoJqBoBhfqvuoU0WyoMg5svobUs-4uY,7
