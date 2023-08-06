@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: easyAI
+Version: 1.0.0.3
+Summary: Easy-to-use game AI algorithms (Negamax etc.)
+Home-page: https://github.com/Zulko/easyAI
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: board games AI artificial intelligence negamax
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
