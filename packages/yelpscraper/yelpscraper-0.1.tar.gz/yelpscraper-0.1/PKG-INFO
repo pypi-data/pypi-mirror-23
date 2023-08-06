@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: yelpscraper
+Version: 0.1
+Summary: scrape yelp rresturant data for given zipcode
+Home-page: http://github.com/smottahedi/yelpscraper
+Author: Sam Mottahedi
+Author-email: sammottahedi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

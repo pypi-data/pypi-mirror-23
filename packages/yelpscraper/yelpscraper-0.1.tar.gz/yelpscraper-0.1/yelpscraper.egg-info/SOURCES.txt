@@ -1,0 +1,11 @@
+README.txt
+setup.py
+yelpscraper/__init__.py
+yelpscraper/getzipcode.py
+yelpscraper/logger.py
+yelpscraper/yelpscraper.py
+yelpscraper.egg-info/PKG-INFO
+yelpscraper.egg-info/SOURCES.txt
+yelpscraper.egg-info/dependency_links.txt
+yelpscraper.egg-info/not-zip-safe
+yelpscraper.egg-info/top_level.txt
