@@ -1,0 +1,10 @@
+darksky/__init__.py,sha256=L2PCOGlkqqucXsEI39O1E_tZsfxArMxLhJKwB6BlyPc,151
+darksky/data.py,sha256=fKnYY1omqdlqsRGbVg8mnnseDzhPmhCl16qs8PZeHSk,1634
+darksky/forecast.py,sha256=tNvnWDeMNxDjpvCMOgtYTcrt-oH2RbiIxBTjkHuGOd4,1820
+darkskylib-0.3.2.dist-info/DESCRIPTION.rst,sha256=zlJ_gPZefdztZg0yiYchfEEDGluw0IBnJchwZK6KbfA,7065
+darkskylib-0.3.2.dist-info/METADATA,sha256=otEF47z1fR-Ey2FFvEalnIqJISxJ-DWr-OLQQFRwsDw,8068
+darkskylib-0.3.2.dist-info/RECORD,,
+darkskylib-0.3.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+darkskylib-0.3.2.dist-info/metadata.json,sha256=1MvuOf5WOS2ZQN17RQtFPbr0aPsV38e_IMiCrqQ8OQE,1144
+darkskylib-0.3.2.dist-info/top_level.txt,sha256=YtWqgdB4krvGixukvkqNusGHAp3_HOA52_q_gb8DcK8,8
+darkskylib-0.3.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
