@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+Flask_SlimREST.egg-info/PKG-INFO
+Flask_SlimREST.egg-info/SOURCES.txt
+Flask_SlimREST.egg-info/dependency_links.txt
+Flask_SlimREST.egg-info/requires.txt
+Flask_SlimREST.egg-info/top_level.txt
+flask_slimrest/__init__.py
+flask_slimrest/__version__.py
+flask_slimrest/decorators.py
+flask_slimrest/exceptions.py
+flask_slimrest/pagination.py
+flask_slimrest/slim_rest.py
+flask_slimrest/utils.py
