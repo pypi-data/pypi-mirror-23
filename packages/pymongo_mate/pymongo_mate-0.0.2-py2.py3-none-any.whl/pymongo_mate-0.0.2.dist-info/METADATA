@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pymongo-mate
+Version: 0.0.2
+Summary: A library extend pymongo module, makes CRUD easier.
+Home-page: https://github.com/MacHu-GWU/pymongo_mate-project
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+License: MIT
+Download-URL: https://github.com/MacHu-GWU/pymongo_mate-project/tarball/2017-07-19
+Requires-Dist: pymongo
+
+.. image:: https://travis-ci.org/MacHu-GWU/pymongo_mate-project.svg?branch=master
+
+
