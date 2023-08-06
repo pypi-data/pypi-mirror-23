@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: elementary-math
+Version: 0.0.3
+Summary: Elementary Mathematics.
+Home-page: https://github.com/MacHu-GWU/elementary_math-project
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+License: MIT
+Download-URL: https://github.com/MacHu-GWU/elementary_math-project/tarball/2017-07-18
+
+.. image:: https://travis-ci.org/MacHu-GWU/elementary_math-project.svg?branch=master
+
+
