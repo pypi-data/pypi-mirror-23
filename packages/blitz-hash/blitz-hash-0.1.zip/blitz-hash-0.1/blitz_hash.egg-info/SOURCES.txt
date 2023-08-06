@@ -1,0 +1,8 @@
+README
+setup.py
+blitz_hash/__init__.py
+blitz_hash/sha256.py
+blitz_hash.egg-info/PKG-INFO
+blitz_hash.egg-info/SOURCES.txt
+blitz_hash.egg-info/dependency_links.txt
+blitz_hash.egg-info/top_level.txt

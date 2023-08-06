@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: blitz-hash
+Version: 0.1
+Summary: SIMD and coprocessor accelerated hashing functions
+Home-page: http://blitz.works/blitz-hash
+Author: Da_Blitz
+Author-email: code@blitz.works
+License: MIT BSD
+Description: 
+        Blitz-Hash
+        ----------
+        
+        Hash functions sped up using intrinsiics and coprocessors
+        
+        ``Note:`` This repo is currently work in progress
+        
+        Planned support list:
+        
+        
+        * sha1-neon
+        * sha256-neon
+        * crc-neon
+        * sha1-x86
+        * sha256-x86
+        
+Keywords: sha sha1 sha256 hashlib hash turbo neon intrinsics simd sse
+Platform: UNKNOWN

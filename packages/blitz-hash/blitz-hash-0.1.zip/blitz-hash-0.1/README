@@ -1,0 +1,13 @@
+Blitz-Hash
+-----------
+Hash functions sped up using intrinsiics and coprocessors
+
+`Note:` This repo is currently work in progress
+
+Planned support list:
+ * sha1-neon
+ * sha256-neon
+ * crc-neon
+ * sha1-x86
+ * sha256-x86
+
