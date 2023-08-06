@@ -1,0 +1,11 @@
+include MANIFEST.in
+include README.md
+include LICENSE.md
+include VERSION
+recursive-include src/pytransit/data *
+recursive-include src/pytransit/genomes *
+recursive-include src/pytransit/doc/build/html/ *
+#recursive-include pytransit/data *
+#recursive-include pytransit/genomes *
+#recursive-include pytransit/doc/build/html/ *
+
