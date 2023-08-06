@@ -1,0 +1,15 @@
+krikos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krikos/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krikos/data/loader.py,sha256=4ODoCoejUX1evKI-NCly_vQfZEcwchsI8uUHJ9uzZug,2141
+krikos/data/utils.py,sha256=aR04w16mMl6UZD-l28ZkVMMPTJvMLXWkWtDSjHMld8w,205
+krikos/nn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krikos/nn/layer.py,sha256=cLwM4DzPKXjtkv_Jvsk2tXIux7AluQWI-NrIQ9hxA9Y,9786
+krikos/nn/loss.py,sha256=fogMoXW1gCv1AU9Q1WZy9GRbRHIzhJUZbr3iKvvEy-o,914
+krikos/nn/network.py,sha256=jrr_DM8Ygj1LnPPervsd_knlHl2A57IQXMlLEWgMOB4,1741
+krikos/nn/regularization.py,sha256=ZYujynO4TmTETdJqKZEp11l-Vsh7-ZK0oI52sP1HkOw,542
+krikos-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+krikos-0.1.dist-info/METADATA,sha256=a0AZDrxxIqk9nzJZJiW0Xm3yLyQHPMXyp_Jui6aD2oo,442
+krikos-0.1.dist-info/RECORD,,
+krikos-0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+krikos-0.1.dist-info/metadata.json,sha256=EPnZRTaX0sGBrRNLTjhcQpYMNAV1eVLPrKIY66GuWPM,659
+krikos-0.1.dist-info/top_level.txt,sha256=YgmRyR3VD6Eh6J2cw9cfFX1Ikll8n-KJsrSTWKGc1lA,7
