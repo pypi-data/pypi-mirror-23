@@ -1,0 +1,16 @@
+configparser
+enum34
+libvirt-python
+lockfile
+lxml
+paramiko
+pbr
+pyxdg
+PyYAML
+scp
+setuptools
+stevedore
+wrapt
+Jinja2
+xmltodict
+netaddr
