@@ -1,0 +1,2 @@
+include roboticia_drive/configuration/*.json
+include roboticia_drive/vrep-scene/*.ttt
