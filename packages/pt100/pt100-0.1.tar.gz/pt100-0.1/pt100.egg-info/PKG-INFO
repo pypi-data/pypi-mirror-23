@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: pt100
+Version: 0.1
+Summary: Python package with different calculation algorithms for Pt100 temperature sensors
+Home-page: https://github.com/pklaus/python_pt100
+Author: Philipp Klaus
+Author-email: philipp.l.klaus@web.de
+License: GPL
+Description: pt100
+        =====
+        
+        Python package with different calculation algorithms for Pt100
+        temperature sensors.
+        
+        This package was written to facilitate converting Pt100 sensor
+        resistance values to temperature values and back. Different algorithms
+        (e.g. lookup tables) and approximating polygonal functions are described
+        in literature and in different sites on the Internet. A further aim of
+        this package is to make it easy to choose the right approximation or
+        algorithm.
+        
+Keywords: Pt100 temperature sensors
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization

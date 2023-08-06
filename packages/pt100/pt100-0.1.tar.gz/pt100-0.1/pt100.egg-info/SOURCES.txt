@@ -1,0 +1,10 @@
+setup.py
+pt100/__init__.py
+pt100/lookuptable.py
+pt100/test.py
+pt100.egg-info/PKG-INFO
+pt100.egg-info/SOURCES.txt
+pt100.egg-info/dependency_links.txt
+pt100.egg-info/requires.txt
+pt100.egg-info/top_level.txt
+pt100.egg-info/zip-safe
