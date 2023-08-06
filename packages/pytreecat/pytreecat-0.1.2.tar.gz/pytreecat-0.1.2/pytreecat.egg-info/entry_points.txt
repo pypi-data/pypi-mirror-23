@@ -1,0 +1,5 @@
+[console_scripts]
+treecat.format = treecat.format:parsable.dispatch
+treecat.generate = treecat.generate:parsable.dispatch
+treecat.profile = treecat.profile:parsable.dispatch
+
