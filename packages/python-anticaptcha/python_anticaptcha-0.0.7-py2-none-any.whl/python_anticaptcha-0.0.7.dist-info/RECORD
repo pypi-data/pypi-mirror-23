@@ -1,0 +1,10 @@
+python_anticaptcha/__init__.py,sha256=0410ablRAF4c3no2bR4OGWdA6rCjCErMuEO3gGC2PHw,113
+python_anticaptcha/base.py,sha256=Gtjcwo4e383F4cZEYCPQIAo4NbNxFpJ3gfhqLOtvs6w,3083
+python_anticaptcha/exceptions.py,sha256=Voxm_KInGxGAL5A8Is9ORsygYyk5sxG0mo5j9kyEICA,251
+python_anticaptcha/tasks.py,sha256=_kcjOEy-Frdalawvp44WleC2oOYHr27SXaGMGY3KkYk,2694
+python_anticaptcha-0.0.7.dist-info/DESCRIPTION.rst,sha256=fHCk9FQAgjZ01No80VmXu_ilF1NnFfKmUTyKsx7UHRc,2254
+python_anticaptcha-0.0.7.dist-info/METADATA,sha256=HfG-spbodpoM5B6vRn8twUp-Cww2731oXPGHBk2Wt6Y,3031
+python_anticaptcha-0.0.7.dist-info/RECORD,,
+python_anticaptcha-0.0.7.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+python_anticaptcha-0.0.7.dist-info/metadata.json,sha256=COKs7n8UY5CCHPQvLLeq-jUQ7UAdE4gTpAXXzBKt7Fs,951
+python_anticaptcha-0.0.7.dist-info/top_level.txt,sha256=SxRL0T_eHr7l9jCC_cUsakrZOHLejPt4NzTtrBrNZPo,19
