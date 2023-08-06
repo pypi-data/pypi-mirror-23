@@ -1,0 +1,5 @@
+httptools
+uvloop
+ujson
+aiofiles
+websockets
