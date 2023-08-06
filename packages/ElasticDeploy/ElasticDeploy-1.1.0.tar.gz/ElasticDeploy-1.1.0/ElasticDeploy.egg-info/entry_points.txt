@@ -1,0 +1,3 @@
+[console_scripts]
+elasticdeploy = elasticdeploy.main:main
+

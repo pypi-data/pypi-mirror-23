@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+ElasticDeploy.egg-info/PKG-INFO
+ElasticDeploy.egg-info/SOURCES.txt
+ElasticDeploy.egg-info/dependency_links.txt
+ElasticDeploy.egg-info/entry_points.txt
+ElasticDeploy.egg-info/top_level.txt
+ElasticDeploy.egg-info/zip-safe
+elasticdeploy/__init__.py
+elasticdeploy/helpers.py
+elasticdeploy/main.py
+elasticdeploy/mainFunctions.py
+elasticdeploy/s3.py

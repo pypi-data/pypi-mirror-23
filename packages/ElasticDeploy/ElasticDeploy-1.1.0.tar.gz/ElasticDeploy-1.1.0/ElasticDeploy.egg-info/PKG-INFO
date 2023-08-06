@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ElasticDeploy
+Version: 1.1.0
+Summary: Deploy multiple applications/services/websites on a single Elastic Beanstalk environment.
+Home-page: https://github.com/tscheiki/ElasticDeploy
+Author: Markus Tscheik
+Author-email: markus.tscheik@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: aws elastic beanstalk multi deployment
+Platform: UNKNOWN
