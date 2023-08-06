@@ -1,0 +1,10 @@
+MANIFEST.in
+libjs.a
+pacparser.o
+pacparser_py.c
+setup.py
+pacparser/__init__.py
+pacparser.egg-info/PKG-INFO
+pacparser.egg-info/SOURCES.txt
+pacparser.egg-info/dependency_links.txt
+pacparser.egg-info/top_level.txt
