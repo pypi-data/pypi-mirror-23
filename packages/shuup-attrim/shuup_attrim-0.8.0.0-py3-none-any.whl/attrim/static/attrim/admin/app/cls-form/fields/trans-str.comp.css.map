@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,sBAAY;EACR,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,QAAQ",
+"sources": ["trans-str.comp.sass"],
+"names": [],
+"file": "trans-str.comp.css"
+}
