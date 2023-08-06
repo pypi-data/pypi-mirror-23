@@ -1,0 +1,9 @@
+mdvl.py
+setup.cfg
+setup.py
+mdvl.egg-info/PKG-INFO
+mdvl.egg-info/SOURCES.txt
+mdvl.egg-info/dependency_links.txt
+mdvl.egg-info/entry_points.txt
+mdvl.egg-info/not-zip-safe
+mdvl.egg-info/top_level.txt
