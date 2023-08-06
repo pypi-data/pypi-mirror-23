@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+iddmma4/__init__.py
+iddmma4/package_data.dat
+iddmma4.egg-info/PKG-INFO
+iddmma4.egg-info/SOURCES.txt
+iddmma4.egg-info/dependency_links.txt
+iddmma4.egg-info/entry_points.txt
+iddmma4.egg-info/requires.txt
+iddmma4.egg-info/top_level.txt
