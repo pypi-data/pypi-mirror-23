@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: QueryOEM
+Version: 1.0.0
+Summary: Query OEM for product informations
+Home-page: https://github.com/FRReinert/StationScrapping
+Author: Fabricio Roberto reinert
+Author-email: fabricio.reinert@live.com
+License: MIT license
+Keywords: OEM,Dell,Python,Web,Scrapping,JSON
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# QueryOEM
+Query OEM for information about workstations, laptops, servers and others.
+
+
+
+
+# QueryOEM
+Query OEM for information about workstations, laptops, servers and others.
+
+1.0.0 First Release, 07/04/2017
+- Installable module
+- Support Dell OEM
+- Query single/multuple service tags
+- Export to json
+

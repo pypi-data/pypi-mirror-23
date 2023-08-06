@@ -1,0 +1,13 @@
+QueryOEM/__init__.py,sha256=IIl2K5uWw2YuaQhEuQ4RKku8BbGatt4oTU1rNsFKWB4,145
+QueryOEM/converters.py,sha256=CF27zyzU4KPHubHO5z0ixWlM5Ir_CbeFqXH5Gnxbk9s,1135
+QueryOEM/dell.py,sha256=krHSBf_zMzO6BhXkDUnr_pxIA_CmQYpAjS2RrVov2bQ,5930
+QueryOEM/errors.py,sha256=j4ko-FqEEgw7glc0i4c6wLJtLIpT3_3sCbl5H0BGgf4,2193
+QueryOEM/scrapping.py,sha256=zOt0kakGbXVQS0mXQT8lVWHX5zws4WPGdhqA_mNFdck,3819
+QueryOEM/test.py,sha256=fvNp9Smiw2_Gdp44Ge-oQGGZwpxrwB83u2ENsbU4AcY,1459
+QueryOEM/conf/__init__.py,sha256=O22-V9KG-vTXv_9LTO5OC5TXyZmkROpNOckaMN-ziCc,1446
+QueryOEM-1.0.0.dist-info/DESCRIPTION.rst,sha256=ScI3xvIRjFStrGkB21ZBU2cnvxUh_KD6MrR2IzQG1jo,304
+QueryOEM-1.0.0.dist-info/METADATA,sha256=k9LPXWm4aeQYkq0aRrE6Jir-qg-R7OYEBnetMJgom2Y,902
+QueryOEM-1.0.0.dist-info/RECORD,,
+QueryOEM-1.0.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+QueryOEM-1.0.0.dist-info/metadata.json,sha256=HYk1ihchbgup60f8iqDR_ESSPnyB11LmnU766StcUr4,802
+QueryOEM-1.0.0.dist-info/top_level.txt,sha256=AdOENF0WIgPOpQmSB8ZPyzYBgSW6_kIShBnnUwd4xDo,9
