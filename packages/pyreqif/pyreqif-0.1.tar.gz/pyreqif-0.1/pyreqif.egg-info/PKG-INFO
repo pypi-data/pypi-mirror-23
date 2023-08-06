@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pyreqif
+Version: 0.1
+Summary: very basic python implementation of reqif object model with import and export feature ...
+Home-page: http://github.com/ebroecker/pyreqif
+Author: Eduard Broecker
+Author-email: eduard@gmx.de
+License: BSD
+Description:         supported file formats for import:
+                
+                    .reqif
+                
+                
+                supported file formats for export:
+                
+                    .reqif
+                
+                    .xlsx
+                    
+                    .html
+        
+Keywords: reqif requirements interchange format
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering

@@ -1,0 +1,7 @@
+future
+
+[reqif]
+lxml
+
+[xlsx]
+xlsxwriter

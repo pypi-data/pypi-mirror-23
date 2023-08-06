@@ -1,0 +1,15 @@
+reqif2html.py
+reqif2xlsx.py
+setup.py
+pyreqif/__init__.py
+pyreqif/extractOleData.py
+pyreqif/html.py
+pyreqif/ole2rtf.py
+pyreqif/pyreqif.py
+pyreqif/reqif.py
+pyreqif/xlsx.py
+pyreqif.egg-info/PKG-INFO
+pyreqif.egg-info/SOURCES.txt
+pyreqif.egg-info/dependency_links.txt
+pyreqif.egg-info/requires.txt
+pyreqif.egg-info/top_level.txt
