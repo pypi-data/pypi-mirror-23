@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+uinames/__init__.py
+uinames/api.py
+uinames/models.py
+uinames/utils.py
+uinames.egg-info/PKG-INFO
+uinames.egg-info/SOURCES.txt
+uinames.egg-info/dependency_links.txt
+uinames.egg-info/requires.txt
+uinames.egg-info/top_level.txt
