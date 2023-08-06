@@ -1,0 +1,5 @@
+PyProtocols
+SQLObject >= 0.9.0, < 3.4
+configobj
+ply
+simplejson
