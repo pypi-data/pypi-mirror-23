@@ -1,0 +1,7 @@
+setup.py
+annotated/__init__.py
+annotated/annotated.py
+annotated.egg-info/PKG-INFO
+annotated.egg-info/SOURCES.txt
+annotated.egg-info/dependency_links.txt
+annotated.egg-info/top_level.txt
