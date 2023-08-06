@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pic2text
+Version: 0.5
+Summary: A small tool that converts photos to semi-readable/viewable strings and then pastes them in the cmd-line or outputs a txt file
+Home-page: https://github.com/STJudd109/pic2text
+Author: Spencer Judd
+Author-email: spencerjfam@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/STJudd109/pic2text/archive/v0.4.tar.gz
+Description: UNKNOWN
+Keywords: picture,commandline,silly
+Platform: UNKNOWN
