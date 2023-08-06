@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: firefly-python
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: rorodata
+Author-email: rorodata.team@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML (==3.12)
+Requires-Dist: WebOb (==1.7.2)
+Requires-Dist: gunicorn (==19.7.1)
+Requires-Dist: requests (==2.18.1)
+
+UNKNOWN
+
+
