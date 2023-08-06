@@ -1,0 +1,4 @@
+include cemu/img/icon.png
+include cemu/templates/*.raw
+include cemu/templates/*.asm
+include cemu/syscalls/*.csv
