@@ -1,0 +1,530 @@
+@  changeset:   63:5f8191099c2b
+|  tag:         tip
+|  user:        Dr. Leo <fhaxbox66@gmail.com>
+|  date:        Mon Jul 03 07:38:24 2017 +0200
+|  files:       README.txt
+|  description:
+|  update readme
+|
+|
+o  changeset:   62:80fc5d6e2a6a
+|  user:        Dr. Leo <fhaxbox66@gmail.com>
+|  date:        Mon Jul 03 07:38:11 2017 +0200
+|  files:       .hgtags
+|  description:
+|  Added tag v2.0.6 for changeset 2670b8b7a37a
+|
+|
+o  changeset:   61:2670b8b7a37a
+|  tag:         v2.0.6
+|  parent:      54:c73f3064d457
+|  user:        Dr. Leo <fhaxbox66@gmail.com>
+|  date:        Mon Jul 03 06:53:16 2017 +0200
+|  files:       README.txt setup.cfg setup.py
+|  description:
+|  make it pip-installable. See PR#1
+|
+|
+| o    changeset:   60:1d0910953af7
+| |\   parent:      59:6ee527d70c48
+| | |  parent:      53:4bb9665ef6c7
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 11:32:36 2017 +0200
+| | |  files:       2.x/config.py README.txt bin/hnj.win32-2.6.pyd setup.py
+| | |  description:
+| | |  Merge
+| | |
+| | |
+| | o  changeset:   59:6ee527d70c48
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 10:05:05 2017 +0200
+| | |  files:       setup.py
+| | |  description:
+| | |  Move PyHyphen url to bitbucket
+| | |
+| | |
+| | o  changeset:   58:d96c0315e9df
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 10:00:58 2017 +0200
+| | |  files:       setup.py
+| | |  description:
+| | |  Improve dictionary file download on install
+| | |
+| | |
+| | o  changeset:   57:42829d13592d
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 09:37:20 2017 +0200
+| | |  files:       2.x/config.py README.txt setup.py
+| | |  description:
+| | |  Stop rewriting config.py on setup
+| | |
+| | |  config.py used to be rewritten whenever setup.py was run. Because of this, we
+| | |  could not install PyHyphen via pip. Now, paths are automatically defined as
+| | |  being the folder that contains config.py.
+| | |
+| | |
+| | o  changeset:   56:49b8abdb6b08
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 09:13:10 2017 +0200
+| | |  files:       2.x/dictools.py setup.py
+| | |  description:
+| | |  Use os.path.join for os compatibility
+| | |
+| | |
+| | o  changeset:   55:e574e4a229cf
+| | |  parent:      44:55ec3a59fdf7
+| | |  user:        Régis Behmo <nospam@behmo.com>
+| | |  date:        Tue Jun 27 08:43:57 2017 +0200
+| | |  files:       2.x/__init__.py 2.x/dictools.py 2.x/textwrap2.py 3.x/textwrap2.py demo/hyphen_test-2.x.py demo/hyphen_test-3.x.py setup.py
+| | |  description:
+| | |  Fix many tiny syntax glitches
+| | |
+| | |
+o | |  changeset:   54:c73f3064d457
+|/ /   user:        Leo Dr. Leo <fhaxbox66@gmail.com>
+| |    date:        Sat Dec 03 17:13:16 2016 +0100
+| |    files:       2.x/textwrap2.py 3.x/textwrap2.py
+| |    description:
+| |    This should make textwrap2 hyphenate words with leading apostrophies. Untested.
+| |
+| |
+o |  changeset:   53:4bb9665ef6c7
+| |  user:        Leo Dr. Leo <fhaxbox66@gmail.com>
+| |  date:        Sun Nov 02 21:59:40 2014 +0100
+| |  files:       .hgtags README.txt bin/hnj.amd64-2.7.pyd setup.py
+| |  description:
+| |  added binary for Windows amd64 - thanks vo vonBargen
+| |
+| |
+o |  changeset:   52:f9b53cd76794
+| |  tag:         v2.0.5
+| |  user:        Leo
+| |  date:        Fri Jun 13 22:48:04 2014 +0200
+| |  files:       README.txt bin/hnj.win32-2.6.pyd bin/hnj.win32-3.4.pyd setup.py
+| |  description:
+| |  add binary for 3.4, remove that for Py2.6, update docs for release
+| |
+| |
+o |  changeset:   51:3566acafc82c
+| |  user:        Leo
+| |  date:        Tue Jun 10 18:53:30 2014 +0200
+| |  files:       setup.py
+| |  description:
+| |  make it work on P3k
+| |
+| |
+o |  changeset:   50:d4b454bafc62
+| |  user:        Leo
+| |  date:        Sat Jun 07 11:10:43 2014 +0200
+| |  files:       2.x/config.py README.txt setup.py
+| |  description:
+| |  Fix unicode error in setup.py
+| |
+| |
+o |  changeset:   49:772729229b4d
+| |  user:        Leo
+| |  date:        Sun Sep 01 10:36:07 2013 +0200
+| |  files:       .hgtags
+| |  description:
+| |  Added tag v2.0.4 for changeset 6b003600ce69
+| |
+| |
+o |  changeset:   48:6b003600ce69
+| |  tag:         v2.0.4
+| |  user:        Leo
+| |  date:        Sun Sep 01 10:35:47 2013 +0200
+| |  files:       README.txt setup.py
+| |  description:
+| |  Augment verion to v2.0.4
+| |
+| |
+o |  changeset:   47:35df1a8e60c6
+| |  user:        Leo
+| |  date:        Sun Sep 01 10:22:52 2013 +0200
+| |  files:       bin/hnj.win32-3.3.pyd
+| |  description:
+| |  Correct binary for P3.3
+| |
+| |
+o |  changeset:   46:87a9a8e029d8
+| |  user:        Leo
+| |  date:        Sat Aug 31 00:42:22 2013 +0200
+| |  files:       .hgtags
+| |  description:
+| |  Added tag v2.0.3 for changeset 10253f465f94
+| |
+| |
+o |  changeset:   45:10253f465f94
+|/   tag:         v2.0.3
+|    user:        Leo
+|    date:        Sat Aug 31 00:42:11 2013 +0200
+|    files:       README.txt bin/hnj.win32-2.6.pyd bin/hnj.win32-3.2.pyd bin/hnj.win32-3.3.pyd setup.py src/hyphen.c
+|    description:
+|    Update C library to v2.8.6, update readme.txt, switch version to 2.0.3
+|
+|
+o  changeset:   44:55ec3a59fdf7
+|  user:        Leo
+|  date:        Sun Dec 30 19:13:23 2012 +0100
+|  files:       .hgtags
+|  description:
+|  Added tag 'v2.0.2' for changeset cc1d454f93e1
+|
+|
+o  changeset:   43:cc1d454f93e1
+|  tag:         'v2.0.2'
+|  user:        Leo
+|  date:        Sun Dec 30 19:13:08 2012 +0100
+|  files:       2.x/config.py README.txt setup.py
+|  description:
+|  Bugfixes and refactorings; refactor set syntax in config.py for Python2.6 compatibility')
+|
+|
+o  changeset:   42:472da1506327
+|  user:        Leo
+|  date:        Sat Dec 29 22:17:56 2012 +0100
+|  files:       setup.py
+|  description:
+|  Catch potential error when getting or setting the locale.
+|
+|
+o  changeset:   41:8972988c5777
+|  user:        Leo
+|  date:        Sat Dec 29 21:57:12 2012 +0100
+|  files:       setup.py
+|  description:
+|  Don't abort setup if locale could not be loaded
+|
+|
+o  changeset:   40:91d5b30110d0
+|  user:        Leo
+|  date:        Mon Dec 24 12:17:50 2012 +0100
+|  files:       bin/hnj.win32-3.1.pyd
+|  description:
+|  Remove C extension for P3.1. Should have been done earlier. It is no longer part of the src dist.
+|
+|
+o  changeset:   39:1c4eb643f61d
+|  user:        Leo
+|  date:        Sat Nov 17 15:50:32 2012 +0100
+|  files:       .hgtags
+|  description:
+|  Added tag v2.0.1 for changeset 529fef1076fa
+|
+|
+o  changeset:   38:529fef1076fa
+|  tag:         v2.0.1
+|  user:        Leo
+|  date:        Sat Nov 17 15:50:24 2012 +0100
+|  files:       2.x/__init__.py README.txt setup.py
+|  description:
+|  Simplify Hyphenator methods, update README
+|
+|
+o  changeset:   37:7e5ff2ff1fc4
+|  user:        Leo
+|  date:        Sat Nov 17 15:47:20 2012 +0100
+|  files:       .hgtags
+|  description:
+|  Removed tag v2.1
+|
+|
+o  changeset:   36:0b1457e29ae2
+|  user:        Leo
+|  date:        Fri Nov 16 20:32:08 2012 +0100
+|  files:       .hgtags
+|  description:
+|  Added tag v2.1 for changeset 8b5b59f93568
+|
+|
+o  changeset:   35:8b5b59f93568
+|  user:        Leo
+|  date:        Fri Nov 16 20:31:39 2012 +0100
+|  files:       2.x/__init__.py README.txt setup.py
+|  description:
+|  updated URL for dict repository, removed hyphenation of CAPITALISED words as it caused a critical bug in Python 3.3
+|
+|
+o  changeset:   34:8563d4c23e95
+|  user:        Leo
+|  date:        Sat Oct 13 19:52:15 2012 +0200
+|  files:       2.x/dictools.py setup.py
+|  description:
+|  raise IOError if xcu metadata file does not contain data on a hyphenation dict.
+|
+|
+o  changeset:   33:ce7b9c83be41
+|  user:        Leo
+|  date:        Sun Sep 30 18:05:40 2012 +0200
+|  files:       .hgtags
+|  description:
+|  Added tag v2.0 for changeset f726e397cb49
+|
+|
+o  changeset:   32:f726e397cb49
+|  tag:         v2.0
+|  user:        Leo
+|  date:        Sun Sep 30 17:56:10 2012 +0200
+|  files:       README.txt bin/hnj.win32-3.3.pyd setup.py
+|  description:
+|  minor updates for v2.0
+|
+|
+o  changeset:   31:f58a75717e6e
+|  user:        Leo
+|  date:        Wed Aug 01 10:25:52 2012 +0200
+|  files:       README.txt
+|  description:
+|  fix code example.
+|
+|
+o  changeset:   30:1328e17f2d0a
+|  user:        Leo
+|  date:        Sat Jun 16 06:29:50 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py README.txt
+|  description:
+|  make Hyphenator work with dicts not in the registry
+|
+|
+o  changeset:   29:02e09f26aea0
+|  user:        Leo
+|  date:        Thu Jun 14 20:50:01 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py ToDo.txt setup.py
+|  description:
+|  Use cPickle and cElementTree if available; doc improvements
+|
+|
+o  changeset:   28:4fd23378db22
+|  user:        Leo
+|  date:        Sat Jun 02 19:14:09 2012 +0200
+|  files:       .hgtags
+|  description:
+|  Added tag v2.0b1 for changeset b68e4bfc1d2f
+|
+|
+o  changeset:   27:b68e4bfc1d2f
+|  tag:         v2.0b1
+|  user:        Leo
+|  date:        Sat Jun 02 18:57:54 2012 +0200
+|  files:       2.x/__init__.py 2.x/config.py 2.x/dictools.py README.txt setup.py
+|  description:
+|  updated docs and, various minor tweaks; remove existing registry upon installation
+|
+|
+o  changeset:   26:948c42da0e1e
+|  user:        Leo
+|  date:        Fri Jun 01 23:36:11 2012 +0200
+|  files:       2.x/__init__.py 2.x/config.py 2.x/dictools.py
+|  description:
+|  make filepath configurable throughout; use set instead of list of locales in config
+|
+|
+o  changeset:   25:e09171376869
+|  user:        Leo
+|  date:        Mon May 21 23:55:27 2012 +0200
+|  files:       2.x/dictools.py README.txt
+|  description:
+|  make ninstall work
+|
+|
+o  changeset:   24:838f7797040b
+|  user:        Leo
+|  date:        Mon May 14 23:08:00 2012 +0200
+|  files:       2.x/config.py 2.x/dictools.py ToDo.txt bin/hnj.win32-3.2.pyd setup.py
+|  description:
+|  various fixes
+|
+|
+o  changeset:   23:aa0d0cabfdb4
+|  user:        Leo
+|  date:        Sun May 06 17:56:01 2012 +0200
+|  files:       2.x/dictools.py
+|  description:
+|  use ElementTree.Element.getiterator to make it work with P2.6
+|
+|
+o  changeset:   22:b284fc7c5d5c
+|  user:        Leo
+|  date:        Sun May 06 13:13:04 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py setup.py
+|  description:
+|  make adjustment of config.py clean
+|
+|
+o  changeset:   21:688462f29c62
+|  user:        Leo
+|  date:        Thu May 03 00:54:10 2012 +0200
+|  files:       2.x/dictools.py setup.py
+|  description:
+|  further tweaks
+|
+|
+o  changeset:   20:3705bf2d1ab4
+|  user:        Leo
+|  date:        Thu May 03 00:29:08 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py setup.py
+|  description:
+|  need to save this
+|
+|
+o  changeset:   19:341fca21fb5f
+|  user:        Leo
+|  date:        Wed May 02 23:02:46 2012 +0200
+|  files:       3.x/__init__.py 3.x/config.py 3.x/dictools.py setup.py
+|  description:
+|  steps toward using lib2to3
+|
+|
+o  changeset:   18:a2d4c2bef17e
+|  user:        Leo
+|  date:        Sun Apr 29 10:47:38 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py 3.x/config.py README.txt setup.py
+|  description:
+|  Fixed bugs, updated parts of the docs
+|
+|
+o  changeset:   17:ae70174cafee
+|  user:        Leo
+|  date:        Thu Apr 12 21:35:39 2012 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py setup.py
+|  description:
+|  make it work
+|
+|
+o  changeset:   16:aa79f3156262
+|  user:        Leo
+|  date:        Thu Apr 12 11:33:18 2012 +0200
+|  files:       2.x/dictools.py setup.py
+|  description:
+|  fixed bugs
+|
+|
+o  changeset:   15:28b610091abe
+|  user:        Leo
+|  date:        Thu Apr 12 09:00:43 2012 +0200
+|  files:       2.x/__init__.py 2.x/config.py 2.x/dictools.py 3.x/config.py setup.py
+|  description:
+|  refactor to use LibreOffice repos and xml metadata - does not work yet
+|
+|
+o  changeset:   14:8435760c96e4
+|  user:        Leo
+|  date:        Mon Feb 06 23:00:09 2012 +0100
+|  files:       2.x/dictools.py ToDo.txt setup.py
+|  description:
+|  Download dictionaries from LibreOffice's GIT repos. Needs testing. P3k version yet to be updated
+|
+|
+o  changeset:   13:aa040d5bec94
+|  user:        Leo
+|  date:        Mon Feb 06 21:30:14 2012 +0100
+|  files:       bin/hnj.win32-2.6.pyd bin/hnj.win32-2.7.pyd bin/hnj.win32-3.1.pyd bin/hnj.win32-3.2.pyd src/hyphen.c
+|  description:
+|  Upgrade to libhyphen 2.8.3
+|
+|
+o  changeset:   12:8e1279b086ff
+|  user:        Leo
+|  date:        Sat Feb 04 08:59:45 2012 +0100
+|  files:       README.txt
+|  description:
+|  Fixed typos and copyright notice
+|
+|
+o  changeset:   11:874f13888547
+|  user:        Leo
+|  date:        Sun Dec 04 10:15:51 2011 +0100
+|  files:       ToDo.txt
+|  description:
+|  some ToDo's
+|
+|
+o  changeset:   10:8f5b74e0cf5c
+|  user:        Leo
+|  date:        Sat Apr 09 16:40:30 2011 +0200
+|  files:       README.txt src/hyphen.c
+|  description:
+|  Upgrade hyphen.c to v2.7.1; add link to libhyphen on sourceforge to readme.txt
+|
+|
+o  changeset:   9:03477f1416c6
+|  user:        Leo
+|  date:        Sun Apr 03 17:34:50 2011 +0200
+|  files:       .hgtags
+|  description:
+|  Added tag v1.0beta1 for changeset 33ccea675bdf
+|
+|
+o  changeset:   8:33ccea675bdf
+|  tag:         v1.0beta1
+|  user:        Leo
+|  date:        Sun Apr 03 17:32:51 2011 +0200
+|  files:       README.txt
+|  description:
+|  fix README.txt
+|
+|
+o  changeset:   7:5b6bf019b302
+|  user:        Leo
+|  date:        Sun Apr 03 17:29:46 2011 +0200
+|  files:       2.x/__init__.py 2.x/dictools.py 3.x/__init__.py 3.x/dictools.py README.txt bin/hnj.win32-3.2.pyd setup.py
+|  description:
+|  Many fixes, Hyphenator.wrap: do not insert hyphen in word combinations after an existing hyphen; update docs, change version to 1.0beta1
+|
+|
+o  changeset:   6:143fb126652f
+|  user:        Leo
+|  date:        Tue Jan 25 06:42:41 2011 +0100
+|  files:       2.x/dictools.py 3.x/dictools.py
+|  description:
+|  install_dict_info: do not skip first line
+|
+|
+o  changeset:   5:0250e7044f05
+|  user:        Leo
+|  date:        Sun Jan 16 15:27:26 2011 +0100
+|  files:       README.txt
+|  description:
+|  README improvement
+|
+|
+o  changeset:   4:c3e9597b6d34
+|  user:        Leo
+|  date:        Sun Jan 16 14:57:04 2011 +0100
+|  files:       setup.py
+|  description:
+|  Assign dict_info after initial install to avoid type error when installing first dictionary
+|
+|
+o  changeset:   3:4200c4f5f633
+|  user:        Leo
+|  date:        Sun Jan 02 08:58:19 2011 +0100
+|  files:       2.x/__init__.py 2.x/dictools.py 3.x/__init__.py 3.x/dictools.py README.txt
+|  description:
+|  make it work with P3k
+|
+|
+o  changeset:   2:cd1db1931375
+|  user:        Leo
+|  date:        Thu Dec 16 23:23:24 2010 +0100
+|  files:       2.x/__init__.py 2.x/dictools.py setup.py
+|  description:
+|  use dict_info in install and uninstall functions
+|
+|
+o  changeset:   1:5ac6ce4aba65
+|  user:        Leo
+|  date:        Thu Dec 16 00:17:14 2010 +0100
+|  files:       2.x/__init__.py 2.x/config.py 2.x/dictools.py 3.x/__init__.py 3.x/config.py 3.x/dictools.py setup.py
+|  description:
+|  install dict_info and use it when instantiating Hyphenator
+|
+|
+o  changeset:   0:0e1c1dd52b9b
+   user:        Leo
+   date:        Wed Dec 08 19:50:26 2010 +0100
+   files:       .hgignore 2.x/__init__.py 2.x/config.py 2.x/dictools.py 2.x/hnjmodule.c 2.x/textwrap2.py 3.x/__init__.py 3.x/config.py 3.x/dictools.py 3.x/hnjmodule.c 3.x/textwrap2.py Doc/hyphen-2.7/AUTHORS Doc/hyphen-2.7/README Doc/hyphen-2.7/README.compound Doc/hyphen-2.7/README.hyphen Doc/hyphen-2.7/README.nonstandard Doc/hyphen-2.7/example.c LICENSE.txt MANIFEST.in README.txt bin/hnj.win32-2.6.pyd bin/hnj.win32-2.7.pyd bin/hnj.win32-3.1.pyd demo/hyphen_test-2.x.py demo/hyphen_test-3.x.py demo/input/top10000en.txt demo/input/top10000fr.txt include/hnjalloc.h include/hyphen.h setup.py src/hnjalloc.c src/hyphen.c
+   description:
+   Initial commit from rev 115 of the svn repository. Further development will take place here.
+
+
