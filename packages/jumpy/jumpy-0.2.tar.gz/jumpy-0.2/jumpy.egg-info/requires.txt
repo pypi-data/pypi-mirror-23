@@ -1,0 +1,10 @@
+six
+pyjnius
+
+[tests]
+pytest
+pytest-pep8
+pytest-xdist
+
+[visualize]
+pydot-ng
