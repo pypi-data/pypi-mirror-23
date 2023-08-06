@@ -1,0 +1,84 @@
+Metadata-Version: 2.0
+Name: deplicate-cli
+Version: 0.1.1
+Summary: Command Line Interface for deplicate.
+Home-page: https://github.com/vuolter/deplicate-cli
+Author: Walter Purcaro
+Author-email: vuolter@gmail.com
+License: MIT
+Download-URL: https://github.com/vuolter/deplicate-cli/releases
+Keywords: duplicates dups
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: Utilities
+Requires-Python: >=2.6,!=3.0,!=3.1,!=3.2
+Requires-Dist: click (>=4.0)
+Requires-Dist: deplicate (>=0.6.2)
+
+deplicate-cli
+=============
+
+Table of contents
+-----------------
+
+-  `Description`_
+-  `Installation`_
+-  `Usage`_
+
+Description
+-----------
+
+Command Line Interface for `**deplicate**`_.
+
+Installation
+------------
+
+Type in your command shell **with *administrator/root* privileges**:
+
+::
+
+    pip install deplicate-cli
+
+In Unix-based systems, this is generally achieved by superseding the
+command ``sudo``.
+
+::
+
+    sudo pip install deplicate-cli
+
+If the above commands fail, consider installing it with the option
+`--user`_:
+
+::
+
+    pip install --user deplicate-cli
+
+Usage
+-----
+
+*TODO*
+
+.. _Description: #description
+.. _Installation: #installation
+.. _Usage: #usage
+.. _**deplicate**: https://github.com/vuolter/deplicate
+.. _--user: https://pip.pypa.io/en/latest/user_guide/#user-installs
+
+
