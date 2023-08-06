@@ -1,0 +1,12 @@
+homebrew_npm_noob-0.2.dist-info/DESCRIPTION.rst,sha256=yFzs7gJhiXYQ0gBCAtge2jjzdB9Pl8JKjgFSJaXzSH4,1664
+homebrew_npm_noob-0.2.dist-info/METADATA,sha256=SSjLcMttRwvrP2jkjK3_E9G83fUrV62tIV1qJzUpeB8,2562
+homebrew_npm_noob-0.2.dist-info/RECORD,,
+homebrew_npm_noob-0.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+homebrew_npm_noob-0.2.dist-info/entry_points.txt,sha256=CmVs8LkESUuNRorjSROza02M1ZlJTD3WUTkKDW8PfMA,45
+homebrew_npm_noob-0.2.dist-info/metadata.json,sha256=Jauue1HX3p8B9v6iJAVQpQAJYBMXGptqrtUtn_qOxaM,1180
+homebrew_npm_noob-0.2.dist-info/top_level.txt,sha256=3o_CaRVT872xAaASRg8FhAsO0jJ0rs26zlKNctO3cxM,5
+noob/__init__.py,sha256=6zGpdHcuxetNnliIWDDzPInQz6N7NZNeUSJ6bntT8xc,62
+noob/__main__.py,sha256=AHmKGQLaq1HU889N_ClkkIJyLIO2SrSqmkziuZEOfpk,1555
+noob/package.py,sha256=uyBTVZwQU8jnRkYsm3JaJ9dJbTYqxffFwzpBxmcgBwE,3253
+noob/util.py,sha256=U3zBjrzuq7_e-yI8I3TiG9v1i3mGnbB78Xaw9XR3z1s,908
+noob/version.py,sha256=WTNRhL3jbmzcmk_u8RYCEb3L9DY-Go7u1DUAa8-Kf-k,44
