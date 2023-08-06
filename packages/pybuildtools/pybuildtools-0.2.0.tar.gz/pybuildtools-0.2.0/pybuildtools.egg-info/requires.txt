@@ -1,0 +1,11 @@
+psutil
+lxml
+twisted
+pyyaml
+jinja2
+toml
+requests>=2.0
+six
+
+[development]
+pylint
