@@ -1,0 +1,16 @@
+setup.py
+bin/clopure
+clopure/__init__.py
+clopure/basics.py
+clopure/core.py
+clopure/exceptions.py
+clopure/extras.py
+clopure/parser.py
+clopure.egg-info/PKG-INFO
+clopure.egg-info/SOURCES.txt
+clopure.egg-info/dependency_links.txt
+clopure.egg-info/top_level.txt
+test/__init__.py
+test/test_longcode.py
+test/test_mp.py
+test/test_unit.py
