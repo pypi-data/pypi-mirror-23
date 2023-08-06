@@ -1,0 +1,17 @@
+CHANGES.rst
+CREDITS.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bmi/__init__.py
+bmi/api.py
+bmi/runner.py
+bmi/wrapper.py
+bmi_python.egg-info/PKG-INFO
+bmi_python.egg-info/SOURCES.txt
+bmi_python.egg-info/dependency_links.txt
+bmi_python.egg-info/entry_points.txt
+bmi_python.egg-info/not-zip-safe
+bmi_python.egg-info/requires.txt
+bmi_python.egg-info/top_level.txt
