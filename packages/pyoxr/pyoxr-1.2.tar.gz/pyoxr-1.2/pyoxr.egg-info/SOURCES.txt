@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+requirements.txt
+setup.cfg
+setup.py
+pyoxr/__init__.py
+pyoxr/sample.py
+pyoxr.egg-info/PKG-INFO
+pyoxr.egg-info/SOURCES.txt
+pyoxr.egg-info/dependency_links.txt
+pyoxr.egg-info/top_level.txt
