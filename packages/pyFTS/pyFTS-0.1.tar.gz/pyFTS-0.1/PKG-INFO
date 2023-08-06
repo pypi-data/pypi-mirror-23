@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyFTS
+Version: 0.1
+Summary: Fuzzy Time Series for Python
+Home-page: https://github.com/petroniocandido/pyFTS
+Author: Petronio Candido L. e Silva
+Author-email: petronio.candido@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/petroniocandido/pyFTS/archive/pkg0.1.tar.gz
+Description: UNKNOWN
+Keywords: forecasting,fuzzy time series,fuzzy,time series forecasting
+Platform: UNKNOWN
