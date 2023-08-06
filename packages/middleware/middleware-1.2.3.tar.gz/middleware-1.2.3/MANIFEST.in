@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include middleware *
+recursive-exclude middleware .*
+recursive-exclude middleware/.vscode *
+recursive-exclude middleware/.git *
+recursive-exclude middleware *.pyc
