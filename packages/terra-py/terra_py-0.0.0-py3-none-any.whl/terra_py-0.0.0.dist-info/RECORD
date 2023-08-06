@@ -1,0 +1,11 @@
+terra_py-0.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+terra_py-0.0.0.dist-info/METADATA,sha256=9wtIYyjTNxLFRhLj4gbF04Jm6-OyeLCNsdGr-HJKNSc,709
+terra_py-0.0.0.dist-info/RECORD,,
+terra_py-0.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+terra_py-0.0.0.dist-info/entry_points.txt,sha256=hJ3uPf1ILjCJQYjEQWet_1FNHL368oLpHRrPqwxL_KA,47
+terra_py-0.0.0.dist-info/metadata.json,sha256=MnVffKu-webjQ5fv0E_8Jhkouq-oQCjvCefGirhfGw0,965
+terra_py-0.0.0.dist-info/top_level.txt,sha256=couu0LRdMUEUzMr4ZbPdFQ1mxDtaEHmOODfvG-1VBEI,8
+terrapy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terrapy/const.py,sha256=1rZ_345TEYL6P9xwPOsNCmqu2Z63yuiYWI4P8cZZVBY,195
+terrapy/emit.py,sha256=ZFKCTfdctpIeZctjEial9uoNIHtla9bYyAzQpC05UBE,1119
+terrapy/wrap.py,sha256=-5A-Ql53vCl8IRnYfnBQHKkzoiBrIgkd2Psy7xYavkI,1073
