@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: grab-screen
+Version: 0.0.4
+Summary: Take screenshots and upload anywhere
+Home-page: https://github.com/andrei-shabanski/grab-screen
+Author: Andrei Shabanski
+Author-email: andrei.shabanski@gmail.com
+License: MIT
+Keywords: screenshot cloudapp
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Multimedia :: Graphics :: Capture
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: click (==6.7)
+Requires-Dist: pyperclip (==1.5.27)
+Requires-Dist: pyscreenshot (==0.4.2)
+Requires-Dist: requests (==2.18.1)
+Requires-Dist: six (==1.10.0)
+
+UNKNOWN
+
+
