@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pyenet
+Version: 1.3.13
+Summary: A python wrapper for the ENet library
+Home-page: https://github.com/piqueserver/pyenet/
+Author: Andrew Resch, Piqueserver team
+Author-email: samuel@swalladge.id.au
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: Cython
