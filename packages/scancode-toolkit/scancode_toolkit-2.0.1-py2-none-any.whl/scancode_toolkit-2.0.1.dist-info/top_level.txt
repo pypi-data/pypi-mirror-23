@@ -1,0 +1,9 @@
+cluecode
+commoncode
+extractcode
+formattedcode
+licensedcode
+packagedcode
+scancode
+textcode
+typecode

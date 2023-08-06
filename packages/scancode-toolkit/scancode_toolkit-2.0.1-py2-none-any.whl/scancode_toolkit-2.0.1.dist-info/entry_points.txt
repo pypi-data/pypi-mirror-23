@@ -1,0 +1,4 @@
+[console_scripts]
+extractcode = scancode.extract_cli:extractcode
+scancode = scancode.cli:scancode
+
