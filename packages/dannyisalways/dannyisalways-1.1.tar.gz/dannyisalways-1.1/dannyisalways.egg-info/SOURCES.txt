@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+dannyisalways.egg-info/PKG-INFO
+dannyisalways.egg-info/SOURCES.txt
+dannyisalways.egg-info/dependency_links.txt
+dannyisalways.egg-info/top_level.txt
+tryanderror/__init__.py
+tryanderror/ttest.py
