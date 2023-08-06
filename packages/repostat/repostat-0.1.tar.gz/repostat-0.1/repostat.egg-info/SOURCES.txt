@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+repostat/stash.py
+repostat/test_stash.py
+repostat.egg-info/PKG-INFO
+repostat.egg-info/SOURCES.txt
+repostat.egg-info/dependency_links.txt
+repostat.egg-info/requires.txt
+repostat.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: repostat
+Version: 0.1
+Summary: A tool to store custom repository statistics and issues with commit level resolution in a redis store.
+Home-page: http://github.com/JamesJeffryes/repo-stat-stash
+Author: James Jeffryes
+Author-email: jamesgjeffryes@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: testing,code quality,github
+Platform: UNKNOWN
