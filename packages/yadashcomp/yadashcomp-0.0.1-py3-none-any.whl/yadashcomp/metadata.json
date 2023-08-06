@@ -1,0 +1,15 @@
+{
+  "src/components/ExampleComponent.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a single property, `label`, and\ndisplays it.",
+    "methods": [],
+    "props": {
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      }
+    }
+  }
+}
