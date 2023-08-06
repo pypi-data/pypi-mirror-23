@@ -1,0 +1,4 @@
+R:
+    pdf('test.pdf', width=8, height=6)
+    plot(0)
+    dev.off()
