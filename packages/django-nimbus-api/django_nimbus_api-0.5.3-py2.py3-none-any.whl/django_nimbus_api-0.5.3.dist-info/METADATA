@@ -1,0 +1,61 @@
+Metadata-Version: 2.0
+Name: django-nimbus-api
+Version: 0.5.3
+Summary: djangorestframework extend
+Home-page: https://github.com/williamren
+Author: william
+Author-email: william.ren@live.cn
+License: Apache License 2.0
+Keywords: nimbus,django,rest,djangorestframework,api,django_nimbus_api
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Django
+Requires-Dist: djangorestframework
+Requires-Dist: pycrypto
+
+==================
+django_nimbus_api
+==================
+
+A Python Extended for Django REST Framework.
+
+* Supports Python 2.7, 3.4 or 3.5+
+* Free software:  Apache License 2.0
+* On the `Python Package Index (PyPI)`_
+
+.. _django-rest-framework: http://www.django-rest-framework.org
+
+.. _Python Package Index (PyPI): https://pypi.python.org/pypi/django_nimbus_api/
+
+
+Install
+-------
+
+Easiest installation is via `pip`::
+
+    pip install django_nimbus_api
+
+Quick Usage
+-----------
+
+
+
