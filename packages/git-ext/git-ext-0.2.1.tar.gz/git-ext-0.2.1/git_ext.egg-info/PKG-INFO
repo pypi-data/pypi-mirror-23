@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: git-ext
+Version: 0.2.1
+Summary: A git extension that allows you submit pullrequests from command line.
+Home-page: https://github.com/laixintao/git-ext
+Author: laixintao
+Author-email: laixintao1995@163.com
+License: GNU
+Description: # git-ext
+        
+        [![Pypi](https://img.shields.io/badge/pypi-v0.1-green.svg)](https://codecov.io/gh/laixintao/git-ex://pypi.python.org/pypi/git-ext)
+        [![Codecov](https://img.shields.io/codecov/c/github/laixintao/git-ext.svg)](https://codecov.io/gh/laixintao/git-ext)
+        ![](https://travis-ci.org/laixintao/git-ext.svg?branch=master)
+        
+        A git extension that allows you submit pullrequests from command line.
+        
+        ## usage
+        
+            $ git pullrequests create test_b master
+            Reviewers(start with @):
+            201 Created!
+            #2 This is your commit title.[test_b->master]  by boson_laixintao(just now)
+            Reviewers:
+        
+            $ git pullrequests list
+            #2 This is your commit title.[test_b->master]  by boson_laixintao(just now)
+        
+            $ git pullrequests
+            Usage: git-pullrequests [OPTIONS] COMMAND [ARGS]...
+        
+            Options:
+              --help  Show this message and exit.
+        
+            Commands:
+              activity  Show a pr's activity, display lastest 10...
+              create
+              list
+             ~/Documents/program/program/test-gitext   test_b  git pullrequests --help
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
