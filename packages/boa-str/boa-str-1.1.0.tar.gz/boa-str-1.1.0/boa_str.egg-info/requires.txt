@@ -1,0 +1,14 @@
+
+[dev]
+codecov
+cov-core
+nose2
+flake8
+invoke
+pycodestyle
+twine
+
+[test]
+codecov
+cov-core
+nose2
