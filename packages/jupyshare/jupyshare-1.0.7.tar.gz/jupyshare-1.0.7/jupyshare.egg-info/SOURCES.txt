@@ -1,0 +1,9 @@
+setup.py
+jupyshare/__init__.py
+jupyshare/share.py
+jupyshare.egg-info/PKG-INFO
+jupyshare.egg-info/SOURCES.txt
+jupyshare.egg-info/dependency_links.txt
+jupyshare.egg-info/entry_points.txt
+jupyshare.egg-info/requires.txt
+jupyshare.egg-info/top_level.txt
