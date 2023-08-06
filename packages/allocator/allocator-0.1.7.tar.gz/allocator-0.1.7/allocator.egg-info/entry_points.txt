@@ -1,0 +1,10 @@
+[console_scripts]
+cluster_kahip = allocator.cluster_kahip:main
+cluster_kmeans = allocator.cluster_kmeans:main
+compare_kahip_kmeans = allocator.compare_kahip_kmeans:main
+shortest_path_gm = allocator.shortest_path_gm:main
+shortest_path_mst_tsp = allocator.shortest_path_mst_tsp:main
+shortest_path_ortools = allocator.shortest_path_ortools:main
+shortest_path_osrm = allocator.shortest_path_osrm:main
+sort_by_distance = allocator.sort_by_distance:main
+
