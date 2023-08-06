@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: docfly
+Version: 0.0.6
+Summary: A utility tool to help you build better sphinx documents
+Home-page: https://github.com/MacHu-GWU/docfly-project
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+License: MIT
+Download-URL: https://github.com/MacHu-GWU/docfly-project/tarball/2017-07-18
+Requires-Dist: jinja2
+Requires-Dist: pathlib-mate
+
+.. image:: https://travis-ci.org/MacHu-GWU/docfly-project.svg?branch=master
+
+
