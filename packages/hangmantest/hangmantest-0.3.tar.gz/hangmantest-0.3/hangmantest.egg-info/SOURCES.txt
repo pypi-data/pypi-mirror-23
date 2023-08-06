@@ -1,0 +1,7 @@
+README.txt
+code.py
+setup.py
+hangmantest.egg-info/PKG-INFO
+hangmantest.egg-info/SOURCES.txt
+hangmantest.egg-info/dependency_links.txt
+hangmantest.egg-info/top_level.txt
