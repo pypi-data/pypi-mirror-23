@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: imgspy
+Version: 0.1.1
+Summary: Find the size or type of the image without fetching the whole content.
+Home-page: https://github.com/nkanaev/imgspy
+Author: Nazar Kanaev
+Author-email: nkanaev@live.com
+License: MIT
+Description: imgspy
+        ======
+        
+        imgspy finds the size and type of image without downloading its content.
+        
+        
+        usage
+        -----
+        
+        ::
+        
+            >>> imgspy.size('http://via.placeholder.com/1920x1080')
+            (1920, 1080)
+            >>> imgspy.size('/path/to/image.jpg')
+            (1920, 1980)
+        
+        
+Platform: UNKNOWN
