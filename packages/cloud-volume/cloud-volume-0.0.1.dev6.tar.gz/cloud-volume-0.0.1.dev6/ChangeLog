@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+* docs: updated setup.cfg info
+* feat(VolumeCutout): prepend 0 to single digit numbers
+* chore: added saved_images to .gitignore
+* fix: missing PIL import
+* refactor(CloudVolume): clean up package import namespace
+* feat(CloudVolume): created minimal implementation
+* Initial commit
