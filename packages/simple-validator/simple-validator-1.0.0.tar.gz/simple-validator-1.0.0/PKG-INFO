@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: simple-validator
+Version: 1.0.0
+Summary: A simple way to validate dictionary values by using functions.
+Home-page: https://github.com/seanpar203/validator
+Author: Sean Parsons
+Author-email: seanpatrick2013@gmail.com
+License: MIT
+Download-URL: https://github.com/seanpar203/validator/archive/1.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
