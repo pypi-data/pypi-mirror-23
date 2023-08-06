@@ -1,0 +1,7 @@
+setup.py
+bin/trigger-travis
+trigger_travis.egg-info/PKG-INFO
+trigger_travis.egg-info/SOURCES.txt
+trigger_travis.egg-info/dependency_links.txt
+trigger_travis.egg-info/requires.txt
+trigger_travis.egg-info/top_level.txt
