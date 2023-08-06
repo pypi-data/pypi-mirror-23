@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+Downloads/__init__.py
+Downloads/aa/__init__.py
+Downloads/aa/setup.py
+data/data_file
+sgdhfdhfjjfk/__init__.py
+sgdhfdhfjjfk.egg-info/PKG-INFO
+sgdhfdhfjjfk.egg-info/SOURCES.txt
+sgdhfdhfjjfk.egg-info/dependency_links.txt
+sgdhfdhfjjfk.egg-info/entry_points.txt
+sgdhfdhfjjfk.egg-info/requires.txt
+sgdhfdhfjjfk.egg-info/top_level.txt
