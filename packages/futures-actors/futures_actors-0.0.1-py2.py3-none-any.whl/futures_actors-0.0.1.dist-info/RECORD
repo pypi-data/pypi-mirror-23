@@ -1,0 +1,11 @@
+futures_actors/__init__.py,sha256=3dv67JwSrPCHbuBM8qw7nKxVNY1G1J0FmlxUnu9mXrg,206
+futures_actors/_base_actor.py,sha256=jrFdQavA2U2JsGTLx3yifVG_Yu13NZ-LUajQNE73fUA,2602
+futures_actors/process_actor.py,sha256=GRtDGfRS0cWPIJjaNktAPRHxCzHRskkWl4Qd7DJ9Zjk,14467
+futures_actors/tests.py,sha256=gs07vxkKuDtEELbSi6Rv3J3aoG2Pp92iXqaxx1OpXwc,9470
+futures_actors/thread_actor.py,sha256=AxvdvGCgHmCv83VFRyRojUBEemunx9R21ycPztDWuMs,4943
+futures_actors-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+futures_actors-0.0.1.dist-info/METADATA,sha256=54KW94kH2RqyRn1i95IOfGGhCBeYV7IKSL5wu-j40vg,572
+futures_actors-0.0.1.dist-info/RECORD,,
+futures_actors-0.0.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+futures_actors-0.0.1.dist-info/metadata.json,sha256=wISuWVuQRDGmINaw7YJwGqY5K9nDZJqfuGwNGOf5xSM,750
+futures_actors-0.0.1.dist-info/top_level.txt,sha256=x82Qyp0wux7HvahqcVLuXhqkUDFmSxL4aYJ5gXSjwY8,15
