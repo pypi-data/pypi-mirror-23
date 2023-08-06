@@ -1,0 +1,10 @@
+setup.py
+rsctl/__init__.py
+rsctl/config.py
+rsctl/rsctl
+rsctl/tasks.py
+rsctl.egg-info/PKG-INFO
+rsctl.egg-info/SOURCES.txt
+rsctl.egg-info/dependency_links.txt
+rsctl.egg-info/requires.txt
+rsctl.egg-info/top_level.txt

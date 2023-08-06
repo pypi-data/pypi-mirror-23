@@ -1,0 +1,4 @@
+redis
+click
+fabric
+colorama

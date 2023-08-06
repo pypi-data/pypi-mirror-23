@@ -1,0 +1,94 @@
+#!/usr/bin/env python 
+from rsctl import tasks, config
+import click
+import fabric.api as fab
+import os
+
+
+
+@click.group()
+@click.option('--host', prompt='Host Name ($SSH_HOST)', envvar = config.SSH_HOST, 
+              help='Master Redis Pack IP ($SSH_HOST)')
+@click.option('--user', prompt='SSH User ($SSH_USER)', envvar = config.SSH_USER, default='redis', 
+              help='SSH Login User ($SSH_USER)')
+@click.option('--pem', prompt='SSH .pem file (optional) ($SSH_PEM)', envvar=config.PEM_FILE, default='', help='optional .pem file for ssh connections')
+@click.option('--rl_user', prompt='Redis Pack Login Email ($RL_USER)', envvar = config.RL_USER, default = 'user@example.com', 
+              help='Redis Pack User Name ($RL_USER)')
+@click.option('--rl_password', prompt='Redis Pack Password ($RL_PASS)', hide_input=True, envvar = config.RL_PASS, 
+              help='Redis Pack Password ($RL_PASS)')
+@click.option('--rl_datadir', prompt='Redis Pack data dir ($RL_DATADIR)', envvar = config.RL_DATADIR, default='/mnt/data', 
+              help='Redis Pack Data dir ($RL_DATADIR)')
+def cli(host, user, pem, rl_user , rl_password, rl_datadir):
+    """
+    RediSearch on RedisLabs Enterprise Cluster control utility
+    """
+    config.host = host
+    config.user = user
+    config.rlec_user = rl_user
+    config.rlec_password = rl_password
+    config.rlec_datadir = rl_datadir
+    
+    fab.env.host_string = host
+    fab.env.user = user
+    if pem is not None and pem != '':
+        print "Using pem file at ", pem
+        fab.env.key_filename = pem
+    
+    fab.env.roledefs = {
+        'rlec': [host],
+        'rlec_master': [host]
+    }
+
+
+@cli.command()
+def get_module():
+    """
+    Download RS and Coordinator module to remote server
+    """
+    fab.execute(tasks.get_module)
+
+
+@cli.command()
+@click.option('--name', prompt = 'Database Name', default='mydb', help='Database Name')
+@click.option('--shards', prompt = 'Number of Search Partitions (Shards)', default=3, help='Number of Search Partitions (Shards)')
+@click.option('--maxmemory', prompt='Database Memory Limit (in GB)', default='4', help='Database Memory Limit (in GB)')
+@click.option('--replication',is_flag=True, default=False, prompt='Enable Replication', help='If set, replication is enabled')
+def create_db(name, shards, maxmemory, replication):
+    """
+    Create a new RS/RL Database
+    """
+    fab.execute(tasks.create_database, name, shards, maxmemory, replication)
+
+@cli.command()
+@click.option('--rlec_installer', prompt = 'Path to Redis Pack installation .tar file',  help = 'Path to Redis Pack installation .tar file')
+def bootstrap_machine(rlec_installer):
+    """
+    Bootstrap a new Redis Pack/RediSearch maching and install the essential stuff
+    """
+    fab.execute(tasks.install_essentials)
+    fab.execute(tasks.install_redis)
+    fab.execute(tasks.install_rlec, rlec_installer)
+
+@cli.command()
+@click.option('--name', prompt = 'Cluster Name', default='MyCluster', help='Cluster Name')
+@click.option('--license_file', prompt = 'LICENSE file path', default='license.txt', help='LICENSE file path')
+def create_cluster(name, license_file):
+    """
+    Create a new Redis Pack cluster
+    """
+    fab.execute(tasks.create_cluster, name, license_file)
+
+@cli.command()
+@click.argument('coordinator', default='rscoordinator.zip')
+def upload_module(coordinator):
+    """
+    [rscoordinator.zip] --- Upload module packages from the local machine to the server. 
+    """
+    fab.execute(tasks.upload_modules, coordinator)
+
+
+#register_repl(cli)
+if __name__ == '__main__':
+    cli()
+    
+

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rsctl
+Version: 0.2
+Summary: Command-line control tool for RediSearch clusters
+Home-page: https://github.com/redislabs/rsctl
+Author: RedisLabs
+Author-email: UNKNOWN
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
