@@ -1,0 +1,10 @@
+pytest_mongodb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mongodb/plugin.py,sha256=-qX-8kdzaGPyGR_lBsWr_GL5XXsZwY4tGzFu5l1sxgA,3265
+pytest_mongodb-2.1.1.dist-info/DESCRIPTION.rst,sha256=X5iI7OmBsU2gaQRedof_YTwfCXv1-b1HmtJe9203yTQ,4358
+pytest_mongodb-2.1.1.dist-info/METADATA,sha256=SNMcGBze77AmkbYbNuiXm1db5eMSzeKDsOY78MWcM8c,5408
+pytest_mongodb-2.1.1.dist-info/RECORD,,
+pytest_mongodb-2.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pytest_mongodb-2.1.1.dist-info/entry_points.txt,sha256=0vCYZuTUVklo0R10kO17tP0QXl1SWw0Bw8s3HaunPj8,51
+pytest_mongodb-2.1.1.dist-info/metadata.json,sha256=c8ctJQ44YV98a08agO57R8bE8ZYbVrUhP_b85bQUEqU,1250
+pytest_mongodb-2.1.1.dist-info/pbr.json,sha256=qzoEUev4D5x6MAqQvEYFCVvzQOHCBC7J2IOvmZ-A8sY,46
+pytest_mongodb-2.1.1.dist-info/top_level.txt,sha256=ZQq_8oZMexnGPvfcwP4cUf9l6rzmjgDBUydmV2l4u9Q,15
