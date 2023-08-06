@@ -1,0 +1,5 @@
+[console_scripts]
+pym-dumplogs = pymygdala.commands:dumplogs
+pym-sendevent = pymygdala.commands:sendevent
+pym-sendlog = pymygdala.commands:sendlog
+

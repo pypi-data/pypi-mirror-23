@@ -1,0 +1,7 @@
+pika==0.10.0
+pycapo==0.1.1
+python-dateutil==2.6.0
+simplejson==3.11.1
+Sphinx==1.6.2
+sphinx-argparse==0.2.1
+sphinx_rtd_theme==0.2.4

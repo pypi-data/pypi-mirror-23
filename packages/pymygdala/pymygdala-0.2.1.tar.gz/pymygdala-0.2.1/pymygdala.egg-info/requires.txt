@@ -1,0 +1,4 @@
+pika==0.10.0
+pycapo==0.1.1
+python-dateutil==2.6.0
+simplejson==3.11.1

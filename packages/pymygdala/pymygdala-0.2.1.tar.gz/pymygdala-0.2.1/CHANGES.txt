@@ -1,0 +1,5 @@
+
+0.2.1	2017-07-10	Quick bugfix on SendNRAOEvent
+0.2.0	2017-07-06	Major refactor, added pym-dumplogs, pym-sendlog, pym-sendevent CLI apps, docs and more goodness
+0.1.1	2017-06-28	Packaging fixes, first pypi release
+0.0.1	2017-01-31	Initial release plus logging
