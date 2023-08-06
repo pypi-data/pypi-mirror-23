@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+gdal
+pandas
+
+[cite]
+duecredit
+
+[test]
+pytest
