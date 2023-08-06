@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+arcpy_virtualenv/windows_10.5.pth
+arcpy_virtualenv.egg-info/PKG-INFO
+arcpy_virtualenv.egg-info/SOURCES.txt
+arcpy_virtualenv.egg-info/dependency_links.txt
+arcpy_virtualenv.egg-info/top_level.txt
