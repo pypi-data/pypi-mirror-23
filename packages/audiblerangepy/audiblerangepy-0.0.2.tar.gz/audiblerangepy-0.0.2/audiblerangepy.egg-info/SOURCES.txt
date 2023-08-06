@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+audiblerangepy.egg-info/PKG-INFO
+audiblerangepy.egg-info/SOURCES.txt
+audiblerangepy.egg-info/dependency_links.txt
+audiblerangepy.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: audiblerangepy
+Version: 0.0.2
+Summary: `audiblerangepy` is a package for checking some frequency is audible or not for some human-being and animals
+Home-page: UNKNOWN
+Author: Kosuke Mawatari
+Author-email: UNKNOWN
+License: MIT
+Description: `audiblerangepy` is a package for checking some frequency is audible or not for some human-being and animals
+        
+        Requirements
+        ------------
+        * Python 3.x
+        (you may work by Python2.x)
+        
+        Features
+        --------
+        * nothing
+        
+        History
+        -------
+        0.0.1 (2017-7-15)
+        ~~~~~~~~~~~~~~~~~~
+        * first release
+        
+        
+Keywords: audible,audible range
+Platform: UNKNOWN
