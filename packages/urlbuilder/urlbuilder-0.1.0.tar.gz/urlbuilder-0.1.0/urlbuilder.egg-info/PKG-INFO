@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: urlbuilder
+Version: 0.1.0
+Summary: A simple structural URL builder
+Home-page: https://github.com/pupssman/urlbuilder
+Author: Ivan Kalinin
+Author-email: pupssman@yandex-team.ru
+License: MIT
+Description: Urlbuilder
+        ============
+        Simple helper to build URLs in python
+        
+        Usage example:
+        
+        .. code:: python
+        
+            import requests
+        
+            from urlbuilder import URLBuilder
+        
+            print requests.get(URLBuilder('http://github.com/').docker.docker.issues[1]).status_code
+        
+            # prints 200
+        
+Keywords: URL requests
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7

@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+urlbuilder.py
+urlbuilder.egg-info/PKG-INFO
+urlbuilder.egg-info/SOURCES.txt
+urlbuilder.egg-info/dependency_links.txt
+urlbuilder.egg-info/top_level.txt
