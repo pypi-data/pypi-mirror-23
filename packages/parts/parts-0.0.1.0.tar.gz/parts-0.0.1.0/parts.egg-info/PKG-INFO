@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: parts
+Version: 0.0.1.0
+Summary: Minimal Python library for common list functions related to partitioning lists (and recombining them).
+Home-page: https://github.com/lapets/parts
+Author: Andrei Lapets
+Author-email: a@lapets.io
+License: MIT
+Description: =====
+        parts
+        =====
+        
+        Minimal Python library for common list functions related to partitioning lists (and recombining them).
+        
+        Package Installation and Usage
+        ------------------------------
+        
+        The package is available on PyPI::
+        
+            python -m pip install parts
+        
+        The library can be imported in the usual ways::
+        
+            import parts
+            from parts import parts
+Platform: UNKNOWN
