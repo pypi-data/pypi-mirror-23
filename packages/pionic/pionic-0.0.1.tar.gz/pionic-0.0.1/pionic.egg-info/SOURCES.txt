@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+pionic/__init__.py
+pionic/_version.py
+pionic/core.py
+pionic.egg-info/PKG-INFO
+pionic.egg-info/SOURCES.txt
+pionic.egg-info/dependency_links.txt
+pionic.egg-info/requires.txt
+pionic.egg-info/top_level.txt
+pionic/antlr/IonTextLexer.py
+pionic/antlr/IonTextListener.py
+pionic/antlr/IonTextParser.py
