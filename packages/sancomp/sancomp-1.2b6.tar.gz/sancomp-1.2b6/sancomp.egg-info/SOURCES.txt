@@ -1,0 +1,10 @@
+setup.py
+sancomp/calculations.py
+sancomp/s.py
+sancomp/sancomp.py
+sancomp/setup.py
+sancomp.egg-info/PKG-INFO
+sancomp.egg-info/SOURCES.txt
+sancomp.egg-info/dependency_links.txt
+sancomp.egg-info/requires.txt
+sancomp.egg-info/top_level.txt
