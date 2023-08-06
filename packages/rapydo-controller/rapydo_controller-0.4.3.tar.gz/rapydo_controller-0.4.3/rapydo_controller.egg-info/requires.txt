@@ -1,0 +1,7 @@
+rapydo-utils==0.4.7
+docker-compose==1.14
+docker==2.4.2
+dockerfile-parse
+gitpython
+better_exceptions
+requests==2.11.1
