@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/ToxTest.egg-info/PKG-INFO
+src/ToxTest.egg-info/SOURCES.txt
+src/ToxTest.egg-info/dependency_links.txt
+src/ToxTest.egg-info/top_level.txt
+src/toxtest/__init__.py
+src/toxtest/dummy.py
