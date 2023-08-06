@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: spirack
+Version: 0.1.0.dev6
+Summary: Drivers for the QuTech SPI-rack
+Home-page: https://github.com/Rubenknex/SPI-rack
+Author: Marijn Tiggelman
+Author-email: qutechdev@gmail.com
+License: MIT
+Download-URL: https://github.com/Rubenknex/SPI-rack/archive/0.1.0.dev6.tar.gz
+Keywords: SPI,Qcodes,SPI-rack
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
