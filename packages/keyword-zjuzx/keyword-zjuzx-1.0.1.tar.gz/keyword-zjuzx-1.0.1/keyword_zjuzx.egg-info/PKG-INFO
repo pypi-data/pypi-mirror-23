@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: keyword-zjuzx
+Version: 1.0.1
+Summary: a python project for health knowledge text keyword extraction
+Home-page: http://www.zjubiomedit.com/
+Author: Zhejiang University
+Author-email: 1292552451@qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: keyword knowledge python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
