@@ -1,0 +1,5 @@
+tqdm>=4.0
+
+[test]
+cvxpy>=0.4
+cvxopt
