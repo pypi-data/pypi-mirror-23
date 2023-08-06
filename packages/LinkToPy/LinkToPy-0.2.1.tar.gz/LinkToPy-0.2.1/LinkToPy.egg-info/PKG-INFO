@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: LinkToPy
+Version: 0.2.1
+Summary: A python wrapper for Ableton Link using TCP and Carabiner
+Home-page: https://github.com/bdyetton/LinkToPy
+Author: Ben Yetton
+Author-email: bdyetton@gmail.com
+License: UNKNOWN
+Download-URL: http://pypi.python.org/pypi/LinkToPy/
+Description: UNKNOWN
+Keywords: link,python,lighting,serato,abelton
+Platform: UNKNOWN
