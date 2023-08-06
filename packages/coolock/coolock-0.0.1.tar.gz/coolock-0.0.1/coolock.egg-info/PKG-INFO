@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: coolock
+Version: 0.0.1
+Summary: A coordinated locking wrapper script for distributed tasks
+Home-page: http://packages.python.org/coolock
+Author: Daniel Marks
+Author-email: daniel.marks@codecentric.de
+License: GPLv3
+Description: UNKNOWN
+Keywords: coordination lock cron distributed
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7

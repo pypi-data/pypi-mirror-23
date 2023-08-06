@@ -1,0 +1,2 @@
+configargparse >= 0.10.0
+tooz >= 1.56.1
