@@ -1,0 +1,11 @@
+siolib/__init__.py,sha256=HnjB8R5Xbaoj7PmG4rLcOz3nl5twJpsd5nCoEMMxZt0,1424
+siolib/exceptions.py,sha256=N79Sn8jTUdBfwTgsnBMci_0WtQbc7S-f5eqn1kTOL6Y,969
+siolib/httphelper.py,sha256=gD3OvrTphlsAFiy-B0-Ib_icMfg5dTuWdhJJSKARb6A,9680
+siolib/scaleio.py,sha256=xjpJW3Hrd7SJkdWggDGmI-8zJWVFNWg9smpYsiAFZmw,33516
+siolib/utilities.py,sha256=WUrH2ZBeXICAFw5xK31CgxYkY247P7WDsjCXX88SnLI,4612
+siolib-2.0.0b3.dist-info/DESCRIPTION.rst,sha256=D-VuIWuQoRbno3ERHEYQuVWuRzgvzTLAgxX7TFp8PtY,228
+siolib-2.0.0b3.dist-info/METADATA,sha256=6Odx7I8DWeR-uMEVscDvhBBEmHknfBkS2md9Dk86Zts,987
+siolib-2.0.0b3.dist-info/RECORD,,
+siolib-2.0.0b3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+siolib-2.0.0b3.dist-info/metadata.json,sha256=e7_iAC2C7-4Z1tCghTTua9aVS9LfpisuCdPwaHCvi28,880
+siolib-2.0.0b3.dist-info/top_level.txt,sha256=F2mlvCya620AusUmWYieU-2Vsihlri7762ZvM3a277s,7
