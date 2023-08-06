@@ -1,0 +1,5 @@
+setuptools==36.2.0
+pytest-asyncio==0.6.0
+py==1.4.34
+async-patterns==0.3b13
+pytest==3.1.3

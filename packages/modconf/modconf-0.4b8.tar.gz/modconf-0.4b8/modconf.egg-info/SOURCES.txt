@@ -1,0 +1,15 @@
+MANIFEST.in
+Pipfile.lock
+README.rst
+Setup.lock
+setup.py
+modconf/__init__.py
+modconf/remote.py
+modconf.egg-info/PKG-INFO
+modconf.egg-info/SOURCES.txt
+modconf.egg-info/dependency_links.txt
+modconf.egg-info/not-zip-safe
+modconf.egg-info/requires.txt
+modconf.egg-info/top_level.txt
+modconf/tests/test_class.py
+modconf/tests/test_remote.py
