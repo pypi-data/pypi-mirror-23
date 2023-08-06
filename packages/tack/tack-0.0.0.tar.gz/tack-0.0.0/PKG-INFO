@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: tack
+Version: 0.0.0
+Summary: Use tackdb instead
+Home-page: UNKNOWN
+Author: tackdb
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: tack
+        ====
+        
+        For the python tackdb driver, see: https://pypi.python.org/pypi/tackdb
+        
+        
+Platform: UNKNOWN

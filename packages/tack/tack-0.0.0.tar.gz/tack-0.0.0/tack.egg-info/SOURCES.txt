@@ -1,0 +1,6 @@
+README.rst
+setup.py
+tack.egg-info/PKG-INFO
+tack.egg-info/SOURCES.txt
+tack.egg-info/dependency_links.txt
+tack.egg-info/top_level.txt
