@@ -1,0 +1,13 @@
+beautifulsoup4
+dropbox
+feedparser
+google_api_python_client
+humanfriendly
+ipython
+lxml
+python_magic
+python_dateutil
+python_twitter
+requests
+six
+tzlocal
