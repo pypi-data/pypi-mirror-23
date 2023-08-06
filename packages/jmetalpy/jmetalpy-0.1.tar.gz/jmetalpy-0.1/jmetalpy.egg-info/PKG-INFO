@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: jmetalpy
+Version: 0.1
+Summary: JMetalPy. Python version of the jMetal framework
+Home-page: https://github.com/jMetal/jMetalPy
+Author: Antonio Nebro, Carlos Canicio
+Author-email: ajnebro@uma.es, canicio@lcc.uma.es
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.6
