@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: reswmsecanalyzer
+Version: 1.0
+Summary: A simple script to visualize and find bypasses in RES Workspace Manager application restrictions
+Home-page: https://github.com/maaaaz/reswmsecanalyzer
+Author: Thomas D.
+Author-email: tdebize@mail.com
+License: LGPL
+Description: UNKNOWN
+Keywords: res workspace manager restrictions
+Platform: UNKNOWN
+Classifier: Topic :: Security
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Requires-Python: <3
