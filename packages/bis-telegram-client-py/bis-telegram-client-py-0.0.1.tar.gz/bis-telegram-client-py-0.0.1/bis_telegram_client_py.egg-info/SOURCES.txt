@@ -1,0 +1,17 @@
+setup.py
+bis_telegram_client/__init__.py
+bis_telegram_client/api_client.py
+bis_telegram_client/configuration.py
+bis_telegram_client/rest.py
+bis_telegram_client/apis/__init__.py
+bis_telegram_client/apis/messages_api.py
+bis_telegram_client/models/__init__.py
+bis_telegram_client/models/data.py
+bis_telegram_client_py.egg-info/PKG-INFO
+bis_telegram_client_py.egg-info/SOURCES.txt
+bis_telegram_client_py.egg-info/dependency_links.txt
+bis_telegram_client_py.egg-info/requires.txt
+bis_telegram_client_py.egg-info/top_level.txt
+test/__init__.py
+test/test_data.py
+test/test_messages_api.py
