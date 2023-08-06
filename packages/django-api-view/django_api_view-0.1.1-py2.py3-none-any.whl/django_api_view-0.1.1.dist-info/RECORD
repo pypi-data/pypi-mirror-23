@@ -1,0 +1,13 @@
+django_api_view/__init__.py,sha256=ZPv4TupN-DJOfMhDIxSXoj8K_-RbSCsFPfVUeXudFbY,84
+django_api_view/admin.py,sha256=48yRT_Qp8ubyhuV91BHJ_igXd5trCVay-cEtuBjk3rM,20
+django_api_view/api_response.py,sha256=8NVXvZt05M0CJ-_2C9cEgUvmn2SZq2JAKxCOUKSXszs,3234
+django_api_view/api_view.py,sha256=YDKV-OAHLJd-Vm2tJ-GpLfpKjteSU-s8bsCEhs6kHw4,1968
+django_api_view/apps.py,sha256=GiGyAlPePWhw4ksY7uNxs5CGKKtV9coleC--1g7Luhs,124
+django_api_view/models.py,sha256=-V38rCsoPZ_FBccxRjB4fevWRwyV2wjEvnoG9NJAdz8,59
+django_api_view-0.1.1.dist-info/DESCRIPTION.rst,sha256=4dgqly32BDVK9-UGppu5BUqQCBMaVpDv7eZb5LkbKCI,1727
+django_api_view-0.1.1.dist-info/LICENSE.txt,sha256=ovYRMcmNgHmbW8eCqGJoIrr_OBpZxxDZBNQlwYncwe0,1078
+django_api_view-0.1.1.dist-info/METADATA,sha256=hN7ibg_HXzSPvCehbX3s8uxNKzklUP0fqrpxymuGbYs,2526
+django_api_view-0.1.1.dist-info/RECORD,,
+django_api_view-0.1.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+django_api_view-0.1.1.dist-info/metadata.json,sha256=tB3pSH32xAlXseIBMwMmmv-CuN7NU1ScKdLtp6z71Hk,981
+django_api_view-0.1.1.dist-info/top_level.txt,sha256=Rzky1LEyW51lP0WZ6mFDd8sKjDtzXmb9eAtdd8Ru7vo,16
