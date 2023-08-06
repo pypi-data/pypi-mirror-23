@@ -1,0 +1,3 @@
+[console_scripts]
+pisurvl-server = pisurvl.main:main
+
