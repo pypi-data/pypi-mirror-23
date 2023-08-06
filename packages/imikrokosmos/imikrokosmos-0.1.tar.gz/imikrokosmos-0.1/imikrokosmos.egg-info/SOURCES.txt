@@ -1,0 +1,5 @@
+setup.py
+imikrokosmos.egg-info/PKG-INFO
+imikrokosmos.egg-info/SOURCES.txt
+imikrokosmos.egg-info/dependency_links.txt
+imikrokosmos.egg-info/top_level.txt
