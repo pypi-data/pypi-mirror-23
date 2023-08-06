@@ -1,0 +1,10 @@
+pywinsparkle-1.1.0.data/purelib/pywinsparkle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywinsparkle-1.1.0.data/purelib/pywinsparkle/pywinsparkle.py,sha256=XmzFa0P5WrMbQQGAl578M_xd6cW5PIDsl3A17dptdZY,14903
+pywinsparkle-1.1.0.data/purelib/pywinsparkle/libs/x64/WinSparkle.dll,sha256=I6ZsHeBVT2bAOEeRmp7HS4AR_ZsiiB7i1f75ssKQhCg,1854464
+pywinsparkle-1.1.0.data/purelib/pywinsparkle/libs/x86/WinSparkle.dll,sha256=vO_clUgtlcuXFDnRzxby4Z9hFFqix4ewBhmqYzP5osA,1386496
+pywinsparkle-1.1.0.dist-info/DESCRIPTION.rst,sha256=LP6wUKF0a5U8ngJ0va9-v2NxRpFNBigydDM4o4_n8pQ,4613
+pywinsparkle-1.1.0.dist-info/METADATA,sha256=3MTSwaDX_jRyMuzXLOInd9pGXqlQnKwnq4cDKSM_AZk,5192
+pywinsparkle-1.1.0.dist-info/RECORD,,
+pywinsparkle-1.1.0.dist-info/WHEEL,sha256=wMg-fuH6RtDfQMA4yFnFh6p56fg-slT1OncejboIbCc,101
+pywinsparkle-1.1.0.dist-info/metadata.json,sha256=AWXI7iLo6DkppU1qSSYgAlKJlg3Pd-ElO_4CmUxyB3k,787
+pywinsparkle-1.1.0.dist-info/top_level.txt,sha256=EotmKz625gXcjCayHHqzgRAMl5w2ntDXhNnkkd9wZc8,13
