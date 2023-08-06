@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+./chop/__init__.py
+chop/__init__.py
+chop/dict.txt
+chop/punctuations.txt
+chop/test.py
+chop.egg-info/PKG-INFO
+chop.egg-info/SOURCES.txt
+chop.egg-info/dependency_links.txt
+chop.egg-info/top_level.txt
