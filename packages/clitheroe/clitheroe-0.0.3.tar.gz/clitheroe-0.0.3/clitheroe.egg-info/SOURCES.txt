@@ -1,0 +1,9 @@
+clitheroe.py
+setup.py
+clitheroe.egg-info/PKG-INFO
+clitheroe.egg-info/SOURCES.txt
+clitheroe.egg-info/dependency_links.txt
+clitheroe.egg-info/entry_points.txt
+clitheroe.egg-info/not-zip-safe
+clitheroe.egg-info/requires.txt
+clitheroe.egg-info/top_level.txt

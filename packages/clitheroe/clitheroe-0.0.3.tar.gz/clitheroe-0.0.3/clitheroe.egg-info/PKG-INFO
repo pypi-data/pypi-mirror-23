@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: clitheroe
+Version: 0.0.3
+Summary: Sprint plan gant chart generator.
+Home-page: https://github.com/bwghughes/clitheroe
+Author: Ben Hughes
+Author-email: bwghughes@gmail.com
+License: UNKNOWN
+Description: Because someone always wants a gant chart.
+Keywords: clitheroe,gant
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
