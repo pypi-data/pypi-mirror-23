@@ -1,0 +1,2 @@
+tvguide/_tvguide.cpython-36m-darwin.so
+tvguide/_tvguide.cpython-36m-darwin.so.dSYM/Contents/Resources/DWARF/_tvguide.cpython-36m-darwin.so
