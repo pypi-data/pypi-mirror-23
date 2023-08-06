@@ -1,0 +1,11 @@
+arrfunc/__init__.py,sha256=dL6iYBjRyg5yvUguxdPDzMxv-SKOVP64x1qBdZqNi2I,156
+arrfunc/arrfunc.py,sha256=9QMstu2OhiAaXaKUWR3U8OS0NkZfCBHpVNyi0ic0boo,9394
+arrfunc/linalg.py,sha256=f3xy4dZ65r9oVn7p-RlMaFdsAM4y3_LExseLwbYf7ac,1281
+arrfunc/test.py,sha256=Z92-OceIAOjvZ-WfVa_ioJXRPrjrk6WhWqxD8AL1k-U,4058
+arrfunc/utils.py,sha256=ze5NAB9ZhZWlwz7K7l9X_6vQLg12Poj8R3xeVYXFumU,1303
+arrfunc-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+arrfunc-1.0.dist-info/METADATA,sha256=HFcC9H528yRkWpcwTAbBqGJ8lmOFB355UspQIw5pCM0,366
+arrfunc-1.0.dist-info/RECORD,,
+arrfunc-1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+arrfunc-1.0.dist-info/metadata.json,sha256=2oc_MgMEQbFPrHqdL5UTXQWrgFibZPGWRhN3fTXTu4I,563
+arrfunc-1.0.dist-info/top_level.txt,sha256=fmk4WkpEz38HvqPzU3tKKr4Pfmy6kMTahvdMkLKO9Gw,8
