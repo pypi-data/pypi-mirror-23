@@ -1,0 +1,4 @@
+elasticsearch>=5.1.0
+elasticsearch_dsl>=5.1.0
+pyparsing>=2.2.0
+six>=1.5.2

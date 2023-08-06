@@ -1,0 +1,3 @@
+[console_scripts]
+weaveq = weaveq.__main__:main
+
