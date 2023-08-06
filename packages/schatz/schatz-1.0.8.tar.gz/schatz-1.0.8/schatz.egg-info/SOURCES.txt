@@ -1,0 +1,14 @@
+setup.py
+schatz/__init__.py
+schatz/context.py
+schatz/environment.py
+schatz/model.py
+schatz/rest.py
+schatz.egg-info/PKG-INFO
+schatz.egg-info/SOURCES.txt
+schatz.egg-info/dependency_links.txt
+schatz.egg-info/requires.txt
+schatz.egg-info/top_level.txt
+schatz/adapter/__init__.py
+schatz/adapter/pandas.py
+schatz/adapter/sql.py
