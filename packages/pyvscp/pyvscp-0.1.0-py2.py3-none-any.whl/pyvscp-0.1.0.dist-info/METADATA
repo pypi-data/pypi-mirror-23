@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: pyvscp
+Version: 0.1.0
+Summary: Official VSCP Python package
+Home-page: http://www.vscp.org
+Author: Ake Hedman, Grodans Paradis AB
+Author-email: akhe@grodansparadis.com
+License: MIT
+Keywords: vscp iot m2m automation development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: crypto
+Requires-Dist: pycrc
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+Official VSCP Python library
+============================
+
+This is the official Python library for the VSCP project (http://www.vscp.org).
+
+
+Documentation is (here)[http://www.vscp.org/docs/vscphelper/doku.php?id=start]
+
+----
+
+
+
