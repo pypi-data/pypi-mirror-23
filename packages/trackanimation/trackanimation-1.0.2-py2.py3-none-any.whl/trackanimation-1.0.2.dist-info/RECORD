@@ -1,0 +1,10 @@
+trackanimation/__init__.py,sha256=pYpfarj_AyFIeNSviwFXz0s-3-48zufLHGYcKKHYR_s,1146
+trackanimation/animation.py,sha256=41RyLcs4lvNHaHz_FvC3ffk-MpgqCKYe5GLTpe5r3YQ,6891
+trackanimation/tracking.py,sha256=B2B2X_edPLLkP0oMDavrAeGwA2qPIVbgyyst8_sM30A,15112
+trackanimation/utils.py,sha256=XbVQvaE_6uPPMCsQ3C36ocL-Gu6dXkkAKoOp3M3YBoU,5688
+trackanimation-1.0.2.dist-info/DESCRIPTION.rst,sha256=qbLPdYn2O8VBawM1hirwwC59g8IP4SGK2azz1YaeR-Y,5761
+trackanimation-1.0.2.dist-info/METADATA,sha256=ZjOReonxMZ0aVHOAYLt6x2pGjLPfE4HQ6UgTmCJ7mf8,6952
+trackanimation-1.0.2.dist-info/RECORD,,
+trackanimation-1.0.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+trackanimation-1.0.2.dist-info/metadata.json,sha256=hVPdB8tdqdVkov8l9fdo-0RA_T6CeZ8YZKe3j3Le4O0,1248
+trackanimation-1.0.2.dist-info/top_level.txt,sha256=fK8AVmHpSQ0bw93SnZJR3TuNRIdVuoJC4Y3FfuoilJQ,15
