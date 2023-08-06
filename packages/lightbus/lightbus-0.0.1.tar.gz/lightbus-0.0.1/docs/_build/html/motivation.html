@@ -1,0 +1,241 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>1. Motivation &#8212; Lightbus 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. Alternatives" href="alternatives.html" />
+    <link rel="prev" title="Introduction" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="motivation">
+<h1>1. Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h1>
+<p>Current Python task queues function well in the case where there is a
+single app which needs to queue tasks for execution later. However, they
+seem poorly suited to multi-application ecosystems.</p>
+<p>Conversely, existing Python bus systems (<a class="reference external" href="https://zato.io/">Zato</a>, for example)
+appear designed for much larger projects but at the cost of complexity
+in both use and deployment.</p>
+<p>Lightbus will target projects which fall in the gap between these two use
+cases.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This was originally, briefly, and rantily mentioned in a <a class="reference external" href="https://news.ycombinator.com/item?id=14556988">Hacker News thread</a>.</p>
+</div>
+<div class="section" id="task-queue-vs-bus">
+<h2>1.1. Task queue vs bus<a class="headerlink" href="#task-queue-vs-bus" title="Permalink to this headline">¶</a></h2>
+<p>A task queue typically enables a developer to execute a specific piece of code at a later date:</p>
+<ul class="simple">
+<li>A task queue is tightly coupled. The dispatching code must know what needs to be done.</li>
+<li>A task queue typically doesn’t return results <a class="footnote-reference" href="#f1" id="id1">[1]</a>.</li>
+</ul>
+<p>Buses on the other hand can be seen a little differently. A relevant definition is hard to pin
+down, but I would say:</p>
+<ul class="simple">
+<li>A bus provides loose coupling. The developer says what <em>did</em> happen, not what <em>should</em> happen.</li>
+<li>A bus provides bi-directional communication.</li>
+</ul>
+<div class="section" id="example">
+<h3>1.1.1. Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>A user registers with your application. They upload a profile image, and you also need to
+send them a welcome email.</p>
+<p><strong>Task queue:</strong> Your signup code enqueues two tasks; one for the image resize, and one for the welcome email:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1"># TASK QUEUE</span>
+
+<span class="c1"># Handling the signup</span>
+<span class="n">resize_profile_image</span><span class="o">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">user_info</span><span class="p">)</span>
+<span class="n">send_welcome_email</span><span class="o">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">user_info</span><span class="p">)</span>
+
+<span class="c1"># Tasks executed later</span>
+<span class="nd">@task</span>
+<span class="k">def</span> <span class="nf">resize_profile_image</span><span class="p">(</span><span class="n">user_info</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="nd">@task</span>
+<span class="k">def</span> <span class="nf">send_welcome_email</span><span class="p">(</span><span class="n">user_info</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<p><strong>Bus:</strong> Your signup code publishes a single event. This event describes what happened, rather than what should be done:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1"># BUS</span>
+
+<span class="c1"># Handling the signup</span>
+<span class="n">user_signup</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">user_info</span><span class="p">)</span>
+
+<span class="c1"># Tasks executed later</span>
+<span class="nd">@subscribe</span><span class="p">(</span><span class="n">user_signup</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">resize_profile_image</span><span class="p">(</span><span class="n">user_info</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="nd">@subscribe</span><span class="p">(</span><span class="n">user_signup</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">send_welcome_email</span><span class="p">(</span><span class="n">user_info</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="benefits-downsides">
+<h3>1.1.2. Benefits &amp; downsides<a class="headerlink" href="#benefits-downsides" title="Permalink to this headline">¶</a></h3>
+<p>Benefits of this technique are:</p>
+<ul class="simple">
+<li><strong>More extensible</strong> - events can be listened for without having to modify the producer</li>
+<li><strong>Future planning</strong> - events can fired even if they are not immediately required</li>
+<li><strong>Less code</strong> - marginal in the above example, but some events could have dozens of listeners</li>
+<li><strong>Loose coupling</strong> is just pretty good 😀</li>
+</ul>
+<p>Downsides are:</p>
+<ul class="simple">
+<li><strong>No longer explicit</strong> - you cannot know what will happen by looking at the dispatch call <a class="footnote-reference" href="#f2" id="id2">[2]</a>.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="existing-task-queues">
+<h2>1.2. Existing task queues<a class="headerlink" href="#existing-task-queues" title="Permalink to this headline">¶</a></h2>
+<p>With the above, I have identified a number of pain points with existing task queues.
+This is based on my experience and conversations with other developers. I
+welcome intelligent disagreement, agreement, or additions.</p>
+<p><strong>Broker limitations</strong> - Queues such as <a class="reference external" href="http://python-rq.org/">rq</a> are limited by their
+simplicity, in particular due to the choice of broker. This becomes a
+problem when trying to architect loosely coupled apps (see above, and <a class="reference internal" href="implementation.html#why-amqp"><span class="std std-ref">Why AMQP</span></a>).</p>
+<p><strong>Complexity</strong> - <a class="reference external" href="http://celery.readthedocs.io/">Celery</a> in particular becomes
+conceptually complex when dealing with with multiple applications
+communicating via AMQP. This is in part because Celery’s (/Kombu’s) terminology
+overlaps and somewhat conflicts with that of AMQP. Celery’s documentation is
+also pretty light on details when it comes to
+more complex setups (as is Google).</p>
+<p><strong>Conceptual mapping</strong> - Task queue concepts do not map well to implementing
+RPC and pub/sub. This is reasonable, and perhaps somewhere one would expect a bus
+to perform better (more on this shortly).</p>
+<p><strong>Testing &amp; debugging</strong> - I find writing tests for existing queues
+harder than it should be. I want simple ways to both assert that a task was
+dispatched and simulate incoming tasks. Both should take identical
+parameters. I would also like to see much better debugging tools to
+help answer the question “Why is/isn’t App B receiving message X from App
+A?”</p>
+</div>
+<div class="section" id="existing-buses">
+<h2>1.3. Existing buses<a class="headerlink" href="#existing-buses" title="Permalink to this headline">¶</a></h2>
+<p>TBA. <a class="reference external" href="https://zato.io/">Zato</a>.</p>
+<div class="figure align-center" id="id3">
+<img alt="Sunset with wind turbines." src="_images/sunset.jpg" />
+<p class="caption"><span class="caption-text">Nope, still not relevant. Don’t get your hopes up. Next: <a class="reference internal" href="alternatives.html"><span class="doc">Alternatives</span></a></span></p>
+</div>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Many tasks queus definitely do support receiving results.
+However, 1) the implementation often leaves something to be
+desired, and 2) the conceptual mapping feels odd.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td>My hope is that tooling can help here.</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Lightbus</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=adamcharnock&repo=lightbus&type=star&count=False&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alternatives.html">2. Alternatives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concerns.html">3. Concerns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">4. Implementation</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Introduction</a></li>
+      <li>Next: <a href="alternatives.html" title="next chapter">2. Alternatives</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Adam Charnock.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/motivation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
