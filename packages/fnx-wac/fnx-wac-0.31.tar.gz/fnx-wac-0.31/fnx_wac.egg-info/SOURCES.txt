@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+wac.py
+fnx_wac.egg-info/PKG-INFO
+fnx_wac.egg-info/SOURCES.txt
+fnx_wac.egg-info/dependency_links.txt
+fnx_wac.egg-info/requires.txt
+fnx_wac.egg-info/top_level.txt
