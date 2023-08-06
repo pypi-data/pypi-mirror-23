@@ -1,0 +1,37 @@
+{% extends "squad/base.html" %}
+{% load humanize %}
+
+{% block content %}
+{% include "squad/project-nav.html" %}
+
+{% with status=project.status %}
+<table class='table table-striped'>
+  <tr>
+    <th>Last update</th>
+    <th>Tests</th>
+    <th>Metrics</th>
+  </tr>
+  <tr>
+    <td>
+      {{build.datetime|default:"(no data)"}}
+      <em>{{build.datetime|naturaltime}}</em>
+    </td>
+    <td>
+      {% if status.has_tests %}
+      <div class="progress" title="Pass: {{status.pass_percentage|stringformat:"d"}}%">
+        <div class="progress-bar progress-bar-success" style="width: {{status.pass_percentage}}%">
+          <span class="sr-only">Pass: {{status.pass_percentage}}% </span>
+        </div>
+        <div class="progress-bar progress-bar-danger" style="width: {{status.non_pass_percentage}}%">
+        </div>
+      </div>
+      {% else %}
+      (no data)
+      {% endif %}
+    </td>
+    <td>
+      {{status.metrics_summary|default:"(no data)"}}
+    </td>
+</table>
+{% endwith %}
+{% endblock %}
