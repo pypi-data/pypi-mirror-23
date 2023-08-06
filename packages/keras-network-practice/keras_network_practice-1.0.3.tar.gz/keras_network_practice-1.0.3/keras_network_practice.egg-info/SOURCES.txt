@@ -1,0 +1,13 @@
+README.txt
+setup.py
+keras_network_practice/__init__.py
+keras_network_practice/keras_first_network.py
+keras_network_practice/keras_second_network_baseline.py
+keras_network_practice/practice1.py
+keras_network_practice/test.py
+keras_network_practice/testRT.py
+keras_network_practice.egg-info/PKG-INFO
+keras_network_practice.egg-info/SOURCES.txt
+keras_network_practice.egg-info/dependency_links.txt
+keras_network_practice.egg-info/top_level.txt
+keras_network_practice.egg-info/zip-safe
