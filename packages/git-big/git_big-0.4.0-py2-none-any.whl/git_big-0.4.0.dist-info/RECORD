@@ -1,0 +1,12 @@
+git_big/__init__.py,sha256=8mxP6llKVveXMmmFmmtqPwXKi31BY74GtrSVfJdn5Us,600
+git_big/filter.py,sha256=5MFFCruCKDBJBBhlpYvND1ydXyWCW0w6rVpmpBdw5Oo,4022
+git_big/fix_progressbar.py,sha256=qEv8Cii7TWg0KHbofp_P-xkmFlwM2MjuvkO9AllkNRQ,3562
+git_big/main.py,sha256=Db7_5TXOzhRyyKpZWMS9h8md1XR03diW8cwb5lfzxe0,28833
+git_big/storage.py,sha256=DuNAfiM_cEdI3NJ2-5IkWyvDwQPwdRImYR3ASOhf2nU,7304
+git_big-0.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+git_big-0.4.0.dist-info/METADATA,sha256=7_aWJKPEU2I0CwACH7YJmOpDsR_sfx3x69XxN7wDGy4,905
+git_big-0.4.0.dist-info/RECORD,,
+git_big-0.4.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+git_big-0.4.0.dist-info/entry_points.txt,sha256=gM_7MTqeS8cqW8QdtwBCb7LZVitJ9wQTtXSG4A0_1D0,46
+git_big-0.4.0.dist-info/metadata.json,sha256=y3U6vfHsY6kEWQ_Zq7V1kSczUL22pY9jWx0yQ4b2x6M,1121
+git_big-0.4.0.dist-info/top_level.txt,sha256=x5bZKNR7SSZCsYDH4ruXoqvUE6zScQE4HDEA_xH-q2c,8
