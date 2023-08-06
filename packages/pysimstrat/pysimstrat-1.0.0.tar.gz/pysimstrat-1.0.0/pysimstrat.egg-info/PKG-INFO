@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pysimstrat
+Version: 1.0.0
+Summary: python library to manage simstrat & PEST configurations
+Home-page: https://github.com/zimmermm/pysimstrat
+Author: Matthias Zimmermann
+Author-email: matthias.zimmermann@eawag.ch
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
