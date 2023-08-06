@@ -1,0 +1,11 @@
+django_freeipa_auth-0.1.dev3.dist-info/DESCRIPTION.rst,sha256=tTFxtzN2CCzxNf1YuT4a5oIuf3bMfnNNP_PSFkLL6xo,1609
+django_freeipa_auth-0.1.dev3.dist-info/METADATA,sha256=P6IXmg30-L_imBM6weS3C1hGsiAjQl8uT9Tw7ZVELCg,2460
+django_freeipa_auth-0.1.dev3.dist-info/RECORD,,
+django_freeipa_auth-0.1.dev3.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+django_freeipa_auth-0.1.dev3.dist-info/metadata.json,sha256=gQCFyjOCzX0qh6LIuRb18BN-GSwWvbbmrwwhtub-HAU,1057
+django_freeipa_auth-0.1.dev3.dist-info/top_level.txt,sha256=0it_Ns0ozT8AVuwoIjk9kjPRcC1j3AeYW0wZU2mNXcc,13
+freeipa_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freeipa_auth/backends.py,sha256=WiiGiNXC0IMeghwGs3lUkRQZ2_p22NNtJ-dIIv2tHKs,6944
+freeipa_auth/conftest.py,sha256=SQuWRgDXQkN5-hFRTGZPLOwQA8gI0SSFMlrBEKBIcBI,3310
+freeipa_auth/freeipa_utils.py,sha256=j7J8IA0lhkkNjFGmSlmCHsmvyqx3TSVwrRg-_jXMTEQ,4227
+freeipa_auth/tests.py,sha256=9w-aDw5jliZaQyix7gn3M6jnn5E9AN4BMvA0mr5WySo,10277
