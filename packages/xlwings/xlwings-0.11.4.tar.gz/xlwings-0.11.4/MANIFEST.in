@@ -1,0 +1,12 @@
+include LICENSE.txt
+include README.rst
+include xlwings/tests/*.xlsx
+include xlwings/*.xlsm
+include xlwings/addin/xlwings.xlam
+include xlwings32.dll
+include xlwings64.dll
+include xlwings/xlwings.applescript
+
+recursive-include docs *
+prune docs/_build
+
