@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: pycodesim
+Version: 0.0.2
+Summary: A Python Code Similarity Detection Doll, just for fun. 
+Home-page: https://github.com/inuyasha2012/pycodesim
+Author: inuyasha2012
+Author-email: inuyasha021@163.com
+License: MIT
+Description: 
+        pycodesim
+        =========
+        
+        A Python Code Similarity Detection Doll， just for fun.
+        用于计算python代码相似度的玩具。
+        
+        背景
+        ----
+        
+        基于抽象语法树，有三种方法，第一种是最简单的jaccard相似度，第二种是树的编辑距离，第三种是遍历合适大小的子树计算anti-unification(不完全是)
+        
+        demo
+        ----
+        
+        ::
+        
+            code_sim('codes/code1.py', 'codes/code2.py', 'jaccard')
+            code_sim('codes/code1.py', 'codes/code2.py', 'tree_edit')
+            code_sim('codes/code1.py', 'codes/code2.py', 'fake_anti_uni')
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
