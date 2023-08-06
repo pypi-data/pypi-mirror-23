@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: yawinpty
+Version: 0.4.3.dev1
+Summary: yet another winpty binding for python
+Home-page: https://github.com/PSoWin/yawinpty
+Author: TitanSnow
+Author-email: tttnns1024@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: Windows
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Cython
