@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+aiojobs/__init__.py
+aiojobs/_job.py
+aiojobs/_scheduler.py
+aiojobs.egg-info/PKG-INFO
+aiojobs.egg-info/SOURCES.txt
+aiojobs.egg-info/dependency_links.txt
+aiojobs.egg-info/top_level.txt
