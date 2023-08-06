@@ -1,0 +1,5 @@
+CHANGES
+=======
+
+* Open vSwitch integration into CNA
+* Add and use System.get_capability
