@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: aiodownload
+Version: 0.2.5
+Summary: Asynchronous Requests and Downloads Without Thinking About It
+Home-page: https://github.com/jelloslinger/aiodownload
+Author: Michael Copeland
+Author-email: michael.james.copeland@gmail.com
+License: MIT
+Requires-Dist: aiohttp
+
+===========
+
+
