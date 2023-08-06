@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: ols-client
+Version: 0.0.1
+Summary: Interact with EBI Ontology Lookup Service
+Home-page: https://github.com/cthoyt/ols-client
+Author: Charles Tapley Hoyt
+Author-email: charles.hoyt@scai.fraunhofer.de
+License: Apache 2.0 License
+Keywords: Ontology Lookup Service,Semantics
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: requests
+
+ols-client
+==========
+A client for accessing the RESTful API of the EBI-OLS
+
+

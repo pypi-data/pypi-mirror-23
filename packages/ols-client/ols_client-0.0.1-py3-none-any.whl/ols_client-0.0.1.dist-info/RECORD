@@ -1,0 +1,11 @@
+ols_client/__init__.py,sha256=m8BPzMIFy-raTJRiK00SovCpeI6pwXY6IXj-x8qNpZ0,548
+ols_client/__main__.py,sha256=UfZ9XmEusVdUt8DYecSqYMc-js-r2_TMC98CIkoLXS8,86
+ols_client/api.py,sha256=EYNBYchv8pt9syS6vtTgkjqKh2Rg7Vu5IYx12fhng6Q,2066
+ols_client/cli.py,sha256=V4yn0nbEt1zFyZ_G4tENtjeVWzTGAq91Uc5pUryFS5Q,431
+ols_client-0.0.1.dist-info/DESCRIPTION.rst,sha256=rmP4VTD2kqqkg5sBWWIoQvLARX8tMkbxCPTlJRL152I,78
+ols_client-0.0.1.dist-info/METADATA,sha256=MuopjH4P5gHuaT0oLityiR5sC1quDw6879qAi7vYS8M,441
+ols_client-0.0.1.dist-info/RECORD,,
+ols_client-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+ols_client-0.0.1.dist-info/entry_points.txt,sha256=uOMKjupkxEdV3h57Qk5ikPlLvY_KgwBsMx8n7df8NzU,52
+ols_client-0.0.1.dist-info/metadata.json,sha256=iL5u-htVNRt8zgycKmNKmnfn6-TKH4avWTZk5yZaZ00,780
+ols_client-0.0.1.dist-info/top_level.txt,sha256=A9zCWAqcqVUa51F1xnnw8EyPP9pqAlKgh3J0VvqOojw,11
