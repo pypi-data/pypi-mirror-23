@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sockclock/__init__.py
+sockclock/api.py
+sockclock.egg-info/PKG-INFO
+sockclock.egg-info/SOURCES.txt
+sockclock.egg-info/dependency_links.txt
+sockclock.egg-info/requires.txt
+sockclock.egg-info/top_level.txt
