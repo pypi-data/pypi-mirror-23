@@ -1,0 +1,5 @@
+clldutils>=1.12.7
+bibtexparser
+tabulate
+attrs
+cdstarcat
