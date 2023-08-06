@@ -1,0 +1,11 @@
+setup.py
+ventraip/__init__.py
+ventraip/client.py
+ventraip/dns_record.py
+ventraip/domain.py
+ventraip/exceptions.py
+ventraip_vip_client.egg-info/PKG-INFO
+ventraip_vip_client.egg-info/SOURCES.txt
+ventraip_vip_client.egg-info/dependency_links.txt
+ventraip_vip_client.egg-info/requires.txt
+ventraip_vip_client.egg-info/top_level.txt
