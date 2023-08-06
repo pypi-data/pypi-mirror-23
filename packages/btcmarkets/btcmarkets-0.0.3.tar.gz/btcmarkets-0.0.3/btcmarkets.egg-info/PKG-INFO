@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: btcmarkets
+Version: 0.0.3
+Summary: Python wrapper for the BTCMarkets API
+Home-page: https://github.com/limx0/btcmarkets
+Author: Bradley McElroy
+Author-email: bradley.mcelroy@live.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
