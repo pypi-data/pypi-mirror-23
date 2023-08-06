@@ -1,0 +1,6 @@
+click
+idna
+psycopg2
+pyOpenSSL
+requests
+us
