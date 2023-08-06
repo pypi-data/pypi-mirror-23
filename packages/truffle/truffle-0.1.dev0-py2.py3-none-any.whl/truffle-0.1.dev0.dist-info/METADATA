@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: truffle
+Version: 0.1.dev0
+Summary: Code search, documentation aid, code visualizer
+Home-page: http://truffle.1train.tech
+Author: 1traintech
+Author-email: onetraintech@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: whoosh
+
+UNKNOWN
+
+
