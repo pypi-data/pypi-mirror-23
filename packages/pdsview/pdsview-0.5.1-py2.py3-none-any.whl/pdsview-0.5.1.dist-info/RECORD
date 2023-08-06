@@ -1,0 +1,16 @@
+pdsview/warningtimer.py,sha256=Cgd12urf7dS0bFWCXL1GeReYTB-wZQTMQoQcXy_5XLs,4962
+pdsview/band_widget.py,sha256=cjRXI7p0L2a7n8TvOzTC-zdiMnpSfzUtWBm9mbEUzRk,5528
+pdsview/channels_dialog.py,sha256=B5VLLGBglNF4uEX_hohwc-tzc9DWGmpEXmBGFK5a1g4,6911
+pdsview/histogram.py,sha256=wUGUrBnK8LVhuIxLWjzaQud_P0XnC6Poszo7DxK5wrk,15092
+pdsview/labelError.py,sha256=sffcqe0EUruC_1XtgJtx9tnmjzB4a_rmoU2s1Zr7aVY,1472
+pdsview/textfinder.py,sha256=N702N-YCGpYsTX1wEgRIBxJkNST9eF693t0MjyIWkc0,3727
+pdsview/__init__.py,sha256=A9j6o90_dmD_QXPMZv5h8H8GKD3OWOsO0MoENLdZyvo,123
+pdsview/pdsview.py,sha256=Nm3PQQBfvUcrhWtEGlAvd1jwvog-6CQNe0wIqV262Yw,48393
+pdsview/label.py,sha256=KTy5jnMkRcH_fNGvIjjJdTrCYmJjVyjTAEUhqIhabRY,3095
+pdsview-0.5.1.dist-info/entry_points.txt,sha256=psWoPrJSbauhFAymOhssIn1UGiseFKOn9KNeJP4zqSc,49
+pdsview-0.5.1.dist-info/top_level.txt,sha256=mCb8ADBP_7L77cWvAjLhQwvf9ElCBLlIkuXj3Hi71XU,8
+pdsview-0.5.1.dist-info/METADATA,sha256=Hz6es39QRjqzEcI66n9b7hO7MM1UNu16PeoSctMysSg,3728
+pdsview-0.5.1.dist-info/DESCRIPTION.rst,sha256=EM8FvneOls4CWD9M-vUTZdD7UsBLCQm8998NdLZyO_A,2816
+pdsview-0.5.1.dist-info/metadata.json,sha256=3MVSA0U8tiadflYRbSBKJ8MZtOghuTJD6IndUuIfk4E,1119
+pdsview-0.5.1.dist-info/WHEEL,sha256=6lxp_S3wZGmTBtGMVmNNLyvKFcp7HqQw2Wn4YYk-Suo,110
+pdsview-0.5.1.dist-info/RECORD,,
