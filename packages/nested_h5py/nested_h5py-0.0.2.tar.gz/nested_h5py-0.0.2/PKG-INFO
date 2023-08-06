@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: nested_h5py
+Version: 0.0.2
+Summary: Pandas reader and writer from h5py
+Home-page: https://github.com/neuroneuro15/nested_h5py
+Author: Nicholas A. Del Grosso
+Author-email: delgrosso.nick@gmail.com
+License: BSD
+Download-URL: https://github.com/neuroneuro15/nested_h5py/tarball/0.0.2
+Description: nested_h5py
+        ===============================
+        
+        version number: 0.0.1
+        author: Nicholas A. Del Grosso
+        
+        Overview
+        --------
+        
+        Pandas reader and writer from h5py
+        
+        Installation / Usage
+        --------------------
+        
+        To install use pip:
+        
+            $ pip install nested_h5py
+        
+        
+        Or clone the repo:
+        
+            $ git clone https://github.com/neuroneuro15/nested_h5py.git
+            $ python setup.py install
+            
+        Contributing
+        ------------
+        
+        TBD
+        
+        Example
+        -------
+        
+        TBD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2

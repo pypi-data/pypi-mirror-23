@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+nested_h5py/__init__.py
+nested_h5py/nested_h5py.py
+nested_h5py.egg-info/PKG-INFO
+nested_h5py.egg-info/SOURCES.txt
+nested_h5py.egg-info/dependency_links.txt
+nested_h5py.egg-info/requires.txt
+nested_h5py.egg-info/top_level.txt
