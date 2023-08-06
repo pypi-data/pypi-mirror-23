@@ -1,0 +1,12 @@
+figo/__init__.py,sha256=5A57VIiu4O2nC5BZzlY9go-vAJUcUoasgizCOGMZqR8,58
+figo/credentials.py,sha256=PGCbeo8YlnzFK303pa8UuP9R701u6y14eST8PDiBk7M,941
+figo/figo.py,sha256=BSjcMKiL0qOU9c_eLczIYD_klPZQQuIsiMYQuQvQ-Ic,52630
+figo/models.py,sha256=9m7Ul1jA_Ge7uLLg0NbBK1TVpPcaKdXhegIsgAxeZH8,28484
+figo/version.py,sha256=YfqFvZnhLIFLdFh2XjtaAqFaFVr2m3TK-tj13WzwXaA,254
+python_figo-1.7.0.dist-info/DESCRIPTION.rst,sha256=ciu7ELhloOcfCvjtXoOslKx56YF5IGQMfiY5lTS5yac,64
+python_figo-1.7.0.dist-info/METADATA,sha256=vulA4Qq2hRBr7E1Zmj9FBW1iUJ7tMJp0ToWYN5YSbZQ,1149
+python_figo-1.7.0.dist-info/RECORD,,
+python_figo-1.7.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+python_figo-1.7.0.dist-info/metadata.json,sha256=FggKVGYVJ5u4vpRCD2qWx6JhZweohlzh2VdDhXSKleQ,1105
+python_figo-1.7.0.dist-info/pbr.json,sha256=5UOWK6jKA8_EQCkmD_yt_W12ufK_tyy2kh30rEZ6CVo,46
+python_figo-1.7.0.dist-info/top_level.txt,sha256=vs7Bwtm8uovIXzrBNtd8DTE8j_VTEcIHaDHwhtUkv2g,5
