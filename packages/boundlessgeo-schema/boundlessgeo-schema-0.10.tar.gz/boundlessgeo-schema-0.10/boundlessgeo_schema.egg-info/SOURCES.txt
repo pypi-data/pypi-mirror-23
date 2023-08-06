@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+boundlessgeo_schema/README.rst
+boundlessgeo_schema/__init__.py
+boundlessgeo_schema/actions.p
+boundlessgeo_schema.egg-info/PKG-INFO
+boundlessgeo_schema.egg-info/SOURCES.txt
+boundlessgeo_schema.egg-info/dependency_links.txt
+boundlessgeo_schema.egg-info/not-zip-safe
+boundlessgeo_schema.egg-info/top_level.txt
