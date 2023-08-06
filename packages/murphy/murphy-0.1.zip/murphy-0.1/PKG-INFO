@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: murphy
+Version: 0.1
+Summary: Generic tools to identify overlapping genomic regions
+Home-page: https://github.com/drsuuzzz/murphy
+Author: Suzy Stiegelmeyer
+Author-email: drsuuzzz@gmail.com
+License: Apache-2.0
+Description: 
+        The intervalTree class is an adaptation of the interval tree algorithm based on
+        red-black trees from Introduction to Algorithms by Cormen, Leiserson, Rivest
+        and Stein (2001) 2nd Edition, The MIT Press
+        
+        This makes a nice self-balancing tree.  The alrogithm may be more efficient
+        if items are randomly selected for insertion, instead of in sort order.
+        
+        I've modified the CLRS algorithm to report all overlapping nodes instead of
+        only the first node.  This involved adding a min value instead of only a max
+        value in order to speed up the search by checking if the subtree min,max
+        overlaps with the search interval.  The search routine is also recursive.
+        
+Keywords: bioinformatics,interval overlap tree,binary tree,genomics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
