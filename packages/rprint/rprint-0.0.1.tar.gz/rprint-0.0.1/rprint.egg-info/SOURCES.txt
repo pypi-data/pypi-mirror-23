@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+rprint/__init__.py
+rprint/rprint.py
+rprint.egg-info/PKG-INFO
+rprint.egg-info/SOURCES.txt
+rprint.egg-info/dependency_links.txt
+rprint.egg-info/top_level.txt
