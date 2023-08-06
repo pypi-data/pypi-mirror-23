@@ -1,0 +1,12 @@
+nxp_imu/FXAS21002.py,sha256=esA5Wl-KAku2XF_dJXXJUDCgg0FzUg4RwCeCmC94SP0,4898
+nxp_imu/FXOS8700.py,sha256=qHoo4xNAjNudIneI16LcV6uj__on0nMCY-4YvetYHB8,5760
+nxp_imu/I2C.py,sha256=ViN2P6PKVb4ozSY8C58WCOCJr-F0txfxyrqQOxR8lWY,2293
+nxp_imu/IMU.py,sha256=50p8lszEizO9OaGSqQmfXVBFUtSO8kWWrTzOzA2BkQk,1616
+nxp_imu/__init__.py,sha256=OJzQA5PFDiIBLZ2P3dLcSCh81_QtWSnMxLfUfj7MIno,343
+nxp_imu/version.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+nxp_imu-0.5.0.dist-info/DESCRIPTION.rst,sha256=ROCzT48yF5oYHGwS1Eh9JzzEsmttwS0XUYvXJRWB9IY,4013
+nxp_imu-0.5.0.dist-info/METADATA,sha256=nUf7zNKYjzkZ2QrcM3IsQa5xuTGnBcmmtI7PBArLAsM,4871
+nxp_imu-0.5.0.dist-info/RECORD,,
+nxp_imu-0.5.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+nxp_imu-0.5.0.dist-info/metadata.json,sha256=KsAlll5H8UGVZrKt_kRhUZZFwR508dwbSzCHaxcP3D0,1010
+nxp_imu-0.5.0.dist-info/top_level.txt,sha256=8mQnyA_QDj2IIdMfVmeXmL8xt3MLqIiHBYrp5M8phBE,8
