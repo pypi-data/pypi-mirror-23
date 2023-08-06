@@ -1,0 +1,12 @@
+segment/__init__.py,sha256=UDkbJSQ3D-Z9ORTGjg5XwAZB11ryVzUYunSBT5MGzqk,54
+segment/analyticsqueue.py,sha256=njWDByTgMWlr3JYdEJ2JXRCodU-ZNGyk4npaXY_lbCM,2634
+segment/cli.py,sha256=RnY6TdIYz1PvAF4qbXyOW6H85v-aB3IK8BNLmSRjFCw,1201
+segment/consts.py,sha256=rOb7ikli6DIRyBuPwQTAbXrcaisWT3tbyPL8p65qHOA,105
+segment/core.py,sha256=6UPrVuhWeAPNnBnBzq87zxtbwFqNZOKLmdBSRBAE9jA,5073
+segment_queue-1.1.0.dist-info/DESCRIPTION.rst,sha256=uJ9fUHYjT0WDK5hgLyYWF45X3yTuFg9m7JFz3_dPxpQ,60
+segment_queue-1.1.0.dist-info/METADATA,sha256=FZ2emT268cDpvrgO--UlvndYbh80hUUzJWQ-ev6bWdo,427
+segment_queue-1.1.0.dist-info/RECORD,,
+segment_queue-1.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+segment_queue-1.1.0.dist-info/entry_points.txt,sha256=brLe7LCTKzHJgI7u_Yj8bXVmwcIDENWrPtsK-0yyABk,58
+segment_queue-1.1.0.dist-info/metadata.json,sha256=PfFO7LgbmcfvzRO6ZCA7BzqQ3vuZ2_yxwzT8M-9QY4g,742
+segment_queue-1.1.0.dist-info/top_level.txt,sha256=YizIxaKf9Tj9cKtZ3m1sTcGQHB2GV4hn-1hs0WotWwo,8
