@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ifsccode
+Version: 0.3
+Summary: Command line tool for downloading ifsc code
+Home-page: https://github.com/viveksyngh/ifsc-code
+Author: Vivek Singh
+Author-email: vivekkmr45@yahoo.in
+License: UNKNOWN
+Download-URL: https://github.com/viveksyngh/ifsc-code/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: Bank IFSC code,IFSC Code,IFSC
+Platform: Any
+Requires: BeautifulSoup (==3.2.1)
+Requires: beautifulsoup4 (==4.5.1)
+Requires: requests (==2.12.4)
+Requires: xlrd (==1.0.0)
+Provides: ifsc_code
