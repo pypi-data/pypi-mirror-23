@@ -1,0 +1,127 @@
+
+
+
+
+.header, .marketing, .footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header h3 {
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    color: #777;
+    padding-top: 19px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 1170px) {
+    .container {
+        min-width: 1100px;
+    }
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .header, .marketing, .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header {
+        
+    }
+
+    .jumbotron {
+        border-bottom: 0 none;
+    }
+}
+
+
+.link-without-underline:hover, .link-without-underline:visited, .link-without-underline:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.autocomplete-suggestions {
+    background-color: white;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    max-height: inherit !important;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px 2px 5px;
+}
+
+.autocomplete-suggestion:hover {
+    cursor: pointer;
+    background: lightgrey;
+}
+
+.header-col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.no-pad-left {
+    padding-left: 0px;
+}
+
+.no-pad-right {
+    padding-right: 0px;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
+.padding-right-5 {
+    padding-right: 5px;
+}
+
+
+
+.fail-icon {
+  color: red;
+}
+
+
+.pass-icon {
+  color: green;
+}
