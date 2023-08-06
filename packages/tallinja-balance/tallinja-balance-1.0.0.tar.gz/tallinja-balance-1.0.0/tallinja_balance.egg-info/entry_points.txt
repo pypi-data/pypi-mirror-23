@@ -1,0 +1,3 @@
+[console_scripts]
+tallinja-balance = tallinja.balance_cli:main
+
