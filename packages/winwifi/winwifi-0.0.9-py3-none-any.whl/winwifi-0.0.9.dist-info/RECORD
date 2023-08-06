@@ -1,0 +1,11 @@
+winwifi/__init__.py,sha256=eNNLy9dtvTRrSFGKQpjumxeoMEjcbLiFNw6QvEg9GoI,34
+winwifi/__main__.py,sha256=HruxRD1yzcUBrEOKRCuWwf9p-Mz_Ln12IQP0onDIppg,2298
+winwifi/main.py,sha256=ygKHOVF3kqdBgsw59xhwbyaSRhvZggsM6YESuHWXGrQ,7182
+winwifi/data/profile-template.xml,sha256=W31Y1mS6wJjrGeCS1okZiDmoHxc7kUbA-vT9EeO0pgI,945
+winwifi-0.0.9.dist-info/DESCRIPTION.rst,sha256=I4G1qnEOCv4dE3LHgOjtYIXOIXwbQ7xVqpjq8jcxxGY,3340
+winwifi-0.0.9.dist-info/METADATA,sha256=ItHTRarQ4hhotXWnWiPh70gOvXU2xaqHwfXxet6iewg,4012
+winwifi-0.0.9.dist-info/RECORD,,
+winwifi-0.0.9.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+winwifi-0.0.9.dist-info/entry_points.txt,sha256=Kh_dlyOlUy7FFf_mUsAjReOdAyX0I8oPWrMQTPZgO5c,48
+winwifi-0.0.9.dist-info/metadata.json,sha256=VWXHzqUgLIxwOF-TnFpSkKl8-TA3ph546s914HY4Fkg,988
+winwifi-0.0.9.dist-info/top_level.txt,sha256=SwARGKabRMMDkEs8g1kz_GomFztpJ3-2PtndKskMH48,8
