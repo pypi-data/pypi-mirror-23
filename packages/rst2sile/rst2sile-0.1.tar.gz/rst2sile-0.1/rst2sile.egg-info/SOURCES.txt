@@ -1,0 +1,13 @@
+MANIFEST.in
+rst2sile
+setup.py
+rst2sile.egg-info/PKG-INFO
+rst2sile.egg-info/SOURCES.txt
+rst2sile.egg-info/dependency_links.txt
+rst2sile.egg-info/requires.txt
+rst2sile.egg-info/top_level.txt
+sile/__init__.py
+sile/styles.css
+sile/packages/footnotes.lua
+sile/packages/pdf.lua
+sile/packages/url.lua
