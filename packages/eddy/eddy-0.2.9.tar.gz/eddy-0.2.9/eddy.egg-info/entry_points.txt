@@ -1,0 +1,5 @@
+[console_scripts]
+eddy = eddy:main
+eddy_fetch = eddy.tools.eddy_fetch:main
+eddy_quickstart = eddy.tools.eddy_quickstart:main
+
