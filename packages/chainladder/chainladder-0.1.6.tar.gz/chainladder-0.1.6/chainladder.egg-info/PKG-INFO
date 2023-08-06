@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: chainladder
+Version: 0.1.6
+Summary: Chainladder Package - P&C actuarial package modeled after the R package of the same name
+Home-page: https://github.com/jbogaardt/chainladder-python
+Author: John Bogaardt
+Author-email: jbogaardt@gmail.com
+License: LICENSE
+Download-URL: https://github.com/jbogaardt/chainladder-python/archive/v0.1.6.tar.gz
+Description: # chainladder (python)
+        [![Build Status](https://travis-ci.org/jbogaardt/chainladder-python.svg?branch=master)](https://travis-ci.org/jbogaardt/chainladder-python)
+        [![Documentation Status](https://readthedocs.org/projects/chainladder-python/badge/?version=latest)](http://chainladder-python.readthedocs.io/en/latest/?badge=latest)
+        
+        This is a rewrite of the popular [R ChainLadder package](https://github.com/mages/ChainLadder) in Python.
+        
+        This code is actively under development and contains the following functionality:
+          - Mack Chain Ladder
+          - Munich Chain Ladder
+          - Bootstrap Chain Ladder
+        
+        ## Installation
+        To install using pip:
+        `pip install chainladder`
+        
+        Note: This package has been tested with Python 3.4 and later.
+        
+        Package is coming soon to Anaconda...
+        
+        ## Documentation
+        Please refer to the [Documentation](http://chainladder-python.readthedocs.io/) for source code documentation
+        
+        ## Tutorials
+         -[Quickstart Guide](http://chainladder-python.readthedocs.io/en/master/quickstart.html)  
+         -[Using Mack Chainladder](http://chainladder-python.readthedocs.io/en/master/MackExample.html)  
+         -[Using Munich Chainladder](http://chainladder-python.readthedocs.io/en/master/MunichExample.html)  
+         -[Using Bootstrap Chainladder](http://chainladder-python.readthedocs.io/en/master/BootstrapExample.html)
+         
+        
+        
+Platform: UNKNOWN
