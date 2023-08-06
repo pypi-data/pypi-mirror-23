@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: torchgel
+Version: 0.7.2
+Summary: PyTorch implementation of group elastic net
+Home-page: https://github.com/jayanthkoushik/torch-gel
+Author: Jayanth Koushik
+Author-email: jnkoushik@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: pytorch lasso elasticnet
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.5
