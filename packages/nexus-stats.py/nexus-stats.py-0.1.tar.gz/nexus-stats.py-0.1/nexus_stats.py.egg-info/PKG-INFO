@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: nexus-stats.py
+Version: 0.1
+Summary: A python module for the Nexus Stats API
+Home-page: https://github.com/OrangutanGaming/Nexus-Stats-py
+Author: Orangutan
+Author-email: nihaal.s@live.co.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
