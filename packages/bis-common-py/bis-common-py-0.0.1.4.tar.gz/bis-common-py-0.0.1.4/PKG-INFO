@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: bis-common-py
+Version: 0.0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Chernyshov Dmitriy
+Author-email: dechernyshov@bars.group
+License: MIT
+Description: WTF
+        ---
+        
+        **bis-common-py** - представляет собой общий пакет для python-сервисов
+        BARS Internal Services
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
