@@ -1,0 +1,91 @@
+Metadata-Version: 1.1
+Name: tradecalc
+Version: 0.1.2
+Summary: Collection of tools to calculate trading positions
+Home-page: https://github.com/toirl/tradecalc
+Author: Torsten Irländer
+Author-email: torsten.irlaender@googlemail.com
+License: MIT license
+Description: ===============================
+        Tradecalc
+        ===============================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/tradecalc.svg
+                :target: https://pypi.python.org/pypi/tradecalc
+        
+        .. image:: https://img.shields.io/travis/toirl/tradecalc.svg
+                :target: https://travis-ci.org/toirl/tradecalc
+        
+        .. image:: https://readthedocs.org/projects/tradecalc/badge/?version=latest
+                :target: https://tradecalc.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://pyup.io/repos/github/toirl/tradecalc/shield.svg
+             :target: https://pyup.io/repos/github/toirl/tradecalc/
+             :alt: Updates
+        
+        
+        CLI tool to calculate trading positions for risk management on different
+        markets.
+        
+        
+        * Free software: MIT license
+        * Documentation: http://tradecalc.readthedocs.io/en/latest/
+        * Source: http://github.com/toirl/tradecalc
+        
+        
+        Features
+        --------
+        
+        * Calculate max position size you can buy/sell at a given price, with a
+          limited risk.
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.2 (2017-07-21)
+        ------------------
+        Bugfix release.
+        
+        Fixed:
+        
+        * Wrong calculation of volume and position size in case of sell orders.
+        
+        0.1.1 (2017-07-21)
+        ------------------
+        Maintainance release.
+        
+        Fixed:
+        
+        * Support for Python 2.7
+        
+        0.1.0 (2017-07-21)
+        ------------------
+        First release on PyPI.
+        
+        Features:
+        
+        * Calc max position on buy
+        * Calc max position on sell
+        
+Keywords: tradecalc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 2.7
