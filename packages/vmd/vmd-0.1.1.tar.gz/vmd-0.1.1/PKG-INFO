@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: vmd
+Version: 0.1.1
+Summary: Terminal Markdown Renderer
+Home-page: https://github.com/cpascoe95/vmd
+Author: Charles Pascoe
+Author-email: charles@cpascoe.co.uk
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: terminal,markdown,viewer,md
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
