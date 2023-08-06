@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: sentence-sem-sim
+Version: 0.5
+Summary: Sentence Semantic Similarity in Python.
+Home-page: https://github.com/shaun-chiang/sentence-sem-sim/tree/master
+Author: Shaun Chiang
+Author-email: redbeansodapop@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: sentence,semantic,similarity
+Platform: UNKNOWN
+Requires-Python: >=3
