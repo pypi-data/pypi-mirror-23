@@ -1,0 +1,17 @@
+pytest_sanic/__init__.py,sha256=jZ5uWOiyV1Hb9rhNyo3bAgfWmHx8_xkueUWpcUrkz_w,21
+pytest_sanic/plugin.py,sha256=a-NjfeJlQE2-CZPaEdD_MGO4AA0J0C-6Gfd3YnAM9Vw,3438
+pytest_sanic/utils.py,sha256=RIJ9wIm_9TRoMothfeNMiU42rSWiMLP9_bCIbSCZ4Xk,7405
+pytest_sanic-0.1.2.dist-info/DESCRIPTION.rst,sha256=m0jFkJH9Xtd3DkocN4_6TruSEiwYYsJ8wnBWMO5K4t4,6840
+pytest_sanic-0.1.2.dist-info/METADATA,sha256=giw8h_vSv5fe_etTb5ZknZwU-NhqvsEstmlKYagjR3M,7457
+pytest_sanic-0.1.2.dist-info/RECORD,,
+pytest_sanic-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pytest_sanic-0.1.2.dist-info/entry_points.txt,sha256=9VKg6wU3OfPA91ZatO_cGHEAGvzyawank1zvZuj1BBw,40
+pytest_sanic-0.1.2.dist-info/metadata.json,sha256=ycer6HaF1Jr8Vpsm_kTjpzMSK_CRXAn9DZkwoqbFVvY,767
+pytest_sanic-0.1.2.dist-info/top_level.txt,sha256=uwXS-zQJQeYm9MQHg-4KJfKRP78K-pH6i7oAgNeVxi0,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=npUpE83Ab65F-J33tS2Lt6UAcyN6NbAWylOyNXP3558,1645
+tests/test_async.py,sha256=Q-Jrqf__7Ic2Z2tGTO6o7p8h16myoAXA0slvYD-xnYg,105
+tests/test_client.py,sha256=NDoB5UV37whhhlmgAFCrbWUWwOge9u6ICVaW6xFOmHY,2774
+tests/test_client_websocket.py,sha256=mFcn7b5Zj0sWD1nqkuNWWNnaA01Xu-PgG2JW5_73EnM,306
+tests/test_server.py,sha256=Qn58V7cehLeGJSvRvpq7H6261-vcQBJ0TGLmAFYtsyw,784
+tests/test_simple_fixtures.py,sha256=IooT_7axAdrarZn_K8Kh5dUWAEH4J4t4CMx4sOzoX_M,185
