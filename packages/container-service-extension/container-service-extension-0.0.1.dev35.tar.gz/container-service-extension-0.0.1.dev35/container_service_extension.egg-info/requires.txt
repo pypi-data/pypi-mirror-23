@@ -1,0 +1,4 @@
+jsonpickle
+pika >= 0.10.0
+pyvcloud >= 18.0.2
+pyyaml
