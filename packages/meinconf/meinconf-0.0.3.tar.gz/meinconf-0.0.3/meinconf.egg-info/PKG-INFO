@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: meinconf
+Version: 0.0.3
+Summary: 12 factor configuration for all
+Home-page: https://github.com/akatrevorjay/meinconf
+Author: Trevor Joynson
+Author-email: github@skywww.net
+License: GPL
+Description: meinconf
+        ========
+        
+        Generic configuration library for any app.
+        
+        Pretty much a Flask config-like object with added functionality based on flask-appconfig.
+        
+        Tested with Python 2.7, 3.4, 3.5, 3.6.
+        
+        |Test Status| |Coverage Status| |Documentation Status|
+        
+        -  PyPi: https://pypi.python.org/pypi/meinconf
+        
+        
+        TODO
+        ----
+        
+        - Move to explicit usage that accept either files or strings, *not* both.
+        - Documentation
+        - Import work using chainmaps to unhackify
+        
+        
+        Installation
+        ------------
+        
+        .. code:: sh
+        
+            pip install meinconf
+        
+        
+        Running tests
+        -------------
+        
+        Pytest is the test runner.
+        
+        Tox is used to handle testing multiple python versions.
+        
+        .. code:: sh
+        
+            tox
+        
+        
+        .. |Test Status| image:: https://circleci.com/gh/akatrevorjay/meinconf.svg?style=svg
+           :target: https://circleci.com/gh/akatrevorjay/meinconf
+        .. |Coverage Status| image:: https://coveralls.io/repos/akatrevorjay/meinconf/badge.svg?branch=develop&service=github
+           :target: https://coveralls.io/github/akatrevorjay/meinconf?branch=develop
+        .. |Documentation Status| image:: https://readthedocs.org/projects/meinconf/badge/?version=latest
+           :target: http://meinconf.readthedocs.org/en/latest/?badge=latest
+        
+        
+Keywords: 12factor
+configuration
+config
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
