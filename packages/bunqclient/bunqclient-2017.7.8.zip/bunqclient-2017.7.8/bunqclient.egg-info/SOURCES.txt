@@ -1,0 +1,7 @@
+setup.py
+bunqclient/__init__.py
+bunqclient.egg-info/PKG-INFO
+bunqclient.egg-info/SOURCES.txt
+bunqclient.egg-info/dependency_links.txt
+bunqclient.egg-info/requires.txt
+bunqclient.egg-info/top_level.txt
