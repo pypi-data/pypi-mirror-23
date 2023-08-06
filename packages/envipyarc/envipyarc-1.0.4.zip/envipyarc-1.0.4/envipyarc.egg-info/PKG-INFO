@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: envipyarc
+Version: 1.0.4
+Summary: ENVI Python Tools for ArcGIS
+Home-page: https://github.com/envi-idl/envipyarc
+Author: Exelis Visual Information Solutions, Inc.
+Author-email: UNKNOWN
+License: MIT
+Description: 
+        
+        ******************
+        ENVI Py for ArcGIS
+        ******************
+        
+        Installation
+        ============
+        
+        Install ENVI Py for ArcGIS using pip::
+        
+            pip install envipyarc
+        
+        Documentation
+        =============
+        For the full API documentation visit: http://envi-py-for-arcgis.readthedocs.io
+        
+        
+Keywords: envi idl
+Platform: UNKNOWN
