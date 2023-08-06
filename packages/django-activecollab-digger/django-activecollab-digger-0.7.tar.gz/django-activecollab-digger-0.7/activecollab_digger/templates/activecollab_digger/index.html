@@ -1,0 +1,139 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ActiveCollab Digger</title>
+    <link rel="stylesheet" href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bulma/css/bulma.css' %}">
+    <link rel="stylesheet" href="{% static 'activecollab_digger/css/app.css' %}">
+</head>
+
+<body>
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <div class="navbar-item logo">
+                <i class="fa fa-angle-left"></i>
+                <i class="fa fa-bug"></i>
+                <span>/</span>
+                <i class="fa fa-angle-right"></i>
+            </div>
+            <label class="navbar-burger burger" for="navbar-toggle-state">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <input type="checkbox" id="navbar-toggle-state">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">Project Home</a>
+                <a class="navbar-item" href="{{ LOGIN_URL }}">Project Admin</a>
+            </div>
+        </div>
+    </nav>
+    <div id="app" v-if="isReady">
+        {% verbatim %}
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title"><a :href="baseUrl + project.url_path" :target="project.id">{{ project.name }}</a></h1>
+                    <h2 class="subtitle">
+                        {{ completedTasksCount }} of {{ tasks.length + completedTasksCount }} tasks completed,
+                        {{ tasks.length }} still open.
+                    </h2>
+                    <progress class="progress is-primary is-small" :value="completedTasksCount" :max="tasks.length + completedTasksCount"></progress>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-smoke">
+                        <h3 class="title is-5">Create New Task</h3>
+                        <form v-on:submit.prevent>
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <p class="control">
+                                    <input class="input is-primary" autofocus autocomplete="off" placeholder="Task name" :value="newTask.name" v-model.trim="newTask.name">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label class="label">Description</label>
+                                <p class="control">
+                                    <textarea class="textarea is-info" placeholder="Task description (optional)" :value="newTask.description" v-model.trim="newTask.description"></textarea>
+                                </p>
+                            </div>
+                            <div class="field is-grouped">
+                                <p class="control">
+                                    <button class="button is-primary" @click="addTask">Submit</button>
+                                </p>
+                                <p class="control">
+                                    <button class="button is-link" @click="clearTask">Cancel</button>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="notification" :class="notification.status === 0 ? 'is-success' : 'is-warning'" v-if="notification">
+                        <button class="delete" @click="removeNotification"></button>
+                        <p v-html="notification.message"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-desktop">
+                <div class="column" v-for="list in task_lists">
+                    <div class="box is-smoke">
+                        <h3 class="title is-5">{{ list.name }}</h3>
+                        <div class="card" :class="[task.is_important ? 'is-important' : '', !task.assignee_id ? 'is-unassigned' : '']" v-for="task in tasks" v-if="!task.is_hidden_from_clients && task.task_list_id === list.id">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <a :href="baseUrl + task.url_path" :target="task.id">
+                                        #{{ task.task_number }}: {{ task.name }}
+                                    </a>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <div class="content is-small">
+                                    <p><em>Created {{ task.created_on | formatDate }}</em></p>
+                                    <p class="task-description" v-html="task.body" v-if="task.body"></p>
+                                </div>
+                            </div>
+                            <footer class="card-footer" v-if="task.labels.length > 0">
+                                <p class="card-footer-item">
+                                    <span class="tag is-white" v-for="label in task.labels" :style="{ color: label.color }">
+                                        {{ label.name }}
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endverbatim %}
+        {% csrf_token %}
+    </div>
+    <footer class="footer is-dark">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>ActiveCollab Digger</strong> by <a href="//kdl.kcl.ac.uk">King's Digital Lab</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/kingsdigitallab/django-activecollab-digger">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <script>
+            baseUrl = "{{ AC_BASE_URL }}";
+        </script>
+        <script src="{% static 'vendor/vue/dist/vue.min.js' %}"></script>
+        <script src="{% static 'activecollab_digger/js/app.js' %}"></script>
+    </footer>
+</body>
+
+</html>
