@@ -1,0 +1,6 @@
+Flask
+lxml
+pymarc
+rdflib
+rdflib-jsonld
+requests
