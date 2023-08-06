@@ -1,0 +1,8 @@
+setup.py
+nbgoogleanalytics/__init__.py
+nbgoogleanalytics.egg-info/PKG-INFO
+nbgoogleanalytics.egg-info/SOURCES.txt
+nbgoogleanalytics.egg-info/dependency_links.txt
+nbgoogleanalytics.egg-info/requires.txt
+nbgoogleanalytics.egg-info/top_level.txt
+nbgoogleanalytics/static/main.js
