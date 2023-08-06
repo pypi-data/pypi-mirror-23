@@ -1,0 +1,8 @@
+README.rst
+setup.py
+lore/__init__.py
+lore.egg-info/PKG-INFO
+lore.egg-info/SOURCES.txt
+lore.egg-info/dependency_links.txt
+lore.egg-info/not-zip-safe
+lore.egg-info/top_level.txt
