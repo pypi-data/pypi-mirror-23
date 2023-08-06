@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.cfg
+setup.py
+pip_analogj_test.egg-info/PKG-INFO
+pip_analogj_test.egg-info/SOURCES.txt
+pip_analogj_test.egg-info/dependency_links.txt
+pip_analogj_test.egg-info/requires.txt
+pip_analogj_test.egg-info/top_level.txt
