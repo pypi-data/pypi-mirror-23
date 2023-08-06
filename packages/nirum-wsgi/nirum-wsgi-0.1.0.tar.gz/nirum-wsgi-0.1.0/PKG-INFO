@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: nirum-wsgi
+Version: 0.1.0
+Summary: Nirum services as WSGI apps
+Home-page: https://github.com/spoqa/nirum-python-wsgi
+Author: Nirum team
+Author-email: UNKNOWN
+License: MIT license
+Description: Nirum services as WSGI apps
+        ===========================
+        
+        .. image:: https://travis-ci.org/spoqa/nirum-python-wsgi.svg?branch=master
+           :target: https://travis-ci.org/spoqa/nirum-python-wsgi
+           :alt: Build status
+        
+        .. image:: https://badge.fury.io/py/nirum-wsgi.svg
+           :target: https://pypi.org/project/nirum-wsgi/
+           :alt: Latest PyPI version
+        
+        This package provides ``nirum_wsgi.WsgiApp`` class which adapts a given
+        Nirum service to a WSGI application:
+        
+        .. code-block:: python
+        
+           from youtservice import YourService
+           from nirum_wsgi import WsgiApp
+        
+           class YourServiceImpl(YourService):
+               ...
+        
+           app = WsgiApp(YourServiceImpl())
+        
+        There's a development-purpose CLI launcher named ``nirum-server`` as well:
+        
+        .. code-block:: bash
+        
+           nirum-server -H 0.0.0.0 -p 8080 --debug 'yourserviceimpl:YourServiceImpl()'
+        
+        Changelog
+        =========
+        
+        Version 0.1.0
+        -------------
+        
+        Released on July 10, 2017.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Object Brokering
