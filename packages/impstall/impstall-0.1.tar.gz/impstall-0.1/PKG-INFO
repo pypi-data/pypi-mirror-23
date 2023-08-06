@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: impstall
+Version: 0.1
+Summary: This module can be used to import python packages and install them if not already installed.
+Home-page: https://github.com/ryanniehaus/impstall
+Author: Ryan Niehaus
+Author-email: ryan.niehaus@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ryanniehaus/impstall/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: import,install,package,package management,pypi,impstall
+Platform: UNKNOWN
