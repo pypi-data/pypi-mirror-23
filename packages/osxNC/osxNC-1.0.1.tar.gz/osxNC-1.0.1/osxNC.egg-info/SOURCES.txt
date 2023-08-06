@@ -1,0 +1,7 @@
+setup.py
+osxNC/__init__.py
+osxNC/osxNC.py
+osxNC.egg-info/PKG-INFO
+osxNC.egg-info/SOURCES.txt
+osxNC.egg-info/dependency_links.txt
+osxNC.egg-info/top_level.txt
