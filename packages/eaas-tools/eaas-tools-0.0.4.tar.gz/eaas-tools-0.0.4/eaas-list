@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+from eaaslib import search
+
+search.do_list()
