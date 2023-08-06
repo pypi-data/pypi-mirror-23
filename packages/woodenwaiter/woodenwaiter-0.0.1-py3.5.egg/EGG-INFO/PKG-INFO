@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: woodenwaiter
+Version: 0.0.1
+Summary: A producer-customer model based on redis
+Home-page: UNKNOWN
+Author: zhanghaoran
+Author-email: haoranzeus@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
