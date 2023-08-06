@@ -1,0 +1,13 @@
+graphi/__about__.py,sha256=AujVpjFpmIsIS4O_ktFNv1oWu4VaVSUfJHcV8o-UrYo,322
+graphi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphi/edge.py,sha256=LzaJnCOQ9W3fdKa36XTrSpz_8EXAYQCAIF4cYpUt85k,1059
+graphi/graph.py,sha256=bNC_D6Ux8VdihvGYriza9vC5WVGPoG_o9SpiQ5ajdcQ,5366
+graphi/compatibility/__init__.py,sha256=YPGNcHXwxFx2QhW9S6wa9ifpgnYmiLOnWdSMcMHTTyI,250
+graphi/compatibility/python2.py,sha256=ySP0sm_DI2ixjY2GPxRQO1oLWLQU7jOgsEvIzVTkC8U,1057
+graphi/compatibility/python3.py,sha256=9MZ3rcKGm__NireHHAb_IvEKX7AndmA3NzgXFSgdj4k,1317
+graphi-0.1.0.dist-info/DESCRIPTION.rst,sha256=j81i6KVoow-4uaNfILNWYHIIPE3l4qOrvMhahDghC1A,127
+graphi-0.1.0.dist-info/METADATA,sha256=9HWUi24dd3aP7tu56dMuTTWah0NYEua2lHC9KwypXKo,901
+graphi-0.1.0.dist-info/RECORD,,
+graphi-0.1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+graphi-0.1.0.dist-info/metadata.json,sha256=Avhim8FYYACNLJQVSVmQEICtkGdp-ID3bpCge9_aYlQ,909
+graphi-0.1.0.dist-info/top_level.txt,sha256=bf-5R_FKrcHTK3bsMEVoex_S8AvpoTOgFXaslpmANGA,7
