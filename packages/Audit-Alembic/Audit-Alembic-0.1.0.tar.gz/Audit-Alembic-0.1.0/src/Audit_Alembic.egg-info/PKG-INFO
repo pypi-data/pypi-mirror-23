@@ -1,0 +1,165 @@
+Metadata-Version: 1.1
+Name: Audit-Alembic
+Version: 0.1.0
+Summary: An Alembic plugin to keep records of upgrades and downgrades.
+Home-page: https://github.com/jpassaro/Audit-Alembic
+Author: John Passaro
+Author-email: john.a.passaro@gmail.com
+License: BSD
+Download-URL: https://jpassaro/Audit-Alembic/archive/0.1.0.tar.gz
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        An Alembic plugin to keep records of upgrades and downgrades.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install Audit-Alembic
+        
+        Getting started
+        ===============
+        
+        Quickstart
+        ----------
+        
+        Add the following lines to your Alembic ``env.py``::
+        
+            from audit_alembic import Auditor
+            from myapp import version
+        
+            Auditor.create(version).setup()
+        
+        Slightly more involved::
+        
+            # myapp.py
+            alembic_auditor = Auditor.create(version, ...)
+        
+            # env.py
+            from myapp import alembic_auditor
+        
+            def run_migrations_offline():
+                ...
+                context.configure(
+                    ...
+                    on_version_apply=alembic_auditor.listen
+                )
+                ...
+        
+            def run_migrations_offline():
+                ...
+                context.configure(
+                    ...
+                    on_version_apply=alembic_auditor.listen
+                )
+            ...
+        
+        More involved
+        -------------
+        
+        These functions create an alembic history table and merely ask
+        you to specify your application version (though they allow much
+        else to be customized as well). If you already have a table you
+        wish to add records to whenever an alembic operation takes place,
+        and you have a callable that creates a row for that table,
+        you can instantiate ``Auditor`` directly::
+        
+            alembic_auditor = Auditor(HistoryTable, HistoryTable.alembic_version_applied)
+        
+        In this case ``alembic_version_applied`` specifies how to build the row
+        based on Alembic's ``on_version_apply`` hook.
+        
+        Customizing not just what data to populate a row with but whehter the row
+        should appear at all is not currently supported. If you wish to do so, directly
+        using Alembic's ``on_version_apply`` hook may be a better fit for you.
+        
+        Documentation
+        =============
+        
+        https://Audit-Alembic.readthedocs.io/ (not available yet)
+        
+        Development
+        ===========
+        
+        Status
+        ------
+        
+        The most basic tests, for using Audit-Alembic "correctly", pass for Postgres,
+        MYSQL, and SQLite as a file. Travis does not appear to support MSSQL or Oracle
+        so test status for those DB backends is not known.
+        
+        The next tests that need to be written should get us to 100% code coverage
+        as well as covering various error cases.
+        
+        Please feel free to expand from there. See the issues for a list of known
+        issues to work on.
+        
+        Testing
+        -------
+        
+        To run basic tests::
+        
+            $ virtualenv venv && source venv/bin/activate
+            (venv) $ python setup.py install
+            (venv) $ pip install pytest psycopg2
+            (venv) $ pytest
+        
+        To run all tests (i.e. py2 + py3, across all database drivers), run::
+        
+            $ tox
+        
+        Also see our `Travis setup <https://travis-ci.org/jpassaro/Audit-Alembic>`_.
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.1.0 (2017-06-21)
+        ------------------
+        
+        * First release on PyPI. (powered by cookiecutter-pylibrary_)
+        
+        .. _cookiecutter-pylibrary: https://github.com/ionelmc/cookiecutter-pylibrary
+        
+Keywords: database,migration,db
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
