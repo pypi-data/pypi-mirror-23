@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"name": "Benedikt Schmeitz", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "onlinetorch-website-url-finder", "summary": "Python Onlinetorch Project Finding website url from name", "version": "0.1.2"}
