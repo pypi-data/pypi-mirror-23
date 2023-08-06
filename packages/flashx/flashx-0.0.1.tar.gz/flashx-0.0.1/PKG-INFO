@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: flashx
+Version: 0.0.1
+Summary: A parallel and scalable library for matrix operations
+Home-page: https://github.com/flashxio/FlashX
+Author: Da Zheng
+Author-email: dzheng5@jhu.edu
+License: Apache License, Version 2.0
+Description: FlashPy parallelizes and scales the API in NumPy, and the algorithms in SciPy. It extends memory capacity with SSDs and is optimized for NUMA machines
+Keywords: parallel scalable machine-learning NumPy SciPy
+Platform: UNKNOWN
