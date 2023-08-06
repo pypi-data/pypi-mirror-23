@@ -1,0 +1,89 @@
+Metadata-Version: 1.1
+Name: pdsspect
+Version: 0.1.1
+Summary: PDS Image Viewer for Multispectral Analysis
+Home-page: https://github.com/planetarypy/pdsspect
+Author: PlanetaryPy Developers
+Author-email: contact@planetarypy.com
+License: BSD
+Description: ===============================================================
+        pdsspect - A Python PDS Image Region of Interest Selection Tool
+        ===============================================================
+        
+        **NOTE:** This is Alpha quality software that is being actively developed, use
+        at your own risk.  This software is not produced by NASA.
+        
+        * Free software: BSD license
+        * Documentation: https://pdsspect.readthedocs.org.
+        
+        Features
+        --------
+        
+        * NASA PDS Image Viewer
+        
+        **NOTE:** This is alpha quality software.  It lacks many features and lacks
+        support for many PDS image types.  This software is not produced by NASA.
+        
+        Install
+        -------
+        
+        On OS X you must first install the Qt UI toolkit using Homebrew
+        (http://brew.sh/).  After installing Homebrew, issue the following command::
+        
+            brew install qt
+        
+        Install Using Pip
+        +++++++++++++++++
+        Install pdsspect using pip::
+          
+          pip install pdsspect
+        
+        Then install your choice of pyside, pyqt4, or pyqt5
+        
+        Install for Development
+        +++++++++++++++++++++++
+        
+        Create a new virtual environment, install the `pdsspect` module with git,
+        and setup the PySide environment. You must install either PySide, PyQt5, or
+        PyQt4 as well (recommend PyQt5)::
+        
+            Make a clone of ``pdsspect`` and change to main directory. We recommend
+            making a virtual environment for to install ``pdsspect`` in.
+        
+            pip install -e .
+            pip install PyQt5
+        
+        Now you should be able to run the `pdsspect` program.
+        
+        This works on Linux as well (Ubuntu 14.04).
+        
+        
+        
+        
+        
+        History
+        =======
+        
+        0.1.1 ("2017-08-21")
+        --------------------
+        
+        * Make compatible to be opened by other programs like pystamps
+        
+        0.1.0 ("2017-08-20")
+        --------------------
+        
+        * First release on PyPi
+        
+Keywords: pdsspect
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

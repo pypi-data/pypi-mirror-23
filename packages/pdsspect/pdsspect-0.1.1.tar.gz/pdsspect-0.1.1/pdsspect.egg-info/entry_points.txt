@@ -1,0 +1,3 @@
+[console_scripts]
+pdsspect = pdsspect.pdsspect:cli
+
