@@ -1,0 +1,9 @@
+README.rst
+lazify.py
+setup.cfg
+setup.py
+Lazify.egg-info/PKG-INFO
+Lazify.egg-info/SOURCES.txt
+Lazify.egg-info/dependency_links.txt
+Lazify.egg-info/not-zip-safe
+Lazify.egg-info/top_level.txt
