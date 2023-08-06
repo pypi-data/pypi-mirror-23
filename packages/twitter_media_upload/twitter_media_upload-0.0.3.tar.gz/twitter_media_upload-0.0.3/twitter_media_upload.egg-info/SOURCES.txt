@@ -1,0 +1,8 @@
+setup.py
+twitter_media_upload/__init__.py
+twitter_media_upload/async_upload.py
+twitter_media_upload.egg-info/PKG-INFO
+twitter_media_upload.egg-info/SOURCES.txt
+twitter_media_upload.egg-info/dependency_links.txt
+twitter_media_upload.egg-info/requires.txt
+twitter_media_upload.egg-info/top_level.txt
