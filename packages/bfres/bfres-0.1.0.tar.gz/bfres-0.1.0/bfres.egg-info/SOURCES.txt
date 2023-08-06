@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+bfres/__init__.py
+bfres/resexception.py
+bfres/resfile.py
+bfres.egg-info/PKG-INFO
+bfres.egg-info/SOURCES.txt
+bfres.egg-info/dependency_links.txt
+bfres.egg-info/requires.txt
+bfres.egg-info/top_level.txt

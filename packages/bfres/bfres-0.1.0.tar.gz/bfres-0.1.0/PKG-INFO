@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: bfres
+Version: 0.1.0
+Summary: Python package for loading and saving the Nintendo BFRES graphics archive format.
+Home-page: https://github.com/Syroot/bfres
+Author: Syroot
+Author-email: dev@syroot.com
+License: MIT
+Download-URL: https://github.com/Syroot/bfres/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: bfres nintendo nintendo-ware wii-u
+Platform: UNKNOWN
+Requires-Python: >=3
