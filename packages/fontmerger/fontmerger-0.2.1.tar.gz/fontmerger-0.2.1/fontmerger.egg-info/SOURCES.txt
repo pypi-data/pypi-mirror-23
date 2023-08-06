@@ -1,0 +1,8 @@
+setup.py
+fontmerger/__init__.py
+fontmerger/fontmerger.py
+fontmerger.egg-info/PKG-INFO
+fontmerger.egg-info/SOURCES.txt
+fontmerger.egg-info/dependency_links.txt
+fontmerger.egg-info/entry_points.txt
+fontmerger.egg-info/top_level.txt
