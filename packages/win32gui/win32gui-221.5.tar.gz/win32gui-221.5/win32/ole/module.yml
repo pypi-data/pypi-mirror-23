@@ -1,0 +1,31 @@
+libraries: [gdi32, user32, comdlg32, comctl32, shell32, ui, _com]
+modules: [win32.types, win32._com]
+windows_h_version: 1280
+extra_compile_args: [-D_AFXDLL, -D_AFXEXT, -D_MBCS]
+pch_header: stdafxole.h
+optional_headers: [afxres.h]
+modules: [win32.types, win32._com, win32.gui, win32.ui]
+depends:
+  - stdafxole.h
+  - win32oleDlgs.h
+  - win32uioledoc.h
+
+
+
+# WinExt_pythonwin("win32uiole",
+#                  sources=[
+#                      "Pythonwin/stdafxole.cpp",
+#                      "Pythonwin/win32oleDlgInsert.cpp",
+#                      "Pythonwin/win32oleDlgs.cpp",
+#                      "Pythonwin/win32uiole.cpp",
+#                      "Pythonwin/win32uioleClientItem.cpp",
+#                      "Pythonwin/win32uioledoc.cpp",
+#                  ],
+#                  depends=[
+#                      "Pythonwin/stdafxole.h",
+#                      "Pythonwin/win32oleDlgs.h",
+#                      "Pythonwin/win32uioledoc.h",
+#                  ],
+#                  pch_header="stdafxole.h",
+#                  windows_h_version=0x500,
+#                  optional_headers=['afxres.h']),
