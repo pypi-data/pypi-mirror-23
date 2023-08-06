@@ -1,0 +1,11 @@
+shoehorn/__init__.py,sha256=IvSeqEHja1WGp6074vQNa51ZA_9Ez0KTtAnLcbrJ2h8,257
+shoehorn/compat.py,sha256=cKwUsBFVpRmIQoXHUVP6kS7IWDPJcsYeW9Bw3Rl1EFw,197
+shoehorn/event.py,sha256=yKyhppnRZs-yGM1uO4bQOnpSp-Y80dsjvtWF3D73V2U,352
+shoehorn/logger.py,sha256=8LJ3elXvFeOwidItlHnm4LGYOh9oZgfEdS_vK5k8LOs,2135
+shoehorn/stdlib.py,sha256=OU378-46WKVmMB8qL0pS2VdpuQ4l_Q55y2EK6K-Bw-U,2625
+shoehorn-0.2.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+shoehorn-0.2.1.dist-info/METADATA,sha256=jAhcY1SbEHT2hcvxKSYLcjfaz0YajR6ECk2KL61bMvo,1106
+shoehorn-0.2.1.dist-info/RECORD,,
+shoehorn-0.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+shoehorn-0.2.1.dist-info/metadata.json,sha256=WmtpKNFADtQK8JdBBlx-3gLXZQo0ac6gz9U5f1YaaNA,983
+shoehorn-0.2.1.dist-info/top_level.txt,sha256=TPnSkAI_pwSXcIXG_NJ0JuvVoPaHFHSea5hvpsrv1fY,9
