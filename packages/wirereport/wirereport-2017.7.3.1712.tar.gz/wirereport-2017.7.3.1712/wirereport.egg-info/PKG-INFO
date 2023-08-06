@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: wirereport
+Version: 2017.7.3.1712
+Summary: a small text editor
+Home-page: https://github.com/wdbm/report
+Author: Will Breaden Madden
+Author-email: wbm@protonmail.ch
+License: GPLv3
+Description: report
+        ======
+        
+        a small text editor
+        
+        .. figure:: https://raw.githubusercontent.com/wdbm/report/master/report.png
+           :alt: 
+        
+        setup
+        =====
+        
+        .. code:: bash
+        
+            pip install wirereport
+        
+        run
+        ===
+        
+        .. code:: python
+        
+            report.py
+        
+Platform: UNKNOWN
