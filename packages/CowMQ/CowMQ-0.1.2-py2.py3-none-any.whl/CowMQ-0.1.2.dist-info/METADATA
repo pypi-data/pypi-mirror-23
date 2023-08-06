@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: CowMQ
+Version: 0.1.2
+Summary: The CowMQ is a simple client-server protocol over MQTT.
+Home-page: https://github.com/duncanHsu/CowMQ-Python
+Author: Duncan Hsu
+Author-email: protosss2@gmail.com
+License: MIT
+Keywords: C,o,w,M,Q, ,M,Q,T,T, ,c,l,i,e,n,t,-,s,e,r,v,e,r
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: paho-mqtt
+
+UNKNOWN
+
+
