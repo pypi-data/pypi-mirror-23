@@ -1,0 +1,16 @@
+bioc/__init__.py,sha256=6eFvUOQ1C4ei9-MB0w_0noeGfpeX-3c7KRRCk0dBchE,3099
+bioc/bioc.py,sha256=X24MsgU3J-NZHnXDv3VMHQ_XquZxXWQAM7A6rjOE8iU,10576
+bioc/decoder.py,sha256=RMKSyOWD92VVr7l_xXxx30gf7zpWLL8_QdwiqrB-W40,4564
+bioc/encoder.py,sha256=dctwF5_XLQXHJGGPANfptlB3B8xmKYu5R6Ctu5lz4hw,4023
+bioc/iterator.py,sha256=eZWrwH_MTfyMN3zvCgo0o--54DRZpFBY6N1R6ATAPEQ,4244
+bioc/iterdecoder.py,sha256=65GkkXQF5rlRFqkZ0LEXflv0XpUL-mSJAxYsrsuiEDQ,7454
+bioc/iterencoder.py,sha256=Up_chGauI9HkEk-PGjdoCnDcTOOYYvjkYqDfyvPgQ-c,1910
+bioc/jsonencoder.py,sha256=2CvO_UFdJgRK4FBZW8XOHPymQNC7Tcehiu4g-IDeNKc,2577
+bioc/utils.py,sha256=LjCYtqVng32dP5djzbIq8ijPYsf_QcioGHnnGEUFd6Y,1622
+bioc/validator.py,sha256=u3RArzVPHGn4XBDrlUbgqwCwPHdsaOZY0BjHmAIiPUk,3393
+bioc-1.1.dev2.dist-info/DESCRIPTION.rst,sha256=0jpvJBixgzeyBH4Qhb-S-09HLlAz7NbJ_1zt-AXgzs0,3745
+bioc-1.1.dev2.dist-info/METADATA,sha256=41p8tGTvjj7p5ujY5RB9G4TCKkUEdeR9OwfqxpiNEGM,4665
+bioc-1.1.dev2.dist-info/RECORD,,
+bioc-1.1.dev2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+bioc-1.1.dev2.dist-info/metadata.json,sha256=ruooqaUgbvzNVzkxkpGyUp-n05ouoUTfVjFilrqbp40,1046
+bioc-1.1.dev2.dist-info/top_level.txt,sha256=R6tDDZWLUyE4gbS775SFHNady3FrVpr05rOgmuTHOXw,5
