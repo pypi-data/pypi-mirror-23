@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: treegen
+Version: 0.1
+Summary: Generate all non-isomorphic, rooted trees efficiently
+Home-page: https://github.com/stevenschmatz/treegen
+Author: Steven Schmatz
+Author-email: stevenschmatz@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/stevenschmatz/treegen/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: non-isomorphic,trees,unlabeled,rooted
+Platform: UNKNOWN
