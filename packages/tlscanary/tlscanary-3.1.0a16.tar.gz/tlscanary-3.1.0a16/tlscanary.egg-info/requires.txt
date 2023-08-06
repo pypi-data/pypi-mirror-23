@@ -1,0 +1,8 @@
+coloredlogs
+cryptography
+worq
+
+[dev]
+nose
+mock
+pep8
