@@ -1,0 +1,3 @@
+[console_scripts]
+tfvardoc = tfvardoc:main
+

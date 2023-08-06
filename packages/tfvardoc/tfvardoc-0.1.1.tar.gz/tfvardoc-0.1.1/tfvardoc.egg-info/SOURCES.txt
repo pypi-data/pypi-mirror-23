@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+test/test.py
+tfvardoc/__init__.py
+tfvardoc/grammar.py
+tfvardoc/parser.py
+tfvardoc.egg-info/PKG-INFO
+tfvardoc.egg-info/SOURCES.txt
+tfvardoc.egg-info/dependency_links.txt
+tfvardoc.egg-info/entry_points.txt
+tfvardoc.egg-info/requires.txt
+tfvardoc.egg-info/top_level.txt
