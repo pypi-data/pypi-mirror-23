@@ -1,0 +1,10 @@
+habitica_planner/__init__.py,sha256=usQbsVaXZOFCGhSmU7ZMI6czh-gE0-EcruvGPkdjIrY,812
+habitica_planner/planner.py,sha256=L0JzE9ExZrGUMLmMY1B-IRCEbbH5aKBVx7S5EZeBYDA,5073
+habitica_planner/i18n/ru/LC_MESSAGES/habitica_planner.mo,sha256=zw4mvGvoVLbUnF-jD1wr2Yp2BlkgHOsT_DDm3DIwkcM,868
+habitica_planner-0.1.2.dist-info/DESCRIPTION.rst,sha256=dCqTOsp8aoxR5wkB00BbfJPdBa_cGYPzyBDe6m_VC44,179
+habitica_planner-0.1.2.dist-info/METADATA,sha256=Mwn-kdSjOKf5y7KOYuX5PUM7NZ_ZkaWaHFecBsRviXg,957
+habitica_planner-0.1.2.dist-info/RECORD,,
+habitica_planner-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+habitica_planner-0.1.2.dist-info/entry_points.txt,sha256=eD0kZ8SjEUk_hIVlDZSmW6EFq1Gk_Mpy4_6AlCOkOdg,60
+habitica_planner-0.1.2.dist-info/metadata.json,sha256=BowOWWnal506ae3F4xWoPm4PsAEepZ5SUIzJxtPLbg4,1114
+habitica_planner-0.1.2.dist-info/top_level.txt,sha256=tQV6DGogxccFkvd_X454LK6OG3bLPd02ZD06EscTk2w,17

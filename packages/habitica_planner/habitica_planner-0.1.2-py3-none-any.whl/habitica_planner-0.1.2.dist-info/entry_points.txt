@@ -1,0 +1,3 @@
+[console_scripts]
+habitica_planner = habitica_planner:main
+

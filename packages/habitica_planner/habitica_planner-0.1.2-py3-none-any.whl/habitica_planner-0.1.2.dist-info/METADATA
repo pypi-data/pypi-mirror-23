@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: habitica-planner
+Version: 0.1.2
+Summary: habitica_planner -- plan multiple recusive tasks with checklists
+Home-page: https://github.com/ASMfreaK/habitica_planner
+Author: Pavel Pletenev
+Author-email: cpp.create@gmail.com
+License: GPLv3
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: PyYAML
+Requires-Dist: habitica
+Requires-Dist: plumbum
+
+# habitica-planner
+
+Simple Python script to upload multiple tasks to Habitica.
+Uses awesome [`habitica` python api](https://github.com/philadams/habitica) and PyYAML.
+
+## Usage
+
+
