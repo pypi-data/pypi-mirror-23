@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements_dev.txt
+setup.py
+xorgauth/__init__.py
+xorgauth/settings.py
+xorgauth/urls.py
+xorgauth/wsgi.py
+xorgauth.egg-info/PKG-INFO
+xorgauth.egg-info/SOURCES.txt
+xorgauth.egg-info/dependency_links.txt
+xorgauth.egg-info/requires.txt
+xorgauth.egg-info/top_level.txt

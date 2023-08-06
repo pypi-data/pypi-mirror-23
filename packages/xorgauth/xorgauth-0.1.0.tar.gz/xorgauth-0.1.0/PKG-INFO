@@ -1,0 +1,60 @@
+Metadata-Version: 1.2
+Name: xorgauth
+Version: 0.1.0
+Summary: Polytechnique.org authentication provider
+Home-page: https://github.com/Polytechnique-org/xorgauth
+Author: Polytechnique.org dev team
+Author-email: devel+xorgauth@staff.polytechnique.org
+License: AGPLv3
+Download-URL: http://pypi.python.org/pypi/xorgauth/
+Description: xorgauth
+        ========
+        
+        .. image:: https://secure.travis-ci.org/Polytechnique-org/xorgauth.png?branch=master
+            :target: http://travis-ci.org/Polytechnique-org/xorgauth/
+        
+        .. image:: https://img.shields.io/pypi/v/xorgauth.svg
+            :target: https://pypi.python.org/pypi/xorgauth/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/pyversions/xorgauth.svg
+            :target: https://pypi.python.org/pypi/xorgauth/
+            :alt: Supported Python versions
+        
+        .. image:: https://img.shields.io/pypi/wheel/xorgauth.svg
+            :target: https://pypi.python.org/pypi/xorgauth/
+            :alt: Wheel status
+        
+        .. image:: https://img.shields.io/pypi/l/xorgauth.svg
+            :target: https://pypi.python.org/pypi/xorgauth/
+            :alt: License
+        
+        xorgauth handles authentication / authorization for Polytechnique.org-related services.
+        
+        
+        .. note::
+        
+            This is currently a work in progress.
+        
+        
+        Features (planned)
+        ------------------
+        
+        * Login with any alumni email address
+        * OpenID Connect v1.0 provider
+        * Legacy auth-groupe-x authentication provider
+        * Multiple authentication levels (cookie, password, two-factor)
+        
+Keywords: sso,authentication,authgroupex,openid connect
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: French
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Requires-Python: >=3.4.2
