@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: monkpy
+Version: 0.1
+Summary: handy python functions
+Home-page: http://github.com/monkeydri/monkpy
+Author: monkeydri
+Author-email: monkeydri@github.com
+License: MIT
+Download-URL: http://github.com/monkeydri/monkpy/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: file input,pipe,array
+Platform: UNKNOWN
