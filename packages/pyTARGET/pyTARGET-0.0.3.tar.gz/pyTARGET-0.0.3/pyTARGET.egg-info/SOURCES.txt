@@ -1,0 +1,8 @@
+setup.py
+pyTARGET.egg-info/PKG-INFO
+pyTARGET.egg-info/SOURCES.txt
+pyTARGET.egg-info/dependency_links.txt
+pyTARGET.egg-info/requires.txt
+pyTARGET.egg-info/top_level.txt
+pytarget/TARGET.py
+pytarget/__init__.py

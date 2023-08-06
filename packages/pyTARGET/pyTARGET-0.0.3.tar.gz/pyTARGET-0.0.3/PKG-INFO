@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: pyTARGET
+Version: 0.0.3
+Summary: neTwork bAsed enRichment of Gene sETs
+Home-page: UNKNOWN
+Author: Feng Zhang
+Author-email: 15110700005@fudan.edu.cn
+License: MIT
+Description: # TARGET
+        
+        #TARGET - neTwork bAsed enRichment of Gene sETs
+        
+        #Author: Feng ZHANG - 2017-07-14
+        
+        #Email: 15110700005@fudan.edu.cn
+        
+        
+        
+        
+Keywords: Gene sets enrichment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
