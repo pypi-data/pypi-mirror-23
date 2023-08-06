@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+snipsowm/__init__.py
+snipsowm/weather.py
+snipsowm.egg-info/PKG-INFO
+snipsowm.egg-info/SOURCES.txt
+snipsowm.egg-info/dependency_links.txt
+snipsowm.egg-info/requires.txt
+snipsowm.egg-info/top_level.txt
