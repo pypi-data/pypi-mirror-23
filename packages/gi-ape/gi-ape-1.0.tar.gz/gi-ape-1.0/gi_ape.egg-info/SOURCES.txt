@@ -1,0 +1,10 @@
+setup.py
+ape/__init__.py
+ape/ape.py
+gi_ape.egg-info/PKG-INFO
+gi_ape.egg-info/SOURCES.txt
+gi_ape.egg-info/dependency_links.txt
+gi_ape.egg-info/entry_points.txt
+gi_ape.egg-info/not-zip-safe
+gi_ape.egg-info/requires.txt
+gi_ape.egg-info/top_level.txt
