@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: tail-toolkit
+Version: 0.0.5
+Summary: An AWS tail command line interface (CLI). It helps you in tail some resoruces inside aws.
+Home-page: https://github.com/lucioveloso/tail-toolkit
+Author: Lucio Veloso Guimaraes
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: ### tail-toolkit
+        
+        An AWS tail command line interface (CLI). It helps you in tail some resources inside aws.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
