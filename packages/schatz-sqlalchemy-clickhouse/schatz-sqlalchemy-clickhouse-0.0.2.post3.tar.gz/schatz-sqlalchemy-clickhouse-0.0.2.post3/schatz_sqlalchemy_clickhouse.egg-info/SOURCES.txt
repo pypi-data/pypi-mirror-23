@@ -1,0 +1,13 @@
+README.rst
+setup.py
+./LICENSE.txt
+./__init__.py
+./base.py
+./connector.py
+./example.py
+schatz_sqlalchemy_clickhouse.egg-info/PKG-INFO
+schatz_sqlalchemy_clickhouse.egg-info/SOURCES.txt
+schatz_sqlalchemy_clickhouse.egg-info/dependency_links.txt
+schatz_sqlalchemy_clickhouse.egg-info/entry_points.txt
+schatz_sqlalchemy_clickhouse.egg-info/requires.txt
+schatz_sqlalchemy_clickhouse.egg-info/top_level.txt
