@@ -1,0 +1,11 @@
+# source this file to access LAL
+set LAL_PREFIX (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers" | /bin/sed -e 's| |:|g;')
+set PYTHONPATH (echo "$PYTHONPATH" | /bin/sed -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:||g;')
+set PYTHONPATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:$PYTHONPATH" | /bin/sed -e 's| |:|g;')
+set MANPATH (echo "$MANPATH" | /bin/sed -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:||g;')
+set MANPATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:$MANPATH" | /bin/sed -e 's| |:|g;')
+set LAL_DATADIR (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/lal" | /bin/sed -e 's| |:|g;')
+set PATH (echo "$PATH" | /bin/sed -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:||g;'| tr ':' '\n')
+set PATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:$PATH" | /bin/sed -e 's| |:|g;'| tr ':' '\n')
+set PKG_CONFIG_PATH (echo "$PKG_CONFIG_PATH" | /bin/sed -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:||g;')
+set PKG_CONFIG_PATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:$PKG_CONFIG_PATH" | /bin/sed -e 's| |:|g;')

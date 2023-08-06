@@ -1,0 +1,42 @@
+csh:if ( ! ${?LAL_PREFIX} ) setenv LAL_PREFIX
+sh:export LAL_PREFIX
+csh:setenv LAL_PREFIX "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers"
+sh:LAL_PREFIX="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers"
+fish:set LAL_PREFIX (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers" | @SED@ -e 's| |:|g;')
+csh:if ( ! ${?PYTHONPATH} ) setenv PYTHONPATH
+sh:export PYTHONPATH
+csh:setenv PYTHONPATH `echo "$PYTHONPATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:||g;'`
+sh:PYTHONPATH=`echo "$PYTHONPATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:||g;'`
+fish:set PYTHONPATH (echo "$PYTHONPATH" | @SED@ -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:||g;')
+csh:setenv PYTHONPATH "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:$PYTHONPATH"
+sh:PYTHONPATH="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:$PYTHONPATH"
+fish:set PYTHONPATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/python2.7/site-packages:$PYTHONPATH" | @SED@ -e 's| |:|g;')
+csh:if ( ! ${?MANPATH} ) setenv MANPATH
+sh:export MANPATH
+csh:setenv MANPATH `echo "$MANPATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:||g;'`
+sh:MANPATH=`echo "$MANPATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:||g;'`
+fish:set MANPATH (echo "$MANPATH" | @SED@ -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:||g;')
+csh:setenv MANPATH "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:$MANPATH"
+sh:MANPATH="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:$MANPATH"
+fish:set MANPATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/man:$MANPATH" | @SED@ -e 's| |:|g;')
+csh:if ( ! ${?LAL_DATADIR} ) setenv LAL_DATADIR
+sh:export LAL_DATADIR
+csh:setenv LAL_DATADIR "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/lal"
+sh:LAL_DATADIR="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/lal"
+fish:set LAL_DATADIR (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/share/lal" | @SED@ -e 's| |:|g;')
+csh:if ( ! ${?PATH} ) setenv PATH
+sh:export PATH
+csh:setenv PATH `echo "$PATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:||g;'`
+sh:PATH=`echo "$PATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:||g;'`
+fish:set PATH (echo "$PATH" | @SED@ -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:||g;'| tr ':' '\n')
+csh:setenv PATH "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:$PATH"
+sh:PATH="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:$PATH"
+fish:set PATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/bin:$PATH" | @SED@ -e 's| |:|g;'| tr ':' '\n')
+csh:if ( ! ${?PKG_CONFIG_PATH} ) setenv PKG_CONFIG_PATH
+sh:export PKG_CONFIG_PATH
+csh:setenv PKG_CONFIG_PATH `echo "$PKG_CONFIG_PATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:||g;'`
+sh:PKG_CONFIG_PATH=`echo "$PKG_CONFIG_PATH" | @SED@ -e 's|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:||g;'`
+fish:set PKG_CONFIG_PATH (echo "$PKG_CONFIG_PATH" | @SED@ -e 's| |:|g;s|//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:||g;')
+csh:setenv PKG_CONFIG_PATH "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:$PKG_CONFIG_PATH"
+sh:PKG_CONFIG_PATH="//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:$PKG_CONFIG_PATH"
+fish:set PKG_CONFIG_PATH (echo "//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers/lib/pkgconfig:$PKG_CONFIG_PATH" | @SED@ -e 's| |:|g;')
