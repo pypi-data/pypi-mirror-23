@@ -1,0 +1,12 @@
+django_eraserhead-0.1.4.dist-info/DESCRIPTION.rst,sha256=dAh_EFK7mNgPHwdIMgC5C9J3lTChuzobhfSTZXiKp0U,2366
+django_eraserhead-0.1.4.dist-info/METADATA,sha256=TkZ_tYcMR3KMUL8yWH_2hhGMDXC031LxAihvaxo0Cd4,3478
+django_eraserhead-0.1.4.dist-info/RECORD,,
+django_eraserhead-0.1.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_eraserhead-0.1.4.dist-info/metadata.json,sha256=gkEZugGO0HMFb4-nlE_VrRtk0wo_qvxAu5OI_Ww47RM,1187
+django_eraserhead-0.1.4.dist-info/top_level.txt,sha256=Oodi3v8Yvvpt8BIZF2KgRq-cfxjoiXuvtTh0DcOMSdQ,11
+eraserhead/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+eraserhead/apps.py,sha256=p3vxMj6ZjfJrhKx15pcmUqvbVHWMxVJBMVCmcfr_trY,524
+eraserhead/model_instance_wrapper.py,sha256=C3WCNsdHAERBudtV12ZPW3YHx9EuHmO-lqcTBgNV1gk,1261
+eraserhead/patch.py,sha256=il_u0L_OwNiqQAJOoo4r-7-ShIuwel0vXcqVvkwAVs8,1218
+eraserhead/queryset_storage.py,sha256=It0n6-TyM0WYhvKrMOG6lSW395nb9yjjbrzup514Hfc,3555
+eraserhead/request_storage.py,sha256=Hz6_AT1AZnTOWKaP4Ljyy4ZKRYkRdecotjewhWHmqJo,1098
