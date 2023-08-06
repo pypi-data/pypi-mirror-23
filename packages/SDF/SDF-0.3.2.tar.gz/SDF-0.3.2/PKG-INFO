@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: SDF
+Version: 0.3.2
+Summary: Scientific Data Format
+Home-page: https://github.com/ScientificDataFormat/SDF-Python
+Author: Torsten Sommer
+Author-email: torsten.sommer@3ds.com
+License: Standard 3-clause BSD
+Description: A Python library to read and write SDF files and to interpolate multi-dimensional data
+Platform: win32
+Platform: win64
+Platform: linux64
+Platform: darwin64
