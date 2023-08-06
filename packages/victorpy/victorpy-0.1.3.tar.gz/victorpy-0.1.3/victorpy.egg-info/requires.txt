@@ -1,0 +1,6 @@
+mistune
+pygments
+jinja2
+pyyaml
+flask
+awesome-slugify
