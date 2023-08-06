@@ -1,0 +1,17 @@
+infi.nose_plugins-0.0.7-py2.7-nspkg.pth,sha256=KMT2qrs0HQsU_gANjSsM7xpuGMv98nqscxb5Ca-FRmY,545
+infi/nose_plugins/__init__.py,sha256=q3JNmHn0CMPtEqkMR40lkjKQzuWUtT39xIFUYJ-MKIE,56
+infi/nose_plugins/__version__.py,sha256=bwKSDovprAwmrgJr6UA0E4VGN4A1mFu4alNb3_QLTUA,464
+infi/nose_plugins/logbook.py,sha256=c_k2ojCDAzwLmtZDOPLKdp9p8vWfMxlmatBvioP1RIA,930
+infi/nose_plugins/requestswarnings.py,sha256=gotQmq0OUhbY5q7yYC1r5y7fbldiS9-6FU63MqKQBWg,403
+infi/nose_plugins/stderr.py,sha256=XH0zgk_klckne0oTFevCVWjEoqzBoR0mkcfGIY3TeZU,1321
+infi/nose_plugins/html/__init__.py,sha256=o28Z6e-IotpCZ4ujQAyUz_Y9Zm-P-rsSH3KIqkOPA-g,154
+infi/nose_plugins/html/__init__backup.py,sha256=linJi1B25sbp4UOZliXhHHDrAtffNPyaBncXus30Uoc,18494
+infi/nose_plugins/html/ajax.py,sha256=2wOrY4o4sv4zj4SxcbUpLJ_Yot03j-sbr892pbsUfpo,3684
+infi.nose_plugins-0.0.7.dist-info/DESCRIPTION.rst,sha256=crdICfyO4_cy5eIlFAQWNqMoR0IWDYE9CA_aeLudkkE,15
+infi.nose_plugins-0.0.7.dist-info/METADATA,sha256=cQe2jzB6PwYMRbGUAp5KXHvybm2SGGSCFAY6a1JDqSU,639
+infi.nose_plugins-0.0.7.dist-info/RECORD,,
+infi.nose_plugins-0.0.7.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.nose_plugins-0.0.7.dist-info/entry_points.txt,sha256=YudmCQ1bysFXkcvzy3h_U-R6H7bi5m6mtpcQm4F2R60,245
+infi.nose_plugins-0.0.7.dist-info/metadata.json,sha256=fOhkvAFR5FR4frSeXiIpHy4sG8NWIx2FtYlOQGTwacc,1127
+infi.nose_plugins-0.0.7.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.nose_plugins-0.0.7.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
