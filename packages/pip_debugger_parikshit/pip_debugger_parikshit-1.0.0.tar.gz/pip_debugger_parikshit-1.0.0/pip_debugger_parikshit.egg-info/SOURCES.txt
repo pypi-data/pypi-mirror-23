@@ -1,0 +1,7 @@
+setup.py
+pip_debug/__init__.py
+pip_debug/pip_debug.py
+pip_debugger_parikshit.egg-info/PKG-INFO
+pip_debugger_parikshit.egg-info/SOURCES.txt
+pip_debugger_parikshit.egg-info/dependency_links.txt
+pip_debugger_parikshit.egg-info/top_level.txt
