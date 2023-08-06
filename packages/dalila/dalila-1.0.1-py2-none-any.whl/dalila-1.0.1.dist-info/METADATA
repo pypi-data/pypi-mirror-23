@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: dalila
+Version: 1.0.1
+Summary: A library for dictionary learning decomposition
+Home-page: https://github.com/slipguru/dalila
+Author: Veronica Tozzo
+Author-email: veronica.tozzo@dibris.unige.it
+License: FreeBSD
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Operating System :: Unix
+Requires-Dist: bintrees
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: matplotlib
+Requires-Dist: nose (>=1.1.2)
+Requires-Dist: numpy
+Requires-Dist: scikit-learn (>=0.17)
+Requires-Dist: scipy
+
+A library for the decomposition of a matrix of signals.It includes sparse coding algorithm and parameter research procedures.
+
+
