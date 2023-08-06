@@ -1,0 +1,13 @@
+invisibleroads-macros>=0.8.3.1
+invisibleroads>=0.2.0
+invisibleroads-posts>=0.5.5
+invisibleroads-uploads>=0.3.1
+markupsafe
+mistune
+pyramid
+pyramid_jinja2
+requests
+simplejson
+six
+socketIO_client>=0.7.2
+stevedore
