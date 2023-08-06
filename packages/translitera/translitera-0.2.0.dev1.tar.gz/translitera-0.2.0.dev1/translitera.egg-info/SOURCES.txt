@@ -1,0 +1,12 @@
+setup.py
+translitera/LICENSE.txt
+translitera/README.reSTful
+translitera/__init__.py
+translitera/kn2en.json
+translitera/kn2la.json
+translitera/translitera.py
+translitera.egg-info/PKG-INFO
+translitera.egg-info/SOURCES.txt
+translitera.egg-info/dependency_links.txt
+translitera.egg-info/entry_points.txt
+translitera.egg-info/top_level.txt
