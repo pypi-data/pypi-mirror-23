@@ -1,0 +1,8 @@
+main.py
+setup.py
+hayaku.egg-info/PKG-INFO
+hayaku.egg-info/SOURCES.txt
+hayaku.egg-info/dependency_links.txt
+hayaku.egg-info/entry_points.txt
+hayaku.egg-info/requires.txt
+hayaku.egg-info/top_level.txt
