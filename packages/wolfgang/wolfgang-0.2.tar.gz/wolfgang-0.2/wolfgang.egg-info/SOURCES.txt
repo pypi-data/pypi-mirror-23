@@ -1,0 +1,8 @@
+setup.py
+wolfgang/__init__.py
+wolfgang/vector.py
+wolfgang.egg-info/PKG-INFO
+wolfgang.egg-info/SOURCES.txt
+wolfgang.egg-info/dependency_links.txt
+wolfgang.egg-info/not-zip-safe
+wolfgang.egg-info/top_level.txt
