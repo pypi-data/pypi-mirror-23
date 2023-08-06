@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: utool
+Version: 1.8.0
+Summary: Useful utilities
+Home-page: https://github.com/Erotemic/utool
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: six (>=1.8.0)
+Requires-Dist: psutil (>=2.1.3)
+Requires-Dist: parse (>=1.6.6)
+Requires-Dist: numpy
+Requires-Dist: pyparsing
+Requires-Dist: pint
+Provides-Extra: astor
+Requires-Dist: astor; extra == 'astor'
+Provides-Extra: autopep8
+Requires-Dist: autopep8; extra == 'autopep8'
+Provides-Extra: boto
+Requires-Dist: boto; extra == 'boto'
+Provides-Extra: pyfiglet
+Requires-Dist: pyfiglet (>=0.7.2); extra == 'pyfiglet'
+Provides-Extra: pyperclip
+Requires-Dist: pyperclip (>=1.5.7); extra == 'pyperclip'
+
+UNKNOWN
+
+
