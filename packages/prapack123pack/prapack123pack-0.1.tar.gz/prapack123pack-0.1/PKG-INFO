@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: prapack123pack
+Version: 0.1
+Summary: A simple library that says "hi" to the owner
+Home-page: https://github.com/prakhar21/helloworld-pypackage
+Author: Prakhar Mishra
+Author-email: pmprakhargenius@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/prakhar21/helloworld-pypackage/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: prettyprint,hello,pypi
+Platform: UNKNOWN
