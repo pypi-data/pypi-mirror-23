@@ -1,0 +1,24 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+etitle.egg-info/PKG-INFO
+etitle.egg-info/SOURCES.txt
+etitle.egg-info/dependency_links.txt
+etitle.egg-info/top_level.txt
+project/LICENSE
+project/README.md
+project/__init__.py
+project/etitle.py
+project/test_parse.py
+project/test_parts.py
+project/sample/billy {_of=chicago}/Section 5{%colon%}10{%colon% Behavior for }Introspection.txt
+project/sample/billy {_of=chicago}/{%quotes%}inner{%quotes% and %quotes%}outer{%quotes% of }Psychological Analysis.txt
+project/sample/billy {_of=chicago}/{The Importance of} Continual Regression Analysis;mathematics.txt
+project/sample/james==king/Topological Analysis;mathematics.txt
+project/sample/s{cott }james/$ - cv.txt
+project/sample/s{cott }james/$ - resume.txt
+project/sample/s{cott }james/fundamental-process-of-behavior.txt
+project/sample/s{cott }james/{What is }Illustrative { and Analytic Economics%questionmark%}.txt
+project/sample/{=s.=b. }smith/lectures/{On the }2nd Person;2nd=person;mathematics;psychology.txt
