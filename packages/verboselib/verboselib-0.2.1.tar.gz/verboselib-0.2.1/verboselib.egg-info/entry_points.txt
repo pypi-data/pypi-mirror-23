@@ -1,0 +1,3 @@
+[console_scripts]
+verboselib-manage = verboselib.bin.verboselib_manage:main
+
