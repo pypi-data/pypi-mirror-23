@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+terrascript/__init__.py
+terrascript.egg-info/PKG-INFO
+terrascript.egg-info/SOURCES.txt
+terrascript.egg-info/dependency_links.txt
+terrascript.egg-info/not-zip-safe
+terrascript.egg-info/top_level.txt
+terrascript/aws/__init__.py
+terrascript/aws/d.py
+terrascript/aws/r.py
