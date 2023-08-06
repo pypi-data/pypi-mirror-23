@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: mdlp
+Version: 0.32
+Summary: MDLP
+Home-page: https://github.com/airysen/mdlp
+Author: Henry Lin, Arseniy Kustov
+Author-email: me@airysen.co
+License: BSD-3
+Description: MDLP Discretization Algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3
