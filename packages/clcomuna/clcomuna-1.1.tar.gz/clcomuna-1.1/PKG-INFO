@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: clcomuna
+Version: 1.1
+Summary: Given the name of a comuna in Chile, it returns its code
+Home-page: http://github.com/slarrain/clcomuna
+Author: Santiago Larrain
+Author-email: santiagolarrain@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
