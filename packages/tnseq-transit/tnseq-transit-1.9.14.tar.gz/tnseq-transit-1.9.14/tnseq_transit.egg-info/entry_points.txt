@@ -1,0 +1,3 @@
+[console_scripts]
+transit = pytransit.__main__:main
+
