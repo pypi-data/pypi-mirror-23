@@ -1,0 +1,16 @@
+tacacs_plus/__init__.py,sha256=yi7Zs4OFKi2mSCFKXNczmuq9sHyTaX_YBGreQrFbpIw,1704
+tacacs_plus/accounting.py,sha256=RJ0XOpFGuGAaTWgyNwz2G3dvh08dBmEm9JU1_mBbLf0,5496
+tacacs_plus/authentication.py,sha256=yScCUSV7oEUcVxYhWd24BHnpnskKLPDKX6p1LTPQ_7M,6550
+tacacs_plus/authorization.py,sha256=mc5CgBC82Mkjys1lD5tyt1zbdgRids_v2VLeYeuhafo,6944
+tacacs_plus/client.py,sha256=0WjRad8fZdFwHGvUTokK7PkrwgBt7aD0td0z-c-_ees,12375
+tacacs_plus/flags.py,sha256=6YvRoDxM3dpIaBExExJt4ovPAtxgCrmv2c5mnT8jQpw,2050
+tacacs_plus/packet.py,sha256=1Pp_x4FuB6RHb2gB9_ZJ5ydJTWrk3hv9_-HexW47fnc,5855
+tacacs_plus-1.0.data/scripts/tacacs_plus,sha256=8AG7ZKd4EcMdyo3SOJ1ae_CIiTGvZSF7ECyt6YnuClo,111
+tacacs_plus-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+tacacs_plus-1.0.dist-info/METADATA,sha256=4K3KjJSa-gcXjCfn6jz7HV5H5i9gFL_i_AzLna1LcEY,1170
+tacacs_plus-1.0.dist-info/RECORD,,
+tacacs_plus-1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+tacacs_plus-1.0.dist-info/metadata.json,sha256=jXmqbk3xTFxwDjXRyx_qGI2IZ4lolb3FPwRMpqRT8As,1329
+tacacs_plus-1.0.dist-info/top_level.txt,sha256=xkao-OZEgqffV6XpeVhBW5UYJriysG4Xxf3xH15DziY,18
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tacacs_plus.py,sha256=L9TvM6EYVA_cqidysNlGMStp6FbsGZdC-1nVSEcbfWQ,20020
