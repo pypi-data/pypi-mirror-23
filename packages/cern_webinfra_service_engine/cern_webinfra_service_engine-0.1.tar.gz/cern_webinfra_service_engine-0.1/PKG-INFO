@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: cern_webinfra_service_engine
+Version: 0.1
+Summary: Library for connecting the microservices with CERN web infrastructure manager
+Home-page: https://github.com/wklm/cern_webinfra_service_engine.git
+Author: CERN / Wojciech Kulma
+Author-email: wojciech.kulma@cern.ch
+License: UNKNOWN
+Download-URL: https://github.com/wklm/cern_webinfra_service_engine.git
+Description: UNKNOWN
+Keywords: cern,webinfra,activemq,stomp,microservices,integration
+Platform: UNKNOWN
