@@ -1,0 +1,11 @@
+fnplus/__init__.py,sha256=ZeU_3HwEb2d4lg7ru6_xgzUpsTljhuBcLvpcb3zcHjc,101
+fnplus/curried.py,sha256=5rq-oaDmyhmVyZDnjeqvayEe_F6sg9fhj-kCF19B8Uk,587
+fnplus/either.py,sha256=ZqMkikgtN-ud1oCpnGc4uge-s_SVfUes3NHyOrKb4f8,1197
+fnplus/iterable.py,sha256=2RKsErj3_TF44dfAy8hY4ovhnVEXbyU4ys8Sho_97EU,477
+fnplus/monad.py,sha256=xAlRYhr5vof_RC00sLxx9v9cNJeTH42FkDGuSQ8ukVs,610
+fnplus-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+fnplus-0.1.dist-info/METADATA,sha256=si6G0f_1UGhvPIIy7y8CpVtaQSb8dms1YaloIhvqUjw,226
+fnplus-0.1.dist-info/RECORD,,
+fnplus-0.1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+fnplus-0.1.dist-info/metadata.json,sha256=mnHQc-RSTgBudEU0XhfoydYiV9sBjSeVtWy5hv7i4u4,382
+fnplus-0.1.dist-info/top_level.txt,sha256=nQfPPYVRPzLnNUml63GR13ASKRcwv8OFP4UWpu9QCyA,7
