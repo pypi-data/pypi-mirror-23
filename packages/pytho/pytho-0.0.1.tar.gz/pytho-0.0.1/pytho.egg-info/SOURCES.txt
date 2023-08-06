@@ -1,0 +1,6 @@
+setup.py
+pytho.egg-info/PKG-INFO
+pytho.egg-info/SOURCES.txt
+pytho.egg-info/dependency_links.txt
+pytho.egg-info/entry_points.txt
+pytho.egg-info/top_level.txt
