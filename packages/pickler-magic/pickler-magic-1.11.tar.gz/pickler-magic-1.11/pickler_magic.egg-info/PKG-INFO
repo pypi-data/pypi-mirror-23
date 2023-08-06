@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pickler-magic
+Version: 1.11
+Summary: IPython Notebook magic to make and load pickle dumps of all assignments in a cell or a line
+Home-page: https://github.com/DLunin/pickler
+Author: Dmitry Lunin
+Author-email: mail.lunin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/DLunin/pickler/archive/1.11.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: IPython

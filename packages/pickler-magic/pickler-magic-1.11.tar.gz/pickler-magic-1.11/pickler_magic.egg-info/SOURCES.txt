@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pickler/__init__.py
+pickler/pickler.py
+pickler_magic.egg-info/PKG-INFO
+pickler_magic.egg-info/SOURCES.txt
+pickler_magic.egg-info/dependency_links.txt
+pickler_magic.egg-info/top_level.txt
