@@ -1,0 +1,9 @@
+datastore_to_gcs/__init__.py,sha256=JCI2I70RLMSjUOIEOjckFPqmrTw8KUWelV4cWVsy1pw,6134
+datastore_to_gcs/cloud_storage.py,sha256=FBHfiNKemk6y5i8As53OqQWlmgjfNcXlFHd-WCpybTQ,5082
+datastore_to_gcs/util.py,sha256=yNXdIyIEW8HIcaDxSGTsglRE3YMcDMeT4qUAm2Kyl64,2812
+datastore_to_gcs-0.3.dist-info/DESCRIPTION.rst,sha256=u6Ir1dlE86PAGDYrSsU19EurQvmlAUD8vjdz0BTMlrg,2437
+datastore_to_gcs-0.3.dist-info/METADATA,sha256=ux5zyLRnneiJ7KA563XAaTq9ZE-tYhtJ4HbkU4-paqs,3098
+datastore_to_gcs-0.3.dist-info/RECORD,,
+datastore_to_gcs-0.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+datastore_to_gcs-0.3.dist-info/metadata.json,sha256=vq1EVM0iqnZNLYYbAlJtNsKnGhVYUWNeudRJf6ltxUg,879
+datastore_to_gcs-0.3.dist-info/top_level.txt,sha256=jsvBeWSsoXW586tNx7oS6xczbcrLOeEfN400jBAS1JI,17
