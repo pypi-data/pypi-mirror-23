@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: twitchobserver
+Version: 0.7.2
+Summary: Turn Twitch chatter into Python events.
+Home-page: https://github.com/JoshuaSkelly/twitch-observer
+Author: Joshua Skelton
+Author-email: joshua.skelton@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: twitch.tv,twitch,video games,chatbot
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
