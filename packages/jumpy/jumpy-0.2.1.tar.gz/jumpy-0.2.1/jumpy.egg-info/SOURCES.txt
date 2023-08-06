@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+jumpy/__init__.py
+jumpy.egg-info/PKG-INFO
+jumpy.egg-info/SOURCES.txt
+jumpy.egg-info/dependency_links.txt
+jumpy.egg-info/requires.txt
+jumpy.egg-info/top_level.txt
+tests/__init__.py
+tests/jumpy/__init__.py
+tests/jumpy/array_creation.py
+tests/jumpy/buffer_tests.py
