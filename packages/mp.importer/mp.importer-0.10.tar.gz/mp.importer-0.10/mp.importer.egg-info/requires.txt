@@ -1,0 +1,3 @@
+lxml
+PyICU
+mock
