@@ -1,0 +1,12 @@
+README.rst
+setup.py
+bin/cooley
+numerov/__init__.py
+numerov/constants.py
+numerov/solve.py
+numerov/version.py
+numerov.egg-info/PKG-INFO
+numerov.egg-info/SOURCES.txt
+numerov.egg-info/dependency_links.txt
+numerov.egg-info/requires.txt
+numerov.egg-info/top_level.txt
