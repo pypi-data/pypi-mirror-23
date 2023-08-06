@@ -1,0 +1,3 @@
+[console_scripts]
+srt_timer = srt_timer:main
+
