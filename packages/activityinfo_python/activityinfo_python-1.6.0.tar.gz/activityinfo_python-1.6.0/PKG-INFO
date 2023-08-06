@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: activityinfo_python
+Version: 1.6.0
+Summary: Simple python wrapper for ActivityInfo REST API
+Home-page: https://github.com/HCDX/ActivityInfoPython
+Author: James Cranwell-Ward
+Author-email: jcranwellward@unicef.org
+License: UNKNOWN
+Download-URL: https://github.com/HCDX/ActivityInfoPython/archive/v1.6.0.tar.gz
+Description: UNKNOWN
+Keywords: activityinfo,api,requests,python
+Platform: UNKNOWN
