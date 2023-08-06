@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: gnip-insights-interface
+Version: 0.2
+Summary: Interface to the Twitter Insights APIs
+Home-page: https://github.com/jeffakolb/Gnip-Insights-Interface
+Author: Jeff Kolb
+Author-email: jeffakolb@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-dateutil
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: requests-oauthlib
+
+UNKNOWN
+
+
