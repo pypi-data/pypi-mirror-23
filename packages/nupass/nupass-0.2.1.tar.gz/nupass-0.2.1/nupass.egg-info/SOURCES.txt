@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+bin/nupass
+nupass/__init__.py
+nupass/nupass.py
+nupass/wordlist.txt
+nupass.egg-info/PKG-INFO
+nupass.egg-info/SOURCES.txt
+nupass.egg-info/dependency_links.txt
+nupass.egg-info/not-zip-safe
+nupass.egg-info/top_level.txt
