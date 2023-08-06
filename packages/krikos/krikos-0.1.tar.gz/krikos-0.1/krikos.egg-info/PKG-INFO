@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: krikos
+Version: 0.1
+Summary: Python ML library for experimentation with neural networks
+Home-page: https://github.com/shubhangdesai/krikos
+Author: Shubhang Desai
+Author-email: shubhang@stanford.edu
+License: UNKNOWN
+Download-URL: https://github.com/shubhangdesai/krikos/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: machine-learning,neural-networks,artificial-intelligence,ml,nn,ai
+Platform: UNKNOWN
