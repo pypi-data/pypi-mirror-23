@@ -1,0 +1,6 @@
+soundforest>=4.2.2
+systematic>=4.7.11
+appscript
+configobj
+darwinist
+zeroconf
