@@ -1,0 +1,7 @@
+railscookie.py
+setup.py
+railscookie.egg-info/PKG-INFO
+railscookie.egg-info/SOURCES.txt
+railscookie.egg-info/dependency_links.txt
+railscookie.egg-info/requires.txt
+railscookie.egg-info/top_level.txt
