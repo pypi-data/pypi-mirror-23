@@ -1,0 +1,13 @@
+api_tools/__init__.py,sha256=4HPasuMC-xpwKoZNFMLk_TwpwDcslq-HdlCtSKCgEg8,90
+api_tools/models.py,sha256=ew-5U_HU8c0fyK2aq6Is1Vm75CB0WVl7hjnlYlP9Sa0,1295
+api_tools/scripts.py,sha256=TDzeyCxKNCp0oRQpAo8HilVOB6OJ4EzFke5hrsRPrRQ,44
+api_tools/settings.py,sha256=ldtOOql7PC4Pq16hohqvfzDol2tduC0OQ0RAi2O_H0U,3466
+api_tools/urls.py,sha256=7NfyM0h85gazJbgkEgEgFlWnSlv7bMB3QSnJ0FuzaPM,955
+api_tools/utils.py,sha256=eFtUDa6zlaa29_v7kpkh_VarPDYpyV8-gj899iL0U7Y,2852
+django_api_toolkit-0.0.2.dist-info/DESCRIPTION.rst,sha256=wSNsWLfG1Qsw-aV_ccLo1HetDrjRFLgxSDNhloZunxQ,116
+django_api_toolkit-0.0.2.dist-info/METADATA,sha256=ExKSfKU0mxJTfoJR8pxqHyf5-H4_v1aWptzVjlLSLSE,1062
+django_api_toolkit-0.0.2.dist-info/RECORD,,
+django_api_toolkit-0.0.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_api_toolkit-0.0.2.dist-info/entry_points.txt,sha256=W81J1S2fjQFezL85ls0CrpoK5fqlA6MBMn1AIyRjoYM,65
+django_api_toolkit-0.0.2.dist-info/metadata.json,sha256=atlYaC_PDFS2opp76MwRpNOYXWa8xKlyjiyi9rnBKY4,1233
+django_api_toolkit-0.0.2.dist-info/top_level.txt,sha256=xrydVPHIU_O8rzzPgd-WGrOstogW0SYB3wI6BV3BC3I,10

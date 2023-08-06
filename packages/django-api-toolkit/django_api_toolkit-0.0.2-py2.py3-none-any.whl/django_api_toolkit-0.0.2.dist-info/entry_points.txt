@@ -1,0 +1,3 @@
+[console_scripts]
+project_init = api_tools.scripts:project_init
+

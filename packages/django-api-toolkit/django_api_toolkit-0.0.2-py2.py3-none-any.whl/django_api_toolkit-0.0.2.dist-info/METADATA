@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: django-api-toolkit
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/hulygun/django-api-tools
+Author: Denis Tormazov
+Author-email: hulygun@gmail.com
+License: MIT
+Keywords: api rest django
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Requires-Dist: Django (==1.11.3)
+Requires-Dist: django-debug-toolbar (==1.8)
+Requires-Dist: django-environ (==0.4.3)
+Requires-Dist: django-extensions (==1.8.0)
+Requires-Dist: django-jet (==1.0.6)
+Requires-Dist: djangorestframework (==3.6.3)
+Requires-Dist: djangorestframework-jsonapi (==2.2.0)
+Requires-Dist: djangorestframework-jwt (==1.11.0)
+Requires-Dist: draceditor (==1.1.8)
+
+Very simple app for REST API create via Django Framework
+========================================================
+
+
