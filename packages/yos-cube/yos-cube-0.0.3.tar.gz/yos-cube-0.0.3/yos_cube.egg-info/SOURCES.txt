@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pypi_readme.rst
+setup.py
+yos/__init__.py
+yos/yos.py
+yos_cube.egg-info/PKG-INFO
+yos_cube.egg-info/SOURCES.txt
+yos_cube.egg-info/dependency_links.txt
+yos_cube.egg-info/entry_points.txt
+yos_cube.egg-info/top_level.txt

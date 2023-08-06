@@ -1,0 +1,4 @@
+[console_scripts]
+yos = yos.yos:main
+yos-cube = yos.yos:main
+
