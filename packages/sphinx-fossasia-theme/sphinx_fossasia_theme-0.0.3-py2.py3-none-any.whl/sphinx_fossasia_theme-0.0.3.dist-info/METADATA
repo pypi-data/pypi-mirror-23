@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: sphinx-fossasia-theme
+Version: 0.0.3
+Summary: A Sphinx theme specific to FOSSASIA's Projects
+Home-page: https://github.com/fossasia/sphinx_fossasia_theme
+Author: Ujjwal Bhardwaj
+Author-email: ujjwalb1996@gmail.com
+License: GNU
+Platform: any
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Documentation
+Requires-Dist: sphinx (>=1.3)
+
+sphinx_fossasia_theme
+=====================
+
+Theme for Sphinx
+
+
