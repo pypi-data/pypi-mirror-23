@@ -1,0 +1,4 @@
+chainer>=1.23,<2.0
+matplotlib>=2.0
+simplejson>=3.10.0
+scipy>=0.19
