@@ -1,0 +1,7 @@
+autobahn
+certifi
+pyOpenSSL
+requests
+service_identity
+six
+Twisted
