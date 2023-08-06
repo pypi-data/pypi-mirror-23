@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+include/algorithm.h
+include/placing.h
+include/rectangle_packer.h
+rectangle_packer.egg-info/PKG-INFO
+rectangle_packer.egg-info/SOURCES.txt
+rectangle_packer.egg-info/dependency_links.txt
+rectangle_packer.egg-info/top_level.txt
+src/algorithm.c
+src/placing.c
+src/rpack.c
+test/test_performance.py
+test/test_rpack.py
