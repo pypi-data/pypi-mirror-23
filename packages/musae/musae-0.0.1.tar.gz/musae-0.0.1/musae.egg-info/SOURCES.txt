@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+musae/__init__.py
+musae.egg-info/PKG-INFO
+musae.egg-info/SOURCES.txt
+musae.egg-info/dependency_links.txt
+musae.egg-info/entry_points.txt
+musae.egg-info/top_level.txt
