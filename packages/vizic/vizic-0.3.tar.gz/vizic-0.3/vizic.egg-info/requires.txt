@@ -1,0 +1,10 @@
+motor>=1.0
+pandas
+numpy
+uuid
+ipywidgets>=6.0.0
+requests
+scipy
+astropy==1.2.1
+sklearn
+healpy
