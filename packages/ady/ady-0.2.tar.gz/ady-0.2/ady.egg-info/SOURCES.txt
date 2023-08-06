@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ady/__init__.py
+ady/ady.py
+ady.egg-info/PKG-INFO
+ady.egg-info/SOURCES.txt
+ady.egg-info/dependency_links.txt
+ady.egg-info/top_level.txt
