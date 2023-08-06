@@ -1,0 +1,580 @@
+Metadata-Version: 1.1
+Name: wechatsogou
+Version: 2.0.5
+Summary: Api for wechat mp with sogou
+Home-page: https://github.com/Chyroc/WechatSogou
+Author: Chyroc
+Author-email: chen_yunpeng@foxmail.com
+License: MIT License
+Description: 基于搜狗微信搜索的微信公众号爬虫接口
+        ====================================
+        
+        |Build Status| |PyPI version| |py36|
+        
+        项目简介
+        ========
+        
+        基于搜狗微信搜索的微信公众号爬虫接口，可以扩展成基于搜狗搜索的爬虫
+        
+        如果有问题，请提issue
+        
+        交流QQ群
+        ========
+        
+        132955136
+        
+        赞助作者
+        ========
+        
+        甲鱼说，咖啡是灵魂的饮料，买点咖啡
+        
+        谢谢：
+        
+        -  [微信] [ax4] [50]
+        -  [微信] [风雨坛·君] [50]
+        -  [支付宝] [陆小凤] [28.88]
+        -  [支付宝] [朋鑫] [18.88]
+        -  [微信] [JenkinsY94] [9.99]
+        -  [微信] [谁认领一下] [8]
+        -  [微信] [谁认领一下] [1]
+        
+        问题集锦
+        --------
+        
+        ::
+        
+            Q:没有得到原始文章url？
+            A:微信屏蔽此接口，请在临时链接有效期内保存文章内容。
+        
+            Q:获取文章只能10篇？
+            A:是的，仅显示最近10条群发。
+        
+            Q:使用的是python 2 还是 3？
+            A:都支持，若出错，请报BUG。
+        
+        项目使用
+        ========
+        
+        参见\ `test.py <https://github.com/Chyroc/WechatSogou/blob/master/test.py>`__
+        
+        安装
+        ----
+        
+        ::
+        
+            pip install wechatsogou
+        
+        日志
+        ----
+        
+        ::
+        
+            import logging
+            import logging.config
+            logging.config.fileConfig('logging.conf')
+            logger = logging.getLogger()
+        
+        引用
+        ----
+        
+        ::
+        
+            from wechatsogou import *
+            wechats = WechatSogouApi()
+        
+        搜索公众号 - search\_gzh\_info
+        ------------------------------
+        
+        ::
+        
+            name = '南京航空航天大学'
+            wechat_infos = wechats.search_gzh_info(name)
+        
+        返回结果是列表，每一项均是公众号具体信息字典，具体如下
+        
+        +---------------+----------------------------+
+        | 字段          | 含义                       |
+        +===============+============================+
+        | name          | 公众号名称                 |
+        +---------------+----------------------------+
+        | wechatid      | 公众号ID                   |
+        +---------------+----------------------------+
+        | jieshao       | 介绍                       |
+        +---------------+----------------------------+
+        | renzhen       | 认证信息，为空表示未认证   |
+        +---------------+----------------------------+
+        | qrcode        | 二维码图片地址             |
+        +---------------+----------------------------+
+        | img           | 头像地址                   |
+        +---------------+----------------------------+
+        | url           | 最近文章地址               |
+        +---------------+----------------------------+
+        | post\_perm    | 月发文篇数                 |
+        +---------------+----------------------------+
+        | read\_count   | 平均阅读                   |
+        +---------------+----------------------------+
+        
+        获取公众号
+        ----------
+        
+        对于一个已知\ ``wechatid``\ 的公众号
+        
+        ::
+        
+            wechat_id = 'nanhangqinggong'
+            wechat_info = wechats.get_gzh_info(wechat_id)
+        
+        返回结果与上述search\_gzh\_info返回结果一致
+        
+        搜索微信文章
+        ------------
+        
+        ::
+        
+            keywords = '傅里叶变换'
+            wechat_articles = wechats.search_article_info(keywords)
+        
+        返回结果是列表，每一项均是文章信息字典，具体如下
+        
+        +--------------+--------------------------------------+
+        | 字段         | 含义                                 |
+        +==============+======================================+
+        | name         | 文章标题                             |
+        +--------------+--------------------------------------+
+        | url          | 文章链接                             |
+        +--------------+--------------------------------------+
+        | img          | 文章封面图片缩略图，可转为高清大图   |
+        +--------------+--------------------------------------+
+        | zhaiyao      | 文章摘要                             |
+        +--------------+--------------------------------------+
+        | time         | 文章推送时间，10位时间戳             |
+        +--------------+--------------------------------------+
+        | gzhname      | 公众号名称                           |
+        +--------------+--------------------------------------+
+        | gzhqrcodes   | 公众号二维码                         |
+        +--------------+--------------------------------------+
+        | gzhurl       | 公众号最近文章地址                   |
+        +--------------+--------------------------------------+
+        
+        解析最近文章页 或 解析历史消息记录 - get\_gzh\_message
+        ------------------------------------------------------
+        
+        ::
+        
+            data = wechats.get_gzh_message(url=url)
+            # 或者 data = wechats.get_gzh_message(wechatid=wechatid)
+            # 或者（不推荐） data = wechats.get_gzh_message(wechat_name=wechat_name)
+        
+        返回的是 列表，每一项均是字典，一定含有字段qunfa\_id,datetime,type
+        
+        +-------------+------------------+
+        | 字段        | 含义             |
+        +=============+==================+
+        | qunfa\_id   | 群发消息id       |
+        +-------------+------------------+
+        | datetime    | 群发10位时间戳   |
+        +-------------+------------------+
+        | type        | 群发消息类型     |
+        +-------------+------------------+
+        
+        下面是type不同的值时的其他字段
+        
+        +-----------+--------------+
+        | 字段      | 含义         |
+        +===========+==============+
+        | type      | 1,表示文字   |
+        +-----------+--------------+
+        | content   | 文字内容     |
+        +-----------+--------------+
+        
+        +------------+--------------+
+        | 字段       | 含义         |
+        +============+==============+
+        | type       | 3,表示图片   |
+        +------------+--------------+
+        | img\_url   | 图片链接     |
+        +------------+--------------+
+        
+        +----------------+---------------+
+        | 字段           | 含义          |
+        +================+===============+
+        | type           | 34,表示音频   |
+        +----------------+---------------+
+        | play\_length   | 长度          |
+        +----------------+---------------+
+        | fileid         | id            |
+        +----------------+---------------+
+        | audio\_src     | 音频地址      |
+        +----------------+---------------+
+        
+        +-------------------+-------------------------------------+
+        | 字段              | 含义                                |
+        +===================+=====================================+
+        | type              | 49,表示图文                         |
+        +-------------------+-------------------------------------+
+        | main              | 是否是一次推送中第一篇文章，1则是   |
+        +-------------------+-------------------------------------+
+        | is\_multi         | 本图文所属推送是否是多图文          |
+        +-------------------+-------------------------------------+
+        | title             | 文章标题                            |
+        +-------------------+-------------------------------------+
+        | digest            | 摘要                                |
+        +-------------------+-------------------------------------+
+        | fileid            | id                                  |
+        +-------------------+-------------------------------------+
+        | content\_url      | 文章地址                            |
+        +-------------------+-------------------------------------+
+        | source\_url       | 原文地址                            |
+        +-------------------+-------------------------------------+
+        | cover             | 封面图片                            |
+        +-------------------+-------------------------------------+
+        | author            | 作者                                |
+        +-------------------+-------------------------------------+
+        | copyright\_stat   | 文章内容版权性                      |
+        +-------------------+-------------------------------------+
+        
+        +----------------+---------------+
+        | 字段           | 含义          |
+        +================+===============+
+        | type           | 62,表示视频   |
+        +----------------+---------------+
+        | cdn\_videoid   | id            |
+        +----------------+---------------+
+        | thumb          | 缩略图        |
+        +----------------+---------------+
+        | video\_src     | 视频地址      |
+        +----------------+---------------+
+        
+        解析公众号信息 和 最近群发文章 - get\_gzh\_message\_and\_info
+        -------------------------------------------------------------
+        
+        ::
+        
+            data = wechats.get_gzh_message_and_info(url=url)
+            # 或者 data = wechats.get_gzh_message_and_info(wechatid=wechatid)
+            # 或者（不推荐） data = wechats.get_gzh_message_and_info(wechat_name=wechat_name)
+        
+        返回的是字典{'gzh\_info':gzh\_info, 'gzh\_messages':gzh\_messages}
+        
+        +-----------------+------------------+
+        | 字段            | 含义             |
+        +=================+==================+
+        | gzh\_info       | 公众号信息字典   |
+        +-----------------+------------------+
+        | gzh\_messages   | 群发消息列表     |
+        +-----------------+------------------+
+        
+        其中\ ``gzh_info``\ 的具体如下
+        
+        +------------+------------------------+
+        | 字段       | 含义                   |
+        +============+========================+
+        | name       | 公众号名称             |
+        +------------+------------------------+
+        | wechatid   | 公众号id               |
+        +------------+------------------------+
+        | jieshao    | 介绍                   |
+        +------------+------------------------+
+        | renzhen    | 认证，为空表示未认证   |
+        +------------+------------------------+
+        | qrcode     | 二维码                 |
+        +------------+------------------------+
+        | img        | 头像图片               |
+        +------------+------------------------+
+        | url        | 最近文章地址           |
+        +------------+------------------------+
+        
+        ``gzh_messages``\ 一定含有字段qunfa\_id,datetime,type 具体见上一项
+        
+        获取文章内容 - deal\_article\_content
+        -------------------------------------
+        
+        ::
+        
+            article_content = wechats.deal_article_content(text=text)
+            # 或 article_content = wechats.deal_article_content(url=url)
+        
+        ``text``\ 是文章页文本，\ ``url``\ 是文章页链接
+        
+        返回是文章内容（含有html格式）
+        
+        获取相似文章 - deal\_article\_related
+        -------------------------------------
+        
+        ::
+        
+            article_related = wechats.deal_article_related(url, title)
+        
+        ``url``: 文章链接,\ ``title``: 文章标题
+        
+        获取文章评论 - deal\_article\_comment
+        -------------------------------------
+        
+        ::
+        
+            article_comment = wechats.deal_article_comment(text=text)
+            # 或 article_comment = wechats.deal_article_comment(url=url)
+        
+        ``text``\ 是文章页文本，\ ``url``\ 是文章页链接
+        
+        获取文章以上三项信息 - deal\_article
+        ------------------------------------
+        
+        一般需要处理，因为需要在这一步获取固定的而不是临时的文章链接
+        
+        ::
+        
+            article_info = wechats.deal_article(url)
+        
+        返回字典，具体如下
+        
+        +-----------------+--------------------+
+        | 字段            | 含义               |
+        +=================+====================+
+        | yuan            | 文章固定地址       |
+        +-----------------+--------------------+
+        | related         | 相似文章信息字典   |
+        +-----------------+--------------------+
+        | comment         | 评论信息字典       |
+        +-----------------+--------------------+
+        | content\_html   | 文章内容           |
+        +-----------------+--------------------+
+        
+        ``comment``\ 是评论以及阅读量，字典
+        
+        +--------------------------------+----------------------------------------------------------+
+        | 字段                           | 含义                                                     |
+        +================================+==========================================================+
+        | base\_resp                     | 返回码，字典，包含下面两项                               |
+        +--------------------------------+----------------------------------------------------------+
+        | base\_resp->ret                | 返回码                                                   |
+        +--------------------------------+----------------------------------------------------------+
+        | base\_resp->errmsg             | 返回错误信息                                             |
+        +--------------------------------+----------------------------------------------------------+
+        | read\_num                      | 阅读量                                                   |
+        +--------------------------------+----------------------------------------------------------+
+        | like\_num                      | 点赞数                                                   |
+        +--------------------------------+----------------------------------------------------------+
+        | elected\_comment\_total\_cnt   | 评论数                                                   |
+        +--------------------------------+----------------------------------------------------------+
+        | comment                        | 具体评论数据，每一项均是一个列表，设为comment\_comment   |
+        +--------------------------------+----------------------------------------------------------+
+        
+        ``comment_comment``\ 是一项评论
+        
+        +----------------------------------+--------------+
+        | 字段                             | 含义         |
+        +==================================+==============+
+        | content                          | 评论内容     |
+        +----------------------------------+--------------+
+        | like\_num                        | 点赞数       |
+        +----------------------------------+--------------+
+        | nick\_name                       | 评论者昵称   |
+        +----------------------------------+--------------+
+        | logo\_url                        | 评论者头像   |
+        +----------------------------------+--------------+
+        | reply                            | 回复         |
+        +----------------------------------+--------------+
+        | 其余字典未说明，请打印自行查看   | ...          |
+        +----------------------------------+--------------+
+        
+        获取首页推荐文章公众号最近文章地址 - get\_recent\_article\_url\_by\_index\_single
+        ---------------------------------------------------------------------------------
+        
+        ::
+        
+            articles_single = wechats.get_recent_article_url_by_index_single()
+        
+        返回的是列表，每一项是不同公众号的的最近文章页
+        
+        获取首页推荐文章公众号最近文章地址 所有分类 - get\_recent\_article\_url\_by\_index\_all
+        ---------------------------------------------------------------------------------------
+        
+        ::
+        
+            articles_all = wechats.get_recent_article_url_by_index_all()
+        
+        返回的是列表，每一项是不同公众号的的最近文章页
+        
+        获取微信搜狗搜索关键词联想 - get\_sugg
+        --------------------------------------
+        
+        ::
+        
+            sugg_keyword = wechats.get_sugg('中国梦')
+        
+        返回的是列表，每一项是不同公众号的的最近文章页
+        
+        --------------
+        
+        TODO
+        ====
+        
+        -  [x] 相似文章的公众号获取
+        -  [x] 主页热门公众号获取
+        -  [x] 文章详情页信息
+        -  [x] 所有类型的解析
+        -  [x] 验证码识别
+        -  [ ] 接入爬虫框架
+        -  [x] 兼容py2
+        
+        --------------
+        
+        .. |Build Status| image:: https://travis-ci.org/Chyroc/WechatSogou.svg?branch=master
+           :target: https://github.com/Chyroc/WechatSogou
+        .. |PyPI version| image:: https://badge.fury.io/py/wechatsogou.svg
+           :target: https://github.com/Chyroc/WechatSogou
+        .. |py36| image:: https://img.shields.io/pypi/pyversions/wechatsogou.svg
+           :target: https://github.com/Chyroc/WechatSogou
+        
+        
+        Change Log
+        ==========
+        
+        `v2.0.4 <https://github.com/Chyroc/WechatSogou/tree/v2.0.4>`__ (2017-07-22)
+        ---------------------------------------------------------------------------
+        
+        `Full
+        Changelog <https://github.com/Chyroc/WechatSogou/compare/v2.0.3...v2.0.4>`__
+        
+        **Closed issues:**
+        
+        -  pip 安装 No module named requests 什么情况
+           `#59 <https://github.com/Chyroc/WechatSogou/issues/59>`__
+        -  微信搜索公众号结果模版改变了
+           `#51 <https://github.com/Chyroc/WechatSogou/issues/51>`__
+        -  ImportError: cannot import name config
+           `#40 <https://github.com/Chyroc/WechatSogou/issues/40>`__
+        
+        **Merged pull requests:**
+        
+        -  Makefile tox `#74 <https://github.com/Chyroc/WechatSogou/pull/74>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  fix typo `#69 <https://github.com/Chyroc/WechatSogou/pull/69>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Add tools test
+           `#68 <https://github.com/Chyroc/WechatSogou/pull/68>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  fix import and mv tools function
+           `#67 <https://github.com/Chyroc/WechatSogou/pull/67>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  update package
+           `#66 <https://github.com/Chyroc/WechatSogou/pull/66>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  add ci icon `#58 <https://github.com/Chyroc/WechatSogou/pull/58>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Add travis ci `#57 <https://github.com/Chyroc/WechatSogou/pull/57>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  release v2.0.3
+           `#56 <https://github.com/Chyroc/WechatSogou/pull/56>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        
+        `v2.0.3 <https://github.com/Chyroc/WechatSogou/tree/v2.0.3>`__ (2016-12-18)
+        ---------------------------------------------------------------------------
+        
+        **Closed issues:**
+        
+        -  引入模块的时候报错
+           `#33 <https://github.com/Chyroc/WechatSogou/issues/33>`__
+        -  导入文件后有bug
+           `#31 <https://github.com/Chyroc/WechatSogou/issues/31>`__
+        -  请问如何设置代理
+           `#27 <https://github.com/Chyroc/WechatSogou/issues/27>`__
+        -  请问最近搜狗返回的Html内容是改了吗？最近抓内容出错。
+           `#25 <https://github.com/Chyroc/WechatSogou/issues/25>`__
+        -  结果模版更新了
+           `#24 <https://github.com/Chyroc/WechatSogou/issues/24>`__
+        -  文章标题带引号（"，&quot）的情况解析报错
+           `#23 <https://github.com/Chyroc/WechatSogou/issues/23>`__
+        -  请问，我运行test.py时为何没报错却没得到任何结果？
+           `#21 <https://github.com/Chyroc/WechatSogou/issues/21>`__
+        -  如何获得公众号的id和名称？
+           `#20 <https://github.com/Chyroc/WechatSogou/issues/20>`__
+        -  search\_gzh\_info无法取得内容
+           `#18 <https://github.com/Chyroc/WechatSogou/issues/18>`__
+        -  原始文章url `#17 <https://github.com/Chyroc/WechatSogou/issues/17>`__
+        -  请问在Linux下可以使用吗？我运行了一下出现如下问题，还望指教
+           `#16 <https://github.com/Chyroc/WechatSogou/issues/16>`__
+        -  log怎么使用？
+           `#15 <https://github.com/Chyroc/WechatSogou/issues/15>`__
+        -  抓取数据有时成功，有时失败
+           `#14 <https://github.com/Chyroc/WechatSogou/issues/14>`__
+        -  验证码打开失败问题原因是：
+           `#13 <https://github.com/Chyroc/WechatSogou/issues/13>`__
+        -  验证码输入后失败
+           `#12 <https://github.com/Chyroc/WechatSogou/issues/12>`__
+        -  获得的文章链接，如果打开需要验证码输入才跳转
+           `#11 <https://github.com/Chyroc/WechatSogou/issues/11>`__
+        -  获取文章只能10篇？
+           `#10 <https://github.com/Chyroc/WechatSogou/issues/10>`__
+        -  搜狗平台问题 `#9 <https://github.com/Chyroc/WechatSogou/issues/9>`__
+        -  deal\_article\_comment(text=text)并不能获得用户的评论内容
+           `#8 <https://github.com/Chyroc/WechatSogou/issues/8>`__
+        -  py2.7 什么时候支持？
+           `#7 <https://github.com/Chyroc/WechatSogou/issues/7>`__
+        -  PIL is not support Python3
+           `#6 <https://github.com/Chyroc/WechatSogou/issues/6>`__
+        -  演示代码wechats.get\_gzh\_article\_by\_url\_dict(wechat\_info['url'])提示list
+           index out of range
+           `#5 <https://github.com/Chyroc/WechatSogou/issues/5>`__
+        -  如何使用代理 `#2 <https://github.com/Chyroc/WechatSogou/issues/2>`__
+        -  使用的是 python3 吗？
+           `#1 <https://github.com/Chyroc/WechatSogou/issues/1>`__
+        
+        **Merged pull requests:**
+        
+        -  fix for ci `#50 <https://github.com/Chyroc/WechatSogou/pull/50>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  add readme.rst
+           `#48 <https://github.com/Chyroc/WechatSogou/pull/48>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  添加安装说明 `#47 <https://github.com/Chyroc/WechatSogou/pull/47>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  upload to pypi
+           `#46 <https://github.com/Chyroc/WechatSogou/pull/46>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  add `#45 <https://github.com/Chyroc/WechatSogou/pull/45>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Add/api test `#44 <https://github.com/Chyroc/WechatSogou/pull/44>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Fix/re ocr for get gzh article by url text
+           `#43 <https://github.com/Chyroc/WechatSogou/pull/43>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  修复首页热门获取单页
+           `#42 <https://github.com/Chyroc/WechatSogou/pull/42>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Fix/search article info
+           `#41 <https://github.com/Chyroc/WechatSogou/pull/41>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Add/readme zanshu
+           `#39 <https://github.com/Chyroc/WechatSogou/pull/39>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Fix/test ruokuai
+           `#38 <https://github.com/Chyroc/WechatSogou/pull/38>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Feature/test ruokuai
+           `#37 <https://github.com/Chyroc/WechatSogou/pull/37>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  Feature/update version
+           `#35 <https://github.com/Chyroc/WechatSogou/pull/35>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        -  add requirements.txt
+           `#34 <https://github.com/Chyroc/WechatSogou/pull/34>`__
+           (`Chyroc <https://github.com/Chyroc>`__)
+        
+        \* *This Change Log was automatically generated by
+        `github\_changelog\_generator <https://github.com/skywinder/Github-Changelog-Generator>`__*
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
