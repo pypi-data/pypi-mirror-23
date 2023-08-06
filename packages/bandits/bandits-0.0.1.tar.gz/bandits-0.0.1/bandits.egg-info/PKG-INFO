@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: bandits
+Version: 0.0.1
+Summary: Cythonized bandit algorithms
+Home-page: https://github.com/jbn/bandits
+Author: John Bjorn Nelson
+Author-email: jbn@abreka.com
+License:  BSD-3-Clause
+Description: .. image:: https://travis-ci.org/jbn/bandits.svg?branch=master
+            :target: https://travis-ci.org/jbn/bandits
+        .. image:: https://ci.appveyor.com/api/projects/status/69kj3prrrieyp8q2/branch/master?svg=true
+            :target: https://ci.appveyor.com/project/jbn/bandits/branch/master 
+        .. image:: https://img.shields.io/pypi/dm/bandits.svg
+            :target: https://pypi.python.org/pypi/bandits
+        .. image:: https://coveralls.io/repos/github/jbn/bandits/badge.svg?branch=master
+            :target: https://coveralls.io/github/jbn/bandits?branch=master 
+        .. image:: https://img.shields.io/pypi/v/bandits.svg
+            :target: https://pypi.python.org/pypi/bandits
+        .. image:: https://img.shields.io/pypi/pyversions/bandits.svg
+            :target: https://pypi.python.org/pypi/bandits
+        
+        
+        =======
+        bandits
+        =======
+        
+        Multi-armed bandits in Python
+        
+Keywords: reinforcment learning,multi-armed bandits
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

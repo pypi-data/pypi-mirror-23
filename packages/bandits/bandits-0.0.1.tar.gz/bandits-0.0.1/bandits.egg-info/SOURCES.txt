@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+./bandits/__init__.py
+./bandits/bandits.c
+./tests/__init__.py
+./tests/test_prop_selection.py
+bandits/bandits.pyx
+bandits.egg-info/PKG-INFO
+bandits.egg-info/SOURCES.txt
+bandits.egg-info/dependency_links.txt
+bandits.egg-info/not-zip-safe
+bandits.egg-info/top_level.txt
