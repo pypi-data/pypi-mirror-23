@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: async-patterns
+Version: 0.3b12
+Summary: pattern for registering callbacks
+Home-page: http://github.com/chuck1/ws-callbacks
+Author: Charles Rymal
+Author-email: charlesrymal@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
