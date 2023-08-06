@@ -1,0 +1,75 @@
+
+/********************************************************************************
+ * grids3.css
+ *
+ * Style tweaks for the new grids.
+ ********************************************************************************/
+
+
+/******************************
+ * thead
+ ******************************/
+
+.grid3 tr.header td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+.grid3 tr.header a {
+    display: block;
+    padding-right: 18px;
+}
+
+.grid3 tr.header .asc,
+.grid3 tr.header .dsc {
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.grid3 tr.header .asc {
+    background-image: url(../img/sort_arrow_up.png);
+}
+
+.grid3 tr.header .dsc {
+    background-image: url(../img/sort_arrow_down.png);
+}
+
+
+/******************************
+ * tbody
+ ******************************/
+
+.grid3 tr.odd {
+    background-color: #e0e0e0;
+}
+
+.newgrid.grid3 tr:not(.header).hovering {
+    background-color: #bbbbbb;
+}
+
+.newgrid.grid3 tr:not(.header).warning.odd {
+    background-color: #fcc;
+}
+
+.newgrid.grid3 tr:not(.header).warning.even {
+    background-color: #ebb;
+}
+
+.newgrid.grid3 tr:not(.header).warning.hovering {
+    background-color: #daa;
+}
+
+.newgrid.grid3 tr:not(.header).notice.odd {
+    background-color: #fe8;
+}
+
+.newgrid.grid3 tr:not(.header).notice.even {
+    background-color: #fd6;
+}
+
+.newgrid.grid3 tr:not(.header).notice.hovering {
+    background-color: #ec7;
+}
