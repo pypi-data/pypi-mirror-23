@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lonnberg_svensson2017/__init__.py
+lonnberg_svensson2017/main.py
+lonnberg_svensson2017.egg-info/PKG-INFO
+lonnberg_svensson2017.egg-info/SOURCES.txt
+lonnberg_svensson2017.egg-info/dependency_links.txt
+lonnberg_svensson2017.egg-info/top_level.txt
