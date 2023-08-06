@@ -1,0 +1,10 @@
+jenkins_badges/__init__.py,sha256=Bcm7gtXLro2paItqZ6TRwiTOdtSu_85LQY9xvgiJT-k,2225
+jenkins_badges/__version__.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+jenkins_badges/coverage_badge/__init__.py,sha256=mrL6Mg13grsQqETmkVl_q2Uiri3rCfABqxDBgB_o3Qo,2378
+jenkins_badges/coverage_badge/static/error_badge.svg,sha256=v9Wcv5tG76ihZdKmZXR0aMRLxG4fPTt2hvIb5waQLKk,797
+jenkins_badges-1.2.0.dist-info/DESCRIPTION.rst,sha256=Zj487TpxGH3udo76oF243Krw9ZfA4aDhDjLH19gnDqc,71
+jenkins_badges-1.2.0.dist-info/METADATA,sha256=xR6iqqm4Hsi1lyHlE9rdVwwNATiv4_4oJl5UaxL6lto,765
+jenkins_badges-1.2.0.dist-info/RECORD,,
+jenkins_badges-1.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+jenkins_badges-1.2.0.dist-info/metadata.json,sha256=y7O0V2Mrkjcu9b5OBm90hcUoOzQRes7ASZjwrl9Mp8E,868
+jenkins_badges-1.2.0.dist-info/top_level.txt,sha256=MKzFBRqijPovGpVlKTdaJhxOezHV9pRBxmcrmaYRe9o,15
