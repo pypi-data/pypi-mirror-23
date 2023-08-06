@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: asserted
+Version: 0.0.1
+Summary: pytest assert writer
+Home-page: https://github.com/Hellowlol/asserted
+Author: Hellowlol
+Author-email: hellowlol1@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.5
