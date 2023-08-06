@@ -1,0 +1,16 @@
+webstarts/__init__.py,sha256=YZP27DcnzbvtS6cA-JGPjnVXczRMat0HI0pAzb2eONk,1957
+webstarts/backend.py,sha256=L_jUo4UDK9sKZrz_eu80f4AWXwSn2JCucZ3jvxJACn0,1471
+webstarts/defaults.py,sha256=DHE7x9efGyyKISLRAkfYeYz4CRwXrmHCE1VdHIhmTdA,500
+webstarts/gunicorn.py,sha256=VcliaqVWx6pUYGih5DTQVOOKIt9l-5ZyvcPCualreeQ,1242
+webstarts/log_id.py,sha256=LRnCzq5er9U2rDi5yPZdz7urv5WaKlV3d5EAbmbMiJE,877
+webstarts/types.py,sha256=AW-xzi6htSftMrl2S__c5-if0tvS8ByNee7Z8Ls_oVM,3824
+webstarts/util.py,sha256=XWreb1J-8u6hp3mpfjgIzOHRj4QZhaq_SifXGiPf21A,1519
+webstarts/wflask.py,sha256=3qNoPHLgvG_IrluBkjHVKT_Pz0auWr9ArCX7x-oiG3Q,2723
+webstarts/wlog.py,sha256=SKNgKaokXD4jb3nLtTXL7ndmkZM6YRFGBEdYP0SEINg,3406
+webstarts-2.1.0.dist-info/DESCRIPTION.rst,sha256=CYb-GEViowhBrtiHSg4wAx5bRG2zOaItks6rhK4oSvE,61
+webstarts-2.1.0.dist-info/METADATA,sha256=ucPuMpYtRp1M2Q4nQM-18ZeVrjDairvmcNyrwu0Ubc4,1026
+webstarts-2.1.0.dist-info/RECORD,,
+webstarts-2.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+webstarts-2.1.0.dist-info/entry_points.txt,sha256=DSe7Ic0Do80GE3hCzZpg1YWlN8vxTFRG5WAmi7lBL6E,81
+webstarts-2.1.0.dist-info/metadata.json,sha256=u7zSJTqZiO_T0Ouf-A6UCxmHx1maPpJ1YC-iDNh3uqg,1220
+webstarts-2.1.0.dist-info/top_level.txt,sha256=6d1yb2H1yBDUAwvs52_43NmZPyTekeb4-Jaqu8iNUnU,10
