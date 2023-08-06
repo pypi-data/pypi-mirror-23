@@ -1,0 +1,9 @@
+future
+networkx
+pyreadline
+pyyaml
+termcolor
+
+[test]
+coverage
+ddt
