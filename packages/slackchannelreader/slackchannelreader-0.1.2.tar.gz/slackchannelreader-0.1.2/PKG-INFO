@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: slackchannelreader
+Version: 0.1.2
+Summary: simple slack client which polls messages and images from a given channel.
+Home-page: https://github.com/irgangla/slackchannelreader
+Author: Thomas Irgang
+Author-email: thomas@irgang-la.de
+License: UNKNOWN
+Download-URL: https://github.com/irgangla/slackchannelreader
+Description: SlackChannelReader
+        ------------------
+        
+        This is a very simple Slack client (using legacy auth) which is able to poll
+        * messages
+        * images
+        from a given Slack channel.
+        
+        It is intended as data source for info displays.
+        
+        This version requires Python 3 or later.
+        
+Keywords: Slack,client,channel,chat,download
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
