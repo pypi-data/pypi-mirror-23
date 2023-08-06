@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Advertools
+Version: 0.1a1
+Summary: Productivity and analysis tools for online marketing
+Home-page: https://github.com/eliasdabbas/advertools
+Author: Elias Dabbas
+Author-email: eliasdabbas@gmail.com
+License: MIT
+Description: A set of tools that help online marketing people create campaigns, manage them, analyze keywords,and more. One of the main use cases is generatingcombinations of keywords for setting up large searchcampaigns, together with all the tasks that come withsetting up campaigns, ad groups, and ads.
+Keywords: marketing advertising adwords analytics seo sem
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+Advertools.egg-info/PKG-INFO
+Advertools.egg-info/SOURCES.txt
+Advertools.egg-info/dependency_links.txt
+Advertools.egg-info/requires.txt
+Advertools.egg-info/top_level.txt
