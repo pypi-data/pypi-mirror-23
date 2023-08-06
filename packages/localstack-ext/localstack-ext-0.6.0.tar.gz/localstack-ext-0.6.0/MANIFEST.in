@@ -1,0 +1,3 @@
+include requirements.txt
+include Makefile
+recursive-include localstack_ext *.pyc.enc
