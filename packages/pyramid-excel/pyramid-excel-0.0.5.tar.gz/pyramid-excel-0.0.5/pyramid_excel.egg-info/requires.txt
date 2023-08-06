@@ -1,0 +1,12 @@
+pyexcel>=0.5.1.1
+pyexcel-webio>=0.1.2
+Pyramid>=1.4.9
+
+[ods]
+pyexcel-ods3>=0.4.0
+
+[xls]
+pyexcel-xls>=0.4.0
+
+[xlsx]
+pyexcel-xlsx>=0.4.0
