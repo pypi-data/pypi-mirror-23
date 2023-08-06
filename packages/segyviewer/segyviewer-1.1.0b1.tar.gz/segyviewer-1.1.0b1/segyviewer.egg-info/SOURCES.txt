@@ -1,0 +1,7 @@
+setup.py
+applications/segyviewer
+segyviewer.egg-info/PKG-INFO
+segyviewer.egg-info/SOURCES.txt
+segyviewer.egg-info/dependency_links.txt
+segyviewer.egg-info/requires.txt
+segyviewer.egg-info/top_level.txt
