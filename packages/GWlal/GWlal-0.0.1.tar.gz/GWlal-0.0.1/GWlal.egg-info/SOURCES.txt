@@ -1,0 +1,7 @@
+README
+setup.py
+GWlal.egg-info/PKG-INFO
+GWlal.egg-info/SOURCES.txt
+GWlal.egg-info/dependency_links.txt
+GWlal.egg-info/top_level.txt
+GWlal.egg-info/zip-safe
