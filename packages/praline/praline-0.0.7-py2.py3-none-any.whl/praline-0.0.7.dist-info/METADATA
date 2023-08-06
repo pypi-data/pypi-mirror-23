@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: praline
+Version: 0.0.7
+Summary: Bitcoin hardware wallet
+Home-page: https://github.com/zhouer/Praline/
+Author: En-Ran Zhou
+Author-email: zhouer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Adafruit-SSD1306
+Requires-Dist: Pillow
+Requires-Dist: RPi.GPIO
+Requires-Dist: bitcoin
+Requires-Dist: leveldb
+Requires-Dist: pyserial
+Requires-Dist: smbus2
+
+UNKNOWN
+
+
