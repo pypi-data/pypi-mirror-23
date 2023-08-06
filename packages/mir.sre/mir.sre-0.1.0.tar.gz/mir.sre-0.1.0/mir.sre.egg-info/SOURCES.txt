@@ -1,0 +1,7 @@
+README.rst
+setup.py
+mir.sre.egg-info/PKG-INFO
+mir.sre.egg-info/SOURCES.txt
+mir.sre.egg-info/dependency_links.txt
+mir.sre.egg-info/top_level.txt
+mir/sre/__init__.py
