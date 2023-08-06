@@ -1,0 +1,5 @@
+[console_scripts]
+openpyn = openpyn.openpyn:main
+openpyn-management = openpyn.management.management:show
+openpyn-start-management = openpyn.management:main
+
