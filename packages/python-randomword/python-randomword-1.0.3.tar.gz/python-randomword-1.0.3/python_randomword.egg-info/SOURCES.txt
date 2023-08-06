@@ -1,0 +1,7 @@
+setup.py
+python_randomword.egg-info/PKG-INFO
+python_randomword.egg-info/SOURCES.txt
+python_randomword.egg-info/dependency_links.txt
+python_randomword.egg-info/not-zip-safe
+python_randomword.egg-info/top_level.txt
+randomword/__init__.py
