@@ -1,0 +1,34 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+
+matrix:
+  include:
+    - python: '3.6'
+      env: TOXENV=linting
+
+install:
+  - pip install tox-travis coveralls
+
+script:
+  - tox
+
+after_success:
+  - coveralls
+
+deploy:
+  provider: pypi
+  user: nicoddemus
+  skip_upload_docs: true
+  password:
+    secure: Fql0uLFWz+D6p36BUm+2WB5tjUiuCkOFpU68Dnycn5cIRqZQuBzfNNZPVGHgIUGNZ5rC+rJC+edEvJoF2AB9cQ7kz86SzZuQHdEOwsnR4KQw2tkD5fw2BqH4bQ56SQ+UHAsyQAuDkjShHTrwSTJrzShIE5Poma5BqmqC4mRSgbI=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: pytest-dev/pytest-mock
+    condition: $TRAVIS_PYTHON_VERSION = 3.6
