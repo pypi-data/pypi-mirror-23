@@ -1,0 +1,4 @@
+{
+	"valid_identifier_types" : ["file", "tag", "symbol"],
+	"valid_event_request_types" : ["request_execution"]
+}
