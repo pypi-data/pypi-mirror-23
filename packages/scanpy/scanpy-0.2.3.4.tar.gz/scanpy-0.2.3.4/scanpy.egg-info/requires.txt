@@ -1,0 +1,17 @@
+matplotlib>=2
+pandas
+scipy
+seaborn
+psutil
+h5py
+xlrd
+scikit-learn
+statsmodels
+networkx
+igraph
+louvain
+natsort
+joblib
+profilehooks
+tqdm
+cython
