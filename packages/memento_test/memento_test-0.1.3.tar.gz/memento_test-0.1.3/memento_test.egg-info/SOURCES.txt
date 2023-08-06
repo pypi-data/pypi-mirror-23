@@ -1,0 +1,10 @@
+setup.py
+bin/memento_test_server
+memento_test/__init__.py
+memento_test/server.py
+memento_test.egg-info/PKG-INFO
+memento_test.egg-info/SOURCES.txt
+memento_test.egg-info/dependency_links.txt
+memento_test.egg-info/not-zip-safe
+memento_test.egg-info/requires.txt
+memento_test.egg-info/top_level.txt
