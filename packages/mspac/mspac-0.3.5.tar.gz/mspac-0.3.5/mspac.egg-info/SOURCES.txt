@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+mspac/__init__.py
+mspac/mspac_tool.py
+mspac.egg-info/PKG-INFO
+mspac.egg-info/SOURCES.txt
+mspac.egg-info/dependency_links.txt
+mspac.egg-info/entry_points.txt
+mspac.egg-info/top_level.txt
