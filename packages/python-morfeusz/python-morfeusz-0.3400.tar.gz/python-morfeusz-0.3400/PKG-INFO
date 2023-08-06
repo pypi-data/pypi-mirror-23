@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: python-morfeusz
+Version: 0.3400
+Summary: interface to Morfeusz
+Home-page: http://jwilk.net/software/python-morfeusz
+Author: Jakub Wilk
+Author-email: jwilk@jwilk.net
+License: MIT
+Description: *python-morfeusz* is a Python interface to Morfeusz_,
+        a Polish morphological analyser.
+        
+        .. _Morfeusz:
+           http://sgjp.pl/morfeusz/
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Polish
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Linguistic
