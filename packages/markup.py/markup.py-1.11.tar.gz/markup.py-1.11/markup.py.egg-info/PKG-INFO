@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: markup.py
+Version: 1.11
+Summary: Markup.py is an intuitive, light weight, easy-to-use, customizable and pythonic HTML/XML generator
+Home-page: http://markup.sf.net/
+Author: Daniel Nogradi
+Author-email: nogradi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
