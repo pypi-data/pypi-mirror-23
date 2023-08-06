@@ -1,0 +1,59 @@
+Metadata-Version: 1.1
+Name: sphinx-redactor-theme
+Version: 0.0.1
+Summary: Sphinx theme for redactor docs.
+Home-page: https://github.com/testthedocs/sphinx_redactor_theme
+Author: TestTheDocs Community
+Author-email: info@testthedocs.org
+License: MIT
+Description: =====================
+        Sphinx Redactor Theme
+        =====================
+        
+        `Sphinx <https://http://www.sphinx-doc.org/en/stable/index.html>`_ theme based on `jast <https://github.com/carloratm/jast>`_.
+        
+        .. image:: docs/_static/redactor_theme.png
+           :alt: Image of theme
+        
+        Installation
+        ============
+        
+        To install this theme, run:
+        
+        .. code-block:: bash
+        
+           pip install sphinx_redactor_theme
+        
+        Usage
+        =====
+        
+        To use this theme, add to your docs ``conf.py``:
+        
+        .. code-block:: python
+        
+           import sphinx_redactor_theme
+           html_theme = 'sphinx_redactor_theme'
+           html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]
+        
+        Contribute
+        ==========
+        
+        - `Issue Tracker <https://github.com/testthedocs/sphinx_redactor_theme/issues/>`_
+        - `Source Code <https://github.com/testthedocs/sphinx_redactor_theme/>`_
+        
+        License
+        =======
+        
+        The project is licensed under the MIT License.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation

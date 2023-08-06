@@ -1,0 +1,35 @@
+{% if page_source_suffix %}
+{% set suffix = page_source_suffix %}
+{% else %}
+{% set suffix = source_suffix %}
+{% endif %}
+
+{% if meta is defined and meta is not none %}
+{% set check_meta = True %}
+{% else %}
+{% set check_meta = False %}
+{% endif %}
+
+{% if check_meta and 'github_url' in meta %}
+{% set display_github = True %}
+{% endif %}
+
+{% if check_meta and 'bitbucket_url' in meta %}
+{% set display_bitbucket = True %}
+{% endif %}
+
+<nav class="site-breadcrumbs">
+    <ul>
+    {% block breadcrumbs %}
+        <li>
+            <a href="{{ pathto(master_doc) }}">Docs</a> /
+        </li>
+        {% for doc in parents %}
+        <li>
+            <a href="{{ doc.link|e }}">{{ doc.title }}</a> /
+        </li>
+        {% endfor %}
+        <li class="site-breadcrumbs__leaf">{{ title }}</li>
+    {% endblock %}
+    </ul>
+</nav>
