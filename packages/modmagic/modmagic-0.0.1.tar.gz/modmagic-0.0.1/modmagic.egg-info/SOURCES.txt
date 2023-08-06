@@ -1,0 +1,6 @@
+modmagic.py
+setup.py
+modmagic.egg-info/PKG-INFO
+modmagic.egg-info/SOURCES.txt
+modmagic.egg-info/dependency_links.txt
+modmagic.egg-info/top_level.txt
