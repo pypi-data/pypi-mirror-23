@@ -1,0 +1,3 @@
+[flask.commands]
+init = flask_init.commands:cli
+
