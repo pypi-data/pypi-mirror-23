@@ -1,0 +1,1 @@
+https://github.com/boto/boto/archive/af045f93d70fbb4cdac2a8e57d040ce59935d45b.tar.gz#egg=boto-2.47.0
