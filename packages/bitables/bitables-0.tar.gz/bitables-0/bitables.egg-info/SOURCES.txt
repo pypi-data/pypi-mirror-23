@@ -1,0 +1,6 @@
+setup.py
+bitables/__init__.py
+bitables.egg-info/PKG-INFO
+bitables.egg-info/SOURCES.txt
+bitables.egg-info/dependency_links.txt
+bitables.egg-info/top_level.txt
