@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: mazeexp
+Version: 0.0.1
+Summary: A maze exploration game engine
+Home-page: https://github.com/mryellow/maze_explorer
+Author: Mr-Yellow
+Author-email: mr-yellow@mr-yellow.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cocos2d
+Requires-Dist: pyglet
+
+UNKNOWN
+
+
