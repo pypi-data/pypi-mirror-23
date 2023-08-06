@@ -1,0 +1,14 @@
+stackhpc_inspector_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackhpc_inspector_plugins/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackhpc_inspector_plugins/plugins/system_name_llc.py,sha256=q7H32gQGdHn3BQGDh3JlcAnw8RFuIBZZ6q5a1wpPlTI,5315
+stackhpc_inspector_plugins/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackhpc_inspector_plugins/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackhpc_inspector_plugins/tests/unit/test_plugins_system_name_llc.py,sha256=B93CdVu5w4kJsuM6JM28Yvjbt7dtWfdeOiCss8bMeXU,4734
+stackhpc_inspector_plugins-1.0.0.dist-info/DESCRIPTION.rst,sha256=tfslCC9TVh-TQp5Gk4M5NcUyQqxWsXjjdG2zdPIoVfo,828
+stackhpc_inspector_plugins-1.0.0.dist-info/METADATA,sha256=khlkzRUssSA8WDVNemhX9iQzT5HwTU5jJsaQnVHO_LY,1532
+stackhpc_inspector_plugins-1.0.0.dist-info/RECORD,,
+stackhpc_inspector_plugins-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+stackhpc_inspector_plugins-1.0.0.dist-info/entry_points.txt,sha256=sDZe3s4ELABYdBX2GK0n_IZKPR8xtnRW4wwJ3p8IV6Q,140
+stackhpc_inspector_plugins-1.0.0.dist-info/metadata.json,sha256=5vA6V4L_a8MWeBqKxpFxHlfaQGhSqoRggAitPKo9GZw,1291
+stackhpc_inspector_plugins-1.0.0.dist-info/pbr.json,sha256=ivNJjOJHRD63DVbtHLD1Jpkgfk7WNUfYT7Aavp3W-uw,47
+stackhpc_inspector_plugins-1.0.0.dist-info/top_level.txt,sha256=31AI-K_IQWF-qCneH6NFz7LTfyy3Khd1FyrleoValNs,27
