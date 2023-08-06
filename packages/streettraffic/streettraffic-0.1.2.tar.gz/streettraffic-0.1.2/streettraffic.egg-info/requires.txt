@@ -1,0 +1,8 @@
+rethinkdb
+pandas
+python-dateutil
+requests
+pillow
+geopy
+matplotlib
+websockets
