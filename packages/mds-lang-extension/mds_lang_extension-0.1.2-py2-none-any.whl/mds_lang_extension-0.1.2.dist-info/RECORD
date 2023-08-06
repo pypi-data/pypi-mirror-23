@@ -1,0 +1,12 @@
+mds_lang_extension-0.1.2.dist-info/DESCRIPTION.rst,sha256=b3wuyxTE9RTWqglJLLGN8GmbyMsKfa93ba6SWNZAPzQ,492
+mds_lang_extension-0.1.2.dist-info/METADATA,sha256=lwpyGdklV1frFtf1Nx96_LUtG8252Ctlswa6UXiSWVY,1514
+mds_lang_extension-0.1.2.dist-info/RECORD,,
+mds_lang_extension-0.1.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+mds_lang_extension-0.1.2.dist-info/entry_points.txt,sha256=HJBVT_ZVrG6Semf3czBdW65fgV-qGhmCrLlTfP_XeWQ,80
+mds_lang_extension-0.1.2.dist-info/metadata.json,sha256=O2IG-nDXoiFQ_yrPF8LrGw3zHuSrxV60Yor_FP6plno,1255
+mds_lang_extension-0.1.2.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+trytond/modules/lang_extension/README.rst,sha256=TNGgbcVuHR9isuXzRDqMXD2M-BoduitGgm488tcPizY,490
+trytond/modules/lang_extension/__init__.py,sha256=Cik_oDEEH-7ipan7TSXC7nVleZYSGJ1n5bY9Qe9fOYg,30
+trytond/modules/lang_extension/lang.xml,sha256=qbodDbKjG5iO3jkMSrGgBFYv1yrvHhLGYIk4UF8SMOc,80966
+trytond/modules/lang_extension/tryton.cfg,sha256=W_ZfN7z2lXOWf_91kNRMQ-2ODDLBwc8uF5bJCfLl8mI,63
+trytond/modules/lang_extension/locale/de_DE.po,sha256=G2SnR88ARrYCuTL7LhOoFMERX2wrVoP8wNsOtMZ1AwA,19031
