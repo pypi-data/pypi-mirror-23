@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+simpcap/__init__.py
+simpcap.egg-info/PKG-INFO
+simpcap.egg-info/SOURCES.txt
+simpcap.egg-info/dependency_links.txt
+simpcap.egg-info/entry_points.txt
+simpcap.egg-info/requires.txt
+simpcap.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: simpcap
+Version: 1.0.0
+Summary: PCAP parser for the command line. Built on Python and Click.
+Home-page: https://github.com/hadi16/simpcap
+Author: Alex Hadi
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Description: 
+            Simpcap is a PCAP parser that lists basic information about specific packets in a PCAP file.
+            Simpcap checks the source and destination ports, layers, and TLS (or SSL) version for each packet.
+            Simpcap will display certain packets based on what flags and options are provided when the parser is executed.
+            Simpcap can output the results to the command line or to a TXT file.
+            
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Security
+Requires-Python: ==2.7.*
