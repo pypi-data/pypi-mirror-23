@@ -1,0 +1,3 @@
+[console_scripts]
+victorpy = victorpy.core:main
+
