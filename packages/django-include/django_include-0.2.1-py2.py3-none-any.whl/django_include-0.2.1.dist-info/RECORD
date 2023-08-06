@@ -1,0 +1,12 @@
+django_include-0.2.1.dist-info/DESCRIPTION.rst,sha256=o8uw5jiIey--suhGAoWySK14RTZ-lSq6D3MXgKDQlF0,2926
+django_include-0.2.1.dist-info/METADATA,sha256=Uhwf9R_82hP35Cl8pVg00jOcrsmBrmQf_0uSfLUWXU8,4064
+django_include-0.2.1.dist-info/RECORD,,
+django_include-0.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_include-0.2.1.dist-info/metadata.json,sha256=q2mIsbRHfiq8Hl0p-I_LTVAhHO_DJ1mXxCamm5cPAhw,1219
+django_include-0.2.1.dist-info/top_level.txt,sha256=vFhvPJ06QjG5MEPISkdKFgjzLXjldkwjk9qrgAV1KEE,8
+include/__init__.py,sha256=tCh4_UC61XtBAX-j223fPWGJ_49zUXv50oLNYvTKHaI,294
+include/aggregations.py,sha256=lZAaczbhFGodMSpu9emW6QBy1aC37hjL95i0GzSNWaw,941
+include/expressions.py,sha256=oP0b0LD5ZQv1VayVUJrWZXRB51yD5Mcxfy_-cW63ZDc,7125
+include/manager.py,sha256=Hi3-8DDppIBvbrRl87uc5vtqLBknZIrdArN7Wa0ThA8,138
+include/query.py,sha256=hP1Neg08ZSE-wzZqLKBB9LhDOC8JeKpy2UxCatJCHOc,5496
+include/util.py,sha256=rGww_EJMjLI3VMBnEtnIO3Bjko6vne2fRPHOlGrNyvQ,402
