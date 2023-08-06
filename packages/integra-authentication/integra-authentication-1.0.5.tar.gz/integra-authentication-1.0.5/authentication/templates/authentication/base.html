@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{% static "authentication/css/bootstrap.min.css" %}">    
+  <!-- Application CSS -->
+  <link rel="stylesheet" href="{% static "authentication/css/authentication-styles.css" %}">    
+</head>
+<body ng-app="Authentication" ng-cloak>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">QVAD</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar END -->
+    
+    <!-- MainContent -->
+    {% block content %}
+
+  
+
+    {% endblock %}
+    <!-- MainContent END -->
+</body>
+{% include "authentication/scripts.html" %}
+</html>
