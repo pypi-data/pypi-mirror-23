@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+btrfsmaint/__init__.py
+btrfsmaint.egg-info/PKG-INFO
+btrfsmaint.egg-info/SOURCES.txt
+btrfsmaint.egg-info/dependency_links.txt
+btrfsmaint.egg-info/entry_points.txt
+btrfsmaint.egg-info/requires.txt
+btrfsmaint.egg-info/top_level.txt

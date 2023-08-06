@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: btrfsmaint
+Version: 0.5
+Summary: BTRFS Filesystem Maintenace Scripts.
+Home-page: https://github.com/joshland/btrfsmaint
+Author: Joshua M. Schmidlkofer
+Author-email: joshland@gmail.com
+License: MIT
+Description: BTRFS Filesystem Maintenance Script for local btrfs filesystem upkeep.
+Keywords: btrfs maintenance administration
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Filesystems
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
