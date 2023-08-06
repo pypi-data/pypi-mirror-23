@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ipython-unittest
+Version: 0.2.5
+Summary: Add unittest cell magics to IPython for easily running tests
+Home-page: https://github.com/JoaoFelipe/ipython-unittest
+Author: Joao Pimentel
+Author-email: joaofelipenp@gmail.com
+License: MIT
+Description: Add unittest cell magics to IPython for easily running tests
+Keywords: ipython jupyter unittest tdd dojo
+Platform: UNKNOWN
