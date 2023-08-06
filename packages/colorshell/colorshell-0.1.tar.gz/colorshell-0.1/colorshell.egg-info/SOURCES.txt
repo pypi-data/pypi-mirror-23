@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+colorshell/__init__.py
+colorshell/out.py
+colorshell.egg-info/PKG-INFO
+colorshell.egg-info/SOURCES.txt
+colorshell.egg-info/dependency_links.txt
+colorshell.egg-info/top_level.txt
