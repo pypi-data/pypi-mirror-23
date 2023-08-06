@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+web.dispatch.egg-info/PKG-INFO
+web.dispatch.egg-info/SOURCES.txt
+web.dispatch.egg-info/dependency_links.txt
+web.dispatch.egg-info/entry_points.txt
+web.dispatch.egg-info/not-zip-safe
+web.dispatch.egg-info/requires.txt
+web.dispatch.egg-info/top_level.txt
+web/dispatch/core/__init__.py
+web/dispatch/core/crumb.py
+web/dispatch/core/release.py
+web/dispatch/core/util.py
