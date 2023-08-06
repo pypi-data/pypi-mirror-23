@@ -1,0 +1,6 @@
+ete3
+wheel
+bitarray
+psutil
+pysam
+scipy
