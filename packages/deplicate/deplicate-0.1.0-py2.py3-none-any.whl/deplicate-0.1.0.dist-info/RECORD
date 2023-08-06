@@ -1,0 +1,13 @@
+deplicate/__init__.py,sha256=x4QFgoLMgRiuee7uwwoNyzoGnXKYINY95G31da31sDI,591
+deplicate/cli.py,sha256=D2OG1HTTYx_dFEsOU-PMkILy-zJm5HaWZ2umKQzuOzY,2602
+deplicate/deplicate.py,sha256=kiFBjJIy_-SG1P0IGm2F-XwKW8x-IjxMHN0X14X58-g,7402
+deplicate/structs.py,sha256=DSTDqg3kKyj52MBZ2oWV9EszFQ68v2G3vOvYX4tE6Uc,1436
+deplicate/utils.py,sha256=9qUtKUDsHh5JtjW9aLd64IkrlJTXWA_mFKOMjKGEB6s,7322
+deplicate-0.1.0.dist-info/DESCRIPTION.rst,sha256=RdkpkxUXpmn3Hnq_lB-e8B7ljhY8bpA7WTgNZ-LuzpI,869
+deplicate-0.1.0.dist-info/METADATA,sha256=LP4P31NZ0JLsnrzyDIbKXjM7kMqSe4VPjEHeBpJ8EDc,2393
+deplicate-0.1.0.dist-info/RECORD,,
+deplicate-0.1.0.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+deplicate-0.1.0.dist-info/entry_points.txt,sha256=egdQmfEhYNcgX7FzNG_Bs2bDpjRM7ErnLx2typJ_g20,50
+deplicate-0.1.0.dist-info/metadata.json,sha256=t7biaBfUUmEetpJ9w_XPOPYBCGgJL7tjldzUXMdTDsU,1610
+deplicate-0.1.0.dist-info/top_level.txt,sha256=Gh8VKmT2DOR-xJf8To3k92ktAfEDM953dhcSUrd4Ejk,10
+deplicate-0.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
