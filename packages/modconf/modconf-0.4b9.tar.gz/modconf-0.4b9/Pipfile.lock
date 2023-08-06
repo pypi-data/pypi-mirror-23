@@ -1,0 +1,49 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "ac5a232478a3f14c08481aeb6dcbeeb611e11201fb0f2d6222d247cb5adb8022"
+        },
+        "requires": {},
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "async-patterns": {
+            "version": "==0.3b13"
+        },
+        "py": {
+            "version": "==1.4.34"
+        },
+        "pytest": {
+            "version": "==3.1.3"
+        },
+        "pytest-asyncio": {
+            "version": "==0.6.0"
+        },
+        "setuptools": {
+            "version": "==36.2.0"
+        }
+    },
+    "develop": {
+        "-e .": "*",
+        "coverage": {
+            "version": "==4.4.1"
+        },
+        "py": {
+            "version": "==1.4.34"
+        },
+        "pytest": {
+            "version": "==3.1.3"
+        },
+        "pytest-cov": {
+            "version": "==2.5.1"
+        },
+        "setuptools": {
+            "version": "==36.2.0"
+        }
+    }
+}

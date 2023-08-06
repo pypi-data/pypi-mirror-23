@@ -1,0 +1,21 @@
+{
+    "author_email": "charlesrymal@gmail.com",
+    "description": "pattern for using python modules as configuration files",
+    "url": "http://github.com/chuck1/modconf",
+    "license": "MIT",
+    "author": "Charles Rymal",
+    "scripts": [],
+    "name": "modconf",
+    "package_data": {
+        "": [
+            "*.txt"
+        ],
+        "classifiers": [
+            "Programming Language :: Python :: 3.6"
+        ]
+    },
+    "packages": [
+        "modconf",
+        "modconf.tests"
+    ]
+}
