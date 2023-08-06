@@ -1,0 +1,6 @@
+setup.py
+mzStudio.egg-info/PKG-INFO
+mzStudio.egg-info/SOURCES.txt
+mzStudio.egg-info/dependency_links.txt
+mzStudio.egg-info/requires.txt
+mzStudio.egg-info/top_level.txt
