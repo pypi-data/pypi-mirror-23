@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: naposapi
+Version: 0.1
+Summary: API for lookup on the NAPOS database
+Home-page: https://github.com/squiddy/pynaposapi
+Author: Reiner Gerecke
+Author-email: me@reinergerecke.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: cssselect
+Requires-Dist: lxml
+Requires-Dist: requests
+
+naposapi
+========
+
+**Use at your own risk**
+
+A simple API to lookup drugs on the database for acute porphyria (developed by NAPOS).
+
+Usage
+-----
+
+::
+
+    >>> import naposapi
+    >>> naposapi.lookup_classification('B01AA03')
+    ClassificationResult(code='PNP', level=1, name='Probably not porphyrinogenic', description='Used as a first hand choice. No precautions needed.')
+
+
