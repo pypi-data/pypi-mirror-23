@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: django-package-notification
+Version: 1.0.1
+Summary: Permite comunicar django con slack
+Home-page: https://github.com/eliacer95/django-pack-notification
+Author: Eliacer Fernandez Guevara
+Author-email: eliacer.fernandez@upeu.edu.pe
+License: UNKNOWN
+Download-URL: https://github.com/eliacer95/django-pack-notification/tarball/1.0.1
+Description: UNKNOWN
+Keywords: django,slack
+Platform: UNKNOWN
