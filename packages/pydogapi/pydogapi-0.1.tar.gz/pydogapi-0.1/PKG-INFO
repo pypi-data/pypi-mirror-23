@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pydogapi
+Version: 0.1
+Summary: A python wrapper for dog CEOs Dog API
+Home-page: https://github.com/c4collins/pydogapi
+Author: Connor Collins
+Author-email: connor.collins@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/c4collins/pydogapi/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: dogs
+Platform: UNKNOWN
