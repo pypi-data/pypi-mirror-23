@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cmsplugin_objects/__init__.py
+cmsplugin_objects/middleware.py
+cmsplugin_objects.egg-info/PKG-INFO
+cmsplugin_objects.egg-info/SOURCES.txt
+cmsplugin_objects.egg-info/dependency_links.txt
+cmsplugin_objects.egg-info/requires.txt
+cmsplugin_objects.egg-info/top_level.txt

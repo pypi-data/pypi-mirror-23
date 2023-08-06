@@ -1,0 +1,36 @@
+# django-cmsplugin-objects
+
+## What does it do?
+
+Provides an extra toolbar in the django cms tools, allowing administrators easy
+access to the administrator pages for the currently in scope object or object type.
+
+For example, if the page contains a list of blog entries, then you will have the option
+to create a new blog entry. Which will pop up the admin form in the in-line django-cms
+modal dialog. (Usually when using ListView generic clas sbased views)
+
+If the page contains a single Blog entry object, then an Edit and Delete option will be
+made available and these operate much like the Create form.
+
+## Installation
+
+```
+pip install cmsplugin-objects
+```
+
+Add the plugin to your site's middleware in settings.py::
+
+```
+MIDDLEWARE_CLASSES = (
+  ...
+  'cmsplugin_objects.middleware.ObjectToolbarMiddleware',
+  ...
+)
+```
+
+Then restart your web server.
+
+## Issues
+
+Please submit issues and merge requests at GitHub issues tracker: https://github.com/doctormo/django-cmsplugin-objects/issues/.
+
