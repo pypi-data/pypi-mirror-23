@@ -1,0 +1,21 @@
+
+OracleDBConnectionParameters:
+    ip: '10.35.34.65'
+    username: 'TZC_LOCAL'
+    password: 'Kapsch2012'
+    SID: 'moms'
+    table: 'SIC_PASSAGE'
+
+SQLQueryParameters:
+    ['*']
+    # use wildcard character * to imply all entries of the table
+    # otherwise add individual columns names to be used in query only
+
+GoldenListSelectionParameters:
+    ['ETC_TAG_ID']
+    # append/remove to/from the list the fields to use to build golden list on
+
+TimePeriod:
+    Day1: '2017-07-01 05:00:00' # data set#1
+    Day2: '2017-07-02 05:00:00' # data set#2
+    Hrs: 24 # time to parse for comparison between two data sets
