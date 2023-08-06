@@ -1,0 +1,10 @@
+envars-0.1.0.dist-info/DESCRIPTION.rst,sha256=spxWoe3jFJ0SRnAbi5TAPYAqGPhTyt462zdGsglbZNo,104
+envars-0.1.0.dist-info/METADATA,sha256=5z8ck9jqhn9l7lUd6jEgO0lFm8v0K75R581i_wx26s8,894
+envars-0.1.0.dist-info/metadata.json,sha256=U3gX0OQxBGps9N0kBwcyyiIyoq3YO8eNZLUsWZxCvXQ,952
+envars-0.1.0.dist-info/RECORD,,
+envars-0.1.0.dist-info/top_level.txt,sha256=tMncXnIuUcF1dIBN5xkmgShdU-N35NWbeYPiW6BeLFI,8
+envars-0.1.0.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+envvars/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+envvars/envvars.py,sha256=N7k3va34lAQJRTDFcmU6_2vSVgINJnQz7L9Vil8BNbE,1494
+envvars/tests/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+envvars/tests/test_envvars.py,sha256=enHQ4UEVjfqrLvFsXUC_Ar9rY_UVEBjIj5VJCl83-_Y,1651
