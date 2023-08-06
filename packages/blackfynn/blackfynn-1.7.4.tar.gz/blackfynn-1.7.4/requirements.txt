@@ -1,0 +1,11 @@
+boto3==1.4.4
+requests==2.13.0
+requests-futures==0.9.7
+numpy==1.11.3
+pandas==0.19.2
+protobuf==3.2.0
+# CLI
+docopt==0.6.2
+# documentation
+Sphinx==1.6.2
+sphinx-rtd-theme==0.2.4
