@@ -1,0 +1,16 @@
+csvtotable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvtotable/cli.py,sha256=v4Hi9enlFpTTCxj_yVQtWFhDvPY9cbjkC49jhtKcZt8,2758
+csvtotable/convert.py,sha256=ILywIMPCo8Tj0PENwMzbOrVHN-KW89VSXkmn-ba3QpA,6541
+csvtotable/templates/template.html,sha256=_odTQ5v6HLyyXuR_9UCSnpzFN5w8qNy5n3i3JYfkTpE,2616
+csvtotable/templates/template.j2,sha256=_W1c6dxJUNYG3lfNwP1fDDrMxpP8QB_vEx4592y86_4,3383
+csvtotable/templates/js/dataTables.fixedHeader.min.js,sha256=tfibYiF10XJKFcXJTmm2S8pHwdcCSnC3nV0tyu262CY,6652
+csvtotable/templates/js/dataTables.scroller.min.js,sha256=-emiji4WVqvorCXXKbNTwoVqnsm_MzghvveohwLF4Kw,11373
+csvtotable/templates/js/jquery.dataTables.min.js,sha256=j007R7R6ijEWPa1df7FeJ6AFbQeww0xgif2SJWZOhHw,83268
+csvtotable/templates/js/jquery.min.js,sha256=ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ-Xp8a4MxAQ,97163
+csvtotable-2.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+csvtotable-2.0.0.dist-info/METADATA,sha256=LvkFWORv4WUo129aDrPCOx1TyHiO_RVyh5M3Zld9X0I,1097
+csvtotable-2.0.0.dist-info/RECORD,,
+csvtotable-2.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+csvtotable-2.0.0.dist-info/entry_points.txt,sha256=5C5wqdob0mdRjo9EMTtIkV7H90r5eAE8EpfuCmwL7YU,51
+csvtotable-2.0.0.dist-info/metadata.json,sha256=1Kv53qSZB04V9Ih_s-QI1bXRSwsh1wLTTNVIYt2jPSU,1339
+csvtotable-2.0.0.dist-info/top_level.txt,sha256=jwBv9JuiMb485nqPDnBgH4TIY4f1Pp504RBtv5g0kus,11
