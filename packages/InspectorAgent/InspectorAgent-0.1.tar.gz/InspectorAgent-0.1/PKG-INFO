@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: InspectorAgent
+Version: 0.1
+Summary: lib to assert perf test result to Inspector
+Home-page: https://github.com/kahalKevin/InspectorAgent
+Author: Kevin Kahal
+Author-email: kahal.kevin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/kahalKevin/InspectorAgent/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: testing
+Platform: UNKNOWN
