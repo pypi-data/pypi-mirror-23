@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+wowspy/__init__.py
+wowspy/extras.py
+wowspy/wowspy.py
+wowspy/wowspy_async.py
+wowspy.egg-info/PKG-INFO
+wowspy.egg-info/SOURCES.txt
+wowspy.egg-info/dependency_links.txt
+wowspy.egg-info/requires.txt
+wowspy.egg-info/top_level.txt
