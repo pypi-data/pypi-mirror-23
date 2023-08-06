@@ -1,0 +1,8 @@
+setup.py
+xbos/__init__.py
+xbos.egg-info/PKG-INFO
+xbos.egg-info/SOURCES.txt
+xbos.egg-info/dependency_links.txt
+xbos.egg-info/not-zip-safe
+xbos.egg-info/requires.txt
+xbos.egg-info/top_level.txt
