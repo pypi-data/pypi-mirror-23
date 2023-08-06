@@ -1,0 +1,10 @@
+collate/__init__.py,sha256=7184Kv1vPmTyzT3CutN4wBcUqUBwsAuiKZXcg8w36TU,123
+collate/collate.py,sha256=UtBXgxMvBQDL1Ehmrdtunt8yFrGRTnx9g3tSmmbDcKo,18987
+collate/spacetime.py,sha256=KThi0p7yFst48CC_1z1hZOEIk9WtphEsDkzSWUc-r7o,7891
+collate/sql.py,sha256=h9KjxHRSECBaeyVCLWgOBal8Prq_YTyU6PZerFjgIls,943
+collate-0.2.1.dist-info/DESCRIPTION.rst,sha256=BNtUfGN_7IzsANmkql6aSlkCN4CeO4g1d_54rh7PAis,6539
+collate-0.2.1.dist-info/METADATA,sha256=ZR8ZogLuv2cjHRsCSsUAy1wGcaF71JSNa8-iYC3vzxY,7335
+collate-0.2.1.dist-info/RECORD,,
+collate-0.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+collate-0.2.1.dist-info/metadata.json,sha256=eSEdhkf5FciBYOYKLMdtcTGQir-1qc5B5JqCRsYcrYQ,944
+collate-0.2.1.dist-info/top_level.txt,sha256=9eOVne8AxaAxfCT8ilzoQhIH9dhWxbBs3i9qhlLZ4gM,8
