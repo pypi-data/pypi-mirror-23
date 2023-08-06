@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: jsntlib
+Version: 1.0.0
+Summary: A number theory library
+Home-page: https://github.com/JarryShaw/jsntlib/tree/release
+Author: Jarry Shaw
+Author-email: jarryshaw@icloud.com
+License: UNKNOWN
+Download-URL: https://github.com/JarryShaw/jsntlib/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: number-theory,ntl,mathematic-fundamentals
+Platform: UNKNOWN
