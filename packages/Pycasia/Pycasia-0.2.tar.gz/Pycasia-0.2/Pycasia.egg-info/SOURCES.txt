@@ -1,0 +1,9 @@
+setup.py
+Pycasia.egg-info/PKG-INFO
+Pycasia.egg-info/SOURCES.txt
+Pycasia.egg-info/dependency_links.txt
+Pycasia.egg-info/requires.txt
+Pycasia.egg-info/top_level.txt
+pycasia/CASIA.py
+pycasia/__init__.py
+pycasia/statusbar.py
