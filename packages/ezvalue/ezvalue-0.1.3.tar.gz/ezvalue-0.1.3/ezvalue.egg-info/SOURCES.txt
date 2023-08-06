@@ -1,0 +1,7 @@
+README
+setup.py
+ezvalue/__init__.py
+ezvalue.egg-info/PKG-INFO
+ezvalue.egg-info/SOURCES.txt
+ezvalue.egg-info/dependency_links.txt
+ezvalue.egg-info/top_level.txt
