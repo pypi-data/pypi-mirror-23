@@ -1,0 +1,9 @@
+README.rst
+peewee2click.py
+setup.py
+peewee2click.egg-info/PKG-INFO
+peewee2click.egg-info/SOURCES.txt
+peewee2click.egg-info/dependency_links.txt
+peewee2click.egg-info/not-zip-safe
+peewee2click.egg-info/requires.txt
+peewee2click.egg-info/top_level.txt
