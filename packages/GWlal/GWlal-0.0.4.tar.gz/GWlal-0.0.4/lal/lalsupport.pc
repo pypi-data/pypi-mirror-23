@@ -1,0 +1,17 @@
+PACKAGE_TARNAME=lal
+prefix=//home/daniel/.virtualenvs/IGRlaptop21/test-lalinstallers
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+docdir=${datarootdir}/doc/${PACKAGE_TARNAME}
+htmldir=${docdir}
+LALSUPPORT_OCTAVE_PATH=
+LALSUPPORT_PYTHON_PATH=${exec_prefix}/lib/python2.7/site-packages
+
+Name: LALSupport
+Description: LSC Algorithm Support Library (useful but non-conforming routines)
+Version: 6.18.0
+Requires: lal = 6.18.0
+Libs: -L${libdir} -llalsupport  -lz
+Cflags: -I${includedir} -pthread 

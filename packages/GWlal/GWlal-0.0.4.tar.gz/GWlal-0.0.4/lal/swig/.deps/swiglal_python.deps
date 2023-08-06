@@ -1,0 +1,421 @@
+swiglal_python.c: \
+  /usr/share/swig3.0/swig.swg \
+  /usr/share/swig3.0/swigwarnings.swg \
+  /usr/share/swig3.0/swigwarn.swg \
+  /usr/share/swig3.0/python/python.swg \
+  /usr/share/swig3.0/python/pymacros.swg \
+  /usr/share/swig3.0/typemaps/swigmacros.swg \
+  /usr/share/swig3.0/python/pyruntime.swg \
+  /usr/share/swig3.0/python/pyuserdir.swg \
+  /usr/share/swig3.0/python/pytypemaps.swg \
+  /usr/share/swig3.0/typemaps/fragments.swg \
+  /usr/share/swig3.0/python/pyfragments.swg \
+  /usr/share/swig3.0/python/pyprimtypes.swg \
+  /usr/share/swig3.0/python/pystrings.swg \
+  /usr/share/swig3.0/typemaps/swigtypemaps.swg \
+  /usr/share/swig3.0/typemaps/exception.swg \
+  /usr/share/swig3.0/typemaps/swigtype.swg \
+  /usr/share/swig3.0/typemaps/void.swg \
+  /usr/share/swig3.0/typemaps/swigobject.swg \
+  /usr/share/swig3.0/typemaps/valtypes.swg \
+  /usr/share/swig3.0/typemaps/ptrtypes.swg \
+  /usr/share/swig3.0/typemaps/inoutlist.swg \
+  /usr/share/swig3.0/typemaps/primtypes.swg \
+  /usr/share/swig3.0/typemaps/string.swg \
+  /usr/share/swig3.0/typemaps/strings.swg \
+  /usr/share/swig3.0/typemaps/misctypes.swg \
+  /usr/share/swig3.0/typemaps/enumint.swg \
+  /usr/share/swig3.0/python/pyopers.swg \
+  /usr/share/swig3.0/python/pythonkw.swg \
+  /usr/share/swig3.0/python/pydocs.swg \
+  /usr/share/swig3.0/python/pyclasses.swg \
+  /usr/share/swig3.0/python/pyinit.swg \
+  /usr/share/swig3.0/python/pybackward.swg \
+  swiglal.i \
+  ../include/lal/SWIGCommon.i \
+  /usr/share/swig3.0/python/exception.i \
+  /usr/share/swig3.0/python/typemaps.i \
+  /usr/share/swig3.0/typemaps/typemaps.swg \
+  swiglal_config.h \
+  ../include/lal/LALStddef.h \
+  ../include/lal/SWIGPython.i \
+  /usr/share/swig3.0/python/pycomplex.swg \
+  ../include/lal/SWIGLALAlpha.i \
+  ../include/lal/LALConfig.h \
+  ../include/lal/LALAtomicDatatypes.h \
+  ../include/lal/LALDatatypes.h \
+  ../include/lal/AVFactories.h \
+  ../include/lal/Audio.h \
+  ../include/lal/LALDebugLevel.h \
+  ../include/lal/LALMalloc.h \
+  ../include/lal/XLALError.h \
+  ../include/lal/LALError.h \
+  ../include/lal/LALStatusMacros.h \
+  ../include/lal/LALStdlib.h \
+  ../include/lal/ZPGFilter.h \
+  ../include/lal/IIRFilter.h \
+  ../include/lal/BandPassTimeSeries.h \
+  ../include/lal/Calibration.h \
+  ../include/lal/LALDetectors.h \
+  ../include/lal/DetectorSite.h \
+  ../include/lal/SkyCoordinates.h \
+  ../include/lal/CoherentEstimation.h \
+  ../include/lal/ComplexFFT.h \
+  ../include/lal/ComputeDataQualityVector.h \
+  ../include/lal/LALStdio.h \
+  ../include/lal/StringInput.h \
+  ../include/lal/ConfigFile.h \
+  ../include/lal/LALConstants.h \
+  ../include/lal/Date.h \
+  ../include/lal/DetResponse.h \
+  ../include/lal/XLALGSL.h \
+  ../include/lal/LALGSL.h \
+  ../include/lal/EllipsoidOverlapTools.h \
+  ../include/lal/FFTWMutex.h \
+  ../include/lal/Factorial.h \
+  ../include/lal/FileIO.h \
+  ../include/lal/FindRoot.h \
+  ../include/lal/FrequencySeries.h \
+  ../include/lal/Grid.h \
+  ../include/lal/H5FileIO.h \
+  ../include/lal/Integrate.h \
+  ../include/lal/Sequence.h \
+  ../include/lal/Interpolate.h \
+  ../include/lal/SeqFactories.h \
+  ../include/lal/LALAdaptiveRungeKutta4.h \
+  ../include/lal/LALCache.h \
+  ../include/lal/LALChisq.h \
+  ../include/lal/LALCosmologyCalculator.h \
+  ../include/lal/LALValue.h \
+  ../include/lal/LALList.h \
+  ../include/lal/LALDict.h \
+  ../include/lal/LALHashFunc.h \
+  ../include/lal/LALHashTbl.h \
+  ../include/lal/LALHeap.h \
+  ../include/lal/LALMarcumQ.h \
+  ../include/lal/LALMathematica.h \
+  ../include/lal/LALMoment.h \
+  ../include/lal/RealFFT.h \
+  ../include/lal/LALNoiseModels.h \
+  ../include/lal/LALRunningMedian.h \
+  ../include/lal/LALSIMD.h \
+  ../include/lal/LALString.h \
+  ../include/lal/LALVCSInfoType.h \
+  ../include/lal/LALVCSInfo.h \
+  ../include/lal/LALgetopt.h \
+  ../include/lal/LogPrintf.h \
+  ../include/lal/MatrixUtils.h \
+  ../include/lal/ODE.h \
+  ../include/lal/PrintFTSeries.h \
+  ../include/lal/PrintVector.h \
+  ../include/lal/Random.h \
+  ../include/lal/ReadFTSeries.h \
+  ../include/lal/ReadFiltersFile.h \
+  ../include/lal/ReadNoiseSpectrum.h \
+  ../include/lal/ResampleTimeSeries.h \
+  ../include/lal/RngMedBias.h \
+  ../include/lal/SWIGLALTest.h \
+  ../include/lal/Segments.h \
+  ../include/lal/SegmentsIO.h \
+  ../include/lal/SimulateCoherentGW.h \
+  ../include/lal/Skymap.h \
+  ../include/lal/Sort.h \
+  ../include/lal/SphericalHarmonics.h \
+  ../include/lal/StreamInput.h \
+  ../include/lal/StreamOutput.h \
+  ../include/lal/StringVector.h \
+  ../include/lal/TimeDelay.h \
+  ../include/lal/Window.h \
+  ../include/lal/TimeFreqFFT.h \
+  ../include/lal/TimeSeries.h \
+  ../include/lal/TimeSeriesInterp.h \
+  ../include/lal/TranslateAngles.h \
+  ../include/lal/TranslateMJD.h \
+  ../include/lal/TriggerInterpolation.h \
+  ../include/lal/Units.h \
+  ../include/lal/UserInputParse.h \
+  ../include/lal/UserInput.h \
+  ../include/lal/UserInputPrint.h \
+  ../include/lal/VectorMath.h \
+  ../include/lal/VectorOps.h \
+  ../include/lal/SWIGLALOmega.i 
+
+/usr/share/swig3.0/swig.swg:
+
+/usr/share/swig3.0/swigwarnings.swg:
+
+/usr/share/swig3.0/swigwarn.swg:
+
+/usr/share/swig3.0/python/python.swg:
+
+/usr/share/swig3.0/python/pymacros.swg:
+
+/usr/share/swig3.0/typemaps/swigmacros.swg:
+
+/usr/share/swig3.0/python/pyruntime.swg:
+
+/usr/share/swig3.0/python/pyuserdir.swg:
+
+/usr/share/swig3.0/python/pytypemaps.swg:
+
+/usr/share/swig3.0/typemaps/fragments.swg:
+
+/usr/share/swig3.0/python/pyfragments.swg:
+
+/usr/share/swig3.0/python/pyprimtypes.swg:
+
+/usr/share/swig3.0/python/pystrings.swg:
+
+/usr/share/swig3.0/typemaps/swigtypemaps.swg:
+
+/usr/share/swig3.0/typemaps/exception.swg:
+
+/usr/share/swig3.0/typemaps/swigtype.swg:
+
+/usr/share/swig3.0/typemaps/void.swg:
+
+/usr/share/swig3.0/typemaps/swigobject.swg:
+
+/usr/share/swig3.0/typemaps/valtypes.swg:
+
+/usr/share/swig3.0/typemaps/ptrtypes.swg:
+
+/usr/share/swig3.0/typemaps/inoutlist.swg:
+
+/usr/share/swig3.0/typemaps/primtypes.swg:
+
+/usr/share/swig3.0/typemaps/string.swg:
+
+/usr/share/swig3.0/typemaps/strings.swg:
+
+/usr/share/swig3.0/typemaps/misctypes.swg:
+
+/usr/share/swig3.0/typemaps/enumint.swg:
+
+/usr/share/swig3.0/python/pyopers.swg:
+
+/usr/share/swig3.0/python/pythonkw.swg:
+
+/usr/share/swig3.0/python/pydocs.swg:
+
+/usr/share/swig3.0/python/pyclasses.swg:
+
+/usr/share/swig3.0/python/pyinit.swg:
+
+/usr/share/swig3.0/python/pybackward.swg:
+
+swiglal.i:
+
+../include/lal/SWIGCommon.i:
+
+/usr/share/swig3.0/python/exception.i:
+
+/usr/share/swig3.0/python/typemaps.i:
+
+/usr/share/swig3.0/typemaps/typemaps.swg:
+
+swiglal_config.h:
+
+../include/lal/LALStddef.h:
+
+../include/lal/SWIGPython.i:
+
+/usr/share/swig3.0/python/pycomplex.swg:
+
+../include/lal/SWIGLALAlpha.i:
+
+../include/lal/LALConfig.h:
+
+../include/lal/LALAtomicDatatypes.h:
+
+../include/lal/LALDatatypes.h:
+
+../include/lal/AVFactories.h:
+
+../include/lal/Audio.h:
+
+../include/lal/LALDebugLevel.h:
+
+../include/lal/LALMalloc.h:
+
+../include/lal/XLALError.h:
+
+../include/lal/LALError.h:
+
+../include/lal/LALStatusMacros.h:
+
+../include/lal/LALStdlib.h:
+
+../include/lal/ZPGFilter.h:
+
+../include/lal/IIRFilter.h:
+
+../include/lal/BandPassTimeSeries.h:
+
+../include/lal/Calibration.h:
+
+../include/lal/LALDetectors.h:
+
+../include/lal/DetectorSite.h:
+
+../include/lal/SkyCoordinates.h:
+
+../include/lal/CoherentEstimation.h:
+
+../include/lal/ComplexFFT.h:
+
+../include/lal/ComputeDataQualityVector.h:
+
+../include/lal/LALStdio.h:
+
+../include/lal/StringInput.h:
+
+../include/lal/ConfigFile.h:
+
+../include/lal/LALConstants.h:
+
+../include/lal/Date.h:
+
+../include/lal/DetResponse.h:
+
+../include/lal/XLALGSL.h:
+
+../include/lal/LALGSL.h:
+
+../include/lal/EllipsoidOverlapTools.h:
+
+../include/lal/FFTWMutex.h:
+
+../include/lal/Factorial.h:
+
+../include/lal/FileIO.h:
+
+../include/lal/FindRoot.h:
+
+../include/lal/FrequencySeries.h:
+
+../include/lal/Grid.h:
+
+../include/lal/H5FileIO.h:
+
+../include/lal/Integrate.h:
+
+../include/lal/Sequence.h:
+
+../include/lal/Interpolate.h:
+
+../include/lal/SeqFactories.h:
+
+../include/lal/LALAdaptiveRungeKutta4.h:
+
+../include/lal/LALCache.h:
+
+../include/lal/LALChisq.h:
+
+../include/lal/LALCosmologyCalculator.h:
+
+../include/lal/LALValue.h:
+
+../include/lal/LALList.h:
+
+../include/lal/LALDict.h:
+
+../include/lal/LALHashFunc.h:
+
+../include/lal/LALHashTbl.h:
+
+../include/lal/LALHeap.h:
+
+../include/lal/LALMarcumQ.h:
+
+../include/lal/LALMathematica.h:
+
+../include/lal/LALMoment.h:
+
+../include/lal/RealFFT.h:
+
+../include/lal/LALNoiseModels.h:
+
+../include/lal/LALRunningMedian.h:
+
+../include/lal/LALSIMD.h:
+
+../include/lal/LALString.h:
+
+../include/lal/LALVCSInfoType.h:
+
+../include/lal/LALVCSInfo.h:
+
+../include/lal/LALgetopt.h:
+
+../include/lal/LogPrintf.h:
+
+../include/lal/MatrixUtils.h:
+
+../include/lal/ODE.h:
+
+../include/lal/PrintFTSeries.h:
+
+../include/lal/PrintVector.h:
+
+../include/lal/Random.h:
+
+../include/lal/ReadFTSeries.h:
+
+../include/lal/ReadFiltersFile.h:
+
+../include/lal/ReadNoiseSpectrum.h:
+
+../include/lal/ResampleTimeSeries.h:
+
+../include/lal/RngMedBias.h:
+
+../include/lal/SWIGLALTest.h:
+
+../include/lal/Segments.h:
+
+../include/lal/SegmentsIO.h:
+
+../include/lal/SimulateCoherentGW.h:
+
+../include/lal/Skymap.h:
+
+../include/lal/Sort.h:
+
+../include/lal/SphericalHarmonics.h:
+
+../include/lal/StreamInput.h:
+
+../include/lal/StreamOutput.h:
+
+../include/lal/StringVector.h:
+
+../include/lal/TimeDelay.h:
+
+../include/lal/Window.h:
+
+../include/lal/TimeFreqFFT.h:
+
+../include/lal/TimeSeries.h:
+
+../include/lal/TimeSeriesInterp.h:
+
+../include/lal/TranslateAngles.h:
+
+../include/lal/TranslateMJD.h:
+
+../include/lal/TriggerInterpolation.h:
+
+../include/lal/Units.h:
+
+../include/lal/UserInputParse.h:
+
+../include/lal/UserInput.h:
+
+../include/lal/UserInputPrint.h:
+
+../include/lal/VectorMath.h:
+
+../include/lal/VectorOps.h:
+
+../include/lal/SWIGLALOmega.i:
