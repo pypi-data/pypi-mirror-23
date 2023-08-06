@@ -1,0 +1,17 @@
+setup.py
+bruker2nifti/__init__.py
+bruker2nifti/_cores.py
+bruker2nifti/_getters.py
+bruker2nifti/_utils.py
+bruker2nifti/converter.py
+bruker2nifti/open_GUI.py
+bruker2nifti/z_debugging_qform.py
+bruker2nifti/z_scan_converter.py
+bruker2nifti/z_study_converter.py
+bruker2nifti.egg-info/PKG-INFO
+bruker2nifti.egg-info/SOURCES.txt
+bruker2nifti.egg-info/dependency_links.txt
+bruker2nifti.egg-info/top_level.txt
+test/test_convert_banana.py
+test/test_cores.py
+test/test_utils.py
