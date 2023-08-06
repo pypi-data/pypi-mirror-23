@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mygreeter
+Version: v0.0.3
+Summary: Package to greet me, you or the world
+Home-page: https://github.com/Kecksdose/mygreeter
+Author: Timon Schmelzer
+Author-email: timon.schmelzer@tu-dortmund.de
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: hello world,greeter,greetings
+Platform: UNKNOWN
