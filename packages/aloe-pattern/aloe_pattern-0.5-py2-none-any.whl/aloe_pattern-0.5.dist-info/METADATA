@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: aloe-pattern
+Version: 0.5
+Summary: Aloe pattern CLI
+Home-page: UNKNOWN
+Author: Sage Gerard
+Author-email: sage@sagegerard.com
+License: MIT
+Keywords: css scss sass aloe plant
+Platform: UNKNOWN
+Requires-Dist: libsass
+
+UNKNOWN
+
+

@@ -1,0 +1,17 @@
+aloe/__init__.py,sha256=L9l57ENmJTJpsvAZXzky8pbTUMSqUQyIX-3kz9QuaFM,11
+aloe/cache.py,sha256=RQJ52f7o4liFtNVgRmdHUX3W6Behx1r5EnaChTD9EgE,617
+aloe/cli.py,sha256=9bW1voSJErTH23EsicVFE5ZxedSlhd7IFEtrBpg4hTc,5764
+aloe/files.py,sha256=S3BrXsOW7JlBOv5GNh2n4m0TLO0UQzRG-iOxXlOtrdg,1590
+aloe/partial.py,sha256=qyzwtmS5S9StSsnnya-6CN5n5qeRr3t9ce3QnpzhjjI,1993
+aloe/plotter.py,sha256=qsBXrQvkXKXr0s6wHuyDG-xOqWJXIDu4Wg5HtfiLpew,2038
+aloe/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aloe/test/test_cache.py,sha256=qndeUK8EXGtjQTnVAfB7XM5nrvAIZ6BAEtvMzmZOJTI,1506
+aloe/test/test_files.py,sha256=XQuGNjBYKPglqeiqbkFwawiq_IkXTX1VnjN1JkjhIZs,428
+aloe/test/test_plotter.py,sha256=TilnzfHgckBxAC35cag412uPD8gf6goeaYSJD5KcqMM,487
+aloe_pattern-0.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+aloe_pattern-0.5.dist-info/METADATA,sha256=-6hO9QnvXyHB0HGiTClx8smSyiLvtMS33fF69GE5aMM,253
+aloe_pattern-0.5.dist-info/RECORD,,
+aloe_pattern-0.5.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+aloe_pattern-0.5.dist-info/entry_points.txt,sha256=62u0qrNYjXE0G-UOZ6L0WnV1ZT01xUjeR2jqEDr_2q8,40
+aloe_pattern-0.5.dist-info/metadata.json,sha256=wsPbQXgh_KW3cILeqYvgSB9JvMKMIkMc5U4M_sPYz9M,620
+aloe_pattern-0.5.dist-info/top_level.txt,sha256=5OYKyoYvxo1m2rG1ROYIc81YRGztNnK9S8rWJIo-CsU,5
