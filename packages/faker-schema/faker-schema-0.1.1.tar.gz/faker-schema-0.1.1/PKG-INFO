@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: faker-schema
+Version: 0.1.1
+Summary: Generate fake data using joke2k's faker and your own schema
+Home-page: https://github.com/ueg1990/faker-schema
+Author: Usman Ehtesham Gul
+Author-email: uehtesham90@gmail.com@gmail.com
+License: MIT License
+Description: # faker-schema
+        Generate fake data using [joke2k's faker](https://github.com/joke2k/faker) and your own schema
+        
+Keywords: faker fixtures data test mock generator schema
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
