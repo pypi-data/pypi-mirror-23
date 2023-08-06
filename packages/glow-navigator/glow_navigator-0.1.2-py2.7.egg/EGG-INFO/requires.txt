@@ -1,0 +1,6 @@
+networkx
+termcolor
+
+[test]
+coverage
+ddt
