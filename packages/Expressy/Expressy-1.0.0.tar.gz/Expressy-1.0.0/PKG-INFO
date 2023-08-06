@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Expressy
+Version: 1.0.0
+Summary: Expressy lets you compile expressions into a function that can be executed within a context.
+Home-page: http://github.com/timedata-org/expressy
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+License: MIT
+Download-URL: http://github.com/timedata-org/expressy/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: expressions
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
