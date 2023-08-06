@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+    padding: 0px 12px 0px 12px;
+}
+
+a {
+    border-bottom: 1px solid transparent;
+    color: #214c8f;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: #214c8f;
+}
+
+.footer {
+    border-top: 1px solid #eeeeee;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.message h1,
+.debugger h1 {
+    font-weight: normal;
+    margin: 0px 0px 16px 0px;
+}
+
+.message p,
+.debugger p {
+    margin: 0px 0px 0px 0px;
+}
+
+.message .header,
+.debugger .header {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.message .traceback,
+.debugger .traceback {
+    border-top: 1px solid #eeeeee;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.message .traceback .lineno,
+.debugger .traceback .lineno {
+    color: #6d6d6d;
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+    text-align: right;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    width: 40px;
+}
+
+.message .traceback .line.opener,
+.debugger .traceback .line.opener {
+    cursor: pointer;
+}
+
+.message .traceback .line.opener:hover,
+.debugger .traceback .line.opener:hover {
+    border-bottom-color: transparent;
+    color: #0959d5;
+}
+
+.message .traceback .lines-extra,
+.debugger .traceback .lines-extra {
+    background-color: #f6f6f6;
+    display: none;
+    font-family: Consolas, Monaco, "Andale Mono", monospace;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 8px 0px 8px 0px;
+    padding: 8px 0px 8px 0px;
+}
+
+.message .traceback .lines-extra .line:hover,
+.debugger .traceback .lines-extra .line:hover {
+    background-color: #e8e8e8;
+}
+
+.message .traceback .lines-extra .line.target,
+.debugger .traceback .lines-extra .line.target {
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
