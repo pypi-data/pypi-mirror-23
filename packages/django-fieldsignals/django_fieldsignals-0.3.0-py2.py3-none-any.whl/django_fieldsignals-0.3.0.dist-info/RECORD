@@ -1,0 +1,10 @@
+django_fieldsignals-0.3.0.dist-info/DESCRIPTION.rst,sha256=vNlQUQ1Khru9f1jfFFNIzjfJwidAKu0TeNnpuc5axm4,2008
+django_fieldsignals-0.3.0.dist-info/METADATA,sha256=hSeTQ4LB6Pr5pOAgRtkTFAGy8fI6iuUvXwfIz4JuUQU,2883
+django_fieldsignals-0.3.0.dist-info/RECORD,,
+django_fieldsignals-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_fieldsignals-0.3.0.dist-info/metadata.json,sha256=ym8HCuJ05DyG1aTtMBHATA6xlVlMOEFmGPv0hJ0XusA,948
+django_fieldsignals-0.3.0.dist-info/top_level.txt,sha256=EGG6XArJJSxCmO_sszgODlFueTSrqvfGEdZLVVp19O0,13
+fieldsignals/__init__.py,sha256=sz47rgy94A-v1ja8psznrof8fmJ2gTCIVLgZGpNg6lY,90
+fieldsignals/signals.py,sha256=oyZfYQ86KTPjcjtmomZHOMDJ_uiezpWTVme1fmiDY5E,6532
+fieldsignals/tests/__init__.py,sha256=cSMLNoTifHdHVGHvWY5cz6dX4e7YZ583ksHm81HAA28,39
+fieldsignals/tests/test_signals.py,sha256=1g6RjLiGXjQf3Vf99HuNpxpqukSZGEaWEK2S7MXHKkk,6105
