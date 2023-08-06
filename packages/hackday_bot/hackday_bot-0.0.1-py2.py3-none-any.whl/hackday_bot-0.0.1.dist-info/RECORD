@@ -1,0 +1,12 @@
+hackday_bot/__init__.py,sha256=IjeZJv4YcpP3CPQtPbeCmJ7023P0hE5Pez5beXJbhNM,98
+hackday_bot/bot.py,sha256=s_7GNVoDV-moCdF3FC5jgbi-c-J46LUszgqPRVPEW5Q,1213
+hackday_bot/cli.py,sha256=CWVXdv5RpGO-lV4O4M0KPnVQdYN1xMCkRwA6DMXLKEM,1361
+hackday_bot/const.py,sha256=kAXu3HrWW342visNEBpHt_W_KeRpxSQbXRdvGVuHkkw,55
+hackday_bot/util.py,sha256=qWVDzm9b_x5GJa-JLvqoBBS7RmTaeuONXniL-6yL2zY,555
+hackday_bot-0.0.1.dist-info/DESCRIPTION.rst,sha256=Faxuwf2VeIIaVbjA5GhcASinqlz-XAEtfyakKYM9IuE,489
+hackday_bot-0.0.1.dist-info/METADATA,sha256=gJw5cQLbszsYufMKFfKxxx9-N3lNKEpmCI7evZhSvMU,1424
+hackday_bot-0.0.1.dist-info/RECORD,,
+hackday_bot-0.0.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+hackday_bot-0.0.1.dist-info/entry_points.txt,sha256=Sit-jtlmVyaKi-HBRi3XbkTYPtFSYg6f0sqk-jTgtD4,54
+hackday_bot-0.0.1.dist-info/metadata.json,sha256=Eh5KE-bcgAE1Gl2GOyjMfv2ZZEvuaJkrFkb1DDGPnjE,1237
+hackday_bot-0.0.1.dist-info/top_level.txt,sha256=XmbohvxjYlz9YYB4JRN4sjIrSquGTUZ_5aI3TxonhxU,12
