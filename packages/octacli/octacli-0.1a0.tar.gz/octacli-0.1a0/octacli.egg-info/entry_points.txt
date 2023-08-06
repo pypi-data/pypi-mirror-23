@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        octacli=octacli:octacli
+    
