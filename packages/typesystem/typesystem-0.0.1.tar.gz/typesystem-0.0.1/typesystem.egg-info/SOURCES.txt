@@ -1,0 +1,7 @@
+setup.py
+typesystem/__init__.py
+typesystem/typesystem.py
+typesystem.egg-info/PKG-INFO
+typesystem.egg-info/SOURCES.txt
+typesystem.egg-info/dependency_links.txt
+typesystem.egg-info/top_level.txt
