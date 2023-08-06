@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ammoo
+Version: 1.0.0b1
+Summary: AMQP library with a pythonic API for asyncio on Python 3.5+
+Home-page: https://github.com/mwfrojdman/ammoo
+Author: Mathias Fröjdman
+Author-email: mwf@iki.fi
+License: Apache 2.0
+Download-URL: https://github.com/mwfrojdman/ammoo/archive/1.0.0b1.tar.gz
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
