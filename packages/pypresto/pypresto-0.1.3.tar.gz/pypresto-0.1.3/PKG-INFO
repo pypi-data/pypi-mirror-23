@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pypresto
+Version: 0.1.3
+Summary: Python wrapper for running queries on Presto server
+Home-page: https://github.com/NonWhite/pyprestowrapper
+Author: NonWhite
+Author-email: wperezurcia@gmail.com
+License: LICENSE
+Description: # pyprestowrapper
+        Package for making queries on Presto server
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 4 - Beta
