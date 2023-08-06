@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tio
+Version: 0.1.0
+Summary: Helper libraries and utils for Twinleaf's tio-based devices
+Home-page: https://code.twinleaf.com/open-source/tio-python
+Author: Thomas Kornack
+Author-email: kornack@twinleaf.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
