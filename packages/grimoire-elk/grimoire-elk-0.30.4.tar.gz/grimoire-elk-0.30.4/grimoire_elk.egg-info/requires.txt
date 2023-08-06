@@ -1,0 +1,3 @@
+perceval>=0.9
+perceval-mozilla>=0.1.1
+perceval-opnfv
