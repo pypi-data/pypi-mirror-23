@@ -1,0 +1,8 @@
+PyYAML>=3.11
+pytz>=2014.10
+argcomplete>=1.0
+bson>=0.4.8
+terminaltables>=2.1.0
+colorclass>=1.2.0
+aiohttp>=2.0.0
+oauthlib>=1.0.3
