@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+giphypy/__init__.py
+giphypy/client.py
+giphypy/constants.py
+giphypy/errors.py
+giphypy/utils.py
+giphypy.egg-info/PKG-INFO
+giphypy.egg-info/SOURCES.txt
+giphypy.egg-info/dependency_links.txt
+giphypy.egg-info/requires.txt
+giphypy.egg-info/top_level.txt
