@@ -1,0 +1,7 @@
+nose
+django-nose<1.4.4
+coverage
+nosexcover
+mock
+rpdb
+django-dynamic-fixture
