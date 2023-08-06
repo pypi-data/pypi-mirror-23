@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.cfg
+setup.py
+cursebox/__init__.py
+cursebox/cursebox.py
+cursebox/lms.py
+cursebox.egg-info/PKG-INFO
+cursebox.egg-info/SOURCES.txt
+cursebox.egg-info/dependency_links.txt
+cursebox.egg-info/entry_points.txt
+cursebox.egg-info/top_level.txt
+cursebox/resources/logo.txt
