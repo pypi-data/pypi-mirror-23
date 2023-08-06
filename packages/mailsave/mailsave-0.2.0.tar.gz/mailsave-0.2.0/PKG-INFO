@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: mailsave
+Version: 0.2.0
+Summary: Dump emails to a file. It can be used as a remplacement for sendmail or an SMTP server.
+Home-page: https://framagit.org/Jenselme/mailsave
+Author: Julien Enselme
+Author-email: julien.enselme@centrale-marseille.fr
+License: MIT
+Description: =========
+        Mail Save
+        =========
+        
+        Save emails to a file. It can be used as a replacement for sendmail or a SMTP server.
+        
+        It is different from other tools like `maildump <https://pypi.org/project/maildump/>`__ because:
+        
+        - It is very minimalist: no Web or GUI interface, just files.
+        - It can be used instead of sendmail.
+        
+        To use in place of sendmail, just put the path to the ``mailsave`` executable instead of the sendmail one. For instance, in a ``php.ini`` file:
+        
+        ::
+        
+            sendmail_path = /home/jenselme/.virtualenvs/test/bin/mailsave --dir mails
+        
+        To use as an SMTP server, launch it like this:
+        
+        ::
+        
+            mailsave --server --dir logs
+        
+        
+        Written for Python 3.5+.
+        
+        
+        =======
+        History
+        =======
+        
+        0.2.0 (2017-07-05)
+        ------------------
+        
+        * Can read mail from SMTP.
+        
+        
+        0.1.0 (2017-07-05)
+        ------------------
+        
+        * Can act as a replacement of sendmail.
+        
+Keywords: mail
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Communications :: Email
