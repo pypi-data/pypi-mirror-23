@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: cnm-systems
+Version: 1.0.4
+Summary: System of Cinnamon
+Home-page: https://github.com/hieutrieu/systems
+Author: Andrew Carnegie
+Author-email: mrhieutrieu@gmail.com
+License: BSD
+Description: # systems
+Keywords: development
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
