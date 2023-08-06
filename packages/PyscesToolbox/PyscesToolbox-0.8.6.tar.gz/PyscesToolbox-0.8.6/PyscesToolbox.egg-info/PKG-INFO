@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: PyscesToolbox
+Version: 0.8.6
+Summary: A set of metabolic model analysis tools for PySCeS.
+Home-page: https://github.com/PySCeS/PyscesToolbox
+Author: Carl Christensen
+Author-email: carldc@sun.ac.za
+License: BSD-3-Clause
+Download-URL: http://github.com/PySCeS/PyscesToolbox/archive/0.8.6.tar.gz
+Description: UNKNOWN
+Keywords: metabolism,metabolic control analysis,modelling
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
