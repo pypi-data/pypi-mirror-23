@@ -1,0 +1,43 @@
+Metadata-Version: 2.0
+Name: scapy2dict
+Version: 0.10
+Summary: Scapy packet to dict
+Home-page: https://github.com/littlezz/scapy2dict
+Author: littlezz
+Author-email: zz.at.field@gmail.com
+License: MIT
+Keywords: scapy development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: scapy-python3
+
+# scapy2dict
+Scapy packet to dict
+
+
+install
+-------
+`pip3 install scapy2dict`  
+
+
+Usage
+-----
+
+```python
+from scapy.all import sniff
+from scapy2dict import to_dict
+pkt = sniff(count=1)[0]
+
+# To dict
+data = to_dict(pkt)
+```
+
+
