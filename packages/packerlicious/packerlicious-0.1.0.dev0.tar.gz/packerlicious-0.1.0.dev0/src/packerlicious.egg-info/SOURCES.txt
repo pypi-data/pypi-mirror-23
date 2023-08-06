@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/packerlicious/__init__.py
+src/packerlicious.egg-info/PKG-INFO
+src/packerlicious.egg-info/SOURCES.txt
+src/packerlicious.egg-info/dependency_links.txt
+src/packerlicious.egg-info/top_level.txt
