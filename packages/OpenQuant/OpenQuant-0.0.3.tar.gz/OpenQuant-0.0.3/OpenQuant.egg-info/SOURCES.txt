@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+OpenQuant/__init__.py
+OpenQuant/open_quant_context.py
+OpenQuant/quote_query.py
+OpenQuant/trade_query.py
+OpenQuant.egg-info/PKG-INFO
+OpenQuant.egg-info/SOURCES.txt
+OpenQuant.egg-info/dependency_links.txt
+OpenQuant.egg-info/requires.txt
+OpenQuant.egg-info/top_level.txt
+OpenQuant.egg-info/zip-safe
