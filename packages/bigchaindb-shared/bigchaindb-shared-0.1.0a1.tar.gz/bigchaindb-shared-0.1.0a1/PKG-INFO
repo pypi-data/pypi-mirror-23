@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bigchaindb-shared
+Version: 0.1.0a1
+Summary: Prebuilt shared object contaning functions to read and create BigchainDB transactions
+Home-page: https://github.com/bigchaindb/bigchaindb-shared/
+Author: BigchainDB
+Author-email: dev@bigchaindb.com
+License: Apache Software License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
