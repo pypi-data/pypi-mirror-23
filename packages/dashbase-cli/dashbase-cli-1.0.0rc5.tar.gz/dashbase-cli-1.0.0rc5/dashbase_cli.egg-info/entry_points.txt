@@ -1,0 +1,6 @@
+
+        [console_scripts]
+        dashbase-cli=dashbase.cli.cli:root
+        dash=dashbase.tools.dbsql:main
+        logtail=dashbase.tools.logtail:main
+    

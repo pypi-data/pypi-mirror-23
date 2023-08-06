@@ -1,0 +1,15 @@
+setuptools==36.0.1
+texttable==0.9.1
+pyyaml==3.12
+click==6.7
+colorama==0.3.9
+cryptography==1.9
+dateparser==0.6.0
+delegator.py==0.0.12
+tqdm==4.14.0
+requests==2.18.1
+urllib3==1.21.1
+paramiko==2.2.1
+psutil==5.2.2
+dateparser==0.6.0
+terminaltables==3.1.0
