@@ -1,0 +1,11 @@
+GLWindow/__init__.py,sha256=v0jcmN-Bea1upnDMg6Yyspbago9X-QwCTS1lTUrWpFg,7272
+GLWindow/__main__.py,sha256=LOcMk91YLwbe5CduQFI92kYs_pwT2NSCmNhfaDEixhA,1901
+GLWindow/glwnd.cp36-win_amd64.pyd,sha256=0kYQsPl_CE8rMx-9i53CIX8ZAMFVzRyPRgt4fnI1tZE,29184
+GLWindow/keys.py,sha256=6jHdO7l2O3zcvUTYYBTeGJNOZ11TvodOuM7eWmNnus4,4795
+GLWindow/mock.py,sha256=RmoF7j9r5FAx65pKZ60vZH7i-wBhhld2lA4bViip5rc,335
+GLWindow-2.2.1.dist-info/DESCRIPTION.rst,sha256=5sAK9KxUEYNt3qT0zHY9QasU1FOPoxpgyO9Olp4phCE,121
+GLWindow-2.2.1.dist-info/METADATA,sha256=jpg-T3pK-YN9SbK47Xj2tA5mT7MhEJJfisj11eqGCwo,379
+GLWindow-2.2.1.dist-info/RECORD,,
+GLWindow-2.2.1.dist-info/WHEEL,sha256=4fkP9V5fUlnPlEu2h0nt7u0cPpJipYsJO32nXNevnFk,106
+GLWindow-2.2.1.dist-info/metadata.json,sha256=vqg7AWWOvS-pw5Rc-ul6USeJ6zq3IxWMdywCaFbc4vM,487
+GLWindow-2.2.1.dist-info/top_level.txt,sha256=v9z1qqR7VA4F4DtqbN7JT4givgymcxcsZkPWUo7LQqs,9
