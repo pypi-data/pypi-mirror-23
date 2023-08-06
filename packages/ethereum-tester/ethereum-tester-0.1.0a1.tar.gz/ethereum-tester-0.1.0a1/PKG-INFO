@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: ethereum-tester
+Version: 0.1.0a1
+Summary: Tools for testing Ethereum applications.
+Home-page: https://github.com/pipermerriam/ethereum-tester
+Author: Piper Merriam
+Author-email: pipermerriam@gmail.com
+License: MIT
+Description: # Ethereum Tester
+        
+        [![Join the chat at https://gitter.im/pipermerriam/ethereum-tester](https://badges.gitter.im/pipermerriam/ethereum-tester.svg)](https://gitter.im/pipermerriam/ethereum-tester?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+        
+        [![Build Status](https://travis-ci.org/pipermerriam/ethereum-tester.png)](https://travis-ci.org/pipermerriam/ethereum-tester)
+        
+        
+        Tools for testing ethereum based applications.
+        
+        
+        ## Installation
+        
+        ```sh
+        pip install ethereum-tester
+        ```
+        
+        TODO
+        
+Keywords: ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
