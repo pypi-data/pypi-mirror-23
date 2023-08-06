@@ -1,0 +1,8 @@
+spec2nexus
+pyqt==5.6.0
+matplotlib
+numpy
+future
+pyside==1.2.0
+scipy
+peakutils
