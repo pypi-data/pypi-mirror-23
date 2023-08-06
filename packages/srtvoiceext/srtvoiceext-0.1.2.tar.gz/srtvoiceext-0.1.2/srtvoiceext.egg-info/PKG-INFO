@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: srtvoiceext
+Version: 0.1.2
+Summary: A command line interface to combine text information from subtitles with voice data in the video.
+Home-page: http://github.com/abinashmeher999/voice-data-extract
+Author: Abinash Meher
+Author-email: abinashdakshana999+pypi@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: training-data,speech-recognition,speech-to-text
+Platform: UNKNOWN
