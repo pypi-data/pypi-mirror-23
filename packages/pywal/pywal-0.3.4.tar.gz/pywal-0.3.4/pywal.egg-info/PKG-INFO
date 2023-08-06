@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pywal
+Version: 0.3.4
+Summary: Generate and change colorschemes on the fly
+Home-page: https://github.com/dylanaraps/pywal
+Author: Dylan Araps
+Author-email: dylan.araps@gmail.com
+License: MIT
+Download-URL: https://github.com/dylanaraps/pywal/archive/0.3.4.tar.gz
+Description: View the DOCS at: https://github.com/dylanaraps/pywal
+        
+        Pypi doesn't like markdown OR rst with anchor links so you'll have to view the documentation elsewhere.
+        
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
