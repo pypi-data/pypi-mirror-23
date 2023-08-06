@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+foundrybot/__init__.py
+foundrybot/error.py
+foundrybot/foundrybot_client.py
+foundrybot/resource.py
+foundrybot/version.py
+foundrybot.egg-info/PKG-INFO
+foundrybot.egg-info/SOURCES.txt
+foundrybot.egg-info/dependency_links.txt
+foundrybot.egg-info/requires.txt
+foundrybot.egg-info/top_level.txt
