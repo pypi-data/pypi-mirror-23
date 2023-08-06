@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: loggy
+Version: 0.0.1.dev100
+Summary: A simplified logging utility for Python.
+Home-page: https://github.com/jmei91/loggy
+Author: Jie Mei
+Author-email: mei.jie@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
