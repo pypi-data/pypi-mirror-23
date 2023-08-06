@@ -1,0 +1,15 @@
+*.dll
+*.pyc
+*.so
+.coverage
+.coverage.*
+.installed.cfg
+.tox
+__pycache__
+bin
+build
+coverage.xml
+develop-eggs
+htmlcov/
+parts
+src/*.egg-info
