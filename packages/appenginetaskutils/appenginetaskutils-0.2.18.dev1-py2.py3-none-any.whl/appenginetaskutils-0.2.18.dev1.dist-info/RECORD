@@ -1,0 +1,17 @@
+appenginetaskutils-0.2.18.dev1.dist-info/DESCRIPTION.rst,sha256=HaPgpf8qufAwAKEXQPHMGrn0V99G8cUgQLt267kMXTo,4314
+appenginetaskutils-0.2.18.dev1.dist-info/METADATA,sha256=0RREcytEAPHu-hZAtGZ2ZJlKQBlKc6whFHT3MBT5pRk,5226
+appenginetaskutils-0.2.18.dev1.dist-info/RECORD,,
+appenginetaskutils-0.2.18.dev1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+appenginetaskutils-0.2.18.dev1.dist-info/metadata.json,sha256=Rs-yD-zfLAedwoB-o8ig2MNmdyy3rTD9XFL2sjKQ33Q,1049
+appenginetaskutils-0.2.18.dev1.dist-info/top_level.txt,sha256=7Rl6pkZtfQddpWKg6wnylOkhjF0uzmWzpuTqtbsIZ1o,10
+taskutils/__init__.py,sha256=ZD3CLHIrYD2q-yhRl3HTLuwzriT6uOq-yUPHOOYG4uw,688
+taskutils/debouncedtask.py,sha256=fDyKnX1-hIK-Wi_n-hhjKCAVliLE-FsU4jKBMDM6BK4,2635
+taskutils/future.py,sha256=ClqdGF_9zU0IJ-seDgfOgtZv69H9aA4uNoHUcGPJ8m4,18274
+taskutils/future2.py,sha256=FP20Y7NcIIvYVc-goeffHO52a8CF1kL783gvniTE7Bc,27329
+taskutils/gcsfilesharded.py,sha256=9VxgpfU-uCLxLQc643qNX8sPjG77FeuSP8gCDkE-I4Y,8421
+taskutils/gcsfilesharded2.py,sha256=e2ukervpGKPoenEVbhk_monslLRd-iYc0tL33ZUqLJI,8926
+taskutils/ndbsharded.py,sha256=yqB-A1QuEhZS9DGZK_ExVzjaE2vFkG6gw2oUHruF23c,11035
+taskutils/ndbsharded2.py,sha256=Vj_IoawvwLo7ZPQZ9GCFkql0CSh8haKBZSxRjdv1i6w,9088
+taskutils/sharded.py,sha256=X8LlitPrwijfOxWeuiIK34GRD2wxJ6v1qV34xGpQ_yM,10981
+taskutils/splitutils.py,sha256=qJRJW1t2QDGfS5e2iDyM76sdofajaRNPQyOhRAeHQiE,3036
+taskutils/task.py,sha256=06U-p_xe0a6eFZXeLZdsHse-FPx-4GWZE5Us-Pv0XTU,6561
