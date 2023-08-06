@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: deepstacks
+Version: 0.0.3
+Summary: A build_network() for Lasagne and noen.Define your network model in a datacheet with stack machine mechanisms.Support reuse part of model as function, and share parameters.
+Home-page: http://packages.python.org/deepstacks
+Author: Guo Xuesong
+Author-email: zenothing@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
