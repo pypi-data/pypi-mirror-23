@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pyorient-native
+Version: 1.1.3
+Summary: OrientDB Binary Serialization package for python
+Home-page: https://github.com/nikulukani/pyorient_native
+Author: Nikul Ukani
+Author-email: nhu2001@columbia.edu
+License: UNKNOWN
+Download-URL: https://github.com/nikulukani/pyorient_native/archive/1.1.3.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
