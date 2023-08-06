@@ -1,0 +1,14 @@
+wechatsogou/__init__.py,sha256=k3H6HLzZXH3xLav6C7QMI18r7pimA5jcW_w-KW-XAaw,204
+wechatsogou/api.py,sha256=pFoiFQwmrDG7KFCoDfc2OQhj7ib2-O3828Nzi7RX9mU,20663
+wechatsogou/basic.py,sha256=k2RdipQw8TEOS6Lf3mSB7WmYWf-B9WizHBOWwcp_q9M,20276
+wechatsogou/config.py,sha256=KmDnMzophck3UkhuyFYLKgfgRpKz7ofEtq2isywEN5A,112
+wechatsogou/exceptions.py,sha256=zRtLZcLfE6WYw3N_75FJIE8Vd4O_Ua4_PLQCsER2b2k,1534
+wechatsogou/filecache.py,sha256=8Szx-WME9f9jBSbytPNA1oOEHCkV2s0FbsreSkcbGHQ,1456
+wechatsogou/ruokuaicode.py,sha256=ntuVAxDVUXi7CqlfflAwxAqcm0g06onp2PC90141X80,1403
+wechatsogou/tools.py,sha256=wMpiJ7zHALOI48jxKT2GO87l1xHRkMJOtZcxunWKOuE,2372
+wechatsogou-2.0.5.dist-info/DESCRIPTION.rst,sha256=qCOJMJuOuyEuvU4xsnBZOS8lyRR2TGzqB8kx02nKTo8,21108
+wechatsogou-2.0.5.dist-info/METADATA,sha256=lTa6-SR7MYeO9LxcD5XrTBcdKPDnz0GTUF-i19zh3lw,22137
+wechatsogou-2.0.5.dist-info/RECORD,,
+wechatsogou-2.0.5.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+wechatsogou-2.0.5.dist-info/metadata.json,sha256=HjFOHwplynuOeuAPJ23G6VlK6oL7-dhu3w1EMjKjolo,1088
+wechatsogou-2.0.5.dist-info/top_level.txt,sha256=qYFpgAj5Dk3zytDkzH_kuObrjyoawuxblMbHDS9YA-U,12
