@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+staticflow/__init__.py
+staticflow.egg-info/PKG-INFO
+staticflow.egg-info/SOURCES.txt
+staticflow.egg-info/dependency_links.txt
+staticflow.egg-info/requires.txt
+staticflow.egg-info/top_level.txt

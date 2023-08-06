@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: staticflow
+Version: 0.0.post0
+Summary: Construct a data flow from static analysis of Python code
+Home-page: http://github.com/ViDA-NYU/staticflow
+Author: Remi Rampin
+Author-email: remirampin@gmail.com
+License: BSD-3-Clause
+Description: staticflow
+        ==========
+        
+        This is a software library and tool meant to deduct a dataflow by analysing Python code.
+        
+Keywords: python,analysis,ast,dataflow,flow,provenance,dependencies,vida,nyu
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
