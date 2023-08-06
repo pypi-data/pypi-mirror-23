@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: aispace2
+Version: 0.1.2
+Summary: blah
+Home-page: http://jupyter.org
+Author: dom
+Author-email: finaiized@gmail.com
+License: UNKNOWN
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: ipywidgets (>=6.0.0)
+
+blah
+
+
