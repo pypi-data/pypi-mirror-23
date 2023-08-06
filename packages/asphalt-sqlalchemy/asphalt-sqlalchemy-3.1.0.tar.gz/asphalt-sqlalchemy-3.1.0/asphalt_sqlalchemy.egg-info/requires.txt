@@ -1,0 +1,10 @@
+asphalt >= 3.0, < 5.0
+SQLAlchemy >= 1.0.10
+
+[testing]
+pytest
+pytest-asyncio >= 0.6
+pytest-catchlog
+pytest-cov
+psycopg2
+cymysql
