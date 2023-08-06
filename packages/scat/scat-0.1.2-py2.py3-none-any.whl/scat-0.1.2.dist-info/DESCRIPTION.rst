@@ -1,0 +1,16 @@
+Schrödinger's cat
+=================
+
+A ``cat`` clone which will print out about half of the lines.
+
+Features
+--------
+
+-  Supports ``-b`` and ``-n`` flags. Numbers correspond to lines in the
+   original file.
+-  Behaves just like ``cat`` when provided multiple files (line numbers
+   reset)
+-  Behaves just like ``cat`` when run without arguments (uses stdin)
+
+
+
