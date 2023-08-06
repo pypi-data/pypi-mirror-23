@@ -1,0 +1,12 @@
+mayatest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mayatest/__main__.py,sha256=t9a5fhd5QgQHgUpG8BYq1OdZKXF524Q7jARrsPrt6nY,131
+mayatest/cli.py,sha256=SgW9OddJWoJgBJJwDhLEb0BOIt5pDKzXJZQaMw26D4o,1225
+mayatest/mayaloc.py,sha256=lcBCCE_DrZHqq4Vy3pHIZZVn0twJgbCc8UPL5S3ow2A,2605
+mayatest/runner.py,sha256=i1XyyvT9cs442hlFVLoWNWMXNBuR34gKGIyuS_c6BpA,1250
+mayatest-0.1.2.dist-info/top_level.txt,sha256=EWte0_hQywG1yocfyv7KCC-wVK-JybYcKRJaP-P130g,9
+mayatest-0.1.2.dist-info/entry_points.txt,sha256=8nuh3KEEsuV0GRhWqAXTS7Us6cqM06iMWBamLFq0yCs,48
+mayatest-0.1.2.dist-info/METADATA,sha256=fl62vTTse_blCxSj814RRccy1Lz35Hmtwnadgl_R8sA,1968
+mayatest-0.1.2.dist-info/DESCRIPTION.rst,sha256=uM-VzRn846OMj5KQO1-51nNhnP4Y2khb0xJcnuigRt4,1482
+mayatest-0.1.2.dist-info/metadata.json,sha256=rvZCuOTI-Lg4DcyFPci8gbeEvfKSL7n9oZiw5GVf5is,823
+mayatest-0.1.2.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+mayatest-0.1.2.dist-info/RECORD,,
