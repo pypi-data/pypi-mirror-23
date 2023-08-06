@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: DataExtraction
+Version: 1.0.2
+Summary: this is a test package.
+Home-page: https://github.com/yanyundoris/eLearning_yyliu/
+Author: YanyunDoris
+Author-email: dorisliu9318@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: test python package
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
