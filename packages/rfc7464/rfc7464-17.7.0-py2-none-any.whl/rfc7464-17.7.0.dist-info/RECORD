@@ -1,0 +1,12 @@
+rfc7464/__init__.py,sha256=MP7iYOD1UZ9Odxvrn65hT_PITGlS1Ov2hRPmOYRmbA4,216
+rfc7464/_version.py,sha256=JvqoC9_vkXWjY7NRCmUhR6EiOgaq8f4OAthmKzuRahQ,472
+rfc7464/impl.py,sha256=4NKAQDXIt1zTRP-lw44DVQ2_VFrNhqc3AGO8BTAsxz0,1310
+rfc7464/tests/__init__.py,sha256=L194A6qqKeuCpjWnoWPnd0uON8GZ4rikTRSJRfuEnpw,51
+rfc7464/tests/nitpicker.py,sha256=APOuvFoLGxMkw7okxUG1qrcz4jpJu_MSu3SitaTiZ1k,1749
+rfc7464/tests/test_rfc7464.py,sha256=k0YK93rc13-2QnMRm2bNcVk8VmLsVjpbVa1vY3z_82k,3420
+rfc7464-17.7.0.dist-info/DESCRIPTION.rst,sha256=isTaCeHy_jGprhExkhC7Zb2VQqEcWNWIIdBA74sde8k,1289
+rfc7464-17.7.0.dist-info/METADATA,sha256=qqZ7wKU5EmFHM3D42f9QYX5t2Vi1Poj4doWC0JszdA4,1515
+rfc7464-17.7.0.dist-info/RECORD,,
+rfc7464-17.7.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+rfc7464-17.7.0.dist-info/metadata.json,sha256=r5DLO_kDGYuWY4M579WjWkNH5Goat7-Cg3gb_YHsbTY,412
+rfc7464-17.7.0.dist-info/top_level.txt,sha256=W7pVJ7AMgcF8C4dOF7YRCNbdBgIm8_SSwImeq2CUChw,8
