@@ -1,0 +1,13 @@
+EMD_signal-0.2.1.dist-info/DESCRIPTION.rst,sha256=_7toMSPp_m14kSKm1BV5iC84WcCY-oiTNJZGjEYr-ro,3674
+EMD_signal-0.2.1.dist-info/METADATA,sha256=5tZBG6M4zsNAlqlWpVjf2xHwjruG3WgwsFyQDWn6syE,4712
+EMD_signal-0.2.1.dist-info/RECORD,,
+EMD_signal-0.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+EMD_signal-0.2.1.dist-info/metadata.json,sha256=Xdc_pR1k151XtN-m16BRNlVt14mqq-E0gz0PBLzfJjc,1127
+EMD_signal-0.2.1.dist-info/top_level.txt,sha256=z-hVqUpp8_WMbw4YbhYggDU_FhdMfzRQCzxgl66AV9Q,6
+PyEMD/EEMD.py,sha256=_gb5gdWfT6wFWaI7GnFBrFXg9xCaEKtiOvDCMN7mXD8,5211
+PyEMD/EMD.py,sha256=T7nlcK5CwU1D2_RNdqQrm6CX1QqQBQrc3pVW_EdX_eY,34454
+PyEMD/EMD2d.py,sha256=W2sjb-kJrTz_0dhGKgKRoUJXuAc5yRlVxbWTxLbnT9Q,13308
+PyEMD/EMD_good_corr.py,sha256=q0yup41zhfaXG55F7MW6_BTPMe1QGJKx399--jLBU3I,35648
+PyEMD/EMD_matlab.py,sha256=l1C95ynNVABAFLH9hdFXLzFsLEtcV7GvzoAz46DCAaM,23834
+PyEMD/__init__.py,sha256=B1BJCTLBRbDZi_u-AVHtQXBSZSehG2bAD2l39JnDzuc,251
+PyEMD/splines.py,sha256=7NfnX9gbxdYMJnd0BDo5CHhW6vvlEypBvbQc8eNJWcI,1261
