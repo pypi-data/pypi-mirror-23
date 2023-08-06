@@ -1,0 +1,4 @@
+include README.md
+recursive-include seo_meta_fields/migrations *
+recursive-include seo_meta_fields *
+recursive-include seo_meta_fields/template *
