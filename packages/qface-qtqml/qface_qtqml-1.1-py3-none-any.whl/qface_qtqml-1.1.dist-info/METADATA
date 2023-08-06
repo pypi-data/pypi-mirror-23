@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: qface-qtqml
+Version: 1.1
+Summary: Qt QML generator based on the QFace library
+Home-page: https://github.com/Pelagicore/qface-qtqml
+Author: jryannel
+Author-email: juergen@ryannel.org
+License: MIT
+Keywords: qt code generator framework
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: qface
+
+UNKNOWN
+
+
