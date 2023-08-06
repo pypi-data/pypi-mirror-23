@@ -1,0 +1,10 @@
+httsleep/__init__.py,sha256=6pWRGHNLb4f0UA5GXrsvmlnqlyKzIKRqm2vkINJfoDw,39
+httsleep/_compat.py,sha256=783GvuDLHlSuXD15ZsJemSbPhak-qCC1fxbiXkUMChk,228
+httsleep/exceptions.py,sha256=-2lgcKe6hJmwalLtoZEe81ZkNnczE-nmBB1k6eoXm8s,461
+httsleep/main.py,sha256=YWFQMpljz0GpkJ2XTl_LJI0ddhU59IbFVXwWRudWneo,8981
+httsleep-0.2.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+httsleep-0.2.1.dist-info/METADATA,sha256=dw2UmQWN6ftjnt73XezosJZbXkKeUjZ6SZ3bJcIoFuo,621
+httsleep-0.2.1.dist-info/RECORD,,
+httsleep-0.2.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+httsleep-0.2.1.dist-info/metadata.json,sha256=iaO_JoXfkv3Jp5b45OMoX10cRHINg69O6t32WjDYAbs,787
+httsleep-0.2.1.dist-info/top_level.txt,sha256=E4xjSo2tcvIeYkZsxkLP91Y62v--MDxr3pJ7FP2AoYk,9
