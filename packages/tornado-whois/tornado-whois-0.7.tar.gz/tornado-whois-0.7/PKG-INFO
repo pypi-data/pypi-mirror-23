@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: tornado-whois
+Version: 0.7
+Summary: Asynchronous python tornado whois client
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Tornado-Whois
+        ===============
+        
+        Asynchronous Whois client for tornado framework
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        ::
+        
+            pip install tornado-whois
+        
+        Example
+        ~~~~~~~
+        
+        ::
+        
+            from tornado import ioloop, gen
+            from tornadowhois import AsyncWhoisClient
+        
+        
+            async def main():
+                data = await AsyncWhoisClient().lookup("example.com")
+                print(data)
+        
+            ioloop.IOLoop.current().spawn_callback(main)
+        
+        
+        Example with non-blocking resolver
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        ::
+        
+            from tornado import ioloop, gen
+            from tornado.platform.caresresolver import CaresResolver
+            from tornadowhois import AsyncWhoisClient
+        
+            resolver = CaresResolver()
+        
+            async def main():
+                data = await AsyncWhoisClient(resolver).lookup("example.com")
+                print(data)
+        
+            ioloop.IOLoop.current().spawn_callback(main)
+        
+Keywords: tornado,whois,tornado-whois,asyncwhois
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires: tornado (>=4.3)
