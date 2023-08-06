@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: oscar-portation
+Version: 0.1.1
+Summary: Oscar dashboard app for import/export
+Home-page: https://github.com/dima-kov/oscar-portation
+Author: Dima Kovalchuk
+Author-email: dmyutro@ukr.net
+License: BSD License
+Download-URL: https://github.com/dima-kov/oscar-portation/archive/v0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: django,oscar,export,import
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
