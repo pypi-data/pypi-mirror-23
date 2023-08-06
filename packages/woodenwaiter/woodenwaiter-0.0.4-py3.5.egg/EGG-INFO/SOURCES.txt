@@ -1,0 +1,9 @@
+README.rst
+setup.py
+woodenwaiter/__init__.py
+woodenwaiter/woodenwaiter.py
+woodenwaiter.egg-info/PKG-INFO
+woodenwaiter.egg-info/SOURCES.txt
+woodenwaiter.egg-info/dependency_links.txt
+woodenwaiter.egg-info/requires.txt
+woodenwaiter.egg-info/top_level.txt
