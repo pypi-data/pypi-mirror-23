@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+vapour_linux_amd64.egg-info/PKG-INFO
+vapour_linux_amd64.egg-info/SOURCES.txt
+vapour_linux_amd64.egg-info/dependency_links.txt
+vapour_linux_amd64.egg-info/top_level.txt
