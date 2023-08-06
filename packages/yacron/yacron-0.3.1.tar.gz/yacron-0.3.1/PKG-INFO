@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: yacron
+Version: 0.3.1
+Summary: A modern Cron replacement that is Docker-friendly
+Home-page: https://github.com/gjcarneiro/yacron
+Author: Gustavo Carneiro
+Author-email: gustavocarneiro@gambitresearch.com
+License: MIT license
+Description: ================
+        Yet Another Cron
+        ================
+        
+        
+        A modern Cron replacement that is Docker-friendly
+        
+        
+        * Free software: MIT license
+        
+        
+        Features
+        --------
+        
+        * "Crontab" is in YAML format
+        * Builtin sending of Sentry and Mail outputs when cron jobs fail
+        * Flexible configuration: you decide how to determine if a cron job fails or not
+        * Designed for running in Docker, Kubernetes, or 12 factor environments:
+        
+          * Runs in the foreground
+          * Logs everything to stdout/stderr
+        
+        * Option to automatically retry failing cron jobs, with exponential backoff
+        
+Keywords: yacron
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
