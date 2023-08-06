@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+brad_nlp_helpers/__init__.py
+brad_nlp_helpers/nlp.py
+brad_nlp_helpers.egg-info/PKG-INFO
+brad_nlp_helpers.egg-info/SOURCES.txt
+brad_nlp_helpers.egg-info/dependency_links.txt
+brad_nlp_helpers.egg-info/not-zip-safe
+brad_nlp_helpers.egg-info/requires.txt
+brad_nlp_helpers.egg-info/top_level.txt
