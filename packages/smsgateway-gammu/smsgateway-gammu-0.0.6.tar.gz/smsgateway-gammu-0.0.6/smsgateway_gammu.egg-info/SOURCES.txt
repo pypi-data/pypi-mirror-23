@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+VERSION
+requirements.txt
+setup.py
+bin/smsgateway
+etc/smsgateway.yml
+smsgateway_gammu.egg-info/PKG-INFO
+smsgateway_gammu.egg-info/SOURCES.txt
+smsgateway_gammu.egg-info/dependency_links.txt
+smsgateway_gammu.egg-info/requires.txt
+smsgateway_gammu.egg-info/top_level.txt
