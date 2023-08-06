@@ -1,0 +1,11 @@
+version_query/__init__.py,sha256=43IY89JnfF-ZKmy8vo3FwPVG2JMASiNFRNizvw9CbjI,356
+version_query/__main__.py,sha256=8wMrsnOi2mxMCR-gbGxnENT4pKFN9MVRJBq8KJ_mOJM,661
+version_query/_version.py,sha256=1nm2LHEwpPyo07apqj2071qbvcWmwlzXfFOCRj171vo,118
+version_query/determine.py,sha256=46I3lYHKSKDxEdPxljhaT1BTG8vg6NIVXh1nyeYFPpU,4981
+version_query/version.py,sha256=KqWcJuFHpeWMDBpdrRGrG4zgjs1LIBFZEalnlElWwI4,4855
+version_query-0.0.1.dev1.dist-info/DESCRIPTION.rst,sha256=h1FIECAdIcMRPYjKOb216LwH-rd12nypEfLKe0bQ3YI,5754
+version_query-0.0.1.dev1.dist-info/METADATA,sha256=KUzKqOhj59Cl7pjqKsYVteVv9tkKaDnVJBvTYsq6jiA,6884
+version_query-0.0.1.dev1.dist-info/RECORD,,
+version_query-0.0.1.dev1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+version_query-0.0.1.dev1.dist-info/metadata.json,sha256=k8HSOMp-TkIGttMN1JvCfhCq2Nu2DmFPAmYfM57pCzI,1239
+version_query-0.0.1.dev1.dist-info/top_level.txt,sha256=Sw335Q29h6EUZHfPSji8rGTnBv2osM7_kzDqwJc9l_I,14
