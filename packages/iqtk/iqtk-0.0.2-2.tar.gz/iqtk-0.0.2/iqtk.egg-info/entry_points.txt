@@ -1,0 +1,3 @@
+[console_scripts]
+iqtk = inquiry.framework.cli:main
+
