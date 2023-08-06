@@ -1,0 +1,68 @@
+#knorPy
+
+[![Build
+Status](https://travis-ci.org/flashxio/knorPy.svg?branch=master)](https://travis-ci.org/flashxio/knorPy)
+
+These are Python 2.7 bindings for the standalone machine in-memory portion of the
+`knor` (k-means NUMA Optimized Routines Library) as known as `knori`. See the
+full C++ library for details: https://github.com/flashxio/knor
+
+## Python Dependencies
+
+- Numpy: `pip install numpy`
+- Cython version 0.23.5 `pip install Cython==0.23.5`
+
+## Mac Installation
+
+`pip install knor`
+
+## Linux installation
+
+### Best Performance configuration
+
+For the best performance make sure the `numa` system package is installed via
+
+```
+apt-get install -y libnuma-dbg libnuma-dev libnuma1
+```
+
+
+Then simply install the package via pip:
+
+```
+pip install knor
+```
+
+## Installation Errors
+
+1.
+```
+File "/private/var/folders/... .../knor/setup.py", line X
+        raise DistutilsSetupError, \
+                                 ^
+    SyntaxError: invalid syntax
+```
+
+Answer:
+
+Make sure you are using Python 2.7 and not Python 3 Trying to install package for
+
+2.
+```
+  File “/Library/Python/2.7/site-packages/pip/utils/__init__.py”, line X, in
+  call_subprocess
+      % (command_desc, proc.returncode, cwd))
+      InstallationError: Command “python setup.py egg_info” failed with error
+      code 1 in /private/tmp/pip-build-vaASFl/knor/
+```
+
+Answer:
+
+Update your `python` version to at least `2.7.12`
+
+## Documentation
+
+```
+import knor
+help(knor.Kmeans)
+```
