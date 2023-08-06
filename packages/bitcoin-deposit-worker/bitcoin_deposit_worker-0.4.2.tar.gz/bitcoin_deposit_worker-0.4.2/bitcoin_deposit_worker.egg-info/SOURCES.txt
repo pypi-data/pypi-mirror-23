@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+bitcoin_deposit_worker/__init__.py
+bitcoin_deposit_worker/worker.py
+bitcoin_deposit_worker/worker_confirm_exception.py
+bitcoin_deposit_worker.egg-info/PKG-INFO
+bitcoin_deposit_worker.egg-info/SOURCES.txt
+bitcoin_deposit_worker.egg-info/dependency_links.txt
+bitcoin_deposit_worker.egg-info/top_level.txt
+bitcoin_deposit_worker/persistence/__init__.py
+bitcoin_deposit_worker/persistence/file_persistent.py
+bitcoin_deposit_worker/persistence/progress_persistent.py
+bitcoin_deposit_worker/watchlist/__init__.py
+bitcoin_deposit_worker/watchlist/dummy_watchlist.py
+bitcoin_deposit_worker/watchlist/watchlist.py
