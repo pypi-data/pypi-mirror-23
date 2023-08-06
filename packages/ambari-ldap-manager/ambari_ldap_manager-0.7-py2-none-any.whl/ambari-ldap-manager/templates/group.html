@@ -1,0 +1,19 @@
+<!doctype html>
+{% extends "layout.html" %}
+	{% block body %}
+
+	<div class="container-fluid">
+	<p><strong>{{ group['Groups']['group_name'] }}</strong> </p>
+	<p>Members</p>
+	   <ul id="groups">
+	      {% for g in range(group['members']|length) %}
+	         <li>
+	               <a href="{{ url_for('user', get_user=group['members'][g]['MemberInfo']['user_name']) }}">{{ group['members'][g]['MemberInfo']['user_name'] }}</a>
+	         </li>
+	      {% endfor %}
+	   </ul>
+	 <a class="btn btn-info" href="{{ url_for('sync_group', sync_group=group['Groups']['group_name']) }}">Sync Group</a>
+	 <a class="btn btn-danger" href="{{ url_for('delete_group', del_group=group['Groups']['group_name']) }}">Delete Group</a>
+	  
+	</div>
+{% endblock %}
