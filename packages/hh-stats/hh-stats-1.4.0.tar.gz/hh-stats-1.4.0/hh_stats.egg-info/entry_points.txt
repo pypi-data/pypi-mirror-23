@@ -1,0 +1,3 @@
+[console_scripts]
+hh-stats = hh_stats:main
+
