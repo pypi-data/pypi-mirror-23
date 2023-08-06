@@ -1,0 +1,2 @@
+// built from: repo version hash
+https://github.com/AlexanderShekhovcov/anoncreds.git 0.4.3 1e56ded003f56df24fa4f2c78c5e47b2bd751c5f
