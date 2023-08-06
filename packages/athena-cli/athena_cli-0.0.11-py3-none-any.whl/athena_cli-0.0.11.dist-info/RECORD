@@ -1,0 +1,14 @@
+astanin_tabulate.py,sha256=jjVT6-vY3zrfHzUkK3fGN1PRwGmImQUUuM31v0iMhfI,52780
+athena_cli.py,sha256=VWY1hYRAgPCp-O3xnFJg02oC86q-p_qBxsGYnV2xhIY,12700
+tabulate.py,sha256=jjVT6-vY3zrfHzUkK3fGN1PRwGmImQUUuM31v0iMhfI,52780
+tabulate_presto.py,sha256=jjVT6-vY3zrfHzUkK3fGN1PRwGmImQUUuM31v0iMhfI,52780
+athena_cli-0.0.11.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+athena_cli-0.0.11.dist-info/METADATA,sha256=rf0WjGG5Y-6J4KwF1EBcOS-uJSkehAObvndfq5iJxpo,372
+athena_cli-0.0.11.dist-info/RECORD,,
+athena_cli-0.0.11.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+athena_cli-0.0.11.dist-info/entry_points.txt,sha256=0t98shxq2Kvkx3VfNLElHMtJ6EBCuosKINnbmbu9Cak,44
+athena_cli-0.0.11.dist-info/metadata.json,sha256=PXUKcTxGFjMElP_VXknfvtmefqdADL6k-Mer4hKTqAM,734
+athena_cli-0.0.11.dist-info/top_level.txt,sha256=VoVIzka1nnF1gu-9qzVDT7zAWfeSYix-9_EK6h62NlU,27
+athena_cli-0.0.11.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tabulate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tabulate/tabulate.py,sha256=jjVT6-vY3zrfHzUkK3fGN1PRwGmImQUUuM31v0iMhfI,52780
