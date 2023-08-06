@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: ignite
+Version: 1.1.0
+Summary: Apache Ignite Rest Client Library
+Home-page: https://github.com/dany74q/python-apache-ignite
+Author: Danny Shemesh
+Author-email: dany74q@gmail.com
+License: MIT
+Keywords: Apache Ignite Rest API
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: requests
+Requires-Dist: wrapt
+
+UNKNOWN
+
+
