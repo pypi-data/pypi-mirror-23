@@ -1,0 +1,6 @@
+enum
+paho-mqtt
+Jinja2
+pyyaml
+pyaudio
+pygame
