@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: mds_lang_extension
+Version: 0.1.0
+Summary: Tryton module to add many language definitions for Tryton
+Home-page: https://www.m-ds.de/
+Author: m-ds GmbH
+Author-email: service@m-ds.de
+License: GPL-3
+Download-URL: https://www.m-ds.de/serviceportal/downloads/trytonmodul-lang-extension
+Description: mds-lang-extension
+        =================
+        This module extends the list of available languages in Tryton. 
+        There are no new translations. You can use the new languages 
+        in the language selection of the parties.
+        
+        Install
+        =======
+        
+        pip install mds-lang-extension
+        
+        Requires
+        ========
+        - Tryton 3.8
+        
+        Changes
+        =======
+        
+        *0.1.0 - 07/12/2017*
+        
+        - first public version
+        
+Keywords: tryton language country
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business
+Classifier: Natural Language :: English
+Classifier: Natural Language :: German
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 2.7
