@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+mail_to_sms/__init__.py
+mail_to_sms/gateways.json
+mail_to_sms/mail_to_sms.py
+mail_to_sms/mail_to_sms_cli.py
+mail_to_sms.egg-info/PKG-INFO
+mail_to_sms.egg-info/SOURCES.txt
+mail_to_sms.egg-info/dependency_links.txt
+mail_to_sms.egg-info/entry_points.txt
+mail_to_sms.egg-info/requires.txt
+mail_to_sms.egg-info/top_level.txt
