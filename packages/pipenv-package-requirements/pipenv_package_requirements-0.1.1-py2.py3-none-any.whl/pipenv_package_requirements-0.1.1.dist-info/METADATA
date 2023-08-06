@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: pipenv-package-requirements
+Version: 0.1.1
+Summary: Pipenv tools for requirements.txt
+Home-page: https://github.com/Blue-Dog-Archolite/pipenv-package-requirements
+Author: Robert R. Meyer
+Author-email: Blue.Dog.Archolite@gmail.com
+License: GNU
+Keywords: pipenv virtualenv
+Platform: UNKNOWN
+Requires-Dist: pipenv
+
+UNKNOWN
+
+
