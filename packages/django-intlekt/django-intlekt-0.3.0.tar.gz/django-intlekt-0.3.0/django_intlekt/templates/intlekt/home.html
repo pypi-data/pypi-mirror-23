@@ -1,0 +1,100 @@
+{% extends "intlekt/layout.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static "intlekt/tabs.css" %}" type="text/css" />
+    <link rel="stylesheet" href="{% static "intlekt/style.css" %}" type="text/css" />
+    <link rel="stylesheet" href="{% static "intlekt/postsList.css" %}" type="text/css" />
+    <link rel="stylesheet" href="{% static "intlekt/jquery-ui.css" %}" type="text/css" />
+{% endblock %}
+
+{% block body %}
+<header>
+    <h1>Intlekt</h1>
+
+    <nav></nav>
+
+    <div id="messages">Loading...</div>
+</header>
+
+<div id="collections">
+    <div id="collections-list" class="container"></div>
+    <div class="container">
+        <div id="collection-creator"></div>
+        <h3>Import from Scoopit</h3>
+        <div id="collections-importer-scoopit"></div>
+    </div>
+</div>
+
+<div id="collection">
+    <ul class="tabs">
+        <li data-tab="editor" class="active"><a href="#">Editor</a></li>
+        <li data-tab="tags"><a href="#">Tags</a></li>
+        <li data-tab="importation"><a href="#">Importation</a></li>
+    </ul>
+    <div class="editor tab-content active">
+        <div class="container left">
+            <div id="collection-editor"></div>
+            <h3>Add a post</h3>
+            <div id="post-creator"></div>
+        </div>
+        <div class="container right">
+            <h3>Posts</h3>
+            <div id="posts-list"></div>
+        </div>
+    </div>
+    <div id="collection-tag-editor" class="tags tab-content">
+    </div>
+    <div class="importation tab-content">
+        <div>
+            <h3>Scoopit</h3>
+            <div id="collected-source-creator-scoopit"></div>
+            <div id="collected-sources-list-scoopit"></div>
+        </div>
+    </div>
+</div>
+
+<div id="post">
+    <ul class="tabs">
+        <li data-tab="editor" class="active"><a href="#">Editor</a></li>
+        <li data-tab="tags"><a href="#">Tags</a></li>
+        <li data-tab="usl"><a href="#">USL</a></li>
+    </ul>
+    <div class="editor tab-content active">
+        <div class="container left">
+            <h3>Post</h3>
+            <div id="post-editor"></div>
+        </div>
+        <div class="container right">
+            <h3>Document</h3>
+            <div id="document-editor"></div>
+        </div>
+    </div>
+    <div id="post-tag-editor" class="tags tab-content"></div>
+    <div id="post-usl-editor" class="usl tab-content"></div>
+</div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static "intlekt/list.min.js" %}"></script>
+    <script src="{% static "intlekt/jquery-3.2.1.min.js" %}"></script>
+    <script src="{% static "intlekt/jquery-ui.js" %}"></script>
+    <script src="{% static "intlekt/underscore-min.js" %}"></script>
+    <script src="{% static "intlekt/tools.js" %}"></script>
+    <script src="{% static "intlekt/api.js" %}"></script>
+    <script src="{% static "intlekt/tagEditor.js" %}"></script>
+    <script src="{% static "intlekt/documentEditor.js" %}"></script>
+    <script src="{% static "intlekt/postEditor.js" %}"></script>
+    <script src="{% static "intlekt/postsList.js" %}"></script>
+    <script src="{% static "intlekt/postCreator.js" %}"></script>
+    <script src="{% static "intlekt/collectionsList.js" %}"></script>
+    <script src="{% static "intlekt/collectionEditor.js" %}"></script>
+    <script src="{% static "intlekt/collectionCreator.js" %}"></script>
+    <script src="{% static "intlekt/collectionsImporterScoopit.js" %}"></script>
+    <script src="{% static "intlekt/collectedSourceCreatorScoopit.js" %}"></script>
+    <script src="{% static "intlekt/collectedSourcesListScoopit.js" %}"></script>
+    <script src="{% static "intlekt/breadcrumb.js" %}"></script>
+    <script src="{% static "intlekt/tabs.js" %}"></script>
+    <script src="{% static "intlekt/ui.js" %}"></script>
+{% endblock %}
