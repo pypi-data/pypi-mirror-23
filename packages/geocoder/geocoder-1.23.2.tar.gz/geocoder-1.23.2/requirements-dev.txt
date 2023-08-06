@@ -1,0 +1,8 @@
+coveralls >= 0.4
+mock
+setuptools
+pytest
+pytest-cov
+pytest-pep8
+pytest-xdist
+wheel
