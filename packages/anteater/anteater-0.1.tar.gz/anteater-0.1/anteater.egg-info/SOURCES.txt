@@ -1,0 +1,16 @@
+setup.py
+anteater/__init__.py
+anteater/anteater.py
+anteater.egg-info/PKG-INFO
+anteater.egg-info/SOURCES.txt
+anteater.egg-info/dependency_links.txt
+anteater.egg-info/entry_points.txt
+anteater.egg-info/not-zip-safe
+anteater.egg-info/requires.txt
+anteater.egg-info/top_level.txt
+anteater/src/__init__.py
+anteater/src/get_lists.py
+anteater/src/patch_scan.py
+anteater/src/project_scan.py
+anteater/utils/__init__.py
+anteater/utils/anteater_logger.py
