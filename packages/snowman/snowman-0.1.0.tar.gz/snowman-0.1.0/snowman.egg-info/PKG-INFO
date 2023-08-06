@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: snowman
+Version: 0.1.0
+Summary: An interactive system for portfolios on xueqiu.com
+Home-page: https://github.com/ruioaix/snowman
+Author: rui oaix
+Author-email: rui.oaix@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
