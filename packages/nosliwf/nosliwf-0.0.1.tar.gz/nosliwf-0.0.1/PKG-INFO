@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nosliwf
+Version: 0.0.1
+Summary: Remove sliwf
+Home-page: https://lessbroken.org/~fwilson/nosliwf
+Author: fwilson
+Author-email: fwilson@lessbroken.org
+License: CC0
+Description: A package to remove "sliwf" from text.
+Keywords: no sliwf
+Platform: UNKNOWN

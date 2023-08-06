@@ -1,0 +1,7 @@
+README
+setup.py
+nosliwf/__init__.py
+nosliwf.egg-info/PKG-INFO
+nosliwf.egg-info/SOURCES.txt
+nosliwf.egg-info/dependency_links.txt
+nosliwf.egg-info/top_level.txt
