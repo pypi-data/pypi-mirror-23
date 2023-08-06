@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ifsccode
+Version: 0.3.3
+Summary: A package for downloading ifsc code of banks
+Home-page: https://github.com/viveksyngh/ifsc-code
+Author: Vivek Singh
+Author-email: vivekkmr45@yahoo.in
+License: UNKNOWN
+Download-URL: https://github.com/viveksyngh/ifsc-code/archive/0.3.3.tar.gz
+Description: UNKNOWN
+Keywords: Bank IFSC code,IFSC Code,IFSC
+Platform: Any
+Provides: ifsc_code
