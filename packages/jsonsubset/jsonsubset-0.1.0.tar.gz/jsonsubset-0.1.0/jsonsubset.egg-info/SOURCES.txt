@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+jsonsubset/__init__.py
+jsonsubset/json_parser.pyx
+jsonsubset/subset.pyx
+jsonsubset/test.py
+jsonsubset/test_json.py
+jsonsubset/test_ujson.py
+jsonsubset.egg-info/PKG-INFO
+jsonsubset.egg-info/SOURCES.txt
+jsonsubset.egg-info/dependency_links.txt
+jsonsubset.egg-info/requires.txt
+jsonsubset.egg-info/top_level.txt
+jsonsubset/deps/xxhash_cython/xxhash.pyx
+jsonsubset/deps/xxhash_cython/xxHash/xxhash.c
