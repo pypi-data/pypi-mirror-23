@@ -1,0 +1,9 @@
+macosx-10.7-x86_64
+numpy is enabled.
+numpy_include_dirs = /Users/erwincoumans/anaconda3/lib/python3.6/site-packages/numpy/core/include
+darwin!
+running build
+running build_ext
+building 'pybullet' extension
+gcc -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/erwincoumans/anaconda3/include -arch x86_64 -I/Users/erwincoumans/anaconda3/include -arch x86_64 -I/Users/erwincoumans/anaconda3/lib/python3.6/site-packages/numpy/core/include -Isrc -Iexamples/ThirdPartyLibs -Iexamples/ThirdPartyLibs/Glew -Iexamples/ThirdPartyLibs/enet/include -Iexamples/ThirdPartyLibs/clsocket/src -I/Users/erwincoumans/anaconda3/include/python3.6m -c examples/pybullet/pybullet.c -o build/temp.macosx-10.7-x86_64-3.6/examples/pybullet/pybullet.o -DGWEN_COMPILE_STATIC -DBT_USE_DOUBLE_PRECISION -DBT_ENABLE_ENET -DBT_ENABLE_CLSOCKET -DB3_DUMP_PYTHON_VERSION -DPYBULLET_USE_NUMPY -DHAS_SOCKLEN_T -D_DARWIN
+gcc -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/erwincoumans/anaconda3/include -arch x86_64 -I/Users/erwincoumans/anaconda3/include -arch x86_64 -I/Users/erwincoumans/anaconda3/lib/python3.6/site-packages/numpy/core/include -Isrc -Iexamples/ThirdPartyLibs -Iexamples/ThirdPartyLibs/Glew -Iexamples/ThirdPartyLibs/enet/include -Iexamples/ThirdPartyLibs/clsocket/src -I/Users/erwincoumans/anaconda3/include/python3.6m -c examples/ExampleBrowser/InProcessExampleBrowser.cpp -o build/temp.macosx-10.7-x86_64-3.6/examples/ExampleBrowser/InProcessExampleBrowser.o -DGWEN_COMPILE_STATIC -DBT_USE_DOUBLE_PRECISION -DBT_ENABLE_ENET -DBT_ENABLE_CLSOCKET -DB3_DUMP_PYTHON_VERSION -DPYBULLET_USE_NUMPY -DHAS_SOCKLEN_T -D_DARWIN
