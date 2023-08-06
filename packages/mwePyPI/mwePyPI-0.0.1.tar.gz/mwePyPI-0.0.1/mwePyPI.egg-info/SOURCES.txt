@@ -1,0 +1,9 @@
+README.rst
+setup.py
+mwePyPI/__init__.py
+mwePyPI/file_with_mysum.py
+mwePyPI.egg-info/PKG-INFO
+mwePyPI.egg-info/SOURCES.txt
+mwePyPI.egg-info/dependency_links.txt
+mwePyPI.egg-info/not-zip-safe
+mwePyPI.egg-info/top_level.txt
