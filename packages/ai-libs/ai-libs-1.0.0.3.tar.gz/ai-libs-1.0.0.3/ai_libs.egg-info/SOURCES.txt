@@ -1,0 +1,11 @@
+README.txt
+setup.py
+ai/__init__.py
+ai/autoencoder/__init__.py
+ai/autoencoder/agn_autoencoder.py
+ai/autoencoder/setup_backup.py
+ai/autoencoder/test.py
+ai_libs.egg-info/PKG-INFO
+ai_libs.egg-info/SOURCES.txt
+ai_libs.egg-info/dependency_links.txt
+ai_libs.egg-info/top_level.txt
