@@ -1,0 +1,12 @@
+infi.recipe.close_application-0.0.16-py2.7-nspkg.pth,sha256=eg3rbHc27DiC8-CpZ9WU8jZk28mhn4edSvJZvQb03Mk,1720
+infi/recipe/close_application/__init__.py,sha256=Zou37yEQaiiwaHhTSBSxY5iyicT9OOFCpDcWxdBEsZo,3388
+infi/recipe/close_application/__version__.py,sha256=eV2gLkq1eDPMNit51Ad1hRqF6-xNPUoIC-EIqXZ6Aew,422
+infi/recipe/close_application/tests.py,sha256=NER7rk18ZK1xRkoDxA6R2fotgkTC1w3Og6ATUCFwsKc,6228
+infi.recipe.close_application-0.0.16.dist-info/DESCRIPTION.rst,sha256=3Z-8YyU4Rfw1bH6yeaF0PN0FkJNZOWKV7g0y52Omw5E,50
+infi.recipe.close_application-0.0.16.dist-info/METADATA,sha256=h2x-FE94AumPu4Rhui5oyf5h-YOqXUHZdn55gk7_Snw,734
+infi.recipe.close_application-0.0.16.dist-info/RECORD,,
+infi.recipe.close_application-0.0.16.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.recipe.close_application-0.0.16.dist-info/entry_points.txt,sha256=9T5L6PwY_kxmKji9O0M2_sMpiYX0f37pzUhhA4KZN2Y,108
+infi.recipe.close_application-0.0.16.dist-info/metadata.json,sha256=XzwJD5jH-lNyVJOMmcJafVd8HqAoNEcdC4SDeIKo504,1042
+infi.recipe.close_application-0.0.16.dist-info/namespace_packages.txt,sha256=o80dT8wHd6HfYzs8LSAisfHEuaGlz3bW9jvmaYhv3mQ,17
+infi.recipe.close_application-0.0.16.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
