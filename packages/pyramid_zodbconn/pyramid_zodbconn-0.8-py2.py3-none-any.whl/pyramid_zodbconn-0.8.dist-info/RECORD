@@ -1,0 +1,10 @@
+pyramid_zodbconn/__init__.py,sha256=MJKcgsz-9HqeATJXAdnjaIjhrKggnzRtWkZsbjElju4,7326
+pyramid_zodbconn/compat.py,sha256=h1yZWlUT1dsVnuO27MxpJ0eS9zfJscjYgmgXNFp_CHE,443
+pyramid_zodbconn/tests/__init__.py,sha256=UnxmjVrk-eNORsitiM48W0pB6yfsaErOak8RYh_ELt8,10
+pyramid_zodbconn/tests/test_init.py,sha256=rdwBMJQiCRBeXUoo2z-4t46XdYYzUkTFqgldPKve1bk,10834
+pyramid_zodbconn-0.8.dist-info/DESCRIPTION.rst,sha256=4KIvrnr4vz5XAkptiVBFZSO2FsD6EG-Qa11xEnjxEOo,1854
+pyramid_zodbconn-0.8.dist-info/METADATA,sha256=0pLmK2Yq0Wni5-WLO31O4nM-N00NdMNIHkMqsUEcsC0,2918
+pyramid_zodbconn-0.8.dist-info/RECORD,,
+pyramid_zodbconn-0.8.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pyramid_zodbconn-0.8.dist-info/metadata.json,sha256=wPaIZGWTx5Zp0OAVKKQVu-HS9NEmOQJ0r8evemRWuBI,1216
+pyramid_zodbconn-0.8.dist-info/top_level.txt,sha256=yF1DiGLL2CRS3E-_mo2ATao3THFy6v8Rx6bNSAngkYc,17
