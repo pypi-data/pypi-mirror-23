@@ -1,0 +1,8 @@
+serialman.py
+setup.py
+serialman.egg-info/PKG-INFO
+serialman.egg-info/SOURCES.txt
+serialman.egg-info/dependency_links.txt
+serialman.egg-info/requires.txt
+serialman.egg-info/top_level.txt
+serialman.egg-info/zip-safe
