@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_uipcalc.py,sha256=RUudKC_hENPjm1FaRFzIf8UFvudlTNcNXYoQbEKLL4s,2920
+uipcalc/__init__.py,sha256=51Z76H28T0i3s0wmZ_2A9-PTkrL9YRKYSsSJgN5OAgo,3110
+uipcalc-0.3.3.dist-info/DESCRIPTION.rst,sha256=lbCESMP9KSWSSrUU8CuEsi6NCvSGes-K-4kRtFfwHvQ,2871
+uipcalc-0.3.3.dist-info/METADATA,sha256=WkU2q320s2_gopqD209rSFbopPXjE7I-VNdcogt8jO4,4087
+uipcalc-0.3.3.dist-info/RECORD,,
+uipcalc-0.3.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+uipcalc-0.3.3.dist-info/entry_points.txt,sha256=njtMCwFLYD-edL4gdrZMrQKNPC0xJ0ovhODTIWgE-T0,42
+uipcalc-0.3.3.dist-info/metadata.json,sha256=tWgeW1u_0nHv0vMVqlBRI-jSl-e-xvGw2uhsv_SIxHU,1538
+uipcalc-0.3.3.dist-info/top_level.txt,sha256=UJPxS_BVloKvgovHV5D9be-nar8twRGt5iasjsc_RB8,14
