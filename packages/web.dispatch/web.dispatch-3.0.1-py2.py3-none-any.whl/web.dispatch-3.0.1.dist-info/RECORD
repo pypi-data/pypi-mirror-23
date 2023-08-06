@@ -1,0 +1,15 @@
+web/dispatch/core/__init__.py,sha256=MPXY-Km33QlkE6475OaYPXN18V4-CokqBCcQwbpRoFU,80
+web/dispatch/core/crumb.py,sha256=KaoQ8KoAcIF-rt2FAdFw_kUVR6ZzLIRs2bpZOGfNw6w,2297
+web/dispatch/core/release.py,sha256=h2GH5Vzz0O2PLPBxJQuh30Cup1RWjQ8d17vXRGeFjq0,778
+web/dispatch/core/util.py,sha256=J5KM12f8Z7fqZGyPTXSqptsKjHTXkAWW15piQW7JFfc,1172
+web/dispatch/core/__pycache__/__init__.cpython-36.opt-1.pyc,sha256=Tksx-NEJWmq2fy5mp9KwOtRp0Z9ri8aaaNufIyTzJ-8,240
+web/dispatch/core/__pycache__/crumb.cpython-36.opt-1.pyc,sha256=wxdJb6c2tK6X3YzNzmkvCBvw8JJeLvr6N5RUKViJTd0,2894
+web/dispatch/core/__pycache__/release.cpython-36.opt-1.pyc,sha256=rBJBw5U-PszWt8DbRa-NS5FogJDj5HzbjOyXiNU6_To,964
+web/dispatch/core/__pycache__/util.cpython-36.opt-1.pyc,sha256=x3golmN38tt4ICm4JG5SzdTQS5UUTgpUBbhFvgF_Of0,1573
+web.dispatch-3.0.1.dist-info/DESCRIPTION.rst,sha256=JXTycC8m5BZNBfZhWQ3e4Im2phJpIN6MudxswQtjiEc,7316
+web.dispatch-3.0.1.dist-info/METADATA,sha256=wj2UXLKsqPtwAoTeYPBRTxsVADhHUxQcMRowV2Zc2R4,8907
+web.dispatch-3.0.1.dist-info/RECORD,,
+web.dispatch-3.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+web.dispatch-3.0.1.dist-info/entry_points.txt,sha256=grWZW1gNnjHqGzbDpIklXp3_2cOmJp-hxxNHjIrdRjU,17
+web.dispatch-3.0.1.dist-info/metadata.json,sha256=wc-A0zW914biiDL-f0u2yEhCBgu9oMjXjNjGrVjf4WI,1682
+web.dispatch-3.0.1.dist-info/top_level.txt,sha256=Te2Js_nwNom3AyuSoJHnQuEgXipUJ35SsySY2fzfNkI,4
