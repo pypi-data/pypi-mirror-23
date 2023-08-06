@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+Flask_GzipBomb.egg-info/PKG-INFO
+Flask_GzipBomb.egg-info/SOURCES.txt
+Flask_GzipBomb.egg-info/dependency_links.txt
+Flask_GzipBomb.egg-info/not-zip-safe
+Flask_GzipBomb.egg-info/requires.txt
+Flask_GzipBomb.egg-info/top_level.txt
+flask_gzipbomb/__init__.py
+flask_gzipbomb/_rawdata.py
