@@ -1,0 +1,4 @@
+nboot
+nbot
+nmdm
+npolling

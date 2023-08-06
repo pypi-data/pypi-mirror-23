@@ -1,0 +1,8 @@
+{% extends 'material/frontend/views/list.html' %}
+{% load i18n material_frontend %}
+
+{% block breadcrumbs_items %}
+<a href="{% url report|frontend_urlname:'list' %}">{{ report|verbose_name_plural|title }}</a>
+<a href="{% url report|frontend_urlname:'detail' report.pk %}">{{ report }}</a>
+<a class="active">{% trans 'Employees' %}</a>
+{% endblock %}

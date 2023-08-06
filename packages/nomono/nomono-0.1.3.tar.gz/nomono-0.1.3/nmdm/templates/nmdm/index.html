@@ -1,0 +1,42 @@
+{% extends 'material/frontend/base_module.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="row">
+    <div style="padding-left:40px">
+        <div class="card-panel">
+            <form id="taskform">
+                <input id="device_pk" type="text" placeholder="Márka">
+                <input id="command_pk" type="text" placeholder="Parancs">
+                <button type="submit" id="go" class="btn btn-info">Run 3 sec task</button>
+            </form>
+        </div>
+        <div id="task_status_div" class="card-panel">
+            <h3>Keresések</h3>
+            <table id="task_status" class="table">
+                <thead>
+                <tr>
+                    <th>Task ID</th>
+                    <th>Task Name</th>
+                    <th>Task Status</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--<div class="col l4 m12">-->
+        <!--<div class="card-panel">-->
+            <!--<div class="card-title">Django-Viewflow</div>-->
+            <!--<p>Easy to use, programmable workflow framework on top of Django</p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>
+
+
+{% endblock content %}
