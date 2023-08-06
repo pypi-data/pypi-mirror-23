@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+nb2py/__init__.py
+nb2py/nb2py.py
+nb2py.egg-info/PKG-INFO
+nb2py.egg-info/SOURCES.txt
+nb2py.egg-info/dependency_links.txt
+nb2py.egg-info/not-zip-safe
+nb2py.egg-info/top_level.txt
