@@ -1,0 +1,12 @@
+sopel_modules.wolfram-0.4.0-py3.6-nspkg.pth,sha256=jmbuJdRY3dpGOR9KGvfYFl3xIKVi1DreonVZ429hJJc,590
+sopel_modules/wolfram/__init__.py,sha256=BBh0_4vHBscfMUdOh6IhHOhd6kDRLAz8JMoQE-WOqp0,288
+sopel_modules/wolfram/wolfram.py,sha256=CWO6puUt6iP4uV_l40Vx1RK5dVDUp4itVQ57eEhXRrs,3886
+sopel_modules.wolfram-0.4.0.dist-info/DESCRIPTION.rst,sha256=JV3iMnog48Ig5l883-MXaUTZwEraplaEAeocA4qx5HE,5426
+sopel_modules.wolfram-0.4.0.dist-info/METADATA,sha256=v7qjSaQ2xO-PAknkaspj0Pij0iY1hUbPcd5qDNHDJDA,5777
+sopel_modules.wolfram-0.4.0.dist-info/RECORD,,
+sopel_modules.wolfram-0.4.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+sopel_modules.wolfram-0.4.0.dist-info/metadata.json,sha256=WxjTO9DRFGGn_jQfexLPgDJv8uzQlWm-EV5QtRWSV4Q,598
+sopel_modules.wolfram-0.4.0.dist-info/namespace_packages.txt,sha256=1GJk87jnz3vpuDVQimAVoSTAzCNN7PNkycVbH0Q1pkg,14
+sopel_modules.wolfram-0.4.0.dist-info/top_level.txt,sha256=_ZwLN-V1x1etvfwqzYdX0btb7nbM-uSphbb8tSb8fKU,20
+tests/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+tests/test_wolfram.py,sha256=vv4CuhSwMBFZAzOQD87ZKtPqpIbhcgaoovRBeUwhOpE,296
