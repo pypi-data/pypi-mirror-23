@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+terrachecker/__init__.py
+terrachecker/terrachecker.py
+terrachecker/terraform_checker.py
+terrachecker.egg-info/PKG-INFO
+terrachecker.egg-info/SOURCES.txt
+terrachecker.egg-info/dependency_links.txt
+terrachecker.egg-info/entry_points.txt
+terrachecker.egg-info/requires.txt
+terrachecker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_terraform_checker.py
