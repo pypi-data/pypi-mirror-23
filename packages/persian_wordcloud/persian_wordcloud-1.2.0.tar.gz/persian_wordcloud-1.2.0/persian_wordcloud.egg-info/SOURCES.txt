@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+persian_wordcloud/__init__.py
+persian_wordcloud/stopwords
+persian_wordcloud/wordcloud.py
+persian_wordcloud.egg-info/PKG-INFO
+persian_wordcloud.egg-info/SOURCES.txt
+persian_wordcloud.egg-info/dependency_links.txt
+persian_wordcloud.egg-info/requires.txt
+persian_wordcloud.egg-info/top_level.txt
+persian_wordcloud/fonts/Vazir-Light.ttf
