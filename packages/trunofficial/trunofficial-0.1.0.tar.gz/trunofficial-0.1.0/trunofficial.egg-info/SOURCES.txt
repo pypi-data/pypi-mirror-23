@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+trunofficial/__init__.py
+trunofficial/trunofficial.py
+trunofficial.egg-info/PKG-INFO
+trunofficial.egg-info/SOURCES.txt
+trunofficial.egg-info/dependency_links.txt
+trunofficial.egg-info/top_level.txt
