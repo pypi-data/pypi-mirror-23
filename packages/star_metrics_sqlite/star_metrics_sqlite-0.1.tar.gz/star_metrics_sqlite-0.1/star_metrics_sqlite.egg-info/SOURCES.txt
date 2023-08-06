@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+star_metrics_sqlite/__init__.py
+star_metrics_sqlite/__main__.py
+star_metrics_sqlite/main.py
+star_metrics_sqlite.egg-info/PKG-INFO
+star_metrics_sqlite.egg-info/SOURCES.txt
+star_metrics_sqlite.egg-info/dependency_links.txt
+star_metrics_sqlite.egg-info/entry_points.txt
+star_metrics_sqlite.egg-info/requires.txt
+star_metrics_sqlite.egg-info/top_level.txt
+star_metrics_sqlite/metrics/__init__.py
+star_metrics_sqlite/metrics/metrics_util.py
+star_metrics_sqlite/metrics/star_alignreads_metrics.py
+star_metrics_sqlite/metrics/star_genomegenerate_metrics.py
