@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: GWlal
+Version: 0.0.2
+Summary: A Pythonic installer for lal - part of lalsuite
+Home-page: https://git.ligo.org/daniel-williams/python-ligo
+Author: LIGO Scientific Collaboration / Virgo Collaboration
+Author-email: daniel.williams@ligo.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ligo gravitational-waves
+Platform: UNKNOWN
