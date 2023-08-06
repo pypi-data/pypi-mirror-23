@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pywhaleclub
+Version: 1.0
+Summary: Whaleclub.co python API wrapper
+Home-page: https://github.com/tux-00/pywhaleclub
+Author: Raphaël B
+Author-email: raphb.bis@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: python python3 whaleclub trade trading api bitcoin wrapper
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
