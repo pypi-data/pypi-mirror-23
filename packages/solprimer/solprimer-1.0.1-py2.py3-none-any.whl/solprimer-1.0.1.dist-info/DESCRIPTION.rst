@@ -1,0 +1,16 @@
+﻿‘solprimer’, or ‘Python Solar Energy Calculation Primer’, is a Python package for the most important calculations related to the use of solar energy, in particular for photovoltaic applications. The code includes the calculation of solar orbit, estimation of energy yield on flat collectors under consideration of weather factors, climate data presentation on psychrometric diagrams, solar power systems simulation, and others. 
+
+The purpose of the code and of the accompanying description primer text is mainly didactic, to illustrate “textbook" procedures with code and application examples. Detailed explanations are given to those aspects, such as the use of the TMY datasets, not yet adequately covered by available textbooks. The package and the primer have been prepared for students at Bachelor and Master’s level in engineering and environmental sciences, in first place in solar energy applications, as well as for practicing engineers. 
+
+The code has been developed in pure Python3.5 on Ubuntu and tested for compatibility with Python2.7. LibreOffice Calc was used as spreadsheet. The accompanying text contains several references to online resources, data repositories, and other freely accessible noncommercial software. All presented examples can be fully replicated without the need of licensed software of any kind.
+
+BEST INSTALL: copy package wheel into target directory, then use command
+'pip install solprimer-1.0.1-py2.py3-none-any.whl --no-compile -t <target subdirectory>'
+
+AVOID installation into the 'site-packages' folder
+
+ALTERNATIVE INSTALL: extract/unzip the package from .whl into target directory
+
+for additional information see also the instructions included in the package under the 'solprimer/docs' directory.
+
+
