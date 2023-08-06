@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: AynRandom
+Version: 0.2
+Summary: The Ayn Random Number Generator favours certain numbers, because they are intrinsically better.
+Home-page: https://github.com/ThePythonist/AynRandom
+Author: Jake Saville
+Author-email: jakesaville@protonmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ThePythonist/AynRandom/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: random,xkcd,aynrand
+Platform: UNKNOWN
