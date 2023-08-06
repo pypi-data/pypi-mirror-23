@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: pypeman
+Version: 0.2.0
+Summary: Minimalistic but pragmatic ESB / ETL / EAI in Python
+Home-page: https://github.com/mhcomm/pypeman
+Author: Jeremie Pardou
+Author-email: jeremie.pardou@mhcomm.fr
+License: Apache Software License
+Description: UNKNOWN
+Keywords: esb etl eai pipeline data processing asyncio http
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: File Transfer Protocol (FTP)
+Classifier: Programming Language :: Python
