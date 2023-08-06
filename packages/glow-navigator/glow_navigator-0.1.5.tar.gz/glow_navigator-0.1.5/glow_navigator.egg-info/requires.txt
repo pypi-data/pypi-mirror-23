@@ -1,0 +1,7 @@
+networkx
+pyyaml
+termcolor
+
+[test]
+coverage
+ddt
