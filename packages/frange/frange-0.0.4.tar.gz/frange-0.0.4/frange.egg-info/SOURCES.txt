@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+frange/VERSION
+frange/__init__.py
+frange/frange.py
+frange.egg-info/PKG-INFO
+frange.egg-info/SOURCES.txt
+frange.egg-info/dependency_links.txt
+frange.egg-info/requires.txt
+frange.egg-info/top_level.txt
