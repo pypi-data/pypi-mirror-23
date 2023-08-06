@@ -1,0 +1,8 @@
+README.rst
+configuration.py
+setup.py
+lince.egg-info/PKG-INFO
+lince.egg-info/SOURCES.txt
+lince.egg-info/dependency_links.txt
+lince.egg-info/not-zip-safe
+lince.egg-info/top_level.txt
