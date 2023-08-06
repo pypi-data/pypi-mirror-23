@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: lambda-toolkit
+Version: 0.2.13
+Summary: An AWS Lambda command line interface (CLI). It helps you in creating, building, testing and deploying your lambda functions.
+Home-page: https://github.com/lucioveloso/lambda-toolkit
+Author: Lucio Veloso Guimaraes
+Author-email: lucio.veloso@gmail.com
+License: UNKNOWN
+Description: =====================
+        lambda-toolkit
+        =====================
+        
+        .. image:: https://readthedocs.org/projects/lambda-toolkit/badge/?version=trunk
+           :target: http://lambda-toolkit.readthedocs.io/en/latest/?badge=latest
+           :alt: Documentation Status
+        
+        .. image:: https://travis-ci.org/lucioveloso/lambda-toolkit.svg?branch=trunk
+           :target: https://travis-ci.org/lucioveloso/lambda-toolkit
+           :alt: Build Status
+        
+        Install and start to use
+        ------------------------
+        
+        We provide a step-by-step installation guide with installation manual and how to use.
+        
+        Access now `here <start_>`_.
+        
+        
+        .. _start: http://lambda-toolkit.readthedocs.io/en/trunk/start.html
+        
+        Documentation
+        -------------
+          http://lambda-toolkit.readthedocs.io/
+        
+        GitHub Project
+        --------------
+          https://github.com/lucioveloso/lambda-toolkit
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
