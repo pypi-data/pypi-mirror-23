@@ -1,0 +1,3 @@
+[console_scripts]
+iddmma_nsniffer1 = iddmma_nsniffer1:best
+

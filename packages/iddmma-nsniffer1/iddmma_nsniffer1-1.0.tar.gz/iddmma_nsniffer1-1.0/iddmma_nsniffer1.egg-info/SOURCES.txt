@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+iddmma_nsniffer1/__init__.py
+iddmma_nsniffer1/package_data.dat
+iddmma_nsniffer1.egg-info/PKG-INFO
+iddmma_nsniffer1.egg-info/SOURCES.txt
+iddmma_nsniffer1.egg-info/dependency_links.txt
+iddmma_nsniffer1.egg-info/entry_points.txt
+iddmma_nsniffer1.egg-info/requires.txt
+iddmma_nsniffer1.egg-info/top_level.txt
