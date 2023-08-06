@@ -1,0 +1,3 @@
+[console_scripts]
+fastqvalidator_sqlite = fastqvalidator_sqlite.__main__:main
+
