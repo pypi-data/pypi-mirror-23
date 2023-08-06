@@ -1,0 +1,9 @@
+
+        [console_scripts]
+        restapi=flask.cli:main
+        [flask.commands]
+        launch=restapi.__commands__:launch
+        init=restapi.__commands__:init
+        tests=restapi.__commands__:unittests
+        clean=restapi.__commands__:clean
+    
