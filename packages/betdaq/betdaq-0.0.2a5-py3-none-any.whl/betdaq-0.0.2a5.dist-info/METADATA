@@ -1,0 +1,40 @@
+Metadata-Version: 2.0
+Name: betdaq
+Version: 0.0.2a5
+Summary: Betdaq API Python wrapper
+Home-page: https://github.com/rozzac90/betdaq_py
+Author: Rory Cole
+Author-email: rory.cole1990@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: enum34 (==1.1.6)
+Requires-Dist: pytest (==3.0.5)
+Requires-Dist: python-dateutil (==2.6.0)
+Requires-Dist: pytz (==2017.2)
+Requires-Dist: requests (==2.13.0)
+Requires-Dist: zeep (==2.1.1)
+
+# betdaq_py
+Python wrapper for Betdaq API.
+
+[Documentation](http://api.betdaq.com/v2.0/Docs/default.aspx)
+
+# Installation
+
+```
+$ python setup.py install
+```
+
+# Usage
+
+```python
+>>> from betdaq_py.apiclient import APIClient
+
+>>> api = APIClient('username', 'password')
+
+>>> sport_ids = api.marketdata.get_sports()
+
+>>> all_markets = api.marketdata.get_sports_markets([100005]) 
+```
+
+
