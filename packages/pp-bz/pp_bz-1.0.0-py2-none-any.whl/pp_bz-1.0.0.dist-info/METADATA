@@ -1,0 +1,79 @@
+Metadata-Version: 2.0
+Name: pp-bz
+Version: 1.0.0
+Summary: use your key and site url create your site unique password
+Home-page: https://github.com/bigzhu/pp
+Author: bigzhu
+Author-email: vermiliondun@gmail.com
+License: MIT
+Keywords: password producer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: dev
+Provides-Extra: test
+
+# pp
+应对讨厌的密码
+
+现在没几个网站是安全的, 国内国外都很烂, 有的注册登录时都不用 https, 存在数据库里也有敢不加密的.
+
+等于把你的密码直接暴露了.
+
+我是没法记住这么多密码的, 所以各个地方都是用的同一个密码, 最多再分2-3个, 重要的用一个, 不重要的用一个.
+
+一但哪个不靠谱的网站被人破了, n 多网站的密码相当于都给别人知道了, 太不安全了.
+
+那几个撞库事件, 我都中招了, weibo 被盗几次, instagram 关注了奇怪的人, qq 也是用密码找回才回来的......
+
+现在有些网站, 对密码要求又很变态, 比如苹果, 比如微博, 京东, 淘宝, qq 邮箱:  不能少于8个...不能和历史密码重复...必须有大写字母...
+
+逼着我弄出很多通用密码的变体出来, 于是越来越多的网站, 只有靠找回密码功能, 才能登录进去.
+
+## 密码生成器
+
+密码生成器的原理是这样的, 你想一个自已的密钥, 一串文字可长可短, 比如: `必须要认识 bigzhu`
+
+会用这个密钥和你要登录的网站网址拼接后, 进行编码, 生成一串看似无规律的英文数字串, 就是你的密码了.
+
+因为网址不一样, 那么对每个网站都是自已独立的密码.
+
+这样就可以避免上述说到的问题了, 你只要记住你的这一个密钥, 千万别告诉任何人. 就是写这个程序的 bigzhu, 不知道密钥, 也是不可能猜到你的密码的.
+
+这就是: `一个密钥在手, 从容面对千万网站!`
+
+## 使用
+比如我要登录我永远记不住的 qq 企业邮箱, 他要的密码规则很难记的.
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fh3fmex0sjg30dc06fjsh.gif)
+
+很简单吧, 也就敲入 `pp.py` 后面跟上要登录的网址:
+
+`pp.py https://exmail.qq.com/cgi-bin/loginpage`
+
+这时密码已经在你的剪贴板里了, 切到网页, 粘贴就可以了.
+
+## 安装
+
+选一个不会再动的目录, clone 下来
+```bash
+git clone https://github.com/bigzhu/pp
+cd pp
+sh ./install.sh
+```
+
+*这个目录不能删了, 也不能移动* 所谓安装只是建了个 link 过去, 让你在其他目录也可以用
+
+第一次用时, 会问你密钥, 一定要死死记住了.
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fh3gc8xz6mg30dc06fju4.gif)
+
+以后再也不用记密码了
+
+
