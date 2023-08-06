@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+Arbit.egg-info/PKG-INFO
+Arbit.egg-info/SOURCES.txt
+Arbit.egg-info/dependency_links.txt
+Arbit.egg-info/requires.txt
+Arbit.egg-info/top_level.txt
+arbit/__init__.py
+arbit/arbit_build.py
+arbit/sha256.py
