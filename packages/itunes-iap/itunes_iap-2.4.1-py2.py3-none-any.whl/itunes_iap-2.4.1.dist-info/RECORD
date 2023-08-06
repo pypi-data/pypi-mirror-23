@@ -1,0 +1,15 @@
+itunes_iap-2.4.1.dist-info/DESCRIPTION.rst,sha256=ROc7lc-28nHpbQEFCfl6FEc0xNbWCNDhWhUjycvB39I,2504
+itunes_iap-2.4.1.dist-info/METADATA,sha256=F95C4bPuoAf1-JqFGOuUfYM6UxtySkJVQ1HFQ5zjBZY,3712
+itunes_iap-2.4.1.dist-info/RECORD,,
+itunes_iap-2.4.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+itunes_iap-2.4.1.dist-info/metadata.json,sha256=slOV7ct9uCDzyLDNiXKOe7F4sF4LKOnn6tGPxqROPUY,1231
+itunes_iap-2.4.1.dist-info/top_level.txt,sha256=Lb5QvrOxi4cf3XnDnJpNcZjT9mFZPf7LQKDU4ILwBM8,10
+itunesiap/__init__.py,sha256=6P2Tj6GuJ3Y_Oko_RdYigwx4df7FdMHvlcmu2NM0G1o,867
+itunesiap/environment.py,sha256=nlHhRrhbI-TIzyo83c-XeIJh42OpaSNjjpt5ranfugM,2257
+itunesiap/exceptions.py,sha256=HUgxY40x2_tG1A8Nra7AiA3AEeDQ82vvuFkN_EKnTpY,1268
+itunesiap/legacy.py,sha256=UbPTCejYgsV1aFYTG8g8YgEos2_6rxp8zOweCaMxPhU,6284
+itunesiap/receipt.py,sha256=In3kL7BhA0rJXoq3-4XAhYF_p-GB11PmOpz54vjR2tg,4055
+itunesiap/request.py,sha256=lsNDWgk8Ns5-y8sVTsAB42_UcuPwG-GwtqtMi7p1mWg,4305
+itunesiap/shortcut.py,sha256=kNBYai4s8ThghYPwDrrM4gGg5bgA6rPSjCYrybgm5IM,839
+itunesiap/tools.py,sha256=p5pWn2llW9_N7TyHnIaAEKM9l-P0uvY2xn2pPRii_GM,1001
+itunesiap/version.txt,sha256=bYUOOsQtDdBr_czpFRwea0D0z1Jyd49j7s7Oonx48LY,6
