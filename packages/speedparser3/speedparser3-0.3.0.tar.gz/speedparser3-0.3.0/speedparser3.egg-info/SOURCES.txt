@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+speedparser3/__init__.py
+speedparser3/feedparsercompat.py
+speedparser3/speedparser3.py
+speedparser3/xmlpprint.py
+speedparser3.egg-info/PKG-INFO
+speedparser3.egg-info/SOURCES.txt
+speedparser3.egg-info/dependency_links.txt
+speedparser3.egg-info/entry_points.txt
+speedparser3.egg-info/not-zip-safe
+speedparser3.egg-info/requires.txt
+speedparser3.egg-info/top_level.txt
