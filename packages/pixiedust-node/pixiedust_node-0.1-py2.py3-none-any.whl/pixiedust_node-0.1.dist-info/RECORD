@@ -1,0 +1,10 @@
+pixiedust_node/__init__.py,sha256=YRy8xik0WRdw9RZINFVXBwLBp3OLwZNikyq8oVTG0Ow,2074
+pixiedust_node/node.py,sha256=VblLxOvL-bcXh8bykoFYrb1FlIMuin5C0MyzUwkpv2M,1792
+pixiedust_node/nodestdreader.py,sha256=CoK0PJJX6mPCVXuvbcyD8WQzaHaDdFE2VqBEG3nJF2c,2223
+pixiedust_node/npm.py,sha256=wYAXT7fLTBA2u2h9IRWNHCZlJSvjuJJhYIOj3zBCMgA,666
+pixiedust_node-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pixiedust_node-0.1.dist-info/METADATA,sha256=u_OATtSPGxcQpom_49TIt5524rM_Bn283Rr_XH-LGik,320
+pixiedust_node-0.1.dist-info/RECORD,,
+pixiedust_node-0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pixiedust_node-0.1.dist-info/metadata.json,sha256=s0kQ-DK0aLTTJxV1dr1jIxv_LWt4d4HuAbn3CRkdgHA,532
+pixiedust_node-0.1.dist-info/top_level.txt,sha256=rT582arYwJZOchIU3ow9P3pio71SxtT_uv0CLuEd9o8,15

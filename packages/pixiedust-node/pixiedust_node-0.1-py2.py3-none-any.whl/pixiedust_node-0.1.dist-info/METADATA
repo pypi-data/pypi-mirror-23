@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pixiedust-node
+Version: 0.1
+Summary: Pixiedust extension for Node.js
+Home-page: https://github.com/ibm-cds-labs/pixiedust_node
+Author: David Taieb, Glynn Bird
+Author-email: david_taieb@us.ibm.com, glynn.bird@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: pixiedust
+
+UNKNOWN
+
+
