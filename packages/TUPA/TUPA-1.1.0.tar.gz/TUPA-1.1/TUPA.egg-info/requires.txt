@@ -1,0 +1,17 @@
+ucca>=1.0
+spacy>=1.8.2
+cython>=0.25.2
+penman>=0.6.1
+nltk>=3.2.4
+parsimonious>=0.7.0
+word2number>=1.1
+dynet>=2.0
+
+[server]
+Flask>=0.12.2
+Flask-Assets>=0.12
+Flask-Compress>=1.4.0
+Jinja2>=2.9.6
+matplotlib>=2.0.2
+networkx>=1.11
+webassets>=0.12.1
