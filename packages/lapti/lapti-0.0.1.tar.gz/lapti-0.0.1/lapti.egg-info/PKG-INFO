@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: lapti
+Version: 0.0.1
+Summary: Simple utils for flask and peewee projects
+Home-page: UNKNOWN
+Author: VonZeleny
+Author-email: ivanzeleny@ya.ru
+License: MIT
+Description: UNKNOWN
+Keywords: peewee flask utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
