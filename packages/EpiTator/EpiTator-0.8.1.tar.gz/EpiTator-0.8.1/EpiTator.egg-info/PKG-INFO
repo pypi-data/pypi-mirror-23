@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: EpiTator
+Version: 0.8.1
+Summary: Annotators for extracting epidemiological information from text.
+Home-page: https://github.com/ecohealthalliance/EpiTator
+Author: EcoHealth Alliance
+Author-email: breit@ecohealthalliance.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: nlp,information extraction,case counts,death counts,epidemiology,keyword resolution,toponym resolution,disease resolution,species resolution
+Platform: UNKNOWN
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
