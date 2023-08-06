@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+flake8_config_4catalyzer.egg-info/PKG-INFO
+flake8_config_4catalyzer.egg-info/SOURCES.txt
+flake8_config_4catalyzer.egg-info/dependency_links.txt
+flake8_config_4catalyzer.egg-info/requires.txt
+flake8_config_4catalyzer.egg-info/top_level.txt
