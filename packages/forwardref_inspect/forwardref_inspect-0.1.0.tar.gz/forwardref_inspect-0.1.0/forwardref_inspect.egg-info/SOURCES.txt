@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+forwardref_inspect/__init__.py
+forwardref_inspect/inspect.py
+forwardref_inspect.egg-info/PKG-INFO
+forwardref_inspect.egg-info/SOURCES.txt
+forwardref_inspect.egg-info/dependency_links.txt
+forwardref_inspect.egg-info/top_level.txt
+tests/__init__.py
+tests/foo.py
+tests/test_inspect.py
