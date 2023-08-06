@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: csvtotable
+Version: 1.1.4
+Summary: Simple commandline utility to convert CSV filesto searchable and sortable HTML table.
+Home-page: https://github.com/vividvilla/csvtotable
+Author: Vivek R
+Author-email: vividvilla@gmail.com
+License: MIT
+Download-URL: https://github.com/vividvilla/csvtotable/archive/1.1.4.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
