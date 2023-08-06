@@ -1,0 +1,6 @@
+[console_scripts]
+bruker2nifti = parsers.bruker2nifti:main
+
+[gui_scripts]
+bruker2nifti_gui = bruker2nifti.open_GUI:open_gui
+
