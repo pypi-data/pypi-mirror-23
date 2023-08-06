@@ -1,0 +1,2 @@
+boto
+dynadbobjectstore>=1.0.0
