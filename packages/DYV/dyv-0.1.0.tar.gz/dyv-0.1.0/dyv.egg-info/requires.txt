@@ -1,0 +1,5 @@
+click
+ConfigParser
+lxml
+prettytable
+jinja2
