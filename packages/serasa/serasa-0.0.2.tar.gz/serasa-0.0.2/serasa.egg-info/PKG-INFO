@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: serasa
+Version: 0.0.2
+Summary: Interação com SERASA:  aná Analise e informacoes para decisoes de credito e apoio a negocios
+Home-page: https://github.com/kmee/serasa
+Author: KMEE INFORMATICA LTDA
+Author-email: dev@kmee.com.br
+License: BSD
+Download-URL: https://github.com/kmee/serasa/tarball/0.0.2
+Description: Integração com os webservices do SERASA
+        ===============================
+        
+        version number: 0.0.1
+        author: Luis Felipe Mileo
+        
+        Overview
+        --------
+        
+        Interação com SERASA:  aná Analise e informacoes para decisoes de credito e apoio a negocios
+        
+        Installation / Usage
+        --------------------
+        
+        To install use pip:
+        
+            $ pip install serasa
+        
+        
+        Or clone the repo:
+        
+            $ git clone https://github.com/mileo/serasa.git
+            $ python setup.py install
+            
+        Contributing
+        ------------
+        
+        TBD
+        
+        Example
+        -------
+        
+        TBD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
