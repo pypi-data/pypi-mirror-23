@@ -1,0 +1,8 @@
+setup.py
+aioworkers_amqp/__init__.py
+aioworkers_amqp/sync.py
+aioworkers_amqp.egg-info/PKG-INFO
+aioworkers_amqp.egg-info/SOURCES.txt
+aioworkers_amqp.egg-info/dependency_links.txt
+aioworkers_amqp.egg-info/requires.txt
+aioworkers_amqp.egg-info/top_level.txt
