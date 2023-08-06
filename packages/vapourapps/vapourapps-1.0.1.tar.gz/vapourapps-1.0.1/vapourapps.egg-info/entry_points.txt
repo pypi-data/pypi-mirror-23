@@ -1,0 +1,3 @@
+[console_scripts]
+vapourapps = va_master.cli:entry
+
