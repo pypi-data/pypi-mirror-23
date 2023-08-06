@@ -1,0 +1,6 @@
+facechat
+facechat/ai/autoencoder/agn
+facechat/ai/autoencoder/test
+facechat/ai/data/input
+facechat/ai/simple/softmax
+facechat/ai/web/api
