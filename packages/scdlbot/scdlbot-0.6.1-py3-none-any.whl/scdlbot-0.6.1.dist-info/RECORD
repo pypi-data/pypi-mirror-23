@@ -1,0 +1,15 @@
+scdlbot/__init__.py,sha256=4muN_rUIYlIXRj52jl6CXlrDneM-h7m_OyJi3AZzOy0,187
+scdlbot/__main__.py,sha256=tCrE_4F8cgU8g4mmYv3sFPJwrnZinRCAcigtPLiqlCU,1799
+scdlbot/scdlbot.py,sha256=WvLzxI9t-inaH0vpIYfT--hYOxktw_Igoa_pnWVWzuY,20490
+scdlbot/tasks.py,sha256=pW45Krc37h6fGHp-eM0BEP4dD0a4VA5z_HAMVxNtQRY,129
+scdlbot/texts/help.tg.md,sha256=vrbI9lGFMivGbBa6GOs-qZgb9ROcbACIikKFQQjTFAk,1349
+scdlbot/texts/no_audio.txt,sha256=WBEF4MitHb5KB7TQfCFLDPACLfv3liJm1jbDFoGIV0M,33
+scdlbot/texts/wait.txt,sha256=xQsL_ic5dpl44A7LqiUxti4wy9lxPecRG2XRX33q3VA,13
+scdlbot-0.6.1.dist-info/DESCRIPTION.rst,sha256=1l9WPBSBKbhHSV4slUHsRcgeScYj6qNfKy2JKDvQX8M,9843
+scdlbot-0.6.1.dist-info/METADATA,sha256=1O2NswSFgxtC0Ql6dm0ZZqkxg6M4OJ4RjIKXqWD1kLE,11051
+scdlbot-0.6.1.dist-info/RECORD,,
+scdlbot-0.6.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+scdlbot-0.6.1.dist-info/entry_points.txt,sha256=KpxDRPo9Zy7G-x2YxuytRtoOS2fy59wfnEbj_0Vz7-w,51
+scdlbot-0.6.1.dist-info/metadata.json,sha256=BzfrEAZB0pK9nqaFPykvuP6j8eyHFAq5k4VgoExxbO8,1428
+scdlbot-0.6.1.dist-info/top_level.txt,sha256=HTjOk-65N6oKwqS0yiguUex5kRPZGssUjjGdvAu7HxY,8
+scdlbot-0.6.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
