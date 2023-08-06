@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: libthryft
+Version: 2.0.8
+Summary: Runtime library for the Thryft code generation framework
+Home-page: https://github.com/minorg/thryft
+Author: Minor Gordon
+Author-email: pastpy@minorgordon.net
+License: BSD
+Description: Runtime library for the Thryft code generation framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
