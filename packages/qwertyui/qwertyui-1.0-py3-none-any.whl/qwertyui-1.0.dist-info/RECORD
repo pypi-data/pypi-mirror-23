@@ -1,0 +1,10 @@
+qwertyui/__init__.py,sha256=VNiy7mBcNmFtOeY8WVgzk_MZmLbypoZX2CfbDECcF5E,22
+qwertyui/backups/__init__.py,sha256=MsfXzNDX5j7GbszEhR9Wc_IIAEY8_kca-pg4iIrKJmA,38
+qwertyui/backups/periodic_backup_remover.py,sha256=otyu6JdBBMR_g4A6ErFbOacUr7ShznrCQoayVL4uZmc,4653
+qwertyui/backups/tests.py,sha256=teABSa35TyBlen606dASFkxsj_aEU_S-nP9t3FIoCNo,5167
+qwertyui-1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+qwertyui-1.0.dist-info/METADATA,sha256=PAYkFiZpoW6oy_69gkOf5pgtrXm2jl6TcR2iM5eSHow,254
+qwertyui-1.0.dist-info/RECORD,,
+qwertyui-1.0.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+qwertyui-1.0.dist-info/metadata.json,sha256=7KE-MSX5beVTyYvJCyiKhHXWeqLOe0Rv7TaUp_kDhH8,411
+qwertyui-1.0.dist-info/top_level.txt,sha256=QubZfwC_8EauLepcbbVthmrnSft9wFMZ4I5fvuMdhRw,9
