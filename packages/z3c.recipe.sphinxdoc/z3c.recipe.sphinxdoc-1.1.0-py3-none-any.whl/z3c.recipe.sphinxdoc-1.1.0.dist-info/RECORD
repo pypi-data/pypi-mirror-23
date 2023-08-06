@@ -1,0 +1,15 @@
+z3c.recipe.sphinxdoc-1.1.0-py3.5-nspkg.pth,sha256=mTr9olQ28cPuVNY6slEv9Ez8-wUXy-eLYLnMYuCQj7Y,1656
+z3c/recipe/sphinxdoc/__init__.py,sha256=U9ncg2AP-If9iD23SozyjHJwJ4qSDdRU1mGu2iUZMv8,6895
+z3c/recipe/sphinxdoc/default.css,sha256=44Y95GwigVNWJ4pUQj_ea74jdv4c-ok6Cg0RHatpwlg,14446
+z3c/recipe/sphinxdoc/index.rst,sha256=8epvZ4Ij6oADxea-eDzbQbq1Ly6wgqc04jOIibiMrSI,4779
+z3c/recipe/sphinxdoc/layout.html,sha256=tsaYYyDXnOas-QpZMICzP3pMz4_oRHtIKN_WzRZ2j4w,8962
+z3c/recipe/sphinxdoc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+z3c/recipe/sphinxdoc/tests/test_sphinxdoc.py,sha256=Y53qSv4SpeU7kYrbRl8ef7ZDOoUxaQVlRt_eQltD1zI,7434
+z3c.recipe.sphinxdoc-1.1.0.dist-info/DESCRIPTION.rst,sha256=n6p03KwMYtyqd-PdCtK6BVhcOYJybNQKDjVF3ua2Or8,6796
+z3c.recipe.sphinxdoc-1.1.0.dist-info/METADATA,sha256=bogCjHtfv1DbV4oBgaTFSkCLp1ZAJ6G-Ou6gLMevTkI,8148
+z3c.recipe.sphinxdoc-1.1.0.dist-info/RECORD,,
+z3c.recipe.sphinxdoc-1.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+z3c.recipe.sphinxdoc-1.1.0.dist-info/entry_points.txt,sha256=hGQkDy9n_YWcEV5DqsQqWDZc4ujDfv5gep_IdKxb1LM,71
+z3c.recipe.sphinxdoc-1.1.0.dist-info/metadata.json,sha256=U4uTgRqBXUCmxK49dK0fA69ho3vPT4YKyrmqbIg7O1s,1469
+z3c.recipe.sphinxdoc-1.1.0.dist-info/namespace_packages.txt,sha256=LiwBGNj6i1fm4yUm-yky6C1lCDbhjwIjxIXSZbkEQHY,15
+z3c.recipe.sphinxdoc-1.1.0.dist-info/top_level.txt,sha256=4IdyINjld7m2QfMrXUzjX5iV4pLTBx0DBASmKaA1wJc,4
