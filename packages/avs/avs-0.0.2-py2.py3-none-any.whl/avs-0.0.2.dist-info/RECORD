@@ -1,0 +1,11 @@
+avs/__init__.py,sha256=ugGHkG2QykpZy1RquRaa-sWaChCnTpc5x5SVhzQVa6c,173
+avs/alexa.py,sha256=Z3rLl4LoEsFtTCBJzmha1WWiM25niNT_222KtqZi-gQ,16217
+avs/auth.py,sha256=TxxEaksJ-suy7Cb7skvNbBZE1g_bx5Xuwp1gMXxp5dg,3811
+avs/mic.py,sha256=_0e6oAP-vf4QI3hTIb-fHJKlxZQPQWp2toioR_cNIW4,2378
+avs-0.0.2.dist-info/top_level.txt,sha256=hX0wxXv-9WkrOI7OCQYelRTdJAne2hmUfW5ZQ_EhSvk,4
+avs-0.0.2.dist-info/entry_points.txt,sha256=Rm9BoIuoVUJqqDGfojVNcr0d7usauSqYmT9crzonBYA,73
+avs-0.0.2.dist-info/METADATA,sha256=bBTOxCjdA0M6rQSlrGq5uR6_omyqnqCQ1BWWxQ8jrKo,2256
+avs-0.0.2.dist-info/DESCRIPTION.rst,sha256=vBv0urJJhXA4lpnGQ8dxsEwqbOrTDlqwhoDmU0gXR74,1438
+avs-0.0.2.dist-info/metadata.json,sha256=hqvCIEatDdgoldJ_-T-83ReILLkZWlIh28ClsneoUgg,1206
+avs-0.0.2.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+avs-0.0.2.dist-info/RECORD,,
