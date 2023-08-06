@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gitcen
+Version: 0.1.0
+Summary: A project to find git information.
+Home-page: https://github.com/anweshadas/gitcen
+Author: Anwesha Das.
+Author-email: anwesha@das.community
+License: GPLv3+
+Description: A project to find git information about authors' commits,most active days and time.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6

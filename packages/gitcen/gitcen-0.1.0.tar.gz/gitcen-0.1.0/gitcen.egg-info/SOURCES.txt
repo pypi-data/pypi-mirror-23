@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+gitcen.py
+setup.py
+gitcen.egg-info/PKG-INFO
+gitcen.egg-info/SOURCES.txt
+gitcen.egg-info/dependency_links.txt
+gitcen.egg-info/entry_points.txt
+gitcen.egg-info/requires.txt
+gitcen.egg-info/top_level.txt
