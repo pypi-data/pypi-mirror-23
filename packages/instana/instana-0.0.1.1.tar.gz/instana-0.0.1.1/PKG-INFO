@@ -1,0 +1,72 @@
+Metadata-Version: 1.0
+Name: instana
+Version: 0.0.1.1
+Summary: Metrics sensor and trace collector for Instana
+Home-page: https://github.com/instana/python-sensor
+Author: Instana Inc.
+Author-email: peter.lombardo@instana.com
+License: MIT
+Description: .. raw:: html
+        
+           <div align="center">
+        
+        .. raw:: html
+        
+           </div>
+        
+        Instana
+        =======
+        
+        The instana package provides Python metrics and traces (request, queue &
+        cross-host) for `Instana <https://www.instana.com/>`__.
+        
+        Note
+        ----
+        
+        This package supports Python 2.7 or greater.
+        
+        Any and all feedback is welcome. Happy Python visibility.
+        
+        Installation
+        ------------
+        
+        ::
+        
+            $ pip install instana
+        
+        Usage
+        -----
+        
+        The instana package is a zero configuration tool that will automatically
+        collect key metrics from your Python processes. Just install and go.
+        
+        Tracing
+        -------
+        
+        This Python package supports `OpenTracing <http://opentracing.io/>`__.
+        
+        Documentation
+        -------------
+        
+        You can find more documentation covering supported components and
+        minimum versions in the Instana `documentation
+        portal <https://instana.atlassian.net/wiki/display/DOCS/Python>`__.
+        
+        Contributing
+        ------------
+        
+        Bug reports and pull requests are welcome on GitHub at
+        https://github.com/instana/python-sensor.
+        
+        More
+        ----
+        
+        Want to instrument other languages? See our `Nodejs
+        instrumentation <https://github.com/instana/nodejs-sensor>`__, `Go
+        instrumentation <https://github.com/instana/golang-sensor>`__, `Ruby
+        instrumentation <https://github.com/instana/ruby-sensor>`__ or `many
+        other supported
+        technologies <https://www.instana.com/supported-technologies/>`__.
+        
+Keywords: performance,opentracing,metrics,monitoring
+Platform: UNKNOWN
