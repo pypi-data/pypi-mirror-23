@@ -1,0 +1,3 @@
+[console_scripts]
+enteritidis_subtyping = enteritidis_subtyping.main:main
+
