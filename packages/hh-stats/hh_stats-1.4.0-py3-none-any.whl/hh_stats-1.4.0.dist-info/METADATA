@@ -1,0 +1,295 @@
+Metadata-Version: 2.0
+Name: hh-stats
+Version: 1.4.0
+Summary: Utility for a collection of a vacancies stats from hh.ru service
+Home-page: https://github.com/thewizardplusplus/hh-stats
+Author: thewizardplusplus
+Author-email: thewizardplusplus@yandex.ru
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4.0
+Requires-Dist: jsonschema (<3.0,>=2.6.0)
+Requires-Dist: matplotlib (<3.0,>=2.0.2)
+Requires-Dist: parsedatetime (>=2.4,<3.0)
+Requires-Dist: pytimeparse (>=1.1.6,<2.0)
+Requires-Dist: requests (>=2.18.1,<3.0)
+Requires-Dist: termcolor (<2.0,>=1.1.0)
+Requires-Dist: tzlocal (<2.0,>=1.4)
+
+Features
+--------
+
+-  vacancies loading from:
+
+   -  `hh.ru <https://hh.ru/>`__ service API;
+   -  JSON files;
+
+-  collection of vacancies key skills;
+-  collection for every vacancy key skill:
+
+   -  request frequency;
+   -  median salary:
+
+      -  minimal;
+      -  maximal;
+
+-  vacancies search options:
+
+   -  area list (allowed values (in JSON format):
+      https://api.hh.ru/areas);
+   -  specialization list (allowed values (in JSON format):
+      https://api.hh.ru/specializations);
+   -  additional search query (it supports a query language:
+      https://hh.ru/article/1175);
+   -  search fields for the search query (allowed values: ``name``,
+      ``description``);
+   -  search vacancies only with a salary;
+   -  begin of the time period for an analysis (in the ISO 8601 or the
+      human-readable format; see below for details);
+   -  end of the time period for an analysis (in the ISO 8601 or the
+      human-readable format; see below for details);
+   -  time increment for an iteration over the time period (in the
+      human-readable format; see below for details);
+
+-  automatic conversion of a salary currency;
+-  automatic separation of unseparated skills;
+-  support of skills aliases (see below for details);
+-  output of a collected stats:
+
+   -  in a format:
+
+      -  raw (a vacancy list in a JSON format; see below for details);
+      -  CSV;
+      -  SVG;
+
+   -  to:
+
+      -  specified file;
+      -  stdout (only for raw and CSV formats);
+      -  window via `Matplotlib <http://matplotlib.org/>`__ library
+         (only for SVG format);
+
+-  support of a specification of a minimal output value of skills
+   requests frequencies;
+-  automatic adding of an output file extension, depending on a
+   specified format.
+
+Installation
+------------
+
+::
+
+    $ pip install hh-stats
+
+Usage
+-----
+
+::
+
+    $ hh-stats -v | --version
+    $ hh-stats -h | --help
+    $ hh-stats [options]
+
+Options:
+
+-  ``-v``, ``--version`` — show the version message and exit;
+-  ``-h``, ``--help`` — show this help message and exit;
+-  ``-a AREA [AREA...]``, ``--areas AREA [AREA...]`` — vacancies areas
+   (allowed values (in JSON format): https://api.hh.ru/areas; default:
+   ``['1']``);
+-  ``-s SPECIALIZATION [SPECIALIZATION...]``,
+   ``--specializations SPECIALIZATION [SPECIALIZATION...]`` — vacancies
+   specializations (allowed values (in JSON format):
+   https://api.hh.ru/specializations; default: ``['1.221']``);
+-  ``-q QUERY``, ``--query QUERY`` — the additional search query (it
+   supports a query language: https://hh.ru/article/1175);
+-  ``-p {name,description} [{name,description}...]``,
+   ``--query-properties {name,description} [{name,description}...]`` —
+   search fields for the search query (allowed values: ``name``,
+   ``description``; default: ``['name', 'description']``);
+-  ``-r``, ``--salary-required`` — search vacancies only with a salary;
+-  ``-b ANALYSIS_BEGIN``, ``--analysis-begin ANALYSIS_BEGIN`` — a begin
+   of the analysis time period in the ISO 8601 or the human-readable
+   format (default: ``1 month ago``);
+-  ``-e ANALYSIS_END``, ``--analysis-end ANALYSIS_END`` — an end of the
+   analysis time period in the ISO 8601 or the human-readable format
+   (default: ``now``);
+-  ``-I ANALYSIS_INCREMENT``,
+   ``--analysis-increment ANALYSIS_INCREMENT`` — the analysis time
+   increment in the human-readable format (see below for details);
+-  ``-F REQUEST_FREQUENCY``, ``--request-frequency REQUEST_FREQUENCY`` —
+   the maximal request frequency (default: 30);
+-  ``-S PAGE_SIZE``, ``--page-size PAGE_SIZE`` — the maximal page size
+   (default: 500);
+-  ``-V VALUE_OF_INTEREST``, ``--value-of-interest VALUE_OF_INTEREST`` —
+   the minimal value of an interest (default: 5);
+-  ``-E``, ``--error-on-limit`` — throw an error on an exceeding of the
+   search limit (2000 vacancies);
+-  ``-D [SKILLS_DELIMITER...]``,
+   ``--skills-delimiters [SKILLS_DELIMITER...]`` — delimiters for
+   unseparated skills (default: ``[',', ';']``);
+-  ``-A SKILLS_ALIASES``, ``--skills-aliases SKILLS_ALIASES`` — the path
+   to a file with skills aliases in a JSON format (see below for
+   details);
+-  ``-O {num,min,max}``, ``--order {num,min,max}`` — the order of stats
+   items (default: ``num``);
+-  ``-f {raw,csv,svg} [{raw,csv,svg}...]``,
+   ``--format {raw,csv,svg} [{raw,csv,svg}...]`` — the output format
+   (default: ``['svg']``);
+-  ``-i INPUT [INPUT...]``, ``--inputs INPUT [INPUT...]`` — input paths;
+-  ``-o OUTPUT``, ``--output OUTPUT`` — the output path.
+
+Timestamp format
+----------------
+
+ISO 8601 format
+~~~~~~~~~~~~~~~
+
+::
+
+    YYYY-MM-DDTHH:MM:SS±HHMM
+
+Human-readable format
+~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    ± <quantity> <unit> <modifier> <reference point>
+
+Units: ``year``, ``month``, ``week``, ``day``, ``hour``, ``minute``,
+``second``.
+
+Modifiers: ``from``, ``before``, ``after``, ``ago``, ``prior``,
+``prev``, ``last``, ``next``, ``previous``, ``end of``, ``this``,
+``eod``, ``eom``, ``eoy``.
+
+Reference points: months, weekdays, ``yesterday``, ``today``, ``now``,
+``tomorrow``, ``noon``, ``afternoon``, ``lunch``, ``morning``,
+``breakfast``, ``dinner``, ``evening``, ``midnight``, ``night``,
+``tonight``.
+
+E.g.:
+
+::
+
+    5 minutes from now
+    5 minutes ago
+    1 hour from noon
+    last week
+    2 weeks from tomorrow
+    3 hours from next monday
+
+See for details: https://github.com/bear/parsedatetime.
+
+Human-readable time delta format
+--------------------------------
+
+E.g. ``5 d 12 h 23 m 42 s``.
+
+See for details: https://github.com/wroberts/pytimeparse.
+
+Skills aliases format
+---------------------
+
+Skills aliases format in the JSON Schema format:
+
+.. code:: json
+
+    {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    }
+
+E.g.:
+
+.. code:: json
+
+    {
+      "HTML": ["HTML5"],
+      "CSS": ["CSS3"],
+      "JavaScript": ["ES5", "ES6", "ES7", "ES2015", "ES2016", "ES2017"],
+      "PHP": ["PHP5", "PHP7"],
+      "Python": ["Python2", "Python3"],
+      "Go": ["Golang"],
+      "C++": ["C/C++", "C++11", "C++14", "C++17"],
+      "bash": ["shell"]
+    }
+
+Vacancy list format
+-------------------
+
+Vacancy list format in the JSON Schema format:
+
+.. code:: json
+
+    {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^\\d+$"
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "salary": {
+            "type": "object",
+            "properties": {
+              "minimal": {
+                "$ref": "#/definitions/amount"
+              },
+              "maximal": {
+                "$ref": "#/definitions/amount"
+              }
+            },
+            "required": [
+              "minimal",
+              "maximal"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "skills",
+          "salary"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "definitions": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "number",
+              "minimum": 0
+            }
+          ]
+        }
+      }
+    }
+
+
+
