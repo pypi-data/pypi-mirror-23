@@ -1,0 +1,9 @@
+sqlalchemy_querybuilder/__init__.py,sha256=WuWey9O2FSVRsEADAUqIUIl81iHZP35kqX9D0jZacgk,89
+sqlalchemy_querybuilder/exceptions.py,sha256=6uODrDQM-FjmvjC6GPXRe3XDFUokjgbNGRpx-3J8pU8,47
+sqlalchemy_querybuilder/sqlalchemy_querybuilder.py,sha256=PqE6TKesQGDgGlkjkmCdHPG6MQQkSbm8R_AuzOeGWng,3873
+sqlalchemy_querybuilder-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sqlalchemy_querybuilder-0.1.dist-info/METADATA,sha256=bM4LYVyy07VK70W2Wbf_wxY_LTnVndCOjGgA1hXv5mY,739
+sqlalchemy_querybuilder-0.1.dist-info/RECORD,,
+sqlalchemy_querybuilder-0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sqlalchemy_querybuilder-0.1.dist-info/metadata.json,sha256=5p6_vhT_RlTliagfMQGQXqKyRCbhBqWIJGMnE5df0yM,994
+sqlalchemy_querybuilder-0.1.dist-info/top_level.txt,sha256=J-UBrFP7Uilf5v0yXyanxcN2c1vfc7ZgJPHjZMSDMzA,24
