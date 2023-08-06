@@ -1,0 +1,3 @@
+[flake8.extension]
+T60 = flake8_network_timeout:NetworkTimeoutLinter
+
