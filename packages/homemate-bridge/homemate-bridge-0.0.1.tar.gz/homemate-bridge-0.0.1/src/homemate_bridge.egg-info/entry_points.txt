@@ -1,0 +1,3 @@
+[console_scripts]
+homemate-bridge = homemate_bridge.cli:main
+
