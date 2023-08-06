@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: APMonitor
+Version: 0.31
+Summary: Python package to interact with APMonitor models
+Home-page: https://github.com/okesontj/APMonitor
+Author: John Hedengren
+Author-email: john_hedengren@byu.edu
+License: UNKNOWN
+Download-URL: https://github.com/okesontj/APMonitor/tarball/0.3
+Description: UNKNOWN
+Keywords: modeling,optimization,control
+Platform: UNKNOWN
