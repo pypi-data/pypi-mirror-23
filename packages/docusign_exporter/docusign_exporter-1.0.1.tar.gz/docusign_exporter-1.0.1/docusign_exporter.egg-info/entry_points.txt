@@ -1,0 +1,3 @@
+[console_scripts]
+docusign_exporter = docusign_exporter:main
+
