@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: compose-steroids
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://bitbucket.org/merixstudio/compose_steroids
+Author: MERIXSTUDIO
+Author-email: code@merixstudio.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
