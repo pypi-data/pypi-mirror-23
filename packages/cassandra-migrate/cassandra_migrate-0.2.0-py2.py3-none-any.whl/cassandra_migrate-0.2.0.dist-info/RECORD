@@ -1,0 +1,13 @@
+cassandra_migrate/__init__.py,sha256=ls5ZssL0O2WStt0lzuuwLPeSi57fgRVVSllxETyO7Us,1756
+cassandra_migrate/cli.py,sha256=sG9jGjYCrEX8LIqyQ22tcvCrTVpuz6Q5nrphU_Jxrg0,3787
+cassandra_migrate/config.py,sha256=k9_cObC2fSZwnRs2UCMi-ne-iipFlXpUw8Idq3rneFk,3048
+cassandra_migrate/cql.py,sha256=q5CzenEcn5ZYzspXFk8PNSRp9tOvyUpg-lGFmXPeZJc,2558
+cassandra_migrate/migration.py,sha256=S3Cn2ZMoGjSnbBRYMyuuDIx1J4rEkoc93HsAS-TvKLQ,2915
+cassandra_migrate/migrator.py,sha256=K_JJLMDdLOVqUXMrhImDwmlW9GJHJ476TFANa1pqzr8,18769
+cassandra_migrate-0.2.0.data/scripts/cassandra-migrate,sha256=wFyae-2yfkri5rs12-8PuUlmsk9P7gnvdIL37Il_LKc,501
+cassandra_migrate-0.2.0.dist-info/DESCRIPTION.rst,sha256=0d2PGtGLE4fAouvjhUR_ZkI0wlTRnRIikmxEr2NMBtE,6460
+cassandra_migrate-0.2.0.dist-info/METADATA,sha256=OCN6Vwsl8xG76pMFpKWe9oyKTJsTF4G074wnkSx1IhM,6957
+cassandra_migrate-0.2.0.dist-info/RECORD,,
+cassandra_migrate-0.2.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+cassandra_migrate-0.2.0.dist-info/metadata.json,sha256=e_thrvYyW1xvLCax8UPcoCuNWDXYGj97S1-KjlGNypo,692
+cassandra_migrate-0.2.0.dist-info/top_level.txt,sha256=lwW-pLPp5VHcHJPrPC1V76on1d1ZnMYQTOT6tRv1IOg,18
