@@ -1,0 +1,15 @@
+pyreqif/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyreqif/extractOleData.py,sha256=JHMsBWCxbUY0Abz66iM9QOSeuZfrDLIfMKkstRh-VMM,1601
+pyreqif/html.py,sha256=fTxi1KTNDS7F8a5EwiUc4Qm0-304BF4MOixXjtawoE4,2111
+pyreqif/ole2rtf.py,sha256=0c_Fcd2EUm5dFgioHV9mjRMhW_4ZAcIJvBhXGALzh28,413
+pyreqif/pyreqif.py,sha256=_Dh5clD1lUXf83oOqb1JzPNSQf_grdYj1JIddwhqqaI,17499
+pyreqif/reqif.py,sha256=xwFxNFmSrJ2XRC8ZLlHGhctZB1_Rzspnel2YXUebci8,21190
+pyreqif/xlsx.py,sha256=XgEYcuH5LrMG9xuZrrrLrKZJUFNo5hXXBn9Vm8Re3r0,1965
+pyreqif-0.1.data/scripts/reqif2html.py,sha256=xV-A_sss_yOAYvfXxb_3AdKVlDHdTmSE2kfAXvQmjfo,202
+pyreqif-0.1.data/scripts/reqif2xlsx.py,sha256=IAsmtFebPwFZEC9FwFCMxa86ArTWTaOseYF-MTTqKio,202
+pyreqif-0.1.dist-info/DESCRIPTION.rst,sha256=DILomsEMHBro3Lo9qfJqkZMEBL0UPDCemDJ5by2oQM0,120
+pyreqif-0.1.dist-info/METADATA,sha256=1V_h-lv-1z6EeEyX2q_eo6s9__p092V1K3emPg3OZSA,762
+pyreqif-0.1.dist-info/RECORD,,
+pyreqif-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pyreqif-0.1.dist-info/metadata.json,sha256=rxzPxeMceVuVWiZ-j6vh5BuvlWcZvIEAMekI9dV32Ag,864
+pyreqif-0.1.dist-info/top_level.txt,sha256=Zk418mfePq7VTmO0IyAF_nYq4-Cv2kqYAxvW5W5-WBI,8
