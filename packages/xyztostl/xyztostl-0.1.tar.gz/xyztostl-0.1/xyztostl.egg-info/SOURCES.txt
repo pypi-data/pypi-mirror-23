@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+xyztostl/__init__.py
+xyztostl/xyztstl.py
+xyztostl.egg-info/PKG-INFO
+xyztostl.egg-info/SOURCES.txt
+xyztostl.egg-info/dependency_links.txt
+xyztostl.egg-info/top_level.txt

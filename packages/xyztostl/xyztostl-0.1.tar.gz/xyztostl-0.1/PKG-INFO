@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: xyztostl
+Version: 0.1
+Summary: A library that takes points clouds from different file types and converts them into an stl file for printing as best as possible.
+Home-page: https://github.com/alexsludds/xyztostl
+Author: Alexander Sludds
+Author-email: asludds@mit.edu
+License: UNKNOWN
+Download-URL: https://github.com/alexsludds/xyztostl/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: printing,stl,points
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
