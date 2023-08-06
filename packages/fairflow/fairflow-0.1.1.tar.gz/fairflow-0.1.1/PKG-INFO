@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: fairflow
+Version: 0.1.1
+Summary: Functional airflow.
+Home-page: https://github.com/michaelosthege/fairflow
+Author: Michael Osthege
+Author-email: thecakedev@hotmail.com
+License: MIT
+Download-URL: https://github.com/michaelosthege/fairflow/tarball/0.1.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Intended Audience :: Developers
