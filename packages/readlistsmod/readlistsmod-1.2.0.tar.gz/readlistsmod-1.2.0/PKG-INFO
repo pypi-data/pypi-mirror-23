@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: readlistsmod
+Version: 1.2.0
+Summary: 对列表进行简单的打印，可根据用户需求，默认列表不进行任何缩进操作，除非用户指定在显示一行数据前添加level个TAB，对内嵌列表进行 level+1 个TAB缩进操作。
+Home-page: UNKNOWN
+Author: Hisea
+Author-email: hiseamail@foxmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
