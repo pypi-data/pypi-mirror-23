@@ -1,0 +1,12 @@
+taskotron_python_versions/__init__.py,sha256=to1TRaJf065rajLcRONC2wnvkCAXUuwk3moZedsZjnI,233
+taskotron_python_versions/common.py,sha256=MYKTIR_Voxt5ZQzvuQtUKWZ8TlDvh4QPmml2bH92rXg,2034
+taskotron_python_versions/executables.py,sha256=lZdDHPVIEt02s_Lqcn1OUt_lQ-ttjc_bC1VkoC6PU60,257
+taskotron_python_versions/naming_scheme.py,sha256=GtjHjFl-D3yoiSFNGfMBIbw5J-nFnkBEX5hRTNRWcuI,3499
+taskotron_python_versions/requires.py,sha256=AKtww0QV_GkvAUSl5xzcxxc-lj0fnjx6N7LvwOEfpSI,5755
+taskotron_python_versions/two_three.py,sha256=9dUDn5kYyPuDB2--KJ12zkoBSwFybKAxFdZZ_T4Z6qA,4884
+taskotron_python_versions-0.1.dev2.dist-info/DESCRIPTION.rst,sha256=h9riNMl4gtFPgrPU6eQ_So3uw4n64KHzAsEdtG7nEnU,2517
+taskotron_python_versions-0.1.dev2.dist-info/METADATA,sha256=MpIcL4SLf-wZahHK3KhfTwiwK_Jn5WZJQilQb76BF6w,3288
+taskotron_python_versions-0.1.dev2.dist-info/RECORD,,
+taskotron_python_versions-0.1.dev2.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+taskotron_python_versions-0.1.dev2.dist-info/metadata.json,sha256=AECKeEU3hf1GA8io2f_nGT3AZ8eRWWhYGRa08NHSPk8,980
+taskotron_python_versions-0.1.dev2.dist-info/top_level.txt,sha256=5-0H-24RM5ViL0cBXhsHZ5bQPEnT0gGDB-dOLG1pkTY,26
