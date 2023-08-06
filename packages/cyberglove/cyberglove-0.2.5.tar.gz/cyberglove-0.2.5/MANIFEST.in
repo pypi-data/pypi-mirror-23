@@ -1,0 +1,2 @@
+include cyberglove/*.py
+include README.md
