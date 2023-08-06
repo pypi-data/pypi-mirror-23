@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fastcosine
+Version: 0.1.0
+Summary: Approximated nearest neighbor search indexer for sparse vector
+Home-page: https://github.com/lovit/fastcosine
+Author: Lovit
+Author-email: soy.lovit@gmail.com
+License: UNKNOWN
+Description: Approximated nearest neighbor search indexer for sparse vector
+Keywords: approxinated nearest neighbor search inverted indexer
+Platform: UNKNOWN

@@ -1,0 +1,7 @@
+setup.py
+fastcosine/__init__.py
+fastcosine/fastcosine.py
+fastcosine.egg-info/PKG-INFO
+fastcosine.egg-info/SOURCES.txt
+fastcosine.egg-info/dependency_links.txt
+fastcosine.egg-info/top_level.txt
