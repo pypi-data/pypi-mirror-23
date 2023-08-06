@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+httpfingerprint/__init__.py
+httpfingerprint.egg-info/PKG-INFO
+httpfingerprint.egg-info/SOURCES.txt
+httpfingerprint.egg-info/dependency_links.txt
+httpfingerprint.egg-info/requires.txt
+httpfingerprint.egg-info/top_level.txt
