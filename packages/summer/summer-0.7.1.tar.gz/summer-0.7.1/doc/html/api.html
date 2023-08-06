@@ -1,0 +1,133 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>summer API doc &#8212; summer 0.7.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.7.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Core modules" href="api-core.html" />
+    <link rel="prev" title="Real World template project" href="example-tmplproject.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="summer-api-doc">
+<h1>summer API doc<a class="headerlink" href="#summer-api-doc" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api-core.html">Core modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-orm.html">ORM – object relational mapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-ldap.html">LDAP – lightweight directory access)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-aop.html">AOP modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-pc.html">Producer–Consumer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-misc.html">Miscellaneous modules</a></li>
+</ul>
+</div>
+<span class="target" id="module-summer"></span><p>Summer is light weight <em>Python</em> framework to support some common tasks
+in variety of applications.  It tries to assist you with:</p>
+<ul class="simple">
+<li>Managing objects that implement your business logic.</li>
+<li>Using SQL transactions by simply decorating methods as <cite>&#64;transactional</cite>.</li>
+<li>Using LDAP sessions by simply decorating methods as <cite>&#64;ldapaop</cite>.</li>
+<li>Using gettext for localization.</li>
+</ul>
+<p>With summer you can:</p>
+<ul class="simple">
+<li>Create and configure your stateless objects and deploy them into a simple
+container to be ready for any later use.</li>
+<li>Declaratively create transaction proxies or programmatically manage
+transactions.</li>
+<li>Declaratively create ldap proxies or programmatically manage ldap sessions.</li>
+<li>Get gettext l10n configured fast and ready to use.</li>
+</ul>
+<p>Reasons to name it summer:</p>
+<ul class="simple">
+<li>I wrote it in winter.</li>
+<li>You may know Java based <em>spring</em> framework, which was my inspiration.</li>
+</ul>
+<p>Summer’s top level module simply imports public API classes and methods
+into <cite>summer</cite> namespace.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="example-tmplproject.html" title="previous chapter">Real World template project</a></li>
+      <li>Next: <a href="api-core.html" title="next chapter">Core modules</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2009-2017, martinslouf@users.sourceforge.net.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

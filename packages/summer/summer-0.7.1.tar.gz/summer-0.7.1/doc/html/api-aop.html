@@ -1,0 +1,166 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AOP modules &#8212; summer 0.7.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.7.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Producer–Consumer" href="api-pc.html" />
+    <link rel="prev" title="LDAP – lightweight directory access)" href="api-ldap.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aop-modules">
+<h1>AOP modules<a class="headerlink" href="#aop-modules" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-summer.aop">
+<span id="aop-declarative-transactions-and-sessions"></span><h2><strong>aop</strong> – declarative transactions and sessions<a class="headerlink" href="#module-summer.aop" title="Permalink to this headline">¶</a></h2>
+<p>Provides summer <em>AOP</em> functionality.</p>
+<p>You can find here most useful decorators <a class="reference internal" href="#summer.aop.transactional" title="summer.aop.transactional"><code class="xref py py-func docutils literal"><span class="pre">transactional()</span></code></a> for SQL
+transaction support and <a class="reference internal" href="#summer.aop.ldapaop" title="summer.aop.ldapaop"><code class="xref py py-func docutils literal"><span class="pre">ldapaop()</span></code></a>.</p>
+<dl class="function">
+<dt id="summer.aop.transactional">
+<code class="descclassname">summer.aop.</code><code class="descname">transactional</code><span class="sig-paren">(</span><em>method: function</em><span class="sig-paren">)</span> &#x2192; function<a class="reference internal" href="_modules/summer/aop.html#transactional"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#summer.aop.transactional" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method decorator marking method as transactional.</p>
+<p>Every decorated method behaves as follows:</p>
+<ul class="simple">
+<li>if no transaction is active and database is <em>not</em> in autocommit mode,
+start a new transaction, doing commit/rollback at the end</li>
+<li>if there is a transaction, just simple continue within the
+transaction without doing commit/rollback at the end (that is left to
+the top-most transactional method)</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>method</strong> (<em>types.FunctionType</em>) – function to be decorated</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">decorated function</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(types.FunctionType)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="summer.aop.ldapaop">
+<code class="descclassname">summer.aop.</code><code class="descname">ldapaop</code><span class="sig-paren">(</span><em>method: function</em><span class="sig-paren">)</span> &#x2192; function<a class="reference internal" href="_modules/summer/aop.html#ldapaop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#summer.aop.ldapaop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method decorator marking method to be run in LDAP session.  Analogy to
+<a class="reference internal" href="#summer.aop.transactional" title="summer.aop.transactional"><code class="xref py py-func docutils literal"><span class="pre">summer.aop.transactional()</span></code></a> with same logic.</p>
+<p>Intended use case for this decorator is to decorate
+<a class="reference internal" href="api-ldap.html#summer.ldapdao.LdapEntityDao" title="summer.ldapdao.LdapEntityDao"><code class="xref py py-class docutils literal"><span class="pre">summer.ldapdao.LdapEntityDao</span></code></a> methods and then access
+current <em>ldap3</em> session/connection by using
+<a class="reference internal" href="api-ldap.html#summer.ldapdao.LdapDao.session" title="summer.ldapdao.LdapDao.session"><code class="xref py py-attr docutils literal"><span class="pre">summer.ldapdao.LdapDao.session</span></code></a> from within the <em>DAO</em> method.
+Thus you can access <em>ldap3</em> session/connection (and manipulate data),
+and still have the transaction boundaries defined on top of your
+business methods.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>method</strong> (<em>types.FunctionType</em>) – function to be decorated</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">decorated function</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(types.FunctionType)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">AOP modules</a><ul>
+<li><a class="reference internal" href="#module-summer.aop"><strong>aop</strong> – declarative transactions and sessions</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="api.html">summer API doc</a><ul>
+      <li>Previous: <a href="api-ldap.html" title="previous chapter">LDAP – lightweight directory access)</a></li>
+      <li>Next: <a href="api-pc.html" title="next chapter">Producer–Consumer</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api-aop.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2009-2017, martinslouf@users.sourceforge.net.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/api-aop.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
