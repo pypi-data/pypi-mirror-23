@@ -1,0 +1,11 @@
+pytest
+pytest-asyncio
+pytest-mock
+coverage
+mock
+flake8
+stubilous
+flask
+coveralls
+logbook
+py
