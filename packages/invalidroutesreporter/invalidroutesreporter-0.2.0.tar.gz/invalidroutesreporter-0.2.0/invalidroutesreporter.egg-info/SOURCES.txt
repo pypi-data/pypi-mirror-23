@@ -1,0 +1,14 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+invalidroutesreporter.egg-info/PKG-INFO
+invalidroutesreporter.egg-info/SOURCES.txt
+invalidroutesreporter.egg-info/dependency_links.txt
+invalidroutesreporter.egg-info/namespace_packages.txt
+invalidroutesreporter.egg-info/top_level.txt
+pierky/__init__.py
+pierky/invalidroutesreporter/__init__.py
+pierky/invalidroutesreporter/version.py
+scripts/invalidroutesreporter.py
