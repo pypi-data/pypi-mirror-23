@@ -1,0 +1,7 @@
+setup.py
+terminal-colours/__init__.py
+terminal_colours.egg-info/PKG-INFO
+terminal_colours.egg-info/SOURCES.txt
+terminal_colours.egg-info/dependency_links.txt
+terminal_colours.egg-info/not-zip-safe
+terminal_colours.egg-info/top_level.txt

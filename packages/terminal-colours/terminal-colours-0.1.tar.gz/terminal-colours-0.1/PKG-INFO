@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: terminal-colours
+Version: 0.1
+Summary: A simple package to allow the use of colours when outputting to the terminal
+Home-page: https://github.com/g-farrow/terminal-colours
+Author: Greg Farrow
+Author-email: greg.farrow1@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
