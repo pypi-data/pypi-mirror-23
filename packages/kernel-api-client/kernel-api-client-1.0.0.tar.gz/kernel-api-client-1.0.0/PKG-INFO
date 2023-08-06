@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: kernel-api-client
+Version: 1.0.0
+Summary: Kernel API
+Home-page: https://github.com/telluslabs/kernel-api-python.git
+Author: Tim Henrich for TellusLabs
+Author-email: kernel-support@telluslabs.com
+License: UNKNOWN
+Description:     Access Kernel insights programmatically
+            
+Keywords: Swagger,Kernel API
+Platform: UNKNOWN
