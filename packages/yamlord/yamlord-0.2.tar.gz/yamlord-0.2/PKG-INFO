@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: yamlord
+Version: 0.2
+Summary: wrapper for yaml package to read/write OrderedDict
+Home-page: https://github.com/ryanjdillon/yamlord
+Author: Ryan J. Dillon
+Author-email: ryanjamesdillon@gmail.com
+License: MIT
+Download-URL: https://github.com/ryanjdillon/yamlord/archive/0.2.tar.gz
+Description: # yamlord
+        A wrapper for the `yaml` module to easily read and write OrderedDict objects
+        
+Keywords: python-3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
