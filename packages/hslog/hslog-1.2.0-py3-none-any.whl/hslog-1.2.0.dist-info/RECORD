@@ -1,0 +1,14 @@
+hslog/__init__.py,sha256=xbTH9hLp6rr_38rNTIeVcG-OcvwGPmHY7VtOG2OQsqc,117
+hslog/exceptions.py,sha256=d7rlycrR-ixvvcfPAbDe7uGNLepJBIKxKaT_OmjElZw,240
+hslog/export.py,sha256=EJ4PqdwrDQmIigbkd9hDerqEwzrkeNpZxj7768FESAo,5770
+hslog/packets.py,sha256=Zt4B4qKPUD_zom4af8Hmlh2m0o3vA72UkGs_OEkRxn4,4309
+hslog/parser.py,sha256=4A85ftssWDkfjO1-Zy0CDCI_0U0_nyo_sPGjRPexzE4,21428
+hslog/player.py,sha256=ebTDk-8swCxjF5PKxIZqCR7P78RLQkJYO5uXahJvrmE,5233
+hslog/tokens.py,sha256=oMd8Y5l3dcdt5KC0pkQpksDT8LV5jIidnkeJfj8z2j8,3385
+hslog/utils.py,sha256=eB6qmomQTK9PPCeGxKobMxI8g5VT_Pdsex-m5ftTuLQ,528
+hslog-1.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+hslog-1.2.0.dist-info/METADATA,sha256=Z-t1wdQ6AxTuE2Fhb4bbeZZUX40ephS5hxLmS6K6Sy8,799
+hslog-1.2.0.dist-info/RECORD,,
+hslog-1.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+hslog-1.2.0.dist-info/metadata.json,sha256=b4UgpbBajlm57rPnBu7UDJBhhmIA-MTS0VaaWVsVF1A,918
+hslog-1.2.0.dist-info/top_level.txt,sha256=y5_MzL06ByKcMuvoLP_L1b3jJ9dkbFEdwgTsZ5PZP2I,6
