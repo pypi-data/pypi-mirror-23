@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: easymlpy
+Version: 0.1.2
+Summary: A Python toolkit for easily building and evaluating machine learning models.
+Home-page: https://github.com/CCS-Lab/easyml
+Author: OSU CCSL
+Author-email: paul.hendricks.2013@owu.edu
+License: MIT
+Description: UNKNOWN
+Keywords: easy machine learning glmnet penalized regression random forest penalized regression
+Platform: UNKNOWN
