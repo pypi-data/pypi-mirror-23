@@ -1,0 +1,43 @@
+Metadata-Version: 1.2
+Name: slinkie
+Version: 0.0.1
+Summary: A LINQ-esque project.
+Home-page: UNKNOWN
+Author: Kim Hermansson
+Author-email: UNKNOWN
+License: BSD
+Description: Slinkie
+        =======
+        
+        Introduction
+        ------------
+        
+        This is an implementation of LINQ in Python.
+        
+        Functions
+        ---------
+        - exclude
+        - extend
+        - filter (alias: where)
+        - first
+        - first_or_none
+        - group
+        - map (alias: select)
+        - not_none
+        - skip
+        - sort
+        
+        - tuple
+        - dict
+        - list
+        - set
+        
+Keywords: linq productivity development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.5
