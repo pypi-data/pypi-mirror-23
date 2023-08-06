@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: tsc
+Version: 0.1
+Summary: TimeSeries Compressor
+Home-page: http://github.com/observerss/tsc
+Author: Jingchao Hu
+Author-email: jingchaohu@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
