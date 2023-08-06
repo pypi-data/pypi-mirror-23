@@ -1,0 +1,12 @@
+pychats/__init__.py,sha256=857pJGcJPZ3MA5LslzBVHcDF-irBntTEBHU_1g6wVVI,120
+pychats/chats/__init__.py,sha256=wNsccTnlu4hVlK6I15q-SFoVX9VKpOoCGcbR1bviIpY,139
+pychats/chats/chatlogs.py,sha256=jQbnp0iwhcsrBz_sX1vH-SV_hHRhl8BQrPq9t4CtOeQ,4022
+pychats/chats/conversations.py,sha256=c7SJyV2t4dLZmIfWg0EcboTWsrzOvjxuQU23z4T7xZY,3852
+pychats/chats/messages.py,sha256=UNZ7cChTg-Krr-xNmYQuJWVDGMp-Z3VNUZkUqh3mwzY,5615
+pychats/chats/people.py,sha256=anH2jWYeNzJ5vqEAWKtEwHC3EdtAla1bK-Q4-zdsilQ,2737
+pychats-2.1.0.dist-info/DESCRIPTION.rst,sha256=Iqw_fOzibf57d-LDnIhrouxUYVoRpmO6XxIMyQ-oH88,99
+pychats-2.1.0.dist-info/METADATA,sha256=Wj61P09YtnNVf1e4UfdC5UhBcwEtYlH-mx-NaOjH5eE,886
+pychats-2.1.0.dist-info/RECORD,,
+pychats-2.1.0.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+pychats-2.1.0.dist-info/metadata.json,sha256=VSIWQHSai-9uVH-Jk2h9VucE0WQ8XYSvlk1bbw18abY,885
+pychats-2.1.0.dist-info/top_level.txt,sha256=lI6m5X606fWON2O2XU0wWD0jK4nd-T9UfZ7I6absiIY,8
