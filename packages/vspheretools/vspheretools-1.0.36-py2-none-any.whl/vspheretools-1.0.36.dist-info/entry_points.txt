@@ -1,0 +1,3 @@
+[console_scripts]
+vspheretools = vspheretools.VSphereTools:Main
+
