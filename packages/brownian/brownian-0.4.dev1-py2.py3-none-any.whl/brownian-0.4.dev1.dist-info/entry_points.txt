@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        calck=brownian._calck:cli
+        bayesk=brownian.bayes:pymc_brownian_cli
+      
