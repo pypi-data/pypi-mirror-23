@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: playstats
+Version: 0.1
+Summary: A python package to fetch statistics of apps on Google Play such as ratings, downloads and much more.
+Home-page: https://github.com/EternityPy/PlayStats
+Author: Apoorva Pandey
+Author-email: apoorvaeternity@gmail.com
+License: BSD License
+Description: A python package to fetch statistics of apps on Google Play such as ratings, downloads and much more.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3

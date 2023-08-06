@@ -1,0 +1,9 @@
+README.rst
+setup.py
+playstats/__init__.py
+playstats/appstat.py
+playstats.egg-info/PKG-INFO
+playstats.egg-info/SOURCES.txt
+playstats.egg-info/dependency_links.txt
+playstats.egg-info/requires.txt
+playstats.egg-info/top_level.txt
