@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+buildout.cfg
+setup.py
+src/testvars/README.rst
+src/testvars/__init__.py
+src/testvars/tests.py
+src/testvars.egg-info/PKG-INFO
+src/testvars.egg-info/SOURCES.txt
+src/testvars.egg-info/dependency_links.txt
+src/testvars.egg-info/not-zip-safe
+src/testvars.egg-info/requires.txt
+src/testvars.egg-info/top_level.txt

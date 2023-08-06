@@ -1,0 +1,8 @@
+include *.rst
+include LICENSE.txt
+include buildout.cfg
+include shootout.cfg
+prune doc
+recursive-include src *.xml
+recursive-include src *.rst
+
