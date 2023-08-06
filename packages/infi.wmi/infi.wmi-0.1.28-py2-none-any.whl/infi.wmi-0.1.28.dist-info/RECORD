@@ -1,0 +1,12 @@
+infi.wmi-0.1.28-py2.7-nspkg.pth,sha256=KMT2qrs0HQsU_gANjSsM7xpuGMv98nqscxb5Ca-FRmY,545
+infi/wmi/__init__.py,sha256=lcxK8woZ2K3mL3r44XwDD_YokbGmnc_vb3GaM1xw3Gc,1957
+infi/wmi/__version__.py,sha256=omcwAs7KdskGVe7mLK0Pf7BTamIPxUds8rb9jNNq7ZA,422
+infi/wmi/tests.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+infi.wmi-0.1.28.dist-info/DESCRIPTION.rst,sha256=AoNvQeCou5X6dAsf30fORHL938pIOsZXMkyL-M9JmI8,63
+infi.wmi-0.1.28.dist-info/METADATA,sha256=bfrAiMP5IcHjWVM7jce51OyZk6irsMXNIHHaWWuMh6c,783
+infi.wmi-0.1.28.dist-info/RECORD,,
+infi.wmi-0.1.28.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.wmi-0.1.28.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.wmi-0.1.28.dist-info/metadata.json,sha256=SUGQl_iQrr0q1jRNho1t6vxyxQQu9xou-8U3qcBRqog,994
+infi.wmi-0.1.28.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.wmi-0.1.28.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
