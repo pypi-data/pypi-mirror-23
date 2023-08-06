@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: cybertron
+Version: 0.0.1
+Summary: Tools for writing twitter bots
+Home-page: https://github.com/jbn/cybertron
+Author: John Bjorn Nelson
+Author-email: jbn@abreka.com
+License: MIT
+Description: About
+        =====
+        
+        **Cybertron is a set of tools for writing twitter bots**
+        
+        .. image:: https://upload.wikimedia.org/wikipedia/en/2/2d/MovieCybertron.jpg
+        
+Keywords: twitter,twitter api,social networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Topic :: Communications
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

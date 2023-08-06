@@ -1,0 +1,8 @@
+README.rst
+setup.py
+./cybertron/__init__.py
+cybertron.egg-info/PKG-INFO
+cybertron.egg-info/SOURCES.txt
+cybertron.egg-info/dependency_links.txt
+cybertron.egg-info/requires.txt
+cybertron.egg-info/top_level.txt
