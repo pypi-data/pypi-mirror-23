@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: csv2vcf
+Version: 0.2
+Summary: Convert CSV to VCF
+Home-page: https://github.com/Moduland/csv2vcf
+Author: Moduland Co
+Author-email: info@moduland.ir
+License: MIT
+Download-URL: https://github.com/Moduland/csv2vcf/tarball/v0.2
+Description: UNKNOWN
+Keywords: VCF,csv,contacts,python
+Platform: UNKNOWN
