@@ -1,0 +1,5 @@
+pyyaml
+polygot
+fundamentals
+readability-api
+requests
