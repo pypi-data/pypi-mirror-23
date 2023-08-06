@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: scikit-procrustes
+Version: 0.1
+Summary: Package of solvers for the Orthogonal Procrustes Problem
+Home-page: https://github.com/melissawm/skprocrustes
+Author: Melissa Weber Mendonça
+Author-email: melissawm@gmail.com
+License: BSD
+Download-URL: https://github.com/melissawm/skprocrustes
+Description: Solvers for the Weighted Orthogonal Procrustes Problem (WOPP)
+        
+            min norm(AXC-B,'fro')**2
+            s/t X'*X=I
+        
+        where A(m,n), B(m,q), C(p,q) and X(n,p). (usually n >> p, which
+        means we can solve unbalanced problems.)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Mathematics

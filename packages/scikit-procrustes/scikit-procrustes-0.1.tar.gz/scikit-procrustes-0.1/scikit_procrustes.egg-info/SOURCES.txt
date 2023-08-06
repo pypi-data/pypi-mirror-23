@@ -1,0 +1,10 @@
+README.rst
+setup.py
+./skprocrustes/__init__.py
+./skprocrustes/skprocrustes.py
+./skprocrustes/version.py
+scikit_procrustes.egg-info/PKG-INFO
+scikit_procrustes.egg-info/SOURCES.txt
+scikit_procrustes.egg-info/dependency_links.txt
+scikit_procrustes.egg-info/requires.txt
+scikit_procrustes.egg-info/top_level.txt
