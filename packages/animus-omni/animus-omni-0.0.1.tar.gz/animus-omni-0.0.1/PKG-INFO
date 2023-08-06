@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: animus-omni
+Version: 0.0.1
+Summary: Animus commandline tools to reduce Internet radiation from log files
+Home-page: https://github.com/Animus-Intelligence/omni
+Author: Animus Intelligence, LLC
+Author-email: info@animus.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
