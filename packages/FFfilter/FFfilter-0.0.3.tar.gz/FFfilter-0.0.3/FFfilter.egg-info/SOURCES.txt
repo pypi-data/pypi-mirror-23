@@ -1,0 +1,10 @@
+README.rst
+setup.py
+FFfilter.egg-info/PKG-INFO
+FFfilter.egg-info/SOURCES.txt
+FFfilter.egg-info/dependency_links.txt
+FFfilter.egg-info/entry_points.txt
+FFfilter.egg-info/requires.txt
+FFfilter.egg-info/top_level.txt
+fffilter/__init__.py
+fffilter/fffilter.py
