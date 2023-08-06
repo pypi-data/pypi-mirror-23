@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+sjgefily2/__init__.py
+sjgefily2/package_data.dat
+sjgefily2.egg-info/PKG-INFO
+sjgefily2.egg-info/SOURCES.txt
+sjgefily2.egg-info/dependency_links.txt
+sjgefily2.egg-info/entry_points.txt
+sjgefily2.egg-info/requires.txt
+sjgefily2.egg-info/top_level.txt
