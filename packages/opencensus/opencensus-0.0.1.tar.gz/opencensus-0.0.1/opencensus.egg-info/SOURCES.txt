@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+opencensus.egg-info/PKG-INFO
+opencensus.egg-info/SOURCES.txt
+opencensus.egg-info/dependency_links.txt
+opencensus.egg-info/top_level.txt

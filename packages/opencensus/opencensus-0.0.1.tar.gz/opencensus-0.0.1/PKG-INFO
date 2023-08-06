@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: opencensus
+Version: 0.0.1
+Summary: A stats collection and distributed tracing framework
+Home-page: https://github.com/census-instrumentation/opencensus-python
+Author: OpenCensus Contributors
+Author-email: opencensus-io@googlegroups.com
+License: Apache-2.0
+Description: OpenCensus - A stats collection and distributed tracing framework
+        =================================================================
+        
+        OpenCensus provides a framework to define and collect stats against metrics and
+        to break those stats down across user-defined dimensions. The library is in
+        pre-alpha stage and the API is subject to change.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
