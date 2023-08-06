@@ -1,0 +1,6 @@
+README.rst
+setup.py
+defusedyaml.egg-info/PKG-INFO
+defusedyaml.egg-info/SOURCES.txt
+defusedyaml.egg-info/dependency_links.txt
+defusedyaml.egg-info/top_level.txt
