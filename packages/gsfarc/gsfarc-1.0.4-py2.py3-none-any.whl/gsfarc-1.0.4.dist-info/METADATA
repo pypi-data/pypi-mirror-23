@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: gsfarc
+Version: 1.0.4
+Summary: GSF Py Client Utilities for ArcGIS
+Home-page: UNKNOWN
+Author: Exelis Visual Information Solutions, Inc.
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: gsf (>=1.0.0)
+
+UNKNOWN
+
+
