@@ -1,0 +1,12 @@
+README.rst
+setup.py
+ptwinrm/__init__.py
+ptwinrm/__main__.py
+ptwinrm/ptwinrm.py
+ptwinrm.egg-info/PKG-INFO
+ptwinrm.egg-info/SOURCES.txt
+ptwinrm.egg-info/dependency_links.txt
+ptwinrm.egg-info/entry_points.txt
+ptwinrm.egg-info/not-zip-safe
+ptwinrm.egg-info/requires.txt
+ptwinrm.egg-info/top_level.txt
