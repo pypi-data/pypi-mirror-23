@@ -1,0 +1,11 @@
+spsim/__init__.py,sha256=O9lhsPexVLG0YC4A4KcjikOCf1x5htRvItRd1YZwI3k,128
+spsim/__main__.py,sha256=o9zj5yUQvGLTPWLEDkXYHTPgAag50NJfRbmFFDKm1vE,3186
+spsim/phrase.py,sha256=l863o9HntEAFFriL-CtQarP9FSfsUrhAphD-skb1GcA,3390
+spsim/spsim.py,sha256=KKrj56v0ypSNMcL3-EOcJqD_edlgWpHhRDl99FL53yc,4631
+spsim-0.1.2.dist-info/DESCRIPTION.rst,sha256=4RmymSV4O2x12xFKMr3KgcVo-_3IOofqB7Ad3HZqOwM,1868
+spsim-0.1.2.dist-info/METADATA,sha256=Wd70rHd80aXUQ7fBWaX7zaLlSYnNwpieVyQ38ewgHqg,2468
+spsim-0.1.2.dist-info/RECORD,,
+spsim-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+spsim-0.1.2.dist-info/entry_points.txt,sha256=kd4p8ANep7imHbazj7tC0FSl9HetqAuAhX8TxjiQqnI,47
+spsim-0.1.2.dist-info/metadata.json,sha256=3bxd1YBeVNbZQ5f7Jby4d-8WodGH6jS0Tb9AmrRaKNA,937
+spsim-0.1.2.dist-info/top_level.txt,sha256=Q9M0uSxDr_9K6iElLmMFs93qHiQTpx56UIlQfZVZ954,6
