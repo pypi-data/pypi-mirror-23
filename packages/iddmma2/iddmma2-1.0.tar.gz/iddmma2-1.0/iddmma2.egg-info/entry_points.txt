@@ -1,0 +1,3 @@
+[console_scripts]
+iddmma2 = iddmma2:main5
+
