@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+papermill/__init__.py
+papermill/_version.py
+papermill/api.py
+papermill/cli.py
+papermill/execute.py
+papermill.egg-info/PKG-INFO
+papermill.egg-info/SOURCES.txt
+papermill.egg-info/dependency_links.txt
+papermill.egg-info/entry_points.txt
+papermill.egg-info/requires.txt
+papermill.egg-info/top_level.txt
