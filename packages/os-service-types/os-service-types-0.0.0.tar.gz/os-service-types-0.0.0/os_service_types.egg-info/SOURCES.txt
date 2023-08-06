@@ -1,0 +1,10 @@
+AUTHORS
+ChangeLog
+setup.cfg
+setup.py
+os_service_types.egg-info/PKG-INFO
+os_service_types.egg-info/SOURCES.txt
+os_service_types.egg-info/dependency_links.txt
+os_service_types.egg-info/not-zip-safe
+os_service_types.egg-info/pbr.json
+os_service_types.egg-info/top_level.txt
