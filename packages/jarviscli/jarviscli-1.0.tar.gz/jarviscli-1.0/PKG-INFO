@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: jarviscli
+Version: 1.0
+Summary: Personal Assistant for Linux
+Home-page: https://github.com/sukeesh/Jarvis
+Author: Sukeesh
+Author-email: vsukeeshbabu@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: linux,personal-assistant
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License

@@ -1,0 +1,16 @@
+MANIFEST.in
+NEW_FUNCTIONALITIES.md
+README.md
+contributors.md
+requirements.txt
+setup.cfg
+setup.py
+jarviscli/CmdInterpreter.py
+jarviscli/Jarvis.py
+jarviscli/__init__.py
+jarviscli/__main__.py
+jarviscli.egg-info/PKG-INFO
+jarviscli.egg-info/SOURCES.txt
+jarviscli.egg-info/dependency_links.txt
+jarviscli.egg-info/requires.txt
+jarviscli.egg-info/top_level.txt
