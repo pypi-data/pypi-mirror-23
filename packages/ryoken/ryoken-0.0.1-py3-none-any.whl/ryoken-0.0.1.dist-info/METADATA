@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: ryoken
+Version: 0.0.1
+Summary: Token generator and various utilities
+Home-page: https://github.com/drakantas/Ryoken
+Author: Drakantas
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pynacl (>=1.1.2)
+
+UNKNOWN
+
+
