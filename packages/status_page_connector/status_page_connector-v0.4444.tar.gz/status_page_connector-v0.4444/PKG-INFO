@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: status_page_connector
+Version: v0.4444
+Summary: Tool for connecting with Status Page API
+Home-page: https://github.com/chexca/StatusPageConnector
+Author: Christian Exposito
+Author-email: chexca20@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/chexca/StatusPageConnector/archive/v0.4.tar.gz
+Description: UNKNOWN
+Keywords: StatusPage,StatusPageAPI,StatusPageConnector
+Platform: UNKNOWN
