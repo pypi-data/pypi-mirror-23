@@ -1,0 +1,14 @@
+clad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clad/clad.py,sha256=e91_aDcc3gRmyeFNHX6y_R-udDrKVtoBv2pKa6fjXnY,3246
+clad/constants.py,sha256=xjcN1MVoWshdL6ORPg6hKlDnDgyG3ChEN6vRXNDIKbU,195
+clad/git.py,sha256=XEQGeKCAxrZK_Qt7JVRhS1Bw0fM7KiKeAcf_P4uvCRI,2885
+clad/logs.py,sha256=8Gzv3aSKzNdvJUdlOw0r2WysC9bAOKURF30zui9wNK8,1515
+clad/repos.py,sha256=2rkIbwW5p6JSrMF3eBWpEs1BmFPlNJP3MqO8l9VImE8,3150
+clad/utils.py,sha256=XiBvsa-yFuAUjtoonw2_YUoZ_dr4HmAyKbXtQ6ndFLo,112
+clad-0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+clad-0.3.dist-info/METADATA,sha256=A-kbd72Lum-90Uhqf8Joxd2-HWQBWV9YU_owgqRu35E,330
+clad-0.3.dist-info/RECORD,,
+clad-0.3.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+clad-0.3.dist-info/entry_points.txt,sha256=Vsjga2u2hBVm1vqpp_cKy-dwLL9oNXqGoUIg0waq1NQ,44
+clad-0.3.dist-info/metadata.json,sha256=-wyOXfhIhCyGLzVl5Meoa-JZQNmnspI5xXtWVA8MaPw,622
+clad-0.3.dist-info/top_level.txt,sha256=rZ3QWMT3OyKYCkBJoE5EuKPll9UdIFRhGhB_rvVeYeo,5
