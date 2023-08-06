@@ -1,0 +1,12 @@
+geo-stars
+setup.cfg
+setup.py
+geo_stars/__init__.py
+geo_stars/api.py
+geo_stars/catalog.json
+geo_stars/metadata.json
+geo_stars.egg-info/PKG-INFO
+geo_stars.egg-info/SOURCES.txt
+geo_stars.egg-info/dependency_links.txt
+geo_stars.egg-info/requires.txt
+geo_stars.egg-info/top_level.txt

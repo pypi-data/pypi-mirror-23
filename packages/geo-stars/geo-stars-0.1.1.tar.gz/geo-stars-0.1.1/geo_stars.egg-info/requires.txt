@@ -1,0 +1,7 @@
+astropy
+flask
+Flask-Cache
+LatLon
+gunicorn
+futures
+SPARQLWrapper
