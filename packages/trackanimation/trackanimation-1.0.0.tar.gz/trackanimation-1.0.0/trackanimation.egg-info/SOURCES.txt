@@ -1,0 +1,9 @@
+setup.py
+trackanimation/__init__.py
+trackanimation/animation.py
+trackanimation/tracking.py
+trackanimation/utils.py
+trackanimation.egg-info/PKG-INFO
+trackanimation.egg-info/SOURCES.txt
+trackanimation.egg-info/dependency_links.txt
+trackanimation.egg-info/top_level.txt
