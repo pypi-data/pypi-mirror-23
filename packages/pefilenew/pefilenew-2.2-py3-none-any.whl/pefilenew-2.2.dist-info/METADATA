@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pefilenew
+Version: 2.2
+Summary: Parses a PE file and reports information on all properties of PE File
+Home-page: https://github.com/boddumanohar/pefilenew
+Author: boddu
+Author-email: b.manu199@gmail.com
+License: UNKNOWN
+Keywords: pefile,malicious,analysis
+Platform: UNKNOWN
+
+UNKNOWN
+
+
