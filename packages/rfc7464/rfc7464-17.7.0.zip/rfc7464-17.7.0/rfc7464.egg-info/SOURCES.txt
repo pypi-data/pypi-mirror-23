@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+rfc7464/__init__.py
+rfc7464/_version.py
+rfc7464/impl.py
+rfc7464.egg-info/PKG-INFO
+rfc7464.egg-info/SOURCES.txt
+rfc7464.egg-info/dependency_links.txt
+rfc7464.egg-info/top_level.txt
+rfc7464/tests/__init__.py
+rfc7464/tests/nitpicker.py
+rfc7464/tests/test_rfc7464.py
