@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: tg-bot
+Version: 0.1.0
+Summary: Framework for bot creation in Telegram.
+
+Home-page: https://github.com/Nekmo/telegram-bot
+Author: Nekmo
+Author-email: contacto@nekmo.com
+License: MIT
+Download-URL: https://github.com/Nekmo/telegram-bot/archive/master.zip
+Description: UNKNOWN
+Keywords: telegram,bot,telegram-bot,framework
+Platform: linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: English
+Classifier: Development Status :: 1 - Planning
+Provides: telegram_bot
