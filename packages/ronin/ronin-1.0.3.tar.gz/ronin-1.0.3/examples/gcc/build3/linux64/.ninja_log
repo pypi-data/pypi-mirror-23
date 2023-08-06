@@ -1,0 +1,13 @@
+# ninja log v5
+0	324	0	/Depot/Projects/Ronin/examples/gtk/build3/linux64/obj/src/example_1.o	b5631e896750072a
+325	454	0	/Depot/Projects/Ronin/examples/gtk/build3/linux64/bin/example_1	cb4d40ea9b1cfd48
+0	267	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/obj/src/example_1.o	941ebdf2959d9017
+267	398	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/bin/example_1	97dfdd80e57fd3d9
+2	313	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/obj/src/example_1.o	941ebdf2959d9017
+313	439	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/bin/example_1	97dfdd80e57fd3d9
+2	27	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/obj/src/example_1.o	941ebdf2959d9017
+27	156	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/bin/example_1	97dfdd80e57fd3d9
+2	231	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/obj/src/example_1.o	27136ad1b8d2a388
+231	367	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/bin/example_1	4a075a9dcd2d6e98
+2	415	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/obj/src/example_1.o	c8ed07f6aaec5f00
+415	536	0	/Depot/Projects/Ronin/examples/gcc/build3/linux64/bin/example_1	97dfdd80e57fd3d9

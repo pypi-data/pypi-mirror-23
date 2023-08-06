@@ -1,0 +1,11 @@
+# ninja log v5
+1	55	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/liblibfoo.so	e6c744bd1d52ea62
+0	59	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/main	ef300cb934db9ae0
+0	52	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/libfoo.so	d297898eca630a67
+0	58	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/main	5ebb8d125aef1c9d
+0	32	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/libfoo.so	d297898eca630a67
+0	50	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/main	5ebb8d125aef1c9d
+0	42	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/libfoo.so	97eb54604adbffe0
+0	35	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/main	bf8322b64a87e603
+0	57	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/libfoo.so	d297898eca630a67
+0	60	0	/Depot/Projects/Ronin/examples/multi/build/linux64/bin/main	5ebb8d125aef1c9d
