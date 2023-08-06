@@ -1,0 +1,9 @@
+MongoSanitizer-0.0.1.dist-info/DESCRIPTION.rst,sha256=hEog3tmfSdWqfr7TNDumyd8eZcA9NEW_MEOywt8O2TM,71
+MongoSanitizer-0.0.1.dist-info/METADATA,sha256=yDEmO5c4p8-Sn3r1bQjlavj86ZhhaZsgh4edXan-Eq0,343
+MongoSanitizer-0.0.1.dist-info/RECORD,,
+MongoSanitizer-0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+MongoSanitizer-0.0.1.dist-info/metadata.json,sha256=R-10H15xe5yBOGWz4RSGIaOCemgBwIu1T1-rsxz35d8,466
+MongoSanitizer-0.0.1.dist-info/top_level.txt,sha256=-_f-5BzHBZzTINg85SvaDqB5pY4Mqd7rCLeb4MWT7Dk,15
+mongosanitizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongosanitizer/sanitizer.py,sha256=Dsuk50XDzzkzz3Ko5TTW63ugioxDRDLE8BDFtuL-1CY,1277
+mongosanitizer/test_sanitizer.py,sha256=bb519TU91xHHn8eeaj_3hRzbTaE8qAQ82i3k58jF2tI,643
