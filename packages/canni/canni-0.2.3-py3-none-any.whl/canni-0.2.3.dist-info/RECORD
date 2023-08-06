@@ -1,0 +1,11 @@
+canni.py,sha256=Dlv9v-BrNPYj9nKrs-nHOQEFKFph5nszJuvmcLD_p2k,1839
+canni/__init__.py,sha256=_PHsPsTmoGQX0LefIAF4yxf7ko3w54JfWAb_l6fA9uk,20
+canni/canni.py,sha256=HfU3y5vIgqfq6BsD--2lfjEksTZjT2fBXwsFuS9YTL0,3926
+canni/templates/index.html,sha256=dVACxg5jdMARej4q8W_adEF3j9hrvz1cODW9KwqL6o0,488
+canni/templates/switch.html,sha256=cez14XA0Tf8oLWaXN5GSROBYkMPiZcSv8F3HV5TpS0k,4513
+canni-0.2.3.dist-info/DESCRIPTION.rst,sha256=v6ywhskyr4rGd8U-lwoUyp-m49OzQQU4p2UFYSrchG0,1362
+canni-0.2.3.dist-info/METADATA,sha256=QYw97BO7KLGFUud6mKVvmTkfq08NJbmd7TDPqiPAd5c,1900
+canni-0.2.3.dist-info/RECORD,,
+canni-0.2.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+canni-0.2.3.dist-info/metadata.json,sha256=dJHg8U8GYvn2IPEkoCo_3YZ_ItjRB-MGLF6cOC8T2U0,741
+canni-0.2.3.dist-info/top_level.txt,sha256=XPCX5be974k50jbDCHPsby6nAzy7vQTWCUdT7fKeTfI,6
