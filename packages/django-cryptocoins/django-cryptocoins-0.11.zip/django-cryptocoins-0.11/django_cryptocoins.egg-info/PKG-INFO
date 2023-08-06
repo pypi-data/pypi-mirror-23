@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: django-cryptocoins
+Version: 0.11
+Summary: A simple Django app for cryptocoins.
+Home-page: https://github.com/gsfakianakis/django-cryptocoins
+Author: G.E. Sfakianakis
+Author-email: g.e.Sfakianakis@gmail.com
+License: BSD License
+Description: =====
+        CryptoCoins
+        =====
+        
+        CryptoCoins is a simple Django app to keep an overview of your cryptocoins.
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Add "cryptocoins" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'cryptocoins',
+            ]
+        
+        2. Include the polls URLconf in your project urls.py like this::
+        
+            url(r'^cryptocoins/', include('cryptocoins.urls')),
+        
+        3. Run `python manage.py migrate` to create the cryptocoins models.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
