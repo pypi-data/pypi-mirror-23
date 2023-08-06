@@ -1,0 +1,11 @@
+README.rst
+setup.py
+hedgehog/__init__.py
+hedgehog/flasher/__init__.py
+hedgehog/flasher/flasher_serial.py
+hedgehog_hwc_flasher.egg-info/PKG-INFO
+hedgehog_hwc_flasher.egg-info/SOURCES.txt
+hedgehog_hwc_flasher.egg-info/dependency_links.txt
+hedgehog_hwc_flasher.egg-info/entry_points.txt
+hedgehog_hwc_flasher.egg-info/requires.txt
+hedgehog_hwc_flasher.egg-info/top_level.txt
