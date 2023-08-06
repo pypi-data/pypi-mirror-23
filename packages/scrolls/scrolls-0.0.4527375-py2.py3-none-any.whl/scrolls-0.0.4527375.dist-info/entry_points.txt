@@ -1,0 +1,6 @@
+[console_scripts]
+scrolls = scrolls.entrypoint:main
+
+[paste.app_factory]
+main = scrolls.server:main
+
