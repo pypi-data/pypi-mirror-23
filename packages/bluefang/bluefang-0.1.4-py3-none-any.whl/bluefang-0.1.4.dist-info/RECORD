@@ -1,0 +1,13 @@
+bluefang/__init__.py,sha256=sgTjW07fhiD3Z5AJPhMWQG6W0JXsQLFglFT_93Zs7so,8837
+bluefang/agents.py,sha256=il5Fxm7AuAn0hNNlp6qOu_Pw1bg6vPTat4tD0cC_VtY,5199
+bluefang/commands.py,sha256=B5A4bR2Ta1pfnBiU5HYJg9pqp9nE0NVqQCoPM1bCvdA,259
+bluefang/l2cap.py,sha256=llFd2j6GpPpUAsvtHjcgsMuAofbKkPzc06DTpdcbyMA,3076
+bluefang/profile.py,sha256=4dF-rK6G80B7OFUtkqrjlTQ0nnnbTVmWZGDrVz8pp8M,1232
+bluefang/servicerecords.py,sha256=n3ITOkJ-aisV9Zcuuk6aDSYZJAIzMBxnGGKlkDhPj3o,3090
+bluefang-0.1.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+bluefang-0.1.4.dist-info/METADATA,sha256=sBizAgnfQ7ztvwGeyAF-clinArskNPMEwMj0-cAhS7w,430
+bluefang-0.1.4.dist-info/RECORD,,
+bluefang-0.1.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+bluefang-0.1.4.dist-info/metadata.json,sha256=s0dv2TgCgHcHks615s12OEId4VSnA3FFLSq_iPSz8Ac,623
+bluefang-0.1.4.dist-info/pbr.json,sha256=wksfIO46K8x5RfNR2sTDLdQFMZjpHO-TFqDDUygLVBs,47
+bluefang-0.1.4.dist-info/top_level.txt,sha256=0dzVo29wS0bEviLwtKHItsRvISYWV-DXkS-zYl2ZUKg,9
