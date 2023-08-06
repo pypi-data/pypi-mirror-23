@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: rank-histogram
+Version: 0.2
+Summary: Python function that takes model data, obs data, and a boolean mask to generate a rank histogram.
+Home-page: https://github.com/oliverangelil/rankhistogram
+Author: Oliver Marc Angelil
+Author-email: molofishy@gmail.com
+License: MIT
+Keywords: rank histogram climate ensemble Hamil
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
