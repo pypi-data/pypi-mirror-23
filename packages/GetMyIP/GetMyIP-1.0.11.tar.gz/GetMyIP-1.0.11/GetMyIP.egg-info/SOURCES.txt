@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+GetMyIP.egg-info/PKG-INFO
+GetMyIP.egg-info/SOURCES.txt
+GetMyIP.egg-info/dependency_links.txt
+GetMyIP.egg-info/requires.txt
+GetMyIP.egg-info/top_level.txt
+bin/getip.py
+configurations/getmyip.yaml
+getmyip/__init__.py
+getmyip/getmyip.py
+getmyip/common/__init__.py
+getmyip/common/common.py

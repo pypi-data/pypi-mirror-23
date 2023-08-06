@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: GetMyIP
+Version: 1.0.11
+Summary: A simple Python project to get my IP
+Home-page: https://github.com/abarik1981/getmyip
+Author: Amit Barik
+Author-email: wilson.amit@amazon.com
+License: MIT
+Description: # GetMyIP
+        Simple Python library that helps you find your current public IP address
+        
+Platform: UNKNOWN
