@@ -1,0 +1,17 @@
+setup.py
+bis_jira_client/__init__.py
+bis_jira_client/api_client.py
+bis_jira_client/configuration.py
+bis_jira_client/rest.py
+bis_jira_client/apis/__init__.py
+bis_jira_client/apis/issues_api.py
+bis_jira_client/models/__init__.py
+bis_jira_client/models/data.py
+bis_jira_client_py.egg-info/PKG-INFO
+bis_jira_client_py.egg-info/SOURCES.txt
+bis_jira_client_py.egg-info/dependency_links.txt
+bis_jira_client_py.egg-info/requires.txt
+bis_jira_client_py.egg-info/top_level.txt
+test/__init__.py
+test/test_data.py
+test/test_issues_api.py
