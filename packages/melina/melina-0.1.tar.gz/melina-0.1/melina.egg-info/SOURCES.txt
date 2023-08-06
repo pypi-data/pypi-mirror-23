@@ -1,0 +1,10 @@
+README.rst
+melina.py
+setup.cfg
+setup.py
+melina.egg-info/PKG-INFO
+melina.egg-info/SOURCES.txt
+melina.egg-info/dependency_links.txt
+melina.egg-info/entry_points.txt
+melina.egg-info/requires.txt
+melina.egg-info/top_level.txt
