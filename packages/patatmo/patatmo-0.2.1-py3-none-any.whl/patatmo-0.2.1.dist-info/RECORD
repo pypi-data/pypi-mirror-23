@@ -1,0 +1,15 @@
+patatmo/__init__.py,sha256=P1WQI7vC0No1oqPUbPWmhBbh925spU4NYcg_dzw0Igk,158
+patatmo/utils.py,sha256=cfTvHxENJn4lo6xqiVQoyhJu4p-DW0Fawpp0NwCpktg,1088
+patatmo/api/__init__.py,sha256=9bN4Itc-kCVVxfsWTW0LqruxA8KMj8TtUIJGZZIqgXo,259
+patatmo/api/authentication.py,sha256=YEVgxoUo6Gz6hCh7g2-IGUrIld3XFhK11JNYmGkckq0,19706
+patatmo/api/client.py,sha256=wfHRBZqNuKCf_HMurFpGotxCkryxK0u-Dr9Gr862xoM,12070
+patatmo/api/errors.py,sha256=umSp8cf6poXnB4Sx-n-NAn8Vv5xaoWGcAvmMDUT86Uo,1232
+patatmo/api/requests.py,sha256=lBs9nO0zbhpSxGx5cQg9QkS-893--m_pinuolRPAwNg,11164
+patatmo/api/responsetypes.py,sha256=D3DaynZNWXv5_g5u3nDtk5seRkb-ixTMcuM5SUD3b8I,10806
+patatmo/api/variables.py,sha256=JTUjX_afXyAE6mWmjkq683WK-qOOfVAkzqCkQZeiiJI,1817
+patatmo-0.2.1.dist-info/DESCRIPTION.rst,sha256=1rmg_JgIgDB41xS8W17k33X8-RmEpsSFyHoIJTROpdA,5395
+patatmo-0.2.1.dist-info/METADATA,sha256=VjviPkI2PfkRCkqj7T-h1D8jU6CGczTdRl9jD3cUvjo,6125
+patatmo-0.2.1.dist-info/RECORD,,
+patatmo-0.2.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+patatmo-0.2.1.dist-info/metadata.json,sha256=pxKs1eNOevMYLw9wMxc2FBVBXDPfI2_3bp_nNh8_L1I,953
+patatmo-0.2.1.dist-info/top_level.txt,sha256=WFxUnLZPf8cmBVTMnJ5olNOhNgp-IwRPyLU7oeWSBKc,8
