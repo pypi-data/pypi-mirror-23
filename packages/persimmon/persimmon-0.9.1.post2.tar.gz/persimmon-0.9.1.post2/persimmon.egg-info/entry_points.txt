@@ -1,0 +1,3 @@
+[console_scripts]
+persimmon = persimmon.__main__:main
+

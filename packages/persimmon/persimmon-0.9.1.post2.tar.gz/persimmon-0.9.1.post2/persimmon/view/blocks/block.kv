@@ -1,0 +1,29 @@
+<Block>:
+	# Fixed options
+	size_hint: None, None
+	width: '200dp'
+	drag_rectangle: self.x, self.y, self.width, self.height
+	drag_timeout: 10000000
+	drag_distance: 0
+	label: label
+	canvas:
+		Color:
+			rgba: .15, .15, .15, .8
+		RoundedRectangle:
+			pos: self.pos
+			size: self.size
+	# Children
+	Label:
+		id: label
+		pos: root.x, root.y + root.height - 20
+		size_hint: None, None
+		height: '20dp'
+		width: root.width
+		text: root.title
+		canvas.before:
+			Color:
+				rgba: [*root.block_color, 0.8]
+			RoundedRectangle:
+				pos: self.pos
+				size: self.size
+				radius: [(10, 10), (10, 10), (0, 0), (0, 0)]

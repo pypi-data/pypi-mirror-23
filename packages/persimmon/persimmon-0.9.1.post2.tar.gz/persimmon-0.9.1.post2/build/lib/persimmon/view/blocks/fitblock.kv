@@ -1,0 +1,15 @@
+<FitBlock>:
+	title: 'Fit'
+	block_color: root.b.FIT_AND_PREDICT.value
+	data_in: data_in
+	est_in: est_in
+	est_out: est_out
+	InputPin:
+		id: data_in
+		type_: root.t.DATAFRAME
+	InputPin:
+		id: est_in
+		type_: root.t.CLASSIFICATOR
+	OutputPin:
+		id: est_out
+		type_: root.t.CLASSIFICATOR

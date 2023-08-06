@@ -1,0 +1,16 @@
+<PredictBlock>:
+	title: 'Predict'
+	block_color: root.b.FIT_AND_PREDICT.value
+	est_in: est_in
+	data_in: data_in
+	plain_out: plain_out
+	InputPin:
+		id: est_in
+		type_: root.t.CLASSIFICATOR
+	InputPin:
+		id: data_in
+		type_: root.t.DATAFRAME
+	OutputPin:
+		id: plain_out
+		type_: root.t.STR
+

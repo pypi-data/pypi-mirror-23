@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: persimmon
+Version: 0.9.1.post2
+Summary: A visual dataflow language for sklearn
+Home-page: http://github.com/AlvarBer/Persimmon
+Author: Álvaro Bermejo
+Author-email: alvaro.garcia95@hotmail.com
+License: MIT
+Download-URL: https://github.com/AlvarBer/Persimmon/archive/v0.9.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5

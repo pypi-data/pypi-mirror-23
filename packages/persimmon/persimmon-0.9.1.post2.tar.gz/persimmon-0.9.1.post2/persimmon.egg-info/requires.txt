@@ -1,0 +1,7 @@
+Cython
+Kivy
+scipy
+scikit-learn
+pandas
+fuzzywuzzy
+pymitter
