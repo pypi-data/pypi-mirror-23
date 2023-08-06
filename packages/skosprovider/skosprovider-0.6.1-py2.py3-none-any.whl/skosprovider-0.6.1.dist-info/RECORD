@@ -1,0 +1,14 @@
+skosprovider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skosprovider/exceptions.py,sha256=1ezutqTFHrPp97aKVG99iGv74ivvgyHR25cbCXojfLE,651
+skosprovider/providers.py,sha256=eliwwjb84ROYNgZLPemJRmFo69FYYybcVL2u1ojEjcs,26342
+skosprovider/registry.py,sha256=g_ROJO0CpFXsWQ4JsF4kurnjyihEue2a97QAibiE6n0,8777
+skosprovider/skos.py,sha256=KuLgy8Nu-6KWATHs9FOIDxvKEsBUIjbINXcmwNkiLu0,18358
+skosprovider/uri.py,sha256=YpbQQ8D_TwBn6oNQHnfr4yaEXjEyQdTPWorSVuwTZxc,3224
+skosprovider/utils.py,sha256=UZMKgbVCoHjvDnu_IU3qDAxfEqBT7Oqr24Y20xWecK8,1720
+skosprovider-0.6.1.dist-info/DESCRIPTION.rst,sha256=Myd99L-AdNmQPpZgFRHsOPOi3JUqbPkwS-0azcOF1wU,1558
+skosprovider-0.6.1.dist-info/METADATA,sha256=0ruTnbwRZ0a19kGFBJ33hck2z4vnBx6JI-FjusaiRGg,2335
+skosprovider-0.6.1.dist-info/RECORD,,
+skosprovider-0.6.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+skosprovider-0.6.1.dist-info/metadata.json,sha256=xF5QRaYgn8tl9uukS0AyJelm4PxVIhkNEwbF85JhAsQ,914
+skosprovider-0.6.1.dist-info/pbr.json,sha256=aqgSKZqIjoSvoP3jEigjFaO0IfM5WF02AZ_hAea0rfI,46
+skosprovider-0.6.1.dist-info/top_level.txt,sha256=h8WmM8qwlLg6kN4vySHQQGTAsft_9Fxn3Lz0C0GLEQE,13
