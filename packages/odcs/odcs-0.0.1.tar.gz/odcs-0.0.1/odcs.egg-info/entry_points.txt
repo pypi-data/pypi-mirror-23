@@ -1,0 +1,7 @@
+[console_scripts]
+odcs-backend = odcs.manage:runbackend
+odcs-frontend = odcs.manage:runssl
+odcs-gencert = odcs.manage:generatelocalhostcert
+odcs-manager = odcs.manage:manager_wrapper
+odcs-upgradedb = odcs.manage:upgradedb
+
