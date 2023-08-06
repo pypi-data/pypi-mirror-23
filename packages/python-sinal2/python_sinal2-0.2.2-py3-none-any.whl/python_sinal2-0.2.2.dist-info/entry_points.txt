@@ -1,0 +1,3 @@
+[console_scripts]
+sinal2 = sinal2.cli:cli
+
