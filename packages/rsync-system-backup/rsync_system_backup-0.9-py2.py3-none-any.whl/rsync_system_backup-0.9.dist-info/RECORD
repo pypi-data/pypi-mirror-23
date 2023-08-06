@@ -1,0 +1,12 @@
+rsync_system_backup/__init__.py,sha256=PnJwh9sLqK8Ws3sun7xTOtJoFIVI0nV7_0qRebl-mL8,27508
+rsync_system_backup/cli.py,sha256=dLI2L7T4ePFCisZddx53eXf8GXiHGW8T-sRMqMVkvPg,10627
+rsync_system_backup/destinations.py,sha256=3RujCfw4Aqo_7McyYVXClrhdPL8HI1Q8bbscNNnuOkI,10786
+rsync_system_backup/exceptions.py,sha256=fDPGmdQxpicKsrlrEnO6RwV1Mla9KvJzQzr2h_guCFs,1482
+rsync_system_backup/tests.py,sha256=K3M2tropuvYY5U0BME0tbX_V3acOuTJCl4en-PjyMXI,20209
+rsync_system_backup-0.9.dist-info/DESCRIPTION.rst,sha256=cYTgVFLXChgZ9FFPdZaE6pCxSkUG6jcXgBgM-jgoM_A,17505
+rsync_system_backup-0.9.dist-info/METADATA,sha256=kl7LwhMi6uCs225M5zQcREQmbDCgDsz4CRCqdvjLFjw,19042
+rsync_system_backup-0.9.dist-info/RECORD,,
+rsync_system_backup-0.9.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+rsync_system_backup-0.9.dist-info/entry_points.txt,sha256=yM2IG5P6DXbHs6NIyQkK-SrT2EA2Fn5kXYPvuPikZqQ,70
+rsync_system_backup-0.9.dist-info/metadata.json,sha256=aV_icVF108GCXOh0cToCkHBC_X7Rja3UnbOHf5m-mHs,1692
+rsync_system_backup-0.9.dist-info/top_level.txt,sha256=2uRysfzVQZ8kzjp2LPuF1VBc0_TxFJ0QOEMKHCUzCzY,20
