@@ -1,0 +1,106 @@
+#compdef hatch
+
+_message_next_arg()
+{
+    argcount=0
+    for word in "${words[@][2,-1]}"
+    do
+        if [[ $word != -* ]] ; then
+            ((argcount++))
+        fi
+    done
+    if [[ $argcount -le ${#myargs[@]} ]] ; then
+        _message -r $myargs[$argcount]
+        if [[ $myargs[$argcount] =~ ".*file.*" || $myargs[$argcount] =~ ".*path.*" ]] ; then
+            _files
+        fi
+    fi
+}
+
+_hatch ()
+{
+    local context state state_descr line
+    typeset -A opt_args
+
+    _arguments -C \
+        ':command:->command' \
+        '*::options:->options'
+
+    case $state in
+        (command)
+            local -a subcommands
+            subcommands=(
+				'website'
+            )
+            _values 'hatch' $subcommands
+        ;;
+
+        (options)
+            case $line[1] in
+                website)
+                    _hatch-website
+                ;;
+            esac
+        ;;
+    esac
+
+}
+
+_hatch-website ()
+{
+    local context state state_descr line
+    typeset -A opt_args
+
+    _arguments -C \
+        ':command:->command' \
+        '*::options:->options'
+
+    case $state in
+        (command)
+            local -a subcommands
+            subcommands=(
+				'start'
+				'deploy'
+            )
+            _values 'hatch website' $subcommands
+        ;;
+
+        (options)
+            case $line[1] in
+                start)
+                    _hatch-website-start
+                ;;
+                deploy)
+                    _hatch-website-deploy
+                ;;
+            esac
+        ;;
+    esac
+
+}
+
+_hatch-website-start ()
+{
+    local context state state_descr line
+    typeset -A opt_args
+
+    _arguments -C \
+        ':command:->command' \
+
+}
+
+_hatch-website-deploy ()
+{
+    local context state state_descr line
+    typeset -A opt_args
+
+    _arguments -C \
+        ':command:->command' \
+		'(--path=-)--path=-' \
+		'(--domain=-)--domain=-' \
+		'(--name=-)--name=-' \
+
+}
+
+
+_hatch "$@"
