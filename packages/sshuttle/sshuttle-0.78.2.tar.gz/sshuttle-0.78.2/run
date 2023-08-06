@@ -1,0 +1,11 @@
+#!/bin/sh
+source_dir="$(dirname $0)"
+(cd "$source_dir" && "$source_dir/setup.py" --version > /dev/null)
+export PYTHONPATH="$source_dir:$PYTHONPATH"
+if python3.5 -V >/dev/null 2>&1; then
+	exec python3.5 -m "sshuttle" "$@"
+elif python2.7 -V >/dev/null 2>&1; then
+	exec python2.7 -m "sshuttle" "$@"
+else
+	exec python -m "sshuttle" "$@"
+fi
