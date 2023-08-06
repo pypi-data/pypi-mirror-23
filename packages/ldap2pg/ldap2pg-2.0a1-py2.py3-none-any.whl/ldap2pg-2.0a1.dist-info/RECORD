@@ -1,0 +1,16 @@
+ldap2pg/__init__.py,sha256=LGlsqk04YnaJuPPpbnp-SHRFM8SkXVtI7KIswJG4DPM,22
+ldap2pg/acl.py,sha256=hI302VTHJrmpksmYNLXIZWF94qnLga0H-E-nTTk93G4,2418
+ldap2pg/config.py,sha256=iP0uO9Sq8V4aOGPQ1kzpLZ3XB4119ejMj8b37GWas1U,17588
+ldap2pg/ldap.py,sha256=tKuH8m8EzO_ssSNDvxvcnsAD86ahK8bB6uPMOyNXxd8,4283
+ldap2pg/manager.py,sha256=PAyafTD56smAOKpnvEDfvt8JGDVKAQEyxRxVxcHMB_E,10769
+ldap2pg/psql.py,sha256=j2VEXMCPRKPaL2EbGyIe3ZmAxE7zjH5nmPDgdN-_rd4,3344
+ldap2pg/role.py,sha256=FzpC8-twLnllGYjbX_MiXz-6ubWpcxUSNRnDu4fgmzo,6077
+ldap2pg/script.py,sha256=Xxw305_UAZyMaRDZEiVZfqI_ryO1ovT6DP4jPHPDD1Y,2518
+ldap2pg/utils.py,sha256=1ViqpeXYmvj7wmQO7wq6PbVum1DhgHnvfL7nv038a8o,1004
+ldap2pg-2.0a1.dist-info/DESCRIPTION.rst,sha256=VAF6d3KtIRinrwSNPI56eohixrD6UOkhJz04JiBGYFc,2597
+ldap2pg-2.0a1.dist-info/METADATA,sha256=1i2_mLFqqQ2ngrr00Ekcncg_lIbKAB0-ljjr9IoWfqo,3147
+ldap2pg-2.0a1.dist-info/RECORD,,
+ldap2pg-2.0a1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ldap2pg-2.0a1.dist-info/entry_points.txt,sha256=2jNpGttFPkIr1KvHFVtYQeCG8eLXABK3zBXEhBJa7j8,49
+ldap2pg-2.0a1.dist-info/metadata.json,sha256=GxPctPkH_AUK3NpOcNHglf_EPtCuQVUAZgorV7eUV4I,856
+ldap2pg-2.0a1.dist-info/top_level.txt,sha256=amRbo-3BQ94BAiDrdHhGAlZW4RcODZJHMk02SeofwEc,8
