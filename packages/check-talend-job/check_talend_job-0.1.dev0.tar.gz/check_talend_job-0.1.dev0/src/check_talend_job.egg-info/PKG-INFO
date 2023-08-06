@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: check-talend-job
+Version: 0.1.dev0
+Summary: A nagios-like plugin to check if talend jobs executed successfully
+Home-page: https://github.com/paulla/check_talend_job
+Author: Elio Maisonneuve
+Author-email: maisonneuv@eisti.eu
+License: BSD
+Description: 
+        
+        Changelog
+        =========
+        
+        0.1-dev (unreleased)
+        ------------------------
+        
+        - Elio Maisonneuve <maisonneuv@eisti.eu>
+        
+        
+        Contributors
+        ==============
+        
+        Elio Maisonneuve, Author
+        
+Keywords: nagios
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
