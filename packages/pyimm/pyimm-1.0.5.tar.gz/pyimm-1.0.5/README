@@ -1,0 +1,8 @@
+The purpose of this code is to read IMM files created by X-ray Photo Correlation
+spectroscopy beamlines at the Advanced Photon Source at Argonne National 
+Laboratory.
+
+Test files have been omitted from the repository due to size issues.  Test Files
+can be found at:
+
+1.0.5  2017-06-30  Mostly fixes for first index issue.
