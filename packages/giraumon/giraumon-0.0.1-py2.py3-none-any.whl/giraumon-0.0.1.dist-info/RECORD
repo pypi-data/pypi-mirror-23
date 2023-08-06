@@ -1,0 +1,16 @@
+giraumon/__about__.py,sha256=eaIVVTk1Psxk8aRJk-auCJPj84--Dl2tNbR5MdNxhQY,583
+giraumon/__init__.py,sha256=cHxhGDygMPA5ZBPls9uKrMya8jV0E636ueFOHO0Pog8,419
+giraumon/cli.py,sha256=Fw7-UUGDdh_xNqDff9D82uyfxwKL2O3xJIGNy2GbW_8,386
+giraumon/initialize.py,sha256=MDusOpTBBURnC_fAukzRVI3ly_bP2roUKqCYGWCils8,1386
+giraumon/utility.py,sha256=-kldwd1KwNW8OydezhV1o5JzLdtCgNXTWis1-qGar88,1219
+giraumon/tests/__init__.py,sha256=BcycccYGgf6ce0qwJUq5mqlRr059oWziThNWS7jlG7M,86
+giraumon/tests/test_cli.py,sha256=0-SaINRnBzyYDijic392fLl_Lkqn44VdR2j60sicsBs,410
+giraumon/tests/test_initialize.py,sha256=om9Yv-zQocULFBZNz7HqLLwDcpYFCa4bG7Dhz45V3Ds,924
+giraumon/tests/test_utility.py,sha256=KS6qPleUpasSWZfiXrIe_Kd2yFRvLvRQqUm9AdMuqRY,343
+giraumon-0.0.1.dist-info/DESCRIPTION.rst,sha256=l38qsbucaNzQWSTYbw1V9CjlvaSFYCQl8PgS7dlHwG4,1499
+giraumon-0.0.1.dist-info/METADATA,sha256=q-9heKbW_ahLQf2kGi2FCJG9IOAkofcraWhyDGOykVQ,2338
+giraumon-0.0.1.dist-info/RECORD,,
+giraumon-0.0.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+giraumon-0.0.1.dist-info/entry_points.txt,sha256=wdUTxVjOm4D4MKoD9IMEaIDgiJSmxkkxNHE7BMJcSu0,65
+giraumon-0.0.1.dist-info/metadata.json,sha256=hfyLrrWDKkks7kAOROBa9Pmk3oVwV-qIynT7lB7RRck,1133
+giraumon-0.0.1.dist-info/top_level.txt,sha256=0WgJ9ovg8zf8k_vxgpmaaCcnPuCwWd0RPKgmupCLlbc,9
