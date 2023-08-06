@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: webcord
+Version: 0.1
+Summary: A Discord Webhook API Wrapper
+Home-page: https://github.com/maximinijanijos/webcord
+Author: Max Berkelmans
+Author-email: maxberkelmans@live.nl
+License: UNKNOWN
+Download-URL: https://github.com/maximinijanijos/webcord/archive/0.12.tar.gz
+Description: UNKNOWN
+Keywords: wrapper,api,discord,webhooks
+Platform: UNKNOWN
