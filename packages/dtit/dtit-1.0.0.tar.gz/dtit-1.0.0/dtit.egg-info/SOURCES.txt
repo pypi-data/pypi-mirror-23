@@ -1,0 +1,8 @@
+README.rst
+dtit.py
+setup.py
+dtit.egg-info/PKG-INFO
+dtit.egg-info/SOURCES.txt
+dtit.egg-info/dependency_links.txt
+dtit.egg-info/requires.txt
+dtit.egg-info/top_level.txt
