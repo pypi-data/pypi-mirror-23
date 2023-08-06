@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: bit-notify
+Version: 0.0.1
+Summary: Bittrex SMS Notifier
+Home-page: https://github.com/hthompson6/bit-notify
+Author: Hunter Thompson
+Author-email: thompson.grey.hunter@gmail.com
+License: MIT
+Keywords: sms bittrex
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: bit-bind (>=0.0.1)
+Requires-Dist: twilio (>=6.4.2)
+
+# bit-notifier
+SMS notifier for bittrex
+
+
