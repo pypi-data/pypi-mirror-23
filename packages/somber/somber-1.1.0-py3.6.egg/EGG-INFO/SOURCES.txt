@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+somber/__init__.py
+somber/sequential.py
+somber/som.py
+somber/utils.py
+somber.egg-info/PKG-INFO
+somber.egg-info/SOURCES.txt
+somber.egg-info/dependency_links.txt
+somber.egg-info/requires.txt
+somber.egg-info/top_level.txt
+somber.egg-info/zip-safe
+test/__init__.py
+test/som.py
+test/testutils.py
