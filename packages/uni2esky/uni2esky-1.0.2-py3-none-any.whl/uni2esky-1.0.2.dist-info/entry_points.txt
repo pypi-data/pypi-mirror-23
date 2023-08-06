@@ -1,0 +1,6 @@
+[console_scripts]
+codepages = test_encoding.codepages:main
+hexprint = hexprint.hexprint:main
+testencoding = test_encoding.test_encoding:main
+uni2esky = uni2esky.uni2esky:main
+
