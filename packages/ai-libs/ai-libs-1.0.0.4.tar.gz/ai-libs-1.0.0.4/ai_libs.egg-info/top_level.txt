@@ -1,0 +1,4 @@
+ai
+ai/autoencoder/agn_autoencoder
+ai/autoencoder/test
+ai/simple/softmax
