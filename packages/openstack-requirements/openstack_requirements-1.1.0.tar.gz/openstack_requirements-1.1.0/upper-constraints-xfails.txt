@@ -1,0 +1,2 @@
+# Format is
+# <dependency that is incompatible>==<version>;<list,of,affected,packages>
