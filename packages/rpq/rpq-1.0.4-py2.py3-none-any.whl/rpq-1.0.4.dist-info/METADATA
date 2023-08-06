@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: rpq
+Version: 1.0.4
+Summary: Simple Redis work queue with added features (priorities, pop multiple items at once)
+Home-page: https://github.com/gabfl/redis-priority-queue
+Author: Gabriel Bordeaux
+Author-email: pypi@gab.lc
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: argparse
+Requires-Dist: prettytable
+Requires-Dist: redis
+
+README.md
+
+
