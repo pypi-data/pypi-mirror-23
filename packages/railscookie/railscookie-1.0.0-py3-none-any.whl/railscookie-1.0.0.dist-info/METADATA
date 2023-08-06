@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: railscookie
+Version: 1.0.0
+Summary: Rails4 Cookie Manipulator for Python3
+Home-page: https://github.com/orisano/railscookiepy
+Author: orisano
+Author-email: owan.oriasno@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: PyCrypto
+
+UNKNOWN
+
+
