@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+fsight/__init__.py
+fsight/__main__.py
+fsight/pio.py
+fsight_cli.egg-info/PKG-INFO
+fsight_cli.egg-info/SOURCES.txt
+fsight_cli.egg-info/dependency_links.txt
+fsight_cli.egg-info/entry_points.txt
+fsight_cli.egg-info/requires.txt
+fsight_cli.egg-info/top_level.txt
