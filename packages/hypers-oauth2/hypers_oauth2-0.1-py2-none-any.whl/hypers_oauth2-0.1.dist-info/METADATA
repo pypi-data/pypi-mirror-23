@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: hypers-oauth2
+Version: 0.1
+Summary: Hypers HFA OAuth 2 API Python SDK
+Home-page: https://git.hypers.com/hfa/oauth2_sdk
+Author: Changjian Zhu
+Author-email: daya0576@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: six
+
+UNKNOWN
+
+

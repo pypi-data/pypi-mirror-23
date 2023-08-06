@@ -1,0 +1,11 @@
+hfa_oauth_sdk/__init__.py,sha256=DtFo-8DF8I-4KI1UcEE9X7ZfKcx_bkrYzT4VhiLUrKk,23
+hfa_oauth_sdk/auth.py,sha256=RxELTfE1tBZGWSuUNXhFviXuYA11iMgR01yG8zvW4DI,3645
+hfa_oauth_sdk/test_redirect.py,sha256=8gPZDhOXkPPwrufN49No3K2q8tfjP4u_-wjBX8zE3Cg,295
+hfa_oauth_sdk/test_token.py,sha256=yJcedxp2muGIJs0mYiBOPXE8TKdWKQZDlChiV8tLkDA,496
+hfa_oauth_sdk/utility.py,sha256=ibw1GPO8j2qJR41i4hMRWX_BNYo1PU1AHSBCPgq_Vo4,715
+hypers_oauth2-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+hypers_oauth2-0.1.dist-info/METADATA,sha256=_JhiEneGlrd6fu0MBdxe4Hbjy5HBurkSvIsJFySnagM,287
+hypers_oauth2-0.1.dist-info/RECORD,,
+hypers_oauth2-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+hypers_oauth2-0.1.dist-info/metadata.json,sha256=OCAgZQy2UwOgJOyyFpmVmwgfNEhtsdu2VJrhaHM_P-E,487
+hypers_oauth2-0.1.dist-info/top_level.txt,sha256=jWvrBhq3xZSG5AO6WbbVjAr81lpKNQd_L40qDe80qiM,14
