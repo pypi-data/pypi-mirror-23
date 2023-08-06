@@ -1,0 +1,13 @@
+hugo_jupyter/__fabfile.py,sha256=wcqKofy6vIUdHH7stg6rLypZLGFqi-VPoUE4WNGcju8,6049
+hugo_jupyter/__init__.py,sha256=DlmuTF5-NXUoZC1wcdAD9NdeZsETmAPHho8zKwzi9Fs,168
+hugo_jupyter/cli.py,sha256=NZKa2DbEOl-qAsMUT8FH-7nhWfQV8El_R3bDt5-hFk0,1405
+hugo_jupyter/hugo_jupyter.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+hugo_jupyter-0.1.4.dist-info/DESCRIPTION.rst,sha256=3JMzRCqsIEhS3jJZXTEfPj89W7ve3UUz9Yti7ZqThMY,1581
+hugo_jupyter-0.1.4.dist-info/METADATA,sha256=OwTDPox3sgBrrnwd3p196Oj5eQCIPvD_5GPJH0JlpeY,2909
+hugo_jupyter-0.1.4.dist-info/RECORD,,
+hugo_jupyter-0.1.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+hugo_jupyter-0.1.4.dist-info/entry_points.txt,sha256=jVxq2J9KeMlPbholX_pILYaLaHtKNbzNNj-Coj7q1GU,56
+hugo_jupyter-0.1.4.dist-info/metadata.json,sha256=rSV5JTTqZucq571HfZxAu5noZlU7HZoTQANWpLmh8cw,1618
+hugo_jupyter-0.1.4.dist-info/top_level.txt,sha256=kJQ5LHjoHljtlbfDsXCxULjs67lPiw5kkeDtdgWG3QM,19
+tests/__init__.py,sha256=3j9EMgi-O4Bkdi4gUSpYsHNHYI16OvjamGYItMhYPSk,67
+tests/test_hugo_jupyter.py,sha256=xf3jMvDSbjUXCWc3aOKVWOjlzmznMib1PrtHzu2GHHE,124
