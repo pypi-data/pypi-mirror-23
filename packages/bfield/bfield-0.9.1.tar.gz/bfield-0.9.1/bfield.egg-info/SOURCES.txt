@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+bfield.py
+setup.cfg
+setup.py
+test_bfield.py
+bfield.egg-info/PKG-INFO
+bfield.egg-info/SOURCES.txt
+bfield.egg-info/dependency_links.txt
+bfield.egg-info/top_level.txt
+bfield.egg-info/zip-safe
