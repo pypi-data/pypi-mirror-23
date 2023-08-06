@@ -1,0 +1,3 @@
+[ironic_inspector.hooks.processing]
+system_name_llc = stackhpc_inspector_plugins.plugins.system_name_llc:SystemNameLocalLinkConnectionHook
+
