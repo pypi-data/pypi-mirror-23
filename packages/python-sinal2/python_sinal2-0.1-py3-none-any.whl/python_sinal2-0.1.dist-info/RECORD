@@ -1,0 +1,11 @@
+python_sinal2-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+python_sinal2-0.1.dist-info/METADATA,sha256=BMUuXh-o1UxBXGiIZR-jnRAkhSC5kcZhxVZ0lYtAoJc,544
+python_sinal2-0.1.dist-info/RECORD,,
+python_sinal2-0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+python_sinal2-0.1.dist-info/entry_points.txt,sha256=y0xQ0xP5L4bL0Flrw5amQ5n8HQjTRv0IMb4b-cAv5Vw,43
+python_sinal2-0.1.dist-info/metadata.json,sha256=T8Rrr-fPB6d3-8L7fxvgARkxsC7LkamyqoPkYscAnsg,820
+python_sinal2-0.1.dist-info/top_level.txt,sha256=vTLXagdVs2ZC8kYnFz0dLlL5g1sCHIe1qwJRcRu60eY,7
+sinal2/__init__.py,sha256=aFIebsAddoSyHaz6wNPiNnTOgJLb5CgPv0fOGJGej2I,59
+sinal2/cli.py,sha256=p5ajtKP-ATFx8SJSK_Kmcfim9IIN1942BnHqcNJt31s,1284
+sinal2/runner.py,sha256=XdWDIJTQGA7lIpiL3Arif2f6NfNDXFI8u4D4EC3gWEg,3347
+sinal2/sinal2.py,sha256=V_W7s77d38-H62KNoYh_4d8QmWZjtLUK8rVqiC5UyQ4,19574
