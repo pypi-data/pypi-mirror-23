@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+bongo_magic.egg-info/PKG-INFO
+bongo_magic.egg-info/SOURCES.txt
+bongo_magic.egg-info/dependency_links.txt
+bongo_magic.egg-info/entry_points.txt
+bongo_magic.egg-info/requires.txt
+bongo_magic.egg-info/top_level.txt
+magic/Stops.py
+magic/Task.py
+magic/__init__.py
+magic/index.py
+magic/utils.py
