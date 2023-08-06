@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "josh@joshpalmer.co.uk", "name": "Josh Palmer", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "metadata_version": "2.0", "name": "pythonnoop", "summary": "no-ops modules for you", "version": "1.0"}
