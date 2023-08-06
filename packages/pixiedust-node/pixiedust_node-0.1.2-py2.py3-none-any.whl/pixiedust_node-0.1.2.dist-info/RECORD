@@ -1,0 +1,12 @@
+pixiedust_node/__init__.py,sha256=YRy8xik0WRdw9RZINFVXBwLBp3OLwZNikyq8oVTG0Ow,2074
+pixiedust_node/node.py,sha256=VblLxOvL-bcXh8bykoFYrb1FlIMuin5C0MyzUwkpv2M,1792
+pixiedust_node/nodestdreader.py,sha256=CoK0PJJX6mPCVXuvbcyD8WQzaHaDdFE2VqBEG3nJF2c,2223
+pixiedust_node/npm.py,sha256=wYAXT7fLTBA2u2h9IRWNHCZlJSvjuJJhYIOj3zBCMgA,666
+pixiedust_node/package.json,sha256=HJXAbMrp3O0r0x-T5fcM_s8OKuXBAEqryLifgSgG3Fc,495
+pixiedust_node/pixiedustNodeRepl.js,sha256=ILb89CIolV8xeR9RBYZqwCVKNcBzaNsgVhkqcqW9HSk,3129
+pixiedust_node-0.1.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pixiedust_node-0.1.2.dist-info/METADATA,sha256=DtjeEeEqFX5WIPfR6sR80iGE3yZ9gOdhJ4_qKeIzPbY,322
+pixiedust_node-0.1.2.dist-info/RECORD,,
+pixiedust_node-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pixiedust_node-0.1.2.dist-info/metadata.json,sha256=mnEGcvVkeQks0SaOzElVXZomtDGPWB4Vi5Z_nZf8lMs,534
+pixiedust_node-0.1.2.dist-info/top_level.txt,sha256=rT582arYwJZOchIU3ow9P3pio71SxtT_uv0CLuEd9o8,15
