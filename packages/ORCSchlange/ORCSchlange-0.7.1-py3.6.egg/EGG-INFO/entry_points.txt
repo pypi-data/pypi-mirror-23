@@ -1,0 +1,3 @@
+[console_scripts]
+orcs = ORCSchlange.__main__:main
+
