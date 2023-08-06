@@ -1,0 +1,14 @@
+pyecore/__init__.py,sha256=inbPALZUpuviVHILSp1R3zIGgLJgql1gLyeYDRRiUAA,32
+pyecore/commands.py,sha256=ZlFiKsQderlaYWwbhYOQxo_AH_nMRW-Z8QDkZDIxfFA,12309
+pyecore/ecore.py,sha256=hDBn-CE8LLHobxK-HOVX_9LtJDxiWB_YLxSJa0t9wsQ,52445
+pyecore/notification.py,sha256=wZDuh-3Gt6hIVMFYLjKh5WB3iwCPFKvh4-RpZVhcTvE,1569
+pyecore/utils.py,sha256=PpcroKEfKw71QRfDlgl1y2SCDphSSEV1aVZdDvqq62A,1802
+pyecore/resources/__init__.py,sha256=9bA8mIk3WwNFvjBhvGMcbboqDgWjx8wIs89G-a_-o-A,472
+pyecore/resources/resource.py,sha256=vRJrEBNjdCVSf7VxTqQ__bJ0inOWqh-CaQ0-dLIVcRE,11962
+pyecore/resources/xmi.py,sha256=inRANpSRxrAChc2PJRbHzt0pTgpvFJnD0duHpR0ksKk,15398
+pyecore-0.6.0.dist-info/DESCRIPTION.rst,sha256=YJECqjpg80BQFCINiK7vKUPNPo2G15P-bAj6Ti1lJro,31277
+pyecore-0.6.0.dist-info/METADATA,sha256=tdDD4L6fBZCgI1blkT00uXXZdvKcxG6mvGgp75Zhu58,32196
+pyecore-0.6.0.dist-info/RECORD,,
+pyecore-0.6.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyecore-0.6.0.dist-info/metadata.json,sha256=qRixsWcOBqtRBalaQRfKXRv6V9cRyBUpdkobGPZGsA0,1054
+pyecore-0.6.0.dist-info/top_level.txt,sha256=x-eSWJ50GUfPqkVf7kOsBbq5wU9U7r6WBgn2aT-FXiI,8
