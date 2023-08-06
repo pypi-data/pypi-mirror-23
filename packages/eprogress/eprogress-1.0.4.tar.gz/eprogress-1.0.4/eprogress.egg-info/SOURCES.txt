@@ -1,0 +1,7 @@
+setup.py
+eprogress/__init__.py
+eprogress/eprogress.py
+eprogress.egg-info/PKG-INFO
+eprogress.egg-info/SOURCES.txt
+eprogress.egg-info/dependency_links.txt
+eprogress.egg-info/top_level.txt
