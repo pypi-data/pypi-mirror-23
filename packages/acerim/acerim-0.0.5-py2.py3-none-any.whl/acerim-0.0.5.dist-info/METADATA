@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: acerim
+Version: 0.0.5
+Summary: A package for analyzing impact crater ejecta
+Home-page: http://github.com/cjtu/acerim
+Author: Christian Tai Udovicic
+Author-email: cj.taiudovicic@gmail.com
+License: MIT
+Requires-Dist: gdal
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+ACERIM
+
+
