@@ -1,0 +1,14 @@
+odoo/addons/__init__.py,sha256=lx950UCj4aWKT1NL7bNkAcuBJatCzPhrvhTvacUeKQs,566
+odoo/addons/l10n_fr_certification/__init__.py,sha256=ch6UVTJ-VBp5jXBKi5ESpaip8iRmjNImBkMN-I6SEoQ,1524
+odoo/addons/l10n_fr_certification/__manifest__.py,sha256=FrNSvw-TWlZB8jcYsiUMKy4_3GSGuAlktXfN0_gEbGQ,486
+odoo/addons/l10n_fr_certification/data/account_move.xml,sha256=HZ-QocJHhaOPgDJwIgui24jkDUMrFUDynt2q-tylqO0,575
+odoo/addons/l10n_fr_certification/models/__init__.py,sha256=UkHG_DnnFCiIufA-HupsPBwcpzGGw8jUOdt5BTuj00I,34
+odoo/addons/l10n_fr_certification/models/account.py,sha256=j9Wi3jcToocyzr4Cuc_ZtIlvBzTmAyC4wuRRrh1QzDo,7658
+odoo/addons/l10n_fr_certification/models/res_company.py,sha256=KTEpN8Wa_aG1bi5tPpGnBXjS_rYZRCsoiM-ec7SwEbY,1774
+odoo/addons/l10n_fr_certification/views/no_cancel.xml,sha256=yytS5RVEV-_nVUKyuq68tY4Q1IlR85HJ2kd_n0SI2hs,1608
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/DESCRIPTION.rst,sha256=i-RaNzMxUsiG5u4nJzRE0If3iAxqknlKGgNDEfpB2DA,3532
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/METADATA,sha256=yMovbMIboVeh4SR_dlEBu9OKMJ3Jan7vADDd-rCFDaQ,4287
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/RECORD,,
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/WHEEL,sha256=HeRoWS7ius0A3s57FTPBUxoE7B2vUyiPaLp98AUBVmc,93
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/metadata.json,sha256=uJDz5-oOLKkuz-6W0mab0cmsoQfCJb9p1C2OYnU5LQ0,896
+odooku_odoo_l10n_fr_certification-10.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
