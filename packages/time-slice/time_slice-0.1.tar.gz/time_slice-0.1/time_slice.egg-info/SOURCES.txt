@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+test/test.py
+time_slice/__init__.py
+time_slice/time_slice.py
+time_slice.egg-info/PKG-INFO
+time_slice.egg-info/SOURCES.txt
+time_slice.egg-info/dependency_links.txt
+time_slice.egg-info/top_level.txt
