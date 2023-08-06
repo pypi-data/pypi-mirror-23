@@ -1,0 +1,9 @@
+setup.py
+visualdiscrimination/__init__.py
+visualdiscrimination/whisker_visualdiscrimination.py
+visualdiscriminationtask.egg-info/PKG-INFO
+visualdiscriminationtask.egg-info/SOURCES.txt
+visualdiscriminationtask.egg-info/dependency_links.txt
+visualdiscriminationtask.egg-info/not-zip-safe
+visualdiscriminationtask.egg-info/requires.txt
+visualdiscriminationtask.egg-info/top_level.txt
