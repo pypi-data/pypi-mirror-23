@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+libs/DfAnalizer.py
+libs/DfTransf.py
+libs/Optimus.py
+libs/__init__.py
+libs/utilities.py
+libs/version.py
+optimuspyspark.egg-info/PKG-INFO
+optimuspyspark.egg-info/SOURCES.txt
+optimuspyspark.egg-info/dependency_links.txt
+optimuspyspark.egg-info/requires.txt
+optimuspyspark.egg-info/top_level.txt
+tests/__init__.py
+tests/math-test.py
