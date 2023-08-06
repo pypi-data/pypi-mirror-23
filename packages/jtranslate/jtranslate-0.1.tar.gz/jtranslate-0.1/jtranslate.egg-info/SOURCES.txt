@@ -1,0 +1,10 @@
+setup.py
+jtranslate/__init__.py
+jtranslate/locale.py
+jtranslate/translator.py
+jtranslate/yaml.py
+jtranslate.egg-info/PKG-INFO
+jtranslate.egg-info/SOURCES.txt
+jtranslate.egg-info/dependency_links.txt
+jtranslate.egg-info/requires.txt
+jtranslate.egg-info/top_level.txt
