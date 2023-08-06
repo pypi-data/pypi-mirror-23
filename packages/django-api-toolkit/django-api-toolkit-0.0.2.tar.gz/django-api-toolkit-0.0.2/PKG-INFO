@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: django-api-toolkit
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/hulygun/django-api-tools
+Author: Denis Tormazov
+Author-email: hulygun@gmail.com
+License: MIT
+Description: Very simple app for REST API create via Django Framework
+        ========================================================
+        
+Keywords: api rest django
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
