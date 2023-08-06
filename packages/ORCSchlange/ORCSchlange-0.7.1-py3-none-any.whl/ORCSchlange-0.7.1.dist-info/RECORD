@@ -1,0 +1,17 @@
+ORCSchlange/__init__.py,sha256=4WBWWcSyXXG36PG9fuuCKFtLjDCCjMCbg8AkCafkyb4,7016
+ORCSchlange/__main__.py,sha256=9QThVLjxOrh7lLdi1Ra33ES0TB5i_txwZXakj2GkP7o,68
+ORCSchlange/bib/__init__.py,sha256=9sqsbEM0yGm4swLlFh8E5R6ctDqbmeCC6qK_SxgKC_8,11032
+ORCSchlange/command/__init__.py,sha256=SdcWEUXCWSSY2ZQ2gvQVmG1SSdA3IlfglFOrlQPU8aA,2361
+ORCSchlange/command/db.py,sha256=ev63k1e0SPFs-_p979U1j5zWt3KRwwA4WY_lDbLA8D0,3559
+ORCSchlange/command/fetch.py,sha256=xdT1RPVtv07Ps_R5rbsjrfb5SSitOExuIYHYo8Nv4dk,2618
+ORCSchlange/command/jquery-3.2.1.min.js,sha256=hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4,86659
+ORCSchlange/config/__init__.py,sha256=BXbZzU-pJql5LMZH9jbH74TX3ruUPgtYfVvyL3gCpSE,3259
+ORCSchlange/orcid/__init__.py,sha256=4FpjRJg3Sf-yztoFjUIZ-mmCyapqM1K_yDnVcZPX7Xs,5354
+ORCSchlange/sql/__init__.py,sha256=VjdbrJY6ATwTeOAw9A3K65hIsVqjw1XIulr9lyt_zKE,4434
+ORCSchlange-0.7.1.dist-info/DESCRIPTION.rst,sha256=LFEOHH0kHZ-y12yk5pgglUOSGnkLyCDpBWEYj7WO5MI,2342
+ORCSchlange-0.7.1.dist-info/METADATA,sha256=tuMnbNqbAbeGIMH35kNPHzlEzhhHXLNEBL71FEiCQ1o,3062
+ORCSchlange-0.7.1.dist-info/RECORD,,
+ORCSchlange-0.7.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+ORCSchlange-0.7.1.dist-info/entry_points.txt,sha256=MgKYxusifJqYFH7vQGx0bcES6DNjItQW535o8HHU5fc,52
+ORCSchlange-0.7.1.dist-info/metadata.json,sha256=-wYnMwtBrqrKJHkCXkA09P3dFwqKuhbA_mT_HwY-zPY,1061
+ORCSchlange-0.7.1.dist-info/top_level.txt,sha256=21Jctj0xZgLfs0UJARXERQLK8SsTZpOIwoj817qHAs8,12
