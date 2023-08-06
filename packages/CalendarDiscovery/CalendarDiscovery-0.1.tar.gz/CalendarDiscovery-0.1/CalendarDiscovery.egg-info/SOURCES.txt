@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+CalendarDiscovery/__init__.py
+CalendarDiscovery.egg-info/PKG-INFO
+CalendarDiscovery.egg-info/SOURCES.txt
+CalendarDiscovery.egg-info/dependency_links.txt
+CalendarDiscovery.egg-info/not-zip-safe
+CalendarDiscovery.egg-info/requires.txt
+CalendarDiscovery.egg-info/top_level.txt

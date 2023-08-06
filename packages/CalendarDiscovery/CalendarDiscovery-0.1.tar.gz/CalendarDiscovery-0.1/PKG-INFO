@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: CalendarDiscovery
+Version: 0.1
+Summary: An expantion of datetime to get more information about adate.
+Home-page: https://github.com/iamjohnnym/discovery_calendar
+Author: iamjohnnym
+Author-email: j.martin0027@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: calendar parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic
