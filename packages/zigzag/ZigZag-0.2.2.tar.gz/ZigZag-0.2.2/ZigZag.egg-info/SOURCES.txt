@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+./tests/__init__.py
+./tests/test_core.py
+./zigzag/__init__.py
+./zigzag/core.c
+ZigZag.egg-info/PKG-INFO
+ZigZag.egg-info/SOURCES.txt
+ZigZag.egg-info/dependency_links.txt
+ZigZag.egg-info/not-zip-safe
+ZigZag.egg-info/top_level.txt
+zigzag/core.pyx
