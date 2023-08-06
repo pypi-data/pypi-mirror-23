@@ -1,0 +1,10 @@
+README.txt
+setup.py
+stereo7/__init__.py
+stereo7/core.py
+stereo7.egg-info/PKG-INFO
+stereo7.egg-info/SOURCES.txt
+stereo7.egg-info/dependency_links.txt
+stereo7.egg-info/entry_points.txt
+stereo7.egg-info/requires.txt
+stereo7.egg-info/top_level.txt
