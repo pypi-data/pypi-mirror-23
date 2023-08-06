@@ -1,0 +1,17 @@
+README.rst
+omni-reduce
+requirements.txt
+setup.cfg
+setup.py
+animus/__init__.py
+animus/LogParsers/AnimusAuthLog.py
+animus/LogParsers/AnimusExceptions.py
+animus/LogParsers/AnimusGenericLog.py
+animus/LogParsers/AnimusHttpLog.py
+animus/LogParsers/AnimusLog.py
+animus/LogParsers/__init__.py
+animus_omni.egg-info/PKG-INFO
+animus_omni.egg-info/SOURCES.txt
+animus_omni.egg-info/dependency_links.txt
+animus_omni.egg-info/requires.txt
+animus_omni.egg-info/top_level.txt
