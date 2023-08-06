@@ -1,0 +1,9 @@
+lxml
+cffi
+cairosvg
+
+[dev]
+check-manifest
+
+[test]
+coverage
