@@ -1,0 +1,15 @@
+win32/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+win32/gui.pyd,sha256=7oMnvUq__KcpL2tnujMqqAiyxLPdNNo-8V5PdCaS4q8,222208
+win32/mfc140u.dll,sha256=UlEtoe8_sbHV9jWZo3xCuq9j3rDHT4Q7vCIa2WvRDFk,6065976
+win32/mfcm140u.dll,sha256=-ixhTJoiyXq0pgrCcm3b_SsNUpxORYGwgLlouPdPlYc,106296
+win32/ole.pyd,sha256=en9JqONtJTraF6GXtIpxP5Q0oogDtQtcMd78bvxdqhM,83968
+win32/ui.pyd,sha256=bRR2aHKCPwHQ9coQeiuFYHVTvb3xBP9amOIeGsyS0bs,1244160
+win32/distutils/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+win32/distutils/gui.py,sha256=t8HsGByDDwXXHJYGu2XTmP2WDOYjLLJETmdsyysbAdA,3206
+win32/distutils/headers/win32gui.zip,sha256=Tj6q_76GOgIkx4mXXtLkwsklsGNjH5DXl9-yElP8aBU,58818
+win32gui-221.4.dist-info/DESCRIPTION.rst,sha256=q0WGVT50J6maJhtGV4pnP7ae8Gtva7KeAhHp0p5i7Aw,192
+win32gui-221.4.dist-info/METADATA,sha256=Ic0VQqehrR0gacEgk9bpxgQlq2uecYBBep39W9bBi5I,465
+win32gui-221.4.dist-info/RECORD,,
+win32gui-221.4.dist-info/WHEEL,sha256=4fkP9V5fUlnPlEu2h0nt7u0cPpJipYsJO32nXNevnFk,106
+win32gui-221.4.dist-info/metadata.json,sha256=VFCQVog--ff3TEkEYPADV7Gw_Bd8isSEpsnwpK7L7F0,495
+win32gui-221.4.dist-info/top_level.txt,sha256=ZYeSFCRIZ-bM1e-DAiZE3bHjRI6tpvewCb9E2jo9x9w,6
