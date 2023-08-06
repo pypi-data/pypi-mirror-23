@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: docusign-exporter
+Version: 1.0.2
+Summary: A simple tool to bulk export / download all documents from your DocuSign account using the API.
+Home-page: https://github.com/SignRequest/docusign-exporter
+Author: Michaël Krens
+Author-email: michael@signrequest.com
+License: UNKNOWN
+Description: # DocuSign exporter
+        
+        A simple tool to bulk export all documents / contracts / envelopes from your DocuSign account using the API. This downloads all documents of the account to your local drive. 
+        
+        usage: `python docusign-exporter.py [email] [password] [integrator_key]`
+        
+Keywords: DocuSign bulk download SignRequest
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
