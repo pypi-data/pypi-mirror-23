@@ -1,0 +1,6 @@
+mne
+torch
+h5py
+pandas
+resampy
+matplotlib
