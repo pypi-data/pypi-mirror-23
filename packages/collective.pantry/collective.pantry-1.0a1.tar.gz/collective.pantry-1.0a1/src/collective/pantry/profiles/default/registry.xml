@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<registry>
+	<record name="plone.templates" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="templates">
+	  <value>"tiny_pantry"</value>
+	</record>
+
+	<record name="plone.custom_plugins" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="custom_plugins">
+	    <value>
+	      <element>template|+plone+static/components/tinymce-builded/js/tinymce/plugins/template</element>
+	    </value>
+	</record>
+
+  <record name="plone.custom_buttons" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="custom_buttons">
+    <value>
+      <element>template</element>
+    </value>
+  </record>
+
+  <records prefix="plone.resources/prismjs"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++collective.pantry/prism.js</value>
+      <value key="css">
+        <element>++plone++collective.pantry/prism.css</element>
+      </value>
+  </records>
+
+  <records interface="plone.app.mosaic.interfaces.IFormat"
+           prefix="plone.app.mosaic.richtext_toolbar.template">
+    <value key="name">toolbar-template</value>
+    <value key="category">selection</value>
+    <value key="label">Add template</value>
+    <value key="action">template</value>
+    <value key="icon">false</value>
+    <value key="favorite">false</value>
+    <value key="weight">800</value>
+  </records>
+
+  <record field="actions" interface="plone.app.mosaic.interfaces.IWidgetAction"
+          name="plone.app.mosaic.widget_actions.plone_app_z3cform_widget_RichTextFieldWidget.actions">
+    <value purge="false">
+      <element>toolbar-template</element>
+    </value>
+  </record>
+
+  <record name="plone.app.mosaic.app_tiles.plone_app_standardtiles_html.available_actions">
+    <field type="plone.registry.field.List">
+      <title>Available actions for the html tile</title>
+      <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value purge="false">
+      <element>toolbar-template</element>
+    </value>
+  </record>
+
+  <records prefix="plone.app.mosaic.structure_tiles.card"
+           interface="plone.app.mosaic.interfaces.ITile">
+    <value key="default_value">&lt;div class="card-header"&gt;Header&lt;/div&gt;&lt;div class="card card-block"&gt;&lt;h3 class="card-title"&gt;TItle 1&lt;/h3&gt;&lt;p class="card-text"&gt;Content&lt;/p&gt;&lt;/div&gt;</value>
+    <value key="category">structure</value>
+    <value key="read_only">False</value>
+    <value key="name">card</value>
+    <value key="settings">False</value>
+    <value key="favorite">False</value>
+    <value key="label">Card</value>
+    <value key="tile_type">text</value>
+    <value key="rich_text">True</value>
+    <value key="weight">80</value>
+  </records>
+
+  <record name="plone.app.mosaic.structure_tiles.card.available_actions">
+    <field type="plone.registry.field.List">
+      <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value>
+      <element>toolbar-bold</element>
+      <element>toolbar-italic</element>
+      <element>toolbar-bullist</element>
+      <element>toolbar-numlist</element>
+      <element>toolbar-table</element>
+      <element>toolbar-ploneimage</element>
+      <element>toolbar-unlink</element>
+      <element>toolbar-plonelink</element>
+      <element>toolbar-code</element>
+      <element>toolbar-template</element>
+      <element>contextmenu-tableprops</element>
+      <element>contextmenu-cell</element>
+      <element>contextmenu-row</element>
+      <element>contextmenu-column</element>
+    </value>
+  </record>
+
+</registry>

@@ -1,0 +1,43 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.pantry">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="collective.pantry.interfaces.ICollectivePantryLayer"
+      />
+
+  <!-- Publish static files -->
+  <plone:static
+      name="collective.pantry"
+      type="plone"
+      directory="static"
+      />
+
+  <browser:page
+    for="..interfaces.ISnippet"
+    name="raw"
+    template="raw.pt"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    for="*"
+    name="tiny_pantry"
+    class=".tiny_pantry.TinyPantry"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    for="*"
+    name="pantry"
+    class=".pantry.Pantry"
+    permission="zope2.View"
+    template="pantry.pt"
+    />
+
+</configure>

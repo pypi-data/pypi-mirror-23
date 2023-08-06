@@ -1,0 +1,646 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<head>
+
+  <metal:block fill-slot="top_slot"
+               tal:define="disable_column_one python:request.set('disable_plone.leftcolumn',1);
+                           disable_column_two python:request.set('disable_plone.rightcolumn',1);" />
+</head>
+
+<body>
+
+  <div id="content-core" metal:fill-slot="main">
+    <h1 class="documentFirstHeading"
+        i18n:translate="">
+      Block Pantry
+    </h1>
+    <div class="documentDescription">
+
+      This page lists the user and theme defined blocks snippets and the common
+      user interface elements that exist in Plone, and shows you how they are
+      rendered. The code snippets are also shown side by side, ready to be used
+      by copy/paste them into the user's HTML. Both the user and theme defined
+      blocks are available via 'templates' button in TinyMCE rich text editor.
+
+    </div>
+
+    <div class="pat-autotoc autotabs"
+         data-pat-autotoc="section:fieldset;levels:legend;">
+      <fieldset>
+        <legend>User Pantry</legend>
+        <tal:block repeat="snippet view/get_user_pantry">
+          <div tal:define="data python: view.get_snippet_html(snippet['url'])">
+            <h3 tal:content="snippet/title"></h3>
+            <p tal:content="snippet/description"></p>
+
+            <div>
+              <tal:render replace="structure data"></tal:render>
+            </div>
+          </div>
+        </tal:block>
+      </fieldset>
+      <fieldset>
+        <legend>Theme Pantry</legend>
+        <tal:block repeat="snippet view/get_theme_pantry">
+          <div tal:define="data python: view.get_snippet_html(snippet['url'])">
+            <h3 tal:content="snippet/title"></h3>
+            <p tal:content="snippet/description"></p>
+            <div>
+              <tal:render replace="structure data"></tal:render>
+            </div>
+          </div>
+        </tal:block>
+      </fieldset>
+      <fieldset>
+         <legend>Plone Pantry</legend>
+
+      <p class="documentDescription">
+        These are the blocks available in Plone.
+      </p>
+      <h1>Headline h1</h1>
+      <p>And a paragraph</p>
+      <h2>Headline h2</h2>
+      <p>And a paragraph</p>
+      <h3>Headline h3</h3>
+      <p>And a paragraph</p>
+      <h4>Headline h4</h4>
+      <p>And a paragraph</p>
+      <h5>Headline h5</h5>
+      <p>And a paragraph</p>
+      <h6>Headline h6</h6>
+
+<pre>
+This is a &lt;pre&gt; tag. All the spacing before the text inside the tag will be preserved.
+</pre>
+
+<div class="portalMessage info">
+    <strong>
+        Info
+    </strong>
+    <span tal:omit-tag="">
+        The portalMessage class, can also contain <a href="#">links</a> - used to
+        give the user temporary status messages.
+    </span>
+</div>
+<div class="portalMessage warning">
+    <strong>
+        Warning
+    </strong>
+    <span tal:omit-tag="">
+        The portalMessage class, can also contain <a href="#">links</a> - used to
+        give the user temporary status messages.
+    </span>
+</div>
+<div class="portalMessage error">
+    <strong>
+        Error
+    </strong>
+    <span tal:omit-tag="">
+        The portalMessage class, can also contain <a href="#">links</a> - used to
+        give the user temporary status messages.
+    </span>
+</div>
+
+<h1 class="documentFirstHeading">Document Headline</h1>
+
+<div id="plone-document-byline" class="documentByLine">
+    <span class="documentAuthor">
+      by
+      <a href="http://localhost:8080/Plone/author/admin">admin</a>
+    </span>
+
+   <span class="documentModified">
+     &mdash;
+     <span>
+       last modified
+     </span>
+     May 21, 2010 10:02 AM
+   </span>
+
+   <span id="content-history" class="contentHistory">
+     &mdash;
+     <a href="http://localhost:8080/Plone/front-page/@@historyview" rel="#pb_4" class="link-overlay" style="cursor: pointer;">History</a>
+   </span>
+</div>
+
+<div class="documentDescription">
+The document description
+</div>
+
+<p>
+Normal document body text,
+<strong>strong text</strong>,
+<em>emphasised text</em>,
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque odio sem, aliquam ut, suscipit at, aliquet non, justo. Vestibulum vitae urna et mi volutpat luctus. Nulla auctor, lacus ut consectetuer sagittis, erat odio vulputate sapien, eu placerat diam mauris id turpis. Aenean quis ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque rutrum. Sed mattis turpis sit amet ipsum viverra pharetra. Nunc facilisis, augue non dapibus gravida, risus quam vulputate quam, non venenatis dui massa in leo. Maecenas scelerisque dapibus libero. Suspendisse potenti.
+example <a href="#">Normal internal site link</a> inside a paragraph,
+example <a href="http://plone.org">External link to plone.org</a>,
+example <a href="https://plone.org">Secure (HTTPS) link to plone.org</a>,
+example <a href="mailto:some@address">Mailto link</a>,
+example <a href="ftp://some.site">FTP link</a>,
+example <a href="news://some.site">NNTP (news) link</a>,
+example <a href="webcal://some.site">WebCal link</a>,
+example <a href="feed://some.site">RSS feed link</a>,
+example <a href="irc://some.network/#channel">IRC link</a>.
+</p>
+
+<ul>
+    <li>Unordered list element 1
+        <ul>
+            <li>Unordered list subelement 1</li>
+        </ul>
+    </li>
+    <li>Unordered list element 2</li>
+    <li>Unordered list element 3</li>
+</ul>
+
+<ol>
+    <li>Ordered list element 1
+        <ol><li>Ordered list subelement 1</li></ol>
+    </li>
+    <li>Ordered list element 2</li>
+    <li>Ordered list element 3</li>
+</ol>
+
+<dl>
+    <dt>Definition list term</dt>
+    <dd>Definition List description, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque odio sem, aliquam ut, suscipit at, aliquet non, justo.
+    </dd>
+    <dd>Another Definition List description, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque odio sem, aliquam ut, suscipit at, aliquet non, justo.
+    </dd>
+</dl>
+
+<h3>Definition List deprecation</h3>
+
+As of Plone 5, we try to get rid of Definition Lists where they don't act as
+definition lists. We replace them in the following manners.
+
+
+<h4>in portal messages</h4>
+
+<div class="portalMessage info">
+  <strong>Not important</strong>
+  This message is here to tell you something went just as you expected.
+</div>
+<div class="portalMessage warning">
+  <strong>You might run into problems</strong>
+  Please check your settings, be sure what you're doing is right.
+</div>
+<div class="portalMessage error">
+  <strong>Something went wrong</strong>
+  This is bad, you must notice this.
+</div>
+
+<h4>in listings</h4>
+
+<div>
+  <article>
+    <heading><a href="">Item one</a></heading>
+    <p>Description</p>
+  </article>
+  <article>
+    <heading><a href="">Item two</a></heading>
+    <p>Description</p>
+  </article>
+</div>
+
+<h2>
+Table of class <code>listing</code>
+</h2>
+
+<table class="listing" id="someid" summary="Sortable table example">
+    <!-- By giving a table an ID, it gets the sortable option.
+         Use class="nosort" to override on a table or column basis. -->
+    <thead>
+        <tr>
+            <th>Table heading</th>
+            <th>Another heading (sortable, click to sort)</th>
+            <th class="nosort">Fixed column (not sortable)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="odd">
+            <td>Odd table item</td>
+            <td>Item 1</td>
+            <td>Another item</td>
+        </tr>
+        <tr class="even">
+            <td>Even table item</td>
+            <td>Item 2</td>
+            <td>Yet another item</td>
+        </tr>
+        <tr class="odd">
+            <td>Odd table item</td>
+            <td>Item 3</td>
+            <td>And one more item</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>
+Table of class <code>vertical listing</code>
+</h2>
+
+<table class="vertical listing" summary="Vertical listing example">
+    <tbody>
+        <tr>
+            <th>Table heading</th>
+            <td>Odd table item</td>
+        </tr>
+        <tr>
+            <th>Another heading</th>
+            <td>Even table item</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Forms</h2>
+
+<form>
+        <div class="field">
+            <label for="onefield">Text field</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This is the help for this form field. And <a href="#">links are also possible</a>.
+            </div>
+            <input type="text" id="onefield" value="Some content" />
+        </div>
+        <div class="field error">
+            <label for="anotherfield">Text field with error</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This field is just here to demonstrate an error message.
+            </div>
+            <div>This is the error message.</div>
+            <input type="text" id="anotherfield" value="Some content" />
+        </div>
+        <div class="field">
+            <label for="onecheckbox">Checkbox</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This is a checkbox field.
+            </div>
+            <input type="checkbox" id="onecheckbox" />
+        </div>
+        <div class="field error">
+            <label for="anothercheckbox">Checkbox with error</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This checkbox field is just here to demonstrate an error message.
+            </div>
+            <div>This is the error message.</div>
+            <input type="checkbox" id="anothercheckbox" />
+        </div>
+        <div class="field">
+            <label for="onestylishcheckbox">Checkbox without border</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This is a checkbox field.
+            </div>
+            <input type="checkbox"
+                   class="noborder"
+                   id="onestylishcheckbox" />
+        </div>
+        <div class="field error">
+            <label for="anotherstylishcheckbox">
+            Checkbox without border with error</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This checkbox field is just here to demonstrate an error message.
+            </div>
+            <div>This is the error message.</div>
+            <input type="checkbox"
+                   class="noborder"
+                   id="anotherstylishcheckbox" />
+        </div>
+        <div class="field">
+            <label>Radio</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This is a checkbox field.
+            </div>
+            <label>First
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group1" />
+            </label>
+            <br />
+            <label>Second
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group1" />
+            </label>
+            <br />
+            <label>Third
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group1" />
+            </label>
+            <br />
+        </div>
+        <div class="field error">
+            <label>Radio with error</label>
+            <span class="fieldRequired" title="Required"
+                  i18n:attributes="title title_required;"
+                  i18n:translate="label_required">(Required)</span>
+            <div class="formHelp">
+                This checkbox field is just here to demonstrate an error message.
+            </div>
+            <div>This is the error message.</div>
+            <label>First
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group2" />
+            </label>
+            <br />
+            <label>Second
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group2" />
+            </label>
+            <br />
+            <label>Third
+            <input class="noborder"
+                   type="radio"
+                   name="radio_group2" />
+            </label>
+            <br />
+        </div>
+        <div class="formControls">
+            <input class="context"
+                   type="submit"
+                   value="Context submit" />
+            <input class="standalone"
+                   type="submit"
+                   value="Standalone submit" />
+            <input class="destructive"
+                   type="submit"
+                   value="Destructive submit" />
+            <input type="submit"
+                   value="Submit" />
+        </div>
+        <div class="formControls">
+            <input class="context"
+                   type="button"
+                   value="Context button" />
+            <input class="standalone"
+                   type="button"
+                   value="Standalone button" />
+            <input class="destructive"
+                   type="button"
+                   value="Destructive button" />
+            <input type="button"
+                   value="Button" />
+        </div>
+
+</form>
+
+<h2>Table with form elements</h2>
+
+<form>
+    <table id="sortable"
+         class="listing"
+         summary="Content listing"
+         cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th class="nosort">
+                    <input class="noborder"
+                           type="checkbox"
+                           src="select_all_icon.png"
+                           name="selectButton"
+                           title="Select all items"
+                           onClick="toggleSelect(this,'paths:list');"
+                           tal:attributes="src string:${context/portal_url}/select_all_icon.png"
+                           alt="Select all items"
+                           i18n:attributes="title label_select_all_items; alt label_select_all_items;" />
+                </th>
+                <th>&nbsp;Title&nbsp;</th>
+                <th>&nbsp;Stuff&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>
+                   <input type="checkbox"
+                          class="noborder"
+                          name="paths:list" id="#"
+                          value="#" />
+                </td>
+                <td><a href="#">Title</a></td>
+                <td>with class noborder</td>
+            </tr>
+            <tr class="even">
+                <td>
+                   <input type="checkbox"
+                          class="noborder"
+                              name="paths:list" id="#"
+                          value="#" />
+                </td>
+                <td><a href="#">Title</a></td>
+                <td>with class noborder</td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+<div>
+    <h2>Collapsible form</h2>
+    <form id="searchform" name="search" method="get" class="pat-formautofocus" action="search">
+
+        <div class="field collapsible">
+            <label class="collapser collapsed" for="created">New items since</label>
+
+            <div class="collapse" style="display: none;">
+                    <div class="formHelp">
+                    Return items added since you were last logged on, the last week, etc.
+                    </div>
+
+
+                    <select id="created" name="created:list:date">
+                        <option value="2010/09/06 17:50:45.971272 GMT-7">Last log-in</option>
+                        <option value="2010/09/05"> Yesterday </option>
+                        <option value="2010/08/30"> Last week </option>
+                        <option value="2010/08/06"> Last month </option>
+                        <option selected="selected" class="default_option" value="1970/02/01"> Ever </option>
+                    </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="field collapsible">
+            <label class="collapser collapsed" for="Creator">Author</label>
+
+            <div class="collapse" style="display: none;">
+                <div class="formHelp">
+                Return items created by a particular person.
+                </div>
+
+
+                <select id="Creator" name="Creator">
+                    <option class="default_option" value="">Any Author</option>
+
+                        <option value="admin">admin</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div id="clear-space-before-submit" class="visualClear"><!-- --></div>
+
+    </form>
+</div>
+
+<div>
+    <h2>Select All/None</h2>
+    <form id="searchform" name="search" method="get" class="pat-formautofocus" action="search">
+        <div>
+            <label>Item type</label>
+        </div>
+        <div class="formHelp">
+            Return items of a specific type.
+        </div>
+        <span class="optionsToggle">
+            <input type="checkbox" checked="checked" class="noborder" id="pt_toggle" value="#" name="pt_toggle" onclick="javascript:toggleSelect(this, 'portal_type:list', true)" src="http://localhost:8080/Plone/select_all_icon.png">
+            <label for="pt_toggle">Select All/None</label>
+        </span>
+        <br>
+        <div style="float: left; margin-right: 2em;">
+            <input type="checkbox" id="portal_type_1_1" checked="checked" class="noborder" value="Document" name="portal_type:list">
+            <label for="portal_type_1_1">Page</label>
+            <br>
+            <input type="checkbox" id="portal_type_1_2" checked="checked" class="noborder" value="Folder" name="portal_type:list">
+            <label for="portal_type_1_2">Folder</label>
+            <br>
+        </div>
+        <div style="float: left; margin-right: 2em;">
+            <input type="checkbox" id="portal_type_2_1" checked="checked" class="noborder" value="Topic" name="portal_type:list">
+            <label for="portal_type_2_1">Collection</label>
+            <br>
+        </div>
+    </form>
+    <div class="visualClear"></div>
+</div>
+
+
+<div>
+    <h2>Action menu</h2>
+    <dl class="actionMenu" id="actioMenuDemo">
+        <dt class="actionMenuHeader">
+            <a href="#">Action menu title</a>
+        </dt>
+        <dd class="actionMenuContent">
+            Menu content
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h3>Collapsible section</h3>
+    <dl class="collapsible">
+        <dt class="collapsibleHeader">
+            Collapsible section title
+        </dt>
+        <dd class="collapsibleContent">
+            Collapsible section content
+        </dd>
+    </dl>
+</div>
+
+   <div class="wrapper">
+     <div class="myScope">
+       <button type="button"
+               class="btn btn-default pat-toggle"
+               data-pat-toggle="value:label-success;target:.targetElement;targetScope:.myScope;">toggle</button><br />
+       <p class="targetElement label label-default">Hello World</p>
+     </div>
+     <div class="myScope">
+       <button type="button"
+               class="btn btn-default pat-toggle"
+               data-pat-toggle="value:label-success;target:.targetElement;targetScope:.myScope;">toggle</button><br />
+       <p class="targetElement label label-default">Hello World</p>
+     </div>
+   </div>
+
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Button with data-target
+</button>
+<div class="collapse" id="collapseExample">
+  <div class="well">
+    ...
+  </div>
+</div>
+
+   <div class="panel panel-default">
+     <div class="panel-heading">
+       <button class="pat-toggle"
+          data-pat-toggle="value:in; target:.collapse; targetScope:.panel">toggle</button>
+     </div>
+     <div>
+       <ul class="collapse in">
+         <li>We use toggle for</li>
+         <li>toggling collapsable CSS classes</li>
+         <li>this is awesome</li>
+       </ul>
+     </div>
+   </div>
+
+<h3>Portlets</h3>
+<div class="row">
+  <div class="col-md-3">
+
+    <section class="portlet">
+      <header class="portletHeader">Portlet header</header>
+      <ul class="portletContent">
+        <li class="portletItem">Item one</li>
+        <li class="portletItem">Item two</li>
+      </ul>
+      <footer class="portletFooter">Portlet footer</footer>
+    </section>
+
+  </div>
+  <div class="col-md-3">
+
+  <section class="portlet">
+    <header class="portletHeader">Portlet header</header>
+    <div class="portletContent">
+      There might be a login form here.
+      <form>
+        <input type="text" value="login" /> <br />
+        <input type="password" value="password" /> <br />
+        <input type="submit" />
+      </form>
+    </div>
+    <footer class="portletFooter">Portlet footer</footer>
+  </section>
+
+       </fieldset>
+
+    </div>
+  </div>
+</body>
+</html>
