@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: forbesqotd
+Version: 1.0
+Summary: QOTD on Forbes Welcome page
+Home-page: https://github.com/appi147/forbes-qotd
+Author: Arpit Choudhary
+Author-email: arpitkumar147@gmail.com
+License: MIT
+Keywords: forbes,qotd
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: beautifulsoup4
+Requires-Dist: regex
+Requires-Dist: requests
+
+beautifulsoup4
+regex
+requests
+
