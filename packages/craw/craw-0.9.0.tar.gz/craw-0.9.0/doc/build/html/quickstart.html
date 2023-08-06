@@ -1,0 +1,553 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Quick start &mdash; Counter RNAseq Window  documentation</title>
+    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Counter RNAseq Window  documentation" href="index.html" />
+    <link rel="next" title="Inputs / Outputs" href="inputs-outputs.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="inputs-outputs.html" title="Inputs / Outputs"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="quickstart"></span><div class="section" id="quick-start">
+<h1>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="craw-coverage">
+<h2>craw_coverage<a class="headerlink" href="#craw-coverage" title="Permalink to this headline">¶</a></h2>
+<p><em>craw_coverage</em> need a file bam or wig to compute coverage and an annotation file
+to specify on which regions to compute these coverages.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">the -b or &#8211;bam allow to specify the path to the bam file.</p>
+</li>
+<li><p class="first">or alternatively the</p>
+<blockquote>
+<div><ul class="simple">
+<li>-w, &#8211;wig option to specify the path to the wig file if the both strand aer encode in same file (negative value are on reverse strand)</li>
+<li>&#8211;wig-for and &#8211;wig-rev to specify the paths to the wig files for the forward and reverse strand respectively</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">the -a &#8211;annot allow to specify the path to the annotation file.</p>
+</li>
+</ul>
+</div></blockquote>
+<p>The &#8211;bam and &#8211;wig options are mutually exclusive but one of these option is required.
+&#8211;wig and &#8211;wig-for or &#8211;wig-rev are also mutually exclusive.
+the &#8211;annot option is required.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_coverage --bam ../WTE1.bam --annot ../annotations.txt --ref-col Position --before 100 --after 500
+craw_coverage --wig ../WTE1.wig --annot ../annotations.txt --ref-col Position --before 100 --after 500
+craw_coverage --wig-for ../WTE1_forward_strand.wig --wig-rev ../WTE1_reverse_strand.wig --annot ../annotations.txt \
+--ref-col Position --before 100 --after 500
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>At the same place of <cite>bam</cite> file, there must be the corresponding index file (the <cite>bam.bai</cite> file).
+To generate the <cite>.bai</cite> file you have to use <cite>samtools</cite> program:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>samtools index file.bam
+</pre></div>
+</div>
+<p class="last">see <a class="reference external" href="http://www.htslib.org/doc/">http://www.htslib.org/doc/</a> for more explanation.</p>
+</div>
+<div class="section" id="with-fix-window">
+<h3>with fix window<a class="headerlink" href="#with-fix-window" title="Permalink to this headline">¶</a></h3>
+<p>To compute the coverage on a fix window:
+we need to specify which column name in the annotation file define the reference position.
+The window will computed using this reference position.</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8211;ref-col</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">if &#8211;ref-col is omitted craw_coverage will use the column position. If there not &#8220;position&#8221; column
+an error will occur.</p>
+</div>
+<p>two ways to determine the window:</p>
+<p>with &#8211;window option for a window centered on the reference position.</p>
+<blockquote>
+<div><ul class="simple">
+<li>&#8211;window define the number of nucleotide to take in account before and after the reference position.</li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="_images/craw_window.png"><img alt="craw fixed centered windowing" src="_images/craw_window.png" style="width: 60%;" /></a>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_coverage --bam ../WTE1.bam --annot ../annotations.txt --ref-col Position --window 100
+</pre></div>
+</div>
+<p>This command will compute coverage using WTE1.bam and with annotations.txt file the column used to compute the window
+is &#8216;Position&#8217; and the window length will be 100 nucleotide before the reference position and 100 nucleotides after
+(201 nucleotides length).</p>
+<p>With an non centered window we have to specify two options <em>&#8211;before</em> and <em>&#8211;after</em></p>
+<ul class="simple">
+<li><strong>&#8211;before BEFORE</strong> define the number of nucleotide to take in account before the reference position.</li>
+<li><strong>&#8211;after AFTER</strong> define the number of nucleotide to take in account after the reference position.</li>
+</ul>
+<a class="reference internal image-reference" href="_images/craw_window_before_after.png"><img alt="craw fixed non centered windowing" src="_images/craw_window_before_after.png" style="width: 60%;" /></a>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_coverage --bam ../WTE1.bam --annot ../annotations.txt --ref-col Position --before 100 --after 500
+</pre></div>
+</div>
+<p>This command will compute coverage using WTE1.bam and with annotations.txt file the column used to compute the window
+is &#8216;Position&#8217; and the window length will be 100 nucleotide before the reference position and 500 nucleotides after
+(201 nucleotides length).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">&#8211;after and &#8211;before options must be set together and are incompatible with &#8211;window option.</p>
+</div>
+</div>
+<div class="section" id="with-variable-window">
+<h3>with variable window<a class="headerlink" href="#with-variable-window" title="Permalink to this headline">¶</a></h3>
+<p>The regions must be specified in the annotation file.</p>
+<ul class="simple">
+<li><strong>&#8211;start-col COL</strong> define the name of the column in annotation file which define the start position of the region to compute.</li>
+<li><strong>&#8211;stop-col COL</strong> define the name of the column in annotation file which define the stop position of the region to compute.</li>
+</ul>
+<a class="reference internal image-reference" href="_images/craw_window_variable.png"><img alt="craw variable windowing" src="_images/craw_window_variable.png" style="width: 60%;" /></a>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_coverage --bam ../WTE1.bam --annot ../annotations.txt --ref-col annotation_start --start-col annotation_start  --stop-col annotation_end
+</pre></div>
+</div>
+<p>This command will compute coverage using WTE1.bam and with annotations.txt file.</p>
+<ul class="simple">
+<li>The reference position will define by the <em>annotation_start</em> column</li>
+<li>The first nucleotide of the window will be define by <em>annotation_start</em> column.</li>
+<li>The last nucleotide of the window will be define by <em>annotation_end</em> column.</li>
+</ul>
+</div>
+<div class="section" id="other-options">
+<h3>Other options<a class="headerlink" href="#other-options" title="Permalink to this headline">¶</a></h3>
+<p>The following option are not mandatory:</p>
+<ul class="simple">
+<li><strong>-q QUAL_THR, &#8211;qual-thr QUAL_THR</strong> The minimal quality of read mapping to take it in account. (default=15)</li>
+<li><strong>-s SUFFIX, &#8211;suffix SUFFIX</strong> The name of the suffix to use for the output file. (default= <cite>.cov</cite>)</li>
+<li><strong>-o OUTPUT, &#8211;output OUTPUT</strong> The path of the output (default= base name of annotation file with &#8211;suffix)</li>
+<li><strong>&#8211;version</strong> display version information and quit.</li>
+<li><strong>&#8211;verbose, -v</strong> increase the verbosity of the output (this option can be repeat several times as -vv).</li>
+<li><strong>&#8211;quiet</strong> decrease verbosity of the output. By default craw_coverage is slightly verbose and display a progress
+bar. This option can be useful to disable any progression information on batch run.</li>
+<li><strong>-h &#8211;help</strong> disply the inline help and exit.</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">by default craw_coverage use a quality threshold of 15 (like pysam)</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">strand column mut named <em>strand</em> and can take <cite>1/-1</cite> or <cite>+/-</cite> <cite>for/rev</cite> as value for forward/reverse strands.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">the coverage file can be huge depending on the number of gene to compute the coverage and the size of the window
+for instance for 6000 genes with a window of 15000 nt the cov file will weight almost 900Mb.</p>
+</div>
+</div>
+</div>
+<div class="section" id="craw-htmp">
+<h2>craw_htmp<a class="headerlink" href="#craw-htmp" title="Permalink to this headline">¶</a></h2>
+<p>Compute a figure from a file of coverage generated by <cite>craw_coverage</cite>.
+By default, display a figure with two heatmap one for the sense the other for the antisense.
+But it work also if the coverage file contains <em>sense</em> or <em>anti sense</em> data only.</p>
+<div class="section" id="mandatory-arguments">
+<h3>Mandatory arguments<a class="headerlink" href="#mandatory-arguments" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>cov_file</strong> The path to the coverage file ( the output of ).</li>
+</ul>
+</div>
+<div class="section" id="data-options">
+<h3>Data options<a class="headerlink" href="#data-options" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>&#8211;crop CROP CROP</strong>: Crop the matrix. This option need two values the name of the first and last column to keep
+[start col, stop col] eg &#8211;crop -10 1000</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_htmp --crop 0 2000 WTE1_var_window.cov
+</pre></div>
+</div>
+<p>This command will display only column &#8216;0&#8217; to &#8216;2000&#8217;, included, of the matrix generated by craw_coverage.</p>
+</li>
+<li><p class="first"><strong>&#8211;sort-using-col COL</strong> sort the data using the column name &#8216;COL&#8217; (descending).</p>
+</li>
+<li><p class="first"><strong>&#8211;sort-using-file SORT_USING_FILE</strong> sort the rows using a file.
+The file must have on the first line the name of the column to use for sorting
+and each line must match to a value contained in the matrix.</p>
+</li>
+<li><p class="first"><strong>&#8211;sort-by-gene-size [start_col,stop_col [start_col,stop_col ...]]</strong>
+The rows will be sorted by gene size using <em>start_col</em> and <em>stop_col</em> to compute length.
+<em>start_col</em> and <em>stop_col</em> must be a string separated by comma.
+If start_col and stop_col are not specify <em>annotation_start,annotation_end</em> will be used.</p>
+</li>
+<li><p class="first"><strong>&#8211;sense-only</strong>          Display only sense matrix (default is display both).</p>
+</li>
+<li><p class="first"><strong>&#8211;antisense-only</strong>      Display only anti sense matrix (default is display both).</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>Don&#8217;t put the  <strong>&#8211;sort-by-gene-size</strong> option without value as last option just before the coverage file.
+In this case the craw_htmp will don&#8217;t work. If you want to use only this option, use the <strong>-v</strong> option after
+<strong>&#8211;sort-by-gene-size</strong></p>
+<div class="last highlight-python"><div class="highlight"><pre><span></span>craw_htmp --sort-by-gene-size -v WTE1_0_2000.cov
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="figure-options">
+<h3>Figure options<a class="headerlink" href="#figure-options" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="normalization-options">
+<h4>Normalization options<a class="headerlink" href="#normalization-options" title="Permalink to this headline">¶</a></h4>
+<p><strong>craw_htmp</strong> provide several methods to normalize data before to display them:
+below the different figures illustrate the result of each normalization methods on
+the following matrix <span class="math">\(x\)</span>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="17%" />
+<col width="15%" />
+<col width="12%" />
+<col width="12%" />
+<col width="15%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Pos</th>
+<th class="head">0</th>
+<th class="head">1</th>
+<th class="head">2</th>
+<th class="head">3</th>
+<th class="head">4</th>
+<th class="head">5</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>S</td>
+<td>0</td>
+<td>1</td>
+<td>10</td>
+<td>100</td>
+<td>1000</td>
+<td>10000</td>
+</tr>
+<tr class="row-odd"><td>AS</td>
+<td>10000</td>
+<td>1000</td>
+<td>100</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="row-even"><td>S</td>
+<td>1</td>
+<td>10</td>
+<td>20</td>
+<td>30</td>
+<td>40</td>
+<td>50</td>
+</tr>
+<tr class="row-odd"><td>AS</td>
+<td>50</td>
+<td>40</td>
+<td>30</td>
+<td>20</td>
+<td>10</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="linear-normalisation">
+<h5>linear normalisation<a class="headerlink" href="#linear-normalisation" title="Permalink to this headline">¶</a></h5>
+<div class="container">
+<a class="reference internal image-reference" href="_images/norm_demo_lin.png"><img alt="linear normalization" class="align-right" src="_images/norm_demo_lin.png" style="width: 25%;" /></a>
+<p><strong>&#8211;norm lin</strong>: a linear normalization is applied on the whole matrix.</p>
+<ul class="simple">
+<li><span class="math">\(x\)</span> the original matrix</li>
+<li><span class="math">\(x_i\)</span> the value of a cell in the original matrix</li>
+<li><span class="math">\(z_i\)</span> the value of a cell in the normalized matrix</li>
+<li><span class="math">\(z_i = \frac{x_i - min(x)}{max(x) - min(x)}\)</span></li>
+</ul>
+</div>
+<div class="clearer container">
+<img alt="_images/spacer.png" src="_images/spacer.png" />
+</div>
+</div>
+<div class="section" id="logaritmic-normalisation">
+<h5>logaritmic normalisation<a class="headerlink" href="#logaritmic-normalisation" title="Permalink to this headline">¶</a></h5>
+<div class="container">
+<a class="reference internal image-reference" href="_images/norm_demo_log.png"><img alt="logaritmic normalization" class="align-right" src="_images/norm_demo_log.png" style="width: 25%;" /></a>
+<p><strong>&#8211;norm log</strong>: a 10 base logarithm will be applied on the data before matrix normalization.</p>
+<ol class="arabic simple">
+<li>replace all 0 values by 1</li>
+<li><span class="math">\(z_i = log_{10}(x_i)\)</span></li>
+<li><span class="math">\(w_i = \frac{z_i - min(z)}{max(z) - min(z)}\)</span></li>
+</ol>
+</div>
+<div class="clearer container">
+<img alt="_images/spacer.png" src="_images/spacer.png" />
+</div>
+</div>
+<div class="section" id="linear-normalisation-row-by-row">
+<h5>linear normalisation row by row<a class="headerlink" href="#linear-normalisation-row-by-row" title="Permalink to this headline">¶</a></h5>
+<div class="container">
+<a class="reference internal image-reference" href="_images/norm_demo_row.png"><img alt="linear normalization row by row" class="align-right" src="_images/norm_demo_row.png" style="width: 25%;" /></a>
+<p><strong>&#8211;norm row</strong>: mean that a linear normalisation is compute row by row.</p>
+<ul class="simple">
+<li><span class="math">\(x\)</span> the original matrix</li>
+<li><span class="math">\(x_{ij}\)</span> the value of a cell in the original matrix with <span class="math">\(I\)</span> rows and <span class="math">\(J\)</span> columns</li>
+<li><span class="math">\(x_i\)</span> the values of the <span class="math">\(i\)</span> row</li>
+<li><span class="math">\(z_{ij} = \frac{x_{ij} - min(x_i)}{max(x_i) - min(x_i)}\)</span></li>
+</ul>
+</div>
+<div class="clearer container">
+<img alt="_images/spacer.png" src="_images/spacer.png" />
+</div>
+</div>
+<div class="section" id="logaritmic-normalisation-row-by-row">
+<h5>logaritmic normalisation row by row<a class="headerlink" href="#logaritmic-normalisation-row-by-row" title="Permalink to this headline">¶</a></h5>
+<div class="container">
+<a class="reference internal image-reference" href="_images/norm_demo_row+log.png"><img alt="logaritmic normalization row by row" class="align-right" src="_images/norm_demo_row+log.png" style="width: 25%;" /></a>
+<p><strong>&#8211;norm log+row</strong> mean a 10 base logarithm will be applied before a normalisation row by row.</p>
+<ul class="simple">
+<li><span class="math">\(x\)</span> the original matrix</li>
+<li><span class="math">\(x_{ij}\)</span> the value of a cell in the original matrix with <span class="math">\(I\)</span> rows and <span class="math">\(J\)</span> columns</li>
+<li><span class="math">\(x_i\)</span> the values of the <span class="math">\(i\)</span> row</li>
+</ul>
+<ol class="arabic simple">
+<li>replace all 0 values by 1</li>
+<li><span class="math">\(z_{ij} = log_{10}(x_ij)\)</span></li>
+<li><span class="math">\(w_{ij} = \frac{z_{ij} - min(z_i)}{max(z_i) - min(z_i)}\)</span></li>
+</ol>
+</div>
+<div class="clearer container">
+<img alt="_images/spacer.png" src="_images/spacer.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li><strong>&#8216;row+log&#8217;</strong> is an alias for <strong>&#8216;log+row&#8217;</strong></li>
+<li>The default normalisation is <strong>lin</strong></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="other-figure-options">
+<h4>Other figure options<a class="headerlink" href="#other-figure-options" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first"><strong>&#8211;cmap CMAP</strong> The color map used to display data. The allowed values are defined in
+<a class="reference external" href="http:matplotlib.org/examples/color/colormaps_reference.html">http:matplotlib.org/examples/color/colormaps_reference.html</a>
+eg: Blues, BuGn, Greens, GnBu, ... (default: Blues).</p>
+</li>
+<li><p class="first"><strong>&#8211;title TITLE</strong> The figure title. It will display on the top of the figure.
+(default: the name of the coverage file without extension).</p>
+</li>
+<li><p class="first"><strong>&#8211;dpi DPI</strong> The resolution of the output (default=100).</p>
+<p>This option work only if <strong>&#8211;out</strong> option is specified. <br />
+To set the right dpi for screen displaying use the <a class="reference internal" href="installation.html#matplotlibrc"><span>matplotlib configuration</span></a> file.</p>
+</li>
+<li><p class="first"><strong>&#8211;size SIZE</strong> Specify the figure size</p>
+<p>The value must be widexheight[unit] or &#8216;raw&#8217;.
+If value is &#8216;raw&#8217; it will be produce two image files (for sense and antisense)
+with one pixel correspond to one coverage value.
+Otherwise, &#8216;wide&#8217; and &#8216;height&#8217; must be positive integers
+By default <em>unit</em> is in inches. eg:</p>
+<ul class="simple">
+<li>7x10 or 7x10in for 7 inches wide by 10 inches height.</li>
+<li>70x100mm for 70 mm by 100 mm.</li>
+</ul>
+<p>default=7x10 or 10x7 depending of the figure orientation (see layout).</p>
+</li>
+<li><p class="first"><strong>&#8211;mark</strong> POS &lt;COLOR&gt; will draw a vertical line at the position POS with the color &lt;COLOR&gt;</p>
+<div class="container">
+<a class="reference internal image-reference" href="_images/wte1_0+2000_mark.png"><img alt="coverage matrix with marks" class="align-right" src="_images/wte1_0+2000_mark.png" style="width: 25%;" /></a>
+<p>COLOR can be the name of the most common html color red, yellow, ... or a value of a RGB in hexadecimal format
+like #rgb or #rrggbb for instance #ff0000 represent pure red.
+(don&#8217;t forget to surround the hexadecimal color with  quotes on commandline)</p>
+<p>If COLOR is omitted the color of the highest value of the color map used for the drawing will be used
+(The default color map is Blues).</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>craw_htmp --norm log \-\-mark 1000 \-\-mark 500 MediumAquamarine \-\-mark 100 &quot;#ff0000&quot; \-\-sense-only WTE1_0+2000.cov
+</pre></div>
+</div>
+<p>for list of HTML colors:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Web_colors">https://en.wikipedia.org/wiki/Web_colors</a></li>
+<li><a class="reference external" href="https://www.w3schools.com/colors/colors_names.asp">https://www.w3schools.com/colors/colors_names.asp</a></li>
+</ul>
+</div>
+<div class="clearer container">
+<img alt="_images/spacer.png" src="_images/spacer.png" />
+</div>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>The &#8211;mark option must not be the last option on the command line (just before the coverage file),
+otherwise an error will occurred.:</p>
+<div class="last highlight-python"><div class="highlight"><pre><span></span>craw_htmp --out my_fig.png --mark 10 red --mark 0  WTE1_0_2000.cov =&gt; raise an error
+craw_htmp --mark 10 red --mark 0 --out my_fig.png WTE1_0_2000.cov =&gt; work
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="layout-options">
+<h4>Layout options<a class="headerlink" href="#layout-options" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><strong>&#8211;sense-on-left</strong>       Where to display the sense matrix relative to antisense matrix.</li>
+<li><strong>&#8211;sense-on-right</strong>      Where to display the sense matrix relative to antisense matrix.</li>
+<li><strong>&#8211;sense-on-top</strong>        Where to display the sense matrix relative to antisense matrix.</li>
+<li><strong>&#8211;sense-on-bottom</strong>     Where to display the sense matrix relative to antisense matrix.</li>
+</ul>
+<div class="container">
+<a class="reference internal image-reference" href="_images/craw_htmp_sense_on_top.png"><img alt="--sense-on-top" src="_images/craw_htmp_sense_on_top.png" style="width: 20%;" /></a>
+<a class="reference internal image-reference" href="_images/craw_htmp_sense_on_left.png"><img alt="--sense-on-left" src="_images/craw_htmp_sense_on_left.png" style="width: 30%;" /></a>
+</div>
+<p>The fisrt screen capture use <em>&#8211;sense-on-top</em> whereas the second capture used <em>&#8211;sense-on-left option</em>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">default is top.</p>
+</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Other options<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>-h, &#8211;help</strong>  Display the help message and exit</li>
+<li><strong>&#8211;out OUT</strong>  The name of the file (the format will based on the extension) to save the figure.
+Instead of displaying the figure on the screen, save it directly in this file.</li>
+<li><strong>-v, &#8211;verbose</strong> Increase output verbosity. By default craw_htmp is relatively quiet (display only warning and error),
+if you want to display also the processing step just add -v on the commandline (or -vv to display also the debugging message).</li>
+<li><strong>&#8211;version</strong> Display version information and quit.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Quick start</a><ul>
+<li><a class="reference internal" href="#craw-coverage">craw_coverage</a><ul>
+<li><a class="reference internal" href="#with-fix-window">with fix window</a></li>
+<li><a class="reference internal" href="#with-variable-window">with variable window</a></li>
+<li><a class="reference internal" href="#other-options">Other options</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#craw-htmp">craw_htmp</a><ul>
+<li><a class="reference internal" href="#mandatory-arguments">Mandatory arguments</a></li>
+<li><a class="reference internal" href="#data-options">Data options</a></li>
+<li><a class="reference internal" href="#figure-options">Figure options</a><ul>
+<li><a class="reference internal" href="#normalization-options">Normalization options</a><ul>
+<li><a class="reference internal" href="#linear-normalisation">linear normalisation</a></li>
+<li><a class="reference internal" href="#logaritmic-normalisation">logaritmic normalisation</a></li>
+<li><a class="reference internal" href="#linear-normalisation-row-by-row">linear normalisation row by row</a></li>
+<li><a class="reference internal" href="#logaritmic-normalisation-row-by-row">logaritmic normalisation row by row</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-figure-options">Other figure options</a></li>
+<li><a class="reference internal" href="#layout-options">Layout options</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id1">Other options</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="previous chapter">Installation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="inputs-outputs.html"
+                        title="next chapter">Inputs / Outputs</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/quickstart.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="inputs-outputs.html" title="Inputs / Outputs"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Counter RNAseq Window  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2017, Bertrand Néron.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
