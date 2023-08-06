@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+tsc/__init__.py
+tsc/algo.pyx
+tsc/converter.pyx
+tsc/counter.pyx
+tsc.egg-info/PKG-INFO
+tsc.egg-info/SOURCES.txt
+tsc.egg-info/dependency_links.txt
+tsc.egg-info/requires.txt
+tsc.egg-info/top_level.txt
