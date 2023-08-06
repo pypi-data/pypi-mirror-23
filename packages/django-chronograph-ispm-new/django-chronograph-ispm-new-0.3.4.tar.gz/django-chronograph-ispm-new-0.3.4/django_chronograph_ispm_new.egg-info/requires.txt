@@ -1,0 +1,6 @@
+
+[DateUtil]
+python-dateutil<=1.5
+
+[Django]
+Django>=1.5
