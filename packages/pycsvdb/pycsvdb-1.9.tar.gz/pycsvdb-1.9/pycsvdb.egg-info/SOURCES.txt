@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pycsvdb/CsvFileManage.py
+pycsvdb/__init__.py
+pycsvdb.egg-info/PKG-INFO
+pycsvdb.egg-info/SOURCES.txt
+pycsvdb.egg-info/dependency_links.txt
+pycsvdb.egg-info/not-zip-safe
+pycsvdb.egg-info/top_level.txt
