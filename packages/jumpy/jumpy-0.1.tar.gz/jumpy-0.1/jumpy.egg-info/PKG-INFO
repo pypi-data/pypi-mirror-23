@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: jumpy
+Version: 0.1
+Summary: Numpy and nd4j interop
+Home-page: https://github.com/deeplearning4j/jumpy
+Author: Adam Gibson
+Author-email: adam@skymind.io
+License: MIT
+Download-URL: https://github.com/fchollet/keras/tarball/2.0.2
+Description: UNKNOWN
+Platform: UNKNOWN
