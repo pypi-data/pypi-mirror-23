@@ -1,0 +1,8 @@
+setup.py
+classify_image_dimension/classify_image_dimension.py
+classify_image_dimension.egg-info/PKG-INFO
+classify_image_dimension.egg-info/SOURCES.txt
+classify_image_dimension.egg-info/dependency_links.txt
+classify_image_dimension.egg-info/entry_points.txt
+classify_image_dimension.egg-info/requires.txt
+classify_image_dimension.egg-info/top_level.txt
