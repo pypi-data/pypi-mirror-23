@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: wechatpy-tornado
+Version: 1.0.0
+Summary: wechatpy: WeChat SDK for Python
+Home-page: https://github.com/wechatpy/wechatpy-tornado
+Author: messense
+Author-email: messense@icloud.com
+License: UNKNOWN
+Keywords: WeChat,wexin,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: wechatpy
+Requires-Dist: tornado
+
+wechatpy.async.tornado
+==========================
+
+Tornado based async WeChat client API
+
+
