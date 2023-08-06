@@ -1,0 +1,209 @@
+=========================================================================== FAILURES ===========================================================================
+_______________________________________________________ TestL3EthernetInterface.test_02_create[7.0NGFW] ________________________________________________________
+
+self = <tests.live.test_network.TestL3EthernetInterface object at 0x1048955d0>, fw = <Firewall '015300000003325' 'vsys1' at 0x103317690>
+state_map = <tests.live.conftest.StateMap object at 0x104884fd0>
+
+    def test_02_create(self, fw, state_map):
+        state = state_map.setdefault(fw)
+        if state.err:
+            state.fail_func('prereq failed')
+    
+        state.fail_func = pytest.xfail
+        state.err = True
+        self.setup_state_obj(fw, state)
+>       state.obj.create()
+
+testlib.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../pandevice/base.py:2443: in create
+    super(VsysOperations, self).create()
+../../pandevice/base.py:543: in create
+    device.active().xapi.set(self.xpath_short(), element, retry_on_peer=self.HA_SYNC)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pandevice.base.XapiWrapper instance at 0x103316950>
+args = ("/config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet", '<entry name="ethernet1/1"><layer3...ment>This is my interface</comment><ipv4-mss-adjust>60</ipv4-mss-adjust><ipv6-mss-adjust>70</ipv6-mss-adjust></entry>')
+kwargs = {}, retry_on_peer = True, apply_on_peer = False, ha_peer = None, e = PanXapiError(' ethernet1/1 -> ipv4-mss-adjust unexpected here',)
+the_exception = PanDeviceXapiError(' ethernet1/1 -> ipv4-mss-adjust unexpected here',)
+
+    def method(self, *args, **kwargs):
+        retry_on_peer = kwargs.pop("retry_on_peer", True if super_method_name not in ('keygen', 'op', 'ad_hoc', 'export') else False)
+        apply_on_peer = kwargs.pop("apply_on_peer", False)
+        ha_peer = self.pan_device.ha_peer
+        # Check if apply to both devices
+        # Note: An exception will not be raised if one device could not be accessed
+        # An exception will be raised on other errors on either device, or if both
+        # devices could not be accessed.
+        if apply_on_peer:
+            # Apply to peer first
+            connection_failures = 0
+            if ha_peer is not None and not ha_peer.ha_failed:
+                try:
+                    kwargs["retry_on_peer"] = False
+                    result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+                except pan.xapi.PanXapiError as e:
+                    the_exception = self.classify_exception(e)
+                    if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                        # passive firewall connection failed
+                        connection_failures += 1
+                    else:
+                        raise the_exception
+            if not self.pan_device.ha_failed:
+                try:
+                    super_method(self, *args, **kwargs)
+                    result = copy.deepcopy(self.element_root)
+                except pan.xapi.PanXapiError as e:
+                    the_exception = self.classify_exception(e)
+                    if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                        # passive firewall connection failed
+                        connection_failures += 1
+                    else:
+                        raise the_exception
+    
+        elif self.pan_device.ha_failed and ha_peer is not None \
+            and not ha_peer.ha_failed and retry_on_peer:
+            # This device is failed, use the other
+            logger.debug("Current device is failed, starting with other device")
+            kwargs["retry_on_peer"] = True
+            result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+        elif not self.pan_device.is_active() and ha_peer is not None and retry_on_peer:
+            # I'm not active, call the peer
+            kwargs["retry_on_peer"] = True
+            result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+            # Copy result from peer xapi to this xapi
+            result_vars = ('status', 'status_detail', 'status_code', 'element_root',
+                           'element_result', 'export_result', 'xml_document', 'text_document')
+            for var in result_vars:
+                setattr(self, var, getattr(ha_peer.xapi, var))
+        else:
+            try:
+                # This device has not failed, or both have failed
+                # and this device is active
+                # First get the superclass method
+                super_method(self, *args, **kwargs)
+                result = copy.deepcopy(self.element_root)
+            except pan.xapi.PanXapiError as e:
+                the_exception = self.classify_exception(e)
+                if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                    # The attempt on the active failed with a connection error
+                    new_active = self.pan_device.set_failed()
+                    if retry_on_peer and new_active is not None:
+                        logger.debug("Connection to device '%s' failed, using HA peer '%s'" %
+                                     (self.pan_device.id, new_active.hostname))
+                        # The active failed, apply on passive (which is now active)
+                        kwargs["retry_on_peer"] = False
+                        getattr(new_active.xapi, super_method_name)(*args, **kwargs)
+                        result = copy.deepcopy(new_active.xapi.element_root)
+                    else:
+                        raise the_exception
+                else:
+>                   raise the_exception
+E                   PanDeviceXapiError:  ethernet1/1 -> ipv4-mss-adjust unexpected here
+
+../../pandevice/base.py:2851: PanDeviceXapiError
+_______________________________________________________ TestL3EthernetInterface.test_02_create[6.1NGFW] ________________________________________________________
+
+self = <tests.live.test_network.TestL3EthernetInterface object at 0x104831e90>, fw = <Firewall '015300000003323' 'vsys1' at 0x1032faf50>
+state_map = <tests.live.conftest.StateMap object at 0x10332b350>
+
+    def test_02_create(self, fw, state_map):
+        state = state_map.setdefault(fw)
+        if state.err:
+            state.fail_func('prereq failed')
+    
+        state.fail_func = pytest.xfail
+        state.err = True
+        self.setup_state_obj(fw, state)
+>       state.obj.create()
+
+testlib.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../pandevice/base.py:2443: in create
+    super(VsysOperations, self).create()
+../../pandevice/base.py:543: in create
+    device.active().xapi.set(self.xpath_short(), element, retry_on_peer=self.HA_SYNC)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pandevice.base.XapiWrapper instance at 0x1033091b8>
+args = ("/config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet", '<entry name="ethernet1/1"><layer3...ent>This is my interface</comment><ipv4-mss-adjust>275</ipv4-mss-adjust><ipv6-mss-adjust>93</ipv6-mss-adjust></entry>')
+kwargs = {}, retry_on_peer = True, apply_on_peer = False, ha_peer = None, e = PanXapiError(' -> ipv4-mss-adjust unexpected here',)
+the_exception = PanDeviceXapiError(' -> ipv4-mss-adjust unexpected here',)
+
+    def method(self, *args, **kwargs):
+        retry_on_peer = kwargs.pop("retry_on_peer", True if super_method_name not in ('keygen', 'op', 'ad_hoc', 'export') else False)
+        apply_on_peer = kwargs.pop("apply_on_peer", False)
+        ha_peer = self.pan_device.ha_peer
+        # Check if apply to both devices
+        # Note: An exception will not be raised if one device could not be accessed
+        # An exception will be raised on other errors on either device, or if both
+        # devices could not be accessed.
+        if apply_on_peer:
+            # Apply to peer first
+            connection_failures = 0
+            if ha_peer is not None and not ha_peer.ha_failed:
+                try:
+                    kwargs["retry_on_peer"] = False
+                    result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+                except pan.xapi.PanXapiError as e:
+                    the_exception = self.classify_exception(e)
+                    if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                        # passive firewall connection failed
+                        connection_failures += 1
+                    else:
+                        raise the_exception
+            if not self.pan_device.ha_failed:
+                try:
+                    super_method(self, *args, **kwargs)
+                    result = copy.deepcopy(self.element_root)
+                except pan.xapi.PanXapiError as e:
+                    the_exception = self.classify_exception(e)
+                    if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                        # passive firewall connection failed
+                        connection_failures += 1
+                    else:
+                        raise the_exception
+    
+        elif self.pan_device.ha_failed and ha_peer is not None \
+            and not ha_peer.ha_failed and retry_on_peer:
+            # This device is failed, use the other
+            logger.debug("Current device is failed, starting with other device")
+            kwargs["retry_on_peer"] = True
+            result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+        elif not self.pan_device.is_active() and ha_peer is not None and retry_on_peer:
+            # I'm not active, call the peer
+            kwargs["retry_on_peer"] = True
+            result = getattr(ha_peer.xapi, super_method_name)(*args, **kwargs)
+            # Copy result from peer xapi to this xapi
+            result_vars = ('status', 'status_detail', 'status_code', 'element_root',
+                           'element_result', 'export_result', 'xml_document', 'text_document')
+            for var in result_vars:
+                setattr(self, var, getattr(ha_peer.xapi, var))
+        else:
+            try:
+                # This device has not failed, or both have failed
+                # and this device is active
+                # First get the superclass method
+                super_method(self, *args, **kwargs)
+                result = copy.deepcopy(self.element_root)
+            except pan.xapi.PanXapiError as e:
+                the_exception = self.classify_exception(e)
+                if type(the_exception) in self.CONNECTION_EXCEPTIONS:
+                    # The attempt on the active failed with a connection error
+                    new_active = self.pan_device.set_failed()
+                    if retry_on_peer and new_active is not None:
+                        logger.debug("Connection to device '%s' failed, using HA peer '%s'" %
+                                     (self.pan_device.id, new_active.hostname))
+                        # The active failed, apply on passive (which is now active)
+                        kwargs["retry_on_peer"] = False
+                        getattr(new_active.xapi, super_method_name)(*args, **kwargs)
+                        result = copy.deepcopy(new_active.xapi.element_root)
+                    else:
+                        raise the_exception
+                else:
+>                   raise the_exception
+E                   PanDeviceXapiError:  -> ipv4-mss-adjust unexpected here
+
+../../pandevice/base.py:2851: PanDeviceXapiError
+================================================= 2 failed, 634 passed, 8 skipped, 8 xfailed in 204.68 seconds =================================================
+
