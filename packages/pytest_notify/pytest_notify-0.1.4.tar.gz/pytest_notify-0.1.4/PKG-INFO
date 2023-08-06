@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pytest_notify
+Version: 0.1.4
+Summary: Get notifications when your tests ends
+Home-page: https://github.com/Shir0kamii/pytest_notify
+Author: Alexandre Bonnetain
+Author-email: alexandrebonnetain@gmail.com
