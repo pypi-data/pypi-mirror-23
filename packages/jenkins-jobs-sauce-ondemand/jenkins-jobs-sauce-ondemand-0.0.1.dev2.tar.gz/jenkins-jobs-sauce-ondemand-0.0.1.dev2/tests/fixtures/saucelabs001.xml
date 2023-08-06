@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <buildWrappers>
+    <hudson.plugins.sauce__ondemand.SauceOnDemandBuildWrapper>
+      <enableSauceConnect>true</enableSauceConnect>
+      <nativeAppPackage>foo/path</nativeAppPackage>
+      <seleniumHost>foo</seleniumHost>
+      <seleniumPort>8080</seleniumPort>
+      <credentialId>ad7f5c34-6c5b-11e7-8e08-784f436e5c58</credentialId>
+      <launchSauceConnectOnSlave>true</launchSauceConnectOnSlave>
+      <sauceConnectPath>/bin/sc</sauceConnectPath>
+      <options>-N</options>
+      <verboseLogging>true</verboseLogging>
+      <useLatestVersion>false</useLatestVersion>
+      <useGeneratedTunnelIdentifier>false</useGeneratedTunnelIdentifier>
+      <webDriverBrowsers>
+        <string>Linuxfirefox32</string>
+        <string>Linuxfirefox44</string>
+      </webDriverBrowsers>
+      <appiumBrowsers>
+        <string>Linuxfirefox33</string>
+        <string>Linuxfirefox43</string>
+      </appiumBrowsers>
+      <condition class="org.jenkins_ci.plugins.run_condition.core.AlwaysRun"/>
+    </hudson.plugins.sauce__ondemand.SauceOnDemandBuildWrapper>
+  </buildWrappers>
+</project>

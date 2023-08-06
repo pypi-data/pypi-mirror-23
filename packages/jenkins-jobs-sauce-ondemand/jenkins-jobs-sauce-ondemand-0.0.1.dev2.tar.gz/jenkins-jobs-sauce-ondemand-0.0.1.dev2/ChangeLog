@@ -1,0 +1,6 @@
+CHANGES
+=======
+
+* Removed bad documentation
+* Updated module to support newer selenium plugin
+* Initial Commit

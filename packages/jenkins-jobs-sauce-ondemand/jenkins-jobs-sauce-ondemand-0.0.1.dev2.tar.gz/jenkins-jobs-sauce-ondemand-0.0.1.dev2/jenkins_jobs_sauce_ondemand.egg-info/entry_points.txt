@@ -1,0 +1,3 @@
+[jenkins_jobs.wrappers]
+sauce-ondemand-ng = jenkins_jobs_sauce_ondemand.sauce_ondemand:sauce_ondemand
+
