@@ -1,0 +1,5 @@
+[console_scripts]
+mmi-curl = mmi.curl:main
+mmi-runner = mmi.runner:main
+mmi-tracker = mmi.tracker:main
+

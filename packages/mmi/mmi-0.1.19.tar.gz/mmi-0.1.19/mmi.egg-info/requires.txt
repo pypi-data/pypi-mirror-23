@@ -1,0 +1,8 @@
+numpy
+pyzmq
+docopt
+bmi-python
+tornado
+requests
+six
+shapely
