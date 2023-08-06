@@ -1,0 +1,7 @@
+#!/usr/local/bin env python
+from forbesqotd import qotd
+
+
+app = qotd.forbes()
+print(app.get_quote())
+print"By: ",app.get_by()
