@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: dj-arp-storm
+Version: 1.0b1
+Summary: play network traffic as sound
+Home-page: https://github.com/listerine/dj_arp_storm
+Author: LISTERINE
+Author-email: jon@jonathanferretti.com
+License: MIT
+Description: ===============================
+        dj arp storm
+        ===============================
+        
+        .. image:: https://img.shields.io/pypi/v/dj_arp_storm.svg
+                :target: https://pypi.python.org/pypi/dj_arp_storm
+        
+        .. image:: https://img.shields.io/travis/listerine/dj_arp_storm.svg
+                :target: https://travis-ci.org/listerine/dj_arp_storm
+        
+        .. image:: https://readthedocs.org/projects/dj_arp_storm/badge/?version=latest
+                :target: https://readthedocs.org/projects/dj_arp_storm/?badge=latest
+                :alt: Documentation Status
+        
+        
+        play network traffic as sound.
+        
+        Usage:
+        pip install dj_arp_storm
+        prepare your config directory (see the folder `dj_as`)
+        then run `dj_as`
+        
+        dj_as is an example config directory.
+        move it to `~/.dj_as`
+        
+        recommendation:
+        place::
+          ServerAliveInterval 1
+        in your /etc/ssh/ssh_config and open an ssh connection to get consistent traffic for a good tempo
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2016-04-26)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: dj_arp_storm
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
