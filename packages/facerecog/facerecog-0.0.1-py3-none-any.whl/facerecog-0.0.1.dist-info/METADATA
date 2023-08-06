@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: facerecog
+Version: 0.0.1
+Summary: PyQt OpenCV Face Recognition Widget
+Home-page: https://github.com/benhoff/blog
+Author: Ben Hoff
+Author-email: beohoff@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: numpy
+Provides-Extra: cv
+Requires-Dist: opencv-python; extra == 'cv'
+Provides-Extra: dev
+Requires-Dist: twine; extra == 'dev'
+
+UNKNOWN
+
+
