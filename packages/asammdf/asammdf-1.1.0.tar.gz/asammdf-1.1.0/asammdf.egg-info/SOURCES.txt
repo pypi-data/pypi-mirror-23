@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+asammdf/__init__.py
+asammdf/mdf3.py
+asammdf.egg-info/PKG-INFO
+asammdf.egg-info/SOURCES.txt
+asammdf.egg-info/dependency_links.txt
+asammdf.egg-info/requires.txt
+asammdf.egg-info/top_level.txt
