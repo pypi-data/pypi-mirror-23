@@ -1,0 +1,14 @@
+HdlLib
+lxml
+pygraphviz
+networkx>=1.9
+python-dateutil
+xlrd
+bitstring
+openpyxl
+
+[dev]
+check-manifest
+
+[test]
+coverage
