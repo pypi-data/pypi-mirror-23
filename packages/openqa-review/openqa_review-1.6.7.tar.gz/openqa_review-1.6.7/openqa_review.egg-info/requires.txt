@@ -1,0 +1,10 @@
+beautifulsoup4
+configparser
+configparser2
+future
+sortedcontainers
+humanfriendly
+requests
+PyYAML
+pika
+certifi
