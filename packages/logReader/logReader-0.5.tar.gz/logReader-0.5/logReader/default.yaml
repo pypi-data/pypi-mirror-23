@@ -1,0 +1,5 @@
+pattern: (?P<time>\d{4}-\d{1,2}-\d{1,2} \d{2}:\d{2}:\d{2}(\.\d{0,3})?) \[(?P<machine>[\w.]*)\] (?P<level>\w+) (?P<message>.+)
+colors: ["#E0E0E0", white, yellow, "#FF6E5F", red]
+levels: [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+example: 2017-06-27 12:29:54.400 [192.168.1.200] DEBUG GET /0/execute_1?param_1=1 HTTP/1.1
+
