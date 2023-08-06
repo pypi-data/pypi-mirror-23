@@ -1,0 +1,4 @@
+valimail_dkimpy>=0.7.1
+authres>=1.0.0
+publicsuffix
+ipaddress
