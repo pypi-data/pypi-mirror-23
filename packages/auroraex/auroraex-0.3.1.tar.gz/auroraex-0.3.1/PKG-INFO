@@ -1,0 +1,96 @@
+Metadata-Version: 1.1
+Name: auroraex
+Version: 0.3.1
+Summary: Command Line utility for Amazon Aurora.
+Home-page: https://github.com/toyama0919/auroraex
+Author: Hiroshi Toyama
+Author-email: toyama0919@gmail.com
+License: MIT
+Description: auroraex |PyPI version|
+        =======================
+        
+        Command Line utility for Amazon Aurora.
+        
+        Support python3 only. (use boto3)
+        
+        Settings
+        --------
+        
+        .. code:: sh
+        
+            export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
+            export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            export AWS_DEFAULT_REGION=xx-xxxxxxx-x
+        
+        -  support environment variables and iam role.
+        
+        Examples
+        --------
+        
+        list instance and cluster
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        
+        .. code:: sh
+        
+            $ auroraex list
+        
+            [instances]
+            db01 mysql available db.m3.xlarge  ap-northeast-1c None
+            db02 mysql available db.m3.xlarge  ap-northeast-1c None
+            db03 mysql available db.m3.large ap-northeast-1c None
+            db04 mysql available db.m3.large ap-northeast-1c None
+            db05 aurora available db.t2.medium  ap-northeast-1c aurora-cluster
+            db06 aurora available db.t2.medium  ap-northeast-1c aurora-cluster
+        
+            [clusters]
+            aurora-cluster available aurora  ['db05', 'db06']
+            ...
+        
+        restore aurora cluster
+        ^^^^^^^^^^^^^^^^^^^^^^
+        
+        .. code:: sh
+        
+            $ auroraex restore -s ${source-cluster-identifier} -t ${restore-cluster-identifier} -w ${writer-instance} -r ${reader-instance}
+        
+        -  use copy-on-write.
+        
+        delete aurora cluster and child instance
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        
+        .. code:: sh
+        
+            $ auroraex delete_cluster -i ${delete-target-cluster-identifier}
+        
+        Installation
+        ------------
+        
+        .. code:: sh
+        
+            pip install auroraex
+        
+        Contributing
+        ------------
+        
+        1. Fork it
+        2. Create your feature branch (``git checkout -b my-new-feature``)
+        3. Commit your changes (``git commit -am 'Add some feature'``)
+        4. Push to the branch (``git push origin my-new-feature``)
+        5. Create new `Pull Request <../../pull/new/master>`__
+        
+        Information
+        -----------
+        
+        -  `Homepage <https://github.com/toyama0919/auroraex>`__
+        -  `Issues <https://github.com/toyama0919/auroraex/issues>`__
+        -  `Documentation <http://rubydoc.info/gems/auroraex/frames>`__
+        -  `Email <mailto:toyama0919@gmail.com>`__
+        
+        .. |PyPI version| image:: https://badge.fury.io/py/auroraex.svg
+           :target: https://badge.fury.io/py/auroraex
+        
+Keywords: amazon aurora aws mysql
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
