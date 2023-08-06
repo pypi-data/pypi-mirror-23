@@ -1,0 +1,11 @@
+README.rst
+setup.py
+zqytest/__init__.py
+zqytest/coordTransform.py
+zqytest/useragents.py
+zqytest/zqy.py
+zqytest.egg-info/PKG-INFO
+zqytest.egg-info/SOURCES.txt
+zqytest.egg-info/dependency_links.txt
+zqytest.egg-info/top_level.txt
+zqytest.egg-info/zip-safe
