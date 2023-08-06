@@ -1,0 +1,12 @@
+FaceExtractor-0.1.2.dist-info/DESCRIPTION.rst,sha256=qBV5xPlCBG6AOfJyfw0v-eos8Kg7lkeuX6bij_zZNkc,16
+FaceExtractor-0.1.2.dist-info/METADATA,sha256=o7c5weh2bwPY4njHi5TBmHPiJrIQfgRP4TNM81er5xM,284
+FaceExtractor-0.1.2.dist-info/RECORD,,
+FaceExtractor-0.1.2.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+FaceExtractor-0.1.2.dist-info/metadata.json,sha256=2N15deP7_HibfxZVFiGzgVHDHQ4KoTpqfcEIQcS2VEw,508
+FaceExtractor-0.1.2.dist-info/top_level.txt,sha256=aqT0xaw-xq5jVJ7u1VFHvlhuAGm72eovGLsJdJbjAoQ,15
+face_extractor/__init__.py,sha256=kBrtkAYE0DHwf4yhotJzXSKJ0ZLUyhIvaI8gdyvdkOg,127
+face_extractor/extractor.py,sha256=Sv5Ogx0qSPVLiO_i3NXzkYgfbpRSTuxiCuGqgKyXThI,3270
+face_extractor/data/haarcascade_frontalface_alt.xml,sha256=YoHfE0Wcwhj_BH0Csq44WbEv8UqT_-iVL3sz-te5aXs,676709
+face_extractor/data/haarcascade_frontalface_alt2.xml,sha256=ewyWfZq7373gJeuceGlH0VG2QmBA0HqPlWLtj9kHJLQ,540616
+face_extractor/data/haarcascade_frontalface_alt_tree.xml,sha256=Dl7kfswTJp1U3XpV-LU3UhZ8Ulh3IId3MjiPsHigSAo,2689040
+face_extractor/data/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127

@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: FaceExtractor
+Version: 0.1.2
+Summary: Extract faces from images with OpenCV
+Home-page: https://github.com/ducthienbui97/FaceExtractor
+Author: Thien Bui
+Author-email: thienbui797@gmail.com
+License: BSD-3-Clause
+Requires-Dist: opencv-python
+
+FaceExtractor
+
+
