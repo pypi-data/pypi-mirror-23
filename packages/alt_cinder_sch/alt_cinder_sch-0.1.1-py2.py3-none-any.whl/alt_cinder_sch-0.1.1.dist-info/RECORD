@@ -1,0 +1,12 @@
+alt_cinder_sch/__init__.py,sha256=ZTScGr8v3y6fv4EG2FIW16ybVUIkr4Y9wbsD513kJ00,114
+alt_cinder_sch/host_managers.py,sha256=rbtVvNXmdPI69LlYiNLToWjlkKRazudCaxbzukSgVac,3806
+alt_cinder_sch/scheduler_drivers.py,sha256=M5QQgdJ-pxEn1wVd9YBZf4Ut4WFoI8E85qzNogu2F3I,5911
+alt_cinder_sch/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alt_cinder_sch/filters/capacity_filter.py,sha256=m_ysbuLB8n3ESEZ4D3oRBNpoGJA057NXZx9WmqhJT6U,9531
+alt_cinder_sch-0.1.1.dist-info/DESCRIPTION.rst,sha256=LAYkTv9NxMjHLBnZSZNrDwgbuJPyT0pIga3-aWL6xv0,2772
+alt_cinder_sch-0.1.1.dist-info/METADATA,sha256=1Xx3rDNSb8rp-Lpwwwj-gncQ147e8LqQtyf96y2oYD8,3692
+alt_cinder_sch-0.1.1.dist-info/RECORD,,
+alt_cinder_sch-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+alt_cinder_sch-0.1.1.dist-info/entry_points.txt,sha256=nO5ZTczyMavtfpOXqzS1tu7xFCW0BEawItnrwt6bUiY,105
+alt_cinder_sch-0.1.1.dist-info/metadata.json,sha256=VQvJu6uM1kJtlF0FrDnpfspNNOtovZWAWiMwCK9o06E,1244
+alt_cinder_sch-0.1.1.dist-info/top_level.txt,sha256=vpZfRmWIO4FF1SJDb8ae1iTrMuU6rF84qe1moTK2uNc,15
