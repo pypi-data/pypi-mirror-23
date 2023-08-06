@@ -1,0 +1,13 @@
+MANIFEST.in
+config.yaml
+setup.py
+GoldenListGenerator/__init__.py
+GoldenListGenerator/__main__.py
+GoldenListGenerator/hostdatadump.py
+GoldenListGenerator/miscfuncs.py
+GoldenListGenerator.egg-info/PKG-INFO
+GoldenListGenerator.egg-info/SOURCES.txt
+GoldenListGenerator.egg-info/dependency_links.txt
+GoldenListGenerator.egg-info/entry_points.txt
+GoldenListGenerator.egg-info/requires.txt
+GoldenListGenerator.egg-info/top_level.txt
