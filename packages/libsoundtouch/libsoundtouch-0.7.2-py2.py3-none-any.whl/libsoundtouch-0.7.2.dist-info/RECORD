@@ -1,0 +1,11 @@
+libsoundtouch-0.7.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+libsoundtouch-0.7.2.dist-info/WHEEL,sha256=AvR0WeTpDaxT645bl5FQxUK6NPsTls2ttpcGJg3j1Xg,110
+libsoundtouch-0.7.2.dist-info/RECORD,,
+libsoundtouch-0.7.2.dist-info/top_level.txt,sha256=-1bIL9RMakTy2Vf_VKckdGypPJnymlcdOtIkdDIHxB8,14
+libsoundtouch-0.7.2.dist-info/METADATA,sha256=WFLIPy0XCHMpSD0IjveVSafDrhOVoLHZCkGnH7BEoTQ,903
+libsoundtouch-0.7.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+libsoundtouch-0.7.2.dist-info/metadata.json,sha256=yafucSSoTBLKgqb3Xr5grZkMe0YNRplpQMYL1dZnUdM,1062
+libsoundtouch/__init__.py,sha256=ic0ZD4j5j5GH4rWr4XkkmjwgQm7kXd7KbMVDjGyJAOk,1366
+libsoundtouch/device.py,sha256=TTM3g8s1e7x9trvybnT_NokqRdCNDI6Ru5GzlWksNGg,33048
+libsoundtouch/utils.py,sha256=jtvmM-GTItaCl0L1u_rQ97xl8YESMlJpQL0ZJrddHGw,2573
+libsoundtouch/templates/avt_transport_uri.xml,sha256=uSslXlMXQVIpqsZ0KX9bORnUAUwvTTuXkzZAGtoamms,426
