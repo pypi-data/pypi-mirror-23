@@ -1,0 +1,4 @@
+include LICENSE *.txt README.rst
+recursive-include atomate *.py *.yaml *.md
+recursive-include docs *.*
+global-exclude atomate tests/*.* test_files/*.* tests/* test_files/*
