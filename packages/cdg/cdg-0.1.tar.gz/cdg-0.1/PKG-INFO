@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: cdg
+Version: 0.1
+Summary: Software callgraph manipulation
+Home-page: https://github.com/musec/py-cdg
+Author: Jonathan Anderson
+Author-email: jonathan.anderson@mun.ca
+License: UNKNOWN
+Download-URL: https://github.com/musec/py-cdg
+Description: UNKNOWN
+Platform: UNKNOWN
