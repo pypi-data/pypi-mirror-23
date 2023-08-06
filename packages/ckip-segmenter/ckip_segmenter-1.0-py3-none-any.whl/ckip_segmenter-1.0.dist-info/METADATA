@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: ckip-segmenter
+Version: 1.0
+Summary: Ckip Segmenter
+Home-page: https://github.com/henryyang42/ckip-segmenter
+Author: henryyang42
+Author-email: henryyang42@gmail.com
+License: MIT
+Keywords: NLP,tokenizing,Chinese word segementation,part-of-speech tagging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3
+
+# ckip-segmenter
+A Chinese segmentation &amp; part-of-speech tagging module using service provided by  Academia Sinica, Taiwan
+
+
