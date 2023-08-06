@@ -1,0 +1,88 @@
+<module area="" description="Network architecture for system on chip intercommunication" issues="" name="AdOCNet_2DMesh" purpose="Network architecture for system on chip intercommunication" speed="" title="ADACSYS On-Chip-Network" tool="13.1" version="1.0">
+
+
+  <services>
+    <offered alias="NoC" name="AdOCNet_2DMesh">
+         <map actual="DimX" formal="DimX"/>
+         <map actual="DimY" formal="DimY"/>
+         <map actual="FlitWidth" formal="FlitWidth"/>
+         <map actual="NbInputs_Table" formal="NbInputs_Table"/>
+         <map actual="NbOutputs_Table" formal="NbOutputs_Table"/>
+<!--         <map actual="OutputFifoDepth_Table" formal="OutputFifoDepth_Table"/>-->
+         <map actual="InputFifoDepth_Table" formal="InputFifoDepth_Table"/>
+         <map actual="Rx" formal="Rx"/>
+         <map actual="AckRx" formal="AckRx"/>
+         <map actual="DataIn" formal="DataIn"/>
+         <map actual="Tx" formal="Tx"/>
+         <map actual="AckTx" formal="AckTx"/>
+         <map actual="DataOut" formal="DataOut"/>
+    </offered>
+  </services>
+
+
+  <parameter default="2" name="DimX" type="numeric"/>
+  <parameter default="2" name="DimY" type="numeric"/>
+  <parameter default="16" name="FlitWidth" type="numeric"/>
+  <parameter default="[5, 5, 5, 5]" name="NbInputs_Table" type="DimX*DimY*numeric"/>
+  <parameter default="[5, 5, 5, 5]" name="NbOutputs_Table" type="DimX*DimY*numeric"/>
+<!--  <parameter default="[16,16,16,16,16,16,16,16,16]" name="OutputFifoDepth_Table" type="DimX*DimY*numeric"/>-->
+  <parameter default="[96, 96, 96, 96]" name="InputFifoDepth_Table" type="DimX*DimY*numeric"/>
+
+  <input name="Clock" size="1" type="logic"/>
+  <input name="Reset" size="1" type="logic"/>
+
+  <input name="Rx" size="DimX*DimY" type="logic"/>
+  <output name="AckRx" size="DimX*DimY" type="logic"/>
+  <input name="DataIn" size="DimX*DimY" type="FlitWidth*logic" typeimport="AdOCNet_2DMesh_pkg.FLITS"/>
+  
+  <output name="Tx" size="DimX*DimY" type="logic"/>
+  <input name="AckTx" size="DimX*DimY" type="logic"/>
+  <output name="DataOut" size="DimX*DimY" type="FlitWidth*logic" typeimport="AdOCNet_2DMesh_pkg.FLITS"/>
+
+  <features>
+	<fpga id="XC7VX485T">
+		<resources lut="0" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC6VLX240T">
+		<resources lut="0" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC6SLX150">
+		<resources lut="0" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC5VSX50T">
+		<resources lut="0" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+  </features>
+
+
+  <services>
+    <required alias="Clock" name="clock" type="orthogonal" version="1.0">
+      <map formal="clock" actual="Clock"/>
+<!--      <map formal="freq" actual="50"/>-->
+    </required> 
+    <required name="reset" type="orthogonal" version="1.0">
+      <map formal="reset" actual="Reset"/>
+<!--      <map formal="delay" actual="0"/>-->
+    </required> 
+  </services>
+
+
+  <services> 
+    <!--                  INPUT PORT                  -->
+    <required name="Router_2DMesh" type="simple" version="1.0"/>
+  </services>
+
+  <core>
+    <rtl type="package" name="AdOCNet_2DMesh_pkg" path="./AdOCNet_2DMesh_pkg.vhd"/>
+    <rtl path="./AdOCNet_2DMesh.vhd"/>
+  </core>
+
+
+</module>
+
+
+

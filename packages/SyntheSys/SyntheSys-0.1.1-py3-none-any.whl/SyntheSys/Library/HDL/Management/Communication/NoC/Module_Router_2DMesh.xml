@@ -1,0 +1,88 @@
+<module area="" description="" issues="" name="Router_2DMesh" purpose="" speed="" title="" tool="" version="">
+  <services>
+    <offered alias="Router" name="Router_2DMesh">
+         <map actual="FlitWidth" formal="FlitWidth"/>
+         <map actual="NbInputs" formal="NbInputs"/>
+         <map actual="NbOutputs" formal="NbOutputs"/>
+         <map actual="X_Local" formal="X"/>
+         <map actual="Y_Local" formal="Y"/>
+         <map actual="InputFifoDepth" formal="InputFifoDepth"/>
+         <map actual="HS_Rx" formal="Rx"/>
+         <map actual="HS_AckRx" formal="AckRx"/>
+         <map actual="HS_DataIn" formal="DataIn"/>
+         <map actual="HS_Tx" formal="Tx"/>
+         <map actual="HS_AckTx" formal="AckTx"/>
+         <map actual="HS_DataOut" formal="DataOut"/>
+    </offered>
+  </services>
+  
+  <parameter default="16" name="FlitWidth" type="numeric"/>
+  <parameter default="5" name="NbInputs"  type="numeric"/>
+  <parameter default="5" name="NbOutputs" type="numeric"/>
+  <parameter default="0" name="X_Local" type="numeric" />
+  <parameter default="0" name="Y_Local" type="numeric" />
+  <parameter default="16" name="InputFifoDepth" type="numeric"/>
+
+  <input name="Clock" size="1" type="logic"/>
+  <input name="Reset" size="1" type="logic"/>
+
+  <input  name="HS_Rx" size="NbInputs" type="logic"/>
+  <output name="HS_AckRx" size="NbInputs" type="logic"/>
+  <input  name="HS_DataIn" size="NbInputs" type="FlitWidth*logic" typeimport="FLITS"/>
+  
+  <output name="HS_Tx" size="NbOutputs" type="logic"/>
+  <input  name="HS_AckTx" size="NbOutputs" type="logic"/>
+  <output name="HS_DataOut" size="NbOutputs" type="FlitWidth*logic" typeimport="FLITS"/>
+  
+  <features>
+	<fpga id="XC7VX485T">
+		<resources lut="16" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC6VLX240T">
+		<resources lut="16" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC6SLX150">
+		<resources lut="16" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+	<fpga id="XC5VSX50T">
+		<resources lut="16" register="0" ram="0"/>
+		<clock MaxFreq="100"/>
+	</fpga>
+  </features>
+  
+  <services>
+    <required alias="Clock" name="clock" type="orthogonal" version="1.0">
+      <map formal="clock" actual="Clock"/>
+<!--      <map formal="freq" actual="50"/>-->
+    </required> 
+    <required name="reset" type="orthogonal" version="1.0">
+      <map formal="reset" actual="Reset"/>
+<!--      <map formal="delay" actual="0"/>-->
+    </required> 
+  </services>
+  
+  <services> 
+    <!--                  INPUT PORT                  -->
+    <required name="HandShakeToFifo" type="simple" version="1.0"/>
+    <required name="FIFO" type="simple" version="1.0" alias="FIFO_IN"/>
+    <required name="TransfertController" type="simple" version="1.0"/>
+    <required name="Arbiter" type="simple" version="1.0"/>
+    <required name="RoutingControl" type="simple" version="1.0"/>
+    <required name="RoutingTable" type="simple" version="1.0"/>
+    <required name="Crossbar" type="simple" version="1.0"/>
+  </services>
+
+  <core>
+    <rtl type="package" name="AdOCNet_2DMesh_pkg" path="./AdOCNet_2DMesh_pkg.vhd"/>
+    <rtl path="./Router_2DMesh.vhd"/>
+  </core>
+
+</module>
+
+
+
+
+
