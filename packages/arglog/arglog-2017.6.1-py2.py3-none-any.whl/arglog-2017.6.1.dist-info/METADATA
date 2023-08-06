@@ -1,0 +1,63 @@
+Metadata-Version: 1.2
+Name: arglog
+Version: 2017.6.1
+Summary: Arglog
+Home-page: https://github.com/cjrh/arglog
+License: UNKNOWN
+Author: Caleb Hattingh
+Author-email: caleb.hattingh@gmail.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+
+.. image:: https://img.shields.io/badge/stdlib--only-yes-green.svg
+    :target: https://img.shields.io/badge/stdlib--only-yes-green.svg
+
+.. image:: https://travis-ci.org/cjrh/arglog.svg?branch=master
+    :target: https://travis-ci.org/cjrh/arglog
+
+.. image:: https://coveralls.io/repos/github/cjrh/arglog/badge.svg?branch=master
+    :target: https://coveralls.io/github/cjrh/arglog?branch=master
+
+.. image:: https://img.shields.io/pypi/pyversions/arglog.svg
+    :target: https://pypi.python.org/pypi/arglog
+
+arglog
+======
+
+*Add logging options to argparse automatically*
+
+Demo
+----
+
+.. code:: python
+
+    # main.py
+    import argparse
+    import logging
+    import arglog
+
+    if __name__ == '__main__':
+        parser = argparse.ArgumentParser()
+        arglog.patch(parser)
+        args = parser.parse_args()
+
+This will trigger the same effect as running:
+
+.. code:: python
+
+    logging.basicConfig(level='<level name>')
+
+However, you now also have a new CLI option for your program:
+
+.. code:: bash
+
+    $ python main.py --loglevel=WARNING
+
+All of the logging levels are supporting, ``INFO``, ``DEBUG`` and so on.
+
