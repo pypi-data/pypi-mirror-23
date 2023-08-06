@@ -1,0 +1,17 @@
+setup.py
+nzbget/Database.py
+nzbget/FeedScript.py
+nzbget/Logger.py
+nzbget/PostProcessScript.py
+nzbget/QueueScript.py
+nzbget/ScanScript.py
+nzbget/SchedulerScript.py
+nzbget/ScriptBase.py
+nzbget/Utils.py
+nzbget/__init__.py
+pynzbget.egg-info/PKG-INFO
+pynzbget.egg-info/SOURCES.txt
+pynzbget.egg-info/dependency_links.txt
+pynzbget.egg-info/not-zip-safe
+pynzbget.egg-info/requires.txt
+pynzbget.egg-info/top_level.txt
