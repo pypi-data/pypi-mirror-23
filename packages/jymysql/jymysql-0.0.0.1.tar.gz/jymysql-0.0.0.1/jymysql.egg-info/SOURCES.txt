@@ -1,0 +1,7 @@
+README.rst
+setup.py
+jymysql.egg-info/PKG-INFO
+jymysql.egg-info/SOURCES.txt
+jymysql.egg-info/dependency_links.txt
+jymysql.egg-info/requires.txt
+jymysql.egg-info/top_level.txt
