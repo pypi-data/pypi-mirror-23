@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: datasploit
+Version: 1.0
+Summary: A framework to perform various OSINT techniques, aggregate all the raw data, and give data in multiple formats.
+Home-page: https://github.com/DataSploit/datasploit
+Author: Shubham Mittal, Sudhanshu Chauhan, Kunal Aggarwal
+Author-email: upgoingstaar@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,3 @@
+[console_scripts]
+datasploit_config = datasploit.datasploit_config:edit
+
