@@ -1,0 +1,16 @@
+README.txt
+setup.py
+ai/__init__.py
+ai/autoencoder/__init__.py
+ai/autoencoder/agn.py
+ai/autoencoder/test.py
+ai/data/__init__.py
+ai/data/input.py
+ai/simple/__init__.py
+ai/simple/softmax.py
+ai/web/__init__.py
+ai/web/api.py
+facechat_ai.egg-info/PKG-INFO
+facechat_ai.egg-info/SOURCES.txt
+facechat_ai.egg-info/dependency_links.txt
+facechat_ai.egg-info/top_level.txt

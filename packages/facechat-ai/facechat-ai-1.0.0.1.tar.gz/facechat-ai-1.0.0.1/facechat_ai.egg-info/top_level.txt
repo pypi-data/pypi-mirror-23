@@ -1,0 +1,6 @@
+ai
+ai/autoencoder/agn
+ai/autoencoder/test
+ai/data/input
+ai/simple/softmax
+ai/web/api
