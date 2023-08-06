@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        winpet=winpet:cli
+    
