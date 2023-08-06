@@ -1,0 +1,17 @@
+{% load thumbnail %}{% spaceless %}
+
+<img 
+    class="filer_image {{ style }} {{ classes }}"
+    alt="{{ alt }}"
+    srcset="
+        {% for src in srcset %}
+            {% thumbnail image src crop subject_location=image.subject_location %} {{ src.0 }}w,
+        {% endfor %}
+    "
+    {% if sizes %}sizes="{{ sizes }}"{% endif %}
+    src="{% thumbnail image default_size crop subject_location=image.subject_location %}"
+    {% if instance.glossary.caption %} title="{{ caption }}"{% endif %}
+/>
+
+{% endspaceless %}
+
