@@ -1,0 +1,7 @@
+setup.py
+petitzway/__init__.py
+petitzway.egg-info/PKG-INFO
+petitzway.egg-info/SOURCES.txt
+petitzway.egg-info/dependency_links.txt
+petitzway.egg-info/requires.txt
+petitzway.egg-info/top_level.txt
