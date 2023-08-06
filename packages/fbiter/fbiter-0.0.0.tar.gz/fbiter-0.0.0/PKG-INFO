@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fbiter
+Version: 0.0.0
+Summary: A simple library for iterating through paginated Facebook API endpoints.
+Home-page: https://github.com/jsvine/fbiter
+Author: Jeremy Singer-Vine
+Author-email: jsvine@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: facebook api
+Platform: UNKNOWN
