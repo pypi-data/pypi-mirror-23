@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+btcmarkets/__init__.py
+btcmarkets/api.py
+btcmarkets/auth.py
+btcmarkets/http_requests.py
+btcmarkets.egg-info/PKG-INFO
+btcmarkets.egg-info/SOURCES.txt
+btcmarkets.egg-info/dependency_links.txt
+btcmarkets.egg-info/top_level.txt
