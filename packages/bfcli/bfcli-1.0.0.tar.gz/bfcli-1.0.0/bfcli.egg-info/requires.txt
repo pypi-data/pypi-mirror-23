@@ -1,0 +1,10 @@
+analytics-python
+bitfusion
+click
+jsonschema
+pyjwt
+python-dateutil
+pytz
+pyyaml
+requests
+terminaltables
