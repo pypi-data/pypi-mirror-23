@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_examples.py,sha256=pgmtIJA371eQCzaFuUHLhQmFvVDMvCyjZBbWcR5792Y,1484
+trml2pdf/__init__.py,sha256=2CsDgDDPZN0NhxbnAbKFrnTlhZweJzjHSaQOnU1-FiM,846
+trml2pdf/color.py,sha256=p8FrfkW6ULqyOkGWPMJrEHQhEmtMz8F6LhFX0722Ego,1445
+trml2pdf/trml2pdf.py,sha256=Asl7jqxxcYrjm3EPOj2-kenoXsf0q4OMhxkSJEkMkNA,31464
+trml2pdf/utils.py,sha256=K3BqwUkkFpzc7Dgur7fLc0_Ys5fse84SKCPQsPDBs0c,2292
+trml2pdf-0.4.dist-info/DESCRIPTION.rst,sha256=hRecnZEK06X5RGJMm-ZPKj0QWb_QzmbOZVEREnq3Mpg,1020
+trml2pdf-0.4.dist-info/METADATA,sha256=pbsTWyVbridC_01OC5lvfYC93NwtFp2lWJgIkgh8Tg4,1239
+trml2pdf-0.4.dist-info/RECORD,,
+trml2pdf-0.4.dist-info/WHEEL,sha256=JTb7YztR8fkPg6aSjc571Q4eiVHCwmUDlX8PhuuqIIE,92
+trml2pdf-0.4.dist-info/entry_points.txt,sha256=G-Z3xJ8iqWBEFLpXwauwBP9eNke1YgGzqMsV7Cjf5YQ,53
+trml2pdf-0.4.dist-info/metadata.json,sha256=15DfxJ1g9N7NQ96biO6Qbclr_pTxDOYnqX6QYx51kDo,545
+trml2pdf-0.4.dist-info/top_level.txt,sha256=wr8H97QVzMqRLnIQ9ImFT4juNIgxL-RyEAniyF2bDmA,15
