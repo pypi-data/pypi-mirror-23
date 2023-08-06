@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: FAdo3
+Version: 1.0
+Summary: Formal Languages Manipulation Tools
+Home-page: http://www.dcc.fc.up.pt/FAdo
+Author: Rogerio Reis
+Author-email: rvr@dcc.fc.up.pt
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: yappy
+Provides: FAdo
