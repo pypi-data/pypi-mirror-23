@@ -1,0 +1,10 @@
+inquisitor/__init__.py,sha256=rvnJAz3QwlrBs9KkJ7Q3FE-emyPrNHXTDPEKl7PHBTY,5451
+inquisitor-0.1.9.dist-info/DESCRIPTION.rst,sha256=UJQfD4T6mP7uqFEebTp1S9HQYU8Cza5oL1gKhBAoaw4,830
+inquisitor-0.1.9.dist-info/METADATA,sha256=i3HgSkExP90gNJ6TULLJdLOv3gpvq50Co1G9NZ4Ed50,1853
+inquisitor-0.1.9.dist-info/RECORD,,
+inquisitor-0.1.9.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+inquisitor-0.1.9.dist-info/metadata.json,sha256=FzpAdgYAyqCDNgFksaBRXxQk7AbBW6hdnMONaouSjh8,1160
+inquisitor-0.1.9.dist-info/top_level.txt,sha256=BOOHdVjJfSaCgAgCtEHDhvRR_av3wjuRqWbGo8dLjqo,17
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/mock.py,sha256=DupBRlZBUB1PHRfeZs9KJUug5sIFQFth4TkyIwEK9Mw,2169
+tests/test_api.py,sha256=92C9QqQxJTt0U6GR388P86YYaM06ilIoj1zqNdXCxuU,984
