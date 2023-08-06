@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+oshino_hw/__init__.py
+oshino_hw/agent.py
+oshino_hw/version.py
+oshino_hw.egg-info/PKG-INFO
+oshino_hw.egg-info/SOURCES.txt
+oshino_hw.egg-info/dependency_links.txt
+oshino_hw.egg-info/requires.txt
+oshino_hw.egg-info/top_level.txt
