@@ -1,0 +1,6 @@
+flake8
+flake8-commas
+flake8-import-order
+
+[:python_version>="3.5"]
+flake8-bugbear
