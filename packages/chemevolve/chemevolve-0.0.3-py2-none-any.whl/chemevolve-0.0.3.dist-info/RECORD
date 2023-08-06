@@ -1,0 +1,15 @@
+chemevolve/APSfunctions.py,sha256=Owz7WN4uSjSGpV5pFgbTEsnJyNhbRNBUg3-6lQ_qsCQ,28529
+chemevolve/BinaryPolymer.py,sha256=IyLjLTiwnQ2_RJ3r4_1yrtzvBIMGsd2uJGd8mS0Qqyk,11532
+chemevolve/CoreClasses.py,sha256=XEqVO4--yjvrZnNjHstztKOuaRvt6d0yPA7_cOkq2SI,14656
+chemevolve/InitializeFunctions.py,sha256=rjY1M2zBLcmhsfVNpCMJBwJrAhDnM8m_Yp_IhKKoO50,8814
+chemevolve/OutputFunctions.py,sha256=70G2O9sK3akDLY3Scod-2pUX0iG1yPAX47teAzdWPOs,3872
+chemevolve/Plotting.py,sha256=RYJ4UmJIOjRx4Axq9BH54mhVOEVsDOc_s6WcN2SH5Hg,5416
+chemevolve/PropensityFunctions.py,sha256=IzyXcOX76pVuJXxhu9Ry2x1mBqjckhWavI_zapLLECc,5625
+chemevolve/ReactionFunctions.py,sha256=xTCt_ODPfD3CI8wHAjWJVeVJ67-LIDw1sS-MBctiBx8,5193
+chemevolve/__init__.py,sha256=PClMBSKheIIaDaAJV1r37_UgrbP_Az9dF4fucvhdNc4,257
+chemevolve-0.0.3.dist-info/DESCRIPTION.rst,sha256=Owd4FfaUZ5bfMdn-uJxLq30Owxyh0p8rnn90wMQKM4A,2955
+chemevolve-0.0.3.dist-info/METADATA,sha256=8kabzCU6BaRlwg8Vyilz680BgduKm1qGANoUqhqUnvU,3318
+chemevolve-0.0.3.dist-info/RECORD,,
+chemevolve-0.0.3.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+chemevolve-0.0.3.dist-info/metadata.json,sha256=IkgrIto5sjiWDsBmHuOwVTpq_SI0toCQrXD8eKBH4Dw,515
+chemevolve-0.0.3.dist-info/top_level.txt,sha256=z7Knp2VClkkfc_U_YtUIQSPhsC2aK1n_NnivJPSM6-E,11
