@@ -1,0 +1,17 @@
+image_pyqt-0.0.2.0.0.dist-info/DESCRIPTION.rst,sha256=fYMbfqJkAEiwdlsI9TRFioh_jEh_MT5ADRo0n8OrPBk,2171
+image_pyqt-0.0.2.0.0.dist-info/METADATA,sha256=X4magcbA8SHz-u3X0noa4pFeFb_Y0VrhC7hrgXe4ilU,2660
+image_pyqt-0.0.2.0.0.dist-info/RECORD,,
+image_pyqt-0.0.2.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+image_pyqt-0.0.2.0.0.dist-info/metadata.json,sha256=7pcT4jyQCivIc1_g_7_MyiFel-S0Ujv3lGo-DHs7qsE,683
+image_pyqt-0.0.2.0.0.dist-info/top_level.txt,sha256=ES4UYa6QRnm8dqad3DtqyQFYGl-dCyPTGoZbij2PuEI,10
+imagepyqt/__init__.py,sha256=wjKwlwLqjlIirzAajhymJIbdYC3LOcf-7qvENjEb6Cg,3912
+imagepyqt/myQt.py,sha256=oE7AH812kpsgET0lfL5_ot-SCY_01ug3YV-5tEFigko,6173
+imagepyqt/data/Readme.md,sha256=aLlEQp3O12uJ1ToyWcW2M0Cj8Mpcrv1-qk-Zr-P4thM,307
+imagepyqt/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagepyqt/data/installing_imagepyqt.png,sha256=U-6xFicHT-fBXIcKYo_qv-OGYfsK7kmwZa5ENDTqE-k,205241
+imagepyqt/data/test.png,sha256=oXlfK2wckOOH73oCN_HMZFppDg2-yolOSQWksZNOCwA,476034
+imagepyqt/demos/__init__.py,sha256=UsgBJcZJGrwESxhY09OugKpjpJV7ulca4lZ_1zlMc_c,95
+imagepyqt/demos/__main__.py,sha256=GEHkdrit-mhkMTcDFFhjidKy-K0AxVflR1iTcGQQQXQ,28
+imagepyqt/demos/demo.py,sha256=A4vqbQv3D4rQS8aFdWzKyUvGzAnl0FkroK2C3nvK1lg,1318
+imagepyqt/widgets/__init__.py,sha256=h-kR4Wb0XiQHwt7noUwztb74Aj2pG-p2Tp4GWb6BBMg,99
+imagepyqt/widgets/imwidget.py,sha256=JqF50IaQXkKu-Wip4HtqIhdDzY5o2ynbwaK0dj2Lmvc,6444
