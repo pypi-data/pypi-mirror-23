@@ -1,0 +1,7 @@
+setup.py
+wisdomnuggets/__init__.py
+wisdomnuggets.egg-info/PKG-INFO
+wisdomnuggets.egg-info/SOURCES.txt
+wisdomnuggets.egg-info/dependency_links.txt
+wisdomnuggets.egg-info/not-zip-safe
+wisdomnuggets.egg-info/top_level.txt
