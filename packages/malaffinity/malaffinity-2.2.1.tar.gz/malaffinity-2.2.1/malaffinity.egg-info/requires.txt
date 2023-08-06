@@ -1,0 +1,4 @@
+beautifulsoup4 >=4.6, <5
+lxml >=3.8, <4
+requests >=2.18, <3
+statistics >=1.0, <2
