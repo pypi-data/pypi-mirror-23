@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: yson
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/yydai/yson
+Author: yydai
+Author-email: dai92817@icloud.com
+License: MIT
+Description: UNKNOWN
+Keywords: json,parser,demo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
