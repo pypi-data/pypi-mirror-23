@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: reportermate
+Version: 0.1
+Summary: Automated news stories and reports from datasets
+Home-page: UNKNOWN
+Author: Nick Evershed
+Author-email: nick.evershed@gmail.com
+License: MIT
+Description: Reportermate is an open source project to create an automated news reporting system.
+Keywords: data-analysis text data analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
