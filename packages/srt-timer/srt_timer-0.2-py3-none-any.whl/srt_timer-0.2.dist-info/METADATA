@@ -1,0 +1,135 @@
+Metadata-Version: 2.0
+Name: srt-timer
+Version: 0.2
+Summary: Simple script for saving difference of two subtitle timings. You can than easily convert subtitle from one timing to another.
+Home-page: https://github.com/Thyrst/srt-timer
+Author: Thyrst
+Author-email: thyrst@seznam.cz
+License: MIT
+Download-URL: https://github.com/Thyrst/srt-timer/archive/0.2.tar.gz
+Keywords: srt subtitles timing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Text Processing
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: srt
+
+srt-timer
+=========
+
+srt-timer simply converts subtitles from one timing to another one.
+
+Usage example
+-------------
+
+You downloaded Fear the Walking Dead, episode 03x06, version 720p.WEB-DL-RARBG and
+you want to have an Italian subtitles. However Italian subtitles are just
+for the version REPACK.SVA...
+
+Now you can simply use srt-timer for convert the subtitles to the wanted version.
+First, you have to download English subtitles in both REPACK.SVA and 720p.WEB-DL-RARBG
+and then you can create repack2webdl.sdiff file with conversion information:
+
+.. code-block:: bash
+
+    $ srt_timer make_sdiff --strip-original 11 \
+    > "Fear the Walking Dead - 03x06 - Red Dirt.REPACK.SVA.English.C.orig.Addic7ed.com.srt" \
+    > "Fear the Walking Dead - 03x06 - Red Dirt.WEB-DL RARBG.English.C.orig.Addic7ed.com.srt" \
+    > --output repack2webdl.sdiff
+
+
+``strip-original`` argument removes the preview subtitles that shouldn't be in the final version.
+
+Now you convert your Italian subtitles to 720p.WEB-DL-RARBG version with the created sdiff file:
+
+.. code-block:: bash
+
+    $ srt_timer convert --sdiff repack2webdl.sdiff \
+    > "Fear the Walking Dead - 03x06 - Red Dirt.REPACK.SVA.Italian.C.orig.Addic7ed.com.srt" \
+    > --output italian_webdl.srt
+
+
+And you're done.
+
+Installation
+------------
+
+The package is on Pypi, so you can install it simply with ``pip install srt-timer``
+
+Usage manual
+------------
+
+For help just type ``srt_timer --help`` or ``srt_timer [command] --help``
+
+For all commands, the result is printed to the standard output by default.
+If you define the ``output`` argument, then it's printed to a specified file.
+
+convert
+^^^^^^^
+
+Convert srt file from one timing to another one.
+
+You can use it with a sdiff file like in the usage example or you can
+convert subtitles directly by providing ``original-timing`` and ``new-timing``
+arguments instead of ``sdiff`` argument. In the second case you can also
+provide the ``strip-original`` argument to strip surplus subtitles on the beginning
+of a file.
+
+make_sdiff
+^^^^^^^^^^
+
+Create a sdiff file.
+
+It has two required arguments: srt file with original timing and srt file with wanted timing.
+Optional arguments are ``strip-original`` and ``output``.
+
+The ``strip-original`` argument should be number of the last subtitle
+in the "You've seen previously..." section if it isn't desired in a new subtitle version.
+If defined, it will trim all subtitles starting before or at the time of the provided subtitle.
+
+reverse_sdiff
+^^^^^^^^^^^^^
+
+Create a sdiff file for the backwards conversion.
+
+This command expects just one argument ``input`` - a sdiff file.
+It will change its information, so it's possible to execute the opposite conversion.
+
+.. code-block:: bash
+
+    $ srt_timer reverse_sdiff repack2webdl.sdiff -o webdl2repack.sdiff
+
+
+Need help?
+----------
+
+If you have trouble using srt-timer, make a new issue on
+`the GitHub page of the project <https://github.com/Thyrst/srt-timer>`_
+or mail me at ``thyrst@seznam.cz``
+Changelog
+=========
+
+0.2 - 2017-07-11
+----------------
+
+Added
+^^^^^
+
+- ``reverse_sdiff`` command to create a sdiff file for a backwards conversion
+- Simplier entrypoint ``srt_timer`` as an opposite of ``srt_timer.py``
+
+
+0.1 - 2017-07-06
+----------------
+
+Added
+^^^^^
+
+- ``make_sdiff`` command to create a sdiff file
+- ``convert`` command to convert srt file from one timing to another one
+
+
