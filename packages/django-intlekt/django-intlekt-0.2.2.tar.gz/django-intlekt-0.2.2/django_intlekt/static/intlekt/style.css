@@ -1,0 +1,145 @@
+/* Global */
+
+header {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#collection, #post{
+    display: none;
+}
+
+/* Collections */
+
+#collections .container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#collection-creator {
+    display: inline-block;
+}
+
+#collection-creator form {
+    text-align: right;
+}
+
+#collections-list ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#collections-list li {
+    list-style-type: none;
+}
+
+#collections-importer-scoopit form {
+    display: inline-block;
+    text-align: right;
+    margin: 0 10px;
+}
+
+/* Collection */
+
+#collection .container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#collection .container.left {
+    margin-right: 20px;
+}
+
+#collection .container.left form {
+    text-align: right;
+}
+
+#post-creator .document-form {
+    margin-bottom: 20px;
+}
+
+/* Post */
+
+#post .container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#post .container.left {
+    margin-right: 20px;
+}
+
+#post .container.left form {
+    text-align: right;
+}
+
+
+
+#sidebar, #main {
+    display: none;
+    vertical-align: top;
+}
+
+#sidebar {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+#create-collection, #collect-document {
+    display: none;
+}
+
+.field-errors {
+    margin: 5px 0;
+    color: red;
+}
+
+a.hide {
+    color: red;
+}
+
+a.show{
+    color: green;
+}
+
+#collect-document td {
+    border: 1px solid #000;
+}
+
+#add-source {
+    display: none;
+}
+
+#tag-editor {
+    display: none;
+}
+
+#tag-editor td {
+    border: 1px solid #000;
+}
+
+#usl-hint table td {
+    border: 1px solid #000;
+}
+
+.no_usl {
+    color: red;
+}
+
+.selected_usl {
+    color: red;
+}

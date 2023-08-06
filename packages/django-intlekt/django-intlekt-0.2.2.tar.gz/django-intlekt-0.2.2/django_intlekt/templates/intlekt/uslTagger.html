@@ -1,0 +1,71 @@
+{% extends "intlekt/layout.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "intlekt/jquery-ui.css" %}" type="text/css" />
+    <link rel="stylesheet" href="{% static "intlekt/uslTagger.css" %}" type="text/css" />
+    <link rel="stylesheet" href="{% static "intlekt/uslTagger.css" %}" type="text/css" />
+{% endblock %}
+
+{% block body %}
+<h1>USL Tagger</h1>
+
+<div id="wrapper">
+</div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static "intlekt/list.min.js" %}"></script>
+    <script src="{% static "intlekt/jquery-3.2.1.min.js" %}"></script>
+    <script src="{% static "intlekt/jquery-ui.js" %}"></script>
+    <script src="{% static "intlekt/api.js" %}"></script>
+    <script src="{% static "intlekt/uslTagger.js" %}"></script>
+    <script>
+        var API_ROOT = 'http://127.0.0.1:8000/';
+        var api = API(API_ROOT);
+        var uslTagger = USLTagger();
+
+        uslTagger.connect('linkTag', function(tag, usl, cb) {
+            tag.usls.push(usl);
+
+            if(!tag.id) {
+                delete tag.id;
+                apiCall = api.createTag;
+            } else {
+                apiCall = api.updateTag;
+            }
+
+            apiCall(tag, function(tag) { cb(tag, usl); }, uslTagger.error);
+        });
+        
+        uslTagger.connect('unlinkTag', function(tag, usl, cb) {
+            tag.usls.splice(tag.usls.indexOf(usl), 1);
+
+            if(!tag.usls.length) {
+                return api.deleteTag(tag.id, function() {
+                    cb({
+                        id: '',
+                        text: tag.text,
+                        usls: []
+                    }, usl);
+                }, uslTagger.error);
+            }
+
+            api.updateTag(tag, function(tag) { cb(tag, usl); }, uslTagger.error);
+        });
+
+        api.listTags(function(tags) {
+            api.listUSLs(function(usls) {
+                uslTagger.render(
+                    usls,
+                    $('#wrapper'),
+                    tags
+                );
+            }, function(err, details) {
+                alert(err);
+            });
+        }, function(err, details) {
+            alert(err);
+        });
+    </script>
+{% endblock %}

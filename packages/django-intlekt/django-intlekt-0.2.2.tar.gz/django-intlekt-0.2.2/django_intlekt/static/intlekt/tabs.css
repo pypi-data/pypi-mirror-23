@@ -1,0 +1,22 @@
+ul.tabs {
+    margin: 0;
+    padding: 0;
+}
+
+ul.tabs li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+ul.tabs li.active a {
+    color: red;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
