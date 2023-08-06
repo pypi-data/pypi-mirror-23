@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: econtent
+Version: 1.4.2
+Summary: Python module to read extended file content and metadata
+Home-page: https://github.com/davidbetz/econtent
+Author: David Betz
+Author-email: dfb@davidbetz.net
+License: MIT
+Description: UNKNOWN
+Keywords: metadata,content
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
