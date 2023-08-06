@@ -1,0 +1,4 @@
+numpy
+parsable
+scipy
+six
