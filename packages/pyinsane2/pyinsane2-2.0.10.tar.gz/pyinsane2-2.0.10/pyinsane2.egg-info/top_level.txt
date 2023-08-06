@@ -1,0 +1,3 @@
+examples
+pyinsane2
+tests
