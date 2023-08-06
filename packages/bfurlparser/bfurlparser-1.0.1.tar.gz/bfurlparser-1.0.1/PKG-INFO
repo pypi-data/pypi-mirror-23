@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: bfurlparser
+Version: 1.0.1
+Summary: A blazing fast Python URL parser
+Home-page: https://github.com/davidfoliveira/py-bfurlparser
+Author: David Oliveira
+Author-email: d.oliveira@prozone.org
+License: MIT
+Description: UNKNOWN
+Keywords: url parser fast
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
