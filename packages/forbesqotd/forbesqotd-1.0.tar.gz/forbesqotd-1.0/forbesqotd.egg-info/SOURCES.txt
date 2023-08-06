@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bin/qotd
+forbesqotd/__init__.py
+forbesqotd/qotd.py
+forbesqotd.egg-info/PKG-INFO
+forbesqotd.egg-info/SOURCES.txt
+forbesqotd.egg-info/dependency_links.txt
+forbesqotd.egg-info/requires.txt
+forbesqotd.egg-info/top_level.txt
