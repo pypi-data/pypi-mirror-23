@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: regparser
+Version: 4.3.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Requires-Dist: GitPython
+Requires-Dist: attrs
+Requires-Dist: cached-property
+Requires-Dist: click
+Requires-Dist: coloredLogs
+Requires-Dist: dj-database-url
+Requires-Dist: django
+Requires-Dist: django-click
+Requires-Dist: django-rq
+Requires-Dist: djangorestframework
+Requires-Dist: inflection
+Requires-Dist: ipdb
+Requires-Dist: json-delta
+Requires-Dist: lxml
+Requires-Dist: networkx
+Requires-Dist: pyparsing
+Requires-Dist: python-constraint
+Requires-Dist: requests
+Requires-Dist: requests-cache
+Requires-Dist: roman
+Requires-Dist: six
+Requires-Dist: stevedore
+
+UNKNOWN
+
+
