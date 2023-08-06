@@ -1,0 +1,1 @@
+https://github.com/dutradda/aiofiles/archive/gzip_support.tar.gz#egg=aiofiles-ext-0.4.0
