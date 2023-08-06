@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: trajtrackerp
+Version: 0.2.0
+Summary: Trajectory-tracking experiment scripts
+Home-page: http://trajtracker.com
+Author: Dror Dotan
+Author-email: dror@trajtracker.com
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
