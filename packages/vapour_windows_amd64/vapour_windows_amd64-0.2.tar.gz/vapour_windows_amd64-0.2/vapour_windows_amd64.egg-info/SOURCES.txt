@@ -1,0 +1,7 @@
+setup.py
+vapour_windows_amd64/__init__.py
+vapour_windows_amd64/bindeps.zip
+vapour_windows_amd64.egg-info/PKG-INFO
+vapour_windows_amd64.egg-info/SOURCES.txt
+vapour_windows_amd64.egg-info/dependency_links.txt
+vapour_windows_amd64.egg-info/top_level.txt
