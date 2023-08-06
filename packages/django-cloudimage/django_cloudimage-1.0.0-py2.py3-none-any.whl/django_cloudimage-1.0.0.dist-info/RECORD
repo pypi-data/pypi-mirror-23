@@ -1,0 +1,17 @@
+cloudimage/__init__.py,sha256=5GmfSA329PywqfrrlT3L2OwOsfSrRtv1HGe5qV2CG70,18
+cloudimage/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+cloudimage/apps.py,sha256=lCuPa_rzEkPVFlCUMF4NTSbj4ksRzNa8mvjdMwrU8YI,95
+cloudimage/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+cloudimage/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+cloudimage/urls.py,sha256=_nWmtukyO4tuN7NPwgku__rVKNU3sKDdmNzRTXmLGIM,251
+cloudimage/views.py,sha256=On9fyw8RScT--5_dsHy1QGdisnZk2a_cXzwbKmGVu9s,1328
+cloudimage/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudimage/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudimage/templatetags/cloudimage.py,sha256=z3-2aNzyAGnPZcGatw5kpgLJ8gp4cgdehEm4-lfhEGo,500
+django_cloudimage-1.0.0.dist-info/DESCRIPTION.rst,sha256=V0EjrqmxMBw7FxrH5TNd4qUr3l8CN1wBvpmz_XgVmC0,2405
+django_cloudimage-1.0.0.dist-info/METADATA,sha256=vlJmPTmx2Wuo9fVEvLFzfCDZB8HWRcmM7-zRzpcF_v4,3024
+django_cloudimage-1.0.0.dist-info/RECORD,,
+django_cloudimage-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_cloudimage-1.0.0.dist-info/metadata.json,sha256=SHPttxbvtVVKsM3MFnVdpI6fmed-CWyQfluygzDm8FU,805
+django_cloudimage-1.0.0.dist-info/top_level.txt,sha256=C7kZNMzbGjhl1zYTwNCp0iIcAwYtOfsamGxsbX_XfpA,11
+django_cloudimage-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
