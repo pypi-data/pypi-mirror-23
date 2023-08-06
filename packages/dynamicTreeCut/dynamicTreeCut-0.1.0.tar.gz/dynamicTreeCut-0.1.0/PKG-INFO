@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dynamicTreeCut
+Version: 0.1.0
+Summary: Dynamic Tree Cut
+Home-page: https://github.com/kylessmith/dynamicTreeCut
+Author: Kyle S. Smith
+Author-email: kyle.smith@stjude.org
+License: GPL-3 Licenses
+Description: Contains methods for detection of clusters in hierarchical clustering dendrograms.
+Platform: UNKNOWN
