@@ -1,0 +1,7 @@
+setup.py
+alice_open_source_package.egg-info/PKG-INFO
+alice_open_source_package.egg-info/SOURCES.txt
+alice_open_source_package.egg-info/dependency_links.txt
+alice_open_source_package.egg-info/requires.txt
+alice_open_source_package.egg-info/top_level.txt
+alice_package/__init__.py
