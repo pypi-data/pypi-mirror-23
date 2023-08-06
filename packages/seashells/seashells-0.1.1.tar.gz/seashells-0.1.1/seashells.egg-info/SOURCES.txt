@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+seashells/__init__.py
+seashells.egg-info/PKG-INFO
+seashells.egg-info/SOURCES.txt
+seashells.egg-info/dependency_links.txt
+seashells.egg-info/entry_points.txt
+seashells.egg-info/top_level.txt
