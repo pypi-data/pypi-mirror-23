@@ -1,0 +1,7 @@
+awesome-slugify
+bs4
+docopt
+jinja2
+lxml
+webvtt-py
+youtube-dl
