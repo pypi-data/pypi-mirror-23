@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: jihangsdk
+Version: 0.1.1
+Summary: jihang sdk
+Home-page: http://xiaoh.me
+Author: bangguo
+Author-email: willyxq@gmail.com
+License: MIT Licence
+Keywords: pip,datacanvas,jihang,bangguo
+Platform: any
+
+jihang sdk for python
+
+
