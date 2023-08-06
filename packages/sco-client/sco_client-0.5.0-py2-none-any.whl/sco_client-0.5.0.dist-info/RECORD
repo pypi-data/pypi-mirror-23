@@ -1,0 +1,16 @@
+sco_client-0.5.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sco_client-0.5.0.dist-info/METADATA,sha256=6Jc9WikbJrYy63qrpYxE22rcX9Y7T8XsuM0rSrkWjIY,426
+sco_client-0.5.0.dist-info/RECORD,,
+sco_client-0.5.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+sco_client-0.5.0.dist-info/metadata.json,sha256=Zex8i73QIgDIa2_LVfeGJezSKrRkVGWxRuExT6qqhbM,615
+sco_client-0.5.0.dist-info/top_level.txt,sha256=t3j7TjWhYkaU8vdQll6bYXV5S93kf-ZAfPhBEcWGM3M,7
+scocli/__init__.py,sha256=-LGUEmxcypA2hRBuzTdqvFYIY0veEqyQNqT4Op5_1pI,27657
+scocli/__main__.py,sha256=04uN1Z5_zHefLMUy2E5Npni-6BkIvSmbhFgNsEBoBf8,424
+scocli/cli.py,sha256=OOP3k_vUSIFtSPVgkPDAQv0zDU7uN85PXIZpWS8orrY,2848
+scocli/experiment.py,sha256=shOdBDo7z_I_qwp4oH8FxI9dRHzK1nQ5AxBLb_7uf2c,8808
+scocli/funcdata.py,sha256=vWsW3kNz7jJE3UWJlphDePPy6xbD2ep7_XFSg6Yid0w,2685
+scocli/image.py,sha256=LOXYOulouTcTaA8_jgHKLwo3Eo2YFzU6jzJG6q4llf0,8334
+scocli/model.py,sha256=IjVJd6tO9LmXWE4fIKOASVFwRmghlA6MAMnpy-qinCs,1144
+scocli/modelrun.py,sha256=cOZ-SfhxlhjIrj8lg-ysX9d5bSUY4PsjAZ3G4S3ixCI,16106
+scocli/scoserv.py,sha256=3zPlIOMV8QC7Bz0Ao9Fj-uJlV09TRoD5KlAYePOvHsU,10020
+scocli/subject.py,sha256=nG_v1ABQo07aNV5ZyQ1kzLfK-3O9F7z3WV29RCndkiA,6370
