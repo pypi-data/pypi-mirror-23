@@ -1,0 +1,17 @@
+kinto_amo/__init__.py,sha256=ZXsPy0Viet0QFZZvO4ezBVM9Ti0tzK0tHmsnbpEGNkw,2243
+kinto_amo/utils.py,sha256=ViuqNFEXPUJSr9xe9PPPf3JCYj94gz_ai4aM8QamMfI,432
+kinto_amo/tests/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+kinto_amo/tests/config.ini,sha256=ZUP_e1Em7EmX6UjXOLC5rZVEIC07joGrM3-h3XrdX_A,299
+kinto_amo/tests/fixtures.json,sha256=ledmgeXa4Fd2GBpwzlOEGaThg0ceAXYjuU56NFSXw68,4536
+kinto_amo/tests/support.py,sha256=nBBZNQoMmvdYzEJKnPwk3j8cv1nC2aj0wE2dGUfqf-c,694
+kinto_amo/tests/test_plugin_setup.py,sha256=mf09sMJYm51XkWjWetPihDEA4OvQaGjGVZokhruu6_o,1240
+kinto_amo/tests/test_utils.py,sha256=2lAqPKaPlDVUakhFI3Ofz5ez3DFUfQsYgX5hxhlNe8I,263
+kinto_amo/tests/test_views.py,sha256=3ZBXWHjtnsycMT1NrM2KKbsqjb7kVIF-N-6bCDj8CWQ,10941
+kinto_amo/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kinto_amo/views/services.py,sha256=LH6nmyIvK-899YdOvfmKh-Y7tYnjZeb-F7l3eoCuIjM,3546
+kinto_amo-0.4.0.dist-info/DESCRIPTION.rst,sha256=u-TPuDkgkCVF-LdeCQ-gOB04H_a5x-POoWqpySkcWT8,2702
+kinto_amo-0.4.0.dist-info/METADATA,sha256=UXWZU35073ArbrNo-Z6ZJ2BtFpZ_hE3nZ__34uLoMQs,3428
+kinto_amo-0.4.0.dist-info/RECORD,,
+kinto_amo-0.4.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+kinto_amo-0.4.0.dist-info/metadata.json,sha256=cqeSLGNplUCy6Gbtv-qhey6fEkcVfo2yspeLUvevo3E,965
+kinto_amo-0.4.0.dist-info/top_level.txt,sha256=_p6FzrsfYSLf24IY2TTSoIBWOUR8xHcN2A3d8u50uEs,10
