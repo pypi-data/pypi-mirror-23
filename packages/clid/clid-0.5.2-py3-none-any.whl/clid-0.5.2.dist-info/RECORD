@@ -1,0 +1,15 @@
+clid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clid/__main__.py,sha256=o9L3sPDHxdyUDcMIiEuFCW2bFRFB-HMt3slubAzQDFA,199
+clid/_genres.py,sha256=GgxVL4xI2UMpPQ3c8DDkwxPqrxJxGWHGOsFqgzLULmA,3457
+clid/base.py,sha256=5XxmHCNmR9bzD2WuCvOtRznJim_IEBBvaiVOaR91HzY,463
+clid/database.py,sha256=JiyfiF-Ei8rWQM127F9bZrCmzYUjzZ0XX_efSqY8ERo,3694
+clid/editmeta.py,sha256=56eAZ2mHo4Gd11X3ldW8iwQwAgVZE6gOKIVpdzJBg9Y,3600
+clid/main.py,sha256=O9mBJ3SFIodBrdaRgl_qcvwG7l2ec-B8eS1LStYT8zE,5752
+clid/pref.py,sha256=frIhcLrsWeeg0FdDrHKAeZIeeRkho06QQ-yFCaZ_6BM,1739
+clid-0.5.2.dist-info/DESCRIPTION.rst,sha256=CTSxdfkhBMeNfEjCXQPU8uC8P9kAvAg6TLX7MVKZ_PA,348
+clid-0.5.2.dist-info/METADATA,sha256=UcsQrZnJHYg2LCYkmdRjrbDOtFunuFnuPEqZ6rwKsGE,1160
+clid-0.5.2.dist-info/RECORD,,
+clid-0.5.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+clid-0.5.2.dist-info/entry_points.txt,sha256=7Sw4hlQxvSw9TXxCNw4FgMusG7ezjBMzvMMw5yzDqnY,44
+clid-0.5.2.dist-info/metadata.json,sha256=aBmVSjDOFigOqpaxwgI7T_aM5CkbPePTzTqSgIXKH6U,1100
+clid-0.5.2.dist-info/top_level.txt,sha256=c1qJbq65pqDUogvZxwXnG4L-tdRNAifY76hqt_zVr-Q,5
