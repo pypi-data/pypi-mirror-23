@@ -1,0 +1,15 @@
+pbdmymath/__init__.py,sha256=cPXNyAY7O-j-jOdZwppzFTEOtoC9E6X9_L2w-ZgEkeA,170
+pbdmymath/add.py,sha256=kuoLumfI-YxgTNY8554QOb-zIp1cfkMzwG6jDHVt634,115
+pbdmymath/arithmetic.py,sha256=S7RigBCG8habQGjuRVBCzyEGZ5AlSQVJfrb4ecXuZTY,909
+pbdmymath/divide.py,sha256=SxfkLIcKVbCalzFuOyfIUX4D-Ocs10WtQKCm04-9qBM,48
+pbdmymath/multiply.py,sha256=rjG6RQ3-dB4nuf0etzq4XhmBWov-NB9zXf38XU8AORo,48
+pbdmymath/subtract.py,sha256=NMmp65EJfQAhFR0z3Er9qeAANJJK5la7oHwqA6n82wU,48
+pbdmymath/adv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pbdmymath/adv/fib.py,sha256=Ou0J7ySyIzD6Ivzp1DBfjvAE5ZsFAqXISnrN7A5yi6Y,288
+pbdmymath/adv/sqrt.py,sha256=X1VyjvXZGKZZSCcTr9FBqGtDagq9-lbqf-86g0uO2xc,149
+pbdmymath-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pbdmymath-0.1.dist-info/METADATA,sha256=85Ssj-pimB4gLZpjufmaFK5WnbbdBFBUl2ZZ9J6LLGI,171
+pbdmymath-0.1.dist-info/RECORD,,
+pbdmymath-0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pbdmymath-0.1.dist-info/metadata.json,sha256=JJIqkAIKEUea2j8JNxZ7AFn78sEC6-jQibIKpNSjMx4,215
+pbdmymath-0.1.dist-info/top_level.txt,sha256=e4JJQmn12ntqK8yS1wxUes3-WUpTbhb6Kfj-GDOY0QY,10
