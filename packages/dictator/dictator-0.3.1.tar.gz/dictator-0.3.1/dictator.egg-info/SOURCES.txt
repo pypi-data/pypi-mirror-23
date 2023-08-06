@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+dictator/__init__.py
+dictator.egg-info/PKG-INFO
+dictator.egg-info/SOURCES.txt
+dictator.egg-info/dependency_links.txt
+dictator.egg-info/not-zip-safe
+dictator.egg-info/requires.txt
+dictator.egg-info/top_level.txt
