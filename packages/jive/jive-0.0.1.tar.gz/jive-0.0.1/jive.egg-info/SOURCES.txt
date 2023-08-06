@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+jive/__init__.py
+jive/ajive_fig2.py
+jive/jive.py
+jive/jive_block.py
+jive/jive_visualization.py
+jive/lin_alg_fun.py
+jive/wedin_bound.py
+jive.egg-info/PKG-INFO
+jive.egg-info/SOURCES.txt
+jive.egg-info/dependency_links.txt
+jive.egg-info/not-zip-safe
+jive.egg-info/requires.txt
+jive.egg-info/top_level.txt
