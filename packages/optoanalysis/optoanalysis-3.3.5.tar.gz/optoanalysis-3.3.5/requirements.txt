@@ -1,0 +1,20 @@
+#
+####### requirements.txt for optoanalysis #######
+#
+###### Requirements without Version Specifiers ######
+numpy
+scipy
+matplotlib
+seaborn
+qplots>=0.5
+frange>=0.0.6
+uncertainties
+pytest
+pytest-cov
+pytest-mpl
+numpydoc
+sphinx_rtd_theme
+numba
+llvmlite
+Cython
+#
