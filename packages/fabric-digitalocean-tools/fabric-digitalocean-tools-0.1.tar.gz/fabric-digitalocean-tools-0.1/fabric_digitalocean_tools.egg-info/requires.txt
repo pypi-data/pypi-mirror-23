@@ -1,0 +1,7 @@
+fabric
+requests
+
+[test]
+nose
+coverage
+mock

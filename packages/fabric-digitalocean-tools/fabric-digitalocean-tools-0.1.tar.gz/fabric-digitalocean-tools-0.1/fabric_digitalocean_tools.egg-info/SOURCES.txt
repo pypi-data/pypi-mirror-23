@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+fabric_digitalocean_tools/__init__.py
+fabric_digitalocean_tools.egg-info/PKG-INFO
+fabric_digitalocean_tools.egg-info/SOURCES.txt
+fabric_digitalocean_tools.egg-info/dependency_links.txt
+fabric_digitalocean_tools.egg-info/requires.txt
+fabric_digitalocean_tools.egg-info/top_level.txt
