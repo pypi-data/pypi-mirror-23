@@ -1,0 +1,13 @@
+numpy
+
+[all]
+dask
+matplotlib
+bokeh
+folium
+
+[full]
+dask
+matplotlib
+bokeh
+folium
