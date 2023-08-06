@@ -1,0 +1,13 @@
+VoxCeleb/__init__.py,sha256=moWwWTmn8wzaWS6qpdPZsh9Un4T73SxCfMMvLD7iroo,2951
+VoxCeleb/_version.py,sha256=IbDHiuhKJMMcZs5atXuF4gmLBx6vgmPkMbNle66vviY,471
+VoxCeleb/data/voxceleb1.dev.mdtm,sha256=q0vzT9HkPVTyUhBYCfF77CwR_xDxRBo-HHAbof5Ts_g,7489839
+VoxCeleb/data/voxceleb1.dev.uem,sha256=KyUsZtsLofHIKpJU2SnSiGy6OB8Sqjwcw_fV5lGALPo,3727322
+VoxCeleb/data/voxceleb1.test.mdtm,sha256=sZWqn7M7NWf6a-ygydP9LfFliTpH4A1Qo4E5i1xXD_g,241719
+VoxCeleb/data/voxceleb1.test.uem,sha256=PQwIzn2CyIVS28tgXi5_d2VmUn17nGSzyZHjAwLVZ0A,121638
+pyannote.db.voxceleb-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pyannote.db.voxceleb-0.0.1.dist-info/METADATA,sha256=aU1P8d94tllV-prS0Ih03qAP2b_k-mw0ckE4S3y4sjk,737
+pyannote.db.voxceleb-0.0.1.dist-info/RECORD,,
+pyannote.db.voxceleb-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyannote.db.voxceleb-0.0.1.dist-info/entry_points.txt,sha256=jJRNEO5DrOE8TRemD4OEF7XfeTfQIKQmktbOeKlHWW8,78
+pyannote.db.voxceleb-0.0.1.dist-info/metadata.json,sha256=ANDYI_QGvMfZm7S99JFEJnl_0YvSm9BX-YV-NsivBWQ,904
+pyannote.db.voxceleb-0.0.1.dist-info/top_level.txt,sha256=uFAGnEQNqAf_yhhfOFLfbVgOHi8xSpwAUO7LvMz9RcQ,9
