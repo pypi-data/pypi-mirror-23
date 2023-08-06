@@ -1,0 +1,9 @@
+requests
+structlog
+pyopenssl
+
+[dev]
+coverage
+
+[test]
+coverage
