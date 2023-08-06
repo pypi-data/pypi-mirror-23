@@ -1,0 +1,17 @@
+sorna_agent-0.9.10-py3.6-nspkg.pth,sha256=PpWLQ3rIJxIjhBI-iXb-qF56XTUfwWlNl8hkvnCOZGY,534
+sorna/agent/__init__.py,sha256=ZJwx8srqkdBcOBfjTZKqVvjXiq71nCcdNBAmu1oPuvs,23
+sorna/agent/files.py,sha256=lOBtYTmAP-BwdNEIFa8u9A_mwki3cRjfi7o-kSKP5O0,2913
+sorna/agent/gpu.py,sha256=Q4YpxX9VWv0B97Kv0JLhCRid7xtkc62eaRSDSYcgiK8,2406
+sorna/agent/helper.py,sha256=Bs3bulxTdAl0VDSUxG16UwE-ZjY_tk-ob2LwxWdQqxw,687
+sorna/agent/kernel.py,sha256=QgIrwn1xw0IrF965bn9cdl-tnxST-6PC7H6pImU1aN4,10752
+sorna/agent/resources.py,sha256=y0PWPWWjuzlxG9KjYZbU3S4I4EtTZzgmvmCFDfWWyZQ,3350
+sorna/agent/server.py,sha256=TDCi2URKF_iF4dE91WIEY_LuT8a2r0JIblI1g8TgfvM,37114
+sorna/agent/stats.py,sha256=yToNEn1OjL0sCe6pFimsKUJp5hVZTeTjgd3-EBKdWQI,2527
+sorna/agent/tests.py,sha256=6eB_mJ1UAeTXUtTSqI61glzjuQcNAx60e8MtBOh9AVw,14038
+sorna_agent-0.9.10.dist-info/DESCRIPTION.rst,sha256=309C6iKlghWjn3XjJR04plMT62S_xrQWCJ_wFHz-XK4,2285
+sorna_agent-0.9.10.dist-info/METADATA,sha256=m8-H2PtEUZvZ6KR5YLCL-bJmSkz1mvz3CkxTk2kDlRM,4537
+sorna_agent-0.9.10.dist-info/RECORD,,
+sorna_agent-0.9.10.dist-info/WHEEL,sha256=UHCCB8bRej-eYCxgNiQAjRoWCqW4UwcX8vmN75ZCDKs,93
+sorna_agent-0.9.10.dist-info/metadata.json,sha256=-avnMxomiImDfDiAEXe1G1AAnPySa5iZwsbvSVCX-PM,1689
+sorna_agent-0.9.10.dist-info/namespace_packages.txt,sha256=-Fz39utvkGJ-dmV4aWZe_srlYbTbckzE894O8HomIpg,6
+sorna_agent-0.9.10.dist-info/top_level.txt,sha256=-Fz39utvkGJ-dmV4aWZe_srlYbTbckzE894O8HomIpg,6
