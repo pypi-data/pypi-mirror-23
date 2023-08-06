@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+drf_api_dump/__init__.py
+drf_api_dump/urls.py
+drf_api_dump/views.py
+drf_api_dump.egg-info/PKG-INFO
+drf_api_dump.egg-info/SOURCES.txt
+drf_api_dump.egg-info/dependency_links.txt
+drf_api_dump.egg-info/requires.txt
+drf_api_dump.egg-info/top_level.txt

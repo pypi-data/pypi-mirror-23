@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: drf-api-dump
+Version: 0.1.3
+Summary: Dumps data from apps or models via HTTP
+Home-page: https://github.com/davidvicenteranz/drf-api-dump/
+Author: David Vicente Ranz
+Author-email: dvicente74@gmail.com
+License: MIT license
+Description: 
+        This Django app is intended for **dump data from apps or models via HTTP**. Basically exposes
+        dumdata command to http.
+        
+        Features:
+            - Just accesible by superusers
+            - Ability to include or exclude any specific app or model
+        
+        Requirements:
+            - Django (Developed under v1.11)
+            - Django Rest Framework (Developed under v3.4.3)
+        
+        More on https://github.com/davidvicenteranz/drf-api-dump/
+        
+Keywords: django dumpdata development
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
