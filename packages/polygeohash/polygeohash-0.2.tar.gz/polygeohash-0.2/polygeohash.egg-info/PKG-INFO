@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: polygeohash
+Version: 0.2
+Summary: Transform a geoJSON into a list of geohashes that intersect with it
+Home-page: https://github.com/mathieuripert/polygeohash
+Author: Mathieu Ripert
+Author-email: mathieu@instacart.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
