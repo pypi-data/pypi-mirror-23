@@ -1,0 +1,3 @@
+[console_scripts]
+ascii-game = ascii_game.ascii_game:cli
+
