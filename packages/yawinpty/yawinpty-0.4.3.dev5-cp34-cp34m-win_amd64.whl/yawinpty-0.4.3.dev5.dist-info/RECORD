@@ -1,0 +1,11 @@
+winpty-agent.exe,sha256=2wDniNYx4Uze_A44F6R18T_FuUUj1I7Zo60cF9pXpKs,303616
+winpty.dll,sha256=SdiIepQQVs2MrEqh1zxbYX2zL7TkaVBK2tM3C2bWWkw,215552
+winpty.exp,sha256=fzG5igCfwUhLAm1F0xmbvEMnsgzgpexD0p0w5-oK5kc,2945
+winpty.lib,sha256=1cLgET6qgN0Bzm60VoVG2uTPtNVBLBDaMVZRnnP3f94,5482
+yawinpty.pyd,sha256=RJUYgqVpCYufIgJf8-2XamRQJ3NkcTQjCBxCRN8C28U,243200
+yawinpty-0.4.3.dev5.dist-info/DESCRIPTION.rst,sha256=BrnFm0LTcDF3GY9WVPGlfcU2iFPoRINmPETxAd6Vg_c,6520
+yawinpty-0.4.3.dev5.dist-info/METADATA,sha256=zPm6t5AgM73sa19VBLNHGO499zxwYAMa40V_6hFnmfE,8031
+yawinpty-0.4.3.dev5.dist-info/RECORD,,
+yawinpty-0.4.3.dev5.dist-info/WHEEL,sha256=GxiwFjpOfTmx11V52k6m_oTt7YsjO6k5CAStlBXKEWQ,106
+yawinpty-0.4.3.dev5.dist-info/metadata.json,sha256=lcL-yWBFe8VFXyjmalKo8iBJXqnbg4kBg7-pa2tCDcA,1530
+yawinpty-0.4.3.dev5.dist-info/top_level.txt,sha256=22MTAqmL4FZ3Gdj0RBbnECc938qIPp5pmnluU-iKtFE,9
