@@ -1,0 +1,15 @@
+README.rst
+setup.py
+aiofiles/__init__.py
+aiofiles/_compat.py
+aiofiles/base.py
+aiofiles/os.py
+aiofiles/threadpool/__init__.py
+aiofiles/threadpool/binary.py
+aiofiles/threadpool/text.py
+aiofiles/threadpool/utils.py
+aiofiles_ext.egg-info/PKG-INFO
+aiofiles_ext.egg-info/SOURCES.txt
+aiofiles_ext.egg-info/dependency_links.txt
+aiofiles_ext.egg-info/requires.txt
+aiofiles_ext.egg-info/top_level.txt
