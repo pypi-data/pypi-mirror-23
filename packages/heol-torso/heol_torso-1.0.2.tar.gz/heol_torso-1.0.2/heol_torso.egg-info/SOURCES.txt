@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.cfg
+setup.py
+heol_torso/__init__.py
+heol_torso/_version.py
+heol_torso/heol_torso.py
+heol_torso.egg-info/PKG-INFO
+heol_torso.egg-info/SOURCES.txt
+heol_torso.egg-info/dependency_links.txt
+heol_torso.egg-info/not-zip-safe
+heol_torso.egg-info/requires.txt
+heol_torso.egg-info/top_level.txt
+heol_torso/configuration/heol_torso.json
