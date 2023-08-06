@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pySRE/__init__.py
+pySRE/pySRE.py
+pySRE.egg-info/PKG-INFO
+pySRE.egg-info/SOURCES.txt
+pySRE.egg-info/dependency_links.txt
+pySRE.egg-info/requires.txt
+pySRE.egg-info/top_level.txt
