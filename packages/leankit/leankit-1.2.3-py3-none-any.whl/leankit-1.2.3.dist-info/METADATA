@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: leankit
+Version: 1.2.3
+Summary: UNKNOWN
+Home-page: https://github.com/Funk66/leankit
+Author: Guillermo Guirao Aguilar
+Author-email: contact@guillermoguiraoaguilar.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: cached-property
+Requires-Dist: dateutils
+Requires-Dist: pytz
+Requires-Dist: requests
+
+UNKNOWN
+
+
