@@ -1,0 +1,12 @@
+requests[security]
+prettyexc>=0.6.0
+six
+pytz
+python-dateutil
+
+[tests]
+pytest>=3.0.0
+pytest-cov
+tox
+mock
+patch
