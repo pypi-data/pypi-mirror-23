@@ -1,0 +1,6 @@
+dotmap>=1.2.17
+
+[dev]
+
+[test]
+mock>=1.0.1

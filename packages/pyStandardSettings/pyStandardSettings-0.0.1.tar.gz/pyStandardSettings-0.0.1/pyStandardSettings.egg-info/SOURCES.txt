@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyStandardSettings/__init__.py
+pyStandardSettings/helpers.py
+pyStandardSettings/pyStandardSettings.py
+pyStandardSettings.egg-info/PKG-INFO
+pyStandardSettings.egg-info/SOURCES.txt
+pyStandardSettings.egg-info/dependency_links.txt
+pyStandardSettings.egg-info/requires.txt
+pyStandardSettings.egg-info/top_level.txt
