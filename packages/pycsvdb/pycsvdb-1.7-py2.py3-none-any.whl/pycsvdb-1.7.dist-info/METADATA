@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pycsvdb
+Version: 1.7
+Summary: Reading CSV file and insert into database
+Home-page: https://github.com/sajeeshe/python-csv-easy
+Author: Sajeesh E Namboothiri
+Author-email: sajeeshe@gmail.com
+License: MIT
+Keywords: CSV database pandas
+Platform: UNKNOWN
+
+UNKNOWN
+
+
