@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: uinames
+Version: 1.0.0
+Summary: A light Python wrapper for the UINames API
+Home-page: https://github.com/harrylewis/python-uinames
+Author: Harry Lewis
+Author-email: harry.lewis@queensu.ca
+License: UNKNOWN
+Keywords: testing,mock,data,users
+Platform: UNKNOWN
+Requires-Dist: requests (==2.13.0)
+Requires-Dist: responses (==0.5.1)
+Requires-Dist: nose (==1.3.7)
+
+UNKNOWN
+
+
