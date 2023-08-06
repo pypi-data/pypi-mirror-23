@@ -1,0 +1,14 @@
+csvtotable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvtotable/cli.py,sha256=2PgfnxKFIRksF3eATDzCRfuQxP2zxWTtZeekiGJi84s,2370
+csvtotable/convert.py,sha256=attpdKOllglwIh300P0hIZ81836QvsSQkQUuOKsi7L0,4466
+csvtotable/templates/template.html,sha256=OGkZzZmDRi-8NjF1SV04Ky7OQRwO1mCifhs1-1ZCCcc,2638
+csvtotable/templates/template.j2,sha256=-frOVnzltZrMYdTJtFPDBd_AJzrNxw6h1IsfrHh0IAQ,3491
+csvtotable/templates/js/jquery.dataTables.min.js,sha256=j007R7R6ijEWPa1df7FeJ6AFbQeww0xgif2SJWZOhHw,83268
+csvtotable/templates/js/jquery.min.js,sha256=ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ-Xp8a4MxAQ,97163
+csvtotable-1.1.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+csvtotable-1.1.2.dist-info/METADATA,sha256=4TpQI4CIUVDL3wFOeuih-F5hy_raXeDuoJgtfeJS8UM,1097
+csvtotable-1.1.2.dist-info/RECORD,,
+csvtotable-1.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+csvtotable-1.1.2.dist-info/entry_points.txt,sha256=5C5wqdob0mdRjo9EMTtIkV7H90r5eAE8EpfuCmwL7YU,51
+csvtotable-1.1.2.dist-info/metadata.json,sha256=lSDYwuoFrOmBa3WzZ8e2y9Wm_EtR-yA_3EztX1c1kqE,1339
+csvtotable-1.1.2.dist-info/top_level.txt,sha256=jwBv9JuiMb485nqPDnBgH4TIY4f1Pp504RBtv5g0kus,11
