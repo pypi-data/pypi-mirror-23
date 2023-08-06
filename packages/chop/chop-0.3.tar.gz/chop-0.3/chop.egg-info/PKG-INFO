@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: chop
+Version: 0.3
+Summary: Chinese Words Segementation Utilities
+Home-page: https://github.com/samurais/chop
+Author: Hai Liang Wang
+Author-email: hailiang.hl.wang@gmail.com
+License: MIT
+Description: 
+        chop
+        =====
+        
+        中文分词
+        
+        完整文档见 ``README.md``
+        
+        GitHub: https://github.com/samurais/chop
+        
+        特点
+        ====
+        
+        * 使用简单
+        
+        ```
+        for x in t.cut("工信处女干事每月经过下属科室都要亲口交代24口交换机等技术性器件的安装工作"): print(x)
+        ```
+        
+        * 代码通俗易懂，方便掌握算法
+        
+        -  MIT 授权协议
+        
+        安装说明
+        ========
+        
+        代码对 Python 3 兼容
+        
+        -  全自动安装： ``easy_install chop`` 或者 ``pip install chop`` / ``pip3 install chop``
+        -  通过 ``import chop`` 来引用
+        
+        
+Keywords: NLP,tokenizing,Chinese word segementation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
