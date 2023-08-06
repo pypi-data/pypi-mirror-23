@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block styles %}{{ super() }}{% endblock %}
+{% block page_content %}
+<div class="uploadFormDiv">
+    {{ wtf.quick_form(form) }}
+</div>
+<div class="uploadFormDiv">
+    {% if uploaded_files %}
+    <div>
+        <h3>Uploaded files:</h3>
+        <ul>
+        {% for file in uploaded_files %}
+            <li>{{ file }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    {{ wtf.quick_form(compress_form) }}
+</div>
+{% endblock %}
