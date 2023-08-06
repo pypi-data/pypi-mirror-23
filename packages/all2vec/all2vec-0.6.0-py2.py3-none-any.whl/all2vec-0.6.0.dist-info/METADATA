@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: all2vec
+Version: 0.6.0
+Summary: Store and compare high dimensional vectors
+Home-page: UNKNOWN
+Author: Ravi Mody, Jon Banafato
+Author-email: datascience@iheartmedia.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: annoy (==1.8.3)
+Requires-Dist: boto3 (>=1.4)
+Requires-Dist: dill (>=0.2)
+Requires-Dist: numpy (>=1.12)
+
+UNKNOWN
+
+
