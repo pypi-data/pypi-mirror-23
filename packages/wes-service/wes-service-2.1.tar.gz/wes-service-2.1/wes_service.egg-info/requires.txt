@@ -1,0 +1,6 @@
+connexion
+bravado
+ruamel.yaml >= 0.12.4, < 0.15
+
+[arvados]
+arvados-cwl-runner
