@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+realtime_talib/TalibWrapper.py
+realtime_talib/Utilities.py
+realtime_talib/realtime_talib.py
+realtime_talib.egg-info/PKG-INFO
+realtime_talib.egg-info/SOURCES.txt
+realtime_talib.egg-info/dependency_links.txt
+realtime_talib.egg-info/top_level.txt
