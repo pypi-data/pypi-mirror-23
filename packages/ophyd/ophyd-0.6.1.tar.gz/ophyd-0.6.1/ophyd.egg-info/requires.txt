@@ -1,0 +1,7 @@
+ipython
+networkx
+numpy
+prettytable
+pyepics
+doct
+boltons
