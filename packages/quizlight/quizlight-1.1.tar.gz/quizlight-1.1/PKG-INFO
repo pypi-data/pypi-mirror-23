@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: quizlight
+Version: 1.1
+Summary: A simple, modular terminal-based quiz program
+Home-page: https://github.com/dogoncouch/quizlight
+Author: Dan Persons
+Author-email: dpersonsdev@gmail.com
+License: UNKNOWN
+Description: 
+        Quizlight
+        ---------
+        
+        Quizlight is simple terminal-based program for test taking and creation. It is written in Python 3. It comes with a Python 3 test module, based on `The Python Tutorial <https://docs.python.org/3/tutorial/>`_ .
+        
+        Options
+        ```````
+        
+            usage: quizlight.py [-h] [--version] [-d DIRECTORY] [--learn] [file]
+            
+            positional arguments:
+              file          set the module import file
+            
+            optional arguments:
+              -h, --help    show this help message and exit
+              --version     show program's version number and exit
+              -d DIRECTORY  set the module import directory
+              --learn       turn on learning mode (immediate answer feedback)
+        
+        Interface
+        `````````
+        
+        Quizlight has a menu driven interface, based on the lightcli library. There are two modes: test mode, and edit mode. Test mode is for taking tests. Edit mode is for creating and editing tests.
+        
+        Links
+        `````
+        
+        * `Documentation <https://github.com/dogoncouch/quizlight/blob/master/README.md>`_
+        * `Changelog <https://github.com/dogoncouch/quizlight/blob/master/CHANGELOG.md>`_
+        
+        
+Keywords: educational,education,quiz,testing,education-game,education-materials,python3,terminal-based,console-application,learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Education :: Testing
