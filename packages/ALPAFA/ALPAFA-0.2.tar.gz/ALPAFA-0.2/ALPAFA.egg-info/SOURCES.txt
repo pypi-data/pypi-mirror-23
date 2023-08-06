@@ -1,0 +1,11 @@
+README.rst
+setup.py
+ALPAFA.egg-info/PKG-INFO
+ALPAFA.egg-info/SOURCES.txt
+ALPAFA.egg-info/dependency_links.txt
+ALPAFA.egg-info/entry_points.txt
+ALPAFA.egg-info/top_level.txt
+alpafa/__init__.py
+alpafa/alpafa.py
+alpafa/cli.py
+alpafa/parse.py
