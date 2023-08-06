@@ -1,0 +1,3 @@
+[console_scripts]
+genpp = genpp.__init__:main
+
