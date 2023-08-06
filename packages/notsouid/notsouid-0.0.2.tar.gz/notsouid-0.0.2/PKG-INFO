@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: notsouid
+Version: 0.0.2
+Summary: not so unique ids
+Home-page: https://github.com/nicwest/notsouid
+Author: Nic West
+Author-email: oss@nicwest.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English

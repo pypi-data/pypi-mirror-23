@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+notsouid/__init__.py
+notsouid/factories.py
+notsouid/wrapper.py
+notsouid.egg-info/PKG-INFO
+notsouid.egg-info/SOURCES.txt
+notsouid.egg-info/dependency_links.txt
+notsouid.egg-info/requires.txt
+notsouid.egg-info/top_level.txt
