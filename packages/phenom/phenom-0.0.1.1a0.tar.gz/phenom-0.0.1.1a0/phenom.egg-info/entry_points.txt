@@ -1,0 +1,3 @@
+[console_scripts]
+phenom = phenom.__main__:main
+

@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: phenom
+Version: 0.0.1.1a0
+Summary: population growth phenotype model
+Home-page: https://gitlab.oit.duke.edu/pt59/phenom
+Author: Peter Tonner
+Author-email: peter.tonner@duke.edu
+License: GPLv3
+Description: # phenom: functional phenotype model
+        
+Keywords: bayesian statistics time-course
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
