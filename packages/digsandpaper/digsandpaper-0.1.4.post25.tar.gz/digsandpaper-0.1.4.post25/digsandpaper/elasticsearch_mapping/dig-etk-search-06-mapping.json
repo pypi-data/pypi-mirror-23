@@ -1,0 +1,3305 @@
+{
+  "dig-etk-search-06" : {
+    "mappings" : {
+      "ads" : {
+        "properties" : {
+          "content_extraction" : {
+            "properties" : {
+              "content_relaxed" : {
+                "properties" : {
+                  "data_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "simple_tokens" : {
+                    "type" : "string",
+                    "index" : "no"
+                  },
+                  "simple_tokens_original_case" : {
+                    "type" : "string"
+                  },
+                  "spacy_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "text" : {
+                    "type" : "string"
+                  },
+                  "tokens" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "tokens_original_case" : {
+                    "properties" : {
+                      "char_end" : {
+                        "type" : "long"
+                      },
+                      "char_start" : {
+                        "type" : "long"
+                      },
+                      "type" : {
+                        "type" : "string"
+                      },
+                      "value" : {
+                        "type" : "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "content_strict" : {
+                "properties" : {
+                  "data_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "simple_tokens" : {
+                    "type" : "string",
+                    "index" : "no"
+                  },
+                  "simple_tokens_original_case" : {
+                    "type" : "string"
+                  },
+                  "spacy_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "text" : {
+                    "type" : "string"
+                  },
+                  "tokens" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "tokens_original_case" : {
+                    "properties" : {
+                      "char_end" : {
+                        "type" : "long"
+                      },
+                      "char_start" : {
+                        "type" : "long"
+                      },
+                      "type" : {
+                        "type" : "string"
+                      },
+                      "value" : {
+                        "type" : "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "inferlink_extractions" : {
+                "type" : "object",
+                "enabled" : false
+              },
+              "title" : {
+                "properties" : {
+                  "data_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "simple_tokens" : {
+                    "type" : "string",
+                    "index" : "no"
+                  },
+                  "simple_tokens_original_case" : {
+                    "type" : "string"
+                  },
+                  "spacy_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "text" : {
+                    "type" : "string"
+                  },
+                  "tokens" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "tokens_original_case" : {
+                    "properties" : {
+                      "char_end" : {
+                        "type" : "long"
+                      },
+                      "char_start" : {
+                        "type" : "long"
+                      },
+                      "type" : {
+                        "type" : "string"
+                      },
+                      "value" : {
+                        "type" : "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "url" : {
+                "properties" : {
+                  "data_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "simple_tokens" : {
+                    "type" : "string",
+                    "index" : "no"
+                  },
+                  "simple_tokens_original_case" : {
+                    "type" : "string"
+                  },
+                  "spacy_extraction" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "text" : {
+                    "type" : "string"
+                  },
+                  "tokens" : {
+                    "type" : "object",
+                    "enabled" : false
+                  },
+                  "tokens_original_case" : {
+                    "properties" : {
+                      "char_end" : {
+                        "type" : "long"
+                      },
+                      "char_start" : {
+                        "type" : "long"
+                      },
+                      "type" : {
+                        "type" : "string"
+                      },
+                      "value" : {
+                        "type" : "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "content_type" : {
+            "type" : "string"
+          },
+          "crawl_data" : {
+            "type" : "object",
+            "enabled" : false
+          },
+          "crawler" : {
+            "type" : "string"
+          },
+          "doc_id" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+          },
+          "document_id" : {
+            "type" : "string"
+          },
+          "extracted_metadata" : {
+            "type" : "object",
+            "enabled" : false
+          },
+          "extracted_text" : {
+            "type" : "string"
+          },
+          "extractions" : {
+            "type" : "object",
+            "enabled" : false
+          },
+          "indexed" : {
+            "properties" : {
+              "address" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "age" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "city_name" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "country" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "description" : {
+                "properties" : {
+                  "high_confidence_keys" : {
+                    "type" : "string"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "email" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string",
+                            "analyzer" : "url_component_analyzer"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "ethnicity" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "eye_color" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "gender" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "hair_color" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "height" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "name" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "phone" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "posting_date" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "date",
+                            "format" : "strict_date_optional_time||epoch_millis"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "price" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "long"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "review_id" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "service" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "social_media_id" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "state" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "states_usa_codes" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "title" : {
+                "properties" : {
+                  "high_confidence_keys" : {
+                    "type" : "string"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "website" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "weight" : {
+                "properties" : {
+                  "extract_from_landmark" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "high_confidence_keys" : {
+                    "type" : "string",
+                    "index" : "not_analyzed"
+                  },
+                  "key_count" : {
+                    "type" : "long"
+                  },
+                  "other_method" : {
+                    "properties" : {
+                      "content_strict" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "inferlink_description" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "other_segment" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "title" : {
+                        "properties" : {
+                          "key" : {
+                            "type" : "string",
+                            "index" : "not_analyzed"
+                          },
+                          "value" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provenance_count" : {
+                    "type" : "long"
+                  }
+                }
+              }
+            }
+          },
+          "knowledge_graph" : {
+            "properties" : {
+              "address" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "age" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "country" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "description" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "email" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "obfuscation" : {
+                                "type" : "boolean"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "ethnicity" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "gender" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "hair_color" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "height" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "qualifiers" : {
+                    "properties" : {
+                      "unit" : {
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "name" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "identifier" : {
+                                "type" : "string"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "rule_id" : {
+                                "type" : "long"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "phone" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "extraction_metadata" : {
+                            "properties" : {
+                              "obfuscation" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "posting_date" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "date",
+                    "format" : "strict_date_optional_time||epoch_millis"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "date",
+                        "format" : "strict_date_optional_time||epoch_millis"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "date",
+                    "format" : "strict_date_optional_time||epoch_millis"
+                  }
+                }
+              },
+              "price" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "long"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "qualifiers" : {
+                    "properties" : {
+                      "currency" : {
+                        "type" : "string"
+                      },
+                      "time_unit" : {
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "long"
+                  }
+                }
+              },
+              "review_id" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "qualifiers" : {
+                    "properties" : {
+                      "site" : {
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "service" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "state" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "states_usa_codes" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              },
+                              "tokens_left" : {
+                                "type" : "string"
+                              },
+                              "tokens_right" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "title" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "website" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "weight" : {
+                "properties" : {
+                  "confidence" : {
+                    "type" : "long"
+                  },
+                  "key" : {
+                    "type" : "string"
+                  },
+                  "provenance" : {
+                    "properties" : {
+                      "confidence" : {
+                        "properties" : {
+                          "extraction" : {
+                            "type" : "double"
+                          }
+                        }
+                      },
+                      "extracted_value" : {
+                        "type" : "string"
+                      },
+                      "method" : {
+                        "type" : "string"
+                      },
+                      "source" : {
+                        "properties" : {
+                          "context" : {
+                            "properties" : {
+                              "end" : {
+                                "type" : "long"
+                              },
+                              "input" : {
+                                "type" : "string"
+                              },
+                              "start" : {
+                                "type" : "long"
+                              },
+                              "text" : {
+                                "type" : "string"
+                              }
+                            }
+                          },
+                          "document_id" : {
+                            "type" : "string"
+                          },
+                          "segment" : {
+                            "type" : "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "qualifiers" : {
+                    "properties" : {
+                      "unit" : {
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "value" : {
+                    "type" : "string"
+                  }
+                }
+              }
+            }
+          },
+          "raw_content" : {
+            "type" : "string"
+          },
+          "team" : {
+            "type" : "string"
+          },
+          "timestamp" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          },
+          "tld" : {
+            "type" : "string",
+            "fields" : {
+              "raw" : {
+                "type" : "string",
+                "index" : "not_analyzed"
+              }
+            },
+            "analyzer" : "url_component_analyzer"
+          },
+          "url" : {
+            "type" : "string",
+            "fields" : {
+              "raw" : {
+                "type" : "string",
+                "index" : "not_analyzed"
+              }
+            },
+            "analyzer" : "url_component_analyzer"
+          },
+          "version" : {
+            "type" : "double"
+          }
+        }
+      }
+    }
+  }
+}

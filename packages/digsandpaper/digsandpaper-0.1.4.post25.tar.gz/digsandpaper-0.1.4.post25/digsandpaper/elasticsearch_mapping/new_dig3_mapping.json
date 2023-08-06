@@ -1,0 +1,2290 @@
+{
+    "mappings": {
+        "ads": {
+            "properties": {
+                "content_extraction": {
+                    "properties": {
+                        "content_relaxed": {
+                            "properties": {
+                                "data_extraction": {
+                                    "enabled": false
+                                }, 
+                                "simple_tokens": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "simple_tokens_original_case": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "spacy_extraction": {
+                                    "enabled": false
+                                }, 
+                                "text": {
+                                    "type": "string"
+                                }, 
+                                "tokens": {
+                                    "enabled": false
+                                }
+                            }
+                        }, 
+                        "content_strict": {
+                            "properties": {
+                                "data_extraction": {
+                                    "enabled": false
+                                }, 
+                                "simple_tokens": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "simple_tokens_original_case": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "spacy_extraction": {
+                                    "enabled": false
+                                }, 
+                                "text": {
+                                    "type": "string"
+                                }, 
+                                "tokens": {
+                                    "enabled": false
+                                }, 
+                                "tokens_original_case": {
+                                    "enabled": false
+                                }
+                            }
+                        }, 
+                        "inferlink_extractions": {
+                            "enabled": false
+                        }, 
+                        "title": {
+                            "properties": {
+                                "data_extraction": {
+                                    "enabled": false
+                                }, 
+                                "simple_tokens": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "simple_tokens_original_case": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "spacy_extraction": {
+                                    "enabled": false
+                                }, 
+                                "text": {
+                                    "type": "string"
+                                }, 
+                                "tokens": {
+                                    "enabled": false
+                                }, 
+                                "tokens_original_case": {
+                                    "enabled": false
+                                }
+                            }
+                        }, 
+                        "url": {
+                            "properties": {
+                                "data_extraction": {
+                                    "enabled": false
+                                }, 
+                                "simple_tokens": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "simple_tokens_original_case": {
+                                    "index": "no", 
+                                    "type": "string"
+                                }, 
+                                "spacy_extraction": {
+                                    "enabled": false
+                                }, 
+                                "text": {
+                                    "type": "string"
+                                }, 
+                                "tokens": {
+                                    "enabled": false
+                                }, 
+                                "tokens_original_case": {
+                                    "enabled": false
+                                }
+                            }
+                        }
+                    }
+                }, 
+                "crawl_data": {
+                    "enabled": false
+                }, 
+                "doc_id": {
+                    "index": "not_analyzed", 
+                    "type": "string"
+                }, 
+                "extracted_metadata": {
+                    "enabled": false
+                }, 
+                "extractions": {
+                    "enabled": false
+                }, 
+                "indexed": {
+                    "properties": {
+                        "address": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "age": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "city_name": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "country": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "email": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "analyzer": "url_component_analyzer", 
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "ethnicity": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "eye_color": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "gender": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "hair_color": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "height": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "name": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "phone": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "posting_date": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "format": "strict_date_optional_time||epoch_millis", 
+                                                    "type": "date"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "price": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "review_id": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "service": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "social_media_id": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "state": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "states_usa_codes": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "website": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }, 
+                        "weight": {
+                            "properties": {
+                                "extract_from_landmark": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }, 
+                                "high_confidence_keys": {
+                                    "index": "not_analyzed", 
+                                    "type": "string"
+                                }, 
+                                "other_method": {
+                                    "properties": {
+                                        "content_strict": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "other_segment": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }, 
+                                        "title": {
+                                            "properties": {
+                                                "key": {
+                                                    "index": "not_analyzed", 
+                                                    "type": "string"
+                                                }, 
+                                                "value": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }, 
+                "knowledge_graph": {
+                    "properties": {
+                        "address": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "age": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "city_name": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "country": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "email": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "ethnicity": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "eye_color": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "gender": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "hair_color": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "height": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "name": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "phone": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "posting_date": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "price": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "review_id": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "service": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "social_media_id": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "state": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "states_usa_codes": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "website": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }, 
+                        "weight": {
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                }, 
+                                "provenance": {
+                                    "properties": {
+                                        "extracted_value": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }, 
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }, 
+                "timestamp": {
+                    "format": "strict_date_optional_time||epoch_millis", 
+                    "type": "date"
+                }, 
+                "tld": {
+                    "analyzer": "url_component_analyzer", 
+                    "fields": {
+                        "raw": {
+                            "index": "not_analyzed", 
+                            "type": "string"
+                        }
+                    }, 
+                    "type": "string"
+                }, 
+                "url": {
+                    "analyzer": "url_component_analyzer", 
+                    "fields": {
+                        "raw": {
+                            "index": "not_analyzed", 
+                            "type": "string"
+                        }
+                    }, 
+                    "type": "string"
+                }
+            }
+        }
+    }, 
+    "settings": {
+        "index": {
+            "analysis": {
+                "analyzer": {
+                    "url_analyzer": {
+                        "tokenizer": "uax_url_email"
+                    }, 
+                    "url_component_analyzer": {
+                        "filter": "url_component_filter", 
+                        "tokenizer": "url_component_tokenizer"
+                    }
+                }, 
+                "filter": {
+                    "url_component_filter": {
+                        "type": "lowercase"
+                    }
+                }, 
+                "tokenizer": {
+                    "url_component_tokenizer": {
+                        "flags": "CASE_INSENSITIVE|COMMENTS", 
+                        "pattern": "[^A-Za-z0-9]", 
+                        "type": "pattern"
+                    }
+                }
+            }, 
+            "creation_date": "1486591332105", 
+            "number_of_replicas": "0", 
+            "number_of_shards": "5", 
+            "uuid": "d10DIkVkTpSKpGhxzxQzqg", 
+            "version": {
+                "created": "2040199"
+            }
+        }
+    }
+}
