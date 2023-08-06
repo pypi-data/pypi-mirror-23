@@ -1,0 +1,13 @@
+azure/cli/command_modules/dls/__init__.py,sha256=_KDVFWEl9ET8d0mXCPA8OsdMOGstjOQJzOjHYFtn4NE,678
+azure/cli/command_modules/dls/_client_factory.py,sha256=RqTLC3QW3g_zNx6Snd4tPMi17chCnXkS5R43UGS6IQQ,1707
+azure/cli/command_modules/dls/_help.py,sha256=eghS_ymTGH9nrEJtosGaTfXpV6gOFI_ddHndiQLdS8E,10190
+azure/cli/command_modules/dls/_params.py,sha256=9-V94wunhShhXpNHoZON3SIH1-P-sW00ZYXKjkOhAy8,6780
+azure/cli/command_modules/dls/_validators.py,sha256=Tw3C-4N2C0f4Dpjn-VeQ_7a0M6iJ_wGGsv67EuT7dpo,1630
+azure/cli/command_modules/dls/commands.py,sha256=7JcBSnwrw70u09-38bjVfYq8h_VWXovQXq_nPyVlQYU,5569
+azure/cli/command_modules/dls/custom.py,sha256=6Qn7vqztrBEHH6FPvlKKz3FGQU8YTnNrlP5kyuXu32I,12486
+azure_cli_dls-0.0.10.dist-info/DESCRIPTION.rst,sha256=P7wbTpBU4-kZiaS0cm7pAYcymihEMEzWOEizyMF50HY,1648
+azure_cli_dls-0.0.10.dist-info/METADATA,sha256=_2a3OTrGbMydspiDbPZ4SgytHzp-Jm8aMPem6Zvkmb4,2642
+azure_cli_dls-0.0.10.dist-info/RECORD,,
+azure_cli_dls-0.0.10.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+azure_cli_dls-0.0.10.dist-info/metadata.json,sha256=ATKP7XlKsg9gxuzDrYQ5EoO_fZK9GWjPLuvMnevjLf0,1098
+azure_cli_dls-0.0.10.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
