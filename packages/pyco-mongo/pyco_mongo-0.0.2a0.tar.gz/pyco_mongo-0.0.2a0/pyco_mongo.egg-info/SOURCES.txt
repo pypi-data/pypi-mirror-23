@@ -1,0 +1,9 @@
+setup.py
+pyco_mongo/__init__.py
+pyco_mongo/errors.py
+pyco_mongo.egg-info/PKG-INFO
+pyco_mongo.egg-info/SOURCES.txt
+pyco_mongo.egg-info/dependency_links.txt
+pyco_mongo.egg-info/not-zip-safe
+pyco_mongo.egg-info/requires.txt
+pyco_mongo.egg-info/top_level.txt
