@@ -1,0 +1,7 @@
+README.txt
+code.py
+setup.py
+libmaker.egg-info/PKG-INFO
+libmaker.egg-info/SOURCES.txt
+libmaker.egg-info/dependency_links.txt
+libmaker.egg-info/top_level.txt
