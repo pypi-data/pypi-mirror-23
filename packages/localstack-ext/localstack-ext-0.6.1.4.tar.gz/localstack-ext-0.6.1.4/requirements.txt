@@ -1,0 +1,4 @@
+pycrypto==2.6.1
+pyminifier==2.1
+srp-ext==1.0.7
+warrant==0.2.0
