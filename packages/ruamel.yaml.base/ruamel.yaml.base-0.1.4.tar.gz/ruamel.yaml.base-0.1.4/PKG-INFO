@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ruamel.yaml.base
+Version: 0.1.4
+Summary: YAMLBase class with saving loading and version support
+Home-page: https://bitbucket.org/ruamel/yaml.base
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2007-2016
+Description: 
+        YAMLBase class with saving loading and version support
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
