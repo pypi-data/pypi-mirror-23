@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: cxyrequests
+Version: 0.0.1
+Summary: Learn python requests
+Home-page: https://github.com/crouchred/cxyrequests
+Author: crouchred
+Author-email: crouchred@gmail.com
+License: ISC
+Description: 
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
