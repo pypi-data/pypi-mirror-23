@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: brownian
+Version: 0.4.dev3
+Summary: UNKNOWN
+Home-page: https://github.com/ryanpdwyer/brownian
+Author: Ryan Dwyer
+Author-email: ryanpdwyer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: BeautifulSoup4
+Requires-Dist: bunch
+Requires-Dist: click
+Requires-Dist: docutils
+Requires-Dist: h5py
+Requires-Dist: kpfm
+Requires-Dist: matplotlib
+Requires-Dist: nose
+Requires-Dist: numpy
+Requires-Dist: pint
+Requires-Dist: psutil
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: uncertainties
+
+UNKNOWN
+
+
