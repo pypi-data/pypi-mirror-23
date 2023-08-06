@@ -1,0 +1,17 @@
+kubespawner/__init__.py,sha256=5cBfu4HrXPWX6xZiMXLbDMFYqgmC_4shWmB20YCg3SY,511
+kubespawner/objects.py,sha256=RXeXPl62Hb_2Tg5pIVoKlyGzT9e9TZIKocj6RCwyx1U,7308
+kubespawner/spawner.py,sha256=vDWNtPb3g8KL-caTRyeq49kFhkFBHAJRuUsCP7oX59s,32377
+kubespawner/traitlets.py,sha256=nFez00qetbKoR80691Oexi9QP1YN3-E4QbgZPBgM-8I,415
+kubespawner/utils.py,sha256=A6iqDfzV1_E--xZWy69Tn5SkfLKJd14UWVfs1RQtp7M,4757
+sqrekubespawner/__init__.py,sha256=RNO9egxbvxz1w4WORmW8SiV5ql6vEZQ4LOhMl2HnEsI,550
+sqrekubespawner/obj2.py,sha256=6hu6QQFyd3dbxOe4OJDf3Rf37N-9bCe0FNiVk6wOkl8,7633
+sqrekubespawner/objects.py,sha256=3f-JqT-1qRM5OEMS9qhfNfONitKgKOaZf0bFerx_jvg,7512
+sqrekubespawner/spawner.py,sha256=4t3eHAZ53vkzyzvWfj4VKRqdP6o5iG7z8P15zJSDjN8,37787
+sqrekubespawner/traitlets.py,sha256=nFez00qetbKoR80691Oexi9QP1YN3-E4QbgZPBgM-8I,415
+sqrekubespawner/utils.py,sha256=A6iqDfzV1_E--xZWy69Tn5SkfLKJd14UWVfs1RQtp7M,4757
+sqrekubespawner-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sqrekubespawner-0.1.0.dist-info/METADATA,sha256=G3EKrMF1hqPp47tRuAkGMAO97f3UBOeZE-_pkPwHC6M,408
+sqrekubespawner-0.1.0.dist-info/RECORD,,
+sqrekubespawner-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+sqrekubespawner-0.1.0.dist-info/metadata.json,sha256=WWjvzayM6Q6yN-JVqfO2Bm4Ax5BonluPHM6HnNBz4QE,617
+sqrekubespawner-0.1.0.dist-info/top_level.txt,sha256=mt20cjOioDKUklhUY6QRSf0cQmG0Q1l-P_8rVtv308Y,28
