@@ -1,0 +1,5 @@
+jsonpickle
+numpy
+parsable
+scipy
+six
