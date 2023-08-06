@@ -1,0 +1,12 @@
+Flask_ADFS-0.1.5.dist-info/DESCRIPTION.rst,sha256=WyIqP3itZ4DuPew5SfTsij-pO071cbAhkySiH0kdbxY,132
+Flask_ADFS-0.1.5.dist-info/METADATA,sha256=fNpL8tqNJ6sCmrDDozYZxNV5ho__hCwAdOK6LfOACxk,1219
+Flask_ADFS-0.1.5.dist-info/RECORD,,
+Flask_ADFS-0.1.5.dist-info/WHEEL,sha256=5f-Lb0dq-Ei5P75pgK065AnrFl2dK_ZqskZBpCbWERA,116
+Flask_ADFS-0.1.5.dist-info/metadata.json,sha256=Ml15Xi5ksN3iOOB7qGJuZD7YvolJQCKUIyZ07UALlxw,1192
+Flask_ADFS-0.1.5.dist-info/top_level.txt,sha256=v_dL_XYM_asOdFGFWE-FqOndhAht6FpsNXES5aDrAKM,16
+flask_adfs/__about__.py,sha256=13MHpT8iq7Ezu7PdOF77UD_BGZphwLG96zpX8WCXBAA,406
+flask_adfs/__init__.py,sha256=2DZcwJDH5BOWBX092qlDcOp2wFE_OqLXpfJ0XECQOUw,523
+flask_adfs/adfs.py,sha256=On-2ic6u0AAv75FYevBqtuPu3mcH3Mmarw4DCbxnmMg,6753
+flask_adfs/decorators.py,sha256=Em77yo5O8qvTbzSOToVn6Bzc_2zere8zsEHNELSJs5Y,1507
+flask_adfs/initialise.py,sha256=7N71WvT0EIUV_mWOgNtSjpNspB9PXOXJeedamTZgStg,948
+flask_adfs/model.py,sha256=2LS_1dvwc5JZv7tkx_f0qjTItdiIwp9ErmQI0r_negw,3043
