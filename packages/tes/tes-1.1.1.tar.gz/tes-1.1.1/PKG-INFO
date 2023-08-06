@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: tes
+Version: 1.1.1
+Summary: Tool for Elasticsearch
+Home-page: https://github.com/deeshugupta/tes
+Author: Deepanshu Gupta
+Author-email: gupta.deeshu@gmail.com
+License: GNU General Public License v3.0
+Download-URL: https://github.com/deeshugupta/tes/archive/v1.1.1.tar.gz
+Description: # tes
+        
+        https://pypi.org/project/tes/
+        
+        Tes stands for Tool for Elasticsearch. Tes is a command-line tool based on
+            python elasticsearch APIs. Following are the various subtools under tes
+            which can be used to invoke different kinds of elasticsearch APIs.
+        
+            1. tes:cat is used to invoke cat api calls like count, allocation, health e.t.c.
+            2. tes:cluster is used to make api calls to elasticsearch cluster like stats e.t.c.
+            3. tes:node is used to make Node client api calls like info, stats e.t.c.
+        
+Keywords: tes elasticsearch Elasticsearch
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7

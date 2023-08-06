@@ -1,0 +1,6 @@
+[console_scripts]
+tes = es_commands.tes:cli
+tes:cat = es_commands.cat_api:cat
+tes:cluster = es_commands.cluster_api:cluster
+tes:node = es_commands.node_api:node
+
