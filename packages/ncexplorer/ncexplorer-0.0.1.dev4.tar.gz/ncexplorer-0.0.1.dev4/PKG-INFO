@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ncexplorer
+Version: 0.0.1.dev4
+Summary: Climate data analysis utility.
+Home-page: https://github.com/godfrey4000/ncexplorer
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: Climate data analysis utility.
+Keywords: climate netcdf analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
