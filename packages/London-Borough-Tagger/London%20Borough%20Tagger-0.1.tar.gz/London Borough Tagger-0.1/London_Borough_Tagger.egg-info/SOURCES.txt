@@ -1,0 +1,8 @@
+setup.py
+London_Borough_Tagger.egg-info/PKG-INFO
+London_Borough_Tagger.egg-info/SOURCES.txt
+London_Borough_Tagger.egg-info/dependency_links.txt
+London_Borough_Tagger.egg-info/requires.txt
+London_Borough_Tagger.egg-info/top_level.txt
+london_borough_tagger/__init__.py
+london_borough_tagger/tagger.py
