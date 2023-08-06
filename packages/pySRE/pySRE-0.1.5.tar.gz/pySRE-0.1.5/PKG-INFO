@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: pySRE
+Version: 0.1.5
+Summary: Experimental Python wrapper for Simple-RFC1738-Encoder written in JavasScript.
+Home-page: https://github.com/RDCH106/pySRE
+Author: Rubén de Celis Hernández
+Author-email: contact@rdch106.hol.es
+License: GPL v3
+Download-URL: https://github.com/RDCH106/pySRE/archive/v0.1.5.tar.gz
+Description: 
+        Experimental Python wrapper for **Simple-RFC1738-Encoder** written in JavasScript.
+        
+        More info about Simple-RFC1738-Encoder: https://github.com/RDCH106/Simple-RFC1738-Encoder
+        
+        ************************************
+        What can I do with pySRE?
+        ************************************
+        
+        - The same as original library of Simple-RFC1738-Encoder
+        
+        
+        Installation
+        ============
+        
+        You can install or upgrade pySRE with:
+        
+        - ``$ pip install pySRE --upgrade``
+        
+        Or you can install from source with:
+        
+        - ``$ git clone https://github.com/RDCH106/pySRE.git --recursive``
+        - ``$ cd pySRE``
+        - ``$ pip install -r requirements.txt``
+        
+        
+        Quick example
+        =============
+        
+        ``---------------------------------``
+        
+        .. code-block:: python
+        
+           from pySRE import pySRE
+        
+           # Choose your Engine using:
+           #    pySRE.SUPPORTED_ENGINES
+           #
+           # Example:
+           #    pySRE.PySRC(pySRE.SUPPORTED_ENGINES.Node)
+        
+           pySRE = pySRE.PySRC()  # automatically picks the best runtime
+           print("\nCurrrent engine: %s\n" % pySRE.execjs_engine)
+        
+           my_url = "http://mascandobits.es?fullname=Rubén de Celis Hernández"
+           print("Original URL: %s" % my_url)
+           my_url = pySRE.convert_to_url(my_url)
+           print("RFC1738 URL: %s" % my_url)
+           my_url = pySRE.convert_to_string(my_url)
+           print("Decoded RFC1738 URL: %s" % my_url)
+           my_url = pySRE.convert_to_url_with_utf8(my_url)
+           print("RFC1738 URL with UTF8: %s" % my_url)
+           my_url = pySRE.convert_to_string_with_utf8(my_url)
+           print("Decoded RFC1738 URL with UTF8: %s" % my_url)
+           
+Keywords: python-wrapper url-encoder javascript
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
