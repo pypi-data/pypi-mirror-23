@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+macosko2015/__init__.py
+macosko2015/main.py
+macosko2015.egg-info/PKG-INFO
+macosko2015.egg-info/SOURCES.txt
+macosko2015.egg-info/dependency_links.txt
+macosko2015.egg-info/requires.txt
+macosko2015.egg-info/top_level.txt
