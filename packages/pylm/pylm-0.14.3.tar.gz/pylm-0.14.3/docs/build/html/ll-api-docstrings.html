@@ -1,0 +1,1557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Low level API documentation &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="High level API documentation" href="hl-api-docstrings.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="hl-api-docstrings.html" title="High level API documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Low level API documentation</a><ul>
+<li><a class="reference internal" href="#module-pylm.parts.core">The router and the parts</a></li>
+<li><a class="reference internal" href="#module-pylm.parts.servers">The server templates</a></li>
+<li><a class="reference internal" href="#module-pylm.parts.services">Services</a></li>
+<li><a class="reference internal" href="#module-pylm.parts.gateways">Gateways</a></li>
+<li><a class="reference internal" href="#module-pylm.parts.connections">Connections</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="hl-api-docstrings.html"
+                        title="previous chapter">High level API documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="examples.html"
+                        title="next chapter">Examples</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/ll-api-docstrings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="low-level-api-documentation">
+<h1>Low level API documentation<a class="headerlink" href="#low-level-api-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-pylm.parts.core">
+<span id="the-router-and-the-parts"></span><h2>The router and the parts<a class="headerlink" href="#module-pylm.parts.core" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.parts.core.BypassInbound">
+<em class="property">class </em><code class="descclassname">pylm.parts.core.</code><code class="descname">BypassInbound</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>socket_type</em>, <em>reply=True</em>, <em>bind=False</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#BypassInbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.BypassInbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic inbound part that does not connect to the router.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>socket_type</strong> &#8211; ZMQ inbound socket type</li>
+<li><strong>reply</strong> &#8211; True if the listening socket blocks waiting a reply</li>
+<li><strong>bind</strong> &#8211; True if the component has to bind instead of connect.</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Access to the server cache</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.core.BypassInbound.recv">
+<code class="descname">recv</code><span class="sig-paren">(</span><em>reply_data=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#BypassInbound.recv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.BypassInbound.recv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives, yields and returns reply_data if needed</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reply_data</strong> &#8211; Message to send if connection needs an answer.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.core.BypassOutbound">
+<em class="property">class </em><code class="descclassname">pylm.parts.core.</code><code class="descname">BypassOutbound</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>socket_type</em>, <em>reply=True</em>, <em>bind=False</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#BypassOutbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.BypassOutbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic inbound component that does not connect to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>socket_type</strong> &#8211; ZMQ inbound socket type</li>
+<li><strong>reply</strong> &#8211; True if the listening socket blocks waiting a reply</li>
+<li><strong>bind</strong> &#8211; True if the socket has to bind instead of connect</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Access to the cache of the server</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.core.Inbound">
+<em class="property">class </em><code class="descclassname">pylm.parts.core.</code><code class="descname">Inbound</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>socket_type</em>, <em>reply=True</em>, <em>broker_address='inproc://broker'</em>, <em>bind=False</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Inbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Inbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic part that connects a REQ socket to the broker, and a
+socket to an inbound external service.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>socket_type</strong> &#8211; ZMQ inbound socket type</li>
+<li><strong>reply</strong> &#8211; True if the listening socket blocks waiting a reply</li>
+<li><strong>broker_address</strong> &#8211; ZMQ socket address for the broker</li>
+<li><strong>bind</strong> &#8211; True if socket has to bind, instead of connect.</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Cache for shared data in the server</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.core.Inbound.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Inbound.handle_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Inbound.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Inbound.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Inbound.reply_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Inbound.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Inbound.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Inbound.scatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Inbound.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Inbound.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Inbound.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Inbound.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.core.Outbound">
+<em class="property">class </em><code class="descclassname">pylm.parts.core.</code><code class="descname">Outbound</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>socket_type</em>, <em>reply=True</em>, <em>broker_address='inproc://broker'</em>, <em>bind=False</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Outbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Outbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic part that connects a REQ socket to the broker, and a
+socket to an inbound external service.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>socket_type</strong> &#8211; ZMQ inbound socket type</li>
+<li><strong>reply</strong> &#8211; True if the listening socket blocks waiting a reply</li>
+<li><strong>broker_address</strong> &#8211; ZMQ socket address for the broker,</li>
+<li><strong>bind</strong> &#8211; True if the socket has to bind instead of connect.</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Access to the cache of the server</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.core.Outbound.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Outbound.handle_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Outbound.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Outbound.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Outbound.reply_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Outbound.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Outbound.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Outbound.scatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Outbound.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Outbound.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Outbound.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Outbound.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.core.Router">
+<em class="property">class </em><code class="descclassname">pylm.parts.core.</code><code class="descname">Router</code><span class="sig-paren">(</span><em>inbound_address='inproc://inbound'</em>, <em>outbound_address='inproc://outbound'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Router"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Router" title="Permalink to this definition">¶</a></dt>
+<dd><p>Router for the internal event-loop. It is a ROUTER socket that blocks
+waiting for the parts to send something. This is more a bus than
+a broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>inbound_address</strong> &#8211; Valid ZMQ bind address for inbound parts</li>
+<li><strong>outbound_address</strong> &#8211; Valid ZMQ bind address for outbound parts</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Global cache of the server</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+<li><strong>messages</strong> &#8211; Number of messages allowed before the router starts buffering.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.core.Router.register_inbound">
+<code class="descname">register_inbound</code><span class="sig-paren">(</span><em>name</em>, <em>route=''</em>, <em>block=False</em>, <em>log=''</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Router.register_inbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Router.register_inbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register component by name.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>name</strong> &#8211; Name of the component. Each component has a name,
+that uniquely identifies it to the broker</li>
+<li><strong>route</strong> &#8211; Each message that the broker gets from the component
+may be routed to another component. This argument gives the name of
+the target component for the message.</li>
+<li><strong>block</strong> &#8211; Register if the component is waiting for a reply.</li>
+<li><strong>log</strong> &#8211; Log message for each inbound connection.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.core.Router.register_outbound">
+<code class="descname">register_outbound</code><span class="sig-paren">(</span><em>name</em>, <em>route=''</em>, <em>log=''</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/core.html#Router.register_outbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.core.Router.register_outbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register outbound component by name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>route</strong> &#8211; Each message sent back to the component can be routed</li>
+<li><strong>log</strong> &#8211; Logging for each message that comes from the router.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pylm.parts.servers">
+<span id="the-server-templates"></span><h2>The server templates<a class="headerlink" href="#module-pylm.parts.servers" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.parts.servers.ServerTemplate">
+<em class="property">class </em><code class="descclassname">pylm.parts.servers.</code><code class="descname">ServerTemplate</code><span class="sig-paren">(</span><em>logging_level=20</em>, <em>router_messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Low-level tool to build a server from parts.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>logging_level</strong> &#8211; A correct logging level from the logging module.
+Defaults to INFO.</td>
+</tr>
+</tbody>
+</table>
+<p>It has important attributes that you may want to override, like</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Cache:</th><td class="field-body">The key-value database that the server should use</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Logging_level:</th><td class="field-body">Controls the log output of the server.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Router:</th><td class="field-body">Here&#8217;s the router, you may want to change its attributes too.</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.servers.ServerTemplate.preset_cache">
+<code class="descname">preset_cache</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate.preset_cache"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate.preset_cache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send the following keyword arguments as cache variables. Useful
+for configuration variables that the workers or the clients
+fetch straight from the cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>kwargs</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.servers.ServerTemplate.register_bypass">
+<code class="descname">register_bypass</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate.register_bypass"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate.register_bypass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register a bypass part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; part name</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.servers.ServerTemplate.register_inbound">
+<code class="descname">register_inbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>block=False</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate.register_inbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate.register_inbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register inbound part to this server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes to</li>
+<li><strong>block</strong> &#8211; True if the part blocks waiting for a response</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed.</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.servers.ServerTemplate.register_outbound">
+<code class="descname">register_outbound</code><span class="sig-paren">(</span><em>part</em>, <em>name=''</em>, <em>listen_address=''</em>, <em>route=''</em>, <em>log=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate.register_outbound"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate.register_outbound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register outbound part to this server</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>part</strong> &#8211; part class</li>
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Valid ZeroMQ address listening to the exterior</li>
+<li><strong>route</strong> &#8211; Outbound part it routes the response (if there is) to</li>
+<li><strong>log</strong> &#8211; Log message in DEBUG level for each message processed</li>
+<li><strong>kwargs</strong> &#8211; Additional keyword arguments to pass to the part</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.servers.ServerTemplate.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/servers.html#ServerTemplate.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.servers.ServerTemplate.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the server with all its parts.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pylm.parts.services">
+<span id="services"></span><h2>Services<a class="headerlink" href="#module-pylm.parts.services" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.parts.services.CacheService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">CacheService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#CacheService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.CacheService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cache service for clients and workers</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.HttpService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">HttpService</code><span class="sig-paren">(</span><em>name</em>, <em>hostname</em>, <em>port</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#HttpService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.HttpService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Similar to PullService, but the connection offered is an HTTP server
+that deals with inbound messages.</p>
+<p>ACHTUNG: this thing is deliberately single threaded</p>
+<dl class="method">
+<dt id="pylm.parts.services.HttpService.debug">
+<code class="descname">debug</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#HttpService.debug"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.HttpService.debug" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the component and serves the http server forever.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.HttpService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.HttpService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.HttpService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.HttpService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.HttpService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.HttpService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.HttpService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#HttpService.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.HttpService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the component and serves the http server forever.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.PubService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">PubService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em>, <em>pipelined=False</em>, <em>server=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PubService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PubService" title="Permalink to this definition">¶</a></dt>
+<dd><p>PullService binds to a socket waits for messages from a push-pull queue.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the service</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to bind to</li>
+<li><strong>broker_address</strong> &#8211; ZMQ socket address of the broker</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>messages</strong> &#8211; Maximum number of messages. Defaults to infinity.</li>
+<li><strong>pipelined</strong> &#8211; Defaults to False. Pipelined if publishes to a
+server, False if publishes to a client.</li>
+<li><strong>server</strong> &#8211; Name of the server, necessary to pipeline messages.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.services.PubService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PubService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PubService.handle_stream">
+<code class="descname">handle_stream</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PubService.handle_stream"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PubService.handle_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the stream of messages.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> &#8211; The message about to be sent to the next step in the
+cluster</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">topic (str) and message (PalmMessage)</td>
+</tr>
+</tbody>
+</table>
+<p>The default behaviour is the following. If you leave this function
+unchanged and pipeline is set to False, the topic is the ID of the
+client, which makes the message return to the client. If the pipeline
+parameter is set to True, the topic is set as the name of the server and
+the step of the message is incremented by one.</p>
+<p>You can alter this default behaviour by overriding this function.
+Take into account that the message is also available in this function,
+and you can change other parameters like the stage or the function.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PubService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PubService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PubService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PubService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PubService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PubService.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PubService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.PullService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">PullService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PullService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PullService" title="Permalink to this definition">¶</a></dt>
+<dd><p>PullService binds to a socket waits for messages from a push-pull queue.</p>
+<dl class="method">
+<dt id="pylm.parts.services.PullService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PullService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PullService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PullService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PullService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PullService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PullService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PullService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.PushPullService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">PushPullService</code><span class="sig-paren">(</span><em>name</em>, <em>push_address</em>, <em>pull_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PushPullService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PushPullService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Push-Pull Service to connect to workers</p>
+<dl class="method">
+<dt id="pylm.parts.services.PushPullService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PushPullService.handle_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PushPullService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be overriden. Handles the feedback from the broker
+:param message_data:
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PushPullService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PushPullService.reply_feedback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PushPullService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be overriden. Returns the feedback if the component has to reply.
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PushPullService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PushPullService.scatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PushPullService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be overriden. Picks a message and returns a generator that multiplies the messages
+to the broker.
+:param message_data:
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.PushService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">PushService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#PushService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.PushService" title="Permalink to this definition">¶</a></dt>
+<dd><p>PullService binds to a socket waits for messages from a push-pull queue.</p>
+<dl class="method">
+<dt id="pylm.parts.services.PushService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PushService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PushService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PushService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PushService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PushService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.PushService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.PushService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.RepBypassService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">RepBypassService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#RepBypassService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.RepBypassService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic connection that opens a Rep socket and bypasses the broker.</p>
+<dl class="method">
+<dt id="pylm.parts.services.RepBypassService.recv">
+<code class="descname">recv</code><span class="sig-paren">(</span><em>reply_data=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.RepBypassService.recv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives, yields and returns reply_data if needed</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reply_data</strong> &#8211; Message to send if connection needs an answer.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.RepService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">RepService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#RepService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.RepService" title="Permalink to this definition">¶</a></dt>
+<dd><p>RepService binds to a given socket and returns something.</p>
+<dl class="method">
+<dt id="pylm.parts.services.RepService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.RepService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.RepService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.RepService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.RepService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.RepService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.RepService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.RepService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.WorkerPullService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">WorkerPullService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#WorkerPullService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.WorkerPullService" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a particular pull service that does not modify the messages that
+the broker sends.</p>
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPullService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPullService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPullService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPullService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPullService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPullService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPullService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPullService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.services.WorkerPushService">
+<em class="property">class </em><code class="descclassname">pylm.parts.services.</code><code class="descname">WorkerPushService</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/services.html#WorkerPushService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.services.WorkerPushService" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a particular push service that does not modify the messages that
+the broker sends.</p>
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPushService.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPushService.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPushService.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPushService.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPushService.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPushService.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.services.WorkerPushService.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.services.WorkerPushService.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pylm.parts.gateways">
+<span id="gateways"></span><h2>Gateways<a class="headerlink" href="#module-pylm.parts.gateways" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.parts.gateways.GatewayDealer">
+<em class="property">class </em><code class="descclassname">pylm.parts.gateways.</code><code class="descname">GatewayDealer</code><span class="sig-paren">(</span><em>name=''</em>, <em>listen_address='inproc://gateway_router'</em>, <em>broker_address='inproc://broker'</em>, <em>cache=None</em>, <em>logger=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#GatewayDealer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.GatewayDealer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic component that connects a REQ socket to the broker, and a
+socket to an inbound external service.</p>
+<p>This part is a companion for the gateway router, and has to connect to it
+to work properly:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">--&gt;|</span>         <span class="n">v</span><span class="o">--------------------------------------|</span>
+   <span class="o">|--&gt;</span><span class="n">Gateway</span> <span class="n">Router</span> <span class="o">---&gt;</span> <span class="o">|-</span>\  <span class="o">/-&gt;|</span> <span class="o">--&gt;</span> <span class="o">*</span><span class="n">Dealer</span><span class="o">*</span> <span class="o">--|</span>
+<span class="o">&lt;--|</span>                       <span class="o">|</span>  \<span class="o">/</span>   <span class="o">|</span>
+                           <span class="o">|</span>  <span class="o">/</span>\   <span class="o">|</span>
+     <span class="n">Workers</span> <span class="o">-&gt;</span> <span class="n">Inbound</span> <span class="o">-&gt;</span> <span class="o">|-/</span>  \<span class="o">-&gt;|</span> <span class="o">--&gt;</span> <span class="n">Outbound</span> <span class="o">--&gt;</span> <span class="n">Workers</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>broker_address</strong> &#8211; ZMQ socket address for the broker,</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>cache</strong> &#8211; Access to the cache of the server</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayDealer.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayDealer.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayDealer.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayDealer.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayDealer.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayDealer.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayDealer.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#GatewayDealer.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.GatewayDealer.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.gateways.GatewayRouter">
+<em class="property">class </em><code class="descclassname">pylm.parts.gateways.</code><code class="descname">GatewayRouter</code><span class="sig-paren">(</span><em>name='gateway_router'</em>, <em>listen_address='inproc://gateway_router'</em>, <em>broker_address='inproc://broker'</em>, <em>cache=&lt;pylm.persistence.kv.DictDB object&gt;</em>, <em>logger=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#GatewayRouter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.GatewayRouter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Router that allows a parallel server to connect to multiple clients. It
+also allows to recv messages from a dealer socket that feeds back the
+output from the same router. The goal is to provide blocking jobs
+to multiple clients.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>broker_address</strong> &#8211; Broker address</li>
+<li><strong>cache</strong> &#8211; K-v database for the cache</li>
+<li><strong>logger</strong> &#8211; Logger class</li>
+<li><strong>messages</strong> &#8211; Number of messages until it is shut down</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayRouter.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayRouter.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayRouter.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayRouter.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayRouter.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.GatewayRouter.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.GatewayRouter.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#GatewayRouter.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.GatewayRouter.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.gateways.HttpGateway">
+<em class="property">class </em><code class="descclassname">pylm.parts.gateways.</code><code class="descname">HttpGateway</code><span class="sig-paren">(</span><em>name=''</em>, <em>listen_address='inproc://gateway_router'</em>, <em>hostname=''</em>, <em>port=8888</em>, <em>cache=&lt;pylm.persistence.kv.DictDB object&gt;</em>, <em>logger=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#HttpGateway"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.HttpGateway" title="Permalink to this definition">¶</a></dt>
+<dd><p>HTTP Gateway that adapts an HTTP server to a PALM master</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the part</li>
+<li><strong>listen_address</strong> &#8211; Address listening for reentrant messages</li>
+<li><strong>hostname</strong> &#8211; Hostname for the HTTP server</li>
+<li><strong>port</strong> &#8211; Port for the HTTP server</li>
+<li><strong>cache</strong> &#8211; Cache of the master</li>
+<li><strong>logger</strong> &#8211; Logger class</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.gateways.MyServer">
+<em class="property">class </em><code class="descclassname">pylm.parts.gateways.</code><code class="descname">MyServer</code><span class="sig-paren">(</span><em>server_address</em>, <em>RequestHandlerClass</em>, <em>bind_and_activate=True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/gateways.html#MyServer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.gateways.MyServer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Server that handles multiple requests</p>
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.close_request">
+<code class="descname">close_request</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.close_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called to clean up an individual request.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.fileno">
+<code class="descname">fileno</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.fileno" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return socket file number.</p>
+<p>Interface required by selector.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.finish_request">
+<code class="descname">finish_request</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.finish_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finish one request by instantiating RequestHandlerClass.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.get_request">
+<code class="descname">get_request</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.get_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the request and client address from the socket.</p>
+<p>May be overridden.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.handle_error">
+<code class="descname">handle_error</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.handle_error" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle an error gracefully.  May be overridden.</p>
+<p>The default is to print a traceback and continue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.handle_request">
+<code class="descname">handle_request</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.handle_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle one request, possibly blocking.</p>
+<p>Respects self.timeout.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.handle_timeout">
+<code class="descname">handle_timeout</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.handle_timeout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called if no new request arrives within self.timeout.</p>
+<p>Overridden by ForkingMixIn.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.process_request">
+<code class="descname">process_request</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.process_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start a new thread to process the request.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.process_request_thread">
+<code class="descname">process_request_thread</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.process_request_thread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Same as in BaseServer but as a thread.</p>
+<p>In addition, exception handling is done here.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.serve_forever">
+<code class="descname">serve_forever</code><span class="sig-paren">(</span><em>poll_interval=0.5</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.serve_forever" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle one request at a time until shutdown.</p>
+<p>Polls for shutdown every poll_interval seconds. Ignores
+self.timeout. If you need to do periodic tasks, do them in
+another thread.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.server_activate">
+<code class="descname">server_activate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.server_activate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by constructor to activate the server.</p>
+<p>May be overridden.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.server_bind">
+<code class="descname">server_bind</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.server_bind" title="Permalink to this definition">¶</a></dt>
+<dd><p>Override server_bind to store the server name.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.server_close">
+<code class="descname">server_close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.server_close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called to clean-up the server.</p>
+<p>May be overridden.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.service_actions">
+<code class="descname">service_actions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.service_actions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by the serve_forever() loop.</p>
+<p>May be overridden by a subclass / Mixin to implement any code that
+needs to be run during the loop.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.shutdown">
+<code class="descname">shutdown</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.shutdown" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stops the serve_forever loop.</p>
+<p>Blocks until the loop has finished. This must be called while
+serve_forever() is running in another thread, or it will
+deadlock.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.shutdown_request">
+<code class="descname">shutdown_request</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.shutdown_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called to shutdown and close an individual request.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.gateways.MyServer.verify_request">
+<code class="descname">verify_request</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.gateways.MyServer.verify_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Verify the request.  May be overridden.</p>
+<p>Return True if we should proceed with this request.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pylm.parts.connections">
+<span id="connections"></span><h2>Connections<a class="headerlink" href="#module-pylm.parts.connections" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pylm.parts.connections.HttpConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">HttpConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>reply=True</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>max_workers=4</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#HttpConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.HttpConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Similar to PushConnection. An HTTP client deals with outbound messages.</p>
+<dl class="method">
+<dt id="pylm.parts.connections.HttpConnection.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.HttpConnection.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.HttpConnection.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.HttpConnection.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.HttpConnection.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.HttpConnection.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.HttpConnection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#HttpConnection.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.HttpConnection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.PullBypassConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">PullBypassConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>logger=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#PullBypassConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.PullBypassConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic connection that opens a Sub socket and bypasses the broker.</p>
+<dl class="method">
+<dt id="pylm.parts.connections.PullBypassConnection.recv">
+<code class="descname">recv</code><span class="sig-paren">(</span><em>reply_data=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PullBypassConnection.recv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives, yields and returns reply_data if needed</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reply_data</strong> &#8211; Message to send if connection needs an answer.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.PullConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">PullConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#PullConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.PullConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>PullConnection is a component that connects a REQ socket to the broker,
+and a PULL socket to an external service.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>broker_address</strong> &#8211; ZMQ socket address for the broker</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.connections.PullConnection.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PullConnection.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PullConnection.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PullConnection.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PullConnection.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PullConnection.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PullConnection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PullConnection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.PushBypassConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">PushBypassConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>logger=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#PushBypassConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.PushBypassConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic connection that sends a message to a sub service. Good for logs or metrics.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.PushConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">PushConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#PushConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.PushConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>PushConnection is a component that connects a REQ socket to the broker, and a PUSH
+socket to an external service.</p>
+<dl class="method">
+<dt id="pylm.parts.connections.PushConnection.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PushConnection.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PushConnection.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PushConnection.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PushConnection.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PushConnection.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that multiplies the messages
+to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.PushConnection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.PushConnection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.RepConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">RepConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#RepConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.RepConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>RepConnection is a component that connects a REQ socket to the broker, and a REP
+socket to an external service.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; Name of the component</li>
+<li><strong>listen_address</strong> &#8211; ZMQ socket address to listen to</li>
+<li><strong>broker_address</strong> &#8211; ZMQ socket address for the broker</li>
+<li><strong>logger</strong> &#8211; Logger instance</li>
+<li><strong>messages</strong> &#8211; Maximum number of inbound messages. Defaults to infinity.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.connections.RepConnection.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.RepConnection.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.RepConnection.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.RepConnection.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.RepConnection.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.RepConnection.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.RepConnection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.RepConnection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pylm.parts.connections.SubConnection">
+<em class="property">class </em><code class="descclassname">pylm.parts.connections.</code><code class="descname">SubConnection</code><span class="sig-paren">(</span><em>name</em>, <em>listen_address</em>, <em>previous</em>, <em>broker_address='inproc://broker'</em>, <em>logger=None</em>, <em>cache=None</em>, <em>messages=9223372036854775807</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#SubConnection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.SubConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Part that connects to a Pub service and subscribes to its message queue</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> &#8211; </li>
+<li><strong>listen_address</strong> &#8211; </li>
+<li><strong>previous</strong> &#8211; </li>
+<li><strong>broker_address</strong> &#8211; </li>
+<li><strong>logger</strong> &#8211; </li>
+<li><strong>cache</strong> &#8211; </li>
+<li><strong>messages</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="pylm.parts.connections.SubConnection.handle_feedback">
+<code class="descname">handle_feedback</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.SubConnection.handle_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Handles the feedback from the broker</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.SubConnection.reply_feedback">
+<code class="descname">reply_feedback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.SubConnection.reply_feedback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Returns the feedback if the component has to reply.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.SubConnection.scatter">
+<code class="descname">scatter</code><span class="sig-paren">(</span><em>message_data</em><span class="sig-paren">)</span><a class="headerlink" href="#pylm.parts.connections.SubConnection.scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract method. Picks a message and returns a generator that
+multiplies the messages to the broker.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message_data</strong> &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pylm.parts.connections.SubConnection.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pylm/parts/connections.html#SubConnection.start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pylm.parts.connections.SubConnection.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call this function to start the component</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="hl-api-docstrings.html" title="High level API documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The Pipeline server &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Hub server" href="hub.html" />
+    <link rel="prev" title="Workers" href="workers.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="hub.html" title="The Hub server"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="workers.html" title="Workers"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" accesskey="U">High level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">The Pipeline server</a><ul>
+<li><a class="reference internal" href="#controlling-the-messages-down-the-pipeline">Controlling the messages down the pipeline</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="workers.html"
+                        title="previous chapter">Workers</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="hub.html"
+                        title="next chapter">The Hub server</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/pipeline.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="the-pipeline-server">
+<span id="pipeline"></span><h1>The Pipeline server<a class="headerlink" href="#the-pipeline-server" title="Permalink to this headline">¶</a></h1>
+<p>The serial server presented in the previous section is intended to receive
+messages from a client. The pipeline server is just like a serial server, but
+it is designed to receive a stream of messages from another server, forming a
+pipeline. It can then redirect the messages to another server or it can route
+the messages back to the client to close the message loop.</p>
+<p>The simplest architecture where a Pipeline server is useful is adding an
+additional step to a client-server call like the one presented in the
+following figure.</p>
+<div class="figure align-center">
+<img alt="_images/pipeline.png" src="_images/pipeline.png" />
+</div>
+<p>You can see an example how the Pipeline server to create a pipeline started
+by a Server in the examples section (<a class="reference internal" href="examples.html#pipeline-client"><span class="std std-ref">A pipelined message stream</span></a>). The big picture
+is simple. A Server starts a pipeline, and the pipeline servers are the steps
+of it.</p>
+<p>One important detail in this first example is that the client gets a sequence
+of method calls, the server name and the method of each step, in a list. This
+of course means that the first argument of the <a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.eval" title="pylm.clients.Client.eval"><code class="xref py py-func docutils literal"><span class="pre">pylm.clients.Client.eval()</span></code></a>
+and <a class="reference internal" href="hl-api-docstrings.html#pylm.clients.Client.job" title="pylm.clients.Client.job"><code class="xref py py-func docutils literal"><span class="pre">pylm.clients.Client.job()</span></code></a> methods in may be either a string or a list
+of strings.</p>
+<p>Pipeline servers can be attached to Master servers too to attach a
+parallel-processing step to a serial-processing step</p>
+<div class="figure align-center">
+<img alt="_images/master_pipeline.png" src="_images/master_pipeline.png" />
+</div>
+<p>You can find the full example in <a class="reference internal" href="examples.html#pipeline-master"><span class="std std-ref">Connecting a pipeline to a master</span></a></p>
+<div class="section" id="controlling-the-messages-down-the-pipeline">
+<h2>Controlling the messages down the pipeline<a class="headerlink" href="#controlling-the-messages-down-the-pipeline" title="Permalink to this headline">¶</a></h2>
+<p>One important feature of the pipelined message stream is that it can be
+controlled and diverted. If one connects multiple pipeline servers to a
+single server, the default behavior is to send all messages to all the
+connected pipelines.</p>
+<div class="figure align-center">
+<img alt="_images/pipeline-tee.png" src="_images/pipeline-tee.png" />
+</div>
+<p>If you take a look at the full example (<a class="reference internal" href="examples.html#pipeline-tee"><span class="std std-ref">A pipelined message stream forming a tee</span></a>), you can see
+that the Pipeline needs an extra argument, which is the name of the server or
+the pipeline at the previous step. At the same time, one must tell the
+servers at its creation that the stream of messages will be sent to a
+Pipeline, and not sent back to the client.</p>
+<p>If you want a finer-grain control over where each message is sent down the
+pipeline you can use the handle_stream method to manage the stream. This can
+be used in combination with the <code class="docutils literal"><span class="pre">previous</span></code> option to fully manage the
+routing of the messages on each step.</p>
+<div class="figure align-center">
+<img alt="_images/pipeline-stream.png" src="_images/pipeline-stream.png" />
+</div>
+<p>You can see the full example here (<a class="reference internal" href="examples.html#pipeline-stream"><span class="std std-ref">A pipelined message stream forming a tee and controls the stream of messages</span></a>).</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="hub.html" title="The Hub server"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="workers.html" title="Workers"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="high-level.html" >High level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

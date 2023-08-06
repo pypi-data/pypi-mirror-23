@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Turning a PALM master into a microservice &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="High level API documentation" href="hl-api-docstrings.html" />
+    <link rel="prev" title="Using HTTP" href="http.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="hl-api-docstrings.html" title="High level API documentation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="http.html" title="Using HTTP"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="low-level.html" accesskey="U">Low level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="http.html"
+                        title="previous chapter">Using HTTP</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="hl-api-docstrings.html"
+                        title="next chapter">High level API documentation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/microservice.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="turning-a-palm-master-into-a-microservice">
+<h1>Turning a PALM master into a microservice<a class="headerlink" href="#turning-a-palm-master-into-a-microservice" title="Permalink to this headline">¶</a></h1>
+<p>The low level API also includes parts that can be used to turn a master
+server into a more classical microserver in the form of an HTTP server. The
+goal would be to offer a gateway to a PALM cluster with the HTTP protocol,
+The master (and now microservice too) can connect to as many workers as it is
+needed, just like a Master or a Hub, while serving to several HTTP clients.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">One caveat. The HttpGateway part spawns a thread for every client connection
+so don&#8217;t rely on it for dealing with thousands of concurrent connections.</p>
+</div>
+<div class="figure align-center">
+<img alt="_images/parallel_http.png" src="_images/parallel_http.png" />
+</div>
+<p>The components are the <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.gateways.GatewayRouter" title="pylm.parts.gateways.GatewayRouter"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.gateways.GatewayRouter</span></code></a>,
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.gateways.GatewayDealer" title="pylm.parts.gateways.GatewayDealer"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.gateways.GatewayDealer</span></code></a> and
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.gateways.HttpGateway" title="pylm.parts.gateways.HttpGateway"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.gateways.HttpGateway</span></code></a>. They can be used in the following
+fashion to wire a master to listen to an HTTP connection, that is served from
+the HttpGateway part.</p>
+<div class="figure align-center">
+<img alt="_images/microservice_internals.png" src="_images/microservice_internals.png" />
+</div>
+<p>The whole example can be implemented as follows.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.parts.servers</span> <span class="kn">import</span> <span class="n">ServerTemplate</span>
+<span class="kn">from</span> <span class="nn">pylm.parts.services</span> <span class="kn">import</span> <span class="n">WorkerPullService</span><span class="p">,</span> <span class="n">WorkerPushService</span><span class="p">,</span> \
+    <span class="n">CacheService</span>
+<span class="kn">from</span> <span class="nn">pylm.parts.gateways</span> <span class="kn">import</span> <span class="n">GatewayDealer</span><span class="p">,</span> <span class="n">GatewayRouter</span><span class="p">,</span> <span class="n">HttpGateway</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">ServerTemplate</span><span class="p">()</span>
+
+<span class="n">worker_pull_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5557&#39;</span>
+<span class="n">worker_push_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5558&#39;</span>
+<span class="n">db_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5559&#39;</span>
+
+<span class="n">server</span><span class="o">.</span><span class="n">register_inbound</span><span class="p">(</span><span class="n">GatewayRouter</span><span class="p">,</span>
+                        <span class="s1">&#39;gateway_router&#39;</span><span class="p">,</span>
+                        <span class="s1">&#39;inproc://gateway_router&#39;</span><span class="p">,</span>
+                        <span class="n">route</span><span class="o">=</span><span class="s1">&#39;WorkerPush&#39;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_outbound</span><span class="p">(</span><span class="n">GatewayDealer</span><span class="p">,</span>
+                         <span class="s1">&#39;gateway_dealer&#39;</span><span class="p">,</span>
+                         <span class="n">listen_address</span><span class="o">=</span><span class="s1">&#39;inproc://gateway_router&#39;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_bypass</span><span class="p">(</span><span class="n">HttpGateway</span><span class="p">,</span>
+                       <span class="n">name</span><span class="o">=</span><span class="s1">&#39;HttpGateway&#39;</span><span class="p">,</span>
+                       <span class="n">listen_address</span><span class="o">=</span><span class="s1">&#39;inproc://gateway_router&#39;</span><span class="p">,</span>
+                       <span class="n">hostname</span><span class="o">=</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span>
+                       <span class="n">port</span><span class="o">=</span><span class="mi">8888</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_inbound</span><span class="p">(</span><span class="n">WorkerPullService</span><span class="p">,</span> <span class="s1">&#39;WorkerPull&#39;</span><span class="p">,</span> <span class="n">worker_pull_address</span><span class="p">,</span>
+                        <span class="n">route</span><span class="o">=</span><span class="s1">&#39;gateway_dealer&#39;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_outbound</span><span class="p">(</span><span class="n">WorkerPushService</span><span class="p">,</span> <span class="s1">&#39;WorkerPush&#39;</span><span class="p">,</span> <span class="n">worker_push_address</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_bypass</span><span class="p">(</span><span class="n">CacheService</span><span class="p">,</span> <span class="s1">&#39;Cache&#39;</span><span class="p">,</span> <span class="n">db_address</span><span class="p">)</span>
+
+<span class="n">server</span><span class="o">.</span><span class="n">preset_cache</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;server&#39;</span><span class="p">,</span>
+                    <span class="n">db_address</span><span class="o">=</span><span class="n">db_address</span><span class="p">,</span>
+                    <span class="n">worker_pull_address</span><span class="o">=</span><span class="n">worker_pull_address</span><span class="p">,</span>
+                    <span class="n">worker_push_address</span><span class="o">=</span><span class="n">worker_push_address</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="kn">from</span> <span class="nn">pylm.servers</span> <span class="kn">import</span> <span class="n">Worker</span>
+
+
+<span class="k">class</span> <span class="nc">MyWorker</span><span class="p">(</span><span class="n">Worker</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">function</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">b</span><span class="s1">&#39;acknowledged&#39;</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">MyWorker</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">db_address</span><span class="o">=</span><span class="s1">&#39;tcp://127.0.0.1:5559&#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http://localhost:8888/function&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<p>Note that the client is calling the path <code class="docutils literal"><span class="pre">/function</span></code> of the server, that is
+mapped to the <code class="docutils literal"><span class="pre">function</span></code> method of the worker. This means that the body of
+the HTTP message is precisely the message you wan to send down the pipeline.</p>
+<p>In this example, the GatewayDealer only pipes the output of the workers back to
+the GatewayRouter and the HttpGateway, but remember that every outbound
+component has a <code class="docutils literal"><span class="pre">route</span></code> argument that allows you to multiplex the output
+stream.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="hl-api-docstrings.html" title="High level API documentation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="http.html" title="Using HTTP"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="low-level.html" >Low level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

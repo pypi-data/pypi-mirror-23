@@ -1,0 +1,604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>pylm.parts.core &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../../_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for pylm.parts.core</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Pylm, a framework to build components for high performance distributed</span>
+<span class="c1"># applications. Copyright (C) 2016 NFQ Solutions</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU Affero General Public License as</span>
+<span class="c1"># published by the Free Software Foundation, either version 3 of the</span>
+<span class="c1"># License, or (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU Affero General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU Affero General Public License</span>
+<span class="c1"># along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+
+<span class="kn">from</span> <span class="nn">pylm.parts.messages_pb2</span> <span class="k">import</span> <span class="n">PalmMessage</span>
+<span class="kn">from</span> <span class="nn">uuid</span> <span class="k">import</span> <span class="n">uuid4</span>
+<span class="kn">import</span> <span class="nn">traceback</span>
+<span class="kn">import</span> <span class="nn">zmq</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+
+<span class="n">zmq_context</span> <span class="o">=</span> <span class="n">zmq</span><span class="o">.</span><span class="n">Context</span><span class="o">.</span><span class="n">instance</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="Router"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Router">[docs]</a><span class="k">class</span> <span class="nc">Router</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Router for the internal event-loop. It is a ROUTER socket that blocks</span>
+<span class="sd">    waiting for the parts to send something. This is more a bus than</span>
+<span class="sd">    a broker.</span>
+
+<span class="sd">    :param inbound_address: Valid ZMQ bind address for inbound parts</span>
+<span class="sd">    :param outbound_address: Valid ZMQ bind address for outbound parts</span>
+<span class="sd">    :param logger: Logger instance</span>
+<span class="sd">    :param cache: Global cache of the server</span>
+<span class="sd">    :param messages: Maximum number of inbound messages. Defaults to infinity.</span>
+<span class="sd">    :param messages: Number of messages allowed before the router starts buffering.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">inbound_address</span><span class="o">=</span><span class="s2">&quot;inproc://inbound&quot;</span><span class="p">,</span>
+                 <span class="n">outbound_address</span><span class="o">=</span><span class="s2">&quot;inproc://outbound&quot;</span><span class="p">,</span>
+                 <span class="n">logger</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">messages</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">):</span>
+        <span class="c1"># Socket that will listen to the inbound parts</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">zmq</span><span class="o">.</span><span class="n">ROUTER</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">inbound_address</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound_address</span> <span class="o">=</span> <span class="n">inbound_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># Socket that listens to the outbound parts</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">zmq</span><span class="o">.</span><span class="n">ROUTER</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">outbound_address</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound_address</span> <span class="o">=</span> <span class="n">outbound_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound_components</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># Other utilities</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="n">messages</span>
+
+        <span class="c1"># Cache for the server</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="n">cache</span>
+
+<div class="viewcode-block" id="Router.register_inbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Router.register_inbound">[docs]</a>    <span class="k">def</span> <span class="nf">register_inbound</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">route</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">block</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">log</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Register component by name.</span>
+
+<span class="sd">        :param name: Name of the component. Each component has a name,</span>
+<span class="sd">            that uniquely identifies it to the broker</span>
+<span class="sd">        :param route: Each message that the broker gets from the component</span>
+<span class="sd">            may be routed to another component. This argument gives the name of</span>
+<span class="sd">            the target component for the message.</span>
+<span class="sd">        :param block: Register if the component is waiting for a reply.</span>
+<span class="sd">        :param log: Log message for each inbound connection.</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span><span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)]</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;route&#39;</span><span class="p">:</span> <span class="n">route</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">),</span>
+            <span class="s1">&#39;block&#39;</span><span class="p">:</span> <span class="n">block</span><span class="p">,</span>
+            <span class="s1">&#39;log&#39;</span><span class="p">:</span> <span class="n">log</span>
+        <span class="p">}</span></div>
+
+<div class="viewcode-block" id="Router.register_outbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Router.register_outbound">[docs]</a>    <span class="k">def</span> <span class="nf">register_outbound</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">route</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">log</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Register outbound component by name</span>
+
+<span class="sd">        :param name: Name of the component</span>
+<span class="sd">        :param route: Each message sent back to the component can be routed</span>
+<span class="sd">        :param log: Logging for each message that comes from the router.</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound_components</span><span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)]</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;route&#39;</span><span class="p">:</span> <span class="n">route</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">),</span>
+            <span class="s1">&#39;log&#39;</span><span class="p">:</span> <span class="n">log</span>
+        <span class="p">}</span></div>
+
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Launch router&#39;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span><span class="p">:</span>
+            <span class="n">route</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span><span class="p">[</span><span class="n">part</span><span class="p">][</span><span class="s1">&#39;route&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">route</span><span class="p">:</span>
+                <span class="n">route</span> <span class="o">=</span> <span class="s1">&#39;exterior&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                <span class="s1">&#39;Inbound </span><span class="si">{}</span><span class="s1"> connects to </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">part</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">),</span>
+                    <span class="n">route</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+            
+        <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">outbound_components</span><span class="p">:</span>
+            <span class="n">route</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">outbound_components</span><span class="p">[</span><span class="n">part</span><span class="p">][</span><span class="s1">&#39;route&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">route</span><span class="p">:</span>
+                <span class="n">route</span> <span class="o">=</span> <span class="s1">&#39;exterior&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                <span class="s1">&#39;Outbound </span><span class="si">{}</span><span class="s1"> connects to </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">part</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">),</span>
+                    <span class="n">route</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">):</span>
+            <span class="n">component</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">recv_multipart</span><span class="p">()</span>
+
+            <span class="c1"># Routing from inbound to outbound</span>
+            <span class="n">route_to</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span><span class="p">[</span><span class="n">component</span><span class="p">][</span><span class="s1">&#39;route&#39;</span><span class="p">]</span>
+            <span class="n">block</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">inbound_components</span><span class="p">[</span><span class="n">component</span><span class="p">][</span><span class="s1">&#39;block&#39;</span><span class="p">]</span>
+
+            <span class="k">if</span> <span class="n">route_to</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Router: </span><span class="si">{}</span><span class="s1"> routing to </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">component</span><span class="p">,</span> <span class="n">route_to</span><span class="p">))</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">send_multipart</span><span class="p">([</span><span class="n">route_to</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="n">message_data</span><span class="p">])</span>
+
+                <span class="n">from_outbound</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">recv_multipart</span><span class="p">()</span>
+
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">from_outbound</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+                    <span class="c1"># From a REP socket</span>
+                    <span class="p">[</span><span class="n">route_to</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="n">feedback</span><span class="p">]</span> <span class="o">=</span> <span class="n">from_outbound</span>
+                <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">from_outbound</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                    <span class="c1"># From a DEALER socket</span>
+                    <span class="p">[</span><span class="n">route_to</span><span class="p">,</span> <span class="n">feedback</span><span class="p">]</span> <span class="o">=</span> <span class="n">from_outbound</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Error in Router:&#39;</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Message badly formatted from </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">route_to</span><span class="p">))</span>
+                    <span class="c1"># And now drop the message</span>
+                    <span class="k">continue</span>
+
+                <span class="c1"># Rerouting from outbound to a different outbound.</span>
+                <span class="c1"># You can reroute only once, and if inbound blocks it gets</span>
+                <span class="c1"># the message from the first outbound. This can be used to</span>
+                <span class="c1"># implement weird routing schemes.</span>
+                <span class="n">reroute</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">outbound_components</span><span class="p">[</span><span class="n">route_to</span><span class="p">][</span><span class="s1">&#39;route&#39;</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">reroute</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">send_multipart</span><span class="p">([</span><span class="n">reroute</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="n">feedback</span><span class="p">])</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">recv_multipart</span><span class="p">()</span>
+
+                <span class="c1"># The inbound is blocked, but sometimes it can process the</span>
+                <span class="c1"># feedback. You can use this to remove the block thing, because</span>
+                <span class="c1"># now you can redirect from outbound to outbound.</span>
+                <span class="k">if</span> <span class="n">block</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">send_multipart</span><span class="p">([</span><span class="n">component</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="n">feedback</span><span class="p">])</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">send_multipart</span><span class="p">([</span><span class="n">component</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="sa">b</span><span class="s1">&#39;1&#39;</span><span class="p">])</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">send_multipart</span><span class="p">([</span><span class="n">component</span><span class="p">,</span> <span class="n">empty</span><span class="p">,</span> <span class="sa">b</span><span class="s1">&#39;1&#39;</span><span class="p">])</span>
+
+        <span class="k">return</span> <span class="sa">b</span><span class="s1">&#39;router&#39;</span>
+
+    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">inbound</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outbound</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="Inbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Inbound">[docs]</a><span class="k">class</span> <span class="nc">Inbound</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Generic part that connects a REQ socket to the broker, and a</span>
+<span class="sd">    socket to an inbound external service.</span>
+
+<span class="sd">    :param name: Name of the component</span>
+<span class="sd">    :param listen_address: ZMQ socket address to listen to</span>
+<span class="sd">    :param socket_type: ZMQ inbound socket type</span>
+<span class="sd">    :param reply: True if the listening socket blocks waiting a reply</span>
+<span class="sd">    :param broker_address: ZMQ socket address for the broker</span>
+<span class="sd">    :param bind: True if socket has to bind, instead of connect.</span>
+<span class="sd">    :param logger: Logger instance</span>
+<span class="sd">    :param cache: Cache for shared data in the server</span>
+<span class="sd">    :param messages: Maximum number of inbound messages. Defaults to infinity.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">name</span><span class="p">,</span>
+                 <span class="n">listen_address</span><span class="p">,</span>
+                 <span class="n">socket_type</span><span class="p">,</span>
+                 <span class="n">reply</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">broker_address</span><span class="o">=</span><span class="s2">&quot;inproc://broker&quot;</span><span class="p">,</span>
+                 <span class="n">bind</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">logger</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">messages</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket_type</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span> <span class="o">=</span> <span class="n">bind</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span> <span class="o">=</span> <span class="n">listen_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">zmq</span><span class="o">.</span><span class="n">REQ</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">identity</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">broker_address</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="n">cache</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="n">messages</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reply</span> <span class="o">=</span> <span class="n">reply</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">_translate_to_broker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Translate the message that the component has got to be digestible by the router.</span>
+<span class="sd">        To be refactored</span>
+
+<span class="sd">        :param message_data: Message data from the component to the router</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">message</span><span class="o">.</span><span class="n">cache</span><span class="p">:</span>
+            <span class="n">message</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">uuid4</span><span class="p">())</span>
+
+        <span class="k">return</span> <span class="n">message</span>
+
+    <span class="k">def</span> <span class="nf">_translate_from_broker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Translate the message that the component gets from the router to the</span>
+<span class="sd">        output format</span>
+
+<span class="sd">        :param message_data: Data from the router</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">message_data</span>
+
+<div class="viewcode-block" id="Inbound.scatter"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Inbound.scatter">[docs]</a>    <span class="k">def</span> <span class="nf">scatter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Picks a message and returns a generator that</span>
+<span class="sd">        multiplies the messages to the broker.</span>
+
+<span class="sd">        :param message_data:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">yield</span> <span class="n">message_data</span></div>
+
+<div class="viewcode-block" id="Inbound.handle_feedback"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Inbound.handle_feedback">[docs]</a>    <span class="k">def</span> <span class="nf">handle_feedback</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Handles the feedback from the broker</span>
+
+<span class="sd">        :param message_data:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span> <span class="o">=</span> <span class="n">message_data</span></div>
+
+<div class="viewcode-block" id="Inbound.reply_feedback"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Inbound.reply_feedback">[docs]</a>    <span class="k">def</span> <span class="nf">reply_feedback</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Returns the feedback if the component has to reply.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span></div>
+
+<div class="viewcode-block" id="Inbound.start"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Inbound.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Call this function to start the component</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="n">PalmMessage</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> successfully started&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> blocked waiting messages&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> Got inbound message&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">message</span><span class="o">.</span><span class="n">ParseFromString</span><span class="p">(</span><span class="n">message_data</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">scattered</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+                    <span class="n">scattered</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_translate_to_broker</span><span class="p">(</span><span class="n">scattered</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">scattered</span><span class="o">.</span><span class="n">SerializeToString</span><span class="p">())</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> blocked waiting for broker&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">handle_feedback</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">recv</span><span class="p">())</span>
+
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reply</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reply_feedback</span><span class="p">())</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Exception in scatter or routing.&#39;</span><span class="p">)</span>
+                <span class="n">lines</span> <span class="o">=</span> <span class="n">traceback</span><span class="o">.</span><span class="n">format_exception</span><span class="p">(</span><span class="o">*</span><span class="n">sys</span><span class="o">.</span><span class="n">exc_info</span><span class="p">())</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reply</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span></div>
+
+    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="Outbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Outbound">[docs]</a><span class="k">class</span> <span class="nc">Outbound</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Generic part that connects a REQ socket to the broker, and a</span>
+<span class="sd">    socket to an inbound external service.</span>
+
+<span class="sd">    :param name: Name of the component</span>
+<span class="sd">    :param listen_address: ZMQ socket address to listen to</span>
+<span class="sd">    :param socket_type: ZMQ inbound socket type</span>
+<span class="sd">    :param reply: True if the listening socket blocks waiting a reply</span>
+<span class="sd">    :param broker_address: ZMQ socket address for the broker,</span>
+<span class="sd">    :param bind: True if the socket has to bind instead of connect.</span>
+<span class="sd">    :param logger: Logger instance</span>
+<span class="sd">    :param cache: Access to the cache of the server</span>
+<span class="sd">    :param messages: Maximum number of inbound messages. Defaults to infinity.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">name</span><span class="p">,</span>
+                 <span class="n">listen_address</span><span class="p">,</span>
+                 <span class="n">socket_type</span><span class="p">,</span>
+                 <span class="n">reply</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">broker_address</span><span class="o">=</span><span class="s2">&quot;inproc://broker&quot;</span><span class="p">,</span>
+                 <span class="n">bind</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">logger</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">messages</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket_type</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span> <span class="o">=</span> <span class="n">bind</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span> <span class="o">=</span> <span class="n">listen_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">zmq</span><span class="o">.</span><span class="n">REP</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">identity</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">broker_address</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="n">cache</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="n">messages</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reply</span> <span class="o">=</span> <span class="n">reply</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">_translate_to_broker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">PalmMessage</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Translate the message that the component has got to be digestible by</span>
+<span class="sd">        the broker</span>
+
+<span class="sd">        :param message:</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">message</span>
+
+    <span class="k">def</span> <span class="nf">_translate_from_broker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">PalmMessage</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Translate the message that the component gets from the router to the</span>
+<span class="sd">        output format</span>
+
+<span class="sd">        :param message:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">message</span>
+
+<div class="viewcode-block" id="Outbound.scatter"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Outbound.scatter">[docs]</a>    <span class="k">def</span> <span class="nf">scatter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Picks a message and returns a generator that multiplies the messages</span>
+<span class="sd">        to the broker.</span>
+
+<span class="sd">        :param message_data:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">yield</span> <span class="n">message_data</span></div>
+
+<div class="viewcode-block" id="Outbound.handle_feedback"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Outbound.handle_feedback">[docs]</a>    <span class="k">def</span> <span class="nf">handle_feedback</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Handles the feedback from the broker</span>
+
+<span class="sd">        :param message_data:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span> <span class="o">=</span> <span class="n">message_data</span></div>
+
+<div class="viewcode-block" id="Outbound.reply_feedback"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Outbound.reply_feedback">[docs]</a>    <span class="k">def</span> <span class="nf">reply_feedback</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abstract method. Returns the feedback if the component has to reply.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">last_message</span></div>
+
+<div class="viewcode-block" id="Outbound.start"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.Outbound.start">[docs]</a>    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Call this function to start the component</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="n">PalmMessage</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> successfully started&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> blocked waiting for broker&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> Got message from broker&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_translate_from_broker</span><span class="p">(</span><span class="n">message_data</span><span class="p">)</span>
+            <span class="n">message</span><span class="o">.</span><span class="n">ParseFromString</span><span class="p">(</span><span class="n">message_data</span><span class="p">)</span>
+
+            <span class="k">for</span> <span class="n">scattered</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">scattered</span><span class="o">.</span><span class="n">SerializeToString</span><span class="p">())</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> Sent message&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reply</span><span class="p">:</span>
+                    <span class="n">feedback</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+                    <span class="n">feedback</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_translate_to_broker</span><span class="p">(</span><span class="n">feedback</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">handle_feedback</span><span class="p">(</span><span class="n">feedback</span><span class="p">)</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reply_feedback</span><span class="p">())</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span></div>
+
+    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">broker</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="BypassInbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.BypassInbound">[docs]</a><span class="k">class</span> <span class="nc">BypassInbound</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Generic inbound part that does not connect to the router.</span>
+
+<span class="sd">    :param name: Name of the component</span>
+<span class="sd">    :param listen_address: ZMQ socket address to listen to</span>
+<span class="sd">    :param socket_type: ZMQ inbound socket type</span>
+<span class="sd">    :param reply: True if the listening socket blocks waiting a reply</span>
+<span class="sd">    :param bind: True if the component has to bind instead of connect.</span>
+<span class="sd">    :param logger: Logger instance</span>
+<span class="sd">    :param cache: Access to the server cache</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">name</span><span class="p">,</span>
+                 <span class="n">listen_address</span><span class="p">,</span>
+                 <span class="n">socket_type</span><span class="p">,</span>
+                 <span class="n">reply</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">bind</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">logger</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">messages</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket_type</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span> <span class="o">=</span> <span class="n">bind</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span> <span class="o">=</span> <span class="n">listen_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reply</span> <span class="o">=</span> <span class="n">reply</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="n">cache</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="n">messages</span>
+
+<div class="viewcode-block" id="BypassInbound.recv"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.BypassInbound.recv">[docs]</a>    <span class="k">def</span> <span class="nf">recv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">reply_data</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Receives, yields and returns reply_data if needed</span>
+
+<span class="sd">        :param reply_data: Message to send if connection needs an answer.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reply</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">reply_data</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">message_data</span></div>
+
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+
+    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="BypassOutbound"><a class="viewcode-back" href="../../../ll-api-docstrings.html#pylm.parts.core.BypassOutbound">[docs]</a><span class="k">class</span> <span class="nc">BypassOutbound</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Generic inbound component that does not connect to the broker.</span>
+
+<span class="sd">    :param name: Name of the component</span>
+<span class="sd">    :param listen_address: ZMQ socket address to listen to</span>
+<span class="sd">    :param socket_type: ZMQ inbound socket type</span>
+<span class="sd">    :param reply: True if the listening socket blocks waiting a reply</span>
+<span class="sd">    :param bind: True if the socket has to bind instead of connect</span>
+<span class="sd">    :param logger: Logger instance</span>
+<span class="sd">    :param cache: Access to the cache of the server</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">name</span><span class="p">,</span>
+                 <span class="n">listen_address</span><span class="p">,</span>
+                 <span class="n">socket_type</span><span class="p">,</span>
+                 <span class="n">reply</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">bind</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">logger</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">messages</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span> <span class="o">=</span> <span class="n">zmq_context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket_type</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">bind</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">listen_address</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">listen_address</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_address</span> <span class="o">=</span> <span class="n">listen_address</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logger</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reply</span> <span class="o">=</span> <span class="n">reply</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cache</span> <span class="o">=</span> <span class="n">cache</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="n">messages</span>
+
+    <span class="k">def</span> <span class="nf">send</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message_data</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">message_data</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reply</span><span class="p">:</span>
+            <span class="n">message_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">listen_to</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">message_data</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>

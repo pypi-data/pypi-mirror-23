@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Building components from separate parts &#8212; pylm 0.14.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.14.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Using HTTP" href="http.html" />
+    <link rel="prev" title="Low level API" href="low-level.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="http.html" title="Using HTTP"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="low-level.html" title="Low level API"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="low-level.html" accesskey="U">Low level API</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Building components from separate parts</a><ul>
+<li><a class="reference internal" href="#the-router">The router</a></li>
+<li><a class="reference internal" href="#the-parts">The parts</a></li>
+<li><a class="reference internal" href="#services-and-connections">Services and connections</a></li>
+<li><a class="reference internal" href="#bypass-parts">Bypass parts</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="low-level.html"
+                        title="previous chapter">Low level API</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="http.html"
+                        title="next chapter">Using HTTP</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/parts.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="building-components-from-separate-parts">
+<h1>Building components from separate parts<a class="headerlink" href="#building-components-from-separate-parts" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="the-router">
+<h2>The router<a class="headerlink" href="#the-router" title="Permalink to this headline">¶</a></h2>
+<p>At the very core of most Pylm servers, there is a router, and its
+architecture is the only profound idea in the whole pylm
+architecture. The goal is to manage the communication between the
+servers in a way as much similar to an actual network architecture as
+possible.</p>
+<div class="figure align-center">
+<img alt="_images/core.png" src="_images/core.png" />
+</div>
+<p>The mission of this router sockets is to connect the parts that
+receive inbound messages with the parts that deal with outbound
+messages. The two tall blocks at each side of the table is a
+representation with such connection. If you know how an actual router
+works, a part would be a NIC, while the ROUTER socket and the routing
+table would be the switch. The router is documented in
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.Router" title="pylm.parts.core.Router"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.Router</span></code></a>.</p>
+<p>The parts are also related to the router by the fact that they are all
+threads that run within the same process. In consequence, a pylm
+server could be described as a router and a series of parts that run
+in the same process.</p>
+</div>
+<div class="section" id="the-parts">
+<h2>The parts<a class="headerlink" href="#the-parts" title="Permalink to this headline">¶</a></h2>
+<p>There is a decent number of parts, each one covering some functionality
+within the PALM ecosystem. What follows is a classification of the several
+parts that are already available according to their characteristics.</p>
+<p>First of all, parts can be services or connections. A service is a
+part that <em>binds</em> to a socket, which is an important detail when you
+design a cluster. A bind socket blocks waiting for a connection from a
+different thread or process. Therefore, a service is used to define
+the communication endpoint. All the available services are present in
+the module <a class="reference internal" href="ll-api-docstrings.html#module-pylm.parts.services" title="pylm.parts.services"><code class="xref py py-mod docutils literal"><span class="pre">pylm.parts.services</span></code></a>.</p>
+<p>Connections are the complementary of servers, they are used in the
+<em>client</em> side of the communication, and are present in the module
+<a class="reference internal" href="ll-api-docstrings.html#module-pylm.parts.connections" title="pylm.parts.connections"><code class="xref py py-mod docutils literal"><span class="pre">pylm.parts.connections</span></code></a>.</p>
+<p>On the second hand, parts can be standard or <em>bypass</em>. The former
+connects to the router, while the latter ignores the router
+completely. Bypass components inherit from
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.BypassInbound" title="pylm.parts.core.BypassInbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.BypassInbound</span></code></a> or from
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.BypassOutbound" title="pylm.parts.core.BypassOutbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.BypassOutbound</span></code></a> and also use the word
+<em>bypass</em> in its name, while standard components that connect to the
+router inherit from <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.Inbound" title="pylm.parts.core.Inbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.Inbound</span></code></a> and
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.Outbound" title="pylm.parts.core.Outbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.Outbound</span></code></a>. As an example, the part
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.CacheService" title="pylm.parts.services.CacheService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.CacheService</span></code></a>, regardless of not being
+named as a bypass name, it exposes the internal cache of a server to
+workers and clients and does no communicate to the router in any case.</p>
+<p>On the third hand, and related to the previous classification, parts
+can be inbound or outbound according to the direction of the <em>first</em>
+message respect to the router. Inbound services and components inherit
+from <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.Inbound" title="pylm.parts.core.Inbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.Inbound</span></code></a> and
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.BypassInbound" title="pylm.parts.core.BypassInbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.BypassInbound</span></code></a>, while outbound inherit from
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.Outbound" title="pylm.parts.core.Outbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.Outbound</span></code></a> and
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.core.BypassOutbound" title="pylm.parts.core.BypassOutbound"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.core.BypassOutbound</span></code></a>.</p>
+<p>On the fourth hand, components may block or not depending on whether
+they expect the pair to send some message back. This behavior depends
+on the kind of ZeroMQ socket in use.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">There is such a thing as a blocking outbound service. This means
+that the whole server is expecting some pair of an outbound service
+to send a message back. As you can imagine, these kind of parts
+must be handled with extreme care.</p>
+</div>
+<p>This classification may seem a little confusing, so we will offer
+plenty of examples covering most of the services and connections
+avialiable at the present version.</p>
+</div>
+<div class="section" id="services-and-connections">
+<h2>Services and connections<a class="headerlink" href="#services-and-connections" title="Permalink to this headline">¶</a></h2>
+<p>It&#8217;s time to build a component from a router and some
+services and parts that are already available.  This way you will have
+a rough idea of how the high level API of pylm is built. Some of the
+details of the implementation are not described yet, but this example
+is a nice prologue about the things you need to know to master the low
+level API.</p>
+<p>In this section, we have seen that the router is a crucial part of any
+server in pylm. The helper class
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.servers.ServerTemplate" title="pylm.parts.servers.ServerTemplate"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.servers.ServerTemplate</span></code></a> is designed to easily
+attach the parts to a router. The internal design of a master server
+can be seen in the following sketch.</p>
+<div class="figure align-center">
+<img alt="_images/master_internals.png" src="_images/master_internals.png" />
+</div>
+<p>A master server like the one used in the examples needs the router and
+four service parts.</p>
+<ul class="simple">
+<li>A <em>Pull</em> part that receives the messages from the client</li>
+<li>A <em>Push</em> part that sends the messages to the workers</li>
+<li>A <em>Pull</em> part that gets the result from the workers</li>
+<li>A <em>Pub</em> part that sends the results down the message pipeline or back to</li>
+</ul>
+<p>the client.</p>
+<p>All parts are non-blocking, and the message stream is never
+interrupted.  All the parts are <em>services</em>, meaning that the workers
+and the client connect to the respective sockets, since <em>service
+parts</em> bind to its respective outwards-facing socket.</p>
+<p>The part library has a part for each one of the needs depicted
+above. There is a <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.PullService" title="pylm.parts.services.PullService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.PullService</span></code></a> that
+binds a ZeroMQ Pull socket to the exterior, and sends the messages to
+the router. There is a <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.PubService" title="pylm.parts.services.PubService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.PubService</span></code></a> that
+works exactly the other way around. It listens to the router, and
+forwards the messages to a ZeroMQ Push socket. There are also specific
+services to connect to worker servers,
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.WorkerPullService" title="pylm.parts.services.WorkerPullService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.WorkerPullService</span></code></a> and
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.WorkerPushService" title="pylm.parts.services.WorkerPushService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.WorkerPushService</span></code></a>, that are very
+similar to the two previously described services. With those pieces,
+we are ready to build a master server as follows</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pylm.parts.servers</span> <span class="kn">import</span> <span class="n">ServerTemplate</span>
+<span class="kn">from</span> <span class="nn">pylm.parts.services</span> <span class="kn">import</span> <span class="n">PullService</span><span class="p">,</span> <span class="n">PubService</span><span class="p">,</span> <span class="n">WorkerPullService</span><span class="p">,</span> <span class="n">WorkerPushService</span><span class="p">,</span> \
+    <span class="n">CacheService</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">ServerTemplate</span><span class="p">()</span>
+
+<span class="n">db_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5559&#39;</span>
+<span class="n">pull_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5555&#39;</span>
+<span class="n">pub_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5556&#39;</span>
+<span class="n">worker_pull_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5557&#39;</span>
+<span class="n">worker_push_address</span> <span class="o">=</span> <span class="s1">&#39;tcp://127.0.0.1:5558&#39;</span>
+
+<span class="n">server</span><span class="o">.</span><span class="n">register_inbound</span><span class="p">(</span><span class="n">PullService</span><span class="p">,</span> <span class="s1">&#39;Pull&#39;</span><span class="p">,</span> <span class="n">pull_address</span><span class="p">,</span> <span class="n">route</span><span class="o">=</span><span class="s1">&#39;WorkerPush&#39;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_inbound</span><span class="p">(</span><span class="n">WorkerPullService</span><span class="p">,</span> <span class="s1">&#39;WorkerPull&#39;</span><span class="p">,</span> <span class="n">worker_pull_address</span><span class="p">,</span> <span class="n">route</span><span class="o">=</span><span class="s1">&#39;Pub&#39;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_outbound</span><span class="p">(</span><span class="n">WorkerPushService</span><span class="p">,</span> <span class="s1">&#39;WorkerPush&#39;</span><span class="p">,</span> <span class="n">worker_push_address</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_outbound</span><span class="p">(</span><span class="n">PubService</span><span class="p">,</span> <span class="s1">&#39;Pub&#39;</span><span class="p">,</span> <span class="n">pub_address</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_bypass</span><span class="p">(</span><span class="n">CacheService</span><span class="p">,</span> <span class="s1">&#39;Cache&#39;</span><span class="p">,</span> <span class="n">db_address</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">preset_cache</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;server&#39;</span><span class="p">,</span>
+                    <span class="n">db_address</span><span class="o">=</span><span class="n">db_address</span><span class="p">,</span>
+                    <span class="n">pull_address</span><span class="o">=</span><span class="n">pull_address</span><span class="p">,</span>
+                    <span class="n">pub_address</span><span class="o">=</span><span class="n">pub_address</span><span class="p">,</span>
+                    <span class="n">worker_pull_address</span><span class="o">=</span><span class="n">worker_pull_address</span><span class="p">,</span>
+                    <span class="n">worker_push_address</span><span class="o">=</span><span class="n">worker_push_address</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">There is an additional type of service called <em>bypass</em> in this
+implementation, that will be described at the end of this section.</p>
+</div>
+<p>This server is functionally identical to the master server used in the
+first example of the section describing <a class="reference internal" href="servers.html#standalone"><span class="std std-ref">Servers</span></a>. You can
+test it using the same client and workers.</p>
+</div>
+<div class="section" id="bypass-parts">
+<h2>Bypass parts<a class="headerlink" href="#bypass-parts" title="Permalink to this headline">¶</a></h2>
+<p>In the previous example one <a class="reference internal" href="ll-api-docstrings.html#pylm.parts.services.CacheService" title="pylm.parts.services.CacheService"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.services.CacheService</span></code></a> was
+registered as a <em>bypass</em> part. These kind of parts also run in the same process
+as the router in a separate thread, but they do not interact with the router
+at all. The <em>CacheService</em> is a good example of that. It is the key-value
+store of the Master and Hub server, and it is one of those nice goodies of the
+high-level API. It has to be there, but it never waits for a message coming
+from the router.</p>
+<p>Another part that is registered as a bypass part is the
+<a class="reference internal" href="ll-api-docstrings.html#pylm.parts.gateways.HttpGateway" title="pylm.parts.gateways.HttpGateway"><code class="xref py py-class docutils literal"><span class="pre">pylm.parts.gateways.HttpGateway</span></code></a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="http.html" title="Using HTTP"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="low-level.html" title="Low level API"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pylm 0.14.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="low-level.html" >Low level API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Guillem Borrell &amp; NFQ Solutions.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.
+    </div>
+  </body>
+</html>
