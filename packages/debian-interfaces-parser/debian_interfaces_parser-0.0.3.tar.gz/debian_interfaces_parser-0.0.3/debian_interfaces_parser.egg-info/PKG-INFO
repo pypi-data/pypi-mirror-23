@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: debian-interfaces-parser
+Version: 0.0.3
+Summary: Simple parser for /etc/network/interfaces
+Home-page: http://github.com/olegantonyan/debian_interfaces_parser
+Author: Oleg Antonyan
+Author-email: oleg.b.antonyan@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
