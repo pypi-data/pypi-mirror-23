@@ -1,0 +1,7 @@
+setup.py
+hledger-networth/__init__.py
+hledger_networth.egg-info/PKG-INFO
+hledger_networth.egg-info/SOURCES.txt
+hledger_networth.egg-info/dependency_links.txt
+hledger_networth.egg-info/not-zip-safe
+hledger_networth.egg-info/top_level.txt
