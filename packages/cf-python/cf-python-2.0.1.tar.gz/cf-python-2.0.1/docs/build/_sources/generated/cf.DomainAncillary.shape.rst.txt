@@ -1,0 +1,7 @@
+cf.DomainAncillary.shape
+========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.shape
