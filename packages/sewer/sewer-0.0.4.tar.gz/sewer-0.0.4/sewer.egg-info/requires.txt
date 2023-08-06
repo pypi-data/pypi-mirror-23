@@ -1,0 +1,11 @@
+requests
+structlog
+pyopenssl
+
+[dev]
+coverage
+pypandoc
+
+[test]
+coverage
+pypandoc
