@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "alasdair.nicol@spatialbuzz.com", "name": "Alasdair Nicol", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.30.0.a0)", "license": "MIT", "metadata_version": "2.0", "name": "django-setup-env", "summary": "Tool to setup Django in standalone scripts", "version": "0.5"}
