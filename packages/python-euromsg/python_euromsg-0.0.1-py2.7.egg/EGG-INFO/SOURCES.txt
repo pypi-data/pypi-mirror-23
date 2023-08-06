@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+setup.cfg
+setup.py
+euromsg/__init__.py
+euromsg/euromsg.py
+python_euromsg.egg-info/PKG-INFO
+python_euromsg.egg-info/SOURCES.txt
+python_euromsg.egg-info/dependency_links.txt
+python_euromsg.egg-info/not-zip-safe
+python_euromsg.egg-info/top_level.txt
