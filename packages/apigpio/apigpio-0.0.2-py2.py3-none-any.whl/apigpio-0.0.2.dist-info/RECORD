@@ -1,0 +1,10 @@
+apigpio/__init__.py,sha256=yGveecroB-Alh5F3TUJ248oAPkp2JLsT0gCMOQMM1qk,72
+apigpio/apigpio.py,sha256=QvljS4Dp05OqYoVVk2e2iCIe9aYSoosSp76OgnEDRvA,31484
+apigpio/ctes.py,sha256=j1_pHRS2FeYfjMveyI0VDoxJb7laGHwPa61pFjo5fcM,3335
+apigpio/utils.py,sha256=t0EcZcabFesIpb9eVsr4V4hs423pLzrqfUUWxokcMjc,1816
+apigpio-0.0.2.dist-info/DESCRIPTION.rst,sha256=WWZ3xm96qBgDzDjRkzElBMZiiC_3ASXjdzLuny6zvbE,736
+apigpio-0.0.2.dist-info/METADATA,sha256=BB4LNgbvSZFLQ7ppL_hqhgmL3YkzaO5uiUuOGKT-oPo,1459
+apigpio-0.0.2.dist-info/RECORD,,
+apigpio-0.0.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+apigpio-0.0.2.dist-info/metadata.json,sha256=GKSMHygQI4xuQQqPpJ2WWlQxqZeevbuiNWUD2C7_0Z4,862
+apigpio-0.0.2.dist-info/top_level.txt,sha256=RPtseuWc_mw4VrfW89ljP_5FZ5GTk4aUpcnsvM8iXVQ,8
