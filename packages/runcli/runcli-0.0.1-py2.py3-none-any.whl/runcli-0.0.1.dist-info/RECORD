@@ -1,0 +1,13 @@
+runcli/__init__.py,sha256=3ETH0rdBffgEzj4wjm-jP9bxhGSpGIutgoVSEALeen4,152
+runcli/runcli.py,sha256=w6yaqaZMxrAcA7EbDLxE2XIkTmD73hpMXeMDO73lRg4,1489
+runcli/test_runcli.py,sha256=x5r0yz8SAym4tUi74eliAF3hwtLRNpCPvnXP3EkNlP0,4296
+runcli/utils.py,sha256=DGq6Rmo5iiBkgzKN9DY5phyMjvXZRb5ly1P_quf5djI,995
+runcli-0.0.1.data/scripts/run,sha256=OcadL-OOs37FPevjpcxqUwoZYkP3fBQUFML7bzMGO30,382
+runcli-0.0.1.dist-info/DESCRIPTION.rst,sha256=4ROiq7EjN9XHC-rYBj-HS51DLHG-9z_RUPsiLUZIhzw,1037
+runcli-0.0.1.dist-info/METADATA,sha256=srTw0sKiXXzh4Je99Hi1l9jXZhYIxHi-KzQ4lU13Oq4,1508
+runcli-0.0.1.dist-info/RECORD,,
+runcli-0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+runcli-0.0.1.dist-info/metadata.json,sha256=jWDWrLD-ME6k5-mkTTbjsqVAJEy4enY6CYVd-3l9qYI,616
+runcli-0.0.1.dist-info/top_level.txt,sha256=XCPEC9cH1tR3ve2DmqvyQhbZVftoVibPfWxoBKK9tuA,13
+tests/__init__.py,sha256=TdSFKBhWzgRZNOKdGlsNLThgzM1HafADfJrahYGNHBQ,152
+tests/test_endtoend.py,sha256=qC9vn-Qr7oFDXXHATjkNWyKCbaQ4qazPxGfEV1iUlKI,2072
