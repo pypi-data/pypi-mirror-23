@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cip/__init__.py
+cip/cip.py
+cip/exceptions.py
+python_cip.egg-info/PKG-INFO
+python_cip.egg-info/SOURCES.txt
+python_cip.egg-info/dependency_links.txt
+python_cip.egg-info/requires.txt
+python_cip.egg-info/top_level.txt
