@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: gandip
+Version: 1.0.0
+Summary: Keep your gandi DNS records up to date with your current IP
+Home-page: https://github.com/ArnaudLevaufre/GandIP
+Author: Arnaud Levaufre
+Author-email: arnaud@levaufre.name
+License: MIT
+Description: # GandIP
+        
+        Keep you gandi DNS records up to date with your current ip.
+        
+        ## Installation
+        
+        Easy peasy, run `python setup.py install --user` and create a cron job so it runs every 15 minutes like so:
+        
+        ```
+        */15 * * * * gandip your_gandi_api_key zone_name record1 record2 ... recordN
+        ```
+        
+Keywords: dns gandi ip selfhosting hosting
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
