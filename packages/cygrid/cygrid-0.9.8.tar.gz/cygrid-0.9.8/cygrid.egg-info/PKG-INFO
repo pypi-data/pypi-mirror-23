@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cygrid
+Version: 0.9.8
+Summary: Cygrid is a cython-powered convolution-based gridding module for astronomy
+Home-page: https://github.com/bwinkel/cygrid/
+Author: Benjamin Winkel, Lars Flöer, Daniel Lenz
+Author-email: bwinkel@mpifr.de
+License: UNKNOWN
+Download-URL: https://github.com/bwinkel/cygrid/tarball/0.9.8
+Description: UNKNOWN
+Keywords: astronomy,gridding,fits/wcs
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Scientific/Engineering :: Astronomy
