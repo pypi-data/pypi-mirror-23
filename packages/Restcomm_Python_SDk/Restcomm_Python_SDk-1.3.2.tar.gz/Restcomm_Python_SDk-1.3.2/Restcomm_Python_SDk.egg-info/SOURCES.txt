@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+Restcomm_Python_SDk/__init__.py
+Restcomm_Python_SDk.egg-info/PKG-INFO
+Restcomm_Python_SDk.egg-info/SOURCES.txt
+Restcomm_Python_SDk.egg-info/dependency_links.txt
+Restcomm_Python_SDk.egg-info/not-zip-safe
+Restcomm_Python_SDk.egg-info/requires.txt
+Restcomm_Python_SDk.egg-info/top_level.txt
