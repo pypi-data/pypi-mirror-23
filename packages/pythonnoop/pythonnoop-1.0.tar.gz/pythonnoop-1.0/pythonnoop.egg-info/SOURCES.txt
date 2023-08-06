@@ -1,0 +1,5 @@
+setup.py
+pythonnoop.egg-info/PKG-INFO
+pythonnoop.egg-info/SOURCES.txt
+pythonnoop.egg-info/dependency_links.txt
+pythonnoop.egg-info/top_level.txt
