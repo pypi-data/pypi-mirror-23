@@ -1,0 +1,13 @@
+cloud_compose_ecs-0.1.1-py2.7-nspkg.pth,sha256=qvrxVaTHY-dYgyCVY8y-ggxtRUlnrvTbs7FJE3kPDCQ,569
+cloud_compose_ecs-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cloud_compose_ecs-0.1.1.dist-info/METADATA,sha256=nYtSVYxpIBw_ObwmGofZYbqaetDVTVVRCoWicAy_gWA,543
+cloud_compose_ecs-0.1.1.dist-info/RECORD,,
+cloud_compose_ecs-0.1.1.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+cloud_compose_ecs-0.1.1.dist-info/metadata.json,sha256=JTnaG3iSLB8OVledOUAzojROKlH-OSccPpyJuaJ-p74,766
+cloud_compose_ecs-0.1.1.dist-info/namespace_packages.txt,sha256=97wnmydfDyz1fUDOL1tKkBSY1QAEQysezcELpQHhQhk,13
+cloud_compose_ecs-0.1.1.dist-info/top_level.txt,sha256=97wnmydfDyz1fUDOL1tKkBSY1QAEQysezcELpQHhQhk,13
+cloudcompose/ecs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudcompose/ecs/controller.py,sha256=cESiTkvhFMKVf7CnbPK-ty6k2wehwB9uNboNU1Biv4c,15202
+cloudcompose/ecs/workflow.py,sha256=V1ekuTjcBlR3e6iIQfygvAFb2ltvPpKg6KCTi-UBfoo,4561
+cloudcompose/ecs/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudcompose/ecs/commands/cli.py,sha256=Ff_5GkrajuI-OQWnvDr5qlMDsALgcNkl56xZc-N_yHY,2143
