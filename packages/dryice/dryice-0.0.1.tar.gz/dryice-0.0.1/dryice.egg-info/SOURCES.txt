@@ -1,0 +1,5 @@
+setup.py
+dryice.egg-info/PKG-INFO
+dryice.egg-info/SOURCES.txt
+dryice.egg-info/dependency_links.txt
+dryice.egg-info/top_level.txt
