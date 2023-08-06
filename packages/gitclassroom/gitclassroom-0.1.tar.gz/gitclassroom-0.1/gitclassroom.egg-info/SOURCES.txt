@@ -1,0 +1,13 @@
+setup.py
+gclr/__init__.py
+gclr/cfg.py
+gclr/exec.py
+gclr/export.py
+gclr/get-pip.py
+gclr/test.py
+gitclassroom.egg-info/PKG-INFO
+gitclassroom.egg-info/SOURCES.txt
+gitclassroom.egg-info/dependency_links.txt
+gitclassroom.egg-info/not-zip-safe
+gitclassroom.egg-info/requires.txt
+gitclassroom.egg-info/top_level.txt
