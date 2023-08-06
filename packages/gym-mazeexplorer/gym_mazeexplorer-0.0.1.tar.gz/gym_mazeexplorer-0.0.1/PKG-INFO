@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gym_mazeexplorer
+Version: 0.0.1
+Summary: A maze exploration environment for openai/gym
+Home-page: https://github.com/mryellow/gym-mazeexplorer
+Author: Mr-Yellow
+Author-email: mr-yellow@mr-yellow.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
