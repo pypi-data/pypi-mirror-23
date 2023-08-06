@@ -1,0 +1,16 @@
+rorocloud/__init__.py,sha256=xF4rrUhv16wk7BuiQ-ShYD2VO006ZmiCHIbUD0G6U9I,257
+rorocloud/auth.py,sha256=8HY3_WGfUTZtIvw3eusTxkoyd7pqlCeps3HDH739YmE,1345
+rorocloud/cli.py,sha256=uR1-SI8Kh6qlBY_oowHHdV8EmNMNHDI4ecLhdlwp57s,6543
+rorocloud/client.py,sha256=AbdK0Rf6KUJngGM9tda1V2Vv6LqU0sYBL9q5zb9QABs,5028
+rorocloud/utils.py,sha256=kmgK6AiTgQ0rf3ZsrnMxGX2H9U0QLuNI46kthhmHnd8,802
+rorocloud/version.py,sha256=2S-QXbTTYTI-GABjxNZ7Bz5YG36dAiD0H9ieWZbx2tI,23
+rorocloud-0.2.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+rorocloud-0.2.1.dist-info/METADATA,sha256=kaIb_ransZDcdD-jhGWrxbDtzokyumHVBThOrjT1X4I,323
+rorocloud-0.2.1.dist-info/RECORD,,
+rorocloud-0.2.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+rorocloud-0.2.1.dist-info/entry_points.txt,sha256=Xu16flXFf4TJAbjX1nQGtgU1pm3JszLE8AYRg9tHVAo,113
+rorocloud-0.2.1.dist-info/metadata.json,sha256=NEQjm1Wu48h70HoP3soMS8Fwi6Dp5xTqqt8ls3qHHuw,676
+rorocloud-0.2.1.dist-info/top_level.txt,sha256=SLFFgZ5KNd0V_ACSdEW0rqRxyHUp_sIn_chi616AlzU,23
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=T0-af5iyM9xE58JG157ibQJ7Ti-mzBx9ilz22vD5W3U,41
+tests2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
