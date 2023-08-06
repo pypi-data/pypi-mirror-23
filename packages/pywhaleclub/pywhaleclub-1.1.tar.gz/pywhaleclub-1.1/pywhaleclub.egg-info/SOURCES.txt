@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pywhaleclub/__init__.py
+pywhaleclub/client.py
+pywhaleclub.egg-info/PKG-INFO
+pywhaleclub.egg-info/SOURCES.txt
+pywhaleclub.egg-info/dependency_links.txt
+pywhaleclub.egg-info/not-zip-safe
+pywhaleclub.egg-info/requires.txt
+pywhaleclub.egg-info/top_level.txt
