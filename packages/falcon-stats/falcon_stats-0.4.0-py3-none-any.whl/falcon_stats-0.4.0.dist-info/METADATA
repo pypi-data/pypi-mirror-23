@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: falcon-stats
+Version: 0.4.0
+Summary: A simple middleware to gather request-response statistics from the falcon REST framework
+Home-page: https://github.com/dmuhs/falcon-stats
+Author: Dominik Muhs
+Author-email: dominik.muhs@outlook.com
+License: MIT
+Keywords: falcon falconframework rest-api statistics middleware
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: License :: OSI Approved :: MIT License
+
+# falcon-stats
+A falcon middleware for API usage statistics
+
+
