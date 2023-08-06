@@ -1,0 +1,9 @@
+setuptools
+zc.buildout
+zc.recipe.egg
+docutils
+Sphinx
+
+[test]
+zope.testing
+zope.testrunner
