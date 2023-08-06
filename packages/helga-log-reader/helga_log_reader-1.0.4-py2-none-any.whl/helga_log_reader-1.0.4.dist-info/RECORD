@@ -1,0 +1,12 @@
+helga_log_reader/__init__.py,sha256=obmMcMTZMXfEKCqPpC9CElLR7w0hVDwPE8N-I_SJdsk,71
+helga_log_reader/plugin.py,sha256=qJidWU99QC7qMDyvq0F7Rn5MCAwwTgnAzvR3PFWxbCU,3775
+helga_log_reader-1.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+helga_log_reader-1.0.4.dist-info/METADATA,sha256=NnrFKdincKRsLLasfSnEsYhVspttscQ_M4UzETaF8Ek,753
+helga_log_reader-1.0.4.dist-info/RECORD,,
+helga_log_reader-1.0.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+helga_log_reader-1.0.4.dist-info/entry_points.txt,sha256=Hb18LAGJopLbfIbGhf87DskpHFwnjnhsI1cqOOL4seg,65
+helga_log_reader-1.0.4.dist-info/metadata.json,sha256=Gu5sopVyhY41cqrzGGOIt2eanQgRItBNUKEEs13nNr4,1014
+helga_log_reader-1.0.4.dist-info/top_level.txt,sha256=KanNt0V9QedEVx-HVj7fROz5CoMD1WZ2VScKTB62HuQ,23
+helga_log_reader-1.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plugin.py,sha256=FU8ZXrow9oDwmzTFazRiED5SuR_-_4zWdqb6vOTfJBc,516
