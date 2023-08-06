@@ -1,0 +1,3 @@
+[console_scripts]
+white-generator = white_generator:main
+
