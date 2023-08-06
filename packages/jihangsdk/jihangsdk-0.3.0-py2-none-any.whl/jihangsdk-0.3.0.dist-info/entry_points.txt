@@ -1,0 +1,3 @@
+[console_scripts]
+jihangsdk = jihangsdk.help:main
+
