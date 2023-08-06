@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ANNOgesic
+Version: 0.6.11
+Summary: ANNOgesic - A tool for bacterial/archaeal RNA-Seq based genome annotations
+Home-page: https://github.com/Sung-Huan/ANNOgesic
+Author: Sung-Huan Yu
+Author-email: sung-huan.yu@uni-wuerzburg.de
+License: ISC License (ISCL)
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
