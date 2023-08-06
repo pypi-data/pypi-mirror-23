@@ -1,0 +1,5 @@
+[console_scripts]
+codepages = encodingutils.codepages:main
+testencoding = encodingutils.testencoding:main
+uni2esky = uni2esky.uni2esky:main
+
