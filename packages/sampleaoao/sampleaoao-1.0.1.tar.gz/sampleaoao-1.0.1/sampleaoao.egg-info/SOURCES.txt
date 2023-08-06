@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+sample/__init__.py
+sample/package_data.dat
+sampleaoao.egg-info/PKG-INFO
+sampleaoao.egg-info/SOURCES.txt
+sampleaoao.egg-info/dependency_links.txt
+sampleaoao.egg-info/entry_points.txt
+sampleaoao.egg-info/requires.txt
+sampleaoao.egg-info/top_level.txt
