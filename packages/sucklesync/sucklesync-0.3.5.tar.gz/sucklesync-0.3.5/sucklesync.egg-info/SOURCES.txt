@@ -1,0 +1,16 @@
+README.txt
+setup.py
+bin/sucklesync
+sucklesync/__init__.py
+sucklesync/sucklesync.py
+sucklesync.egg-info/PKG-INFO
+sucklesync.egg-info/SOURCES.txt
+sucklesync.egg-info/dependency_links.txt
+sucklesync.egg-info/requires.txt
+sucklesync.egg-info/top_level.txt
+sucklesync/config/__init__.py
+sucklesync/config/config.py
+sucklesync/utils/__init__.py
+sucklesync/utils/debug.py
+sucklesync/utils/email.py
+sucklesync/utils/simple_timer.py
