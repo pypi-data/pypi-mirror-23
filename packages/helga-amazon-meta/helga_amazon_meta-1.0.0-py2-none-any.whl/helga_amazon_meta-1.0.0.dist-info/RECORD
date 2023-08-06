@@ -1,0 +1,12 @@
+helga_amazon_meta/__init__.py,sha256=7_UCLuJzUqMujJEWcv5qHHgdOmTo0cBOx9FK2eVhwMM,71
+helga_amazon_meta/plugin.py,sha256=pXzSNm2pdxMwtAZOsXYK1WF2ZwlRNUE2TNOIgbH597Y,745
+helga_amazon_meta-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+helga_amazon_meta-1.0.0.dist-info/METADATA,sha256=yysoAjcynPdA2fJQ7fkKB9g33PoRKrvIjLfGAxmuRgk,783
+helga_amazon_meta-1.0.0.dist-info/RECORD,,
+helga_amazon_meta-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+helga_amazon_meta-1.0.0.dist-info/entry_points.txt,sha256=hzPVBx78lY9G4ZSmYZHEbdN1rZlTeYqoeLhqY8YT0ZY,68
+helga_amazon_meta-1.0.0.dist-info/metadata.json,sha256=6fliSmMXLA-WGdkgZmApfE_8ewiIHrG41rTCLXO1JZo,1044
+helga_amazon_meta-1.0.0.dist-info/top_level.txt,sha256=HcRsXyPp06GoUl72rHpTkwA5z_gSXKVgYbGys_thZNg,24
+helga_amazon_meta-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plugin.py,sha256=JZxo3jD_FrvXLt2V_HE-xeyozfSdWH4MC4ckVyGCR6k,544
