@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: roulette
+Version: 1.0
+Summary: Roullette fame
+Home-page: https://github.com/gabfl/roulette
+Author: Gabriel Bordeaux
+Author-email: pypi@gab.lc
+License: MIT
+Description: Roulette
+        ========
+        
+        Installation
+        ------------
+        
+        ::
+        
+            pip3 install roulette
+        
+            roulette
+        
+Platform: UNKNOWN
