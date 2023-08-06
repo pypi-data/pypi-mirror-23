@@ -1,0 +1,7 @@
+setup.py
+TFBOYS/__init__.py
+TFBOYS.egg-info/PKG-INFO
+TFBOYS.egg-info/SOURCES.txt
+TFBOYS.egg-info/dependency_links.txt
+TFBOYS.egg-info/requires.txt
+TFBOYS.egg-info/top_level.txt
