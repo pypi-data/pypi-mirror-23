@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dropSeqPipe
+Version: 0.23
+Summary: A drop-seq pipeline
+Home-page: http://github.com/hoohm/dropSeqPipe
+Author: Roelli Patrick
+Author-email: patrick.roelli@gmail.com
+License: GNU GPL3
+Download-URL: http://github.com/hoohm/dropSeqPipe/archive/0.23.tar.gz
+Description: UNKNOWN
+Keywords: single cell,dropseq,drop-seq
+Platform: UNKNOWN

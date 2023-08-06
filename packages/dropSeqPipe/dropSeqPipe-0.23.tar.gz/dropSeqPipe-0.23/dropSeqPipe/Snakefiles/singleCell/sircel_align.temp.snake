@@ -1,0 +1,39 @@
+"""Generate pre alignement steps."""
+
+
+# Configfile
+configfile: 'config.yaml'
+
+CORES = config['CORES']
+# Executables
+TMPDIR = config['TMPDIR']
+SIRCEL = config['SIRCEL']
+
+# Reference files
+KALLISTOINDEX = config['KALLISTOINDEX']
+
+
+rule all:
+	input: expand('logs/{sample}', sample=config['Samples'])
+
+rule sircel_kallisto:
+	input:
+		r1 = '{sample}_R1.fastq.gz',
+		r2 = '{sample}_R2.fastq.gz'
+	output: 'logs/{sample}'
+	params:
+		BC_start = config['GLOBAL']['Cell_barcode']['start']-1,
+		BC_end = config['GLOBAL']['Cell_barcode']['end'],
+		UMI_start = config['GLOBAL']['UMI']['start']-1,
+		UMI_end = config['GLOBAL']['UMI']['end']
+	shell:
+		"""python3 {SIRCEL}\
+		--threads {CORES}\
+		--output_dir {output}\
+		--reads {input.r2}\
+		--barcodes {input.r1}\
+		--kallisto_idx {KALLISTOINDEX}\
+		--barcode_start {params.BC_start}\
+		--barcode_end {params.BC_end}\
+		--umi_start {params.UMI_start}\
+		--umi_end {params.UMI_end}"""

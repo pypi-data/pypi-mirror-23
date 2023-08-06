@@ -1,0 +1,37 @@
+#Configfile
+configfile:'config.yaml'
+
+STAREXEC = config['STAREXEC']
+
+METAREF = config['METAREF']
+CORES = config['CORES']
+
+
+
+rule all:
+    input: expand('{sample}_Aligned.sam', sample=config['Samples'])
+    shell:"""{STAREXEC}\
+        --genomeDir {METAREF}\
+        --genomeLoad Remove;rm -rf Aligned.out.sam Log.out Log.progress.out _STARtmp"""
+
+
+rule STAR_align:
+    input:  temp('{sample}_R2.fastq.gz')
+    output: 'logs/{sample}_STAR_Aligned.out.sam'
+    params: prefix = '{sample}_STAR_'
+    shell:"""{STAREXEC}\
+            --genomeDir {METAREF}\
+            --runThreadN {CORES}\
+            --outFilterMismatchNmax=4\
+            --readFilesIn {input}\
+            --genomeLoad LoadAndKeep\
+            --quantMode GeneCounts\
+            --readFilesCommand zcat\
+            --outFileNamePrefix logs/{params.prefix}"""
+
+rule mv_sam:
+    input: 'logs/{sample}_STAR_Aligned.out.sam'
+    output: '{sample}_Aligned.sam'
+    params: prefix = '{sample}'
+    shell:"""mv {input} {output}; mv logs/{params.prefix}_STAR_ReadsPerGene.out.tab summary/{params.prefix}_ensembl.readcounts"""
+
