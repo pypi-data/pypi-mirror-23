@@ -1,0 +1,9 @@
+codemach/__init__.py,sha256=XtRUTkbUMhsZkGiLECGoqVqFQn_BIcWuItZ93pKsrKc,120
+codemach/assembler.py,sha256=bpFdsA534GdsSX9xP2BYHpFfHa1T8iOdhkfs0bXWcgg,3733
+codemach/machine.py,sha256=Vs9jqxk3IVG1xktcOfumGIgvsBFF2MvVQP-VbUEfzoo,12860
+codemach-0.4b3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+codemach-0.4b3.dist-info/METADATA,sha256=mS57fLSjHrMJMxz_IBYxaF_yYO4cprOYgzjXjVzkYnQ,298
+codemach-0.4b3.dist-info/RECORD,,
+codemach-0.4b3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+codemach-0.4b3.dist-info/metadata.json,sha256=eLZBa-8en0Izh7ypoeGHQh1lZnFp_0r-n-_Zvb3iZpo,510
+codemach-0.4b3.dist-info/top_level.txt,sha256=0QVBqjPOlt0x1E6McxXxaeHt4SbUKNbG--TZaG6jvoU,9
