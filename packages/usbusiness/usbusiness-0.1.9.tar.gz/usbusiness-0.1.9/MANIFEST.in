@@ -1,0 +1,9 @@
+#data used for clustering
+include usbusiness/data google_100k.txt
+include usbusiness/data naics_codes_2012.csv
+include usbusiness/data stop_words.txt
+
+#Misc
+# include CHANGES.txt
+include LICENSE.txt
+include README.md
