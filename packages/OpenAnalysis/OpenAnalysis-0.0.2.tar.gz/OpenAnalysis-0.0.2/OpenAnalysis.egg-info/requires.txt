@@ -1,0 +1,7 @@
+networkx
+numpy
+matplotlib
+
+[extensions]
+jupyter
+ipython

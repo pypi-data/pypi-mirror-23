@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: OpenAnalysis
+Version: 0.0.2
+Summary: An open source package to analyse and visualise algorithms and data structures
+Home-page: http://openalgorithm.readthedocs.io
+Author: OpenWeavers1
+Author-email: srmonish96@gmail.com
+License: GPLv3+
+Description: # Algorithm
+        [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+        [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/OpenWeavers/OpenAlgorithm)
+        [![ghit.me](https://ghit.me/badge.svg?repo=OpenWeavers/OpenAlgorithm)](https://ghit.me/repo/OpenWeavers/OpenAlgorithm)
+        
+        ## About
+        An attempt to implement several Algorithms and Data Structures in various Programming Languages.
+        
+        Currently we are building Algorithms in C#, Java and Python.
+        
+        The aim is to Maintain the Same Interface and Functionality throughout all the Languuages.
+        
+        ## Some Guidelines
+        1. Maintain each Classes/Modules in Seperate Code Files
+        2. Maintain the code well documented (like JavaDoc)
+        
+        
+        ### Note
+        Class Specific Guidelines are maintained at [CommonDocs](CommonDocs/)
+        
+Keywords: OpenWeavers product
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
