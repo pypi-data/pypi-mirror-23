@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dp4gp
+Version: 1.01
+Summary: Differential Privacy for Gaussian Processes
+Home-page: https://github.com/lionfish0/dp4gp.git
+Author: Mike Smith
+Author-email: m.t.smith@sheffield.ac.uk
+License: UNKNOWN
+Download-URL: https://github.com/lionfish0/dp4gp/archive/1.01.tar.gz
+Description: UNKNOWN
+Keywords: differential privacy,gaussian processes
+Platform: UNKNOWN
