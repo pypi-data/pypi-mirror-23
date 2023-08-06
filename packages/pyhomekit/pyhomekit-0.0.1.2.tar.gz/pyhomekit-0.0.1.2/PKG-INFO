@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: pyhomekit
+Version: 0.0.1.2
+Summary: Python interface to control HomeKit accessories.
+Home-page: https://github.com/henridwyer/pyhomekit
+Author: Henri Dwyer
+Author-email: gardianz@gmail.com
+License: MIT
+Description: PyHomeKit - Python interface to control HomeKit accessories.
+        ============================================================
+        
+        :Author: Henri Dwyer
+        
+        .. image:: https://api.travis-ci.org/henridwyer/pyhomekit.png
+        	   :target: https://travis-ci.org/henridwyer/pyhomekit
+        
+        
+        PyHomeKit let's you control HomeKit accessories using a pythonic interface. Supports both BLE and HTTP devices.
+        
+        Requirements
+        ------------
+        
+        - Python 3.6.
+        
+        
+        Usage
+        ------------------
+        
+        
+        .. code-block:: python
+        
+            # content of test_sample.py
+            def inc(x):
+                return x + 1
+        
+            def test_answer():
+                assert inc(3) == 5
+        
+        
+        What is it good for?
+        --------------------
+        
+        Controlling HomeKit accessories using python.
+        
+Keywords: homekit bluetooth home
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

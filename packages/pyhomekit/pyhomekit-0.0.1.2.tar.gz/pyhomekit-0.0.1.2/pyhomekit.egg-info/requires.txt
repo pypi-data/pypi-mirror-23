@@ -1,0 +1,6 @@
+bluepy
+tenacity
+
+[dev]
+py.test
+mypy
