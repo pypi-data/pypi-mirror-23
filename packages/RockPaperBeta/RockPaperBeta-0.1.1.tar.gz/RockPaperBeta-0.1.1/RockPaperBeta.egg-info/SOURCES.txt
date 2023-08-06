@@ -1,0 +1,6 @@
+RockPaperBeta.py
+setup.py
+RockPaperBeta.egg-info/PKG-INFO
+RockPaperBeta.egg-info/SOURCES.txt
+RockPaperBeta.egg-info/dependency_links.txt
+RockPaperBeta.egg-info/top_level.txt
