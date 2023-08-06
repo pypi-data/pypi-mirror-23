@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: nuage-vsd-sim
+Version: 1.0.0b6
+Summary: A sample Nuage VSD API simulator
+Home-page: http://github.com/pdellaert/nuage-vsd-sim
+Author: Philippe Dellaert
+Author-email: philippe@dellaert.org
+License: BSD 3-Clause
+Description: UNKNOWN
+Keywords: Nuage VSD API simulator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=2.6, <3

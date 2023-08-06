@@ -1,0 +1,2 @@
+vspk>=5.0.0
+flask-restful
