@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+docs/CHANGES.rst
+docs/CONTRIBUTORS.rst
+docs/LICENSE.txt
+src/check_task_log/__init__.py
+src/check_task_log/check_task_log.py
+src/check_task_log/config.ini
+src/check_task_log.egg-info/PKG-INFO
+src/check_task_log.egg-info/SOURCES.txt
+src/check_task_log.egg-info/dependency_links.txt
+src/check_task_log.egg-info/entry_points.txt
+src/check_task_log.egg-info/not-zip-safe
+src/check_task_log.egg-info/requires.txt
+src/check_task_log.egg-info/top_level.txt
+src/check_task_log/tests/test_check_task_log.py
