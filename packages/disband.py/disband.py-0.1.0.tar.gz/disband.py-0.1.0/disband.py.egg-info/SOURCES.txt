@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+disband/__init__.py
+disband/client.py
+disband/http.py
+disband.py.egg-info/PKG-INFO
+disband.py.egg-info/SOURCES.txt
+disband.py.egg-info/dependency_links.txt
+disband.py.egg-info/requires.txt
+disband.py.egg-info/top_level.txt
