@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: sosaxy
+Version: 0.4.0
+Summary: xml processing utility
+Home-page: http://github.com/xianwill/py-sosaxy
+Author: Christian Williams
+Author-email: xianwill79@gmail.com
+License: MIT
+Keywords: xml sax json
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
