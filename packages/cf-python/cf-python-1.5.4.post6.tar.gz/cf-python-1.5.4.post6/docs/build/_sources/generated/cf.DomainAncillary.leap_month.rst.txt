@@ -1,0 +1,7 @@
+cf.DomainAncillary.leap_month
+=============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.leap_month
