@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+Emojipedia.egg-info/PKG-INFO
+Emojipedia.egg-info/SOURCES.txt
+Emojipedia.egg-info/dependency_links.txt
+Emojipedia.egg-info/top_level.txt
+emojipedia/__init__.py
+emojipedia/emoji.py
+emojipedia/emojipedia.py
