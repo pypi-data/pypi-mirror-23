@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: businessru-api
+Version: 0.1
+Summary: small wrapper around business.ru API
+Home-page: https://github.com/nuqlear/businessru-api
+Author: Oleg Shigorin
+Author-email: mail@olegshigor.in
+License: UNKNOWN
+Download-URL: https://github.com/nuqlear/businessru-api/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: business.ru,businessru
+Platform: UNKNOWN
