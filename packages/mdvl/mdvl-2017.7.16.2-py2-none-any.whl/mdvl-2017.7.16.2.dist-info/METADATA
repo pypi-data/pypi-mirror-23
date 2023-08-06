@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: mdvl
+Version: 2017.7.16.2
+Summary: Lightweight Terminal Markdown Renderer
+Home-page: https://github.com/axiros/mdvl
+Author: Gunther Klessinger
+Author-email: gk@axiros.com
+License: BSD
+Keywords: markdown,markup,terminal,hilighting,syntax,source code
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
