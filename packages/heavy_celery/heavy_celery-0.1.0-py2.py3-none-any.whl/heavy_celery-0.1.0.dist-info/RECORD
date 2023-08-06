@@ -1,0 +1,14 @@
+heavy_celery/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+heavy_celery/apps.py,sha256=1pphfLVNH8T27jx18B80SbGDOufy5Hr-Ucft8ccGhGE,118
+heavy_celery/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+heavy_celery/urls.py,sha256=0aE3OlS81ikQ8hbKC4E3xEkCVOgvWRCVmNy9TXLQg7w,210
+heavy_celery/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heavy_celery/static/css/heavy_celery.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heavy_celery/static/js/heavy_celery.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heavy_celery/templates/heavy_celery/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+heavy_celery-0.1.0.dist-info/DESCRIPTION.rst,sha256=v8yQA0mePXRV2pV1r1dJi_kb4E-JcirMQ88G3V_twl0,1769
+heavy_celery-0.1.0.dist-info/METADATA,sha256=AWlrsvsFRZCKm1yibD-hZqUbO4p49Vn0h5cUIXwAjOI,2678
+heavy_celery-0.1.0.dist-info/RECORD,,
+heavy_celery-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+heavy_celery-0.1.0.dist-info/metadata.json,sha256=LoZr5S2j0QgioPFkjCQJnmVu1d-ZII7_y9f2Velokm0,984
+heavy_celery-0.1.0.dist-info/top_level.txt,sha256=-dVYO8fGO6RMBJa3bVWGQ8rBKMQdWGLcrPamrD0x10Y,13
