@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mooq
+Version: 0.1.1
+Summary: An asyncio compatible library for interacting with a RabbitMQ AMQP broker
+Home-page: https://github.com/jeremyarr/mooq
+Author: Jeremy Arr
+Author-email: jeremyarr@gmail.com
+License: MIT
+Description: An asyncio compatible library for interacting with a RabbitMQ AMQP broker
+Keywords: amqp,pika,rabbitmq
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Communications
