@@ -1,0 +1,4 @@
+ldap3
+pyyaml==3.10
+psycopg2
+six
