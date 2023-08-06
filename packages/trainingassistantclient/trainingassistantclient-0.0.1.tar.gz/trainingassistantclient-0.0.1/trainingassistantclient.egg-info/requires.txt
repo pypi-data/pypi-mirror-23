@@ -1,0 +1,2 @@
+sc2trainingassistant
+sc2replaynotifier

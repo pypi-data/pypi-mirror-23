@@ -1,0 +1,9 @@
+setup.py
+trainingassistantclient/__init__.py
+trainingassistantclient/trainingassistant.py
+trainingassistantclient.egg-info/PKG-INFO
+trainingassistantclient.egg-info/SOURCES.txt
+trainingassistantclient.egg-info/dependency_links.txt
+trainingassistantclient.egg-info/entry_points.txt
+trainingassistantclient.egg-info/requires.txt
+trainingassistantclient.egg-info/top_level.txt
