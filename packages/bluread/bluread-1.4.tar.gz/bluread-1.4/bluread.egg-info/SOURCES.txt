@@ -1,0 +1,12 @@
+MANIFEST.in
+README
+setup.py
+bluread/__init__.py
+bluread/objects.py
+bluread.egg-info/PKG-INFO
+bluread.egg-info/SOURCES.txt
+bluread.egg-info/dependency_links.txt
+bluread.egg-info/top_level.txt
+bluread.egg-info/.AppleDouble/.Parent
+src/bluread.c
+src/bluread.h
