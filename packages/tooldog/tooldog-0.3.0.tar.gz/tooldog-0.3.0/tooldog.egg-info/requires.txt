@@ -1,0 +1,5 @@
+rdflib
+requests
+galaxyxml
+cwlgen
+docker==2.1.0
