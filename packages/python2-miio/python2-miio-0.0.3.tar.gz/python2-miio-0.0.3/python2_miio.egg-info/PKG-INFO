@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: python2-miio
+Version: 0.0.3
+Summary: Python2 library for interfacing with Xiaomi miio components
+Home-page: https://github.com/wzpan/python2-miio
+Author: Joseph Pan
+Author-email: m@hahack.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: xiaomi miio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
