@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: orakwlum
+Version: 0.6.1
+Summary: oraKWlum lib
+Home-page: https://github.com/gisce/orakWlum
+Author: GISCE Enginyeria, SL
+Author-email: devel@gisce.net
+License: General Public Licence 3
+Download-URL: https://github.com/gisce/orakWlum/archive/v0.6.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Provides: orakwlum
