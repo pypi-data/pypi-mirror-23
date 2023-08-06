@@ -1,0 +1,4 @@
+pytest-runner
+cairosvg
+python-dateutil
+requests
