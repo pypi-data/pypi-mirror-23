@@ -1,0 +1,42 @@
+Metadata-Version: 2.0
+Name: bit-bind
+Version: 0.0.1
+Summary: Bittrex SMS Notifier
+Home-page: https://github.com/hthompson6/bit-bind
+Author: Hunter Thompson
+Author-email: thompson.grey.hunter@gmail.com
+License: MIT
+Keywords: sms bittrex
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+
+# bit_bind
+Custom API bindings for bittrex
+
+## Installation
+```
+$ pip install bit_bind
+```
+
+### Install from source
+```
+$ git clone  https://github.com/hthompson6/bit_bind.git
+$ cd bit_bind
+$ python setup.py install
+```
+
+## Usage
+```python
+api_key = `xxxxxxxxxxxxxxxxx`
+api_secret = `zzzzzzzzzzzzzz`
+
+bit_bound = BittrexAPIBinder(api_key, api_secret)
+bit_bound.get_current_balances()
+bit_bound.get_current_value('BTC', 'VOX')
+```
+
+
