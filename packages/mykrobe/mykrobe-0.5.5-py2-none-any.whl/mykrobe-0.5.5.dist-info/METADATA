@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: mykrobe
+Version: 0.5.5
+Summary: .
+Home-page: https://github.com/iqbal-lab/Mykrobe-predictor
+Author: Phelim Bradley, Zamin Iqbal
+Author-email: wave@phel.im, zam@well.ox.ac.uk
+License: https://github.com/iqbal-lab/Mykrobe-predictor/blob/master/LICENSE
+Platform: UNKNOWN
+Requires-Dist: mykatlas
+
+UNKNOWN
+
+
