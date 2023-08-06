@@ -1,0 +1,11 @@
+requests
+lxml
+cssselect
+click
+pyaml
+
+[release]
+python-semantic-release
+
+[tests]
+flake8

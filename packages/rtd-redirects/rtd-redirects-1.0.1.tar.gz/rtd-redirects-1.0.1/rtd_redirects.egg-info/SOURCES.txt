@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+rtd_redirects.py
+setup.cfg
+setup.py
+rtd_redirects.egg-info/PKG-INFO
+rtd_redirects.egg-info/SOURCES.txt
+rtd_redirects.egg-info/dependency_links.txt
+rtd_redirects.egg-info/entry_points.txt
+rtd_redirects.egg-info/requires.txt
+rtd_redirects.egg-info/top_level.txt
