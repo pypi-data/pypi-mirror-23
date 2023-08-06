@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: tcpflow
+Version: 0.1.1
+Summary: A wrapper to use the TcpFlow CLI
+Home-page: https://github.com/liftitapp/tcpflow.py
+Author: Michel Perez
+Author-email: michel.ingesoft@gmail.com
+License: MIT
+Keywords: tcp development utils cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+
+# TcpFlow
+
+this library is a wrapper around the cli tcpflow to check the outgoing requests urls
+
+developed by [Michel Perez](https://github.com/mrkaspa)
+
+
