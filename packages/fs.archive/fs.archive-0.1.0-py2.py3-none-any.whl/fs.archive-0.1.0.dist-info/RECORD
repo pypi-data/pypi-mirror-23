@@ -1,0 +1,14 @@
+fs/archive/__init__.py,sha256=bthV12isL3knA3jbaLO5Pua3wk3QhT7-6PljE66W-nM,157
+fs/archive/base.py,sha256=xeBcwTllIRPRATttP5TZX7w4XN5yE1qOqkGWf-lF84c,4224
+fs/archive/opener.py,sha256=CByEoytdhSQeg0j2hk0kdsSKvdNVLjbwfird9Srh4zY,1367
+fs/archive/tarfs.py,sha256=vWBGdqvZiVhBR8-_ZbJh_zCZe6nOzQfnDdbWIASYx54,9409
+fs/archive/test.py,sha256=88549eEsRkn5refSYWK65zHiXbhRjOoqmKM8G9NuIP4,10421
+fs/archive/zipfs.py,sha256=APmgtsJ2NXe6HMCG84HgFXVNJ4fhQmZ9S_WtWmugBdE,8446
+fs.archive-0.1.0.dist-info/DESCRIPTION.rst,sha256=u-NHBq8mxi1HQojFR9lNutWPDuR-rr8MNO8fFJxKPzE,5223
+fs.archive-0.1.0.dist-info/METADATA,sha256=KJXhsxMcoO2f9Xs-zuZHnRnumcINlflCH4vzs4lTerE,6321
+fs.archive-0.1.0.dist-info/RECORD,,
+fs.archive-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+fs.archive-0.1.0.dist-info/entry_points.txt,sha256=114VNJM7j6rAweWe9PW5_KD97BxnsGejnnfIHPFsUbY,356
+fs.archive-0.1.0.dist-info/metadata.json,sha256=J58Jbv6C-Omhucv9DwZCXM30lPfe7oZDFEH9oNnfGh4,1745
+fs.archive-0.1.0.dist-info/top_level.txt,sha256=387pB38TPn9aMO3b518yxXxgB0uN0XWa1WNbSnES7r8,3
+fs.archive-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
