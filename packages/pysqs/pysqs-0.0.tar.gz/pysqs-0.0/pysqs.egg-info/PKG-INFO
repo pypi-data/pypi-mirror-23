@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: pysqs
+Version: 0.0
+Summary: pysqs calculates simple quasirandom structures
+Home-page: https://brandonbockund.com/
+Author: Brandon Bocklund
+Author-email: brandonbocklund@gmail.com
+License: MIT
+Description: =====
+        pysqs
+        =====
+        
+        Calculate simple quasirandom structures.
+        
+        Status
+        ======
+        
+        pysqs is still in initial development.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

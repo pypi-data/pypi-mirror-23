@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+pysqs/__init__.py
+pysqs/_version.py
+pysqs/enumerate.c
+pysqs.egg-info/PKG-INFO
+pysqs.egg-info/SOURCES.txt
+pysqs.egg-info/dependency_links.txt
+pysqs.egg-info/top_level.txt
