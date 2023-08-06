@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: redis-interval
+Version: 0.1
+Summary: Extension of the python library for Redis with the Intervalsets extension of Redis
+Home-page: UNKNOWN
+Author: Gustavo Pantuza
+Author-email: gustavopantuza@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
