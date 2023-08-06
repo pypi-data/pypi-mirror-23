@@ -1,0 +1,242 @@
+{% extends "base.htm" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block css %}
+   {{ block.super }}
+   <style>
+        body {
+            /*font: 24px Helvetica;*/
+            background: #999999;
+        }
+
+        #container {
+            min-height: 800px;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-flow: row;
+            align-items: stretch;
+            background-color: #ebeef0;
+        }
+     
+        #container > .main-content {
+            margin: 4px;
+            padding: 5px;
+            border: 1px solid #cccc33;
+            border-radius: 7pt;
+            background: #dddd88;
+            flex: 3 1 100%;
+            order: 2;
+        }
+
+        #container > nav {
+            margin: 4px;
+            padding: 5px;
+            border: 1px solid #8888bb;
+            border-radius: 7pt;
+            background-color: #ebeef0;
+            flex: 54px;
+            order: 1;
+        }
+
+        #topnav{
+            display: none;
+        }
+    
+     
+        header, footer {
+            display: block;
+            margin: 4px;
+            padding: 5px;
+            min-height: 50px;
+            border: 1px solid #eebb55;
+            border-radius: 7pt;
+            background: #ffeebb;
+        }
+     
+        /* Too narrow to support three columns */
+        @media all and (max-width: 768px) {
+            #container {
+                /*flex-direction: column;*/
+            }
+
+            #container > article, #container > nav, #container > aside {
+            /* Return them to document order */
+                /*order: 0;*/
+            }
+      
+            #container > nav, #container > aside, header, footer {
+     /*           min-height: 50px;
+                max-height: 50px;*/
+            }
+
+            #topnav{
+                display: block;
+            }
+        }
+   </style>
+{% endblock css%}
+
+{% block body %}
+
+    <div id="container" class="effect mainnav-sm aside-left aside-bright navbar-fixed">
+        <main class="main-content">
+            <header id="topnav" style="">Top NavBar</header>
+            <header style="z-index: 1000; opacity: .9;">
+                {% block header %}
+                Header
+                {% endblock header %}
+            </header>
+
+            {% block content %}
+            {% endblock content %}
+
+        </main>
+        <nav style="position: relative; left: 0px; width: inherit;">
+            <div id="mainnav" class="mainnav-in">
+                {% block navbar %}
+                <div id="mainnav-menu-wrap" style="margin-top: 0px;">
+                    <div class="nano">
+                        <div class="nano-content" tabindex="0">
+                            <ul id="mainnav-menu" class="list-group">
+
+                                <!-- Tools -->
+                                <li class="list-header">Tools</li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-tachometer"></i>
+                                        <span class="menu-title">
+                                            <strong>Dashboard</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="{% url 'resource' %}" data-bind="click: navigate.bind(this, '/resource') ">
+                                        <i class="fa fa-building-o"></i>
+                                        <span class="menu-title">
+                                            <strong>Add New Resource</strong>
+                                        </span>
+                                    </a>
+                                    <ul class="collapse in pop-in" aria-expanded="false">
+                                        <!-- ko foreach: allGraphs -->
+                                        <!-- ko if: isresource -->
+                                        <li class="link-submenu-item">
+                                            <a class="link-submenu" data-bind="attr: { href: '/graph/' + graphid + '/add_resource'}">
+                                                <i class="fa arches-menu-icon" data-bind="css: iconclass"></i> <span data-bind="text:name"></span></a>
+                                        </li>
+                                        <!-- /ko -->
+                                        <!-- /ko -->
+                                    </ul>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="{% url 'config' %}">
+                                        <i class="ti-alarm-clock"></i>
+                                        <span class="menu-title">
+                                            <strong>System Settings</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li{% if main_script == "graph-list" %} class="active-sub"{% endif %}>
+                                    <a href="{% url 'graph' '' %}">
+                                        <i class="fa fa-bookmark"></i>
+                                        <span class="menu-title">
+                                            <strong>Arches Designer</strong>
+                                        </span>
+                                    </a>
+
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-server"></i>
+                                        <span class="menu-title">
+                                            <strong>Map Server Manager</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-globe"></i>
+                                        <span class="menu-title">
+                                            <strong>Field Project Manager</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-cloud-upload"></i>
+                                        <span class="menu-title">
+                                            <strong>Import/Export Manager</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <!--Menu list item-->
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-user-md"></i>
+                                        <span class="menu-title">
+                                            <strong>Profile Manager</strong>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="list-divider-dark"></li>
+
+                                <!-- Tools -->
+                                <li class="list-header">Modules</li>
+
+                                <!--Menu list item-->
+                                <li{% if main_script == "rdm" %} class="active-sub"{% endif %}>
+                                    <a href="{% url 'rdm' '' %}">
+                                        <i class="fa fa-align-left"></i>
+                                        <span class="menu-title">
+                                            RDM
+
+                                        </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endblock navbar %}
+            </div>
+        </nav>
+    </div>
+    <footer>               
+        {% block footer %}
+            <div>Arches v4.0.0</div>
+            <p>&#0169; Getty, WMF, Farallon Geographics</p>
+        {% endblock footer %}
+    </footer>
+
+{% endblock body %}
+
+
+{% block pre_require_js %}
+    <script>
+        {% autoescape off %}
+        define('view-data', [], function () {
+            return {
+                graphs: {{graphs}}
+            };
+        });
+        {% endautoescape %}
+    </script>
+{% endblock pre_require_js %}
