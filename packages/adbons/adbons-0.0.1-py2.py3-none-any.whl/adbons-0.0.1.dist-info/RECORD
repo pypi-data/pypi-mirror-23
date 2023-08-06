@@ -1,0 +1,11 @@
+adbons-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+adbons-0.0.1.dist-info/METADATA,sha256=V7JTnw4HXIZl98KRutSH7cFWdgS7NYw4bFxSSjwMl3E,682
+adbons-0.0.1.dist-info/RECORD,,
+adbons-0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+adbons-0.0.1.dist-info/entry_points.txt,sha256=_KFwUGbMZfabz-M8qDFWAx0vIxOU7vRuVllPQOqpFRs,43
+adbons-0.0.1.dist-info/metadata.json,sha256=jxTwzItKcEyH8BgueYhpbLLfp0ZJXjog9lrAH7fVbUg,998
+adbons-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/adb.py,sha256=BvBGJiEhcoChh9IK828HMXR803T81t4XZhb1VORyvWg,1631
+src/adbons.py,sha256=BeOM4TbzzKWMqdopqWNczxOkharddM45CJbdo8PhFOo,2913
+src/config.py,sha256=bV2G7AqG4B6ac1BQ8Z4yx-SoUEYf5VoGC1hmtsVauvo,2432
