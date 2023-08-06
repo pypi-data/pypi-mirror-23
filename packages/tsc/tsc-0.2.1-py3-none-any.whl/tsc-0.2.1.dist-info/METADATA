@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: tsc
+Version: 0.2.1
+Summary: TimeSeries Compressor
+Home-page: http://github.com/observerss/tsc
+Author: Jingchao Hu
+Author-email: jingchaohu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: brotli
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
