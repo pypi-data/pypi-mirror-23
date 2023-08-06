@@ -1,0 +1,87 @@
+Metadata-Version: 2.0
+Name: jsonrpcdb
+Version: 0.1.5
+Summary: DB API v2.0 for JSON-RPC
+Home-page: https://github.com/LiveStalker/json-rpc-db
+Author: Alexey V. Grebenshchikov
+Author-email: mi.aleksio@gmail.com
+License: MIT
+Keywords: db-api json-rpc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: json-rpc; extra == 'test'
+Requires-Dist: werkzeug; extra == 'test'
+
+JSON-RPC DB
+===========
+
+|Build Status| |Codacy Badge| |Codacy Badge|
+
+Primary goal
+------------
+
+This library realize Python Database API Specification v2.0 `PEP
+249 <https://www.python.org/dev/peps/pep-0249/>`__ for
+`JSON-RPC <http://www.jsonrpc.org/specification>`__. Standart python
+database api, but under the hood you make remote procedure call.
+
+Install
+-------
+
+.. code:: bash
+
+    pip install jsonrpcdb
+
+Usage
+-----
+
+.. code:: python
+
+    import jsonrpcdb
+
+    # without authentication
+    conn_params = {
+        'host': 'ip/hostname',  # default localhost
+        'port': 4000,  # default 4000
+        'database': 'uri path', # default empty value
+        'schema': 'http/https', # default http
+    }
+
+    # with token authentication
+    conn_params = {
+        'host': 'ip/hostname',
+        'port': 4000,
+        'database': 'uri path',
+        'schema': 'http/https',
+        'user': 'username',
+        'password': 'password',
+        'auth_type': 'token'
+    }
+
+    conn = jsonrpcdb.connect(**conn_params)
+    cur = conn.cursor()
+    data = {
+        'params': {} # remote procedure parameters
+    }
+    cur.execute('some_method', data)
+    results = cur.fetchall()
+
+.. |Build Status| image:: https://travis-ci.org/LiveStalker/json-rpc-db.svg?branch=master
+   :target: https://travis-ci.org/LiveStalker/json-rpc-db
+.. |Codacy Badge| image:: https://api.codacy.com/project/badge/Coverage/52f1f4086b654639b78ffc0b28bb9b00
+   :target: https://www.codacy.com/app/LiveStalker/json-rpc-db?utm_source=github.com&utm_medium=referral&utm_content=LiveStalker/json-rpc-db&utm_campaign=Badge_Coverage
+.. |Codacy Badge| image:: https://api.codacy.com/project/badge/Grade/52f1f4086b654639b78ffc0b28bb9b00
+   :target: https://www.codacy.com/app/LiveStalker/json-rpc-db?utm_source=github.com&utm_medium=referral&utm_content=LiveStalker/json-rpc-db&utm_campaign=Badge_Grade
+
+
