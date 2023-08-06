@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: hadoopconf
+Version: 1.0
+Summary: Read and get your Hadoop configuration as Python objects
+Home-page: https://github.com/Benji81/python-hadoop-conf
+Author: Benjamin Quétier
+Author-email: benjamin@invenis.co
+License: UNKNOWN
+Description: # python-hadoop-conf
+        Read your Hadoop configuration files and get a dictionary of properties.
+        
+        Usage:
+        ```python
+            from hadoopconf import get_hadoop_conf
+            conf = get_hadoop_conf()
+            print(conf['yarn.resourcemanager.webapp.address'])
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Communications

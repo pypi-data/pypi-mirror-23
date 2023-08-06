@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+hadoopconf/__init__.py
+hadoopconf/core.py
+hadoopconf.egg-info/PKG-INFO
+hadoopconf.egg-info/SOURCES.txt
+hadoopconf.egg-info/dependency_links.txt
+hadoopconf.egg-info/top_level.txt
