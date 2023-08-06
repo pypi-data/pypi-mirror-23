@@ -1,0 +1,7 @@
+setup.py
+panhello.egg-info/PKG-INFO
+panhello.egg-info/SOURCES.txt
+panhello.egg-info/dependency_links.txt
+panhello.egg-info/requires.txt
+panhello.egg-info/top_level.txt
+panhello.egg-info/zip-safe
