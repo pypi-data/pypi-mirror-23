@@ -1,0 +1,14 @@
+pic2vec/__init__.py,sha256=fiTUqn5NZdQHjviehpAkE3eaHUhHrPMu-q6qOrdoSEI,1168
+pic2vec/build_featurizer.py,sha256=prCbKM0aXRcmUxo-x3FPSMJtXLN0atKQCjBtAYhvcqU,14600
+pic2vec/data_featurizing.py,sha256=_cJ_QCI7AnYRocRC_4qudPrLQIKQWh1cz7pl9tD_D48,4253
+pic2vec/feature_preprocessing.py,sha256=Topj4dAU4dSzmSXp3mGsrwDMwXuQAbGemZb_VHitP7I,15108
+pic2vec/image_featurizer.py,sha256=3ADPqP2Id5KSQuK95Qb-9Fq9BxTm8mdV4dB33akZKXY,13268
+pic2vec/squeezenet.py,sha256=zu2fBqnTw2qXDyXI9QP4VvpF5XVvoT3nOGd5mRSDLhw,5250
+pic2vec/saved_models/squeezenet.pyc,sha256=oMnxYrk6-OnuQ3w2lUVU3yraCgnZhr4pko__GvGtLpo,5058
+pic2vec/saved_models/squeezenet_weights_tf_dim_ordering_tf_kernels.h5,sha256=MI0a_bRQvSg2JA9stv6VLLLjNJL8NWSwwTQ5FhTD3LU,5059384
+pic2vec-0.5.0.dist-info/DESCRIPTION.rst,sha256=wLQI2Q901CBWmkkYkj1v0Bvo4AD8fxMZVr2BfxO9DPM,5711
+pic2vec-0.5.0.dist-info/METADATA,sha256=cswsLmAI1WDpQNp2j3Xu303nVM7g9tJXj5lfMSK3jcY,6552
+pic2vec-0.5.0.dist-info/RECORD,,
+pic2vec-0.5.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pic2vec-0.5.0.dist-info/metadata.json,sha256=FK5moIUkxAFlWeH10EWQaXi8CORp8kCCt-nyet3iT5w,1027
+pic2vec-0.5.0.dist-info/top_level.txt,sha256=HW3kghTlm2oIqzNobhZMzrYB_fHDSMrPUKujto4CRQI,8
