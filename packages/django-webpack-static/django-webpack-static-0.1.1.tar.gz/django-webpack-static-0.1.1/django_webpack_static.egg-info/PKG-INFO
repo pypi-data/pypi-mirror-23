@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: django-webpack-static
+Version: 0.1.1
+Summary: Adds support for loading assets generated with manifest-revision-webpack-plugin
+Home-page: https://bitbucket.org/cicwarsaw/django-webpack-static
+Author: Pawel Andziak (CIC)
+Author-email: andziak@cictr.com
+License: MIT
+Description: Adds support for loading assets generated with manifest-revision-webpack-plugin
+Keywords: webpack assets django static
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent

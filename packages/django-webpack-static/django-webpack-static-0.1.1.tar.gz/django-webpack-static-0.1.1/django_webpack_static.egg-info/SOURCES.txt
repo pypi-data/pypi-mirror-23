@@ -1,0 +1,10 @@
+setup.py
+django_webpack_static.egg-info/PKG-INFO
+django_webpack_static.egg-info/SOURCES.txt
+django_webpack_static.egg-info/dependency_links.txt
+django_webpack_static.egg-info/requires.txt
+django_webpack_static.egg-info/top_level.txt
+webpack_static/__init__.py
+webpack_static/apps.py
+webpack_static/templatetags/__init__.py
+webpack_static/templatetags/webpack_static.py
