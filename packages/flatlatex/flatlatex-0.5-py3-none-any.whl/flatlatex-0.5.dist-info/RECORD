@@ -1,0 +1,16 @@
+flatlatex/__init__.py,sha256=JN7wZ9qDQSP2D2zP95igxfYuWaOlQ1jc3KfX8DjhYsY,2552
+flatlatex/conv.py,sha256=wPHdEwVPAJfaAqdz59vPC0RbWPGmMVxnT_fKiFwQt90,9670
+flatlatex/data.py,sha256=9DC0fVH3MuzGu8wShYxYt8c7nxgR1Xz4Wa6SpyoKx_8,19951
+flatlatex/latexfuntypes.py,sha256=jM8_8in2s95hTx5qhzpill-Vj3j2bGW25cZ6WJfhxPY,1514
+flatlatex/parser.py,sha256=RtCMxr1XcbFABTuyAXYyV5Z60JyqSsX-KR1RIw3XXAs,1982
+flatlatex/transliteration.py,sha256=N8V-DibFGhoYzHL1WhXmECtgmYe673BYpGlOb3HIByo,1887
+flatlatex/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatlatex/tests/test_conv.py,sha256=o1KrggsMhb2Nb5rfQhuKtlIrxJKrMYT77r1tIANAdrs,965
+flatlatex/tests/test_data_consistancy.py,sha256=mm52w1DKvAL0dDWwND0MnXbRdg892QWwC47JupYOjyo,2881
+flatlatex/tests/test_parser.py,sha256=5yXoo0za0XGPSUcQ2izB7lSkJSglgQjc9w1u1EppEM4,712
+flatlatex-0.5.dist-info/DESCRIPTION.rst,sha256=rL431hHxAIYiXtvLjW9em0P1XWs4VANLx4viGAQE2Nc,981
+flatlatex-0.5.dist-info/METADATA,sha256=W-ly0RzFdiPj6CokQX8pZMrmRHfAt_WS9-7ft4CaZps,1592
+flatlatex-0.5.dist-info/RECORD,,
+flatlatex-0.5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+flatlatex-0.5.dist-info/metadata.json,sha256=OwdPukNrJf6IIhVBUk-e1QJ_rHhRp4YCZK_4Zm9rN6o,812
+flatlatex-0.5.dist-info/top_level.txt,sha256=H1Y7UL981NzbEUZ5UV3mWXF3lFvqcNZEkFF5UJUV2Sg,10
