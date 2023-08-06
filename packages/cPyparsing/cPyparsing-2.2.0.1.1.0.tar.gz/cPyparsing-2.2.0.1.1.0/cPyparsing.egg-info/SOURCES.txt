@@ -1,0 +1,10 @@
+MANIFEST.in
+cPyparsing.c
+cPyparsing.pyx
+constants.py
+setup.py
+cPyparsing.egg-info/PKG-INFO
+cPyparsing.egg-info/SOURCES.txt
+cPyparsing.egg-info/dependency_links.txt
+cPyparsing.egg-info/not-zip-safe
+cPyparsing.egg-info/top_level.txt
