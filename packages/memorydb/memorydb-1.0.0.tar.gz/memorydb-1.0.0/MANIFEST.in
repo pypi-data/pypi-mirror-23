@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include project *
+recursive-exclude project .*
+recursive-exclude project/.vscode *
+recursive-exclude project/.git *
+recursive-exclude project *.pyc

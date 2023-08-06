@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+memorydb.egg-info/PKG-INFO
+memorydb.egg-info/SOURCES.txt
+memorydb.egg-info/dependency_links.txt
+memorydb.egg-info/top_level.txt
+project/LICENSE
+project/README.md
+project/__init__.py
+project/idgen.py
+project/memorydb.py
+project/test_idgen.py
+project/test_memorydb.py
