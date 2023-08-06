@@ -1,0 +1,12 @@
+sphinx_autobuild/__init__.py,sha256=8TuVWWi-kSfkW3QB_JDLqemlqxNDPj55aOn1XevcHoY,9250
+sphinx_autobuild/__main__.py,sha256=IvTjTYhvVO6h9Jpa45i-FfzjcKcJy1jwkAZY_CkgibQ,26
+sphinx_autobuild/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_autobuild/test/test_autobuild.py,sha256=PoQD4M9yrkDG0m0K4E6aUofGMxE_Jq_DOC_LwY6SYPM,2156
+sphinx_autobuild/test/test_ignored.py,sha256=0GibY1yYCK_PsGXiNsWW5GUIL5ygxB8tyqnpLQv9l_w,1114
+sphinx_autobuild-0.7.0.dist-info/DESCRIPTION.rst,sha256=srJp979_EM_Sdki4-75C5AWUP8tDjFwvmK1V7r_Z_Uw,6011
+sphinx_autobuild-0.7.0.dist-info/METADATA,sha256=Vo1hhyJbp4fKJO9j3LYQ9Z8lNzDWomc3rScIofyksKw,7189
+sphinx_autobuild-0.7.0.dist-info/RECORD,,
+sphinx_autobuild-0.7.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+sphinx_autobuild-0.7.0.dist-info/entry_points.txt,sha256=P8yIyWJe3DZHotKlpheI8hVCmeG8W758I-Qr_C8x59w,59
+sphinx_autobuild-0.7.0.dist-info/metadata.json,sha256=vn75K49J59IBAFP8QMMukwb36594AX_yKIXkbIJhAXA,1407
+sphinx_autobuild-0.7.0.dist-info/top_level.txt,sha256=SjyQmkMyoFraZAmSjDd-xMtWDag1ZV9TCNq9EwmENJU,17
