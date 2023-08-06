@@ -1,0 +1,13 @@
+csvtotable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvtotable/cli.py,sha256=OWTG2x5T7eEK8fCPN_AUHfuAXptTnx4tVjGxGtc_vJ8,1203
+csvtotable/convert.py,sha256=PKdEqpVT8BK2J6N0NRZNzXZD5JTPoMfhOQ0g12jwg18,2997
+csvtotable/templates/template.html,sha256=OGkZzZmDRi-8NjF1SV04Ky7OQRwO1mCifhs1-1ZCCcc,2638
+csvtotable/templates/js/jquery.dataTables.min.js,sha256=j007R7R6ijEWPa1df7FeJ6AFbQeww0xgif2SJWZOhHw,83268
+csvtotable/templates/js/jquery.min.js,sha256=ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ-Xp8a4MxAQ,97163
+csvtotable-1.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+csvtotable-1.1.0.dist-info/METADATA,sha256=grP7wS9PWRnkMr9450tnyqfhxLUeA6vEQ1NQLNP-D94,1097
+csvtotable-1.1.0.dist-info/RECORD,,
+csvtotable-1.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+csvtotable-1.1.0.dist-info/entry_points.txt,sha256=5C5wqdob0mdRjo9EMTtIkV7H90r5eAE8EpfuCmwL7YU,51
+csvtotable-1.1.0.dist-info/metadata.json,sha256=s4dEIQBd-2PhfEo1W0gAX219XLOhNBsXjzqnv7A6zwM,1339
+csvtotable-1.1.0.dist-info/top_level.txt,sha256=jwBv9JuiMb485nqPDnBgH4TIY4f1Pp504RBtv5g0kus,11
