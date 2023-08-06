@@ -1,0 +1,13 @@
+xasm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xasm/assemble.py,sha256=UoGBmrEyb3sVwu2StGPvczpL8Z4xhn9elrGmwvW2kvQ,13624
+xasm/cli.py,sha256=3yoDuz5cmgZ3UK1myZqZuss7xexGQlW6AI8k8ZJriBA,676
+xasm/misc.py,sha256=DRmDSUW06aiTW3BuD-vYirULZdsL-PDkpuNPBHTeSWo,2179
+xasm/version.py,sha256=JGX7cJJwD11qzwfJIbLPOddBhS_aB0xhppvDg4FouMk,100
+xasm-0.1.0.dist-info/DESCRIPTION.rst,sha256=32-7knAfOtzT_3czo0gauqy4GV0ORbFXygOgL-cJr60,1947
+xasm-0.1.0.dist-info/METADATA,sha256=Eca6-9thAFK8yIjveQu9vADiHVDgcThHwPf5lM_EkS4,2988
+xasm-0.1.0.dist-info/RECORD,,
+xasm-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+xasm-0.1.0.dist-info/entry_points.txt,sha256=DrJvSrZqbTg8FZJ-gUvdlPPvNFwDKsyolGmbpFf1-N4,63
+xasm-0.1.0.dist-info/metadata.json,sha256=LRLYGttX8QJeH-hiET-sVWlT1hFz7Ihke8Daw_ZhLB0,1297
+xasm-0.1.0.dist-info/top_level.txt,sha256=24UNOItB5o_EJoJ9nqhPZEC5GiSaYtHll3F6mJXzOkA,5
+xasm-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
