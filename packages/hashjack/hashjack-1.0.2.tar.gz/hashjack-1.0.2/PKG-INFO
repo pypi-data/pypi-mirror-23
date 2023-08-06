@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: hashjack
+Version: 1.0.2
+Summary: Open source tool for cracking password hashes.
+Home-page: https://github.com/5kyc0d3r/hashjack
+Author: 5kyc0d3r
+Author-email: skycoder.official@protonmail.com
+License: MIT
+Download-URL: https://github.com/5kyc0d3r/hashjack/archive/1.0.2.tar.gz
+Description: UNKNOWN
+Keywords: hashjack,hashing,cracking,brute-force,python
+Platform: UNKNOWN
