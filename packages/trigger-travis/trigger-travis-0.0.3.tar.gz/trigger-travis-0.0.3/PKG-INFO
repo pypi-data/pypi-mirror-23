@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: trigger-travis
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/danielwhatmuff/trigger-travis
+Author: Daniel Whatmuff
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: A CLI to trigger Travis CI builds and inject env vars
+Keywords: travis builds ci deployments trigger
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
