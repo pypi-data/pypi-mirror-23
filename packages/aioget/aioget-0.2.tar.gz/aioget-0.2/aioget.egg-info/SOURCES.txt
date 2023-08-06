@@ -1,0 +1,9 @@
+aioget.py
+setup.py
+aioget.egg-info/PKG-INFO
+aioget.egg-info/SOURCES.txt
+aioget.egg-info/dependency_links.txt
+aioget.egg-info/entry_points.txt
+aioget.egg-info/not-zip-safe
+aioget.egg-info/requires.txt
+aioget.egg-info/top_level.txt
