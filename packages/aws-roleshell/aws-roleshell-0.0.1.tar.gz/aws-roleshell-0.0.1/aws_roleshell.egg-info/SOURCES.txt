@@ -1,0 +1,6 @@
+aws_roleshell.py
+setup.py
+aws_roleshell.egg-info/PKG-INFO
+aws_roleshell.egg-info/SOURCES.txt
+aws_roleshell.egg-info/dependency_links.txt
+aws_roleshell.egg-info/top_level.txt
