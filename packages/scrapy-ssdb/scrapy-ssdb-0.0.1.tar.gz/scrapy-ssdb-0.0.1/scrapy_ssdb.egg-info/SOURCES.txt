@@ -1,0 +1,15 @@
+setup.py
+scrapy_ssdb/__init__.py
+scrapy_ssdb/connection.py
+scrapy_ssdb/defaults.py
+scrapy_ssdb/dupefilter.py
+scrapy_ssdb/picklecompat.py
+scrapy_ssdb/pipelines.py
+scrapy_ssdb/queue.py
+scrapy_ssdb/scheduler.py
+scrapy_ssdb/spiders.py
+scrapy_ssdb/utils.py
+scrapy_ssdb.egg-info/PKG-INFO
+scrapy_ssdb.egg-info/SOURCES.txt
+scrapy_ssdb.egg-info/dependency_links.txt
+scrapy_ssdb.egg-info/top_level.txt
