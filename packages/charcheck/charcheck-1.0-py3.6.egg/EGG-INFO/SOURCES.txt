@@ -1,0 +1,11 @@
+setup.py
+charcheck/__init__.py
+charcheck/__main__.py
+charcheck/charcheck.py
+charcheck/lib.py
+charcheck.egg-info/PKG-INFO
+charcheck.egg-info/SOURCES.txt
+charcheck.egg-info/dependency_links.txt
+charcheck.egg-info/entry_points.txt
+charcheck.egg-info/requires.txt
+charcheck.egg-info/top_level.txt
