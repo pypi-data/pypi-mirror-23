@@ -1,0 +1,10 @@
+onegov.core>=0.16.0
+onegov.search>=1.1.0
+onegov.user
+sedate
+
+[test]
+coverage
+freezegun
+onegov.testing
+pytest
