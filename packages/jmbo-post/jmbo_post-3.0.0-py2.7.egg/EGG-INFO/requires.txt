@@ -1,0 +1,5 @@
+jmbo>=3.0.0
+beautifulsoup4
+pypandoc
+markdown
+django-simplemde
