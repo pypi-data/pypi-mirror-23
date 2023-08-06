@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pyco_utils
+Version: 0.0.3
+Summary: pyco_utils, 
+Home-page: http://github.com/vmico/pyco-utils
+Author: dodoru
+Author-email: dodoru@foxmail.com
+License: MIT
+Description: 
+        pyco_utils
+        ======
+        
+        See:
+        * document:
+        * todo:
+        
+Keywords: Python utils
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
