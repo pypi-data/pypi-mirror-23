@@ -1,0 +1,10 @@
+sewer/ACMEclient.py,sha256=wwetrDNLzFPYWZTJc0xVH5Kl5hzj044-DwJcH5cUFqQ,16174
+sewer/__init__.py,sha256=6AJiJAARgCl6yKB0j8OqQZbS63fOt-PjhkCT2aLPyvE,169
+sewer/cli.py,sha256=qQYXN_VEuMB6W5KhIo0QOToR38J-eMrxMvLNci3ID4M,3566
+sewer-0.0.7.dist-info/DESCRIPTION.rst,sha256=KLJ0efg9REVT-0wQXY6-adBeVYKwy5P3JQFxxqPLDug,6217
+sewer-0.0.7.dist-info/METADATA,sha256=93hOUxlw-wxkW45nRexbZRMtITUvyfn1nnkdRGgJ_9E,7629
+sewer-0.0.7.dist-info/RECORD,,
+sewer-0.0.7.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+sewer-0.0.7.dist-info/entry_points.txt,sha256=gmWSBJR7MLD4hL-IxWtFdVdlSM9Tsg6Id3CDqXO-Udo,69
+sewer-0.0.7.dist-info/metadata.json,sha256=u4EiC-miTE10jUX5XLc-5EhU0bqhAWRD0Ru4G81UMoI,1517
+sewer-0.0.7.dist-info/top_level.txt,sha256=_bh18tG8owKYSVOwUWyNVjj6w1rmh4UZZOK8AXJEg2s,6
