@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+python_sinal2.egg-info/PKG-INFO
+python_sinal2.egg-info/SOURCES.txt
+python_sinal2.egg-info/dependency_links.txt
+python_sinal2.egg-info/entry_points.txt
+python_sinal2.egg-info/requires.txt
+python_sinal2.egg-info/top_level.txt
+sinal2/__init__.py
+sinal2/cli.py
+sinal2/runner.py
+sinal2/sinal2.py

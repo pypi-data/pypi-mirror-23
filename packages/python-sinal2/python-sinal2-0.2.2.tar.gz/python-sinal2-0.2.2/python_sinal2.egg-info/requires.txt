@@ -1,0 +1,7 @@
+tqdm
+requests
+websocket-client
+gevent
+gipc
+click
+wsaccel
