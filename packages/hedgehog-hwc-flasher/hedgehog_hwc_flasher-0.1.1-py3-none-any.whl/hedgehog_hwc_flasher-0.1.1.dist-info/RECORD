@@ -1,0 +1,10 @@
+hedgehog/__init__.py,sha256=1-1Q_iOg7ayAanNN3OALLiKrXCZnkJiEWzYMkPd_aGQ,63
+hedgehog/flasher/__init__.py,sha256=NAkXBHqt1zXnPV9IhR9XrE17EfFb4PH7wFv-bAxB6XE,9881
+hedgehog/flasher/flasher_serial.py,sha256=LIZsxASWtrnkHonSRdJwwJUI5LJlysLoMViwAfRZR3s,3366
+hedgehog_hwc_flasher-0.1.1.dist-info/DESCRIPTION.rst,sha256=pmHmzS0A5uZIO4IVY4vOhpi4_tc8tJC5F80q6eQUBkw,351
+hedgehog_hwc_flasher-0.1.1.dist-info/METADATA,sha256=wsFBkHyhy3G5ClFGNbIsa4hKoclgteNEHFyr9YWsQIE,973
+hedgehog_hwc_flasher-0.1.1.dist-info/RECORD,,
+hedgehog_hwc_flasher-0.1.1.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+hedgehog_hwc_flasher-0.1.1.dist-info/entry_points.txt,sha256=n8WtlR1BdZCf7-Dk4ZEx31JC3lxBQj4XrPPWwP2d6WQ,64
+hedgehog_hwc_flasher-0.1.1.dist-info/metadata.json,sha256=ISul6_idh9m86MML5SuWrQ3X1w2toVOiV0faoKAt2WA,1013
+hedgehog_hwc_flasher-0.1.1.dist-info/top_level.txt,sha256=MFxCcFJVifXUcbMjNElyDuuGqlj021AgU_n-g2neEpQ,9

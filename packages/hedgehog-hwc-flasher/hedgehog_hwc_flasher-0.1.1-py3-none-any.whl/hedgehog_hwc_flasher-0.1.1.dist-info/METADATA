@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: hedgehog-hwc-flasher
+Version: 0.1.1
+Summary: Tool for flashing the Hedgehog's HWC
+Home-page: https://github.com/PRIArobotics/HedgehogHWCFlasher
+Author: Clemens Koza
+Author-email: koza@pria.at
+License: AGPLv3+
+Keywords: hedgehog robotics stm32 microcontroller
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: hedgehog-platform[raspberry]
+
+Hedgehog HWC Flasher
+====================
+
+A simple tool for rewriting the Hedgehog Educational Robotics Controller's firmware.
+
+The Hedgehog Hardware Controller (HWC) uses an STM32 CPU.
+Its primary UART, `BOOT0` and `RESET` pins are connected to the Orange Pi, allowing the firmware to be easily rewritten.
+This tool implements this functionality.
+
+
