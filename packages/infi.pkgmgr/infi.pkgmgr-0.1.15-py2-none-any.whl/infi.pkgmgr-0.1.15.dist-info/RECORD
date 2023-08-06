@@ -1,0 +1,12 @@
+infi.pkgmgr-0.1.15-py2.7-nspkg.pth,sha256=KMT2qrs0HQsU_gANjSsM7xpuGMv98nqscxb5Ca-FRmY,545
+infi/pkgmgr/__init__.py,sha256=AxAsiBQJVx68VsyK7c-ILv9hqli6rPGsbz6IYAXPs9s,7686
+infi/pkgmgr/__version__.py,sha256=kGLoqB-XHskm8BUWr7BLxPmJnuPsNbB-vx3dJWsqRpc,422
+infi/pkgmgr/tests.py,sha256=yWF4LCivJgGq0rJucZxD52E8WifM4yd4rNk0SpSOHrQ,11560
+infi.pkgmgr-0.1.15.dist-info/DESCRIPTION.rst,sha256=lYK7JeuaPGmIUmZD_hBdU58eDDp1VMQEo41XQ6Qdfm8,106
+infi.pkgmgr-0.1.15.dist-info/METADATA,sha256=yh6X0dh3cm-tivZbokTI0F1LmEhxyFy-BD18Fs0VDSU,836
+infi.pkgmgr-0.1.15.dist-info/RECORD,,
+infi.pkgmgr-0.1.15.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.pkgmgr-0.1.15.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.pkgmgr-0.1.15.dist-info/metadata.json,sha256=GRbGKjrsiSnt0InZ_AHPbQWtxOwOXgpazVvpcB7q_DU,974
+infi.pkgmgr-0.1.15.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.pkgmgr-0.1.15.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
