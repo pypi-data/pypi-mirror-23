@@ -1,0 +1,2 @@
+pybtex>=0.21
+requests>=2.18.1
