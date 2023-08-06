@@ -1,0 +1,4 @@
+[console_scripts]
+tpp = src.tpp:main
+transit = pytransit.__main__:main
+
