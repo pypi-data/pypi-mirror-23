@@ -1,0 +1,17 @@
+stringology/__init__.py,sha256=6qmWsEbo7QU2QnpETXjQRNPgUdTRxS_3yZc2xtWZdMM,105
+stringology/ac.py,sha256=e77HY8nkIia7hNIuU899yRDdYdYxQdlnYRE_X1skz_s,2564
+stringology/ac2.py,sha256=q5NaDnmuyp8957SvXl-2ruJ58MzZ0JBpx2FWW1_2HuI,4637
+stringology/align.py,sha256=8_AakSzkZHekmnwclG82vNNE3rwruZdxbnpLnWFQtaA,2547
+stringology/ed.py,sha256=gXRl_7sK44tRJ7QQS3yZR1AXjccfK3H2Mqlwx2vay3o,685
+stringology/gaps.py,sha256=RKcvlbZbom79FQC_X-CDaw-cLkKV6zrHMY_rlbhyZEY,2801
+stringology/lcs.py,sha256=fx8CbUwAspXwckZSHSzjhCiouVUTT0voI82R-jwCVeA,1026
+stringology/lis.py,sha256=F8jpg9VvmbIsYwNN7DKRGwY_27270tm4gpfW_fj10Ic,994
+stringology/ngrams.py,sha256=OF3GBRBRZIZc6Y3Lg1TmhwjEOialQBRXY2pw2g426cQ,253
+stringology/text.py,sha256=jQEI2s9apUyXSoo7wi3y5Hi8nbU1bBQyMiKVl6uMGvI,163
+stringology-0.1.0.dist-info/DESCRIPTION.rst,sha256=4G_f2lzoAh-fjDH0h_VEMkB0jJZrFr1wVwAkdrKiJyY,133
+stringology-0.1.0.dist-info/METADATA,sha256=McGQn9b-tJQxh422IbL5ZmM8iWHHcRIehVVj8bDyEDg,609
+stringology-0.1.0.dist-info/RECORD,,
+stringology-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+stringology-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+stringology-0.1.0.dist-info/metadata.json,sha256=-NuBraxFjUUsDk4rcUYTWdL1lDrq5HaK1haf7oAkNWc,747
+stringology-0.1.0.dist-info/top_level.txt,sha256=gVd7yHUr3bNNnljvLczPzLyap-WB_YONEUlG2YOTy1o,12
