@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: django-bzrviews
+Version: 0.0.2
+Summary: A Bazaar View for Django Projects
+Home-page: https://launchpad.net/django-bzrviews
+Author: Canonical CE Infrastructure Team
+Author-email: ce-infrastructure@lists.canonical.com
+License: LGPLv3
+Description: A Bazaar View for Django Projects
+        
+        If your project is running from a deployed Bazaar repo, django-bzrviews
+        adds a /revno endpoint that returns the current revision of the repository.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.6
+Classifier: Framework :: Django :: 1.7
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)

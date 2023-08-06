@@ -1,0 +1,12 @@
+README.rst
+setup.py
+bzrviews/__init__.py
+bzrviews/helpers.py
+bzrviews/models.py
+bzrviews/settings.py
+bzrviews/urls.py
+bzrviews/views.py
+django_bzrviews.egg-info/PKG-INFO
+django_bzrviews.egg-info/SOURCES.txt
+django_bzrviews.egg-info/dependency_links.txt
+django_bzrviews.egg-info/top_level.txt
