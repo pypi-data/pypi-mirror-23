@@ -1,0 +1,6 @@
+concrete
+scikit-learn==0.18.1
+scons
+plotnine
+flask
+valid
