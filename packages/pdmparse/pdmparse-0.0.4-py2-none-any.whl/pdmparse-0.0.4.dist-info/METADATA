@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: pdmparse
+Version: 0.0.4
+Summary: Analysis of the database design software powerdesigner generated. PDM files, access to the table of information and table and table between the associated information, through the Jinja2 template to generate files
+Home-page: http://www.hshl.ltd
+Author: bigtiger
+Author-email: chinafengheping@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Jinja2
+
+UNKNOWN
+
+

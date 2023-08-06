@@ -1,0 +1,11 @@
+pdmparse/__init__.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+pdmparse/api.py,sha256=M_qlhah4w-dMA1w1Ol5DdmzgTaWyrGKrJolFco_UuS4,2645
+pdmparse/parsers.py,sha256=2lrGKYNlUiOGkSlnvvD1PYY1guVMekBB2u4JKF9UR54,6048
+pdmparse/table.py,sha256=7hgtE-gehRRzR9C2kdwtQ0PCtZyKTQo6DaOKyu1hSWI,5559
+pdmparse/test.py,sha256=yRyJSg9l5Gv_HRNuEeXfOCgvFZ-bO8WE0i4foKXRyU0,1140
+pdmparse-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pdmparse-0.0.4.dist-info/METADATA,sha256=tcSo13RYIeqO8WMVYoDoRtpzPVRbZpVyoMZLDGAraa0,431
+pdmparse-0.0.4.dist-info/RECORD,,
+pdmparse-0.0.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+pdmparse-0.0.4.dist-info/metadata.json,sha256=JRCT2dSJHEcC71WDzFezA_Tu2Lcoy1iVuzzSH4oR5As,621
+pdmparse-0.0.4.dist-info/top_level.txt,sha256=yW7D8OjC7yegk6OvWkfODTWXe7lWWSW_0UspNqr5UFo,9
