@@ -1,0 +1,14 @@
+zope.schemaevent-0.3-py3.5-nspkg.pth,sha256=SWEVH-jEWsKYrL0qoC6GBJaStx_iKxGoAY9PQycFVC4,529
+zope/schemaevent/__init__.py,sha256=eGW2Xo2bRlK0HSADnEh2ZezI6jq15XSBCBwN7J_1LR8,42
+zope/schemaevent/configure.zcml,sha256=nHMVOQy0XUlPt07sEWm-sW4keAeUgJd8s4nvK2yB7pY,207
+zope/schemaevent/fieldevent.py,sha256=ZgoJesZIjlQCZYgv1PkpS-gx4W8-ubOzKVnd5v0dOOk,302
+zope/schemaevent/testing.py,sha256=iAzlks4AnpRqP5I9E-mCoBfN0dgOXe4gip9UHAJ3aVU,197
+zope/schemaevent/tests/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+zope/schemaevent/tests/test_fieldevent.py,sha256=uB-BnlnZgjTdbiZMOgFfbqmd01XMqtxCbMVoSuJ0ZSc,2202
+zope.schemaevent-0.3.dist-info/DESCRIPTION.rst,sha256=tvlg61IOeiUJa6tLFbiiKuJ3Bv3mGGlO47Tr4yvckHk,869
+zope.schemaevent-0.3.dist-info/METADATA,sha256=w-oex9XvmWjY_J8x_Fkwnr_--Xv8qGKGaIBRPba4-3M,2134
+zope.schemaevent-0.3.dist-info/RECORD,,
+zope.schemaevent-0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+zope.schemaevent-0.3.dist-info/metadata.json,sha256=TUItb7wtcSuYUrfohPd_i-AS-ol7E5wa--8pucdiieo,1298
+zope.schemaevent-0.3.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.schemaevent-0.3.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
