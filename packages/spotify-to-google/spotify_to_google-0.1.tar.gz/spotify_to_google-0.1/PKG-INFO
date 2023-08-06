@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: spotify_to_google
+Version: 0.1
+Summary: Imports Spotify playlists into your Google Play Music account
+Home-page: http://github.com/coffeemaker2017/spotify_to_google
+Author: Michael Krol
+Author-email: info@michael-krol.de
+License: MIT
+Description: UNKNOWN
+Keywords: spotify playlists google play music import
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Multimedia :: Sound/Audio

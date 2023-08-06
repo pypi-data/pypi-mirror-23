@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+bin/spotify_to_google_script
+spotify_to_google/__init__.py
+spotify_to_google/command_line.py
+spotify_to_google/log.py
+spotify_to_google/spotify_to_google.py
+spotify_to_google.egg-info/PKG-INFO
+spotify_to_google.egg-info/SOURCES.txt
+spotify_to_google.egg-info/dependency_links.txt
+spotify_to_google.egg-info/entry_points.txt
+spotify_to_google.egg-info/not-zip-safe
+spotify_to_google.egg-info/requires.txt
+spotify_to_google.egg-info/top_level.txt
