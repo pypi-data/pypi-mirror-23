@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: torcms_app
+Version: 0.0.2
+Summary: TorCMS apps.
+Home-page: https://www.yunsuan.org
+Author: bukun
+Author-email: bukun@osgeo.cn
+License: MIT License
+Description: yunsuan
+        ================
+        
+        安装
+        -------------
+        
+        源代码部署。
+        
+        
+        首次安装
+        ----------------------
+        
+        Building the environment
+        
+        
+        ::
+        
+            ~/usr/python36/bin/python3 -m venv ~/vpy_yunsuan
+            source ~/vpy_yunsuan/bin/activate
+            pip3 install -r doc/requirements.txt
+            git clone https://github.com/bukun/torcms_modules_bootstrap.git templates/modules
+        
+        
+        
+        
+        Database
+        ----------------------
+        
+        ::
+        
+            \set dbname yunsuan
+            CREATE USER :dbname WITH PASSWORD '131322' ; 
+            CREATE DATABASE :dbname OWNER :dbname ;
+            GRANT ALL PRIVILEGES ON DATABASE :dbname to :dbname ;
+            \c :dbname ;
+            create extension hstore;
+            \q
+        
+Keywords: torcms,tornado
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
