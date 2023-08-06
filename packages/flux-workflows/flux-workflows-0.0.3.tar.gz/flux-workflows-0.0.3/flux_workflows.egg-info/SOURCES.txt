@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+flux_workflows.egg-info/PKG-INFO
+flux_workflows.egg-info/SOURCES.txt
+flux_workflows.egg-info/dependency_links.txt
+flux_workflows.egg-info/entry_points.txt
+flux_workflows.egg-info/requires.txt
+flux_workflows.egg-info/top_level.txt
+workflow/__init__.py
+workflow/cli.py
+workflow/config.py
+workflow/clients/__init__.py
+workflow/clients/cmp.py
