@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+middleware.egg-info/PKG-INFO
+middleware.egg-info/SOURCES.txt
+middleware.egg-info/dependency_links.txt
+middleware.egg-info/top_level.txt
+project/LICENSE
+project/README.md
+project/__init__.py
+project/middleware.py
+project/test_middleware.py
