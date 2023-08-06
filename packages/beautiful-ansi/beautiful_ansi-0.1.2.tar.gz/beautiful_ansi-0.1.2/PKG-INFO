@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: beautiful_ansi
+Version: 0.1.2
+Summary: ANSI escape code library
+Home-page: UNKNOWN
+Author: Mohammad Hasanzadeh
+Author-email: mohammad@carrene.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ANSI escape code library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6

@@ -1,0 +1,7 @@
+README.rst
+beautiful_ansi.py
+setup.py
+beautiful_ansi.egg-info/PKG-INFO
+beautiful_ansi.egg-info/SOURCES.txt
+beautiful_ansi.egg-info/dependency_links.txt
+beautiful_ansi.egg-info/top_level.txt
