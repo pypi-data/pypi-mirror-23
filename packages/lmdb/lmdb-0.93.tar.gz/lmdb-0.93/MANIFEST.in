@@ -1,0 +1,8 @@
+graft .
+graft lib
+graft tests
+include ChangeLog
+include LICENSE
+prune .git
+prune docs/_build
+prune lmdb/__pycache__
