@@ -1,0 +1,2064 @@
+execve("/usr/bin/python", ["python", "vulture.py", "/home/jendrik/projects/Downward/"..., "2"], [/* 80 vars */]) = 0
+brk(NULL)                               = 0x1001000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7256000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=161525, ...}) = 0
+mmap(NULL, 161525, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5ba722e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba6e16000
+mprotect(0x7f5ba6e2e000, 2093056, PROT_NONE) = 0
+mmap(0x7f5ba702d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f5ba702d000
+mmap(0x7f5ba702f000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5ba702f000
+close(3)                                = 0
+open("~/lib/coin/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba6a4c000
+mprotect(0x7f5ba6c0c000, 2097152, PROT_NONE) = 0
+mmap(0x7f5ba6e0c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f5ba6e0c000
+mmap(0x7f5ba6e12000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5ba6e12000
+close(3)                                = 0
+open("~/lib/coin/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba722d000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba6848000
+mprotect(0x7f5ba684b000, 2093056, PROT_NONE) = 0
+mmap(0x7f5ba6a4a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5ba6a4a000
+close(3)                                = 0
+open("~/lib/coin/lib/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba6645000
+mprotect(0x7f5ba6647000, 2093056, PROT_NONE) = 0
+mmap(0x7f5ba6846000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f5ba6846000
+close(3)                                = 0
+open("~/lib/coin/lib/tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=104864, ...}) = 0
+mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba642b000
+mprotect(0x7f5ba6444000, 2093056, PROT_NONE) = 0
+mmap(0x7f5ba6643000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f5ba6643000
+close(3)                                = 0
+open("~/lib/coin/lib/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/coin/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("~/lib/gurobi600/linux64/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba722c000
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5ba6122000
+mprotect(0x7f5ba622a000, 2093056, PROT_NONE) = 0
+mmap(0x7f5ba6429000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f5ba6429000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba722b000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba722a000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7229000
+arch_prctl(ARCH_SET_FS, 0x7f5ba722a700) = 0
+mprotect(0x7f5ba6e0c000, 16384, PROT_READ) = 0
+mprotect(0x7f5ba6429000, 4096, PROT_READ) = 0
+mprotect(0x7f5ba6643000, 4096, PROT_READ) = 0
+mprotect(0x7f5ba6846000, 4096, PROT_READ) = 0
+mprotect(0x7f5ba6a4a000, 4096, PROT_READ) = 0
+mprotect(0x7f5ba702d000, 4096, PROT_READ) = 0
+mprotect(0x8e9000, 8192, PROT_READ)     = 0
+mprotect(0x7f5ba7258000, 4096, PROT_READ) = 0
+munmap(0x7f5ba722e000, 161525)          = 0
+set_tid_address(0x7f5ba722a9d0)         = 30392
+set_robust_list(0x7f5ba722a9e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f5ba6e1bb50, [], SA_RESTORER|SA_SIGINFO, 0x7f5ba6e27390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f5ba6e1bbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f5ba6e27390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+brk(NULL)                               = 0x1001000
+brk(0x1022000)                          = 0x1022000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba71e9000
+brk(0x104a000)                          = 0x104a000
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 21), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 21), ...}) = 0
+fstat(1, {st_mode=S_IFREG|0644, st_size=11312, ...}) = 0
+fstat(2, {st_mode=S_IFREG|0644, st_size=11369, ...}) = 0
+stat("/usr/local/sbin/python", 0x7ffd900dd560) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/python", 0x7ffd900dd560) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/python", 0x7ffd900dd560) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/python", {st_mode=S_IFREG|0755, st_size=3546104, ...}) = 0
+readlink("/usr/bin/python", "python2.7", 4096) = 9
+readlink("/usr/bin/python2.7", 0x7ffd900dd560, 4096) = -1 EINVAL (Invalid argument)
+stat("/usr/bin/Modules/Setup", 0x7ffd900dc490) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.py", 0x7ffd900dc480) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.pyc", 0x7ffd900dc480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/os.py", {st_mode=S_IFREG|0644, st_size=25910, ...}) = 0
+stat("/usr/bin/pybuilddir.txt", 0x7ffd900dc490) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/lib-dynload", 0x7ffd900dc490) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba71a9000
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f5ba6e27390}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f5ba6e27390}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f5ba6e27390}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f5ba6e27390}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x53e110, [], SA_RESTORER, 0x7f5ba6e27390}, {SIG_DFL, [], 0}, 8) = 0
+stat("/home/jendrik/lib/python", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/lib/python", 0x7ffd900dd080) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/lab", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/lab/site", 0x7ffd900dd350) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/site.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/site.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/site.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python/x86-64_sles10_4.1/", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python/x86-64_sles10_4.1", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex", 0x7ffd900dc0a0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python/x86-64_sles10_4.1/", 0x7ffd900dd080) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/site", 0x7ffd900dd350) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/site.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/site.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=20370, ...}) = 0
+open("/usr/lib/python2.7/site.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=19712, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sp\1\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=19712, ...}) = 0
+read(4, "\0(\0\0\0\0s\32\0\0\0/usr/lib/python2.7/si"..., 12288) = 12288
+read(4, "s\24\0\0\0\0\4\17\1\30\1\20\1\17\1\3\1\21\1\r\1\f\1\20\1c\0\0\0\0\1\0"..., 4096) = 3328
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/os", 0x7ffd900dcea0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/os.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/os.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/os.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/os", 0x7ffd900dcea0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/os.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/os.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=25910, ...}) = 0
+open("/usr/lib/python2.7/os.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=25593, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\372\6\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=25593, ...}) = 0
+read(5, "  N(\t\0\0\0R\t\0\0\0t\5\0\0\0splitt\6\0\0\0exis"..., 20480) = 20480
+read(5, "s\3\0\0\0os2s\2\0\0\0nt(X\0\0\0t\7\0\0\0__doc__"..., 4096) = 1017
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+brk(0x106b000)                          = 0x106b000
+sysinfo({uptime=706275, loads=[16000, 12864, 12640], totalram=12284538880, freeram=1495175168, sharedram=1042698240, bufferram=431775744, totalswap=12564557824, freeswap=10101088256, procs=1062, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7169000
+stat("/home/jendrik/projects/Downward/lab/posixpath", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/posixpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/posixpath.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/posixpath.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/posixpath", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/posixpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/posixpath.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=13925, ...}) = 0
+open("/usr/lib/python2.7/posixpath.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=11374, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0&\0\0\0@\0\0\0s\373\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=11374, ...}) = 0
+read(6, "\0\0\0Test whether a path exists.  "..., 4096) = 4096
+read(6, "\4\0\0\0NoneRD\0\0\0t\6\0\0\0searcht\4\0\0\0spa"..., 4096) = 3182
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/Downward/lab/stat", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/stat.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/stat.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/stat.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/stat", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/stat.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/stat.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1842, ...}) = 0
+open("/usr/lib/python2.7/stat.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2731, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\1\0\0\0@\0\0\0s{\1\0\0d\0"..., 4096) = 2731
+fstat(7, {st_mode=S_IFREG|0644, st_size=2731, ...}) = 0
+read(7, "", 4096)                       = 0
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7138000
+close(7)                                = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/Downward/lab/genericpath", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/genericpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/genericpath.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/genericpath.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/genericpath", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/genericpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/genericpath.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3201, ...}) = 0
+open("/usr/lib/python2.7/genericpath.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=3495, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0s\305\0\0\0d\0"..., 4096) = 3495
+fstat(7, {st_mode=S_IFREG|0644, st_size=3495, ...}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/Downward/lab/warnings", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/warnings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/warnings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/warnings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/warnings", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/warnings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/warnings.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=14748, ...}) = 0
+open("/usr/lib/python2.7/warnings.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=13578, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0sY\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=13578, ...}) = 0
+read(7, "f warnings filters (at the front"..., 8192) = 8192
+read(7, "r/lib/python2.7/warnings.pyR\2\0\0\0"..., 4096) = 1290
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/home/jendrik/projects/Downward/lab/linecache", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/linecache.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/linecache.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/linecache.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/linecache", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/linecache.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/linecache.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4027, ...}) = 0
+open("/usr/lib/python2.7/linecache.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=3260, ...}) = 0
+read(8, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sp\0\0\0d\0"..., 4096) = 3260
+fstat(8, {st_mode=S_IFREG|0644, st_size=3260, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+stat("/home/jendrik/projects/Downward/lab/types", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/types.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/types.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/types.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/types", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/types.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/types.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2094, ...}) = 0
+open("/usr/lib/python2.7/types.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=2711, ...}) = 0
+read(8, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0sH\2\0\0d\0"..., 4096) = 2711
+fstat(8, {st_mode=S_IFREG|0644, st_size=2711, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/Downward/lab/UserDict", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/UserDict.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/UserDict.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/UserDict.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/UserDict", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/UserDict.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/UserDict.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=7060, ...}) = 0
+open("/usr/lib/python2.7/UserDict.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=9621, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sb\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=9621, ...}) = 0
+read(6, "got %dR\1\0\0\0i\377\377\377\377s0\0\0\0Passing 'di"..., 4096) = 4096
+read(6, "\0\0\261\0\0\0s\f\0\0\0\0\1\3\1\34\1\r\1\r\1\7\1c\2\0\0\0\5\0\0\0"..., 4096) = 1429
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/Downward/lab/_abcoll", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_abcoll.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_abcoll.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_abcoll.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_abcoll", 0x7ffd900dc540) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_abcoll.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_abcoll.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=18619, ...}) = 0
+open("/usr/lib/python2.7/_abcoll.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=25474, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\20\0\0\0@\0\0\0s\224\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=25474, ...}) = 0
+read(7, "\1\0Z\7\0RS(\2\0\0\0c\2\0\0\0\2\0\0\0\1\0\0\0C\0\0\0s\4\0"..., 20480) = 20480
+read(7, "alue.\n           Raise ValueErro"..., 4096) = 898
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/home/jendrik/projects/Downward/lab/abc", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/abc.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/abc.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/abc.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/abc", 0x7ffd900dc090) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/abc.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/abc.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7145, ...}) = 0
+open("/usr/lib/python2.7/abc.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=6121, ...}) = 0
+read(8, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s}\0\0\0d\0"..., 4096) = 4096
+fstat(8, {st_mode=S_IFREG|0644, st_size=6121, ...}) = 0
+read(8, "egisteri\0\0\0s\20\0\0\0\0\2\30\1\17\1\17\1\4\3\17\2\17\1\20\1"..., 4096) = 2025
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+stat("/home/jendrik/projects/Downward/lab/_weakrefset", 0x7ffd900dbbe0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_weakrefset.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_weakrefset.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_weakrefsetmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_weakrefset.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_weakrefset.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_weakrefset", 0x7ffd900dbbe0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_weakrefset.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_weakrefset.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_weakrefsetmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_weakrefset.py", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=5911, ...}) = 0
+open("/usr/lib/python2.7/_weakrefset.pyc", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=9582, ...}) = 0
+read(9, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sI\0\0\0d\0"..., 4096) = 4096
+fstat(9, {st_mode=S_IFREG|0644, st_size=9582, ...}) = 0
+read(9, "efset.pyR\27\0\0\0q\0\0\0s\6\0\0\0\0\1\t\1\r\1c\2\0\0"..., 4096) = 4096
+read(9, "\26\0\210\0\0j\1\0\203\0\0\1n\0\0\210\0\0|\1\0k\10\0r2\0\210\0\0j\2"..., 4096) = 1390
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+close(8)                                = 0
+close(7)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba70f8000
+munmap(0x7f5ba70f8000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba70f8000
+close(6)                                = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/Downward/lab/copy_reg", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy_reg.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy_reg.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy_reg.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/copy_reg", 0x7ffd900dc9f0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy_reg.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy_reg.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6800, ...}) = 0
+open("/usr/lib/python2.7/copy_reg.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=5091, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\326\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=5091, ...}) = 0
+read(6, "\0\0\0t\3\0\0\0intt\n\0\0\0ValueErrort\23\0\0\0_"..., 4096) = 995
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/traceback", 0x7ffd900dcea0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/traceback.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/traceback.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tracebackmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/traceback.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/traceback.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/traceback", 0x7ffd900dcea0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/traceback.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/traceback.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tracebackmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/traceback.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=11285, ...}) = 0
+open("/usr/lib/python2.7/traceback.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=11639, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0sB\1\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=11639, ...}) = 0
+read(5, "!\0\0\0i\0\0\0\0i\1\0\0\0N(\20\0\0\0R\24\0\0\0R\"\0\0\0R\25"..., 4096) = 4096
+read(5, "\0\203\0\0\\\3\0}\2\0}\3\0}\4\0t\4\0|\2\0|\3\0|\4\0|\0\0|"..., 4096) = 3447
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/home/jendrik/projects/Downward/lab/sysconfig", 0x7ffd900dc960) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sysconfig.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sysconfig.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sysconfigmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sysconfig.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sysconfig.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python/x86-64_sles10_4.1", 0x7ffd900db6b0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python", 0x7ffd900db6b0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex", 0x7ffd900db6b0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex/CPLEX_Studio", 0x7ffd900db6b0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib/cplex", 0x7ffd900db6b0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/lib/cplex/CPLEX_Studio/cplex/python/x86-64_sles10_4.1", 0x7ffd900dc690) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/sysconfig", 0x7ffd900dc960) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sysconfig.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sysconfig.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sysconfigmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sysconfig.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=25204, ...}) = 0
+open("/usr/lib/python2.7/sysconfig.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=18673, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\7\0\0\0@\0\0\0s\217\5\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=18673, ...}) = 0
+brk(0x108d000)                          = 0x108d000
+read(5, "\3\0|\2\0k\6\0r7\0q\31\0n\0\0|\4\0|\0\0|\3\0<q\31\0Wd"..., 12288) = 12288
+read(5, "\0\0005t\7\0\0\0solariss\5\0\0\0%d.%si\3\0\0\0i\2"..., 4096) = 2289
+read(5, "", 4096)                       = 0
+brk(0x1088000)                          = 0x1088000
+close(5)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/usr/bin/python", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+readlink("/usr/bin/python", "python2.7", 4096) = 9
+lstat("/usr/bin/python2.7", {st_mode=S_IFREG|0755, st_size=3546104, ...}) = 0
+stat("/usr/bin/Modules/Setup.dist", 0x7ffd900dd340) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/Modules/Setup.local", 0x7ffd900dd340) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/re", 0x7ffd900dc600) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/re.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/re.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/remodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/re.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/re.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/re", 0x7ffd900dc600) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/re.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/re.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/remodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/re.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=13423, ...}) = 0
+open("/usr/lib/python2.7/re.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=13371, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\27\0\0\0@\0\0\0sQ\2\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=13371, ...}) = 0
+read(5, "ports the following functions:\n "..., 8192) = 8192
+read(5, "\0|\10\0\203\1\0\1n\0\0|\7\0}\5\0q-\0W|\2\0|\1\0|\5\0\37f"..., 4096) = 1083
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/Downward/lab/sre_compile", 0x7ffd900dc150) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_compile.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_compile.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_compilemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_compile.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_compile.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_compile", 0x7ffd900dc150) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_compile.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_compile.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_compilemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_compile.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=19817, ...}) = 0
+open("/usr/lib/python2.7/sre_compile.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=12529, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\317\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=12529, ...}) = 0
+read(6, "_compilet\7\0\0\0SUCCESSt\7\0\0\0_simple"..., 8192) = 8192
+read(6, "intRd\0\0\0Rf\0\0\0R'\0\0\0R\226\0\0\0t\7\0\0\0unic"..., 4096) = 241
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/Downward/lab/sre_parse", 0x7ffd900dbca0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_parse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_parse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_parsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_parse.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_parse.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_parse", 0x7ffd900dbca0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_parse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_parse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_parsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_parse.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=28911, ...}) = 0
+open("/usr/lib/python2.7/sre_parse.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=19945, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\312\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=19945, ...}) = 0
+read(7, "\0\0\3\0\0\0\3\0\0\0C\0\0\0s\21\0\0\0|\2\0|\0\0j\0\0|\1\0<"..., 12288) = 12288
+read(7, "\2\0_\4\0t\5\0|\3\0|\2\0d\1\0\203\3\0}\4\0|\3\0j\6\0\203\0\0"..., 4096) = 3561
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/home/jendrik/projects/Downward/lab/sre_constants", 0x7ffd900db7f0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_constants.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_constants.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_constantsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_constants.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sre_constants.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_constants", 0x7ffd900db7f0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_constants.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_constants.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_constantsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sre_constants.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7197, ...}) = 0
+open("/usr/lib/python2.7/sre_constants.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=6185, ...}) = 0
+read(8, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0 \0\0\0@\0\0\0s*\5\0\0d\0"..., 4096) = 4096
+fstat(8, {st_mode=S_IFREG|0644, st_size=6185, ...}) = 0
+read(8, "FIX %d\ns\34\0\0\0#define SRE_INFO_LIT"..., 4096) = 2089
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/_sysconfigdata", 0x7ffd900dc4b0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdatamodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_sysconfigdata", 0x7ffd900dc4b0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdatamodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+open("/usr/lib/python2.7/_sysconfigdata.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=279, ...}) = 0
+read(5, "\3\363\r\n\24\n0Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s6\0\0\0d\0"..., 4096) = 279
+fstat(5, {st_mode=S_IFREG|0644, st_size=279, ...}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/Downward/lab/_sysconfigdata_nd", 0x7ffd900dc000) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata_nd.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata_nd.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata_ndmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata_nd.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/_sysconfigdata_nd.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_sysconfigdata_nd", 0x7ffd900dc000) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata_nd.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata_nd.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata_ndmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata_nd.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/_sysconfigdata_nd.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd", 0x7ffd900dc000) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_ndmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=17937, ...}) = 0
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=20808, ...}) = 0
+read(6, "\3\363\r\n8\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s)\17\0\0i)"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=20808, ...}) = 0
+brk(0x10aa000)                          = 0x10aa000
+read(6, "er/asdl_c.pyt\r\0\0\0ASDLGEN_FILESs\25"..., 16384) = 16384
+read(6, "\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1"..., 4096) = 328
+read(6, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba70b8000
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/home/jendrik/.local/lib/python2.7/site-packages", 0x7ffd900ddbe0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/.local/local/lib/python2.7/dist-packages", 0x7ffd900ddbe0) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/.local/lib/python2.7/dist-packages", 0x7ffd900ddbe0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+open("/usr/local/lib/python2.7/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+getdents(4, /* 138 entries */, 32768)   = 5592
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/collective.checkdocs-0.2-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=317, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=317, ...}) = 0
+read(4, "import sys, types, os;p = os.pat"..., 8192) = 317
+read(4, "", 4096)                       = 0
+brk(0x10ce000)                          = 0x10ce000
+brk(0x10c5000)                          = 0x10c5000
+stat("/usr/local/lib/python2.7/dist-packages/collective/__init__.py", 0x7ffd900dd560) = -1 ENOENT (No such file or directory)
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/configparser-3.5.0-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=314, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=314, ...}) = 0
+read(4, "import sys, types, os;p = os.pat"..., 8192) = 314
+read(4, "", 4096)                       = 0
+stat("/usr/local/lib/python2.7/dist-packages/backports/__init__.py", 0x7ffd900dd560) = -1 ENOENT (No such file or directory)
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/easy-install.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=31, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=31, ...}) = 0
+read(4, "/home/jendrik/projects/vulture\n", 8192) = 31
+read(4, "", 4096)                       = 0
+stat("/home/jendrik/projects/vulture", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/lazr.authentication-0.1.3-py2.7-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+read(4, "import sys, types, os;has_mfs = "..., 8192) = 529
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/lazr.restfulclient-0.13.1-py2.7-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+read(4, "import sys, types, os;has_mfs = "..., 8192) = 529
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/lazr.uri-1.0.3-py2.7-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+read(4, "import sys, types, os;has_mfs = "..., 8192) = 529
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/pytest-cov.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=321, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=321, ...}) = 0
+read(4, "import os, sys;exec('if \\'COV_CO"..., 8192) = 321
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/local/lib/python2.7/dist-packages/zope.interface-4.3.3-py2.7-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+read(4, "import sys, types, os;has_mfs = "..., 8192) = 529
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/python2.7/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(4, /* 121 entries */, 32768)   = 4664
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+open("/usr/lib/python2.7/dist-packages/PILcompat.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=10, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=10, ...}) = 0
+read(4, "PILcompat\n", 8192)            = 10
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.7/dist-packages/PILcompat", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/lib/python2.7/dist-packages/logilab_common-1.1.0-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=308, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=308, ...}) = 0
+read(4, "import sys, types, os;p = os.pat"..., 8192) = 308
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.7/dist-packages/logilab/__init__.py", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/lib/python2.7/dist-packages/matplotlib-1.5.1-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=323, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=323, ...}) = 0
+read(4, "import sys, types, os;p = os.pat"..., 8192) = 323
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.7/dist-packages/mpl_toolkits/__init__.py", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/lib/python2.7/dist-packages/pygtk.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=8, ...}) = 0
+read(4, "gtk-2.0\n", 8192)              = 8
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+open("/usr/lib/python2.7/dist-packages/wx.pth", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=12, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=12, ...}) = 0
+read(4, "wx-3.0-gtk2\n", 8192)          = 12
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/sitecustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitecustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitecustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/sitecustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sitecustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sitecustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/sitecustomize.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+open("/usr/lib/python2.7/sitecustomize.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+read(5, "\3\363\r\n\313\17xWc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s2\0\0\0y\20"..., 4096) = 232
+fstat(5, {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/Downward/lab/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-old", 0x7ffd900db4a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/lib-old", 0x7ffd900dc480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/vulture", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+stat("/home/jendrik/projects/vulture", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+stat("/home/jendrik/projects/vulture/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/PILcompat", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/PILcompat", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook", 0x7ffd900dc750) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+stat("/home/jendrik/projects/Downward/lab/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/vulture/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/PILcompat/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize", 0x7ffd900dcc00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4570528, ...}) = 0
+mmap(NULL, 4570528, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5ba5cc6000
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/lab/encodings", 0x7ffd900dd490) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/encodings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5698, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__", 0x7ffd900dd440) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__init__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__init__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__init__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__init__.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5698, ...}) = 0
+open("/usr/lib/python2.7/encodings/__init__.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=4370, ...}) = 0
+read(4, "\3\363\r\n0\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\216\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=4370, ...}) = 0
+read(4, "\1$\1$\0016\0016\1\3\1\3\1\26\1\"\0015\1\22\3\n\4\3\1\20\1\r\1\4\2\r"..., 4096) = 274
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings/codecs", 0x7ffd900dcf90) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/codecs.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/codecs", 0x7ffd900dcf20) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/codecs.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/codecs", 0x7ffd900dcf20) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/codecs.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/codecs.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=36095, ...}) = 0
+open("/usr/lib/python2.7/codecs.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=36654, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0+\0\0\0@\0\0\0sp\3\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=36654, ...}) = 0
+read(5, "ndling.\n\n            The method "..., 28672) = 28672
+read(5, "oding cannot be found\n        or"..., 4096) = 3886
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings/encodings", 0x7ffd900dcf90) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/encodings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/aliases", 0x7ffd900dcf20) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/aliases.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/aliases.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/aliasesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/aliases.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+open("/usr/lib/python2.7/encodings/aliases.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8768, ...}) = 0
+read(5, "\3\363\r\n0\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0su\10\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=8768, ...}) = 0
+read(5, "ibm860t\6\0\0\0ibm860t\5\0\0\0cp861t\3\0\0\0"..., 4096) = 4096
+read(5, "\7\3\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\3\7\1\7\1\7\3\7\1\7\3\7\1\7\3"..., 4096) = 576
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings/__builtin__", 0x7ffd900dcf90) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__builtin__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__builtin__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__builtin__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__builtin__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/__builtin__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/usr/lib/python2.7/encodings/utf_8", 0x7ffd900dd140) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/utf_8.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/utf_8.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/utf_8module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/encodings/utf_8.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+open("/usr/lib/python2.7/encodings/utf_8.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1950, ...}) = 0
+read(4, "\3\363\r\n0\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\230\0\0\0d\0"..., 4096) = 1950
+fstat(4, {st_mode=S_IFREG|0644, st_size=1950, ...}) = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+close(3)                                = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, 0x7ffd900de4a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, TCGETS, 0x7ffd900de4a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+readlink("vulture.py", 0x7ffd900db690, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/jendrik/projects/vulture", 4096) = 31
+lstat("/home/jendrik/projects/vulture/vulture.py", {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+stat("vulture.py", {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+open("vulture.py", O_RDONLY)            = 3
+fstat(3, {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+lseek(3, 12288, SEEK_SET)               = 12288
+read(3, "  self.tuple_assign_vars.append("..., 1910) = 1910
+read(3, "__main__':\n    main()\n", 4096) = 22
+close(3)                                = 0
+stat("vulture.py", {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+open("vulture.py", O_RDONLY)            = 3
+fstat(3, {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+ioctl(3, TCGETS, 0x7ffd900de610)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=14220, ...}) = 0
+read(3, "#! /usr/bin/env python\n# -*- cod"..., 4096) = 4096
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "#! /usr/bin/env python\n# -*- cod"..., 4096) = 4096
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7078000
+read(3, "trs')\n        self.used_vars = g"..., 4096) = 4096
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba5c86000
+munmap(0x7f5ba5c86000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba5c86000
+munmap(0x7f5ba5c86000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba5c86000
+read(3, "tr(node, 'lineno', 1)\n\n    def _"..., 4096) = 4096
+read(3, "  self.tuple_assign_vars.append("..., 4096) = 1932
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba5c46000
+read(3, "", 4096)                       = 0
+brk(0x10e6000)                          = 0x10e6000
+munmap(0x7f5ba7078000, 262144)          = 0
+munmap(0x7f5ba5c86000, 262144)          = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/vulture/__future__", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/__future__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/__future__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/__future__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/__future__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/__future__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/__future__", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/__future__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/__future__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/__future__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/__future__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/__future__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/__future__", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/__future__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/__future__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/__future__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/__future__.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4380, ...}) = 0
+open("/usr/lib/python2.7/__future__.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=4216, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\7\0\0\0@\0\0\0s\355\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=4216, ...}) = 0
+read(4, "/python2.7/__future__.pyt\10\0\0\0<mo"..., 4096) = 120
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/vulture/ast", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/ast.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/ast.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/astmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/ast.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/ast.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/ast", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/ast.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/ast.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/astmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/ast.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/ast.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/ast", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/ast.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/ast.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/astmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/ast.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11805, ...}) = 0
+open("/usr/lib/python2.7/ast.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=12906, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\274\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=12906, ...}) = 0
+read(4, "d\2\0p\240\0d\5\0007}\4\0|\4\0d\2\0j\5\0\207\1\0\207\0\0f\2\0d"..., 8192) = 8192
+read(4, "\0W|\4\0|\3\0(q\r\0t\3\0|\3\0t\5\0\203\2\0r\r\0|\0\0j\6"..., 4096) = 618
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+brk(0x1107000)                          = 0x1107000
+close(3)                                = 0
+stat("/home/jendrik/projects/vulture/fnmatch", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/fnmatch.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/fnmatch.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/fnmatchmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/fnmatch.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/fnmatch.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/fnmatch", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/fnmatch.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/fnmatch.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/fnmatchmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/fnmatch.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/fnmatch.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/fnmatch", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/fnmatch.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/fnmatch.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/fnmatchmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/fnmatch.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3315, ...}) = 0
+open("/usr/lib/python2.7/fnmatch.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=3602, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0sa\0\0\0d\0"..., 4096) = 3602
+fstat(4, {st_mode=S_IFREG|0644, st_size=3602, ...}) = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/vulture/optparse", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/optparse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/optparse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/optparsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/optparse.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/optparse.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/optparse", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/optparse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/optparse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/optparsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/optparse.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/optparse.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/optparse", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/optparse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/optparse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/optparsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/optparse.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=61203, ...}) = 0
+open("/usr/lib/python2.7/optparse.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=53842, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\20\0\0\0@\0\0\0s\300\2\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=53842, ...}) = 0
+read(4, "\0d\2\0\204\0\0Z\4\0RS(\3\0\0\0s]\0\0\0\n    Raise"..., 49152) = 49152
+read(4, "\0(\4\0\0\0RM\1\0\0t\7\0\0\0wordmapt\4\0\0\0word"..., 4096) = 594
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/vulture/textwrap", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/textwrap.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/textwrap.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/textwrapmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/textwrap.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/textwrap.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/textwrap", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/textwrap.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/textwrap.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/textwrapmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/textwrap.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/textwrap.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/textwrap", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/textwrap.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/textwrap.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/textwrapmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/textwrap.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=17215, ...}) = 0
+open("/usr/lib/python2.7/textwrap.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=12004, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\354\0\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=12004, ...}) = 0
+read(5, "\0\0\0t\4\0\0\0text(\0\0\0\0(\0\0\0\0s\36\0\0\0/usr/"..., 4096) = 4096
+read(5, "ith string.expandtabs(),\n       "..., 4096) = 3812
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/jendrik/projects/vulture/string", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/string.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/string.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/stringmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/string.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/string.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/string", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/string.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/string.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/stringmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/string.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/string.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/string", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/string.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/string.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/stringmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/string.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=21548, ...}) = 0
+open("/usr/lib/python2.7/string.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=20357, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\226\2\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=20357, ...}) = 0
+read(6, "    (?P<escaped>%(delim)s) |   #"..., 12288) = 12288
+read(6, " string str with all occurrences"..., 4096) = 3973
+read(6, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba7078000
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/vulture/gettext", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/gettext.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/gettext.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/gettextmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/gettext.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/gettext.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/gettext", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/gettext.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/gettext.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/gettextmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/gettext.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/gettext.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/gettext", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/gettext.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/gettext.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/gettextmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/gettext.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=20416, ...}) = 0
+open("/usr/lib/python2.7/gettext.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=15607, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\21\0\0\0@\0\0\0s\303\1\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=15607, ...}) = 0
+brk(0x1128000)                          = 0x1128000
+read(5, "Z\4\0d\2\0\204\0\0Z\5\0d\3\0\204\0\0Z\6\0d\4\0\204\0\0Z\7\0d\5"..., 8192) = 8192
+read(5, "\6\0sU\0|\4\0r@\0t\3\0\203\0\0St\4\0t\5\0d\3\0|\0\0\203\3"..., 4096) = 3319
+read(5, "", 4096)                       = 0
+brk(0x1124000)                          = 0x1124000
+close(5)                                = 0
+stat("/home/jendrik/projects/vulture/locale", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/locale.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/locale.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/localemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/locale.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/locale.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/locale", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/locale.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/locale.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/localemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/locale.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/locale.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/locale", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/locale.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/locale.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/localemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/locale.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=99520, ...}) = 0
+open("/usr/lib/python2.7/locale.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=54998, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\27\0\0\0@\0\0\0sU$\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=54998, ...}) = 0
+read(6, "v\1d\4\0036d\214\1d\5\0036dv\1d\6\0036dv\1d\7\0036d\10\3d\t"..., 49152) = 49152
+read(6, "\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1"..., 4096) = 1750
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/vulture/functools", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/functools.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/functools.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/functoolsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/functools.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/functools.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/functools", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/functools.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/functools.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/functoolsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/functools.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/functools.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/functools", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/functools.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/functools.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/functoolsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/functools.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4478, ...}) = 0
+open("/usr/lib/python2.7/functools.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6037, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\\\0\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=6037, ...}) = 0
+read(7, "ion into a key= functiont\1\0\0\0Kc\0"..., 4096) = 1941
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+close(6)                                = 0
+brk(0x1159000)                          = 0x1159000
+close(5)                                = 0
+stat("/home/jendrik/projects/vulture/copy", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/copy.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/copy.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/copymodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/copy.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/copy.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/copy", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copymodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/copy.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/copy", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copymodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/copy.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=11533, ...}) = 0
+open("/usr/lib/python2.7/copy.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=12148, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\17\0\0\0@\0\0\0s\233\3\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=12148, ...}) = 0
+read(6, "St\0\0|\0\0d\2\0\203\2\0rF\0|\0\0j\2\0\203\0\0}\1\0|\0\0j"..., 4096) = 4096
+read(6, "\0D]+\0}\16\0|\2\0r\4\2t\6\0|\16\0|\3\0\203\2\0}\16\0n\0\0"..., 4096) = 3956
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/vulture/weakref", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/weakref.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/weakref.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/weakrefmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/weakref.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/weakref.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/weakref", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/weakref.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/weakref.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/weakrefmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/weakref.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/weakref.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/weakref", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/weakref.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/weakref.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/weakrefmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/weakref.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=13600, ...}) = 0
+open("/usr/lib/python2.7/weakref.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=15741, ...}) = 0
+read(7, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\f\0\0\0@\0\0\0s\356\0\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=15741, ...}) = 0
+read(7, "|\4\0d\0\0k\10\0r?\0|\2\0S|\4\0Sd\0\0S(\1\0\0\0N(\3"..., 8192) = 8192
+read(7, "|\1\0S(\1\0\0\0N(\4\0\0\0R\22\0\0\0R0\0\0\0R\r\0\0\0R\20"..., 4096) = 3453
+read(7, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5ba5c86000
+close(7)                                = 0
+close(6)                                = 0
+stat("/home/jendrik/projects/vulture/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/plat-x86_64-linux-gnu/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-tk/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/lib-dynload/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.7/dist-packages/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/vulture/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/PILcompat/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/PILcompat/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/gtk-2.0/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/org", 0x7ffd900dc3d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/org.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/org.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/orgmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/org.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/org.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(5)                                = 0
+stat("/home/jendrik/projects/vulture/struct", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/struct.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/struct.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/structmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/struct.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/struct.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/struct", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/struct.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/struct.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/structmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/struct.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/struct.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/struct", 0x7ffd900dc880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/struct.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/struct.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/structmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/struct.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+open("/usr/lib/python2.7/struct.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=237, ...}) = 0
+read(6, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\2\0\0\0@\0\0\0s.\0\0\0d\0"..., 4096) = 237
+fstat(6, {st_mode=S_IFREG|0644, st_size=237, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dd650) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/home/jendrik/projects/vulture/tokenize", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/tokenize", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/tokenize", 0x7ffd900dd1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tokenize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tokenize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tokenizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tokenize.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=17483, ...}) = 0
+open("/usr/lib/python2.7/tokenize.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=14473, ...}) = 0
+read(4, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\36\0\0\0@\0\0\0s\370\4\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=14473, ...}) = 0
+read(4, "b's\2\0\0\0b\"s\2\0\0\0B's\2\0\0\0B\"s\3\0\0\0br's"..., 8192) = 8192
+read(4, "\0\0t\2\0\0\0OPRC\0\0\0(\33\0\0\0R+\0\0\0t\4\0\0\0lnu"..., 4096) = 2185
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/home/jendrik/projects/vulture/token", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/token.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/token.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/tokenmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/token.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/vulture/token.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/lab/token", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/token.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/token.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/tokenmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/token.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/jendrik/projects/Downward/lab/token.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/token", 0x7ffd900dcd30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/token.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/token.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/tokenmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.7/token.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2922, ...}) = 0
+open("/usr/lib/python2.7/token.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=3806, ...}) = 0
+read(5, "\3\363\r\n/\0340Xc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\337\1\0\0d\0"..., 4096) = 3806
+fstat(5, {st_mode=S_IFREG|0644, st_size=3806, ...}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+close(3)                                = 0
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_CH/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/locale-langpack/de_DE/LC_MESSAGES/messages.mo", 0x7ffd900dcd80) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/Downward/downward/src/translate", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents(3, /* 44 entries */, 32768)    = 1584
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/__pycache__", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents(3, /* 56 entries */, 32768)    = 2616
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7740, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7740, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=8290, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=8290, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7179, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/axiom_rules.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7179, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=23395, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=23395, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=25551, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=25551, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/build_model.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=10534, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=10534, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=11735, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=11735, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=8917, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/constraints.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=8917, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=7952, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=7952, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=6150, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/fact_groups.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=6150, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=3083, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=3083, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=3362, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=3362, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=3018, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/graph.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=3018, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=7807, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=7807, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=6845, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/greedy_join.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=6845, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4333, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4333, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=4441, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=4441, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=3674, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/instantiate.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=3674, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=8072, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=8072, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=8480, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=8480, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7350, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariant_finder.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7350, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=23444, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=23444, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=25021, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=25021, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19948, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/invariants.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19948, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=20879, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=20879, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=22922, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=22922, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=13862, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=13862, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19037, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/normalize.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=19037, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/options.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2707, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/options.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2707, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=11643, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=11643, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=12479, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=12479, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=8310, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=8310, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=10987, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/pddl_to_prolog.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=10987, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=25204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=25204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=13781, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=13781, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=12291, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/sas_tasks.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=12291, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=21838, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=21838, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=15296, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=15296, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=13368, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/simplify.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=13368, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=3414, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=3414, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=3612, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=3612, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=2772, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/split_rules.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=2772, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1855, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1855, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1972, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1972, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=1335, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=1335, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1811, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/timers.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1811, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1033, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1033, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1091, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1091, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/tools.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/translate.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=23078, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/translate.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=23078, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/translate.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=20825, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/__pycache__/translate.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=20825, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/axiom_rules.py", {st_mode=S_IFREG|0644, st_size=7106, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/axiom_rules.pyc", {st_mode=S_IFREG|0644, st_size=6112, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/axiom_rules.pyc", {st_mode=S_IFREG|0644, st_size=6112, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/build_model.py", {st_mode=S_IFREG|0755, st_size=13234, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/build_model.pyc", {st_mode=S_IFREG|0644, st_size=16519, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/build_model.pyc", {st_mode=S_IFREG|0644, st_size=16519, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/constraints.py", {st_mode=S_IFREG|0644, st_size=5687, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/constraints.pyc", {st_mode=S_IFREG|0644, st_size=7609, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/constraints.pyc", {st_mode=S_IFREG|0644, st_size=7609, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/fact_groups.py", {st_mode=S_IFREG|0644, st_size=4737, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/fact_groups.pyc", {st_mode=S_IFREG|0644, st_size=5338, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/fact_groups.pyc", {st_mode=S_IFREG|0644, st_size=5338, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/graph.py", {st_mode=S_IFREG|0755, st_size=1345, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/graph.pyc", {st_mode=S_IFREG|0644, st_size=2789, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/graph.pyc", {st_mode=S_IFREG|0644, st_size=2789, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/greedy_join.py", {st_mode=S_IFREG|0644, st_size=4405, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/greedy_join.pyc", {st_mode=S_IFREG|0644, st_size=5916, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/greedy_join.pyc", {st_mode=S_IFREG|0644, st_size=5916, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/instantiate.py", {st_mode=S_IFREG|0755, st_size=3609, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/instantiate.pyc", {st_mode=S_IFREG|0644, st_size=3407, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/instantiate.pyc", {st_mode=S_IFREG|0644, st_size=3407, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariant_finder.py", {st_mode=S_IFREG|0755, st_size=6131, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariant_finder.pyc", {st_mode=S_IFREG|0644, st_size=6570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariant_finder.pyc", {st_mode=S_IFREG|0644, st_size=6570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariants.py", {st_mode=S_IFREG|0644, st_size=17258, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariants.pyc", {st_mode=S_IFREG|0644, st_size=17122, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/invariants.pyc", {st_mode=S_IFREG|0644, st_size=17122, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/normalize.py", {st_mode=S_IFREG|0755, st_size=16128, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/normalize.pyc", {st_mode=S_IFREG|0644, st_size=15513, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/normalize.pyc", {st_mode=S_IFREG|0644, st_size=15513, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/options.py", {st_mode=S_IFREG|0644, st_size=2733, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/options.pyc", {st_mode=S_IFREG|0644, st_size=2955, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/options.pyc", {st_mode=S_IFREG|0644, st_size=2955, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/pddl", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 25 entries */, 32768)    = 864
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__init__.py", {st_mode=S_IFREG|0644, st_size=1020, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__init__.pyc", {st_mode=S_IFREG|0644, st_size=1561, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__init__.pyc", {st_mode=S_IFREG|0644, st_size=1561, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents(3, /* 48 entries */, 32768)    = 2184
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1887, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1887, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1443, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1443, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=1353, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=1353, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1435, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/__init__.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1435, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7195, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=7195, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=9070, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=9070, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=5202, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=5202, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7585, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/actions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=7585, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=5570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=5570, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=6716, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=6716, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=3754, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=3754, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=5425, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/axioms.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=5425, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=27246, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=27246, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=33109, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=33109, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=17197, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=17197, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=26519, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/conditions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=26519, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=12709, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=12709, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=17073, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=17073, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=8263, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=8263, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=14773, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/effects.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=14773, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=8845, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=8845, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=11127, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=11127, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=5752, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=5752, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=9498, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/f_expression.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=9498, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1229, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1229, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1735, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1735, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=888, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=888, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1576, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/functions.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1576, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1819, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1819, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1905, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1905, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1803, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/parser.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1803, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2444, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2444, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=2483, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=2483, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=2341, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_file.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=2341, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4255, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4255, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=5422, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=5422, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=2721, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=2721, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=4885, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/pddl_types.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=4885, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1202, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1202, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1542, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=1542, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=811, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=811, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1378, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/predicates.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=1378, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4033, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=4033, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=12130, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-33.pyc", {st_mode=S_IFREG|0644, st_size=12130, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=2768, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=2768, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=10541, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/__pycache__/tasks.pypy-20.pyc", {st_mode=S_IFREG|0644, st_size=10541, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/actions.py", {st_mode=S_IFREG|0644, st_size=5451, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/actions.pyc", {st_mode=S_IFREG|0644, st_size=5561, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/actions.pyc", {st_mode=S_IFREG|0644, st_size=5561, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/axioms.py", {st_mode=S_IFREG|0644, st_size=2689, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/axioms.pyc", {st_mode=S_IFREG|0644, st_size=4216, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/axioms.pyc", {st_mode=S_IFREG|0644, st_size=4216, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/conditions.py", {st_mode=S_IFREG|0644, st_size=11108, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/conditions.pyc", {st_mode=S_IFREG|0644, st_size=20476, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/conditions.pyc", {st_mode=S_IFREG|0644, st_size=20476, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/effects.py", {st_mode=S_IFREG|0644, st_size=7115, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/effects.pyc", {st_mode=S_IFREG|0644, st_size=10063, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/effects.pyc", {st_mode=S_IFREG|0644, st_size=10063, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/f_expression.py", {st_mode=S_IFREG|0644, st_size=3606, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/f_expression.pyc", {st_mode=S_IFREG|0644, st_size=7128, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/f_expression.pyc", {st_mode=S_IFREG|0644, st_size=7128, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/functions.py", {st_mode=S_IFREG|0644, st_size=550, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/functions.pyc", {st_mode=S_IFREG|0644, st_size=1115, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/functions.pyc", {st_mode=S_IFREG|0644, st_size=1115, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/parser.pyc", {st_mode=S_IFREG|0644, st_size=1647, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/parser.pyc", {st_mode=S_IFREG|0644, st_size=1647, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/pddl_file.pyc", {st_mode=S_IFREG|0644, st_size=2132, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/pddl_file.pyc", {st_mode=S_IFREG|0644, st_size=2132, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/pddl_types.py", {st_mode=S_IFREG|0644, st_size=2306, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/pddl_types.pyc", {st_mode=S_IFREG|0644, st_size=3671, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/pddl_types.pyc", {st_mode=S_IFREG|0644, st_size=3671, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/predicates.py", {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/predicates.pyc", {st_mode=S_IFREG|0644, st_size=1078, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/predicates.pyc", {st_mode=S_IFREG|0644, st_size=1078, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/tasks.py", {st_mode=S_IFREG|0644, st_size=2469, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/tasks.pyc", {st_mode=S_IFREG|0644, st_size=3565, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl/tasks.pyc", {st_mode=S_IFREG|0644, st_size=3565, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 12 entries */, 32768)    = 424
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__init__.py", {st_mode=S_IFREG|0644, st_size=28, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__init__.pyc", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__init__.pyc", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 6 entries */, 32768)     = 248
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/__init__.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=227, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/__init__.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=227, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/lisp_parser.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1879, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/lisp_parser.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=1879, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/parsing_functions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=20159, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/parsing_functions.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=20159, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/pddl_file.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2220, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/__pycache__/pddl_file.cpython-32.pyc", {st_mode=S_IFREG|0644, st_size=2220, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/lisp_parser.py", {st_mode=S_IFREG|0644, st_size=1422, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/lisp_parser.pyc", {st_mode=S_IFREG|0644, st_size=2301, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/lisp_parser.pyc", {st_mode=S_IFREG|0644, st_size=2301, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/parsing_functions.py", {st_mode=S_IFREG|0644, st_size=19100, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/parsing_functions.pyc", {st_mode=S_IFREG|0644, st_size=16423, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/parsing_functions.pyc", {st_mode=S_IFREG|0644, st_size=16423, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/pddl_file.py", {st_mode=S_IFREG|0644, st_size=1380, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/pddl_file.pyc", {st_mode=S_IFREG|0644, st_size=1376, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/pddl_file.pyc", {st_mode=S_IFREG|0644, st_size=1376, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_parser/pretty_print.py", {st_mode=S_IFREG|0644, st_size=1492, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_to_prolog.py", {st_mode=S_IFREG|0755, st_size=7484, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_to_prolog.pyc", {st_mode=S_IFREG|0644, st_size=9807, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/pddl_to_prolog.pyc", {st_mode=S_IFREG|0644, st_size=9807, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/regression-tests", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 19 entries */, 32768)    = 800
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/README", {st_mode=S_IFREG|0644, st_size=437, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/README", {st_mode=S_IFREG|0644, st_size=437, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue34-domain.pddl", {st_mode=S_IFREG|0644, st_size=11528, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue34-domain.pddl", {st_mode=S_IFREG|0644, st_size=11528, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue34-problem.pddl", {st_mode=S_IFREG|0644, st_size=1821, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue34-problem.pddl", {st_mode=S_IFREG|0644, st_size=1821, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue405-domain.pddl", {st_mode=S_IFREG|0644, st_size=1117, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue405-domain.pddl", {st_mode=S_IFREG|0644, st_size=1117, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue405-problem.pddl", {st_mode=S_IFREG|0644, st_size=188, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue405-problem.pddl", {st_mode=S_IFREG|0644, st_size=188, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-falsegoal-domain.pddl", {st_mode=S_IFREG|0644, st_size=204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-falsegoal-domain.pddl", {st_mode=S_IFREG|0644, st_size=204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-falsegoal-problem.pddl", {st_mode=S_IFREG|0644, st_size=128, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-falsegoal-problem.pddl", {st_mode=S_IFREG|0644, st_size=128, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-orig-domain.pddl", {st_mode=S_IFREG|0644, st_size=86428, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-orig-domain.pddl", {st_mode=S_IFREG|0644, st_size=86428, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-orig-problem.pddl", {st_mode=S_IFREG|0644, st_size=7426, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-orig-problem.pddl", {st_mode=S_IFREG|0644, st_size=7426, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-truegoal-domain.pddl", {st_mode=S_IFREG|0644, st_size=204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-truegoal-domain.pddl", {st_mode=S_IFREG|0644, st_size=204, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-truegoal-problem.pddl", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue49-truegoal-problem.pddl", {st_mode=S_IFREG|0644, st_size=123, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue58-domain.pddl", {st_mode=S_IFREG|0644, st_size=535, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue58-domain.pddl", {st_mode=S_IFREG|0644, st_size=535, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue58-problem.pddl", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue58-problem.pddl", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue7-domain.pddl", {st_mode=S_IFREG|0644, st_size=3203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue7-domain.pddl", {st_mode=S_IFREG|0644, st_size=3203, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue7-problem.pddl", {st_mode=S_IFREG|0644, st_size=1116, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue7-problem.pddl", {st_mode=S_IFREG|0644, st_size=1116, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue73-domain.pddl", {st_mode=S_IFREG|0644, st_size=67932, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue73-domain.pddl", {st_mode=S_IFREG|0644, st_size=67932, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue73-problem.pddl", {st_mode=S_IFREG|0644, st_size=796, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/regression-tests/issue73-problem.pddl", {st_mode=S_IFREG|0644, st_size=796, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/sas_tasks.py", {st_mode=S_IFREG|0644, st_size=18106, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/sas_tasks.pyc", {st_mode=S_IFREG|0644, st_size=22146, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/sas_tasks.pyc", {st_mode=S_IFREG|0644, st_size=22146, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/simplify.py", {st_mode=S_IFREG|0644, st_size=20227, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/simplify.pyc", {st_mode=S_IFREG|0644, st_size=18756, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/simplify.pyc", {st_mode=S_IFREG|0644, st_size=18756, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/split_rules.py", {st_mode=S_IFREG|0644, st_size=2606, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/split_rules.pyc", {st_mode=S_IFREG|0644, st_size=2436, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/split_rules.pyc", {st_mode=S_IFREG|0644, st_size=2436, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/tests", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 7 entries */, 32768)     = 232
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__init__.py", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__init__.pyc", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__init__.pyc", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 5 entries */, 32768)     = 224
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/__init__.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/__init__.cpython-34.pyc", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/test_normalization.cpython-27-PYTEST.pyc", {st_mode=S_IFREG|0644, st_size=2569, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/test_normalization.cpython-27-PYTEST.pyc", {st_mode=S_IFREG|0644, st_size=2569, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/test_normalization.cpython-34-PYTEST.pyc", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/__pycache__/test_normalization.cpython-34-PYTEST.pyc", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/test_normalization.py", {st_mode=S_IFREG|0644, st_size=1628, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tests/test_scripts.py", {st_mode=S_IFREG|0644, st_size=773, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/timers.py", {st_mode=S_IFREG|0644, st_size=804, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/timers.pyc", {st_mode=S_IFREG|0644, st_size=1696, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/timers.pyc", {st_mode=S_IFREG|0644, st_size=1696, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tools.py", {st_mode=S_IFREG|0644, st_size=1127, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tools.pyc", {st_mode=S_IFREG|0644, st_size=959, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/tools.pyc", {st_mode=S_IFREG|0644, st_size=959, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/translate.py", {st_mode=S_IFREG|0755, st_size=29215, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/translate.pyc", {st_mode=S_IFREG|0644, st_size=16023, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/translate.pyc", {st_mode=S_IFREG|0644, st_size=16023, ...}) = 0
+stat("/home/jendrik/projects/Downward/downward/src/translate/variable_order.py", {st_mode=S_IFREG|0644, st_size=14472, ...}) = 0
+getcwd("/home/jendrik/projects/vulture", 1024) = 31
+stat("/home/jendrik/projects/vulture/2", 0x7ffd900ddb90) = -1 ENOENT (No such file or directory)
+stat("/home/jendrik/projects/vulture/2", 0x7ffd900ddb90) = -1 ENOENT (No such file or directory)
+write(2, "Error: /home/jendrik/projects/vu"..., 59Error: /home/jendrik/projects/vulture/2 could not be found.) = 59
+write(2, "\n", 1
+)                       = 1
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f5ba6e27390}, {0x53e110, [], SA_RESTORER, 0x7f5ba6e27390}, 8) = 0
+exit_group(1)                           = ?
++++ exited with 1 +++
