@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+pykemon2.0/__init__.py
+pykemon2.0/api.py
+pykemon2.0/exceptions.py
+pykemon2.0/models.py
+pykemon2.0/request.py
+pykemon2.0/resources.py
+pykemon2.0.egg-info/PKG-INFO
+pykemon2.0.egg-info/SOURCES.txt
+pykemon2.0.egg-info/dependency_links.txt
+pykemon2.0.egg-info/not-zip-safe
+pykemon2.0.egg-info/requires.txt
+pykemon2.0.egg-info/top_level.txt
