@@ -1,0 +1,14 @@
+MorfDict-0.4.3.dist-info/DESCRIPTION.rst,sha256=iedtTbU1Enek-f-CJPTTCCt_d_Afl24cS16rhbKTnDU,2065
+MorfDict-0.4.3.dist-info/METADATA,sha256=GIsN_vCxS0M89kxTitlpmYqtPxDc8yXX97SikGcHWD0,2310
+MorfDict-0.4.3.dist-info/RECORD,,
+MorfDict-0.4.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+MorfDict-0.4.3.dist-info/metadata.json,sha256=vVmFYroc8Z1K1x1JDXLKda0Qe_YaZkG1hZ24ohkQG2M,378
+MorfDict-0.4.3.dist-info/top_level.txt,sha256=RYAmMdlqk2Nl-AJQyLF3VtU3kZPTzMwkX5phsuiRi6Y,9
+morfdict/README.rst,sha256=_IRpcX1NnrIiCkdZj9dL3UuzXNy_XQ_O4LtXsBlig64,2063
+morfdict/__init__.py,sha256=u5oCxsJRm4NCbqKpTorOluZjQ0IezRLlXZcFrGxSLJY,205
+morfdict/factory.py,sha256=y6eSwNed-LfHAGoGv7mKo3D8QoXYCD-2V5q2LCZbc9w,2692
+morfdict/models.py,sha256=_c9aykYtK2DfUVZXMHCaDgNvEAAt84i4IX4EZpnvb_s,7959
+morfdict/tests/__init__.py,sha256=d1H31fppNX_Iw9q3jYzqcE0wbkeCjlLrBpWsKKUWOpo,829
+morfdict/tests/base.py,sha256=VAPpo3Liqvv1-Xk1_ofHGzHttTFsDqOI4nfncr5-v3s,62
+morfdict/tests/factory.py,sha256=vbtsZFuXRDot2u0N_I7SqPVpr83n3Js_7m2cFyvFBWg,6061
+morfdict/tests/morfdict.py,sha256=OMUk32buduDu19f4vrXSOpbNVlkpsF0siZGGtbZP-O8,10954
