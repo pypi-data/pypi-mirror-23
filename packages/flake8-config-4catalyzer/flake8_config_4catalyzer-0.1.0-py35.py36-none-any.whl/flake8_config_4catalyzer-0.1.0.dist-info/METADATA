@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: flake8-config-4catalyzer
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/4Catalyzer/python/blob/packages/flake8-config-4catalyzer
+Author: Alex Rothberg
+Author-email: arothberg@4catalyzer.com
+License: MIT
+Keywords: flake8
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flake8
+Requires-Dist: flake8-bugbear
+Requires-Dist: flake8-import-order
+
+UNKNOWN
+
+
