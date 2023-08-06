@@ -1,0 +1,6 @@
+docopt
+re
+getpass
+requests
+bs4
+prettytable
