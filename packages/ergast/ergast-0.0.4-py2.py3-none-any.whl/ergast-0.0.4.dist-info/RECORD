@@ -1,0 +1,13 @@
+ergast/__init__.py,sha256=fJuZkZQwtKmjMVhc9jvb6Al_8xvEQVszmfL5LOPyCpc,88
+ergast/client.py,sha256=XQy0RUTj35MeI8vDnmAfNiZjjuIwI8KtiJYrp-gESE4,1159
+ergast/formatter.py,sha256=WEWSIAxY4tJUAH6U4acrNTKRYjfAeybvWwVXvhqIWWI,1102
+ergast/request.py,sha256=gH1hHknHB4-7g69OWQVy-ySqp9gmZQDMXc7eciP7MKM,1970
+ergast/seasons.py,sha256=g2hg0Met26-qc8b8ZbLJceoRQwnIQ9IyEyZ3o7G_-rQ,301
+ergast-0.0.4.dist-info/DESCRIPTION.rst,sha256=GoG_5W2TWAzb1xD1V7SaD6T0vqotiS1xi4obKHIr8tE,53
+ergast-0.0.4.dist-info/METADATA,sha256=yARBdfz4B7OYfX2VRMpRh3_PGfAHsAiGp7LV3dE0PUI,494
+ergast-0.0.4.dist-info/RECORD,,
+ergast-0.0.4.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+ergast-0.0.4.dist-info/metadata.json,sha256=kQzo72__ykI8IygN7WxwQ133UuHnoMaFUJf4gxW7Xyc,652
+ergast-0.0.4.dist-info/top_level.txt,sha256=bgIyUZiYM7QMyDfifMTyepTDrThSEF-AyEKgPKzjJ0c,12
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_request.py,sha256=yCzQMuJR1nIgcf9whaxZgCGtlkcGL-mE823JzKNntc0,1737
