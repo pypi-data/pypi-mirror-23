@@ -1,0 +1,15 @@
+zope.componentvocabulary-2.1.0-py3.5-nspkg.pth,sha256=SWEVH-jEWsKYrL0qoC6GBJaStx_iKxGoAY9PQycFVC4,529
+zope/componentvocabulary/__init__.py,sha256=F569vTBPpK9qQRPXFvCHb038BAKH_8_RktlfYQY9Oe4,667
+zope/componentvocabulary/configure.zcml,sha256=9WwuTlpEtGbHAr1U7Zi9B4hFpu6bfdfzJKYzW5jpm0g,619
+zope/componentvocabulary/i18n.py,sha256=Hl48m24Rjj2PhR0seyMEAWEnBUtbOW1RjXl85L4jrSQ,890
+zope/componentvocabulary/vocabulary.py,sha256=lQhKgRhc765vCqmvkj35OnRGYtKdSkf1uAqxD9else8,13967
+zope/componentvocabulary/tests/__init__.py,sha256=690b_c98_VbdhbkaIIiCjDZc8aFNpJYPu9eSy_5lq-w,61
+zope/componentvocabulary/tests/test_configure.py,sha256=7D-kLDEpS93ZLdfGvnPVL3EshWSfyZ1Htg5xL1i98FY,1362
+zope/componentvocabulary/tests/test_vocabulary.py,sha256=58DwJxxIEcPsKR0mhze5kdoYwoZXQqzTgdsFrwVV4y0,1048
+zope.componentvocabulary-2.1.0.dist-info/DESCRIPTION.rst,sha256=gxTMNXDS4Kx25KoWQ29xggbMiwE0FVmkj-z2qKsnwjE,1656
+zope.componentvocabulary-2.1.0.dist-info/METADATA,sha256=CmIUunJ87lqJsy2WhKLnRt9nKmt39SRF3GnrfIsQ3cs,3185
+zope.componentvocabulary-2.1.0.dist-info/RECORD,,
+zope.componentvocabulary-2.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+zope.componentvocabulary-2.1.0.dist-info/metadata.json,sha256=TD_aOlA-TQUWWorUhkMZ85Dc5ZCPDC5Xiwrkoc09MRM,1582
+zope.componentvocabulary-2.1.0.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.componentvocabulary-2.1.0.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
