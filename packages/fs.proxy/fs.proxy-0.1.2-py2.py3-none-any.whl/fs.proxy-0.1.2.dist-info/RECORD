@@ -1,0 +1,11 @@
+fs/proxy/__init__.py,sha256=mn0T0ksuW1MLHqklbsQfi9XDX_99aDJl1HsXqP2VFpU,851
+fs/proxy/_utils.py,sha256=RJnJGOsfCQEZwaDWcnNqmDffdg_nwMguKZFUQFLosAQ,713
+fs/proxy/base.py,sha256=H-yr-QY3fUa4Xw86JYzd937CPBiujo79Lltt4EF5Pms,2451
+fs/proxy/writer.py,sha256=Bc5z7yO9otwRVOD5cpujNqD9mZj4m7-Ny8-PvhxLWxM,9815
+fs.proxy-0.1.2.dist-info/DESCRIPTION.rst,sha256=o4_OjT6E8wTme9O2ee2sHibKZGsni57gJXgTsYCT2vQ,5264
+fs.proxy-0.1.2.dist-info/METADATA,sha256=f54IhajL9dzgL5rszBSVsWEKLKUwo8ph5uyDFLA6Mzk,6277
+fs.proxy-0.1.2.dist-info/RECORD,,
+fs.proxy-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+fs.proxy-0.1.2.dist-info/metadata.json,sha256=EwSrRcKRFotOsnsLcJT8Dbr2O_BDS18hbitmehku6FY,1232
+fs.proxy-0.1.2.dist-info/top_level.txt,sha256=387pB38TPn9aMO3b518yxXxgB0uN0XWa1WNbSnES7r8,3
+fs.proxy-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
