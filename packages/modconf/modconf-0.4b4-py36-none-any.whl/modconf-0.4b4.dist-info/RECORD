@@ -1,0 +1,9 @@
+modconf/__init__.py,sha256=0gsnAlV61HRWczlEvqIaV51jWhrGxl3z3PR8mMaBQOo,531
+modconf/remote.py,sha256=GHPjOBsOvGAU23Yd2PyfzZXge7loSmsOe6wOqxPj18s,942
+modconf/tests/test_class.py,sha256=GfrLdMBek6gojC9wSYNHvOfPlAgWKgalrUV_esg4Gk4,212
+modconf-0.4b4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+modconf-0.4b4.dist-info/METADATA,sha256=G7yoj8X1X8d_N0ngJ1gW6DPipewIgAScY-d0fPTmsfI,261
+modconf-0.4b4.dist-info/RECORD,,
+modconf-0.4b4.dist-info/WHEEL,sha256=UHCCB8bRej-eYCxgNiQAjRoWCqW4UwcX8vmN75ZCDKs,93
+modconf-0.4b4.dist-info/metadata.json,sha256=7lsT_xcRCxNvYlEIvBzdhmv74CHrpLrcG_pCRQbOCyc,437
+modconf-0.4b4.dist-info/top_level.txt,sha256=OiL7zecq_MplBF7yK2mWqYCSw3cxK2BgrO4ZA6Hb7CY,8
