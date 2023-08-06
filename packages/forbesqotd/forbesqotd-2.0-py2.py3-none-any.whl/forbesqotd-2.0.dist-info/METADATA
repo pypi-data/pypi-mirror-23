@@ -1,0 +1,52 @@
+Metadata-Version: 2.0
+Name: forbesqotd
+Version: 2.0
+Summary: QOTD on Forbes Welcome page
+Home-page: https://github.com/appi147/forbes-qotd
+Author: Arpit Choudhary
+Author-email: arpitkumar147@gmail.com
+License: MIT
+Keywords: forbes,qotd
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: beautifulsoup4
+Requires-Dist: regex
+Requires-Dist: requests
+
+
+.. code-block:: python
+   :emphasize-lines: 26,29
+
+=======================
+Forbes Quote of the Day
+=======================
+
+.. image:: https://travis-ci.org/appi147/forbes-qotd.svg?branch=master
+    :alt: build status
+
+As many of you seen Forbes Quote of the day when you open Forbes website.
+This package provides a way to get quote and its author.
+
+------------
+Installation
+------------
+
+Install it by pip::
+
+    pip install forbesqotd
+
+-----
+Usage
+-----
+
+Package has two methods which returns quote and its author::
+
+    from forbesqotd import qotd
+    app = qotd.forbes()
+    quote = app.get_quote()
+    author = app.get_by()
+
+
+
