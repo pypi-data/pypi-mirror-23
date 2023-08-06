@@ -1,0 +1,16 @@
+adbons-0.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+adbons-0.2.0.dist-info/METADATA,sha256=AS-hP6gSWwuL8zW8svXbXE3tyJ2jukzwgAKnvw_xfIo,682
+adbons-0.2.0.dist-info/RECORD,,
+adbons-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+adbons-0.2.0.dist-info/entry_points.txt,sha256=_KFwUGbMZfabz-M8qDFWAx0vIxOU7vRuVllPQOqpFRs,43
+adbons-0.2.0.dist-info/metadata.json,sha256=Il17zO52fCpppR4SBlXwAgGRbSLBJoR_KUfeOp28Ihk,998
+adbons-0.2.0.dist-info/top_level.txt,sha256=ko5Zp-GH1-aCqmTB-_pzAfcKWZ9D29cRgzo8EmAy2_k,9
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/adb.py,sha256=eq-oQKQnj4qdfKw4tO59vXtqEurMmKgDdVokGk34v0Y,2829
+src/adbons.py,sha256=5_DWTP8r5ZMjJGg9OZ2ZKHcwy2dfzlBUNBjiNgM-LZw,700
+src/config.py,sha256=64UwEZbbE_JW5d9NA7PeH4bz_0xhN1_ALsxd1iuz4ao,2718
+src/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/commands/adb_commands.py,sha256=1kY_mKQu5W8Ax28pVrJASFqJd-MRvh2FOmb4ajdwg2g,3207
+src/commands/config_commands.py,sha256=3kqVAwneiebOBXA1_1glDnW_NC_wnbRiMYg8l90q5Nc,1507
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_adbons.py,sha256=hoL3CaX_RXeJKzXHi-CGmpDSAZ40hsEj-BNyu4usJus,5156
