@@ -1,0 +1,11 @@
+CowMQ-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+CowMQ-0.1.1.dist-info/METADATA,sha256=91wXDfq0VA2EuekCqZupp6ZyZh5Ag_iijkDDpCKIqEg,767
+CowMQ-0.1.1.dist-info/RECORD,,
+CowMQ-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+CowMQ-0.1.1.dist-info/metadata.json,sha256=wgTQ4SpTm7AbBcNWN9SKjKBC0OPXz4u_j5bdYDRi-wE,981
+CowMQ-0.1.1.dist-info/top_level.txt,sha256=KhhF7SvYbnPRc9sydSuZqYa2M66tG7Ovov0FhReAY_w,7
+cow_mq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cow_mq/blueprint.py,sha256=YviQk-wyqYhqBNHOWH-m14T8NEXl7uIUfRNKBJYvPzw,1845
+cow_mq/client.py,sha256=7yYhojkYprZ5Ldrit9OzrKK7Cwff8zxhPv6T_sEl8nc,11426
+cow_mq/server.py,sha256=9Cpq7NJ0CwPfkS2MgQQQPXAe1ia41LUvsISQDfXQpW0,7862
+cow_mq/util.py,sha256=YS32yeYZXFcC2AzHJBRwjeIuHQ_Ip_DqkPnUCOZNkGM,7315
