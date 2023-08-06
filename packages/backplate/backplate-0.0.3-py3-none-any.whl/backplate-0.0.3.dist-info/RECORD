@@ -1,0 +1,12 @@
+backplate/__init__.py,sha256=eJAxaJjyEOS9SktsyUQ61MIkuPPe7UmZ5utaWvUNekw,329
+backplate/api.py,sha256=2tQycxJvL9cCELON7_JkgPodJg4jWkuVehyYD50Pk58,2434
+backplate/errors.py,sha256=VLg4xRJ92wjGJGFB3j75BeXQG12QYi0BTtEIZ5jfFt4,3601
+backplate/mediatypes.py,sha256=D6DgeaE0ZuVvWJotNUz2u8qZf6BvXoGdZZ6W75QtN9Q,536
+backplate/routing.py,sha256=4LjNG5DVO1BoNmjx-FF8jFG6dBWS6f_jQD2ThfFvUh0,3418
+backplate/throttling.py,sha256=I-dJXRSsnsONStE9C7VIj2sv6_KkU3SIX9vbwq4S7lk,2858
+backplate-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+backplate-0.0.3.dist-info/METADATA,sha256=8AzB4GyDZXjuaP_M29UkTJtSvu6xOy2xfIRrPE4RgrA,333
+backplate-0.0.3.dist-info/RECORD,,
+backplate-0.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+backplate-0.0.3.dist-info/metadata.json,sha256=oQOpS5TJSXcurUyh_Jp5Y7VEmqsoyT2UEDDNHmYn8oo,509
+backplate-0.0.3.dist-info/top_level.txt,sha256=bEdVd4zPqDgjkzha406wIjYHVMfp4aZ07Xau88gJrBs,10
