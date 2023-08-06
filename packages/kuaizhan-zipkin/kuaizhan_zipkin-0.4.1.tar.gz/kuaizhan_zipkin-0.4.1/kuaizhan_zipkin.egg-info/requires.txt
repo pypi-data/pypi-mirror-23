@@ -1,0 +1,3 @@
+thriftpy
+py_zipkin
+kafka
