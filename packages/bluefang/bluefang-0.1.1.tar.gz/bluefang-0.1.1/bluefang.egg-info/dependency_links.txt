@@ -1,0 +1,2 @@
+git+https://github.com/tmcneal/pybluez@e1311bd83447a641d59a36c8c32d8e3f75e1a34c#egg=PyBluez-0.22.1
+git+https://github.com/tmcneal/lightblue-0.4@7575c17bb439029436cba5c0eeba3d745c3361f1#egg=lightblue-0.4.1
