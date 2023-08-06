@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ddquery
+Version: 0.1
+Summary: Django Debug Query (ddquery) beautiful colored SQL statements for logging
+Home-page: https://github.com/elinaldosoft/ddquery.git
+Author: Elinaldo Monteiro
+Author-email: elinaldo.java@gmail.com
+License: GNU General Public License v3.0
+Download-URL: https://github.com/elinaldosoft/ddquery/archive/0.1.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries

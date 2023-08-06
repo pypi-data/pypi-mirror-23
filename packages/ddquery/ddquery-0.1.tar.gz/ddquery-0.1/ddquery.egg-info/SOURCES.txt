@@ -1,0 +1,12 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+ddquery.py
+setup.cfg
+setup.py
+ddquery.egg-info/PKG-INFO
+ddquery.egg-info/SOURCES.txt
+ddquery.egg-info/dependency_links.txt
+ddquery.egg-info/requires.txt
+ddquery.egg-info/top_level.txt
