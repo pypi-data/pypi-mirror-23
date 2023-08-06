@@ -1,0 +1,17 @@
+django_excel/__init__.py,sha256=8O65emX4t6GyZqsyMNIHTNnNSxoNHpdxhysAGlPZHIw,5864
+django_excel/_compact.py,sha256=G8oM0xlT9NfQ8F5ziaU1qk0xyHC1uD6fH0WJoAkHSF4,498
+django_excel-0.0.7.dist-info/DESCRIPTION.rst,sha256=y12X7FitgENN-voIR5p5uPFhNdm-KdHcFjB7LanDToY,13556
+django_excel-0.0.7.dist-info/METADATA,sha256=pPNmb0GrYuFJW1qOW-CAC998KKYwLNpLGM1UABaZUo4,15365
+django_excel-0.0.7.dist-info/RECORD,,
+django_excel-0.0.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_excel-0.0.7.dist-info/metadata.json,sha256=OPPTe-dPu_W5_I0nN9ntpjjuR2eZfYpIsj4RB5wFQvo,1807
+django_excel-0.0.7.dist-info/top_level.txt,sha256=OypEQYE-BT4c5ERBU61BlJrom0mZ6QEH05onPDrZyxw,26
+mysite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysite/settings.py,sha256=NzizZwJVUd27-7COXZ2NPVTbdUGGB_lj8xuUlA3IS5Y,2698
+mysite/urls.py,sha256=j5YQMF6VnK5jlTqUri3lNPh22Q6tgvTKjSDJ1MOU1jE,185
+mysite/wsgi.py,sha256=Vr7Zhlp1DZo6DiQDh8YOh_fOlg7GfAaqj__41oi_rFQ,386
+polls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polls/admin.py,sha256=36W9Ndy0_OTdxzAHtHDsB4LL_0qlkpB11Mge8gj-Hak,163
+polls/models.py,sha256=vu3AJk5jEhJikN7xUwX8r7oYy5epTMMy9DW5MftcaIo,553
+polls/urls.py,sha256=SNCYhdjVg3S50S1gOWo4Tx8uC58XKcJSjKcm99leaf8,590
+polls/views.py,sha256=yw1522s8SYRuf2ya6S1CygNuAe_rOt2inMpiBjqHlhA,4750
