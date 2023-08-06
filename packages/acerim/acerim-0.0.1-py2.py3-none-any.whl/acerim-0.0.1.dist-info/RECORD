@@ -1,0 +1,16 @@
+acerim/__init__.py,sha256=kscNX0iY8yL1r--N97hNdcGLxFQCSmKhFk8o-llNCbg,162
+acerim/acestats.py,sha256=GQ7P9cugBd5eP0pLXDt4FBjhsjTuqMFmCwZfUKajnwY,2281
+acerim/classes.py,sha256=4gtRkBFjJr3dHZQ3T-WyKV7m-jmBMq5aazmndnxICH8,12340
+acerim/functions.py,sha256=Ew8TQruLkPj7e9e6RdYif8A3NdNwYXM8RX03SKzhV7o,10663
+acerim/version.py,sha256=OUj95euEHrKhj7IyP4lYZb4VgmEwRK4KVVdXSN3RsLk,533
+acerim/examples/__init__.py,sha256=B_PmRB8TVlomuOM2wSJn_uF0mELxMzZNPbHlDsWXzN4,92
+acerim/examples/example.py,sha256=yPulP7G_jmI4JQn6kaNrCVYitOKZdDJCjHbfQtlAujs,2681
+acerim/tests/__init__.py,sha256=B_PmRB8TVlomuOM2wSJn_uF0mELxMzZNPbHlDsWXzN4,92
+acerim/tests/test_classes.py,sha256=TAqzowVO3wgvNI0wEceBtAFoYl4PDqn9IwB1W3STQCM,4203
+acerim/tests/test_functions.py,sha256=xLn-_Ai2etfwIAi8r8kCbMGpyCp7E4unO4UGojyVOOE,5202
+acerim-0.0.1.dist-info/DESCRIPTION.rst,sha256=Uai4VOHwlj7RFVri3DYkBP5cXxPcAyo65S8tXa-w7ds,9
+acerim-0.0.1.dist-info/METADATA,sha256=z9_HY47jyOCIzmH2bliETWmE2P0grPIh-hrV3ofFBP8,471
+acerim-0.0.1.dist-info/RECORD,,
+acerim-0.0.1.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+acerim-0.0.1.dist-info/metadata.json,sha256=Ij-0u5QSOaBWTqTNVEbTVUr7gVKrjC3zF8M6SuBho90,634
+acerim-0.0.1.dist-info/top_level.txt,sha256=msO1SQTMg-6KTszNjT9XvXTod684u5hEtJ3i8y6QkB8,7
