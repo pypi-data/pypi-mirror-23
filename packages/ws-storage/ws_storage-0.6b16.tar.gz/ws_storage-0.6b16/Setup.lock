@@ -1,0 +1,25 @@
+{
+    "package_data": {
+        "ws_storage": [
+            "*.service"
+        ]
+    },
+    "author": "Charles Rymal",
+    "description": "pytohn binary storage",
+    "license": "MIT",
+    "scripts": [
+        "bin/ws_storage"
+    ],
+    "packages": [
+        "ws_storage",
+        "ws_storage.impl",
+        "ws_storage.tests",
+        "ws_storage.tests.conf"
+    ],
+    "name": "ws_storage",
+    "author_email": "charlesrymal@gmail.com",
+    "classifiers": [
+        "Programming Language :: Python :: 3.6"
+    ],
+    "url": "http://github.com/chuck1/ws_storage"
+}
