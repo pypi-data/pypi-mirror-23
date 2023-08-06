@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: webdow
+Version: 1.2.8
+Summary: A python pacakge to download htmlSource for a webpage, even when the webpage is dynamically loading.
+Home-page: https://github.com/Arvindsinc2/webdow
+Author: Arvindsinc2
+Author-email: arvindsinc2@hotmail.com
+License: GPL-3.0
+Download-URL: https://github.com/Arvindsinc2/webdow/archive/1.2.0.tar.gz
+Description: UNKNOWN
+Keywords: python,html,downloader,dynamic,dynamically,loading,webpage,ajax,save
+Platform: UNKNOWN
