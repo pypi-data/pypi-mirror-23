@@ -1,0 +1,12 @@
+livescore/__init__.py,sha256=hzq8CmQhzdsKe_ZGj421_ql03FHA4nkHQARWpqJWSy4,43
+livescore/main.py,sha256=0_spgkQRriNsN2w7FWT0JIqCLGDxGLdBD_lwQcEDo_4,6009
+livescore/templates/scoreboard.png,sha256=KnmKcZeAtAP_YXxt6CktFrfTxM-ARGqALfhISMg5o68,200524
+livescore/templates/scores.png,sha256=cNJR68rtOv_VK_wLpupoirWx-Mc-LgB2tCkZEF7Rrbk,1582
+livescore/templates/time.png,sha256=txCZRwgbiSpa6CIekozWRezL0GRn4ttkVBOGRXD0oos,13492
+livescore/templates/top.png,sha256=BgHdkc-eATDNLxJvz1OZcbdvmArcKFkh5rCUiOaWd0k,27253
+livescore-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+livescore-0.0.3.dist-info/METADATA,sha256=s3SZHfCaxIT4ZTv8PUq4pxv2KGVdjKlLyKF_M_ZAVUc,285
+livescore-0.0.3.dist-info/RECORD,,
+livescore-0.0.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+livescore-0.0.3.dist-info/metadata.json,sha256=sFNbkvTOAEh7XsdPSdAA0BDh5pNaXLZUSjp0_KL_rDg,474
+livescore-0.0.3.dist-info/top_level.txt,sha256=GkR7cnsYnC-V1o_hJrnaXFiMZD9b67fD3kbPlorp9x8,10
