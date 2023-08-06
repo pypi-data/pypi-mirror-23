@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: vm2ami
+Version: 1.0.0
+Summary: Export a vCenter VM's vmdks and ovf descriptor to local file system. Then upload a vmdk to the aws s3 s bucket specified, convert the image to an AMI, then finally rename, and copy the image to all specified regions.
+Home-page: https://github.com/ScienceLogic/vm2ami/archive/1.0.0.zip
+Author: Douglas Rohde
+Author-email: drohde@sciencelogic.com
+License: MIT
+Keywords: export vmdk vCenter vm ami upload
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: amiuploader
+Requires-Dist: ovfexporter
+
+UNKNOWN
+
+
