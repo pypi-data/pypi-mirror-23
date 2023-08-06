@@ -1,0 +1,16 @@
+pkgschema/__init__.py,sha256=AgtpSOW6Bwgp5TodoGnUiMMIuhbYuci-zbhZcgscRD4,1120
+pkgschema/schemas/copy-object.json,sha256=krMgs30uuwsqGw4ebfx1swTfY_jiMO7HQdk1ch64B-8,2801
+pkgschema/schemas/definitions.json,sha256=l64BJbn1Ft-HaTCONQKM9fD_Mqmp5CC-rHkBceUwevk,3281
+pkgschema/schemas/flash-object.json,sha256=z2wgypFOx_1scgz1XIVCKamZmRL6GyvQmtngHz8kG2U,1219
+pkgschema/schemas/imxkobs-object.json,sha256=9PZHi4rRt4xzFaxfzzSlPwMl_L7XS51A4JaLE9duiAI,1315
+pkgschema/schemas/install-if-different.json,sha256=QgY1qUfnOXc63IRnY949DI1TD42OkOM28S0lQRfNoA0,2282
+pkgschema/schemas/metadata.json,sha256=P5J733nMVj4fmo_M_q-EcqvEKj_Yv172u4FHNhuCadE,1726
+pkgschema/schemas/raw-object.json,sha256=Ar6MYCwl4lARAhnYtRuc7HH8ELww6ODhWu5tkVLIYis,1792
+pkgschema/schemas/tarball-object.json,sha256=1GqIS7o8oFAFjRxoV9GVS3nOxrNDnVOCsmzh5L4o-vM,2039
+pkgschema/schemas/ubifs-object.json,sha256=UrX9FMxjYksgXSF9ITVYvzCHVP4KlGwRrBr7Y7OkXcM,1493
+updatehub_package_schema-1.0.0a2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+updatehub_package_schema-1.0.0a2.dist-info/METADATA,sha256=eLtO7wvfwnfquJlpbMlXYNZz7syPayr3McMooZ1qK3A,347
+updatehub_package_schema-1.0.0a2.dist-info/RECORD,,
+updatehub_package_schema-1.0.0a2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+updatehub_package_schema-1.0.0a2.dist-info/metadata.json,sha256=FXQzzN2t8m3AIZH3UBkyoS8un7PenSe32NF-I2Wb4Lk,547
+updatehub_package_schema-1.0.0a2.dist-info/top_level.txt,sha256=vCebgXlfvQZS-QWwEDuHFpE7RTC6mlQNlSlNOYwX9y0,10
