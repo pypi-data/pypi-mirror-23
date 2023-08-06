@@ -1,0 +1,16 @@
+biometalib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biometalib/logger.py,sha256=R9qMbuTkrCmqtHLDcUGDzgYRs_cHzpvJalsokl3T53Q,867
+biometalib/models.py,sha256=iABC5ZQVnXPCzt_fBufvQxJzFoPZk81P5yB7jxAHWxU,2694
+biometalib/data/biosample.yaml,sha256=3BDY9tSWg9CbcQgkLGqIBUT7Pw5I-LEv2uMI1DpYE-o,571
+biometalib/data/cleaned_fields.yaml,sha256=2mcBqI6tpUPIc6sk94WfxpBzHJU2BeuuI2-q71sa4zM,11491
+biometalib/data/flybase_example.yaml,sha256=C0-o2yw09duas4K1IzpHL13mSfS6a6Jz81y7b1GApXE,1419
+biometalib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biometalib/utils/attribute_selector.py,sha256=icR3-P-VcXSD2lJ_7YDUcm5obhd6Y6G_zWX6w3FxUk8,10559
+biometalib/utils/initialize_biometa.py,sha256=dbBVwigUEZLvspH70uhJ28v8rco0l3jbP5VDgwr8dOU,4580
+biometalib-0.0.3.dist-info/DESCRIPTION.rst,sha256=KVqXKuSD4fJ0b4nUFrNAtcq6aPOVunICDK_7xlGYu_w,2838
+biometalib-0.0.3.dist-info/METADATA,sha256=zeK8v9-X-1hmIwBJWlvyJJh-VAKmhA2XzqKi0FErpSU,3440
+biometalib-0.0.3.dist-info/RECORD,,
+biometalib-0.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+biometalib-0.0.3.dist-info/entry_points.txt,sha256=SJxhdvHmGxMDmh59HaB4yY1xk1E3h135Px3M5wR2Bq8,143
+biometalib-0.0.3.dist-info/metadata.json,sha256=-G2n2lkVl9kpVzzEU1UoX0PtVvfqIulbk_dsCzi5BFE,1117
+biometalib-0.0.3.dist-info/top_level.txt,sha256=P7t03Oj28euwlaDWBebHrr7UK4RAK65Xn3vlk-EtUlc,11
