@@ -1,0 +1,8 @@
+I2C_mutex.py
+easygopigo3.py
+gopigo3.py
+setup.py
+gopigo3.egg-info/PKG-INFO
+gopigo3.egg-info/SOURCES.txt
+gopigo3.egg-info/dependency_links.txt
+gopigo3.egg-info/top_level.txt
