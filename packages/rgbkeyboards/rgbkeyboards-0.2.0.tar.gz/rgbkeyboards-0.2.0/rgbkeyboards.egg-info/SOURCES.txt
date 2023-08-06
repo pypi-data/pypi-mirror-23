@@ -1,0 +1,9 @@
+setup.py
+rgbkeyboards/__init__.py
+rgbkeyboards/keyboards.py
+rgbkeyboards/keygroups.py
+rgbkeyboards.egg-info/PKG-INFO
+rgbkeyboards.egg-info/SOURCES.txt
+rgbkeyboards.egg-info/dependency_links.txt
+rgbkeyboards.egg-info/requires.txt
+rgbkeyboards.egg-info/top_level.txt

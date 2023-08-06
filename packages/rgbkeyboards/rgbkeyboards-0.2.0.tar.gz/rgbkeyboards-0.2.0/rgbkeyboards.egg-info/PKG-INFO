@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: rgbkeyboards
+Version: 0.2.0
+Summary: A library to control RGB Keyboards on Windows
+Home-page: https://www.github.com/RedFantom/python-rgb-keyboards
+Author: RedFantom
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://www.github.com/RedFantom/python-rgb-keyboards/releases
+Description: UNKNOWN
+Keywords: RGB,keyboard,library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows

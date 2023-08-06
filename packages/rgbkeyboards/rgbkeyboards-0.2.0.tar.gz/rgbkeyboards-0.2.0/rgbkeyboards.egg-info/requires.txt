@@ -1,0 +1,3 @@
+pywinusb
+cue_sdk
+pynput
