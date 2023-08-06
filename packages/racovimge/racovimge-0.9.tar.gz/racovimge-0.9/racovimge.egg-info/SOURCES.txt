@@ -1,0 +1,45 @@
+README.rst
+setup.py
+bin/racovimge
+racovimge/__init__.py
+racovimge/colors.txt
+racovimge/racovimge.py
+racovimge.egg-info/PKG-INFO
+racovimge.egg-info/SOURCES.txt
+racovimge.egg-info/dependency_links.txt
+racovimge.egg-info/requires.txt
+racovimge.egg-info/top_level.txt
+racovimge/fonts/Alex Brush.otf
+racovimge/fonts/Bellota.otf
+racovimge/fonts/Bradley Gratis.ttf
+racovimge/fonts/Caladea.ttf
+racovimge/fonts/Crimson.otf
+racovimge/fonts/Gidole.ttf
+racovimge/fonts/Glacial Indifference.otf
+racovimge/fonts/Great Vibes.otf
+racovimge/fonts/Horta.ttf
+racovimge/fonts/Liberation Serif.ttf
+racovimge/fonts/Libre Baskerville.ttf
+racovimge/fonts/Orkney.ttf
+racovimge/fonts/Petit Formal Script.ttf
+racovimge/fonts/Sofia.otf
+racovimge/fonts/Unique.ttf
+racovimge/templates/Blocks.svg
+racovimge/templates/Column.svg
+racovimge/templates/Cross.svg
+racovimge/templates/Gradient.svg
+racovimge/templates/Ornate Border 1 Dark.svg
+racovimge/templates/Ornate Border 1.svg
+racovimge/templates/Ornate Border 2 Dark.svg
+racovimge/templates/Ornate Border 2.svg
+racovimge/templates/Ornate Corners 1.svg
+racovimge/templates/Ornate Corners 2.svg
+racovimge/templates/Ornate Corners 3.svg
+racovimge/templates/Ornate Corners 4.svg
+racovimge/templates/Ornate Title 1 Dark.svg
+racovimge/templates/Ornate Title 1.svg
+racovimge/templates/Rings.svg
+racovimge/templates/Simple Dark.svg
+racovimge/templates/Simple.svg
+racovimge/templates/Tiles.svg
+racovimge/templates/Window.svg
