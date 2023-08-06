@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: beautiful-ansi
+Version: 0.1.3
+Summary: ANSI escape code library
+Home-page: https://github.com/Carrene/beautiful-ansi
+Author: Mohammad Hasanzadeh
+Author-email: mohammad@carrene.com
+License: UNKNOWN
+Description: beautiful-ansi
+        ==============
+        ANSI escape code library
+        
+        Requirements
+        ------------
+        Python >= 3.6
+        
+        Example
+        -------
+        ..  code-block:: python
+        
+          from beautiful_ansi import *
+          print(f'{lightbeige}This {yellow}is {red}a {lightviolet}multi {beige}color {bblue}{lightgreen}text.', end=f'{clear}\n')
+        
+        
+Keywords: ANSI escape code library
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6
