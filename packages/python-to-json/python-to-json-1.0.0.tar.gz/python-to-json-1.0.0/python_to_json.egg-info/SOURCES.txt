@@ -1,0 +1,5 @@
+setup.py
+python_to_json.egg-info/PKG-INFO
+python_to_json.egg-info/SOURCES.txt
+python_to_json.egg-info/dependency_links.txt
+python_to_json.egg-info/top_level.txt
