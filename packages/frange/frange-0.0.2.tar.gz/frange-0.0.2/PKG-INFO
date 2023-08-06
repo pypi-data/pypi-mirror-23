@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: frange
+Version: 0.0.2
+Summary: Python package with frange data type for storing large arrays of equally separated data
+Home-page: https://github.com/AshleySetter/frange
+Author: Ashley Setter
+Author-email: A.Setter@soton.ac.uk
+License: UNKNOWN
+Download-URL: https://github.com/AshleySetter/frange/archive/0.0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
