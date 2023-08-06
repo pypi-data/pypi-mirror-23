@@ -1,0 +1,12 @@
+lxml
+click
+boto3
+requests[security]
+configparser
+requests-negotiate-sspi
+
+[test]
+pytest-runner
+pytest
+mock
+coverage < 4

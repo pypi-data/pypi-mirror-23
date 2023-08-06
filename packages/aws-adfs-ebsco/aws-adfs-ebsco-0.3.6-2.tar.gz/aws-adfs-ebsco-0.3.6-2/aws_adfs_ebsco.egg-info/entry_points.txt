@@ -1,0 +1,3 @@
+[console_scripts]
+aws-adfs-ebsco = aws_adfs.commands:cli
+
