@@ -1,0 +1,4 @@
+
+       [console_scripts]
+       classify_image_dimension =            classify_image_dimension.classify_image_dimension:main
+    
