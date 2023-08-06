@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+MongoSanitizer.egg-info/PKG-INFO
+MongoSanitizer.egg-info/SOURCES.txt
+MongoSanitizer.egg-info/dependency_links.txt
+MongoSanitizer.egg-info/top_level.txt
+mongosanitizer/__init__.py
+mongosanitizer/sanitizer.py
+mongosanitizer/test_sanitizer.py

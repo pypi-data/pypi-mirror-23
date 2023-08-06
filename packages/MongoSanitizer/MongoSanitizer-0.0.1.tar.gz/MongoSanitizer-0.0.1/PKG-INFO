@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: MongoSanitizer
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/noamt/python-mongo-sanitizer
+Author: Noam Y. Tenne
+Author-email: noam@10ne.org
+License: MIT
+Description: A component that sanitizes MongoDB queries against injection attacks
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
