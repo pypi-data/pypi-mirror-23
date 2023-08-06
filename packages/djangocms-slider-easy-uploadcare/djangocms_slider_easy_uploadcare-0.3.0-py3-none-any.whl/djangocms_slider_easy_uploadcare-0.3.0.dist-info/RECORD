@@ -1,0 +1,11 @@
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/DESCRIPTION.rst,sha256=H-41EblkaSiyCaEZjX2R_4cWLzFmSbwAAxZpcikmVco,1770
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/METADATA,sha256=cUIX67t6TqxOrpfYTZtQpo3wePPnhrodk4XqECwotmc,2942
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/RECORD,,
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/metadata.json,sha256=SdvEjAUiovJn-vSaBXDv7EwM9c3wUayRNVMk7BaLsVE,1277
+djangocms_slider_easy_uploadcare-0.3.0.dist-info/top_level.txt,sha256=mYbMYdw6mFl56gvtAe4kUopvT4AZE2mWcCZcF7LQWHc,28
+djangocms_slider_uploadcare/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+djangocms_slider_uploadcare/cms_plugins.py,sha256=fMEnLubjhCtpirKM737lxjVAubSRwLWIEj1PrHF0DlQ,936
+djangocms_slider_uploadcare/models.py,sha256=LKo_eMX44rj98XcXssI46u4w7Yyybre76fYerjxz478,2102
+djangocms_slider_uploadcare/migrations/0001_initial.py,sha256=mrbnj51-uaLt0N8lotdL9BHMeRqgiUTnK_QyyeQIZHU,1729
+djangocms_slider_uploadcare/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
