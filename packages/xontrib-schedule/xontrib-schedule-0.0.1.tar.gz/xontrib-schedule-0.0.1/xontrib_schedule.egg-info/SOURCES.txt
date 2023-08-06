@@ -1,0 +1,8 @@
+README.rst
+setup.py
+xontrib/schedule.py
+xontrib_schedule.egg-info/PKG-INFO
+xontrib_schedule.egg-info/SOURCES.txt
+xontrib_schedule.egg-info/dependency_links.txt
+xontrib_schedule.egg-info/requires.txt
+xontrib_schedule.egg-info/top_level.txt
