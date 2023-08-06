@@ -1,0 +1,11 @@
+setup.py
+multiscale/__init__.py
+multiscale/__main__.py
+multiscale/elevate.py
+multiscale/pymagick.py
+multiscale/utils.py
+multiscale.egg-info/PKG-INFO
+multiscale.egg-info/SOURCES.txt
+multiscale.egg-info/dependency_links.txt
+multiscale.egg-info/requires.txt
+multiscale.egg-info/top_level.txt
