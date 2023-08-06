@@ -1,0 +1,15 @@
+backplate_auth/__init__.py,sha256=_0Y8lJrEwo39FiPoHg7gVb1599rYFZYCpMUaRFddxP0,374
+backplate_auth/decorator.py,sha256=wZ6g3B9v3ZJnh1goDUGJLYCzBY74Z1gpC4PPSeuB5WI,1458
+backplate_auth/endpoint.py,sha256=Jwod-Lo2Z1mhO4WxeBAZHb2bSfwpjK0YqsA0s0i-2ow,802
+backplate_auth/error.py,sha256=Qpstx0m4rDmvIlyD0aEYoO6N19mpCCwIRiMSdBHt2g0,73
+backplate_auth/exceptions.py,sha256=HeG7whTtTDuFV-uDxU5og0b2G7rDBuWvSR9gF6WXegc,694
+backplate_auth/flow.py,sha256=tVr0U3wpRoP71VA8VamSQZTbO__lEUmtnHMQhkTZgMU,4047
+backplate_auth/helpers.py,sha256=md_qh39U_7hrYt5Q-RbZBlsUwsAcSvgTcVZTrU7EexU,338
+backplate_auth/jwt.py,sha256=6ANKvwO7RdBylaMI3uOmzXGFQ3yXKrR-wshQLfog62A,1596
+backplate_auth/sessions.py,sha256=vvjyzCJKTPiHEN_8rKc_cwZMVl3dum2clAxlUWlE96Q,2653
+backplate_auth-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+backplate_auth-0.0.1.dist-info/METADATA,sha256=YZVAvb_rXw9aKXK-TL-huB7r8lZjyrkResTDHETBmpM,341
+backplate_auth-0.0.1.dist-info/RECORD,,
+backplate_auth-0.0.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+backplate_auth-0.0.1.dist-info/metadata.json,sha256=QbhUQlzvd8v5nPlKSnojJYEKeUYmzMThyq2Zn65U22I,517
+backplate_auth-0.0.1.dist-info/top_level.txt,sha256=yGwL4fAPmU7KlETMx2kAk7rdHA3wF97cjW62MweSb_Y,15
