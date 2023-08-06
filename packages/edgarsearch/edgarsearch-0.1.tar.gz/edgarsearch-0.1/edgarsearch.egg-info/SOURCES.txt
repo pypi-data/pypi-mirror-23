@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+edgarsearch/__init__.py
+edgarsearch/edgarsearch.py
+edgarsearch/filingshandler.py
+edgarsearch/filingshandler_worker.py
+edgarsearch/indexhandler.py
+edgarsearch/sample_script.py
+edgarsearch/tools.py
+edgarsearch.egg-info/PKG-INFO
+edgarsearch.egg-info/SOURCES.txt
+edgarsearch.egg-info/dependency_links.txt
+edgarsearch.egg-info/requires.txt
+edgarsearch.egg-info/top_level.txt
