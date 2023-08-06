@@ -1,0 +1,10 @@
+upstox-1.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+upstox-1.5.dist-info/METADATA,sha256=6abmOU1Afp0T2-mqjgqVVYwt7VyCLCNLe01iIuIB2fo,799
+upstox-1.5.dist-info/RECORD,,
+upstox-1.5.dist-info/WHEEL,sha256=GrqQvamwgBV4nLoJe0vhYRSWzWsx7xjlt74FT0SWYfE,110
+upstox-1.5.dist-info/metadata.json,sha256=qmmNeRGUfiLgOQRJAWsThOkfLq0w2v2f-cPXSaMgbKA,932
+upstox-1.5.dist-info/top_level.txt,sha256=RLixrqRHVKX2jmjANl_rs0C7vi78labhb5SCatFkjyw,11
+upstox_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upstox_api/api.py,sha256=8az5QlVR_Ny8QNSz-B9VVSzyA0BLxSFnhi78rgZGd5Y,30466
+upstox_api/service_config.json,sha256=2r50qjOstx_pyvQIYDmgJ2KyA_qJpzKFOPaLJhg7B5U,1118
+upstox_api/utils.py,sha256=4dyzJP64XlaJfignq7kdmnxLPn7-0dAVKTeMajA7NaY,3426
