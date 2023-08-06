@@ -1,0 +1,3 @@
+[console_scripts]
+Wisest-maxim = wisdomnuggets.command_line:main
+
