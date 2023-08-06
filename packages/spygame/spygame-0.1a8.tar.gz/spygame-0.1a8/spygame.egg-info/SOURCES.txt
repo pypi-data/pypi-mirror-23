@@ -1,0 +1,10 @@
+README.rst
+setup.py
+spygame/__init__.py
+spygame.egg-info/PKG-INFO
+spygame.egg-info/SOURCES.txt
+spygame.egg-info/dependency_links.txt
+spygame.egg-info/requires.txt
+spygame.egg-info/top_level.txt
+spygame/examples/__init__.py
+spygame/examples/vikings.py
