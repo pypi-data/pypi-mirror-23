@@ -1,0 +1,8 @@
+dict.txt
+setup.cfg
+setup.py
+chop/__init__.py
+chop.egg-info/PKG-INFO
+chop.egg-info/SOURCES.txt
+chop.egg-info/dependency_links.txt
+chop.egg-info/top_level.txt
