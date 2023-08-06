@@ -1,0 +1,8 @@
+ipython<5.9
+pyhull
+matplotlib
+numpy
+sklearn
+louvain
+python-igraph
+h5py
