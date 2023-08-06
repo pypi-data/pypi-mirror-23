@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+packerinspector/__init__.py
+packerinspector/api.py
+packerinspector_api.egg-info/PKG-INFO
+packerinspector_api.egg-info/SOURCES.txt
+packerinspector_api.egg-info/dependency_links.txt
+packerinspector_api.egg-info/not-zip-safe
+packerinspector_api.egg-info/requires.txt
+packerinspector_api.egg-info/top_level.txt
