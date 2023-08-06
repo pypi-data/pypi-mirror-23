@@ -1,0 +1,9 @@
+pytest_trepan/__init__.py,sha256=obLpyNF4cq6iTmXN8usVP0X4wh4GME_oz13DkV-3wlc,990
+pytest_trepan/plugin.py,sha256=v3WImOp5chbvn59alzzLSq8EU98OzZUm7wwDWg3Tf9Y,4003
+pytest_trepan-1.0.1.dist-info/DESCRIPTION.rst,sha256=CbQo3uIKp8UDlHSY3iJCsW_kcC-eFLnHbq6piooFjxc,1049
+pytest_trepan-1.0.1.dist-info/METADATA,sha256=7oJ98a86bZ20OrJ-ecDKaEWHZozNrdPNAOXoPx203wI,1970
+pytest_trepan-1.0.1.dist-info/RECORD,,
+pytest_trepan-1.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pytest_trepan-1.0.1.dist-info/entry_points.txt,sha256=6QVKKmRYNZpkzaLBBpqQLZKVCD_0HwqO_Xx8Wuroyk4,45
+pytest_trepan-1.0.1.dist-info/metadata.json,sha256=YImkaZ7z2LBNOoXGhvz6J9SNs6xLWU0aNWOYJwmm6HQ,1156
+pytest_trepan-1.0.1.dist-info/top_level.txt,sha256=PaZJODf59cNitq11pMbMz81qYC1PJUFiI4bv1F5QSMg,14
