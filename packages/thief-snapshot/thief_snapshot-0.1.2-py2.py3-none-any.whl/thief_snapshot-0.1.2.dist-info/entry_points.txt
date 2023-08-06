@@ -1,0 +1,4 @@
+[console_scripts]
+thief_snapshot = thief_snapshot.__main__:main
+thief_snapshot_generate_settings = thief_snapshot.copy_settings:copy_settings
+

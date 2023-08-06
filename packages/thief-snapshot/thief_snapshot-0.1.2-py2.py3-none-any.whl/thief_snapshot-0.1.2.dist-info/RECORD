@@ -1,0 +1,17 @@
+thief_snapshot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thief_snapshot/__main__.py,sha256=FF-uAE8X-YmLWiFGWRCoHEVdQZYGLQyhmRLLcM8eSLE,3259
+thief_snapshot/copy_settings.py,sha256=LEUadOcaAlUYy-ChgwiFT0V1_qWqDOTMz2YSaHFeQ5s,606
+thief_snapshot/example_settings.ini,sha256=HaPVeaEHGa_dzgYr41KLExBG-D9boM79SRsH5EC-zT0,396
+thief_snapshot/cameras/__init__.py,sha256=Ju4d7lHfaCZh2yTkwc67kMxcJKceZg6ME9_y9KlX7u0,72
+thief_snapshot/cameras/_amcrest.py,sha256=NkHCgNWFJQZxQXGUXp-Ft78KS_AgPcm-bWQX6FW6wNc,816
+thief_snapshot/cameras/base.py,sha256=4mxv234FV0wNpSX1xhWC9swgd8XkG5q7EnYol37J6-k,679
+thief_snapshot/presence_detection/__init__.py,sha256=WY6cttU53ik6zHCDUjxnMOvrCKvzCbMNYW8eK4jG5u4,89
+thief_snapshot/presence_detection/_ddwrt.py,sha256=yryHnsD6MvuD-itXTebcJHbQ3yOHmIXXxT22bmgPfRo,2059
+thief_snapshot/presence_detection/base.py,sha256=L9ABGRao0YwBELlyd3UtiCBqH-lhktBNowKhTsF1wl0,605
+thief_snapshot-0.1.2.dist-info/DESCRIPTION.rst,sha256=g02kVYWIxc3Y-FRonFTgXpSZINkPfNy9Ha1uZN7Bavc,703
+thief_snapshot-0.1.2.dist-info/METADATA,sha256=nSTKtbj4ms83DvTT1H9tFVJjll_tg6Uhiqi_6_u2vzA,1238
+thief_snapshot-0.1.2.dist-info/RECORD,,
+thief_snapshot-0.1.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+thief_snapshot-0.1.2.dist-info/entry_points.txt,sha256=5ZeB_0GZqBg6RtHF66qEBZexSVouG8CTfGhcoMfVow4,143
+thief_snapshot-0.1.2.dist-info/metadata.json,sha256=5MdDrCmSOunPb26HTNGdd4sw_KOqkU2Fm57Dg7hAoe0,1067
+thief_snapshot-0.1.2.dist-info/top_level.txt,sha256=myvC-M2k5p65iyDotlimDTU9PQjyU7HvxgTvtIIDAjg,15
