@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: envipyarc
+Version: 1.0.3
+Summary: ENVI Python Tools for ArcGIS
+Home-page: UNKNOWN
+Author: Exelis Visual Information Solutions, Inc.
+Author-email: UNKNOWN
+License: MIT
+Keywords: envi idl
+Platform: UNKNOWN
+Requires-Dist: envipyarclib
+Requires-Dist: envipyengine
+
+
+**************************
+ENVI Py for ArcGIS Library
+**************************
+
+Installation
+============
+
+Install envipyarc using pip::
+
+    pip install envipyarc
+
+
