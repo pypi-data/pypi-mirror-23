@@ -1,0 +1,2 @@
+click==6.7
+ethereum-serpent-augur-temp==2.0.2
