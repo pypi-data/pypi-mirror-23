@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: dj-core-drf
+Version: 0.0.1
+Summary: A self-contained and extensible Django Rest Framework environment
+Home-page: https://github.com/ionata/dj-core-drf
+Author: Ionata Digital
+Author-email: webmaster@ionata.com.au
+License: UNKNOWN
+Description: dj-core-drf
+        ===========
+        
+        DRF core app
+        
+        Utilises dj-core
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
