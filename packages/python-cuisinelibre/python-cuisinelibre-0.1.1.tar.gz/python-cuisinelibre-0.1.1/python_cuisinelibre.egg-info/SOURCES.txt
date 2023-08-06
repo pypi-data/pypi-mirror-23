@@ -1,0 +1,8 @@
+setup.py
+cuisinelibre/__init__.py
+python_cuisinelibre.egg-info/PKG-INFO
+python_cuisinelibre.egg-info/SOURCES.txt
+python_cuisinelibre.egg-info/dependency_links.txt
+python_cuisinelibre.egg-info/not-zip-safe
+python_cuisinelibre.egg-info/requires.txt
+python_cuisinelibre.egg-info/top_level.txt
