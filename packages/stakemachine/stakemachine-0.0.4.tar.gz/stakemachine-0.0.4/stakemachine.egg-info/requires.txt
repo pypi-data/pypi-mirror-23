@@ -1,0 +1,10 @@
+bitshares>=0.1.7
+uptick>=0.1.4
+prettytable
+click
+click-datetime
+colorama
+tqdm
+pyyaml
+sqlalchemy
+appdirs
