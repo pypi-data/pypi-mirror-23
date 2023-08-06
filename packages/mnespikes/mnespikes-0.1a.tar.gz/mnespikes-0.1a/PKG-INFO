@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mnespikes
+Version: 0.1a
+Summary: A simple package for representing neural spike data and converting to MNE
+Home-page: https://predictablynoisy.com/mne-spikes
+Author: Chris Holdgraf
+Author-email: choldgraf@berkeley.edu
