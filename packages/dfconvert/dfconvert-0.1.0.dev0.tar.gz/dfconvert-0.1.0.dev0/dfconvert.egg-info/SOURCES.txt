@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+dfconvert/__init__.py
+dfconvert/_version.py
+dfconvert/export.py
+dfconvert/import.py
+dfconvert/topological.py
+dfconvert.egg-info/PKG-INFO
+dfconvert.egg-info/SOURCES.txt
+dfconvert.egg-info/dependency_links.txt
+dfconvert.egg-info/requires.txt
+dfconvert.egg-info/top_level.txt

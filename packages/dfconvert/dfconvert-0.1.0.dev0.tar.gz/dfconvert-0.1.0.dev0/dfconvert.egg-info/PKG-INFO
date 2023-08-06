@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: dfconvert
+Version: 0.1.0.dev0
+Summary: Tool for converting to and from IPykernel/DFKernel Compliant Notebooks
+Home-page: https://github.com/colinjbrown/dfconvert
+Author: Dataflow Notebook Team
+Author-email: cbrown12@umassd.edu
+License: BSD
+Description: 
+            This package adds *Download as* menu items for translating notebooks created using IPykernel or DFKernel to be
+            compliant with the alternative Notebook environment.
+        See `the project README <https://github.com/dataflownb/dfconvert>`_
+        for more information.
+        
+Platform: Jupyter Notebook 5.x
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
