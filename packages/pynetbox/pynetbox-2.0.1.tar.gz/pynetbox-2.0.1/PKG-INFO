@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pynetbox
+Version: 2.0.1
+Summary: A python API for netbox
+Home-page: https://github.com/digitalocean/pynetbox
+Author: Zach Moody
+Author-email: zmoody@do.co
+License: Apache2
+Description: UNKNOWN
+Platform: UNKNOWN
