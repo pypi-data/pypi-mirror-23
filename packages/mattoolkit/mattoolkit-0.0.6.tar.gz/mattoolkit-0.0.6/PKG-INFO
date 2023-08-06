@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mattoolkit
+Version: 0.0.6
+Summary: Material Toolkit cli and library
+Home-page: https://gitlab.aves.io/mattoolkit/mattoolkit-client
+Author: Chris Ostrouchov
+Author-email: chris.ostrouchov+mtk-cli@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.aves.io/mattoolkit/mattoolkit-client/repository/archive.zip?ref=v0.0.6
+Description: Mattoolkit CLI
+        ================================
+        
+        Used to execute the queued VASP calculations. Needs to be installed on
+        all clients to run jobs from the Material Toolkit.
+        
+Keywords: material toolkit material science hpc vasp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
