@@ -1,0 +1,11 @@
+knoema/__init__.py,sha256=RCstZO3vfBRV4InICNm2fk2pqFfE38rJ-lX0M7TeaVM,926
+knoema/api_client.py,sha256=YdmArYAZwapDARnRO0RxSldaOGoS_XAvf1XeK-wpbMw,7733
+knoema/api_config.py,sha256=l6viwf16yyMXvds-tp83tj7NbhUFevh4EQ734jr1zWM,1008
+knoema/api_definitions.py,sha256=dAGVsBN0sWvWL6LaVQJUITHXBZdjU4Fs3h-fZeDQ3Q0,9852
+knoema/data_reader.py,sha256=52PHyuHDxL4dvQsq5lQJ_esuiEiN4AiivKtKeDl6KgM,5146
+knoema-0.1.11b1.dist-info/DESCRIPTION.rst,sha256=4O1xPPjjCbp080Pmhns60OGRyOxRaNHpu2l-BrxZsrc,4143
+knoema-0.1.11b1.dist-info/METADATA,sha256=5ZNoaA083Tj-lEuAn3fNryrDPx3mEMot_kPGzvVnmL8,4523
+knoema-0.1.11b1.dist-info/RECORD,,
+knoema-0.1.11b1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+knoema-0.1.11b1.dist-info/metadata.json,sha256=-LwIpOCD43fjJaSq6Rvb7dlCXLnwI0Ot_6LYheX9acQ,611
+knoema-0.1.11b1.dist-info/top_level.txt,sha256=-hO7ERBpyfHRTxhZmdHVbJ73CobHE-3APLeQ7mffbes,7
