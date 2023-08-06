@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+sigfoxapi/__init__.py
+sigfoxapi/requesthandler.py
+sigfoxapi.egg-info/PKG-INFO
+sigfoxapi.egg-info/SOURCES.txt
+sigfoxapi.egg-info/dependency_links.txt
+sigfoxapi.egg-info/not-zip-safe
+sigfoxapi.egg-info/requires.txt
+sigfoxapi.egg-info/top_level.txt
