@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: os-rotatefile
+Version: 0.1.0
+Summary: Reading and writing size rotate file.
+Home-page: https://github.com/cfhamlet/os-ratatefile
+Author: Ozzy
+Author-email: cfhamlet@gmail.com
+License: MIT License
+Description: # os-rotatefile
+        Reading and writing size rotate file.
+        
+        # Install
+          `pip install os-rotatefile`
+        
+        # Unit Tests
+          `$ tox`
+        
+        # License
+        MIT licensed.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
