@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+nd2file
+tifffile
+
+[fast_rotation]
+cv2
+
+[nice_progressbar]
+clint
