@@ -1,0 +1,3 @@
+[console_scripts]
+itauscraper = itauscraper.cli:main
+
