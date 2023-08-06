@@ -1,0 +1,9 @@
+blessings
+bunch
+future
+paramiko
+PyYAML
+requests
+pymod2pkg
+six
+# asciidoc for docs/sdist
