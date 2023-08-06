@@ -1,0 +1,3 @@
+[console_scripts]
+babybrowser = baby_browser.baby_browser:start
+
