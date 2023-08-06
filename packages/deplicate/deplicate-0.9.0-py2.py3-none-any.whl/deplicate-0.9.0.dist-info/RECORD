@@ -1,0 +1,11 @@
+deplicate-0.9.0.dist-info/DESCRIPTION.rst,sha256=gGWxfWZJnefVs2GK3cP0VT_TvwIxSkk1Q8TVn28ybw0,4684
+deplicate-0.9.0.dist-info/METADATA,sha256=5s6AqC6sJv1lsrD73naIoZySSyZS7EEUIXRPkbm5Mng,6471
+deplicate-0.9.0.dist-info/RECORD,,
+deplicate-0.9.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+deplicate-0.9.0.dist-info/metadata.json,sha256=eJ0yZ24jEWHAiRT5ke10rE0_WPietjyjQI17SigK1Bk,1931
+deplicate-0.9.0.dist-info/top_level.txt,sha256=P4TM6WcFLoXDzy1nHCQz3EiZImu5mmfWv-Suuek4t8w,10
+deplicate-0.9.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+duplicate/__init__.py,sha256=CDSOxmOsQdTAHktDj0k7nwEbc6CzYgILeOt-Vh7Hey4,500
+duplicate/core.py,sha256=JsNUZ5lZFJbFtZrrmGKlvCILDPqEwODEZvHxgJsWV14,12196
+duplicate/structs.py,sha256=5ZwcQNli5SiezGT4mz5cD2pozs0baRUl7SMzwQsbEpk,5273
+duplicate/utils.py,sha256=i0I4xbm5EgWg50pnz3Y8go1WgstWVaB5U1wKfg6W9Ds,12357
