@@ -1,0 +1,9 @@
+sklearn
+numpy
+lxml
+
+[dev]
+check-manifest
+
+[test]
+coverage
