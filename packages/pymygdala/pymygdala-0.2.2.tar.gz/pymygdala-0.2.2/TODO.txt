@@ -1,0 +1,23 @@
+TODO
+
+* SendEvent
+
+    SendEvent has been abstracted so that it isn't so AAT/PPI centric, sending ingestion workflow triggers seems to function but it is a bit ugly, for example:
+
+    pym-sendevent --profile=test --metadata=workflow=runSdmIngestionWorkflow \
+        --metadata=observation=17A-385.sb33768499.eb33853103.57903.23251958333 \
+        --metadata=type=edu.nrao.archive.workflow.messaging.commands.StartWorkflow \
+        --metadata=request=ingest --exchange=archive.workflow-commands \
+        --routing-key=DSOC.start
+
+    I don't understand enough about how this is all strung together to walk through some other SendEvent use cases to see whether this implementation will work more generally.
+
+* Should reading be abstracted so we can provide a more generic interface in Pymgdala, and have dumplogs 'do that' instead?
+
+* Need sphinx docs, badly.
+
+* The CLI's descriptions and epilogs are pure fillers, which is bad, and makes me feel bad.
+
+* Needs test cases, I can imagine a quick one where Pymygdala both sends and reads a log, depending on the environment.
+
+* The Pymygdala logging itself needs love, like, what if it throws an exception trying to write a log message to RabbitMQ? It should fall back on a sys.stderr logger or something.

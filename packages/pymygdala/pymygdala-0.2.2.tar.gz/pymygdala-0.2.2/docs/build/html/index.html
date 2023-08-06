@@ -1,0 +1,802 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Pymygdala &mdash; pymygdala 0.2.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="pymygdala 0.2.0 documentation" href="#"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> pymygdala
+          
+
+          
+            
+            <img src="_static/NRAO_logo_medium.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Pymygdala</a><ul>
+<li><a class="reference internal" href="#module-pymygdala">pymygdala API</a></li>
+<li><a class="reference internal" href="#pymygdala-cli-utilities">pymygdala CLI utilities</a><ul>
+<li><a class="reference internal" href="#pym-dumplogs">pym-dumplogs</a><ul>
+<li><a class="reference internal" href="#Named Arguments">Named Arguments</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pym-sendlog">pym-sendlog</a><ul>
+<li><a class="reference internal" href="#Named Arguments">Named Arguments</a></li>
+<li><a class="reference internal" href="#Required Arguments">Required Arguments</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pym-sendevent">pym-sendevent</a><ul>
+<li><a class="reference internal" href="#Named Arguments">Named Arguments</a></li>
+<li><a class="reference internal" href="#Required Arguments">Required Arguments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">pymygdala</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Pymygdala</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pymygdala">
+<h1>Pymygdala<a class="headerlink" href="#pymygdala" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-pymygdala">
+<span id="pymygdala-api"></span><h2>pymygdala API<a class="headerlink" href="#module-pymygdala" title="Permalink to this headline">¶</a></h2>
+<p>Pymygdala: a CAPO aware Python library built atop pika for interacting with RabbitMQ, plus assorted simple command line applications built on the library.</p>
+<p>Using this library you can log messages to RabbitMQ with a standard-isg logging handler and the Python logging package, you can monitor a RabbitMQ server and dump out the logs, and you can send various events to the server.
+Many (most?) of the defaults for things like routing keys, exchange names and CAPO properties are heavily NRAO-centric but you can order-ride them if you want.</p>
+<dl class="class">
+<dt id="pymygdala.LogDumper">
+<em class="property">class </em><code class="descclassname">pymygdala.</code><code class="descname">LogDumper</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#LogDumper"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.LogDumper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dump the logs from a RabbitMQ server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Keyword Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first"><em>profile</em> (“string”): the name of the profile to use, e.g. ‘test’, ‘production’. If missing this defaults to the CAPO_PROFILE environment variable, if that is missing as well it explodes, throwing a ValueError exception. A profile should be a simple word, one without spaces or tabs or evil things in it. This is not checked and no guarantee is provided.</p>
+<p><em>hostname</em> (“string”): name of the AMQP server to use, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.hostname”.</p>
+<p><em>username</em> (“string”): username to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.username”.</p>
+<p><em>password</em> (“string”): password to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.password”.</p>
+<p><em>port</em> (“int”): port number to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.port”.</p>
+<p><em>connection_attempts</em> (int): maximum number of retry attempts.</p>
+<p><em>retry_delay</em> (int|float): time to wait in seconds, before the next.</p>
+<p><em>socket_timeout</em> (int|float): use for high latency networks.</p>
+<p><em>exchange</em> (“string”): the exchange to use, defaults to pymygdala.LOG_EXCHANGE.</p>
+<p><em>exchange_type</em> (“string”): type of exchange to use, defaults to pymygdala.LOG_EXCHANGE_TYPE.</p>
+<p><em>outfile</em> (“string”): the name of the file to write to, default ‘-‘ for sys.stdout.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Dump the &#39;test&#39; logs to stdout</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pymygdala</span> <span class="k">import</span> <span class="n">LogDumper</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dumper</span> <span class="o">=</span> <span class="n">LogDumper</span><span class="p">(</span><span class="n">profile</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dumper</span><span class="o">.</span><span class="n">dump</span><span class="p">()</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="pymygdala.LogDumper.dump">
+<code class="descname">dump</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#LogDumper.dump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.LogDumper.dump" title="Permalink to this definition">¶</a></dt>
+<dd><p>I need more docstrings.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pymygdala.LogHandler">
+<em class="property">class </em><code class="descclassname">pymygdala.</code><code class="descname">LogHandler</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#LogHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.LogHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Logging handler for a RabbitMQ server.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Keyword Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first"><em>profile</em> (“string”): the name of the profile to use, e.g. ‘test’, ‘production’. If missing this defaults to the CAPO_PROFILE environment variable, if that is missing as well it explodes, throwing a ValueError exception. A profile should be a simple word, one without spaces or tabs or evil things in it. This is not checked and no guarantee is provided.</p>
+<p><em>hostname</em> (“string”): name of the AMQP server to use, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.hostname”.</p>
+<p><em>username</em> (“string”): username to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.username”.</p>
+<p><em>password</em> (“string”): password to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.password”.</p>
+<p><em>port</em> (“int”): port number to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.port”.</p>
+<p><em>connection_attempts</em> (int): maximum number of retry attempts.</p>
+<p><em>retry_delay</em> (int|float): time to wait in seconds, before the next.</p>
+<p><em>socket_timeout</em> (int|float): use for high latency networks.</p>
+<p><em>exchange</em> (“string”): the exchange to use, defaults to pymygdala.LOG_EXCHANGE.</p>
+<p><em>exchange_type</em> (“string”): type of exchange to use, defaults to pymygdala.LOG_EXCHANGE_TYPE.</p>
+<p><em>application</em> (“string”): the name of the application sending the event or message, “unknown” by default.</p>
+<p><em>level</em> (“level”): the logging level to use.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">logging</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pymygdala</span> <span class="k">import</span> <span class="n">LogHandler</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">handler</span> <span class="o">=</span> <span class="n">LogHandler</span><span class="p">(</span><span class="n">profile</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">application</span><span class="o">=</span><span class="s1">&#39;test-app&#39;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">log</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">handler</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;my hovercraft is full of eels&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="pymygdala.LogHandler.acquire">
+<code class="descname">acquire</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.acquire" title="Permalink to this definition">¶</a></dt>
+<dd><p>Acquire the I/O thread lock.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.addFilter">
+<code class="descname">addFilter</code><span class="sig-paren">(</span><em>filter</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.addFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add the specified filter to this handler.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tidy up any resources used by the handler.</p>
+<p>This version removes the handler from an internal map of handlers,
+_handlers, which is used for handler lookup by name. Subclasses
+should ensure that this gets called from overridden close()
+methods.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.createLock">
+<code class="descname">createLock</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.createLock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Acquire a thread lock for serializing access to the underlying I/O.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.emit">
+<code class="descname">emit</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#LogHandler.emit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.LogHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Emit a logging message, build the routing key per emission because it has the logging
+level as part of it.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.filter">
+<code class="descname">filter</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.filter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if a record is loggable by consulting all the filters.</p>
+<p>The default is to allow the record to be logged; any filter can veto
+this and the record is then dropped. Returns a zero value if a record
+is to be dropped, else non-zero.</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 3.2: </span>Allow filters to be just callables.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.flush">
+<code class="descname">flush</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.flush" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ensure all logging output has been flushed.</p>
+<p>This version does nothing and is intended to be implemented by
+subclasses.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.format">
+<code class="descname">format</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Format the specified record.</p>
+<p>If a formatter is set, use it. Otherwise, use the default formatter
+for the module.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.get_name">
+<code class="descname">get_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.get_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.handle">
+<code class="descname">handle</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.handle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Conditionally emit the specified logging record.</p>
+<p>Emission depends on filters which may have been added to the handler.
+Wrap the actual emission of the record with acquisition/release of
+the I/O thread lock. Returns whether the filter passed the record for
+emission.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.handleError">
+<code class="descname">handleError</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.handleError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle errors which occur during an emit() call.</p>
+<p>This method should be called from handlers when an exception is
+encountered during an emit() call. If raiseExceptions is false,
+exceptions get silently ignored. This is what is mostly wanted
+for a logging system - most users will not care about errors in
+the logging system, they are more interested in application errors.
+You could, however, replace this with a custom handler if you wish.
+The record which was being processed is passed in to this method.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pymygdala.LogHandler.name">
+<code class="descname">name</code><a class="headerlink" href="#pymygdala.LogHandler.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.record_to_dict">
+<code class="descname">record_to_dict</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#LogHandler.record_to_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.LogHandler.record_to_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Turn a Python logging.LogRecord into a simple dictionary, with the structure we expect,
+that can easily be turned into a JSON string and sent off to RabbitMQ.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.release">
+<code class="descname">release</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.release" title="Permalink to this definition">¶</a></dt>
+<dd><p>Release the I/O thread lock.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.removeFilter">
+<code class="descname">removeFilter</code><span class="sig-paren">(</span><em>filter</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.removeFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove the specified filter from this handler.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.setFormatter">
+<code class="descname">setFormatter</code><span class="sig-paren">(</span><em>fmt</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.setFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the formatter for this handler.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.setLevel">
+<code class="descname">setLevel</code><span class="sig-paren">(</span><em>level</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.setLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the logging level of this handler.  level must be an int or a str.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="pymygdala.LogHandler.set_name">
+<code class="descname">set_name</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.LogHandler.set_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pymygdala.SendEvent">
+<em class="property">class </em><code class="descclassname">pymygdala.</code><code class="descname">SendEvent</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#SendEvent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.SendEvent" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Keyword Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first"><em>profile</em> (“string”): the name of the profile to use, e.g. ‘test’, ‘production’. If missing this defaults to the CAPO_PROFILE environment variable, if that is missing as well it explodes, throwing a ValueError exception. A profile should be a simple word, one without spaces or tabs or evil things in it. This is not checked and no guarantee is provided.</p>
+<p><em>application</em> (“string”): the name of the application sending the event or message, “unknown” by default.</p>
+<p><em>hostname</em> (“string”): name of the AMQP server to use, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.hostname”</p>
+<p><em>username</em> (“string”): username to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.username”.</p>
+<p><em>password</em> (“string”): password to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.password”.</p>
+<p><em>port</em> (“int”): port number to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.port”.</p>
+<p><em>connection_attempts</em> (int): maximum number of retry attempts</p>
+<p><em>retry_delay</em> (int|float): time to wait in seconds, before the next</p>
+<p><em>socket_timeout</em> (int|float): use for high latency networks</p>
+<p><em>exchange</em> (“string”): the exchange to use, defaults to pymygdala.EVENT_EXCHANGE</p>
+<p><em>exchange_type</em> (“string”): type of exchange to use, defaults to pymygdala.EVENT_EXCHANGE_TYPE.</p>
+<p><em>routing_key</em> (“string”): how messages will be routed to queues, format defaults to pymygdala.EVENT_ROUTING_KEY_FORMAT</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Send the kind of event the solr indexer does when it starts to index</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pymygdala</span> <span class="k">import</span> <span class="n">SendEvent</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">se</span> <span class="o">=</span> <span class="n">SendEvent</span><span class="p">(</span><span class="n">profile</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">application</span><span class="o">=</span><span class="s1">&#39;solr-indexer&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">event</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">&quot;logData&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">... </span>        <span class="s2">&quot;dryRun&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s2">&quot;numberOfDocuments&quot;</span><span class="p">:</span> <span class="mi">9999</span>
+<span class="gp">... </span>    <span class="p">},</span>
+<span class="gp">... </span>    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;Starting reindexing process&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">&quot;request&quot;</span><span class="p">:</span> <span class="s2">&quot;some request&quot;</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">se</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="pymygdala.SendEvent.send">
+<code class="descname">send</code><span class="sig-paren">(</span><em>event</em>, <em>routing_key=None</em>, <em>headers=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#SendEvent.send"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.SendEvent.send" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an event to RabbitMQ: an ‘event’ here is a simple dictionary that can be converted into a JSON string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Required Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><em>event</em> (“dict”): a dictionary representing the event to send.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Optional Arguments:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body"><em>routing_key</em> (“string”): the routing key of the message, defaults to application.event
+<em>headers</em> (“dict”): a dictionary of headers to send with the event as ‘properties’</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pymygdala.SendNRAOEvent">
+<em class="property">class </em><code class="descclassname">pymygdala.</code><code class="descname">SendNRAOEvent</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pymygdala/models.html#SendNRAOEvent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pymygdala.SendNRAOEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>This subclasses SendEvent and just add some more fields to the event based on the exchange, so you can use it to trigger AAT/PPI workflows more easily.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Keyword Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first"><em>profile</em> (“string”): the name of the profile to use, e.g. ‘test’, ‘production’. If missing this defaults to the CAPO_PROFILE environment variable, if that is missing as well it explodes, throwing a ValueError exception. A profile should be a simple word, one without spaces or tabs or evil things in it. This is not checked and no guarantee is provided.</p>
+<p><em>application</em> (“string”): the name of the application sending the event or message, “unknown” by default.</p>
+<p><em>hostname</em> (“string”): name of the AMQP server to use, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.hostname”</p>
+<p><em>username</em> (“string”): username to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.username”.</p>
+<p><em>password</em> (“string”): password to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.password”.</p>
+<p><em>port</em> (“int”): port number to connect to AMQP with, defaults to CAPO property “edu.nrao.archive.configuration.AmqpServer.port”.</p>
+<p><em>connection_attempts</em> (int): maximum number of retry attempts</p>
+<p><em>retry_delay</em> (int|float): time to wait in seconds, before the next</p>
+<p><em>socket_timeout</em> (int|float): use for high latency networks</p>
+<p><em>exchange</em> (“string”): the exchange to use, defaults to pymygdala.EVENT_EXCHANGE</p>
+<p><em>exchange_type</em> (“string”): type of exchange to use, defaults to pymygdala.EVENT_EXCHANGE_TYPE.</p>
+<p><em>routing_key</em> (“string”): how messages will be routed to queues, format defaults to pymygdala.EVENT_ROUTING_KEY_FORMAT</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Send the kind of event the solr indexer does when it starts to index</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pymygdala</span> <span class="k">import</span> <span class="n">SendNRAOEvent</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">se</span> <span class="o">=</span> <span class="n">SendEvent</span><span class="p">(</span><span class="n">profile</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">application</span><span class="o">=</span><span class="s1">&#39;solr-indexer&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">&quot;reply-to&quot;</span><span class="p">:</span> <span class="s2">&quot;jim@bob.foo&quot;</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">event</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">&quot;logData&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="gp">... </span>        <span class="s2">&quot;dryRun&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s2">&quot;numberOfDocuments&quot;</span><span class="p">:</span> <span class="mi">9999</span>
+<span class="gp">... </span>    <span class="p">},</span>
+<span class="gp">... </span>    <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;Starting reindexing process&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">&quot;request&quot;</span><span class="p">:</span> <span class="s2">&quot;some request&quot;</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">se</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="pymygdala.SendNRAOEvent.send">
+<code class="descname">send</code><span class="sig-paren">(</span><em>event</em>, <em>routing_key=None</em>, <em>headers=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pymygdala.SendNRAOEvent.send" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an event to RabbitMQ: an ‘event’ here is a simple dictionary that can be converted into a JSON string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Required Arguments:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><em>event</em> (“dict”): a dictionary representing the event to send.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Optional Arguments:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body"><em>routing_key</em> (“string”): the routing key of the message, defaults to application.event
+<em>headers</em> (“dict”): a dictionary of headers to send with the event as ‘properties’</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="pymygdala-cli-utilities">
+<h2>pymygdala CLI utilities<a class="headerlink" href="#pymygdala-cli-utilities" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="pym-dumplogs">
+<h3>pym-dumplogs<a class="headerlink" href="#pym-dumplogs" title="Permalink to this headline">¶</a></h3>
+<p>pym-dumplogs, 0.2.0: connect to a RabbitMQ server and dump the logs out.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">usage</span><span class="p">:</span> <span class="n">pym</span><span class="o">-</span><span class="n">dumplogs</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">profile</span> <span class="n">PROFILE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">exchange</span> <span class="n">EXCHANGE</span><span class="p">]</span>
+                    <span class="p">[</span><span class="o">--</span><span class="nb">type</span> <span class="n">EXCHANGE_TYPE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">hostname</span> <span class="n">HOSTNAME</span><span class="p">]</span>
+                    <span class="p">[</span><span class="o">--</span><span class="n">username</span> <span class="n">USERNAME</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">password</span> <span class="n">PASSWORD</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">port</span> <span class="n">PORT</span><span class="p">]</span>
+                    <span class="p">[</span><span class="o">--</span><span class="n">key</span> <span class="n">ROUTING_KEY</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">outfile</span> <span class="n">OUTFILE</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="section" id="Named Arguments">
+<h4>Named Arguments<a class="headerlink" href="#Named Arguments" title="Permalink to this headline">¶</a></h4>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd>--profile</kbd></td>
+<td>CAPO profile name to use, e.g. test, production</td></tr>
+<tr><td class="option-group">
+<kbd>--exchange</kbd></td>
+<td>exchange name to use, e.g. archive.logs</td></tr>
+<tr><td class="option-group">
+<kbd>--type</kbd></td>
+<td>exchange type to use, e.g. fanout</td></tr>
+<tr><td class="option-group">
+<kbd>--hostname</kbd></td>
+<td>server name of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--username</kbd></td>
+<td>username of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--password</kbd></td>
+<td>password of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--port</kbd></td>
+<td>port number of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--key</kbd></td>
+<td>routing key, e.g. archive.logs</td></tr>
+<tr><td class="option-group">
+<kbd>--outfile</kbd></td>
+<td>write output to file, - for STDOUT</td></tr>
+</tbody>
+</table>
+</div>
+<p><dl class="docutils">
+<dt>Return values:</dt>
+<dd>0: everything worked as expected
+1: missing CAPO profile, no –profile argument or environment variable
+2: can’t connect to specified RabbitMQ server</dd>
+</dl>
+</p>
+</div>
+<div class="section" id="pym-sendlog">
+<h3>pym-sendlog<a class="headerlink" href="#pym-sendlog" title="Permalink to this headline">¶</a></h3>
+<p>pym-sendlog, 0.2.0: a command line tool for logging to RabbitMQ.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">usage</span><span class="p">:</span> <span class="n">pym</span><span class="o">-</span><span class="n">sendlog</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">profile</span> <span class="n">PROFILE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">exchange</span> <span class="n">EXCHANGE</span><span class="p">]</span>
+                   <span class="p">[</span><span class="o">--</span><span class="nb">type</span> <span class="n">EXCHANGE_TYPE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">hostname</span> <span class="n">HOSTNAME</span><span class="p">]</span>
+                   <span class="p">[</span><span class="o">--</span><span class="n">username</span> <span class="n">USERNAME</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">password</span> <span class="n">PASSWORD</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">port</span> <span class="n">PORT</span><span class="p">]</span>
+                   <span class="p">[</span><span class="o">--</span><span class="n">key</span> <span class="n">ROUTING_KEY</span><span class="p">]</span> <span class="o">--</span><span class="n">level</span> <span class="n">LEVEL</span> <span class="o">--</span><span class="n">message</span> <span class="n">MESSAGE</span> <span class="o">--</span><span class="n">app</span>
+                   <span class="n">APPLICATION</span>
+</pre></div>
+</div>
+<div class="section" id="Named Arguments">
+<h4>Named Arguments<a class="headerlink" href="#Named Arguments" title="Permalink to this headline">¶</a></h4>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd>--profile</kbd></td>
+<td>CAPO profile name to use, e.g. test, production</td></tr>
+<tr><td class="option-group">
+<kbd>--exchange</kbd></td>
+<td>exchange name to use, e.g. archive.logs</td></tr>
+<tr><td class="option-group">
+<kbd>--type</kbd></td>
+<td>exchange type to use, e.g. fanout</td></tr>
+<tr><td class="option-group">
+<kbd>--hostname</kbd></td>
+<td>server name of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--username</kbd></td>
+<td>username of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--password</kbd></td>
+<td>password of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--port</kbd></td>
+<td>port number of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--key</kbd></td>
+<td>routing key, e.g. archive.logs</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="Required Arguments">
+<h4>Required Arguments<a class="headerlink" href="#Required Arguments" title="Permalink to this headline">¶</a></h4>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd>--level</kbd></td>
+<td>logging level, e.g. DEBUG, WARN</td></tr>
+<tr><td class="option-group">
+<kbd>--message</kbd></td>
+<td>message to log</td></tr>
+<tr><td class="option-group">
+<kbd>--app</kbd></td>
+<td>the application name to log as</td></tr>
+</tbody>
+</table>
+</div>
+<p><dl class="docutils">
+<dt>Return values:</dt>
+<dd>0: everything worked as expected
+1: missing CAPO profile, no ‘–profile’ argument or environment variable
+2: can’t connect to specified RabbitMQ server
+3: unknown logging level, should be DEBUG, INFO, WARN or ERROR</dd>
+</dl>
+</p>
+</div>
+<div class="section" id="pym-sendevent">
+<h3>pym-sendevent<a class="headerlink" href="#pym-sendevent" title="Permalink to this headline">¶</a></h3>
+<p>pym-sendevent, 0.2.0: send an event to a RabbitMQ server.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">usage</span><span class="p">:</span> <span class="n">pym</span><span class="o">-</span><span class="n">sendevent</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">profile</span> <span class="n">PROFILE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">exchange</span> <span class="n">EXCHANGE</span><span class="p">]</span>
+                     <span class="p">[</span><span class="o">--</span><span class="nb">type</span> <span class="n">EXCHANGE_TYPE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">hostname</span> <span class="n">HOSTNAME</span><span class="p">]</span>
+                     <span class="p">[</span><span class="o">--</span><span class="n">username</span> <span class="n">USERNAME</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">password</span> <span class="n">PASSWORD</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">port</span> <span class="n">PORT</span><span class="p">]</span>
+                     <span class="p">[</span><span class="o">--</span><span class="n">key</span> <span class="n">ROUTING_KEY</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">event</span> <span class="n">EVENTNAME</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">nrao</span><span class="p">]</span>
+                     <span class="p">[</span><span class="o">--</span><span class="n">message</span> <span class="n">MESSAGE</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">md</span><span class="o">-</span><span class="n">name</span> <span class="n">MD_NAME</span><span class="p">]</span>
+                     <span class="p">[</span><span class="o">--</span><span class="n">metadata</span> <span class="n">METADATA</span><span class="p">]</span> <span class="o">--</span><span class="n">app</span> <span class="n">APPLICATION</span>
+</pre></div>
+</div>
+<div class="section" id="Named Arguments">
+<h4>Named Arguments<a class="headerlink" href="#Named Arguments" title="Permalink to this headline">¶</a></h4>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd>--profile</kbd></td>
+<td>CAPO profile name to use, e.g. test, production</td></tr>
+<tr><td class="option-group">
+<kbd>--exchange</kbd></td>
+<td>exchange name to use, e.g. archive.logs</td></tr>
+<tr><td class="option-group">
+<kbd>--type</kbd></td>
+<td>exchange type to use, e.g. fanout</td></tr>
+<tr><td class="option-group">
+<kbd>--hostname</kbd></td>
+<td>server name of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--username</kbd></td>
+<td>username of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--password</kbd></td>
+<td>password of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--port</kbd></td>
+<td>port number of the RabbitMQ server</td></tr>
+<tr><td class="option-group">
+<kbd>--key</kbd></td>
+<td>routing key, e.g. archive.logs</td></tr>
+<tr><td class="option-group">
+<kbd>--event</kbd></td>
+<td>eventName to send, e.g. runSdmIngestionWorkflow</td></tr>
+<tr><td class="option-group">
+<kbd>--nrao</kbd></td>
+<td>add NRAO specific fields to the event</td></tr>
+<tr><td class="option-group">
+<kbd>--message</kbd></td>
+<td>provide a KEY=VALUE pair in the event message, can be used multiple times</td></tr>
+<tr><td class="option-group">
+<kbd>--md-name</kbd></td>
+<td>name of an extra metadata message section</td></tr>
+<tr><td class="option-group">
+<kbd>--metadata</kbd></td>
+<td>provide a KEY=VALUE pair in the md-name section of the message; can be used multiple times</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="Required Arguments">
+<h4>Required Arguments<a class="headerlink" href="#Required Arguments" title="Permalink to this headline">¶</a></h4>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd>--app</kbd></td>
+<td>the application name to log as</td></tr>
+</tbody>
+</table>
+</div>
+<p><dl class="docutils">
+<dt>Return values:</dt>
+<dd>0: everything worked as expected
+1: missing CAPO profile, no ‘–profile’ argument or environment variable
+2: can’t connect to specified RabbitMQ server</dd>
+</dl>
+</p>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Daniel Lyons.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.2.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
