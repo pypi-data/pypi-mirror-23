@@ -1,0 +1,3 @@
+[console_scripts]
+pp = pp.__main__:main
+
