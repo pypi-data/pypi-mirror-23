@@ -1,0 +1,16 @@
+censusbatchgeocoder/__init__.py,sha256=pZwNlhfChn9iEcrDDoLRYtU73LdM3azW4C_mcVhkhLg,6876
+censusbatchgeocoder/tests/__init__.py,sha256=05bW13UhCdab-_MB-svqPt5RqxAxpkbeUHbptSTO9XY,3303
+censusbatchgeocoder/tests/__init__.pyc,sha256=VMUNlGMUTXIfh8ndsAQT4eKoxr3GqcXGLEaDINjuRk0,4830
+censusbatchgeocoder/tests/big.csv,sha256=1F1f8i7p4bdi6VmHJltfgxCq-m0gtyXDvWnx8-4Sl10,77143
+censusbatchgeocoder/tests/extra.csv,sha256=tiL3rK3BoUIZUBs9DFmRinAKkVARJm_MTks3ORRXJTc,377
+censusbatchgeocoder/tests/incomplete.csv,sha256=1IoQTjegpdcUNiDoQTMt-k2PYYlx7RfrselWM0flkLg,201
+censusbatchgeocoder/tests/small.csv,sha256=Qtgvmacbh9V6cTMuzl3BUm4QiHBz91ovVl9YjOymIQ8,285
+censusbatchgeocoder/tests/weird.csv,sha256=JGyiCCBrnHzeaNQSJNpnSK_Qh0kQRVBOn7jafjPCmjI,277
+censusbatchgeocoder/tests/wide.csv,sha256=doCZM_zaQAVEexwcHQrkGKvAzNCfCB6fT3QwoYlJ_i4,5307
+censusbatchgeocoder-0.0.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+censusbatchgeocoder-0.0.9.dist-info/LICENSE.txt,sha256=nVYUPy3yzbWIpWvJDL9DpAHoaLXZY6POlEQPzPJrXWc,1094
+censusbatchgeocoder-0.0.9.dist-info/METADATA,sha256=ej_gfMRZK3jk6utm91NCuwSFOwGmI41ePkQYJMuw9YU,904
+censusbatchgeocoder-0.0.9.dist-info/RECORD,,
+censusbatchgeocoder-0.0.9.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+censusbatchgeocoder-0.0.9.dist-info/metadata.json,sha256=9gSUeZFR3mM_6bWZrnJBy8BGzXHM05uNHwVCiMsbQA8,1048
+censusbatchgeocoder-0.0.9.dist-info/top_level.txt,sha256=AHlQS9a-kajbrMoFbIaCelAefdIU1BU3nddivQAsFh8,20
