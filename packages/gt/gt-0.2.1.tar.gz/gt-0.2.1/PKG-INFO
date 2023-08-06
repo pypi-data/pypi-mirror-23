@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: gt
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: http://gitlab.com/rvaiya/gt
+Author: Raheman Vaiya
+Author-email: r.vaiya@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: git github gitlab ssh cli console management
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
