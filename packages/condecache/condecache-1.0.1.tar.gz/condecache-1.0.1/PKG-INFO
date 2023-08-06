@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: condecache
+Version: 1.0.1
+Summary: caching framework to reduce boilerplate
+Home-page: https://github.com/cnduk/condecache
+Author: Conde Nast Digital UK
+Author-email: condenet.technical@condenast.co.uk
+License: MIT
+Download-URL: https://github.com/cnduk/condecache/tarball/v1.0.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
