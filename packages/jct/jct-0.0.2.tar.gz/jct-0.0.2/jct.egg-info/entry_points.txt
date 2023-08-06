@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        jct=jct.jct:main
+    
