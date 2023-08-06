@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: terrachecker
+Version: 0.0.4
+Summary: Terraform checker.
+Home-page: https://github.com/JiscRDSS/rdss-terraform-standards-checker
+Author: Mark Winterbottom
+Author-email: mark.winterbottom@jisc.ac.uk
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: pyhcl (==0.3.5)
+
+UNKNOWN
+
+

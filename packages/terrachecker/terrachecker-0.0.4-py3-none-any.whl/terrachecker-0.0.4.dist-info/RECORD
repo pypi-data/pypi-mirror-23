@@ -1,0 +1,13 @@
+terrachecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terrachecker/terrachecker.py,sha256=BaD-zxPDSNHGRQ5yf9REIVjvE9SbEwNm9AkNvl1mMMU,740
+terrachecker/terraform_checker.py,sha256=LXHUC15gk5YBPgMXxmFhhF6rcq0T_KfbOQ-4iPlvhV4,3598
+terrachecker-0.0.4.data/data/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+terrachecker-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+terrachecker-0.0.4.dist-info/METADATA,sha256=HJu8ObOwjY_utsBhbLbRwL6uC-s4AdCSFTAcSN2hh9k,313
+terrachecker-0.0.4.dist-info/RECORD,,
+terrachecker-0.0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+terrachecker-0.0.4.dist-info/entry_points.txt,sha256=MgEwIjfNBC7BzN1_CbRbwjxMIJv1o3pCaA8RyfpYpe4,65
+terrachecker-0.0.4.dist-info/metadata.json,sha256=Pz9VAgKVFsJ6tlRvN2nqDQnGSv9xdPQbep-MVs-6BYM,705
+terrachecker-0.0.4.dist-info/top_level.txt,sha256=hmZo0KgaMyGIt8Yjm8Qb9ma55U-aGP4-F8QgIjSv-jE,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_terraform_checker.py,sha256=P67UavbWyCSsiOjnfvbYTQOUAChhFPR2up-CF4CYRxs,445
