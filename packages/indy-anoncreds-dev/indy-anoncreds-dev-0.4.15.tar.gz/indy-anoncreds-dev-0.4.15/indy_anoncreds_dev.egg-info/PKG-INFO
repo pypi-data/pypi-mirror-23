@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: indy-anoncreds-dev
+Version: 0.4.15
+Summary: Anonymous credentials
+Home-page: https://github.com/evernym/anoncreds-priv
+Author: Evernym, Inc.
+Author-email: dev@evernym.us
+License: Apache 2.0
+Description: Anonymous credentials
+Keywords: Anonymous credentials
+Platform: UNKNOWN

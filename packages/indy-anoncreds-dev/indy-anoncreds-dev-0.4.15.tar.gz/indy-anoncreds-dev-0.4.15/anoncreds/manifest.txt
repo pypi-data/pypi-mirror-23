@@ -1,0 +1,2 @@
+// built from: repo version hash
+https://github.com/hyperledger/indy-anoncreds.git 0.4.15 ad229c5d3370d61123617549acba5e507ad2340d
