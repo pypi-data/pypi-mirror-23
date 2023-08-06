@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: europy2017
+Version: 0.1
+Summary: Example package for EuroPython 2017
+Home-page: https://github.com/takluyver/europy2017
+License: UNKNOWN
+Author: Thomas Kluyver
+Author-email: thomas@kluyver.me.uk
+Classifier: License :: OSI Approved :: MIT License
+
+Core functionality includes issuing a greeting to the conference location
+using stdout.
+
+May the gods of live demos smile upon this presentation.
+
