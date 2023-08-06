@@ -1,0 +1,11 @@
+falcon_stats-0.5.dist-info/DESCRIPTION.rst,sha256=GHybCn3pfq5T8UY4seHjpI4dpSireD3MqDwKJsYaZzY,1625
+falcon_stats-0.5.dist-info/METADATA,sha256=cweGs520dhMTD6q7QmARRCG2BxAADuIfGSx15XvFR6I,2184
+falcon_stats-0.5.dist-info/RECORD,,
+falcon_stats-0.5.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+falcon_stats-0.5.dist-info/metadata.json,sha256=m4nWCrElIpiNwzG6mks-3LxwlLikEZynsrURoPLAwk4,748
+falcon_stats-0.5.dist-info/top_level.txt,sha256=Dyoq0cBXcC4PMJtjdNowaNP-V6bMaKfMEvErD5tTCR0,18
+falconstats/__init__.py,sha256=Dks8YwvXcewdp2_QBfXNSy9ieS4vp5XWwUNHOt-tX_I,46
+falconstats/middleware.py,sha256=7aNrtbYX3z4FdCa8KS5H1clVpNjPn5ZpBsUUTnL3byA,2912
+falconstats/models.py,sha256=y52d8CgdRLDah_wcwY2dlVvgufSfvCuM-ts27EUn3_Y,2676
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_middleware.py,sha256=nYXyf0ATUcaZR7DUfsbOUsgkfD26yqv6AsU4I7qgopA,4166
