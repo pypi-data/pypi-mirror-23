@@ -1,0 +1,54 @@
+#!/usr/bin/env python
+# Mode: -*- python -*-
+#
+# Copyright (c) 2015-2017 by Rocky Bernstein <rb@dustyfeet.com>
+#
+from __future__ import print_function
+import sys, os
+import click
+
+from xdis.version import VERSION
+from xdis import PYTHON_VERSION
+from xdis.main import disassemble_file
+
+program, ext = os.path.splitext(os.path.basename(__file__))
+
+PATTERNS = ('*.pyc', '*.pyo')
+
+@click.command()
+@click.option("--asm/--noasm", default=False,
+              help='Produce ouput suitable for xasm')
+@click.option("--version", '-V', default=False,
+              help='Show version and exit')
+@click.argument('files', nargs=-1)
+def main(asm, version, files):
+    Usage_short = """usage:
+   %s [--asm] -i FILE...
+   %s --version
+Type -h for for full help.""" % (program, program)
+
+
+    if not (2.5 <= PYTHON_VERSION <= 3.6):
+        sys.stderr(print("This works on Python version 2.5..3.6; have %s" % PYTHON_VERSION))
+
+    if not len(files):
+        sys.stderr.write("No file(s) given..\n")
+        print(Usage_short, file=sys.stderr)
+        sys.exit(1)
+
+    if version:
+            print("%s %s" % (program, VERSION))
+            sys.exit(0)
+
+    for file in files:
+        if os.path.exists(files[0]):
+            disassemble_file(file, sys.stdout, asm)
+        else:
+            print("Can't read %s - skipping" % files[0],
+                  file=sys.stderr)
+            pass
+        pass
+    return
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
