@@ -1,0 +1,32 @@
+{
+  "general":{
+    "error_with_message": "An error occurred: ",
+    "error_without_message": "An error occured",
+    "internal_server_error": "The request caused the API to crash. This is a bug, please report it to the developers. You can send an email to eng.accts@asf.alaska.edu and please include the following information:\n{}"
+  },
+  "__init__":{
+    "connection_error":"Error in url '{}' or connection to server",
+    "member_is_none":"{} not set. Call .login() to get credentials"
+  },
+  "login":{
+    "username_exception":"{} -- error with username...",
+    "no_password": " Password for {}: ",
+    "login_success": "\n login successful!"
+  },
+  "get_jobs":{
+    "csv_not_supported_with_selction_on_id": "CSV format not supported with list selection on id"
+  },
+  "one_time_process":{
+    "invalid_granule": "Invalid granule passed: {}",
+    "granule_pair_required":"Process_id given requires a pair of granules",
+    "dual_pol_granule_required":"Process_id given requires a granule with dual polarization"
+  },
+  "create_subscription":{
+    "shapefile_exception":"Error loading files: Ensure you have both necessary files (.dbf and .shp) present in the directory of the file path you passed and note: "
+  },
+  "EarthdataLogin":{
+    "bad_username_or_password":"Username and password combo was not successful",
+    "cookie_error":"\nIMPORTANT: There was an error obtaining a download cookie!\n\nNew users: you must first log into Hyp3 and accept the EULA. In addition, your Study Area must be set at Earthdata https://urs.earthdata.nasa.gov",
+    "urs_error":"\nIMPORTANT: There was a problem communicating with URS, unable to obtain cookie.\nTry cookie generation later."
+  }
+}
