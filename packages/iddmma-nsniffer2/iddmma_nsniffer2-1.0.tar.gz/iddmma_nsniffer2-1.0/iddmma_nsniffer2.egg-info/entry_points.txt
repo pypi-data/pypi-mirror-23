@@ -1,0 +1,3 @@
+[console_scripts]
+iddmma_nsniffer2 = iddmma_nsniffer2:main
+
