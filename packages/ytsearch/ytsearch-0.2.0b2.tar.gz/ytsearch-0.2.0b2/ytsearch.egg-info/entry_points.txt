@@ -1,0 +1,4 @@
+[console_scripts]
+yts = ytsearch.program:main
+ytsearch = ytsearch.program:main
+
