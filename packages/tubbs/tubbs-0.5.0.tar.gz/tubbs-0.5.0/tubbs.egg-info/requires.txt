@@ -1,0 +1,5 @@
+amino>=9.10.1
+ribosome>=10.2.0
+hues
+tatsu
+regex
