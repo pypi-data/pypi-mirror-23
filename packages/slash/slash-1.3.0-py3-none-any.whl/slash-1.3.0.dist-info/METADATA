@@ -1,0 +1,48 @@
+Metadata-Version: 2.0
+Name: slash
+Version: 1.3.0
+Summary: A Testing Framework
+Home-page: http://getslash.github.io/
+Author: Rotem Yaari
+Author-email: vmalloc@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Logbook (>=1.1.0)
+Requires-Dist: SQLAlchemy
+Requires-Dist: arrow
+Requires-Dist: colorama
+Requires-Dist: confetti (>=2.4.1)
+Requires-Dist: dessert (>=1.3.1)
+Requires-Dist: emport (>=1.1.3)
+Requires-Dist: gossip (>=2.2.0)
+Requires-Dist: orderedset (>=2.0.0)
+Requires-Dist: py (>=1.4.20)
+Requires-Dist: pyparsing
+Requires-Dist: raven
+Requires-Dist: requests (>=1.1.0)
+Requires-Dist: tmuxp
+Requires-Dist: vintage (>=0.4.0)
+Requires-Dist: IPython; (implementation_name!='pypy')
+Requires-Dist: ptyprocess; (implementation_name=='pypy' and python_version<'2.7')
+Requires-Dist: IPython (==1.2.1); (implementation_name=='pypy')
+Requires-Dist: contextlib2; (python_version<'3.3')
+Provides-Extra: testing
+Requires-Dist: coverage; extra == 'testing'
+Requires-Dist: coveralls; extra == 'testing'
+Requires-Dist: munch; extra == 'testing'
+Requires-Dist: pyforge; extra == 'testing'
+Requires-Dist: pylint (>=1.7); extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-capturelog; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+Requires-Dist: pytest-timeout; extra == 'testing'
+Requires-Dist: pytest-xdist; extra == 'testing'
+
+A Testing Framework
+
+
