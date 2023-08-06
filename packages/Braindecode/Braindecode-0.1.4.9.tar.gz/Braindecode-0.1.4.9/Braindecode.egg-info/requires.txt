@@ -1,0 +1,8 @@
+mne
+torch
+h5py
+numpy
+pandas
+scipy
+resampy
+matplotlib
