@@ -1,0 +1,3 @@
+[console_scripts]
+deplicate = deplicate_cli:cli
+

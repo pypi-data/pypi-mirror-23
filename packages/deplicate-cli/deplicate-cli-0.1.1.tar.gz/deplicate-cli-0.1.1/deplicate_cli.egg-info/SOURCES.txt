@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+VERSION
+deplicate_cli.py
+setup.cfg
+setup.py
+deplicate_cli.egg-info/PKG-INFO
+deplicate_cli.egg-info/SOURCES.txt
+deplicate_cli.egg-info/dependency_links.txt
+deplicate_cli.egg-info/entry_points.txt
+deplicate_cli.egg-info/requires.txt
+deplicate_cli.egg-info/top_level.txt
+deplicate_cli.egg-info/zip-safe
