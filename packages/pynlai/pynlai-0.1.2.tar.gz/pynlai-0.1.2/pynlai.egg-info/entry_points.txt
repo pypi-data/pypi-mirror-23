@@ -1,0 +1,3 @@
+[console_scripts]
+pynlai = pynlai.cli:entry_point
+

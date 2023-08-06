@@ -1,0 +1,4 @@
+Hello.  
+Please run a stock simulation for TARGA using the attached comp history.  
+Price paths should go out 2 years on a daily time step and I want 100,000 iterations.
+Thanks!
