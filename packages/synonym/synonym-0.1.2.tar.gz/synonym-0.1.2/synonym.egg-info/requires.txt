@@ -1,0 +1,4 @@
+pyquery
+requests
+requests-cache
+crayons
