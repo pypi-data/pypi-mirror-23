@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: raspi-python-st7735
+Version: 1.0
+Summary: Python library for using ST7735-based TFT LCDs with a Raspberry Pi
+Home-page: https://github.com/jackw01/raspi-python-st7735
+Author: jackw01
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
