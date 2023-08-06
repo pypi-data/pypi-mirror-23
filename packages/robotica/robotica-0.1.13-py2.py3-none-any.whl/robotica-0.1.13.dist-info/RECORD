@@ -1,0 +1,13 @@
+robotica/__init__.py,sha256=nd8pI4kEzkq10_6scaozBOH4HbGQVyDsK8_g2khcqSQ,154
+robotica/audio.py,sha256=PCKdZqZxisRdLRIg6BqZTmZTFBUiXGrnw4aNztr0XV0,1830
+robotica/cli.py,sha256=qjhy8kRayhAmMTtCRzUNRm3FqjOzxRTErCAHj3le6_M,1217
+robotica/lifx.py,sha256=r1LR5VAuWJeaBo-rCGxI8qNeOgrVFtPuwcw3pkS2wtA,2213
+robotica/message.py,sha256=NIp5NjJNOOeNQYZ2nOxk6Cu8Dvp4cscrbt79ok253-U,391
+robotica/schedule.py,sha256=3OfUYZFE3gc23vEzn26mA4hJ2q9S6SD2tRXTLOAl26s,9659
+robotica-0.1.13.dist-info/DESCRIPTION.rst,sha256=0BcmDwoE775zuEXz6CkDOhdWTiUhYk8eDr2SvHP5ju0,3094
+robotica-0.1.13.dist-info/METADATA,sha256=epohNnJRctUtqwb7XDQFnts5dbKF-VuUOj8mQJV1iDw,3854
+robotica-0.1.13.dist-info/RECORD,,
+robotica-0.1.13.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+robotica-0.1.13.dist-info/entry_points.txt,sha256=oOkxkQsqjtGk2we4Fi6MsY3a4wyxmJ8w-XOqCdWhf_0,48
+robotica-0.1.13.dist-info/metadata.json,sha256=BkjbJ4AGO1kdRf252KXCxv4Ov6pOdIVrDky7tJPgYi4,1083
+robotica-0.1.13.dist-info/top_level.txt,sha256=FbU0Kx3TIbD3y4jhtvhMAo9fcV30G9XB8Ku6WwqShjI,9
