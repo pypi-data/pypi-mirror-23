@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fbiter/__init__.py
+fbiter/_version.py
+fbiter/endpoint.py
+fbiter.egg-info/PKG-INFO
+fbiter.egg-info/SOURCES.txt
+fbiter.egg-info/dependency_links.txt
+fbiter.egg-info/requires.txt
+fbiter.egg-info/top_level.txt
