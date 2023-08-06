@@ -1,0 +1,8 @@
+future
+Pillow
+
+[dev]
+check-manifest
+
+[test]
+coverage
