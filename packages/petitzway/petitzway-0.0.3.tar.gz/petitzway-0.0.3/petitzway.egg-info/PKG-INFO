@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: petitzway
+Version: 0.0.3
+Summary: Python module for Z-Way Automation API
+Home-page: https://github.com/PetitCircuitLab/petitzway
+Author: Fredrik Haglund
+Author-email: fredrik@petitcircuitlab.com
+License: BSD
+Description: UNKNOWN
+Keywords: zwave
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
