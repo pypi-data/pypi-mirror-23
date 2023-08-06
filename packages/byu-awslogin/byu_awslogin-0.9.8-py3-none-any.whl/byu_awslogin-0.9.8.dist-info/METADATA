@@ -1,0 +1,86 @@
+Metadata-Version: 2.0
+Name: byu-awslogin
+Version: 0.9.8
+Summary: An aws-adfs spinoff that fits BYU's needs
+Home-page: https://github.com/byu-oit/awslogin
+Author: BYU OIT Application Development
+Author-email: it@byu.edu
+License: Apache 2
+Platform: UNKNOWN
+Requires-Dist: awscli
+Requires-Dist: beautifulsoup4 (==4.6.0)
+Requires-Dist: boto3 (==1.4.4)
+Requires-Dist: botocore (==1.5.59)
+Requires-Dist: certifi (==2017.4.17)
+Requires-Dist: chardet (==3.0.3)
+Requires-Dist: docutils (==0.13.1)
+Requires-Dist: fire
+Requires-Dist: idna (==2.5)
+Requires-Dist: jmespath (==0.9.3)
+Requires-Dist: lxml
+Requires-Dist: python-dateutil (==2.6.0)
+Requires-Dist: requests (==2.17.3)
+Requires-Dist: s3transfer (==0.1.10)
+Requires-Dist: six (==1.10.0)
+Requires-Dist: urllib3 (==1.21.1)
+
+awslogin
+========
+
+Python script for CLI and SDK access to AWS via ADFS while requiring MFA
+access using https://duo.com/
+
+Installation
+------------
+
+-  Install Python 3.x using your preferred method.
+-  See https://www.python.org/downloads/ for a windows installation
+   method.
+-  In linux you may be able to use apt, rpm or
+   https://www.python.org/downloads/.
+-  In Mac you can use homebrew, macports or
+   https://www.python.org/downloads/.
+-  Run ``pip3 install byu-awslogin``
+
+Usage
+-----
+
+-  Run ``awslogin`` and it will prompt you for the AWS account and role
+   to use.
+-  Run ``awslogin --account <account name> --role <role name>`` to skip
+   the prompting for account and name. You could specify just one of the
+   arcuments as well.
+
+Deploying changes
+-----------------
+
+-  Make sure you have python 3 installed.
+-  awslogin only works with python 3.
+-  Enter your `virtualenv <https://virtualenv.pypa.io/en/stable/>`__
+   using python 3.
+-  Install twine by running ``pip install twine``
+-  Make sure you have a '~/.pypirc' as defined
+   `here <https://docs.python.org/3.2/distutils/packageindex.html#pypirc>`__.
+   See Paul for the login credentials.
+-  Run ``python deploy.py``
+
+TODO
+----
+
+-  gracefully handle the error case when the duo push is rejected
+-  Add support for profiles
+-  Authenticate once for 8 hours and rerun ``awslogin`` to relogin
+-  Simplify the adfs authentication code
+-  cache netid after subsequent logins ie default to last used
+-  Write tests
+-  (David) adfs\_auth.py
+-  (Nate) index.py
+-  roles.py
+-  assume\_role.py
+-  Make a handel-codepipeline CI/CD pipeline with automated tests. If
+   they pass automatically deploy to pypi.
+-  [BUG] README.md and LICENSE get left over in /usr/local when pip
+   install to mac
+
+
+
