@@ -1,0 +1,59 @@
+#!python
+#
+#  Copyright (C) 2017-2018 Daniel Palomino (@dpalominop) <dapalominop@gmail.com>
+#
+#  This file is part of lssh
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+""" calls lssh function """
+
+import os
+import sys
+from src.lssh import lssh
+#from src.lssh import lssh, LshellTimeOut
+
+def getCredentials(argv):
+    """ Get Conection Credentials: hostname, username and port """
+    credentials={
+        'username':'',
+        'port':22,
+        'hostname':''
+    }
+    if len(argv) > 1:
+        credentials['hostname'] = argv[1]
+        if credentials['hostname'].find('@') >= 0:
+            credentials['username'], credentials['hostname'] = credentials['hostname'].split('@')
+    else:
+        credentials['hostname'] = raw_input('Hostname: ')
+    if len(credentials['hostname']) == 0:
+        print('*** Hostname required.')
+        sys.exit(1)
+
+    if credentials['hostname'].find(':') >= 0:
+        credentials['hostname'], portstr = credentials['hostname'].split(':')
+        credentials['port'] = int(portstr)
+
+    return credentials
+
+def main():
+    """ Main Function """
+
+    credentials = getCredentials(sys.argv)
+
+    ssh = lssh(credentials)
+    ssh.startConnection()
+
+if __name__ == '__main__':
+    main()
