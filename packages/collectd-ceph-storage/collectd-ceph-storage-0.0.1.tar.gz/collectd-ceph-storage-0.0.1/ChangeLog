@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.0.1
+-----
+
+* Package with PBR
+* Adding Sample Graphs
+* Initial Collectd Ceph Storage python plugin code
+* Initial commit

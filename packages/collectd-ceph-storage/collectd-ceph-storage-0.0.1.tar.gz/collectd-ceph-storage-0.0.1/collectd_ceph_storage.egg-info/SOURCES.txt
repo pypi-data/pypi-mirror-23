@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+LICENSE
+README.rst
+sample-collectd.conf
+sample-dashboard-1.png
+sample-dashboard-2.png
+setup.cfg
+setup.py
+collectd_ceph_storage/__init__.py
+collectd_ceph_storage.egg-info/PKG-INFO
+collectd_ceph_storage.egg-info/SOURCES.txt
+collectd_ceph_storage.egg-info/dependency_links.txt
+collectd_ceph_storage.egg-info/not-zip-safe
+collectd_ceph_storage.egg-info/pbr.json
+collectd_ceph_storage.egg-info/top_level.txt
