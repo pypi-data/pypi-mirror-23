@@ -1,0 +1,3 @@
+[console_scripts]
+testrecorder = test_session.start:main
+

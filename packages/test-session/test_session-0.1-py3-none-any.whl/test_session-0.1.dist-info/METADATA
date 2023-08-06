@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: test-session
+Version: 0.1
+Summary: Interactive CLI test session recorder
+Home-page: https://github.com/debata/test_session_recorder
+Author: Daryl Ebata
+Author-email: daryl.ebata@gmail.com
+License: Apache
+Keywords: agile software testing exploratory
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: datetime
+Requires-Dist: jinja2
+
+UNKNOWN
+
+

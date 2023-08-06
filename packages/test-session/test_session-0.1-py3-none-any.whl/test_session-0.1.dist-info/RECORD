@@ -1,0 +1,15 @@
+test_session/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_session/print_colour.py,sha256=ieIjJagpBQp-6u2RTffDHrjJlVTftXxfa8-4mZ64PoM,241
+test_session/report_generator.py,sha256=_v5TEYQLWqvU4mzUDbDP4y7sxbd_Vp9qIEdaURqX8iY,1154
+test_session/session.py,sha256=M1CZZZ_AcEKUtRlzwZI_4W61eBLKv8778eb5PcEofOY,7517
+test_session/session_timer.py,sha256=hDeQDxZPF0n4_IImaBuIMh7gEnu-8QhDscKI0z8uNUE,885
+test_session/start.py,sha256=mmi7r7VUB-PAnZTjahs_EpACxQ6eupLgK9IGc7PEYCc,215
+test_session/test_session_recorder.py,sha256=RfHlS9tuys7BP7k3Wq0zSioWdjJyfxQuH4YCDgINHko,9952
+test_session/templates/report-template.html,sha256=u-04oqgo9KggulFJ6YjNxrHZ8QUQfbwJbqz8ThkizOg,983
+test_session-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+test_session-0.1.dist-info/METADATA,sha256=fdI2MioE4Newiv5OeHjW1EgwSSHC0F7a0Guld18YIMM,373
+test_session-0.1.dist-info/RECORD,,
+test_session-0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+test_session-0.1.dist-info/entry_points.txt,sha256=lok7qVTCh3Eu9yhhmduTrNAjvokr4st_9Pg3Td_sqhQ,58
+test_session-0.1.dist-info/metadata.json,sha256=Hlj2tqZ1KiNz4hAm03kHOUcyI9Qr288Zr58uYGMY8Ig,760
+test_session-0.1.dist-info/top_level.txt,sha256=WNKZGgRlyNwcUYj1JUVRhnOp13HPQW7w0WmjdrlEIp4,13
