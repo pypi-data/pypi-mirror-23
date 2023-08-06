@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: asyncrequests
+Version: 0.1.1
+Summary: Asynchronous Http Client for asyncio
+Home-page: https://github.com/RevengeComing/asyncrequests
+Author: Sepehr Hamzelooy
+Author-email: s.hamzelooy@gmail.com
+License: MIT
+Description: 
+        Asynchronous Http Client written in httptools and asyncio.
+        The API tries to be like legendery requests.
+        
+Keywords: requests http client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
