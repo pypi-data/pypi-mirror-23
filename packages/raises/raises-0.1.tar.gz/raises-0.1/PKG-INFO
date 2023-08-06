@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: raises
+Version: 0.1
+Summary: When Python raises, we Stack Overflow
+Home-page: https://github.com/mlouielu/raises-stackoverflow
+Author: Louie Lu
+Author-email: git@louie.lu
