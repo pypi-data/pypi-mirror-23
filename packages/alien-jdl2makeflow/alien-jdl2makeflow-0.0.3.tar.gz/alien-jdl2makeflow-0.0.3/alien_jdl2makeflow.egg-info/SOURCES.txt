@@ -1,0 +1,14 @@
+MANIFEST.in
+jdl2makeflow
+setup.cfg
+setup.py
+alien_jdl2makeflow.egg-info/PKG-INFO
+alien_jdl2makeflow.egg-info/SOURCES.txt
+alien_jdl2makeflow.egg-info/dependency_links.txt
+alien_jdl2makeflow.egg-info/top_level.txt
+jdl2makeflow_helpers/__init__.py
+jdl2makeflow_helpers/classad.py
+jdl2makeflow_helpers/example.jdl
+jdl2makeflow_helpers/spc_merge.C
+jdl2makeflow_helpers/spc_merge.sh
+jdl2makeflow_helpers/train_merge.sh
