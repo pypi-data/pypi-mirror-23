@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+berryditos/__init__.py
+berryditos/base.py
+berryditos.egg-info/PKG-INFO
+berryditos.egg-info/SOURCES.txt
+berryditos.egg-info/dependency_links.txt
+berryditos.egg-info/requires.txt
+berryditos.egg-info/top_level.txt
+berryditos.egg-info/zip-safe
+bin/berryditos

@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: berryditos
+Version: 0.0.3
+Summary: Berryditos is a tool that can edit and burn Raspbian images.
+Home-page: https://github.com/tovam/berryditos
+Author: tovam
+Author-email: tovamdvlp@gmail.com
+License: MIT
+Description: Berryditos
+        ==========
+        
+        Berryditos is a tool that can edit and burn Raspbian images.
+        
+        Getting Started
+        ---------------
+        
+        Installing
+        ~~~~~~~~~~
+        
+        Berryditos is on PyPI so installing it is easy with *pip*.
+        ``sudo pip install berryditos``
+        
+        Running
+        ~~~~~~~
+        
+        Berryditos is to be run from the console
+        
+        ``berryditos --help``
+        
+        License
+        -------
+        
+        This project is licensed under the MIT License - see the
+        `LICENSE <https://github.com/tovam/berryditos/blob/master/LICENSE>`__
+        file for details
+        
+Keywords: raspberry,raspbian
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
