@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: cgnet
+Version: 0.1
+Summary: Software callgraph manipulation
+Home-page: https://github.com/musec/py-cgnet
+Author: Jonathan Anderson
+Author-email: jonathan.anderson@mun.ca
+License: UNKNOWN
+Download-URL: https://github.com/musec/py-cgnet
+Description: UNKNOWN
+Platform: UNKNOWN
