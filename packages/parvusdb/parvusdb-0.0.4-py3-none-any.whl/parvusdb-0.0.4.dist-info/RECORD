@@ -1,0 +1,13 @@
+parvusdb/__init__.py,sha256=mp2k0gqwSZhlKcj-_f5Js5dIKjfQQD8gBMliY1pqIKw,84
+parvusdb/utils/__init__.py,sha256=fCTFWj8LDS6PI1LiCthzm6hildMf_OmY54Qmu_tRSXw,111
+parvusdb/utils/aux.py,sha256=WVtTCOtzrj7jReWoDLcnmDegK6LatZ0g5zIiLgsLLIA,1921
+parvusdb/utils/code_container.py,sha256=_XXhPoWAJwtklG1T_hDAn-LOdAS_67Y8T-1ufEC0pbc,2554
+parvusdb/utils/graph_builder.py,sha256=HQpB-wpv67iMKPUKPp9VjI5zj--6eAwjF4PhKMLMlEY,6132
+parvusdb/utils/graph_database.py,sha256=i8DTrKjH4oVzoD1mutCu32NHUKskg9fmfuwcL_6b5hA,5026
+parvusdb/utils/match.py,sha256=B3ssx1zN4T6VXE8wfLLdcyz4GKoIe7WQt883slYxmLY,3727
+parvusdb-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+parvusdb-0.0.4.dist-info/METADATA,sha256=xIwhdT6uRPaBOzdjIiOurzRv5nNRTsQIwKAYgv7EzTo,248
+parvusdb-0.0.4.dist-info/RECORD,,
+parvusdb-0.0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+parvusdb-0.0.4.dist-info/metadata.json,sha256=Y9N5YIpNPZxELF8jVne-S4BV37gN0prWT9v-bP26blk,424
+parvusdb-0.0.4.dist-info/top_level.txt,sha256=VjsIwgENWOk9L2FvCaRCibnTabN-zlntiPO2oqoxTso,9
