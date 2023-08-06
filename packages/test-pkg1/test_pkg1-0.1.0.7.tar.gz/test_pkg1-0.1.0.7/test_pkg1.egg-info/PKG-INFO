@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: test-pkg1
+Version: 0.1.0.7
+Summary: Testing cookiecutter
+Home-page: https://github.com/limitlessv/test_pkg1
+Author: Shmuel Maruani
+Author-email: shmuel@limitlessv.com
+License: UNKNOWN
+Description: =========
+        test_pkg1
+        =========
+        
+        
+        
+        .. image:: https://pyup.io/repos/github/limitlessv/test_pkg1/shield.svg
+             :target: https://pyup.io/repos/github/limitlessv/test_pkg1/
+             :alt: Updates
+        
+        
+        Testing cookiecutter
+        
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2017-07-19)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: test_pkg1
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
