@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: hourbike-cli
+Version: 1.0
+Summary: A CLI for Hourbike schemes across the UK
+Home-page: https://github.com/GreenTurtwig/hourbike-cli
+Author: GreenTurtwig
+Author-email: UNKNOWN
+License: MIT
+Description: Hourbike CLI
+        ============
+        **A CLI for Hourbike schemes across the UK.**
+        
+        About
+        -----
+        This command line application allows you to find information about the bicycle stations closest to your current location.
+        
+        Currently supported cities and towns are: Lincoln (hirebike), Liverpool (CityBike), Reading (ReadyBike), Sheffield (Sheffield ByCycle) and Southport (Southport Cycle Hire)
+        
+        .. image:: http://i.imgur.com/Tvujnp4.png
+        
+        Installation
+        ------------
+        .. code-block::
+        
+            $ pip install hourbike-cli
+        
+        Usage
+        -----
+        For help use the -h option.
+        
+        .. code-block::
+        
+            $ hourbike -h
+        
+        To get the nearest bike stations to a loction, type:
+        
+        .. code-block::
+        
+            $ hourbike liverpool "liverpool cathedral"
+        
+Keywords: cli bike bicycle hire
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
