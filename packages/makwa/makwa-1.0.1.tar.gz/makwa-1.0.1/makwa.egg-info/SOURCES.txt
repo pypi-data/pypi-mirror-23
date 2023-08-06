@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+makwa/__init__.py
+makwa/makwa.py
+makwa/test.py
+makwa.egg-info/PKG-INFO
+makwa.egg-info/SOURCES.txt
+makwa.egg-info/dependency_links.txt
+makwa.egg-info/top_level.txt
