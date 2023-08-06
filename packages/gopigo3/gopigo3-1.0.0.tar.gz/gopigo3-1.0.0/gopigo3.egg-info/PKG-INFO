@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: gopigo3
+Version: 1.0.0
+Summary: Drivers and examples for using the GoPiGo3 in Python
+Home-page: http://www.dexterindustries.com/GoPiGo3/
+Author: Dexter Industries
+Author-email: UNKNOWN
+License: MIT
+Description:      This python package includes two main modules for development: 
+             1. gopigo3 - This package is a low level module for controlling the GoPiGo3. 
+             2. easygopigo3 - This package is a higher-level module built on top of the gopigo3 module which is more user friendly.  
+         \ 
+Keywords: robot,gopigo,gopigo3,dexter industries,raspberry pi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Framework :: Robot Framework
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
