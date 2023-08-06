@@ -1,0 +1,6 @@
+fs >= 2.0.4
+six
+fs.proxy
+
+[tar.xz]
+backports.lzma ; python_version < '3'

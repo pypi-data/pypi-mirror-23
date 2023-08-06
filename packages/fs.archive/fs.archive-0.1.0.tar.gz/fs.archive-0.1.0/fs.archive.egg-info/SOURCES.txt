@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+fs.archive.egg-info/PKG-INFO
+fs.archive.egg-info/SOURCES.txt
+fs.archive.egg-info/dependency_links.txt
+fs.archive.egg-info/entry_points.txt
+fs.archive.egg-info/requires.txt
+fs.archive.egg-info/top_level.txt
+fs.archive.egg-info/zip-safe
+fs/archive/__init__.py
+fs/archive/base.py
+fs/archive/opener.py
+fs/archive/tarfs.py
+fs/archive/test.py
+fs/archive/zipfs.py
