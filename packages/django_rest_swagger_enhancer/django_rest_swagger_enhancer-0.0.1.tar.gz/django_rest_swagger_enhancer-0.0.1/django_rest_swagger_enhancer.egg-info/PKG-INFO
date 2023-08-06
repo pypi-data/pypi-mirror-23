@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: django-rest-swagger-enhancer
+Version: 0.0.1
+Summary: A basic logger for Django
+Home-page: https://github.com/eshandas/django_rest_swagger_enhancer
+Author: Eshan Das
+Author-email: eshandasnit@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/eshandas/django_rest_swagger_enhancer/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: django,django rest framework,swagger,django rest swagger
+Platform: UNKNOWN

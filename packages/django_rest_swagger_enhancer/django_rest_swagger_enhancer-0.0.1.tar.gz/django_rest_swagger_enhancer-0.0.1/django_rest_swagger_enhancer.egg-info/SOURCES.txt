@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+django_rest_swagger_enhancer/__init__.py
+django_rest_swagger_enhancer/schema_generator.py
+django_rest_swagger_enhancer.egg-info/PKG-INFO
+django_rest_swagger_enhancer.egg-info/SOURCES.txt
+django_rest_swagger_enhancer.egg-info/dependency_links.txt
+django_rest_swagger_enhancer.egg-info/top_level.txt
