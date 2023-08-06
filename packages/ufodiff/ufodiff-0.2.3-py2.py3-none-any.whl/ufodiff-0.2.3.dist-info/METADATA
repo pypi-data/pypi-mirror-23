@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: ufodiff
+Version: 0.2.3
+Summary: UFO font source file diff tool
+Home-page: https://github.com/source-foundry/ufodiff
+Author: Christopher Simpkins
+Author-email: chris@sourcefoundry.org
+License: MIT license
+Keywords: font,typeface,ufo,diff,source,ttf,otf
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: commandlines
+Requires-Dist: gitpython
+Requires-Dist: standardstreams
+
+ufodiff
+=======
+
+A UFO font source file diff application.
+
+Documentation, source repository, and issue reporting available on `Github <https://github.com/source-foundry/ufodiff>`_ .
+
