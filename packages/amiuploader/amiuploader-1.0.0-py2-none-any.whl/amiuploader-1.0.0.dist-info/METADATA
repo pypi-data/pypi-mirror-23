@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: amiuploader
+Version: 1.0.0
+Summary: Upload a locally saved vmdk to AWS s3, convert it to an AMI image, and rename/copy image to all specified regions
+Home-page: https://github.com/ScienceLogic/amiuploader/archive/1.0.0.zip
+Author: Douglas Rohde
+Author-email: drohde@sciencelogic.com
+License: MIT
+Keywords: ami upload vmdk vcenter ovf AWS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: awscli
+Requires-Dist: pysphere
+
+UNKNOWN
+
+

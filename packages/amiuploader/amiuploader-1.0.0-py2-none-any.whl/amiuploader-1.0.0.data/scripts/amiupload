@@ -1,0 +1,4 @@
+#!python
+
+from amiimporter import amiupload
+amiupload.main()
