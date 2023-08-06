@@ -1,0 +1,14 @@
+bonobo_sqlalchemy/__init__.py,sha256=H9iVu6LqcKb4IGvd2Z-yOqPaWlhvp3IdfzkcOty1ocQ,324
+bonobo_sqlalchemy/_version.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+bonobo_sqlalchemy/constants.py,sha256=m7tEzJqVulnhIlgnWska3wc5CXx9gC7boyrTq5EOSEM,116
+bonobo_sqlalchemy/errors.py,sha256=k9zi7l216vTdaMMqW3q1s84zqTa5o1-S30BdrzdcNe4,230
+bonobo_sqlalchemy/logging.py,sha256=BVlg6_ECXntmqhQqqvn5xqZoc9vTxtioWfAoCZEjpmw,173
+bonobo_sqlalchemy/readers.py,sha256=UWwa-NNNmQ4_EPKWjRv0BoouqtBTTIevzQVgVXhZtSQ,1096
+bonobo_sqlalchemy/util.py,sha256=H6e6x_f2qTRJPR_xA4uEFeMqq-B2RdOaCAwuhQ6PJYA,1002
+bonobo_sqlalchemy/writers.py,sha256=B3GgcaNEfsjLi9VkVgqtU_mYty2S3bM12MXAceeXr3k,6826
+bonobo_sqlalchemy-0.1.4.dist-info/DESCRIPTION.rst,sha256=iDtiia1zifUzVPpNNk0Nhm4Ak0NC8iBjjCqsbtgKPKw,1921
+bonobo_sqlalchemy-0.1.4.dist-info/METADATA,sha256=r_kOXcrhfZiLKPjbe0pP1rWb9c97oIC0LqzAAJ02AkQ,2574
+bonobo_sqlalchemy-0.1.4.dist-info/RECORD,,
+bonobo_sqlalchemy-0.1.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+bonobo_sqlalchemy-0.1.4.dist-info/metadata.json,sha256=Kqi5PosOmWOtvxwd7t23lYG2wO_Z9bx2aKP28YlUByU,773
+bonobo_sqlalchemy-0.1.4.dist-info/top_level.txt,sha256=LPPE6_7a3UkqSfe7zUQ0YjcZz1DLtGpr154qcbE2wjU,18
