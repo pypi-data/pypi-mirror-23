@@ -1,0 +1,13 @@
+wscheck/__init__.py,sha256=Xv_mYYhOeafN0v35bXrFqvqo5SOoSMigdFAU8YGgfug,24
+wscheck/__main__.py,sha256=DWpIoTsjq54EaowNYr-eq7Z0UW6P6VMlhXR7lcZLCRk,2162
+wscheck/checker.py,sha256=7iDSad80kZvI1b9Jk9TYw-CK9G0ixZ57geEbYMY2gV4,4937
+wscheck/printer.py,sha256=NauW_NxI0TMcmn60WZkbfB5Dv17oUR1SO1VHvIPTFBs,2555
+wscheck/version.py,sha256=dQxtwJIUdqsD9wTiLI7S1TSMfnWHNhLGZbIld5otJ6o,608
+wscheck/wscheck.py,sha256=ZrZsGL8pqpSYAK3zmFgyNkw3iHSHjxx39qxz9YMCdpo,4186
+wscheck-1.0.0.dist-info/DESCRIPTION.rst,sha256=MSoy5a7XvJX3K9kPO_HAvhZGZtJnytxqCKXlUQzzXcU,3115
+wscheck-1.0.0.dist-info/METADATA,sha256=7UfxxAS076kN3iZ83BCz5yogX_U2cSJVzl2iM0MuYLg,3616
+wscheck-1.0.0.dist-info/RECORD,,
+wscheck-1.0.0.dist-info/WHEEL,sha256=u6Fy2U76CDFJ6q2P27rqtBo3AN6qpylFiMaYzNr2lJg,95
+wscheck-1.0.0.dist-info/entry_points.txt,sha256=KVcc4A-57JOfJ8zftWXeCh-1dmPqXrGC3hyKqcQc1d0,51
+wscheck-1.0.0.dist-info/metadata.json,sha256=vOxPDDwMAciK9feh7tqoLsSF4eXp3BV--vFYrPxmfgQ,1088
+wscheck-1.0.0.dist-info/top_level.txt,sha256=Lr1JOUVjNuJ0k8D12a8wyugTLs2DKtJND4pTreA4jAs,8
