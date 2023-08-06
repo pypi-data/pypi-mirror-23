@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+0.1.2
+-----
+
+* fix dependencies
+
+0.1.0
+-----
+
+* rename to image\_utils and upload to pypi
+* initial commit
