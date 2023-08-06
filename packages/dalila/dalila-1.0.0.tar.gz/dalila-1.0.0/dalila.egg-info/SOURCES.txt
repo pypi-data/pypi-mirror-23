@@ -1,0 +1,17 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+dalila/__init__.py
+dalila/dataset_generator.py
+dalila/dictionary_learning.py
+dalila/parameters_research.py
+dalila/penalty.py
+dalila/plot.py
+dalila/representation_learning.py
+dalila/utils.py
+dalila.egg-info/PKG-INFO
+dalila.egg-info/SOURCES.txt
+dalila.egg-info/dependency_links.txt
+dalila.egg-info/requires.txt
+dalila.egg-info/top_level.txt
