@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: DataTreeGrab
+Version: 1.04.00
+Summary: Node-Tree based data extraction
+Home-page: https://github.com/tvgrabbers/DataTree
+Author: Hika van den Hoven
+Author-email: UNKNOWN
+License: GPL
+Description: 
+        This Package contains a tool for extracting structured data from HTML and JSON
+        pages.
+        It reads the page into a Node based tree, from which you, on the bases of a json
+        data-file, can extract your data into a list of items. It can first extract a
+        list of keyNodes and extract for each of them the same data-list. During the
+        extraction several data manipulation functions are available.
+        
+        Main advantages
+         - It gives you a highly dependable dataset from a potentially changable source.
+         - You can easily update on changes in the source without touching your code.
+         - You can make the data_def available on a central location while distributing
+           the aplication and so giving your users easy access to (automated) updates.
+        
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Public Domain
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Development Status :: 5 - Production/Stable
+Requires: pytz
+Provides: DataTreeGrab
