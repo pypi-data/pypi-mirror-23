@@ -1,0 +1,7 @@
+onegov.core>=0.4.0
+pyscss>=1.3.5
+rcssmin
+
+[test]
+coverage
+pytest
