@@ -1,0 +1,3 @@
+[console_scripts]
+indel-mapper = indel_mapper_lib.cmdline:main
+

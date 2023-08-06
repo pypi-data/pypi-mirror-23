@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: indel-mapper
+Version: 0.1
+Summary: A Python project to visualize indels near Cas9 cutsites.
+Home-page: https://github.com/caretdashcaret/indel-mapper
+Author: Jenny Cheng and Harry Schwartz
+Author-email: jenny@caretdashcaret.com
+License: GPLv3+
+Description: This package uses a SAM (Sequence Alignment Map) file and a reference CSV with the reference, N20, and PAM to output all the indels directly next to the Cas9 cutsite.
+Keywords: crispr cas9 indels
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3
