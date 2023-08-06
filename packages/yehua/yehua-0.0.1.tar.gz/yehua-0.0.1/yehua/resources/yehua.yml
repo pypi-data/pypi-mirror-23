@@ -1,0 +1,46 @@
+introduction: |
+  Yehua will walk you through creating a blank python package.
+  Press ^C to quit at any time.
+configuration:
+  template_path: ./templates
+  static_path: ./static
+questions:
+  - project_name: "project name:"
+  - description: "description:"
+  - license: "license:"
+  - author: "author:"
+  - contact: "contact email:"
+  - organisation: "github profile/organisation:"
+  - company: "copyright owner:"
+  - project_type:
+    - question: "project type?"
+      "1. library": "N/A"
+      "2. command line interface":
+        - cli: "cli executable name?"
+      "3. C externsion":
+        - sources: "source files?(Comma separated list is expected. For example: pymodule.c,file.c)"
+layout:
+  - "{{project_name|lower|replace('-', '_')}}"
+  - tests
+  - docs:
+    - source
+  - .moban.d:
+    - tests
+    - docs:
+      - source
+templates:
+  - "{{project_name}}.yml": project.yml
+  - .moban.yml: .moban.yml
+static:
+  - ".moban.d/README.rst.jj2": "README.rst"
+  - ".moban.d/test.sh.jj2": "test.sh"
+  - ".moban.d/requirements.txt.jj2": requirements.txt
+  - ".moban.d/setup.py.jj2": setup.py.jj2
+  - ".moban.d/tests/requirements.txt.jj2": "tests/requirements.txt"
+  - ".moban.d/docs/source/conf.py.jj2": "docs/source/conf.py.jj2"
+  - Makefile: Makefile
+  - CHANGELOG.rst: CHANGELOG.rst
+  - MANIFEST.in: MANIFEST.in
+  - .travis.yml: travis.yml.jj2
+  - .gitignore: gitignore
+  - "{{project_name|lower|replace('-', '_')}}/__init__.py": __init__.py.jj2
