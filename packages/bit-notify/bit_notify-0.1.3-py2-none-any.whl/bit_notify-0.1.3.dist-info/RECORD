@@ -1,0 +1,10 @@
+bit_notify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bit_notify/notifier.py,sha256=b43x-Hek5u8oKLs6yzlgBPIwyjDKBkwsJwzq2MWqVag,3002
+bit_notify/sms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bit_notify/sms/sms_client.py,sha256=ABF8cuLcZ2pxvcNP2N69MDgGc99CpOM9oljboTR745o,1660
+bit_notify-0.1.3.dist-info/DESCRIPTION.rst,sha256=HmkUoPvou3osqLjfiy0RzdFO_UyoCpcUrgmgcxx8WBE,1194
+bit_notify-0.1.3.dist-info/METADATA,sha256=wbnKfO6uR7DY9aNCOp6dP-Y_upfneN3GqVKTUORhh70,1756
+bit_notify-0.1.3.dist-info/RECORD,,
+bit_notify-0.1.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+bit_notify-0.1.3.dist-info/metadata.json,sha256=1fG_0nfX_o2uuOX3c2PLY3aju2nZl0hDnUL20XxoKKk,754
+bit_notify-0.1.3.dist-info/top_level.txt,sha256=uR1tKjrLbVKXcbWteRzwELc0VVSCTK4T75qOCwBzdDI,11
