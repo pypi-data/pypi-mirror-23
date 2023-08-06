@@ -1,0 +1,6 @@
+pytz
+trytond_health == 3.2.0
+trytond >= 4.2, < 4.3
+
+[Pillow]
+Pillow
