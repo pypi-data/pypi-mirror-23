@@ -1,0 +1,5 @@
+CHANGES
+=======
+
+* pg\_Stats now uses pg\_populator\_lib
+* Initial commit

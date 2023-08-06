@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+
+# Author: Jose Antonio Quevedo <joseantonio.quevedo@gmail.com>
+# 2017-07-09
+
+from argparse import ArgumentParser
+from collections import OrderedDict
+
+# My own libraries
+from pg_populator_lib.mypglib import *
+from pg_populator_lib.aux import *
+from pg_populator_lib.config import *
+
+
+# Get the arguments from the command line
+def getargs():
+
+    parser = ArgumentParser()
+    parser.add_argument("-v", "--verbosity",
+                        action="store_true", help="Increase output verbosity")
+
+    return parser.parse_args()
+
+
+def get_values_from_args(args):
+
+    if args:
+        if args.verbosity:
+            print("Running '{}'".format(__file__))
+
+    return None
+
+
+# Report functions
+def prepare_report(total_rows, db_amount):
+
+    report = {
+        'total_rows': total_rows,
+        'average_rows_per_table': total_rows / db_amount
+    }
+
+    report = OrderedDict(sorted(report.items()))
+    return report
+
+
+# Aux functions
+def get_total_rows(db_user, db_names):
+
+    total_rows = 0
+
+    # We only count the rows of the database we are allowed to access
+    allowed_dbs = [x for x in db_names if 'carto' in x]
+    for db_name in allowed_dbs:
+
+        with get_conn(db_user, db_name) as conn:
+            with conn.cursor() as cursor:
+
+                query = "SELECT table_name FROM information_schema.tables WHERE table_schema='public' AND table_type='BASE TABLE';"
+                execute_query(cursor, query)
+                tables = cursor.fetchall()
+                tables = [x[0] for x in tables]
+
+                for table in tables:
+
+                    query = "SELECT count(*) FROM " + table + ";"
+                    execute_query(cursor, query)
+                    rows = cursor.fetchall()
+                    rows = rows[0][0]
+
+                    total_rows += rows
+
+    return total_rows
+
+
+# main()
+if __name__ == "__main__":
+
+    db_amount = 0
+    total_rows = 0
+
+    args = getargs()
+    get_values_from_args(args)
+
+    with get_conn(DB_USER) as conn:
+        with conn.cursor() as cursor:
+
+            # Get the amount of databases
+            db_names = get_databases_names(cursor)
+            db_amount = len(db_names)
+
+    # get the total amount of rows in the postgreSQL service
+    total_rows = get_total_rows(DB_USER, db_names)
+
+    report = prepare_report(total_rows, db_amount)
+
+    if report:
+        show_dict(report)
