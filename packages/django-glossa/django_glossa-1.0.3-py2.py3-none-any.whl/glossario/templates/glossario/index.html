@@ -1,0 +1,5 @@
+    <div class="glossary-index">
+        <ul class="pagination pagination-sm">{% for l in mainindex %}
+            <li{% if l.val == current %} class="active"{% elif not l.active %} class="disabled"{% endif %}>{% if l.active and not l.val == current %}<a href="{% url 'glossario_index' l.val|lower %}">{{ l.val }}</a>{% else %}<span>{{ l.val }}{% if l.val == current %} <span class="sr-only">(current)</span>{% endif %}</span>{% endif %}</li>{% endfor %}
+        </ul>
+    </div>

@@ -1,0 +1,7 @@
+        <ul class="nav nav-stacked" data-spy="affix">
+{% for t in term_list %}
+            <li{% if not local_index and term.name == t.name %} class="active"{% endif %}>
+                {% if term.name == t.name %}{{ t.name|safe }}{% else %}<a href="{% if local_index %}#{{ t.pk }}{% else %}{{ t.get_url }}{% endif %}">{{ t.name|safe }}</a>{% endif %}
+            </li>
+{% endfor %}
+        </ul>
