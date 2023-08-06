@@ -1,0 +1,10 @@
+setup.py
+habitica_planner/__init__.py
+habitica_planner/planner.py
+habitica_planner.egg-info/PKG-INFO
+habitica_planner.egg-info/SOURCES.txt
+habitica_planner.egg-info/dependency_links.txt
+habitica_planner.egg-info/entry_points.txt
+habitica_planner.egg-info/requires.txt
+habitica_planner.egg-info/top_level.txt
+habitica_planner/i18n/ru/LC_MESSAGES/habitica_planner.mo
