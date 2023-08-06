@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-unmotparjour
+Version: 1.0.0
+Summary: Cool simple Python module to get random words with definition (online-only usage, crawl from "unmotparjour.fr") - French
+Home-page: https://github.com/remaudcorentin-dev/python-unmotparjour
+Author: Corentin Remaud
+Author-email: remaudcorentin.dev@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

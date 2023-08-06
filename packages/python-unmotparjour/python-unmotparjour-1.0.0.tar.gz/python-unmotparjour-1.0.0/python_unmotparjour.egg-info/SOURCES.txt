@@ -1,0 +1,8 @@
+setup.py
+python_unmotparjour.egg-info/PKG-INFO
+python_unmotparjour.egg-info/SOURCES.txt
+python_unmotparjour.egg-info/dependency_links.txt
+python_unmotparjour.egg-info/not-zip-safe
+python_unmotparjour.egg-info/requires.txt
+python_unmotparjour.egg-info/top_level.txt
+unmotparjour/__init__.py
