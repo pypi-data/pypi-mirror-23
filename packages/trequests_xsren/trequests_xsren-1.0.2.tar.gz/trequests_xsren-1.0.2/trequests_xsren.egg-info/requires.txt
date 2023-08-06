@@ -1,0 +1,6 @@
+greenlet>=0.4
+tornado>=2.0.0
+tornalet>=1.0.2
+requests>=1.0.0
+libcurl>=7.22.0
+pycurl>=7.18.2
