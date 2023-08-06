@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pewsql
+Version: 0.0.1
+Summary: Analytics Tools for RDBMS
+Home-page: UNKNOWN
+Author: anderson
+Author-email: a141890@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sql,analytics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
