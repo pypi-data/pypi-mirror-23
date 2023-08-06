@@ -1,0 +1,15 @@
+pyexcel_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyexcel_cli/_shared.py,sha256=gAQDEQ0VN3-OfosRQPYB7XjB44_UncYdOxJx89Ordgk,2022
+pyexcel_cli/diff.py,sha256=EQCwn_0IBiaRXeqIP0by9gPAh3ojEy8gyT25FLMrhJ4,1616
+pyexcel_cli/main.py,sha256=FLi5Iu8tuE6dKvkPe7MN8wq8q85ZFpXrj4EOAgKAN7Y,684
+pyexcel_cli/merge.py,sha256=jZzu-gU8lezUoQX-fAS2OaLy0WIC5V8FNxdIBpYBjVE,3183
+pyexcel_cli/split.py,sha256=47p_hSNU8olCu7yjaoSXXzC5L_1y3auLewy-zvVLm8M,1588
+pyexcel_cli/transcode.py,sha256=sJNUMuc8VzIFp6t1FT00gdr3q3XxEtmoOnfGBYYNjqA,4716
+pyexcel_cli/view.py,sha256=-Cut0LqjvxEPG_nG-7CB9rUhtk98WEsHhw67ITg_T5A,2488
+pyexcel_cli-0.0.3.dist-info/DESCRIPTION.rst,sha256=7J-7xFPhwq20R7gYJJbwfuRqO5UxOvE77cPL3pFxuFc,10919
+pyexcel_cli-0.0.3.dist-info/METADATA,sha256=RlFzJN5BIkZ7Zy-OtYaUpV7ZynrIzj7XKkLbr3Gbtac,11858
+pyexcel_cli-0.0.3.dist-info/RECORD,,
+pyexcel_cli-0.0.3.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+pyexcel_cli-0.0.3.dist-info/entry_points.txt,sha256=RhLVfK8qBBxrcAa_STwtH1_HnCaBFRWUfYkBRVpdQXE,51
+pyexcel_cli-0.0.3.dist-info/metadata.json,sha256=1KoA_L_9RSqjH6LPR-asaJ6oAiscxwzCa0Nr8fLaURs,1220
+pyexcel_cli-0.0.3.dist-info/top_level.txt,sha256=tXhvu-MJEniH3vvhdp0RyzyELKaY37_YmNBt4DRX4OA,12
