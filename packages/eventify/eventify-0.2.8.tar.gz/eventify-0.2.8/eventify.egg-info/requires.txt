@@ -1,0 +1,7 @@
+asyncio
+pyOpenSSL
+autobahn
+service_identity
+sqlalchemy
+psycopg2
+redis
