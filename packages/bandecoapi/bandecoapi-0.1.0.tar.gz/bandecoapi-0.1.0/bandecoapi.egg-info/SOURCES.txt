@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+bandecoapi/__init__.py
+bandecoapi.egg-info/PKG-INFO
+bandecoapi.egg-info/SOURCES.txt
+bandecoapi.egg-info/dependency_links.txt
+bandecoapi.egg-info/top_level.txt
+bandecoapi/api/__init__.py
+bandecoapi/api/api.py
+bandecoapi/cardapio/__init__.py
+bandecoapi/cardapio/cardapio.py
