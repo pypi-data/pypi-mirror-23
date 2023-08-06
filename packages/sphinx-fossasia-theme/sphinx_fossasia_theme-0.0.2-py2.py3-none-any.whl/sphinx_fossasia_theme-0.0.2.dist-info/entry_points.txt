@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+sphinx_fossasia_theme = sphinx_fossasia_theme
+
