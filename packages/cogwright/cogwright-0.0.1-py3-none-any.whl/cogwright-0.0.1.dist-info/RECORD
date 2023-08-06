@@ -1,0 +1,11 @@
+cogwright/__init__.py,sha256=JE9jeRFL0AylUKHVsEUALUPWGpFSqWXc2qDtWg1MV84,309
+cogwright/__main__.py,sha256=JD5JC1jDo7wwsMliPlVgtm6GbQ_vHD5M2PT8mZa7n7M,3974
+cogwright/__version__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+cogwright/make.py,sha256=Muqu1_psLrY7Hym61KhU-swa5yulr2LrSBDwMvsD9Gc,5511
+cogwright-0.0.1.dist-info/DESCRIPTION.rst,sha256=XmcVRa6EmGCcPGWgRNkcNv3ti2TsHhlGHAkf5XYXMxI,1355
+cogwright-0.0.1.dist-info/METADATA,sha256=f8KnpkTTBn88phLY3rAA-qCyMhBozoCoX-n43S0IsN0,1597
+cogwright-0.0.1.dist-info/RECORD,,
+cogwright-0.0.1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+cogwright-0.0.1.dist-info/entry_points.txt,sha256=_wt1LBE-2Un8yd0ZnWPZ5GnSKuam8mbgUEepBNuKgcI,49
+cogwright-0.0.1.dist-info/metadata.json,sha256=kUpk6adL2tTcqgLBZmO4ipfgt5-gpeMmFKGZLdaOsqo,536
+cogwright-0.0.1.dist-info/top_level.txt,sha256=HWUVfwaeJi7rh3md7rgwQ0C_IHhMDQNgmYtp5_wXOzA,10
