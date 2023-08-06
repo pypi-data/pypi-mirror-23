@@ -1,0 +1,16 @@
+samewords/__init__.py,sha256=YNI480ZUxIDzSQJGpt2ym39W0thlsIPxldc71Fnhy3c,266
+samewords/annotate.py,sha256=ashgwzKpSf0f28u-DtKkoj39limdn-FBzPdo0Y3jM30,30615
+samewords/cli.py,sha256=_DypZIg5LGSHx3LTWjpOhc1TteZjVQo-aSjZGa8aITY,1770
+samewords/core.py,sha256=6vUyjEVKoixPEdhM8WfQwlEn_tbZSwGAQqN46PfDYAs,650
+samewords/document.py,sha256=9YUoLQc_cQtN3AGTwPW6WfZhj1JfaRhHs8xwEn-cTeE,2125
+samewords/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samewords/test/test_annotation.py,sha256=pxBXGe1snkGjzsB0TJRhlEe4fbJKQFVWcUMYn8B6CHs,25569
+samewords/test/test_core.py,sha256=qVYCg41PRYKmVQHAlasO_0FsipH-2M1mk7UTMCNUE-4,363
+samewords/test/test_document_processing.py,sha256=OFsaKX1nY21lV3aar2PNJUBEZ40ZkSnSKfeg1odl2TA,46017
+samewords-0.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+samewords-0.1.1.dist-info/entry_points.txt,sha256=UI5h2JEuReR5UkIuVnWKAPXNpGCs1zsQgbVXzGS_TCU,50
+samewords-0.1.1.dist-info/METADATA,sha256=5O9HV0TvPsEFs3hSeg0ZjDF6R8Yv11vCIxQJyHW6w9I,598
+samewords-0.1.1.dist-info/metadata.json,sha256=d9N1PAYwNUcFnRS6VtjzObG2Sy1NPvmZh4uBcorr7xM,933
+samewords-0.1.1.dist-info/RECORD,,
+samewords-0.1.1.dist-info/top_level.txt,sha256=ooj9w4Ctd8nTUchoezbfqSibyi8G2H6RQfUQxVyBqSQ,10
+samewords-0.1.1.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
