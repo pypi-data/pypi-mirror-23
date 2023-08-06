@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: u2py
+Version: 0.1a2
+Summary: A utility to convert ui files to python files
+Home-page: https://github.com/dragneelfps/u2py
+Author: Sourabh S. Rawat
+Author-email: dragneelfps@gmail.com
+License: GPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3

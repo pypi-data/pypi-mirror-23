@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+config/__init__.py
+config/co.cmd
+u2py/__init__.py
+u2py/__main__.py
+u2py.egg-info/PKG-INFO
+u2py.egg-info/SOURCES.txt
+u2py.egg-info/dependency_links.txt
+u2py.egg-info/entry_points.txt
+u2py.egg-info/requires.txt
+u2py.egg-info/top_level.txt

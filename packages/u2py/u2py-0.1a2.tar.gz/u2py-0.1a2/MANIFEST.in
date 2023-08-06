@@ -1,0 +1,2 @@
+include config/co.cmd
+include README.rst
