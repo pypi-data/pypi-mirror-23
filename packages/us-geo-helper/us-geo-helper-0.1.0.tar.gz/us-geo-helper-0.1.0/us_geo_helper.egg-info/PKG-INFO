@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: us-geo-helper
+Version: 0.1.0
+Summary: Python wrapper for US Census Data
+Home-page: https://github.com/sammymax/us-geo-helper
+Author: Philip Sun
+Author-email: traders@mit.edu
+License: MIT
+Download-URL: https://github.com/sammymax/us-geo-helper/tarball/0.1.0
+Description: UNKNOWN
+Keywords: geography
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
