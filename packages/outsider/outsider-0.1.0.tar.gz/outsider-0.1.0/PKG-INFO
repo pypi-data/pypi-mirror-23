@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: outsider
+Version: 0.1.0
+Summary: Utilities for interfacing with Blackstar ID amplifiers
+Home-page: https://github.com/jonathanunderwood/outsider
+Author: Jonathan Underwood
+Author-email: jonathan.underwood@gmail.com
+License: GPLv3+
+Description: Outsider
+        ========
+        
+        This project is a GUI interface for controlling the Blackstar ID series of
+        amplifiers. The software is still in development, but should be usable as a
+        replacement for most of the functionality of the Insider software that Blackstar
+        ship.
+        
+        
+Keywords: Blackstar Amplifiers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

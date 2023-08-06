@@ -1,0 +1,3 @@
+[gui_scripts]
+outsider = outsider.__main__:main
+
