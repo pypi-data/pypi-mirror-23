@@ -1,0 +1,49 @@
+Metadata-Version: 2.0
+Name: miyadaiku
+Version: 0.0.9
+Summary: Miyadaiku - Flexible static site generator for Jinja2 artists
+Home-page: UNKNOWN
+Author: Atsuo Ishimoto
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: beautifulsoup4
+Requires-Dist: docutils
+Requires-Dist: feedgenerator
+Requires-Dist: happylogging
+Requires-Dist: jinja2
+Requires-Dist: markdown
+Requires-Dist: pygments
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+Requires-Dist: tzlocal
+
+
+Miyadaiku - Flexible static site generator for Jinja2 artists
+=========================================================================
+
+Miyadaiku is a flexible static site generator for Jinja2 artists.
+
+- Contents are written in reStructuredText, Markdown, HTML and YAML. 
+
+- Generate index pages and Atom/RSS feeds for Blog sites.
+
+- Jinja2 templates can be written in your contents files.
+
+- Hierarchical contents property.
+
+- Theme system to generate site.
+
+- Themes are managed as Python package. You can install themes from PyPI with pip.
+
+- Other dependencies such as jQuery or Bootstrap can be managed as Python packages too.
+
+
