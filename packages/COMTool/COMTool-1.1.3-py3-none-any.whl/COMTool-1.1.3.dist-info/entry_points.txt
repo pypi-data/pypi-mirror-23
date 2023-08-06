@@ -1,0 +1,7 @@
+[gui_scripts]
+COMTool = COMTool.Main:main
+COMtool = COMTool.Main:main
+ComTool = COMTool.Main:main
+Comtool = COMTool.Main:main
+comtool = COMTool.Main:main
+
