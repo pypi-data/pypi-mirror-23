@@ -1,0 +1,5 @@
+cornice
+colander
+PasteScript
+waitress
+logmatic-python
