@@ -1,0 +1,7 @@
+cf.DomainAncillary.index
+========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.index

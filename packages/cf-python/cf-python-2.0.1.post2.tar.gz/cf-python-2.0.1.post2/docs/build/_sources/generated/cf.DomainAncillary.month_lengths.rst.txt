@@ -1,0 +1,7 @@
+cf.DomainAncillary.month_lengths
+================================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.month_lengths
