@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: py-earnest
+Version: 0.1.2
+Summary: Estimator for arbitrary correlated non-equilibrated equally spaced time series.
+Home-page: UNKNOWN
+Author: Guido Falk von Rudorff
+Author-email: guido@vonrudorff.de
+License: MIT
+Keywords: timeseries variance average estimator correlation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: coverage
+Requires-Dist: pytest-cov
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
+Estimator for arbitrary correlated non-equilibrated equally spaced time series
+=======================
+
+Details tba.
+
