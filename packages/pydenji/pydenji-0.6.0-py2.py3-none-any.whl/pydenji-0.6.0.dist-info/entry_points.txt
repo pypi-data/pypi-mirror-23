@@ -1,0 +1,3 @@
+[console_scripts]
+unit = unittest.__main__:main
+
