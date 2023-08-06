@@ -1,0 +1,43 @@
+CHANGES
+=======
+
+2.0.0b1
+-------
+
+* fos 5.6 restful api result format changed
+* Switch to use test\_utils.call\_until\_true
+* remove default charactor set and db engine setting in db migration script
+* add devstack scripts to bootstrap fortivm for dvr or builtin fgtvm
+* Revert "override create\_neutron\_initial\_network to create pubic net"
+* Sync api changes with fortios5.4.1
+* Enable DeprecationWarning in test environments
+* Update api formats to sync with fortigate 5.4.1
+* revert to legacy of\_interface to ovs-ofctl
+* disable certificate verification explicitly
+* remove use of network\_resources wrapper
+* remove delete\_wrapper from base.py
+* override create\_neutron\_initial\_network to create pubic net
+* skip scenario tests if public\_network\_id is not defined
+* update tempest to import net resources
+* move static devstack configurations to devstack/settings
+* add test case to update firewall policy with new rules
+* support update firewall policy
+* Block users to update the network attribute 'external'
+* adapt to upstream change of method \_check\_for\_dup\_router\_subnets
+* update override function in tempest to keep aligned with upstream
+* adapt test cases to default allow all scenario in fwaas
+* Add a swtich to control whether enable fwaas default deny all rule
+* check if tempest is enabled for plugin's stack extra steps
+* add test case to check security profile
+* fixed a template bug
+* add test case to revoke deny policy by changing action
+* support FGT default security profile in firewall as a service
+* update document and config template with fwaas addition
+* move all plugins to networking-fortinet folder
+* add post configuration for tempest
+* use in tree i18n to remove dependency on soon-depcrecated neutron.i18n
+* Update utils and database tables to support fwaas
+* support fwaas
+* add demo scripts and local.conf samples
+* move fortigate plugin from neutron to networking-fortinet
+* Added .gitreview
