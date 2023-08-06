@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fbpagefeed
+Version: 0.0.0
+Summary: A library and command-line tool for fetching Facebook pages' published posts.
+Home-page: https://github.com/jsvine/fbpagefeed
+Author: Jeremy Singer-Vine
+Author-email: jsvine@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: facebook api
+Platform: UNKNOWN

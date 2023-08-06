@@ -1,0 +1,3 @@
+[console_scripts]
+fbpagefeed = fbpagefeed.cli:main
+

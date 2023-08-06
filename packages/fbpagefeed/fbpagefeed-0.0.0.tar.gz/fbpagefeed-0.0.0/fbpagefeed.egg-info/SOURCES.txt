@@ -1,0 +1,12 @@
+setup.py
+fbpagefeed/__init__.py
+fbpagefeed/_version.py
+fbpagefeed/cli.py
+fbpagefeed/feed.py
+fbpagefeed.egg-info/PKG-INFO
+fbpagefeed.egg-info/SOURCES.txt
+fbpagefeed.egg-info/dependency_links.txt
+fbpagefeed.egg-info/entry_points.txt
+fbpagefeed.egg-info/requires.txt
+fbpagefeed.egg-info/top_level.txt
+test/test_api_consistency.py
