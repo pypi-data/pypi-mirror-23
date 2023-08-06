@@ -1,0 +1,12 @@
+py_tools_ds
+numpy
+matplotlib
+six
+gdal
+shapely
+geopandas
+dill
+mpld3
+geojson
+folium
+holoviews
