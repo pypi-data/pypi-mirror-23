@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: createsend
+Version: 4.2.2
+Summary: A library which implements the complete functionality of the Campaign Monitor API.
+Home-page: http://campaignmonitor.github.io/createsend-python/
+Author: Dylan Stein
+Author-email: djstein@ncsu.edu
+License: MIT
+Description: UNKNOWN
+Keywords: createsend campaign monitor email
+Platform: UNKNOWN
