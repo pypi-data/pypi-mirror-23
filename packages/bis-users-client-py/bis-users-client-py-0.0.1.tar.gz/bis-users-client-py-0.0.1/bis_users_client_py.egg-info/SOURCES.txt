@@ -1,0 +1,15 @@
+setup.py
+bis_users_client_py.egg-info/PKG-INFO
+bis_users_client_py.egg-info/SOURCES.txt
+bis_users_client_py.egg-info/dependency_links.txt
+bis_users_client_py.egg-info/requires.txt
+bis_users_client_py.egg-info/top_level.txt
+swagger_client/__init__.py
+swagger_client/api_client.py
+swagger_client/configuration.py
+swagger_client/rest.py
+swagger_client/apis/__init__.py
+swagger_client/apis/users_api.py
+swagger_client/models/__init__.py
+test/__init__.py
+test/test_users_api.py
