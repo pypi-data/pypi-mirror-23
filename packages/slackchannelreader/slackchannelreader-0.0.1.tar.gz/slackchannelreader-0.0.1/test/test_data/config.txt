@@ -1,0 +1,4 @@
+#a comment
+
+token = asdfasdfHalloWelt123
+channel = XMASDF2345
