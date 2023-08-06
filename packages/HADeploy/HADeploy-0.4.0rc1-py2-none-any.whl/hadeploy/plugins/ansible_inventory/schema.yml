@@ -1,0 +1,10 @@
+
+type: map
+mapping:
+  "ansible_inventory_files":
+    type: "seq"
+    sequence:
+    - type: str
+  "ansible_vault_password_file":
+    type: str
+    
