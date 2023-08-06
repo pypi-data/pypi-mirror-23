@@ -1,0 +1,10 @@
+cythoninstallhelpers>=1.1
+cythonarrays>=1.3.2
+
+[docs]
+z3c.recipe.sphinxdoc
+sphinxcontrib-requirements
+
+[extra]
+
+[test]
