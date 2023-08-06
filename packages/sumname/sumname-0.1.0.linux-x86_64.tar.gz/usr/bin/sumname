@@ -1,0 +1,56 @@
+#!/usr/bin/python
+
+import argparse, sys
+from os import rename, walk
+from os.path import splitext, isfile, isdir, join, abspath, dirname
+from hashlib import md5
+
+
+parser = argparse.ArgumentParser(**{
+    'description': 'Renames a file to its own MD5 hash, preserving extension.'
+})
+parser.add_argument('src', **{
+    'type': str,
+    'help': 'Path to file to rename.'
+})
+parser.add_argument('-l', '--length', **{
+    'type': int,
+    'metavar': 'N',
+    'default': 32,
+    'help': 'Use first N characters of hex digest for file name (Default: 32).'
+})
+parser.add_argument('-b', '--blocksize', **{
+    'type': int,
+    'default': 65536,
+    'help': 'Max size of blocks to read from file '
+          + 'when computing digest, in bytes (Default: 65536).'
+})
+
+A = parser.parse_args()
+
+def rename_to_sum(src, blocksize, hashlen):
+    _, ext = splitext(src)
+    hasher = md5()
+
+    with open(src, 'rb') as f:
+        bytez = f.read(blocksize)
+        while len(bytez) > 0:
+            for byte in bytez:
+                hasher.update(byte)
+            bytez = f.read(blocksize)
+
+    dst = join(dirname(src), hasher.hexdigest()[:hashlen] + ext)
+
+    rename(src, dst)
+
+
+if isfile(A.src):
+    rename_to_sum(A.src, A.blocksize, A.length)
+elif isdir(A.src):
+   for root, _, filenames in walk(A.src):
+       ad = abspath(root)
+       for fname in filenames:
+           rename_to_sum(join(ad, fname), A.blocksize, A.length)
+else: 
+    print A.src + ' is not a path to a regular file or directory.' 
+    sys.exit(1)
