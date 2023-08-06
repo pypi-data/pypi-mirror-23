@@ -1,0 +1,10 @@
+kore_plugins_socketio/__init__.py,sha256=KvEgSlE571r8Jv3UVI7LxPoAg7BpvFkv-9qoOWjtvto,154
+kore_plugins_socketio/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kore_plugins_socketio/plugins/socketio.py,sha256=_4DflhV2iV2GdSfAHJpgiLUQWPjwpj92-cFQ-ZAjvMA,634
+kore_plugins_socketio-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+kore_plugins_socketio-0.0.1.dist-info/METADATA,sha256=FPls8H-c9sYGU-FvH96Dy26xfLsScPILL0MsCMQ_HyU,502
+kore_plugins_socketio-0.0.1.dist-info/RECORD,,
+kore_plugins_socketio-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+kore_plugins_socketio-0.0.1.dist-info/entry_points.txt,sha256=yYGABvS3bpFsDK761WT8CSPQXfMFLbf8N-i42YxxlNE,111
+kore_plugins_socketio-0.0.1.dist-info/metadata.json,sha256=flBgRfDS6XnqdG6CduAdy-oyQqrW_Db35xBdsdtww-E,909
+kore_plugins_socketio-0.0.1.dist-info/top_level.txt,sha256=8SISqxk27iDXT05d2juLNGg3XC8DMp3VK-RgGa5lKBg,22
