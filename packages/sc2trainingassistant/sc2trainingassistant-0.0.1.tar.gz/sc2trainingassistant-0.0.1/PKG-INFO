@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: sc2trainingassistant
+Version: 0.0.1
+Summary: Replay handler for an sc2 macro training assistant
+Home-page: https://github.com/frugs/sc2trainingassistant
+Author: Hugo Wainwright
+Author-email: wainwrighthugo@gmail.com
+License: MIT
+Download-URL: https://github.com/frugs/sc2trainingassistant/tarball/0.0.1
+Description: UNKNOWN
+Keywords: sc2,replay,macro,training
+Platform: UNKNOWN
