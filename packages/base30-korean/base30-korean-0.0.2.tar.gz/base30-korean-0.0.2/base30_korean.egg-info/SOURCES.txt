@@ -1,0 +1,6 @@
+base30_korean.py
+setup.py
+base30_korean.egg-info/PKG-INFO
+base30_korean.egg-info/SOURCES.txt
+base30_korean.egg-info/dependency_links.txt
+base30_korean.egg-info/top_level.txt
