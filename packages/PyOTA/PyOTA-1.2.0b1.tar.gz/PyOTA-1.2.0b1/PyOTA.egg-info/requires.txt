@@ -1,0 +1,6 @@
+filters
+six
+requests[security] >= 2.4.1
+
+[ccurl]
+pyota-ccurl
