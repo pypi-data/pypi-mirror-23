@@ -1,0 +1,6 @@
+#!/Users/tom/anaconda3/bin/python
+import sys
+from tvguide import tvguide_csv
+
+if __name__ == '__main__':
+    sys.exit(tvguide_csv())
