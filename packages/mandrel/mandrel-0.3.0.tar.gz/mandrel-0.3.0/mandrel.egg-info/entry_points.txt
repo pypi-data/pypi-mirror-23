@@ -1,0 +1,4 @@
+[console_scripts]
+mandrel-runner = mandrel.runner:launch_callable
+mandrel-script = mandrel.runner:launch_script
+
