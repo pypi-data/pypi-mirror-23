@@ -1,0 +1,7 @@
+cf.DomainAncillary.dtype
+========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.dtype

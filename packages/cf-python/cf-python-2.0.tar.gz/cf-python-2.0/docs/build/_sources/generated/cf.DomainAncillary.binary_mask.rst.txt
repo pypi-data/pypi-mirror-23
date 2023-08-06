@@ -1,0 +1,7 @@
+cf.DomainAncillary.binary_mask
+==============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.binary_mask

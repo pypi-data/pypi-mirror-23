@@ -1,0 +1,7 @@
+cf.DomainAncillary.unsafe_array
+===============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.unsafe_array
