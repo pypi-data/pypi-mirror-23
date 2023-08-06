@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: mayatest
+Version: 0.1.0.dev3
+Summary: Test Autodesk Maya scripts and modules with pytest
+Home-page: https://github.com/arubertoson/mayatest
+Author: Marcus Albertsson
+Author-email: marcus.arubertoson@gmail.com
+License: MIT
+Requires-Dist: pytest
+
+Maya Test
+
+

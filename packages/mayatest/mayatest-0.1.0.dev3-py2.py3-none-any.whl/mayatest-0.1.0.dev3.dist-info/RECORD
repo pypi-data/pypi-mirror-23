@@ -1,0 +1,11 @@
+mayatest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mayatest/__main__.py,sha256=idzgVAm1M3N6JLYwLahLLHeJjCKM2Rf66w3OYYjq6B4,112
+mayatest/cli.py,sha256=kzhhMtEahbQlqR--OArWl8RQCwvwSLyvLJDBCFC5zg4,1045
+mayatest/mayaloc.py,sha256=PTcNfrKcTOozdmAqp5wcSR62YmtaAe_IQGDnyePO_ms,2533
+mayatest-0.1.0.dev3.dist-info/DESCRIPTION.rst,sha256=tX9paW4WuvFwbK4yvyVBvG-NJ441M8pvfcTM1X_CojA,12
+mayatest-0.1.0.dev3.dist-info/METADATA,sha256=31kKA0ZMla-78L-w1aPtsc5zhuXQlTsdpeNEKN9XVlo,285
+mayatest-0.1.0.dev3.dist-info/RECORD,,
+mayatest-0.1.0.dev3.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+mayatest-0.1.0.dev3.dist-info/entry_points.txt,sha256=8nuh3KEEsuV0GRhWqAXTS7Us6cqM06iMWBamLFq0yCs,48
+mayatest-0.1.0.dev3.dist-info/metadata.json,sha256=PK4pWXWloO_Ea6uYJO0WyGjReeH7dHhGDdYouhBeYAE,659
+mayatest-0.1.0.dev3.dist-info/top_level.txt,sha256=EWte0_hQywG1yocfyv7KCC-wVK-JybYcKRJaP-P130g,9
