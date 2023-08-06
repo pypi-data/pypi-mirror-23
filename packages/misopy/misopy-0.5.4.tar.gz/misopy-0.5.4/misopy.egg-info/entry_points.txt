@@ -1,0 +1,18 @@
+[console_scripts]
+compare_miso = misopy.compare_miso:main
+exon_utils = misopy.exon_utils:main
+filter_events = misopy.filter_events:main
+index_gff = misopy.index_gff:main
+miso = misopy.miso:main
+miso_pack = misopy.miso_pack:main
+miso_zip = misopy.miso_zip:main
+module_availability = misopy.module_availability:main
+pe_utils = misopy.pe_utils:main
+plot.py = misopy.sashimi_plot.plot:main
+run_events_analysis.py = misopy.run_events_analysis:main
+run_miso.py = misopy.run_miso:main
+sam_to_bam = misopy.sam_to_bam:main
+sashimi_plot = misopy.sashimi_plot.sashimi_plot:main
+summarize_miso = misopy.summarize_miso:main
+test_miso = misopy.test_miso:main
+
