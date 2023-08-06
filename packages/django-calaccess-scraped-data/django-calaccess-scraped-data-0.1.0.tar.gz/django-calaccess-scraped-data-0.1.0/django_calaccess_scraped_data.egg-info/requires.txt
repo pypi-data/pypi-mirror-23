@@ -1,0 +1,4 @@
+django-calaccess-raw-data>=1.4.7
+django>=1.9
+csvkit>=1.0
+beautifulsoup4>=4.3.2
