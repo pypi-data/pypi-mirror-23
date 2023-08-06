@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: sqre-labkubespawner
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Project Jupyter
+Author-email: jupyter@googlegroups.com
+License: UNKNOWN
+Keywords: jupyterlab,jupyterlab extension
+Platform: UNKNOWN
+Requires-Dist: jupyterhub
+Requires-Dist: jupyterlab (>=0.25.1)
+Requires-Dist: requests (<3.0.0)
+
+UNKNOWN
+
+

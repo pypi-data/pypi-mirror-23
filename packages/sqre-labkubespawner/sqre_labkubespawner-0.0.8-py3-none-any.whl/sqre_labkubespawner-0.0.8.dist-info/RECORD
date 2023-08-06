@@ -1,0 +1,16 @@
+sqre_labkubespawner/__init__.py,sha256=nsvU56AmVoEfFcPjuN_fGU-f38rmO699U7G0U9U3p2Q,272
+sqre_labkubespawner/auth-new.py,sha256=IRAMWXs1adYLOqrkgFLkgLWVge1pMZYzMO9T_feKuVk,23118
+sqre_labkubespawner/auth.py,sha256=G0xw1JyNQJff20qHNQM1QHWe6G3Jr-TKVQwYpeAt2qs,21955
+sqre_labkubespawner/jhubsingleuser-new.py,sha256=nCkr6vUgUj90LTxm4MVxHHW7LJcFql1aWv25sB24sME,13227
+sqre_labkubespawner/jhubsingleuser.py,sha256=k_krOb6SlQBuZpLfDglcDnFELO9BGXRA-WpWy63Bu2k,13227
+sqre_labkubespawner/log.py,sha256=z7s8M18BduugYsAw97dQG4MU2XMnMLliGcN-sLqIOJY,4025
+sqre_labkubespawner/singleuser.py,sha256=b0pqczUXzEdRoXoOmFZ-XQ1ytoz_3TOex6cvhKrHkYk,879
+sqre_labkubespawner/singleuser_hub.py,sha256=Q_gJA4LkRA2UL3BKhnXb2ax7J36SlOTBVsb0gZuCO3Q,14053
+sqre_labkubespawner/utils.py,sha256=qY0y0uxRPWzm_vwrWj0_DWkBa-sMC_RmZQ4HckAZ78s,704
+sqre_labkubespawner-0.0.8.data/scripts/jupyter-singlelabuser,sha256=AilecK5S7mlXy3D6qCyDGKjV7sXFBhaP3esQuDCAfbo,97
+sqre_labkubespawner-0.0.8.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+sqre_labkubespawner-0.0.8.dist-info/METADATA,sha256=HLvgiXzcJkt2wXnLrJ3ePzh03vLf-TjQ1IITdMgSNC8,346
+sqre_labkubespawner-0.0.8.dist-info/RECORD,,
+sqre_labkubespawner-0.0.8.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+sqre_labkubespawner-0.0.8.dist-info/metadata.json,sha256=Bp5gd_JOLZc6YmY5bHx9rgyU46ZQ7A0gIKfTR8WZBpo,488
+sqre_labkubespawner-0.0.8.dist-info/top_level.txt,sha256=vl3sk4rU1XnAJDtFHWKJBdtY2d1uo0PO8XBZv5GJR1g,20
