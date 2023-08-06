@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pisurvl
+Version: 0.0.4
+Summary: A surveillance system based on Raspberry Pi
+Home-page: https://github.com/betabandido/pisurv
+Author: Victor Jimenez
+Author-email: betabandido@gmail.com
+License: GPLv3
+Description: Surveillance system based on Raspberry Pi.
+        
+        
+Keywords: surveillance camera home-automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
