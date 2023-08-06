@@ -1,0 +1,6 @@
+django
+ipython<6.0
+pdbpp
+pip
+psycopg2
+check-manifest
