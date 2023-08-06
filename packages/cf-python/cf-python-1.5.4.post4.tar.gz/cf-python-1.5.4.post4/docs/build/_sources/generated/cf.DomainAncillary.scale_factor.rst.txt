@@ -1,0 +1,7 @@
+cf.DomainAncillary.scale_factor
+===============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.scale_factor

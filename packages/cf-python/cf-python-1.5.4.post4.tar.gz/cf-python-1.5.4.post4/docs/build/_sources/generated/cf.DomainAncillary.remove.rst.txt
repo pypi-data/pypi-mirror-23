@@ -1,0 +1,7 @@
+cf.DomainAncillary.remove
+=========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.remove
