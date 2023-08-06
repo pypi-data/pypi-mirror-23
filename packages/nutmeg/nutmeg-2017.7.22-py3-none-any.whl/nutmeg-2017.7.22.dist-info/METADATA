@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: nutmeg
+Version: 2017.7.22
+Summary: Simple video processing tools. Python + fmpeg.
+Home-page: https://github.com/Who8MyLunch/NutMeg
+Author: Pierre V. Villeneuve
+Author-email: pierre.villeneuve@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Who8MyLunch/NutMeg/archive/2017.7.22.tar.gz
+Keywords: video,ffmpeg,intra,clip,probe
+Platform: UNKNOWN
+Requires-Dist: ordered-namespace
+Requires-Dist: sarge
+
+UNKNOWN
+
+
