@@ -1,0 +1,3 @@
+[console_scripts]
+draw = draw.draw:play_devops_agains_humanity
+

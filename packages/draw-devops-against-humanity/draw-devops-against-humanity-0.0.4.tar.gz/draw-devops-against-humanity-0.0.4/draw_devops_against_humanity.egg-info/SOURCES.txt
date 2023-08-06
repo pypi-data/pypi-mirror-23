@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/LICENSE.txt
+data/__init__.py
+data/devops_against_humanity.csv
+draw/__init__.py
+draw/draw.py
+draw_devops_against_humanity.egg-info/PKG-INFO
+draw_devops_against_humanity.egg-info/SOURCES.txt
+draw_devops_against_humanity.egg-info/dependency_links.txt
+draw_devops_against_humanity.egg-info/entry_points.txt
+draw_devops_against_humanity.egg-info/requires.txt
+draw_devops_against_humanity.egg-info/top_level.txt
