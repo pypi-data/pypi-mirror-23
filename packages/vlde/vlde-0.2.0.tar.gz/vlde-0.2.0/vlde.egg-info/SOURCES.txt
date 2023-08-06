@@ -1,0 +1,17 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tests/__init__.py
+tests/test_module.py
+tests/test_rules.py
+tests/vlde_test.py
+vlde/__init__.py
+vlde/__version__.py
+vlde/error.py
+vlde/validate.py
+vlde.egg-info/PKG-INFO
+vlde.egg-info/SOURCES.txt
+vlde.egg-info/dependency_links.txt
+vlde.egg-info/top_level.txt
