@@ -1,0 +1,9 @@
+README.rst
+dyv.py
+setup.py
+DYV.egg-info/PKG-INFO
+DYV.egg-info/SOURCES.txt
+DYV.egg-info/dependency_links.txt
+DYV.egg-info/entry_points.txt
+DYV.egg-info/requires.txt
+DYV.egg-info/top_level.txt

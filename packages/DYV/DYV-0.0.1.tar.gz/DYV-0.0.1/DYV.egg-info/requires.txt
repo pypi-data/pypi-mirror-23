@@ -1,0 +1,4 @@
+click
+ConfigParser
+lxml
+prettytable
