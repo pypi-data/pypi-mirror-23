@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: hudai
+Version: 1.1
+Summary: HUD.ai python bindings
+Home-page: https://github.com/FoundryAI/hud-ai-python
+Author: Nick Gerner
+Author-email: nick@foundry.ai
+License: UNKNOWN
+Download-URL: https://github.com/FoundryAI/foundrybot-python/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: hudai,foundry.ai,foundrydc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
