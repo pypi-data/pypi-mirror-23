@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="{{ prefix }}static/other/handsontable/handsontable.full.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ prefix }}static/other/handsontable/handsontable.full.css">
+<script src="{{ prefix }}static/sheet.js"></script>
+{% endblock %}
+
+{% block body %}
+
+<div class="toolbar">
+	<div><h2>book name here</h2></div>
+	<div><button id="button_add_col">add column</button></div>
+	<div><button id="button_add_row">add row</button></div>
+</div>
+
+<div id="tablediv"></div>
+
+<div class="toolbar script_header" id="script_pre_header">
+	<div><h2>Script Pre</h2></div>
+	<div><button id="button_script_pre">execute</button></div>
+</div>
+<div class="script_container" id="script_pre">
+	<div>
+		<textarea id="script_pre" rows="5" cols="50"
+			>{{ script_pre }}</textarea>
+	</div>
+
+	<div>
+		<textarea id="script_pre_output" rows="5" cols="50" readonly
+			>{{ script_pre_output }}</textarea>
+	</div>
+</div>
+
+<div class="toolbar script_header" id="script_post_header">
+	<div><h2>Script Post</h2></div>
+	<div><button id="button_script_post">execute</button></div>
+</div>
+<div class="script_container" id="script_post">
+	<div>
+		<textarea id="script_post" rows="5" cols="50"
+			>{{ script_post }}</textarea>
+	</div>
+
+	<div>
+		<textarea id="script_post_output" rows="5" cols="50" readonly
+			>{{ script_post_output }}</textarea>
+	</div>
+</div>
+
+<div id="book_docs">
+	{% autoescape off %}{{ docs_html }}{% endautoescape %}
+</div>
+
+<script>
+
+var data_hot = [[]];
+
+var book_id = '{{ book_id }}';
+var sheet_id = '{{ sheet_id }}';
+
+var ws_url = '{{ ws_url }}';
+
+
+var url_add_column = '{{ url_add_column }}';
+var url_add_row = '{{ url_add_row }}';
+var url_set_cell = '{{ url_set_cell }}';
+var url_set_script_pre = '{{ url_set_script_pre }}';
+var url_set_script_post = '{{ url_set_script_post }}';
+var url_get_sheet_data = '{{ url_get_sheet_data }}';
+
+
+$(document).ready(sheet_page_load);
+
+</script>
+
+{% endblock %}
+
