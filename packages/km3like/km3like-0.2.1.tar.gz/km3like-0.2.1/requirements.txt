@@ -1,0 +1,7 @@
+numpy>=1.12
+pandas
+pandas
+seaborn
+statsmodels
+km3pipe
+km3astro
