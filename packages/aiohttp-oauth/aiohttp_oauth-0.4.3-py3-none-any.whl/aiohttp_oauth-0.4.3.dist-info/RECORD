@@ -1,0 +1,12 @@
+aiohttp_oauth/__init__.py,sha256=nH1iU-YkPLGLnB40eCOs-c0gSzrltLSTSKUQ6AFn59E,4739
+aiohttp_oauth/auth.py,sha256=Fr_FTQlI6L9UN_F6GSj98ltZvv5bNCQ4UBYvMuePdWM,729
+aiohttp_oauth/dummy.py,sha256=ZoGMcmn8GBVOPHrvRK3QqVnuktIIQRYPy3qyMUcMlYo,528
+aiohttp_oauth/github.py,sha256=FEbwoPcuUj-DaI5Dk2HbEkZsBXfdTT8N8kZBDxuH-C4,1746
+aiohttp_oauth/google.py,sha256=nUMC1tUo0J6oFC-M8xEjweKKvy2UsWt-7otAP1aGOyU,1561
+aiohttp_oauth/gsuite.py,sha256=VDKr3k2YLomr6PiqBcWSqs7Ci6-P5UD1pSFwKXrNnKM,2225
+aiohttp_oauth-0.4.3.dist-info/DESCRIPTION.rst,sha256=1fsFjY4QmB_OI3HIRE7kPFwzgJC-LMMaNgDn29-uGHo,59
+aiohttp_oauth-0.4.3.dist-info/METADATA,sha256=oyk1H00Lvs6rhdfEVM9iJ8TDrUTXYLivOBvsv84DHJY,622
+aiohttp_oauth-0.4.3.dist-info/RECORD,,
+aiohttp_oauth-0.4.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+aiohttp_oauth-0.4.3.dist-info/metadata.json,sha256=wrFmXsIxV3JXrFNgE3mPAHbX69w3XiTEPBFr6Sv6wcs,721
+aiohttp_oauth-0.4.3.dist-info/top_level.txt,sha256=m5SHY9_vmvzHXFaIbXgYm3nHulJn7hs5mNUVXUBSmRI,14
