@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+pierky/__init__.py
+pierky/usres_monitor/__init__.py
+pierky/usres_monitor/version.py
+usresmonitor.egg-info/PKG-INFO
+usresmonitor.egg-info/SOURCES.txt
+usresmonitor.egg-info/dependency_links.txt
+usresmonitor.egg-info/namespace_packages.txt
+usresmonitor.egg-info/requires.txt
+usresmonitor.egg-info/top_level.txt
