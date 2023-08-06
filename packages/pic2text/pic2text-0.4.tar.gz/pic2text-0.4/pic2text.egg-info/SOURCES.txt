@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pic2text/__init__.py
+pic2text/pic2text.py
+pic2text.egg-info/PKG-INFO
+pic2text.egg-info/SOURCES.txt
+pic2text.egg-info/dependency_links.txt
+pic2text.egg-info/entry_points.txt
+pic2text.egg-info/requires.txt
+pic2text.egg-info/top_level.txt
