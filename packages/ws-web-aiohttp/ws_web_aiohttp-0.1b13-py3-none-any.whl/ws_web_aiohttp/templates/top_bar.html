@@ -1,0 +1,28 @@
+
+<div class="top">
+<div class="left">
+	<h1><a href="{{ prefix }}">Web Sheets</a></h1>
+</div>
+<div class="right">
+
+{% if user %}
+	<div class="dropdown">
+	<img src="{{ user.picture }}" class="dropbtn profile_image_small">
+	<div id="myDropdown" class="dropdown-content">
+		<a href="{{ prefix }}user/">profile</a>
+		<a
+			class="select_account" 
+   href="{{ prefix }}google_oauth2_login?next={{ prefix }}"
+			>select account</a>
+		<a href="{{ prefix }}logout">logout</a>
+	</div>
+	</div>
+{% else %}
+	<a 
+		class="login" 
+		href="{{ prefix }}google_oauth2_login?next={{ prefix }}"></a>
+{% endif %}
+
+</div>
+</div>
+
