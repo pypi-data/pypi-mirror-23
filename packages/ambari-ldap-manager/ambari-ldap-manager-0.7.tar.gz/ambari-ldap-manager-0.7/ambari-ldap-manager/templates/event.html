@@ -1,0 +1,58 @@
+<!doctype html>
+{% extends "layout.html" %}
+	{% block body %}
+
+	<div class="container-fluid">
+	<p></p>
+	<h3>Event: {{ event['Event']['id'] }}</h3>
+	<h4>Status: {{ event['Event']['status'] }} -- {{ event['Event']['status_detail'] }} </h4>
+
+	<ul>
+	  <li>Event Type: {{ event['Event']['specs'][0]['principal_type'] }}</li>
+	  <li>Sync Type: {{ event['Event']['specs'][0]['sync_type'] }}</li>
+	  <li>Names: {{ event['Event']['specs'][0]['names'] }}</li>
+	  <li>Start: {{ event['Event']['sync_time']['start'] }}</li>
+	  <li>End: {{ event['Event']['sync_time']['end'] }}
+
+	<li>Summary:</li>
+		<ul id="summary">
+			<li>Groups:</li>
+				<ul id="summary-groups">
+					<li>Created: {{ event['Event']['summary']['groups']['created'] }}</li>
+					<li>Removed: {{ event['Event']['summary']['groups']['removed'] }}</li>
+					<li>Updated: {{ event['Event']['summary']['groups']['updated'] }}</li>
+				</ul>
+			<li>Memberships:</li>
+				<ul id="summary-memberships">
+					<li>Created: {{ event['Event']['summary']['memberships']['created'] }}</li>
+					<li>Removed: {{ event['Event']['summary']['memberships']['removed'] }}</li>
+				</ul>
+			<li>Users:</li>
+				<ul id="summary-users">
+					<li>Created: {{ event['Event']['summary']['users']['created'] }}</li>
+					<li>Removed: {{ event['Event']['summary']['users']['removed'] }}</li>
+					<li>Updated: {{ event['Event']['summary']['users']['updated'] }}</li>
+				</ul>
+		</ul>
+	</ul>
+	{% if event['Event']['id'] == 1 %}
+		<a href="{{ url_for('event', get_event=event['Event']['id']) }}">{{ event['Event']['id'] }}</a> ... 
+		<a href="{{ url_for('event', get_event=session['num_events']) }}">{{ session['num_events'] }}</a>
+		<p></p>
+	<a class="btn btn-info" href="{{ url_for('event', get_event=event['Event']['id']+1) }}">Next Event</a>
+	{% elif event['Event']['id'] == session['num_events'] %}
+		<a href="{{ url_for('event', get_event=1) }}">1</a> ... 
+		<a href="{{ url_for('event', get_event=event['Event']['id']) }}">{{ event['Event']['id'] }}</a> 
+		<p></p>
+	<a class="btn btn-info" href="{{ url_for('event', get_event=event['Event']['id']-1) }}">Previous Event</a>
+	{% else %}
+		<a href="{{ url_for('event', get_event=1) }}">1</a> ... 
+		<a href="{{ url_for('event', get_event=event['Event']['id']) }}">{{ event['Event']['id'] }}</a> ... 
+		<a href="{{ url_for('event', get_event=session['num_events']) }}">{{ session['num_events'] }}</a>
+		<p></p>
+	<a class="btn btn-info" href="{{ url_for('event', get_event=event['Event']['id']-1) }}">Previous Event</a>  
+	<a class="btn btn-info" href="{{ url_for('event', get_event=event['Event']['id']+1) }}">Next Event</a>
+	{% endif %}
+
+	</div>
+{% endblock %}

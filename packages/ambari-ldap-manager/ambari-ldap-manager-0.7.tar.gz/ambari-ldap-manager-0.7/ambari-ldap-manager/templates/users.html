@@ -1,0 +1,19 @@
+<!doctype html>
+{% extends "layout.html" %}
+	{% block body %}
+
+	<div class="container-fluid">
+	<p><strong>Users</strong></p>
+	  <form method='post'>
+	  	Add VID/EID: 
+	  	<input type="text" name="uid">
+	  	<input type="submit"> 
+	  </form>
+	   <ul id="users">
+	      {% for user in range(users['items']|length) %}
+	         <li>
+	               <a href="{{ url_for('user', get_user=users['items'][user]['Users']['user_name']) }}">{{ users['items'][user]['Users']['user_name'] }}</a> | <a href="{{ url_for('sync_user', sync_user=users['items'][user]['Users']['user_name']) }}">Sync</a>
+	      {% endfor %}
+	   </ul>
+	</div>
+{% endblock %}

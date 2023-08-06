@@ -1,0 +1,19 @@
+<!doctype html>
+{% extends "layout.html" %}
+	{% block body %}
+	<div class="container-fluid">
+	<p><strong>Groups</strong></p>
+	  <form method='post'>
+	  	Add Group: 
+	  	<input type="text" name="gid">
+	  	<input type="submit" }}"> 
+	  </form>
+	   <ul id="groups">
+	      {% for group in range(groups['items']|length) %}
+	         <li>
+	               <a href="{{ url_for('group', get_group=groups['items'][group]['Groups']['group_name']) }}">{{ groups['items'][group]['Groups']['group_name'] }}</a> | <a href="{{ url_for('sync_group', sync_group=groups['items'][group]['Groups']['group_name']) }}">Sync</a>
+	         </li>
+	      {% endfor %}
+	   </ul>
+	</div>
+{% endblock %}

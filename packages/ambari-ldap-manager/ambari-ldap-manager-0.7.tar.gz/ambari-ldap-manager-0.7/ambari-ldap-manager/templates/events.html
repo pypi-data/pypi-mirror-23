@@ -1,0 +1,14 @@
+<!doctype html>
+{% extends "layout.html" %}
+	{% block body %}
+	<div class="container-fluid">
+	<p><strong>Events</strong></p>
+	   <ol id="events">
+	      {% for event in range(events['items']|length) %}
+	         <li>
+	               <a href="{{ url_for('event', get_event=events['items'][event]['Event']['id']) }}">{{ events['items'][event]['href'] }}</a>
+	         </li>
+	      {% endfor %}
+	   </ol>
+	</div>
+{% endblock %}
