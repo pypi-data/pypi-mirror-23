@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.29.0)", "license": "BSD", "metadata_version": "2.0", "name": "ophyd", "run_requires": [{"requires": ["boltons", "doct", "ipython", "networkx", "numpy", "prettytable", "pyepics"]}], "summary": "UNKNOWN", "version": "0.6.1"}
