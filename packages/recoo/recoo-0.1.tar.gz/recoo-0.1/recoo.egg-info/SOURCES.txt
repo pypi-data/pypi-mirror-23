@@ -1,0 +1,11 @@
+README
+setup.py
+recoo/__init__.py
+recoo/tastedive.py
+recoo.egg-info/PKG-INFO
+recoo.egg-info/SOURCES.txt
+recoo.egg-info/dependency_links.txt
+recoo.egg-info/entry_points.txt
+recoo.egg-info/not-zip-safe
+recoo.egg-info/requires.txt
+recoo.egg-info/top_level.txt
