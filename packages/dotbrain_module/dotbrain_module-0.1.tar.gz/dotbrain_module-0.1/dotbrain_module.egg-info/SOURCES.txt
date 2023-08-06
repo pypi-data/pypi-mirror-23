@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+dotbrain_module/__init__.py
+dotbrain_module/test.py
+dotbrain_module.egg-info/PKG-INFO
+dotbrain_module.egg-info/SOURCES.txt
+dotbrain_module.egg-info/dependency_links.txt
+dotbrain_module.egg-info/top_level.txt
