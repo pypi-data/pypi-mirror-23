@@ -1,0 +1,16 @@
+async_patterns/__init__.py,sha256=nceiG-bX4gjjwgPHIqc_lTDxbM7GWScaFbZvLBIm7io,189
+async_patterns/callbacks.py,sha256=9LObPRWIY4GiW_uNGv77aGx8IsEry1MY2COAZHJuMW8,1080
+async_patterns/coro_queue.py,sha256=2fY69vDmkLy94M_jythSQwfSRBrOD1x8gQ-Yib_ENHE,3944
+async_patterns/protocol.py,sha256=Uk_jLAg0uaQmXI8ae6vp9mizLCStKjBHP4OJO0lh924,3116
+async_patterns/tests/conftest.py,sha256=Iho_UpMJwxEkCir6Rx23KyQiByGoxklhgvyoCM6-k4I,113
+async_patterns/tests/test_asyncio.py,sha256=xr1swvBckeCqnNjuIChMipJCAU9VAvHDebmjzzlacro,200
+async_patterns/tests/test_callbacks.py,sha256=IYD2vmWKCpcZb5YLuFP_VTHTONx0npN92LLkOOR8YY8,561
+async_patterns/tests/test_coro_queue.py,sha256=uGtUZxTABEgI4OSCVwLYwWAnJqvac10M14BQc1LHUmo,819
+async_patterns/tests/test_coro_queue_class.py,sha256=xMd-AC7AehgUpohNSXEVr_bGu8bkw8OVdSVVouKP_40,594
+async_patterns/tests/test_protocol.py,sha256=PgMXM5LKngsoVhdAb7-8iZvqqFjrT8zw49_UL1sL9BE,1651
+async_patterns-0.3b5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+async_patterns-0.3b5.dist-info/METADATA,sha256=nXiomPacanrl4yPjX3LUjVfAIfY_EGYTC-WnDdMM9bQ,251
+async_patterns-0.3b5.dist-info/RECORD,,
+async_patterns-0.3b5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+async_patterns-0.3b5.dist-info/metadata.json,sha256=1LirrGyyweVORkzVqtlfU8upFPEc5AY3m3ZFhFNjsiE,427
+async_patterns-0.3b5.dist-info/top_level.txt,sha256=uzSmQ-SYpqvMYtjim7sYKGrEXRcXquSDh0-u66fgHYM,15
