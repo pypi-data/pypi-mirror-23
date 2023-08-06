@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+csvtotable/__init__.py
+csvtotable/cli.py
+csvtotable/convert.py
+csvtotable.egg-info/PKG-INFO
+csvtotable.egg-info/SOURCES.txt
+csvtotable.egg-info/dependency_links.txt
+csvtotable.egg-info/entry_points.txt
+csvtotable.egg-info/requires.txt
+csvtotable.egg-info/top_level.txt
+csvtotable/templates/template.j2
+csvtotable/templates/js/jquery.dataTables.min.js
+csvtotable/templates/js/jquery.min.js
