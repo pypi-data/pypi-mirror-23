@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+VERSION
+setup.py
+twostage/__init__.py
+twostage/quadratic_continued_fraction.py
+twostage/two_stage_euclidean.py
+twostage.egg-info/PKG-INFO
+twostage.egg-info/SOURCES.txt
+twostage.egg-info/dependency_links.txt
+twostage.egg-info/requires.txt
+twostage.egg-info/top_level.txt

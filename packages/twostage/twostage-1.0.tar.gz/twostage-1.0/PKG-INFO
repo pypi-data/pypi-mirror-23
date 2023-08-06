@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: twostage
+Version: 1.0
+Summary: Algorithms for proving that class-number-one real quadratic fields are 2-stage euclidean, and to find continued fraction expansions in them.
+Home-page: https://github.com/mmasdeu/twostage
+Author: Xavier Guitart, Marc Masdeu
+Author-email: marc.masdeu@gmail.com
+License: GPLv2+
+Description: =============================
+        Two Stage Euclidean Domains
+        =============================
+        -----------------------------
+        Algorithms for proving that class-number-one real quadratic fields are 2-stage euclidean, and to find continued fraction expansions in them.
+        -----------------------------
+        
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        To install the package use the following command::
+        
+           sage -pip install --user --upgrade twostage
+        
+        If you rather install the cutting-edge version from the github repository (which is likely to be broken), then use the following command::
+        
+           sage -pip install --user --upgrade -v git+https://github.com/mmasdeu/twostage.git
+        
+        
+        
+Keywords: euclidean,continued fractions,two stage,real quadratic
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 2.7
