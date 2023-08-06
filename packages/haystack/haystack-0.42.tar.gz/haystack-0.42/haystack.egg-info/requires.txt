@@ -1,0 +1,3 @@
+pefile
+construct<2.8
+python-ptrace>=0.8.1
