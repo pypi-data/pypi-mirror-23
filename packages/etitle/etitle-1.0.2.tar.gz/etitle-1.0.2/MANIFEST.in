@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include etitle *
+recursive-exclude etitle .*
+recursive-exclude etitle/.vscode *
+recursive-exclude etitle/.git *
+recursive-exclude etitle *.pyc
