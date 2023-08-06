@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: webuntis-cli
+Version: 0.5
+Summary: WebUntis CLI
+Home-page: https://tbs1-bo.github.io/webuntis_cli/
+Author: Marco Bakera
+Author-email: marco@bakera.de
+License: MIT
+Keywords: cli untis stundenplan timetable
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: webuntis
+
+A commandline tool for webuntis.
+
+
