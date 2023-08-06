@@ -1,0 +1,14 @@
+django_dsl/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+django_dsl/compiler.py,sha256=UcIDf9DfvVlSlENKDR4bxwAPdgDfLci3dDfQD1G4YYc,674
+django_dsl/dsl.py,sha256=akaA4egbORIYFQgJ-I0gFf_EPsZzV5M3O-LggOWC3qk,475
+django_dsl/exceptions.py,sha256=YDDCn0Z9lY_TfhMsMP-J0BB0dbXAlqm-E_jSSIEui38,175
+django_dsl/lexer.py,sha256=EHNPF5ZH5iw04GTt5vooZfbMiGzq8cnHKaL2ldGyFsc,986
+django_dsl/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+django_dsl/parser.py,sha256=clpD-CVkSaoQo2-Zy62LooBq6T_DzwJSspAfuVL_9Wk,1896
+django_dsl/parsetab.py,sha256=yiKvsyaT2vjnSw6pFX3J9MnzxUjmn6YmlMkr0N1SHHo,3160
+django_dsl-0.1.0.dist-info/DESCRIPTION.rst,sha256=y_q3Cv-zrW5Bobaiwqhaj1EYKi_WCHBj3jXdmCBDDCQ,1064
+django_dsl-0.1.0.dist-info/METADATA,sha256=ecnjvP8vhBQjT4nyXUM2jZhaXfMCmmahMFvMo7--rxs,1613
+django_dsl-0.1.0.dist-info/RECORD,,
+django_dsl-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_dsl-0.1.0.dist-info/metadata.json,sha256=Jd1dSSmHYmEWKmYgfqDAHFPfR6SA71VprlHYfqh54Pg,700
+django_dsl-0.1.0.dist-info/top_level.txt,sha256=HkD8BTyyWLk4qZ5Dco22yrgQOYxQLucr9f2diC9Apzo,11
