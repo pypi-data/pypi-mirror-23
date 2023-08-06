@@ -1,0 +1,15 @@
+chewrap/__init__.py,sha256=HRC0HZJ_xtbEukf2-k3mOHS44Sw_SBKWK05UxSJoqu4,107
+chewrap/__main__.py,sha256=yKXwGjTnksdZbtotNITh0anYDQeSEl3q2VOJ2AhHkoE,216
+chewrap/arguments.json,sha256=OW3DEQ7PSsGSOrEOtNXQURcIJyEapKy43J5GQxbm5YE,4794
+chewrap/arguments.py,sha256=ryqByXeqoJ8_axvQp2NzVZC76X0DAgwQda6899knyhY,1752
+chewrap/core.py,sha256=ewdjdkEcRGZBuQ31jEN9-TPLldiVVd7NUk811ABvW7w,3416
+chewrap/docker.py,sha256=ZppkhlJ_V6tWtTzxuWZ71wnjAeiMTeBAOo2_NiCNcbI,4121
+chewrap/parser.py,sha256=Bjy97KO-Vg4ewZwWZ2JuFrndazBhMshfCIdrFHkcUb4,2461
+chewrap/usage.py,sha256=nX8HM0Bswq9Ju1XONIaJm4z3Am3YF1T5l8pwMjbSpMs,2066
+chewrap-0.1.0.dist-info/DESCRIPTION.rst,sha256=UJzrk7wg_ge7jhuzAVdiRHH0ZwoPY-QSgsgt8NXZonE,961
+chewrap-0.1.0.dist-info/METADATA,sha256=FFzkd3uXUtP5P6U5y2umefiLZtjIwswWX0dqjn0mfnc,1099
+chewrap-0.1.0.dist-info/RECORD,,
+chewrap-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+chewrap-0.1.0.dist-info/entry_points.txt,sha256=lZgtyrUtjfCVLGq1j7uiXGSK95k2cbvZpHTk34tAYro,47
+chewrap-0.1.0.dist-info/metadata.json,sha256=SOe7dFJnoiUuuN3D66gmrXL5h7zISBEjB9aTdaEKKrQ,473
+chewrap-0.1.0.dist-info/top_level.txt,sha256=qoREOHXR29oI-Evz8nWQ3LKAFZANrCjxrJWQQIF8e64,8

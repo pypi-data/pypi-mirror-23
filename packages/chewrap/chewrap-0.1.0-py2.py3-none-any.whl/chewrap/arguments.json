@@ -1,0 +1,155 @@
+{
+    "commands": {
+        "help": "Commands to pass to Eclipse Che",
+        "type": "positional"
+    },
+    "--archetype": {
+        "containerDirectory": "/archetype",
+        "help": "Local path where your custom assembly will be generated",
+        "metavar": "<DIR>",
+        "relevantCommand": "archetype",
+        "type": "bindmount"
+    },
+    "--assembly": {
+        "containerDirectory": "/assembly",
+        "help": "Use a custom che assembly - Che uses local binaries",
+        "metavar": "<DIR>",
+        "shorthand": "-a",
+        "type": "bindmount"
+    },
+    "--backup-data": {
+        "containerDirectory": "/data/backup",
+        "help": "Where backup files will be saved",
+        "metavar": "<DIR>",
+        "relevantCommand": "backup",
+        "shorthand": "-b",
+        "type": "bindmount"
+    },
+    "--che-image": {
+        "default": "eclipse/che",
+        "help": "Docker image to use as the Che CLI",
+        "metavar": "<IMAGE>",
+        "type": "generic"
+    },
+    "--chedir": {
+        "containerDirectory": "/chedir",
+        "help": "Soure repository to convert into workspace with Chedir utility",
+        "metavar": "<DIR>",
+        "relevantCommand": "dir",
+        "type": "bindmount"
+    },
+    "--data": {
+        "containerDirectory": "/data",
+        "help": "Where user, instance, and log data are saved",
+        "metavar": "<DIR>",
+        "default": "/che/",
+        "shorthand": "-d",
+        "type": "bindmount"
+    },
+    "--docker-bin": {
+        "default": "docker",
+        "help": "Name of the Docker binary/executable",
+        "metavar": "<BIN>",
+        "type": "generic"
+    },
+    "--docker-opts": {
+        "example": {
+            "input": "che \"start\" --docker-opts \"-m 1G\"",
+            "output": "docker run -it --rm -m 1G . . ."
+        },
+        "help": "Extra arguments to pass to the Docker run command",
+        "metavar": "\"<OPTIONS>\"",
+        "type": "generic"
+    },
+    "--docker-sock": {
+        "containerDirectory": "/var/run/docker.sock",
+        "default": "/var/run/docker.sock",
+        "help": "Location of Docker's Unix socket on your system",
+        "metavar": "</PATH/TO/DOCKER.SOCK>",
+        "type": "bindmount"
+    },
+    "--host": {
+        "envVariable": "CHE_HOST",
+        "help": "IP address or hostname where che will serve its users",
+        "metavar": "<HOST>",
+        "type": "env"
+    },
+    "--instance-data": {
+        "containerDirectory": "/data/instance",
+        "help": "Where instance, user, log data will be saved",
+        "metavar": "<DIR>",
+        "shorthand": "-i",
+        "type": "bindmount"
+    },
+    "--name": {
+        "envVariable": "CHE_CONTAINER",
+        "help": "Name for the che container",
+        "metavar": "<NAME>",
+        "shorthand": "-n",
+        "type": "env"
+    },
+    "--m2": {
+        "containerDirectory": "/m2",
+        "help": "Local path to your host's Maven M2 repository",
+        "metavar": "<DIR>",
+        "relevantCommand": "archetype",
+        "type": "bindmount"
+    },
+    "--omit-socket": {
+        "action": "store_true",
+        "help": "Don't bind the docker.sock Unix socket to the container",
+        "type": "boolean"
+    },
+    "--port": {
+        "envVariable": "CHE_PORT",
+        "help": "Port which che will bind itself to",
+        "metavar": "<PORT>",
+        "shorthand": "-p",
+        "type": "env"
+    },
+    "--preserve-container": {
+        "action": "store_true",
+        "help": "Preserve the container for the CLI once it has exited",
+        "type": "boolean"
+    },
+    "--quiet": {
+        "action": "store_true",
+        "help": "Don't display the command to be run in Docker before executing it",
+        "shorthand": "-q",
+        "type": "boolean"
+    },
+    "--repo": {
+        "containerDirectory": "/repo",
+        "help": "Che git repo - uses local binaries and manifests",
+        "metavar": "<DIR>",
+        "shorthand": "-r",
+        "type": "bindmount"
+    },
+    "--sync": {
+        "containerDirectory": "/sync",
+        "help": "Where remote ws files will be copied with sync command",
+        "metavar": "<DIR>",
+        "relevantCommand": "sync",
+        "shorthand": "-s",
+        "type": "bindmount"
+    },
+    "--user": {
+        "help": "Runs che with specific user and group identity",
+        "metavar": "<NAME|UID>[:<GROUP|GID>]",
+        "shorthand": "-u",
+        "type": "generic"
+    },
+    "--unison": {
+        "containerDirectory": "/unison",
+        "help": "Where unison profile for optimizing sync command resides",
+        "metavar": "<DIR>",
+        "relevantCommand": "sync",
+        "type": "bindmount"
+    },
+    "--version": {
+        "action": "store_true",
+        "help": "Display the version and exit",
+        "shorthand": "-v",
+        "type": "version"
+    }
+}

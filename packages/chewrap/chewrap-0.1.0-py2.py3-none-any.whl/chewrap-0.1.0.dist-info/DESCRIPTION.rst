@@ -1,0 +1,23 @@
+Home-page: https://github.com/tomstoneham/chewrap
+Author: Tom Stoneham
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/tomstoneham/chewrap
+Description: UNKNOWN
+Keywords: eclipse che docker
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Systems Administration
