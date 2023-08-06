@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+TbaApi3/TbaApi3.py
+TbaApi3/__init__.py
+TbaApi3/models.py
+TbaApi3.egg-info/PKG-INFO
+TbaApi3.egg-info/SOURCES.txt
+TbaApi3.egg-info/dependency_links.txt
+TbaApi3.egg-info/not-zip-safe
+TbaApi3.egg-info/requires.txt
+TbaApi3.egg-info/top_level.txt

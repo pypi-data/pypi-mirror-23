@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: TbaApi3
+Version: 0.1a1
+Summary: A Python library for the TBA API v3
+Home-page: https://github.com/DanWaxman/TbaApi3
+Author: Dan Waxman
+Author-email: dan.waxman1@gmail.com
+License: MIT
+Description: TbaApi3 is a Python library for TheBlueAlliance.com's API version 3.
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
