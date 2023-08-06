@@ -1,0 +1,7 @@
+setup.py
+cpath/__init__.py
+cpath.egg-info/PKG-INFO
+cpath.egg-info/SOURCES.txt
+cpath.egg-info/dependency_links.txt
+cpath.egg-info/not-zip-safe
+cpath.egg-info/top_level.txt
