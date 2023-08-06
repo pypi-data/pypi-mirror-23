@@ -1,0 +1,44 @@
+Metadata-Version: 1.0
+Name: gepard-python
+Version: 1.0.7
+Summary: Python client for gepard:General purpose communications for distributed applications / Microservices / events, semaphores and messages for JavaScript, Java, Python and PHP
+Home-page: https://github.com/gessinger-hj/gepard-python
+Author: Hans-Juergen Gessinger
+Author-email: gessinger.hj@gmail.com
+License: UNKNOWN
+Description: # gepard-python
+        General purpose communication and synchronization layer for distributed applications / Microservices / events, semaphores, locks and messages for JavaScript, Java, Python and PHP
+        
+        <!-- MarkdownTOC -->
+        
+        - [Overview](#overview)
+        - [Install](#install)
+        
+        <!-- /MarkdownTOC -->
+        
+        # Overview
+        This __Python__ module implements a full featured client for the __GEPARD__ middleware for general purpose distributed applications.
+        
+        In order to use this __Python__ client you must have installed the __GEPARD__ middleware.
+        This is simply done by executing the command:
+        
+        ```bash
+        	npm install gepard
+        ```
+        
+        Prerequisite for this command is the installation of node and npm.
+        For more information see [gepard on npm](https://www.npmjs.com/package/gepard) and [gessinger-hj/gepard on github](https://github.com/gessinger-hj/gepard).
+        
+        If you are interested in the __PHP__ client see [pepard-python on pypi](https://pypi.python.org/pypi?name=gepard-python&:action=display) and [gepard-python on github](https://github.com/gessinger-hj/gepard-python)
+        
+        # Install
+        
+        
+        Installation is done from __pypi__ with:
+        
+        ```sh
+        pip install gepard-python
+        ```
+        
+Keywords: distributed-applications events semaphores locks messages JavaScript Java Python PHP messages
+Platform: UNKNOWN
