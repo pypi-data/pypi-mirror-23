@@ -1,0 +1,89 @@
+#!/usr/bin/env python2
+
+from sucklesync import sucklesync
+
+import argparse
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+            prog="sucklesync",
+            description="A wrapper around rsync to simplify synchronization of remote directories")
+    # --verbose -v, verbose
+    parser.add_argument("--verbose", "-v", action="count", help="verbose output")
+    # --config -c, configuration file
+    parser.add_argument("--config", "-c", help="specify custom path for configuration file")
+
+    subparsers = parser.add_subparsers()
+
+    # start
+    parser_start = subparsers.add_parser("start", help="start sucklesync")
+    parser_start.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_start.add_argument("--foreground", "-f", action="count", help="don't daemonize, run in the foreground")
+    parser_start.set_defaults(func=sucklesync.start)
+
+    # stop
+    parser_stop = subparsers.add_parser("stop", help="stop sucklesync")
+    parser_stop.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_stop.set_defaults(func=sucklesync.stop)
+
+    # restart
+    parser_restart = subparsers.add_parser("restart", help="restart sucklesync")
+    parser_restart.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_restart.add_argument("--foreground", "-f", action="count", help="don't daemonize, run in the foreground")
+    parser_restart.set_defaults(func=sucklesync.restart)
+
+    # status
+    parser_status = subparsers.add_parser("status", help="sucklesync status")
+    parser_status.add_argument("--verbose", "-v", action="count", help="verbose logging")
+    parser_status.set_defaults(func=sucklesync.status)
+
+    args = parser.parse_args()
+
+    if args.config:
+        config = args.config
+    else:
+        config = sucklesync.DEFAULT_CONFIG
+
+    ss = sucklesync.SuckleSync(config)
+
+    # control verbosity
+    if args.verbose:
+        ss.verbose = args.verbose
+    else:
+        ss.verbose = False
+
+    # control whether or not we daemonize
+    try:
+        # not all subparsers define this option
+        if args.foreground:
+            ss.daemonize = False
+        else:
+            ss.daemonize = True
+    except:
+        ss.daemonize = True
+
+    ss._load_debugger()
+    ss._load_configuration()
+
+    valid_configuration = True
+    if not ss.local:
+        valid_configuration = False
+        ss.debugger.error("misconfiguration in [Local]")
+    if not ss.remote:
+        valid_configuration = False
+        ss.debugger.error("misconfiguration in [Remote]")
+    if not ss.debugger:
+        valid_configuration = False
+        ss.debugger.error("misconfiguration in [Logging]")
+    if not ss.paths:
+        valid_configuration = False
+        ss.debugger.error("misconfiguration in [Sucklepaths]")
+
+    if not valid_configuration:
+        ss.debugger.critical("please review the documentation and validate your configuration")
+
+    ss._enable_debugger()
+
+    ss.args = args
+
+    args.func(ss)
