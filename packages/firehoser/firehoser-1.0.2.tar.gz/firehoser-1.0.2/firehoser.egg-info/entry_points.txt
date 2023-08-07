@@ -1,0 +1,3 @@
+[console_scripts]
+firehoser = firehoser.cli:firehoser
+
