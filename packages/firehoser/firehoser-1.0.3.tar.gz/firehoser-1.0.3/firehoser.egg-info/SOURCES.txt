@@ -1,0 +1,11 @@
+setup.py
+firehoser/__init__.py
+firehoser/cli.py
+firehoser/iam.py
+firehoser/lambda.py
+firehoser.egg-info/PKG-INFO
+firehoser.egg-info/SOURCES.txt
+firehoser.egg-info/dependency_links.txt
+firehoser.egg-info/entry_points.txt
+firehoser.egg-info/requires.txt
+firehoser.egg-info/top_level.txt
