@@ -1,0 +1,12 @@
+airflow_declarative/__init__.py,sha256=BzZla1BpZpBDLJHj5AL47ctrwLOiPLDVSAAiboBJqK8,1635
+airflow_declarative/builder.py,sha256=vsIjFQfIhYyxjgzxkf2kkA2j-XdxdNfsaNa77RWfkbE,5881
+airflow_declarative/operators.py,sha256=otDjNyFem72OwVnsrG2zO38GOJH1W03NaDHNq9IOUwo,2792
+airflow_declarative/schema.py,sha256=o-GcTy7y9icmq8PrTXXl0ItORyiMAIUm29DOWxbZNCE,6232
+airflow_declarative/trafaret.py,sha256=V3R1gcZFYs8ZZpIE5wTmG7a8PWXxrEmjod-yfXSZN_0,5923
+airflow_declarative/transformer.py,sha256=0aDUFFgQmBn7gqyoTsDj47rJlHxHFt1VlJM7Ko3lz64,6731
+airflow_declarative-1.0.dist-info/DESCRIPTION.rst,sha256=sb79amX0z6r_twubLzxWgpeHKnOgq25J5PfRSAtfUII,2727
+airflow_declarative-1.0.dist-info/METADATA,sha256=VovCFkil59h-14Rlgb7b7bcAJYKY2pQpboMQ_ywO_bQ,4024
+airflow_declarative-1.0.dist-info/RECORD,,
+airflow_declarative-1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+airflow_declarative-1.0.dist-info/metadata.json,sha256=-9deuTNZw6waYY48QKKc3vJKCSdZqAvJ5drf7_UvTQ4,1408
+airflow_declarative-1.0.dist-info/top_level.txt,sha256=e3Qqsr3yRErDrenCCQ40X5LmsxF2xBNLXI3ZAVbVriI,20
