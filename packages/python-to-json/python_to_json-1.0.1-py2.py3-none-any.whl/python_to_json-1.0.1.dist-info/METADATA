@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: python-to-json
+Version: 1.0.1
+Summary: Module for serializing python objects to json
+Home-page: https://github.com/ingresso-group/python-to-json/
+Author: Ingresso
+Author-email: systems@ingresso.co.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+
+UNKNOWN
+
+
