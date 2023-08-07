@@ -1,0 +1,7 @@
+cf.DomainAncillary.array
+========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.array

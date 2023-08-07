@@ -1,0 +1,7 @@
+cf.DomainAncillary.reference_datetime
+=====================================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.reference_datetime

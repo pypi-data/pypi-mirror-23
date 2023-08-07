@@ -1,0 +1,7 @@
+cf.DomainAncillary.extend
+=========================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.extend

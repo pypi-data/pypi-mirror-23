@@ -1,0 +1,7 @@
+cf.DomainAncillary.ismeasure
+============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.ismeasure

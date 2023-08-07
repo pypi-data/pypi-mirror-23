@@ -1,0 +1,7 @@
+cf.DomainAncillary.hasbounds
+============================
+
+.. currentmodule:: cf
+.. default-role:: obj
+
+.. automethod:: cf.DomainAncillary.hasbounds
