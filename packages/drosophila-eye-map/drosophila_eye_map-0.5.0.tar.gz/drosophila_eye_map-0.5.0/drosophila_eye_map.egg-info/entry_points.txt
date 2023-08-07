@@ -1,0 +1,3 @@
+[console_scripts]
+drosophila_eye_map_inspect_weightmap = drosophila_eye_map.inspect_weightmap:main
+
