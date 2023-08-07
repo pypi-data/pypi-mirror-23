@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: mypack
+Version: 0.1
+Summary: A random test lib
+Home-page: https://github.com/chirag-b/test.git
+Author: Chirag
+Author-email: chirag.intern@reverieinc.com
+License: UNKNOWN
+Download-URL: https://github.com/chirag-b/test/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
