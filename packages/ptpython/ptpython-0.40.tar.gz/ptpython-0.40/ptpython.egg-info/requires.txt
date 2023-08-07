@@ -1,0 +1,7 @@
+docopt
+jedi>=0.9.0
+prompt_toolkit<2.0.0,>=1.0.14
+pygments
+
+[ptipython]
+ipython
